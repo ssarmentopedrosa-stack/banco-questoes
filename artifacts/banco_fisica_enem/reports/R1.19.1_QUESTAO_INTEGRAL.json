@@ -1,0 +1,15 @@
+{
+  "phase": "R1.19.1",
+  "STATUS": "COMPLETE",
+  "fingerprint_oficial_view": "74158d754efa99ecad0449ceb9f4b80bf42f4ee60a629a61cc8e585b3939da04",
+  "sources": ["question_variants.jsonl", "question_matching.jsonl", "question_images.jsonl", "pedagogical layers R1.9-R1.18.1"],
+  "sources_modified": false,
+  "created": ["public/oficial-view.json", "src/lib/oficial.ts", "src/components/banco/question-viewer.tsx"],
+  "modified_ui": ["src/routes/questoes/$id.tsx"],
+  "questions_with_variants": 33,
+  "complete_alternatives": 18,
+  "annulled": ["ENEM-CN-2024-D2-CAN-073", "ENEM-CN-2025-D2-CAN-056"],
+  "images": "2068 detections in source; no raster crops. UI states image unavailable.",
+  "probable": "ENEM-CN-2025-D2-CAN-010 linked via provisional_cluster_id",
+  "r120": "NOT_EXECUTED"
+}

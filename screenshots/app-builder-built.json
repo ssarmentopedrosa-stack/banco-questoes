@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Banco Inteligente de Física — ENEM",
+      "hasCanvas": false,
+      "bodyTextLen": 907,
+      "bodyTextHash": "596febf62663380b6d606db14127851389edb12ee9fde86d83208031bfd1290e",
+      "bodyTextPrefix": "Banco de Física · ENEM Painel Questões Mapa CIÊNCIAS DA NATUREZA",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Banco Inteligente de Física — ENEM",
+      "hasCanvas": false,
+      "bodyTextLen": 907,
+      "bodyTextHash": "596febf62663380b6d606db14127851389edb12ee9fde86d83208031bfd1290e",
+      "bodyTextPrefix": "Banco de Física · ENEM Painel Questões Mapa CIÊNCIAS DA NATUREZA",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

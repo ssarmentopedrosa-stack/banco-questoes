@@ -1,0 +1,55 @@
+{
+  "phase": "R1.10",
+  "MATRIX_MAPPING_DETERMINISTIC": true,
+  "matriz_fonte": "INEP — Matriz de Referência do ENEM, Ciências da Natureza e suas Tecnologias",
+  "matriz_pdf": "https://download.inep.gov.br/enem/outros_documentos/enem_matriz_de_referencia_v1.pdf",
+  "processed": 33,
+  "confirmed": 28,
+  "uncertain": 5,
+  "confidence": {
+    "HIGH": 20,
+    "MEDIUM": 8,
+    "LOW": 5
+  },
+  "skill_counts": {
+    "H1": 4,
+    "H20": 7,
+    "H21": 4,
+    "H22": 4,
+    "H24": 1,
+    "H5": 8
+  },
+  "competency_counts": {
+    "C1": 4,
+    "C2": 8,
+    "C6": 16
+  },
+  "unused_official_skills": [
+    "H2",
+    "H3",
+    "H4",
+    "H6",
+    "H7",
+    "H8",
+    "H9",
+    "H10",
+    "H11",
+    "H12",
+    "H13",
+    "H14",
+    "H15",
+    "H16",
+    "H17",
+    "H18",
+    "H19",
+    "H23",
+    "H25",
+    "H26",
+    "H27",
+    "H28",
+    "H29",
+    "H30"
+  ],
+  "fingerprint": "d5b3550d30d6ad895cd5b36859efaf8ccddebedc58018a0f0e5bed99a3dbd452",
+  "codes_validated": true
+}
