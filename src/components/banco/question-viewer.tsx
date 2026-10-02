@@ -10,6 +10,7 @@ export function QuestionViewer({ id, view, probable }: { id: string; view: Offic
   const images = v ? (view?.images ?? []).filter((im) => im.variant_id === v.id) : [];
   const partial = v?.extraction_status === "partial" || v?.alternatives_status !== "complete";
   const essential = Boolean(view?.essential_image_unavailable || view?.image_required);
+  const figures = view?.figures ?? [];
 
   return (
     <section className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_280px]">
@@ -32,21 +33,45 @@ export function QuestionViewer({ id, view, probable }: { id: string; view: Offic
           )}
         </div>
         <div>
-          <h3 className="font-serif text-xl">Figura</h3>
-          {essential && <p className="text-sm text-amber">Imagem essencial para interpretação.</p>}
-          {images.length === 0 && <p className="text-sm">Imagem oficial ainda não disponível.</p>}
-          {images.length > 0 && (
-            <ul className="mt-2 space-y-2">
-              {images.map((im) => (
-                <li key={`${im.page}-${im.index}`} className="rounded-xl border border-line p-3 text-sm">
-                  <p>Imagem oficial ainda não disponível.</p>
-                  <p className="text-mute">Detecção na página {im.page}, ordem {im.index}, {im.width}×{im.height} pt. Status: {im.status}. Recorte raster não exportado.</p>
-                </li>
-              ))}
-            </ul>
-          )}
-          {essential && images.every((im) => !im.raster) && (
-            <p className="mt-2 text-sm text-rose">Imagem oficial necessária não disponível na extração atual.</p>
+          <h3 className="font-serif text-xl">{figures.length > 1 ? "Figuras" : "Figura"}</h3>
+          {figures.length > 0 ? (
+            <>
+              <ul className="mt-2 space-y-4">
+                {figures.map((f) => (
+                  <li key={f.src}>
+                    <figure className="max-w-3xl rounded-xl border border-line bg-white p-2">
+                      <img
+                        src={f.src}
+                        alt={`${f.label} — ENEM ${v?.year ?? ""}, caderno ${f.source.booklet} (${f.source.color}), questão ${f.source.number}`}
+                        width={f.width}
+                        height={f.height}
+                        loading="lazy"
+                        className="mx-auto h-auto max-h-[80vh] w-auto max-w-full"
+                        style={{ maxWidth: `min(100%, ${Math.round(f.width * 0.75)}px)` }}
+                      />
+                      <figcaption className="mt-2 text-xs text-slate-600">
+                        {f.label} · recorte do caderno {f.source.booklet} ({f.source.color}), questão {f.source.number}, página {f.source.page}
+                      </figcaption>
+                    </figure>
+                  </li>
+                ))}
+              </ul>
+              {v && v.booklet !== figures[0].source.booklet && (
+                <p className="mt-2 text-sm text-mute">
+                  Recorte feito a partir do caderno {figures[0].source.booklet} (Q{figures[0].source.number}), mesma questão desta variante (caderno {v.booklet}, Q{v.number}).
+                </p>
+              )}
+            </>
+          ) : view?.figures_status === "sem_figura_na_prova" ? (
+            <p className="text-sm text-mute">Esta questão não tem figura na prova oficial.</p>
+          ) : (
+            <>
+              {essential && <p className="text-sm text-amber">Imagem essencial para interpretação.</p>}
+              <p className="text-sm">Imagem oficial ainda não disponível.</p>
+              {images.length > 0 && (
+                <p className="text-sm text-mute">{images.length} imagem(ns) detectada(s) na página {images[0].page}; recorte não associado a esta variante.</p>
+              )}
+            </>
           )}
         </div>
         <div>
