@@ -30,6 +30,22 @@ export type OfficialImage = {
   status: string;
   raster: null;
 };
+export type OfficialFigure = {
+  src: string;
+  kind: "enunciado" | "alternativas" | "expressao";
+  label: string;
+  width: number;
+  height: number;
+  source: {
+    booklet: number;
+    color: string;
+    number: number;
+    page: number;
+    pdf_sha256: string;
+    dpi: number;
+    text_match: number;
+  };
+};
 export type OfficialView = {
   variants: OfficialVariant[];
   images: OfficialImage[];
@@ -37,6 +53,8 @@ export type OfficialView = {
   image_required: boolean;
   diagram_required: boolean;
   matching_status_record: string | null;
+  figures?: OfficialFigure[];
+  figures_status?: "associada_caderno_azul" | "sem_figura_na_prova" | "nao_associada_variante_sem_caderno_azul";
 };
 
 export const oficial = raw as unknown as Record<string, OfficialView>;
