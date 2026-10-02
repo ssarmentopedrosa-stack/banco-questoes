@@ -1,0 +1,507 @@
+{
+ "kind": "banco-fisica-enem/desafio-gabarito",
+ "schema": 1,
+ "version": "1.314748f4",
+ "answers": {
+  "ENEM-CN-2020-REG-D2-C7-Q105": {
+   "answer": "D",
+   "reasoning": "Relacionar ambiente quente a menor troca de calor no condensador e maior trabalho.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q106": {
+   "answer": "C",
+   "reasoning": "Combinar o esquema da caverna com o grafico tempo x variacao de pressao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q107": {
+   "answer": "C",
+   "reasoning": "Aplicar fatores de escala a massa e a area para comparar pressoes.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q109": {
+   "answer": "E",
+   "reasoning": "Reconhecer que, com a valvula ativa, a temperatura nao sobe e o gas extra e desperdicio.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q111": {
+   "answer": "B",
+   "reasoning": "Identificar interferencia destrutiva no cancelamento de ruido.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q113": {
+   "answer": "D",
+   "reasoning": "Compor MU horizontal com queda livre e reconhecer a parabola.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q114": {
+   "answer": "C",
+   "reasoning": "Relacionar ressonancias consecutivas de tubo fechado a profundidade.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q116": {
+   "answer": "D",
+   "reasoning": "Escolher os pontos com 9 V e calcular a corrente no aparelho.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q122": {
+   "answer": "C",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q126": {
+   "answer": "A",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q128": {
+   "answer": "C",
+   "reasoning": "Relacionar potencia do aquecedor a variacao de temperatura da agua.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q130": {
+   "answer": "A",
+   "reasoning": "Identificar a regiao alem do vermelho no espectro do prisma.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q133": {
+   "answer": "C",
+   "reasoning": "Associar a carcaca metalica a blindagem eletrostatica.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q134": {
+   "answer": "D",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q91": {
+   "answer": "D",
+   "reasoning": "Reconhecer que a eletrizacao por atrito ocorre por transferencia de eletrons.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q93": {
+   "answer": "B",
+   "reasoning": "Escolher a ligacao em serie do amperimetro e calcular a corrente de fuga.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q98": {
+   "answer": "D",
+   "reasoning": "Relacionar o aumento da fem induzida a rapidez de variacao do fluxo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2020-REG-D2-C7-Q99": {
+   "answer": "D",
+   "reasoning": "Separar o movimento em fases e calcular os instantes de cada semaforo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q100": {
+   "answer": "B",
+   "reasoning": "Identificar a resistencia do ar como fator que diferencia as quedas.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q102": {
+   "answer": "B",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q105": {
+   "answer": "A",
+   "reasoning": "Determinar sentido de F = q v × B visto de cima.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q107": {
+   "answer": "C",
+   "reasoning": "Relacionar menor tempo de aceleracao a maior potencia media.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q108": {
+   "answer": "D",
+   "reasoning": "Cruzar os versos (distancia e densidade < agua) com a tabela.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q109": {
+   "answer": "C",
+   "reasoning": "Aplicar R proporcional a L/A com resistividade constante.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q115": {
+   "answer": "B",
+   "reasoning": "Comparar taxas de conducao para ordenar os materiais.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q120": {
+   "answer": "A",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q125": {
+   "answer": "B",
+   "reasoning": "Relacionar umidade alta a menor evaporacao do suor.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q126": {
+   "answer": "D",
+   "reasoning": "Testar estados dos interruptores para acender uma lampada por vez.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q128": {
+   "answer": "D",
+   "reasoning": "Calcular energia necessaria e tempo de recarga.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q131": {
+   "answer": "B",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q133": {
+   "answer": "D",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q134": {
+   "answer": "C",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q92": {
+   "answer": "D",
+   "reasoning": "Mesmo material implica mesma velocidade; barra maior implica menor frequencia.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q94": {
+   "answer": "C",
+   "reasoning": "Usar o ponto P tangenciado para obter a velocidade de disparo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2021-REG-D2-C7-Q99": {
+   "answer": "A",
+   "reasoning": "Identificar irradiacao (Sol-ilha) e conveccao (ilha-brisa).",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q100": {
+   "answer": "B",
+   "reasoning": "Encadear lancamento horizontal e lancamento vertical.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q103": {
+   "answer": "E",
+   "reasoning": "Escolher o diagrama de forcas coerente com o equilibrio.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q105": {
+   "answer": "A",
+   "reasoning": "Comparar Δp (com e sem retorno) em tempos iguais.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q109": {
+   "answer": "D",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q111": {
+   "answer": "A",
+   "reasoning": "Interpretar a figura de 21 de dezembro e a incidencia direta.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q112": {
+   "answer": "D",
+   "reasoning": "Combinar energia e dinamica circular com margem de 25%.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q115": {
+   "answer": "B",
+   "reasoning": "Comparar variacoes de temperatura em areas concretada e alagada.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q116": {
+   "answer": "B",
+   "reasoning": "Obter a maior potencia pelo grafico e a corrente do disjuntor.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q119": {
+   "answer": "A",
+   "reasoning": "Somar fems com sinal e resistencias para a corrente.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q123": {
+   "answer": "E",
+   "reasoning": "Mesma massa e distancia implicam mesma forca gravitacional.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q128": {
+   "answer": "A",
+   "reasoning": "Transpor grandezas eletricas para o modelo de trafego.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q130": {
+   "answer": "C",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q134": {
+   "answer": "D",
+   "reasoning": "Usar a diferenca de chegada para obter a distancia.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q135": {
+   "answer": "E",
+   "reasoning": "Identificar a refracao como fenomeno que espalha a luz na casa.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q93": {
+   "answer": "B",
+   "reasoning": "Relacionar potencia instalada, irradiancia e eficiencia.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q95": {
+   "answer": "D",
+   "reasoning": "Determinar a orientacao das bussolas em A, B e C.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2022-REG-D2-C7-Q96": {
+   "answer": "A",
+   "reasoning": "Identificar a ligacao que resulta na corrente indicada.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q100": {
+   "answer": "C",
+   "reasoning": "No ponto mais alto v = 0 e a = g para baixo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q108": {
+   "answer": "D",
+   "reasoning": "Reconhecer campo magnetico variavel como causa da corrente induzida.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q109": {
+   "answer": "D",
+   "reasoning": "Contar trechos de corda que sustentam cada carga.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q111": {
+   "answer": "C",
+   "reasoning": "Barbante mais longo atenua a onda: reducao de amplitude.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q112": {
+   "answer": "A",
+   "reasoning": "Menor comprimento de onda permite cavidades menores.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q113": {
+   "answer": "A",
+   "reasoning": "Calcular intensidade a 10 m da antena.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q114": {
+   "answer": "A",
+   "reasoning": "Identificar qual corda fica tensionada na aceleracao e na frenagem.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q117": {
+   "answer": "A",
+   "reasoning": "Multiplicar taxa de dose pelo tempo efetivo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q119": {
+   "answer": "C",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q120": {
+   "answer": "C",
+   "reasoning": "Queima de L2 aumenta a resistencia equivalente e altera brilhos.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q122": {
+   "answer": "D",
+   "reasoning": "Vapor a 120 °C resfria (sensivel) e condensa (latente).",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q124": {
+   "answer": "B",
+   "reasoning": "Comparar tempos de percurso incluindo pedagios.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q128": {
+   "answer": "C",
+   "reasoning": "Interferencia relevante exige mesma frequencia.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q130": {
+   "answer": "D",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q132": {
+   "answer": "E",
+   "reasoning": "Escolher o grafico P x T compativel com transformacao isocorica.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q135": {
+   "answer": "D",
+   "reasoning": "Usar a diferenca entre ecos para a ida e volta no liquido.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2023-REG-D2-C7-Q93": {
+   "answer": "E",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-D2-CAN-008": {
+   "answer": "A",
+   "reasoning": "Relacionar fonte, observador e grandezas da onda sonora.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2024-D2-CAN-009": {
+   "answer": "A",
+   "reasoning": "Explicar o fluxo termico pelo mecanismo adequado.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-D2-CAN-013": {
+   "answer": "E",
+   "reasoning": "Explicar o fluxo termico pelo mecanismo adequado.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-D2-CAN-016": {
+   "answer": "C",
+   "reasoning": "Associar emissao tardia de luz a transicao entre niveis.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-D2-CAN-025": {
+   "answer": "E",
+   "reasoning": "Explicar o movimento das particulas pelas cargas das barras.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-D2-CAN-034": {
+   "answer": "C",
+   "reasoning": "Ler a geometria dos espelhos e prever a imagem.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-D2-CAN-036": {
+   "answer": "B",
+   "reasoning": "Trocar a ideia de carro rigido pelo papel da deformacao no impulso.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-D2-CAN-037": {
+   "answer": "A",
+   "reasoning": "Escolher o principio dinamico que descreve a mudanca do movimento.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-D2-CAN-039": {
+   "answer": "C",
+   "reasoning": "Reconhecer o papel do centro de massa no equilibrio da roda.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-D2-CAN-053": {
+   "answer": "B",
+   "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-D2-CAN-064": {
+   "answer": "B",
+   "reasoning": "Compor ou decompor velocidades no plano da situacao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2024-D2-CAN-065": {
+   "answer": "E",
+   "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-D2-CAN-082": {
+   "answer": "D",
+   "reasoning": "Relacionar fonte, observador e grandezas da onda sonora.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2024-D2-CAN-083": {
+   "answer": "B",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-REG-D2-C6-Q91": {
+   "answer": "B",
+   "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2024-REG-D2-C6-Q92": {
+   "answer": "B",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-004": {
+   "answer": "B",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-010": {
+   "answer": "A",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-017": {
+   "answer": "E",
+   "reasoning": "Relacionar meia-vida ao tempo de uso do radioisotopo.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-020": {
+   "answer": "E",
+   "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-021": {
+   "answer": "B",
+   "reasoning": "Relacionar velocidade, comprimento de onda e frequencia.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-027": {
+   "answer": "E",
+   "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-035": {
+   "answer": "B",
+   "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-039": {
+   "answer": "C",
+   "reasoning": "Usar pressao hidrostatica para limitar a altura de empilhamento.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-045": {
+   "answer": "D",
+   "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-066": {
+   "answer": "C",
+   "reasoning": "Escolher o principio dinamico que descreve a mudanca do movimento.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-069": {
+   "answer": "A",
+   "reasoning": "Explicar o efeito optico pela reflexao da luz.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-072": {
+   "answer": "D",
+   "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-D2-CAN-073": {
+   "answer": "D",
+   "reasoning": "Compor ou decompor velocidades no plano da situacao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2025-D2-CAN-074": {
+   "answer": "C",
+   "reasoning": "Explicar o fluxo termico pelo mecanismo adequado.",
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2025-REG-D2-C5-Q101": {
+   "answer": "A",
+   "reasoning": null,
+   "reasoningInferred": false
+  }
+ }
+}
