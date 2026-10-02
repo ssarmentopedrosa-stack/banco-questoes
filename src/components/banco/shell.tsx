@@ -6,6 +6,8 @@ const LINKS = [
   { to: "/", label: "Painel" },
   { to: "/questoes", label: "Questões" },
   { to: "/mapa", label: "Mapa" },
+  { to: "/desafio", label: "Desafio" },
+  { to: "/perfil", label: "Perfil" },
 ] as const;
 
 export function Shell({ children }: { children: ReactNode }) {
@@ -17,14 +19,14 @@ export function Shell({ children }: { children: ReactNode }) {
           <Link to="/" className="font-serif text-lg font-semibold tracking-tight text-fg">
             Banco de Física · ENEM
           </Link>
-          <nav aria-label="Principal" className="flex gap-2">
+          <nav aria-label="Principal" className="-mx-1 flex flex-wrap gap-1 sm:gap-2">
             {LINKS.map((l) => {
               const active = l.to === "/" ? path === "/" : path.startsWith(l.to);
               return (
                 <Link
                   key={l.to}
                   to={l.to}
-                  className={`min-h-11 rounded-full px-4 py-2 text-sm ${active ? "bg-amber text-ink" : "text-mute hover:text-fg"}`}
+                  className={`min-h-11 rounded-full px-3 py-2 text-sm sm:px-4 ${active ? "bg-amber text-ink" : "text-mute hover:text-fg"}`}
                 >
                   {l.label}
                 </Link>

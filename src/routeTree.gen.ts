@@ -10,7 +10,9 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as DesafioRouteImport } from './routes/desafio'
 import { Route as MapaRouteImport } from './routes/mapa'
+import { Route as PerfilRouteImport } from './routes/perfil'
 import { Route as QuestoesIndexRouteImport } from './routes/questoes/index'
 import { Route as QuestoesIdRouteImport } from './routes/questoes/$id'
 
@@ -19,9 +21,19 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DesafioRoute = DesafioRouteImport.update({
+  id: '/desafio',
+  path: '/desafio',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const MapaRoute = MapaRouteImport.update({
   id: '/mapa',
   path: '/mapa',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PerfilRoute = PerfilRouteImport.update({
+  id: '/perfil',
+  path: '/perfil',
   getParentRoute: () => rootRouteImport,
 } as any)
 const QuestoesIndexRoute = QuestoesIndexRouteImport.update({
@@ -37,34 +49,50 @@ const QuestoesIdRoute = QuestoesIdRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/desafio': typeof DesafioRoute
   '/mapa': typeof MapaRoute
+  '/perfil': typeof PerfilRoute
   '/questoes/$id': typeof QuestoesIdRoute
   '/questoes/': typeof QuestoesIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/desafio': typeof DesafioRoute
   '/mapa': typeof MapaRoute
+  '/perfil': typeof PerfilRoute
   '/questoes/$id': typeof QuestoesIdRoute
   '/questoes': typeof QuestoesIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/desafio': typeof DesafioRoute
   '/mapa': typeof MapaRoute
+  '/perfil': typeof PerfilRoute
   '/questoes/$id': typeof QuestoesIdRoute
   '/questoes/': typeof QuestoesIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/mapa' | '/questoes/$id' | '/questoes/'
+  fullPaths:
+    '/' | '/desafio' | '/mapa' | '/perfil' | '/questoes/$id' | '/questoes/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/mapa' | '/questoes/$id' | '/questoes'
-  id: '__root__' | '/' | '/mapa' | '/questoes/$id' | '/questoes/'
+  to: '/' | '/desafio' | '/mapa' | '/perfil' | '/questoes/$id' | '/questoes'
+  id:
+    | '__root__'
+    | '/'
+    | '/desafio'
+    | '/mapa'
+    | '/perfil'
+    | '/questoes/$id'
+    | '/questoes/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  DesafioRoute: typeof DesafioRoute
   MapaRoute: typeof MapaRoute
+  PerfilRoute: typeof PerfilRoute
   QuestoesIdRoute: typeof QuestoesIdRoute
   QuestoesIndexRoute: typeof QuestoesIndexRoute
 }
@@ -78,11 +106,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/desafio': {
+      id: '/desafio'
+      path: '/desafio'
+      fullPath: '/desafio'
+      preLoaderRoute: typeof DesafioRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/mapa': {
       id: '/mapa'
       path: '/mapa'
       fullPath: '/mapa'
       preLoaderRoute: typeof MapaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/perfil': {
+      id: '/perfil'
+      path: '/perfil'
+      fullPath: '/perfil'
+      preLoaderRoute: typeof PerfilRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/questoes/': {
@@ -104,7 +146,9 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  DesafioRoute: DesafioRoute,
   MapaRoute: MapaRoute,
+  PerfilRoute: PerfilRoute,
   QuestoesIdRoute: QuestoesIdRoute,
   QuestoesIndexRoute: QuestoesIndexRoute,
 }
