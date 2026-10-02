@@ -45,6 +45,9 @@ export type Question = {
   preparation_level: string | null;
   review_required: boolean;
   uncertainty: boolean;
+  source_batch?: string;
+  review_reasons?: string[];
+  interface_note?: string;
 };
 
 export type LearnEdge = {

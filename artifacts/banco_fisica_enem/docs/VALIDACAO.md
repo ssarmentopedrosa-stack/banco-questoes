@@ -33,3 +33,14 @@ Nesta entrega, **todos** os itens estão `validado = false`.
 - Falso positivo grave corrigido: padrão `ima` classificava enzima/clima/estima como Magnetismo.
 - Após o ajuste: 140 Física / 619 CN.
 - Eletrodinâmica continua o conteúdo mais frequente, coerente com incidências publicadas (sem ser prova de cobertura total).
+
+## Ampliação R2.0 (2020–2023)
+`scripts/banco-integrity.test.mjs` verifica:
+- 102 questões, com contagem por ano;
+- gabarito oficial idêntico ao fixture (anulada fora);
+- OCR de 2021 sinalizado;
+- figuras existentes e sem órfãos;
+- arestas originais intactas;
+- arestas novas `CANDIDATE` e sem ciclos por tipo.
+
+Nenhuma questão nova está `validado = true`.

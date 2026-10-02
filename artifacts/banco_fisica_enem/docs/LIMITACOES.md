@@ -27,3 +27,10 @@ Figuras apontam para URLs do enem.dev. Sem rede, a figura não carrega; o texto 
 
 ## Direitos
 Textos de provas oficiais são atos oficiais. A classificação pedagógica e o software deste repositório são camada analítica. Este projeto não é afiliado ao INEP/MEC.
+
+## Ampliação R2.0 (ENEM 2020–2023)
+- Só o caderno 7 AZUL de cada ano: sem casamento entre cores (`not_matched`).
+- Os PDFs não puderam ser baixados do INEP neste ambiente. O de 2020 tem metadados de terceiro (fisica.net/iText).
+- 2021: texto via OCR (camada de texto do PDF corrompida). Alternativas não transcritas; a referência é o recorte integral.
+- Competência e habilidade das novas questões são **inferidas** (`matrix_status = INFERRED`). Classificação `CANDIDATE`/`PARTIAL`.
+- Detalhes em `R2.0_AMPLIACAO_2020_2023.md`.

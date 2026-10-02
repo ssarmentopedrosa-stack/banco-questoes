@@ -25,6 +25,9 @@ export function QuestionViewer({ id, view, probable }: { id: string; view: Offic
           <h2 className="font-serif text-2xl">Questão original</h2>
           {!v && <p>Não disponível na extração atual.</p>}
           {v && partial && <p className="mt-2 text-sm text-amber">Texto parcialmente disponível na extração oficial.</p>}
+          {v?.text_source?.startsWith("ocr") && (
+            <p className="mt-1 text-sm text-amber">Texto obtido por OCR (camada de texto do PDF oficial corrompida): pode conter erros. O recorte integral do caderno abaixo é a referência.</p>
+          )}
           {v?.reconstruction_status && <p className="mt-1 text-sm text-mute">Reconstrução registrada: {v.reconstruction_status}</p>}
           {v && (
             <div className="mt-3 max-w-3xl whitespace-pre-wrap font-serif text-lg leading-relaxed text-fg">
@@ -110,6 +113,7 @@ export function QuestionViewer({ id, view, probable }: { id: string; view: Offic
             <div><dt className="text-mute">Questão</dt><dd>{v.number}</dd></div>
             <div><dt className="text-mute">Páginas</dt><dd>{v.start_page}–{v.end_page}</dd></div>
             <div><dt className="text-mute">Extração</dt><dd><StatusBadge status={v.extraction_status === "extracted" ? "CONFIRMED" : "CANDIDATE"} /> {v.extraction_status}</dd></div>
+            {v.text_source && <div><dt className="text-mute">Fonte do texto</dt><dd>{v.text_source}</dd></div>}
             <div><dt className="text-mute">Hash SHA-256</dt><dd className="break-all font-mono text-xs">{v.sha256}</dd></div>
           </dl>
         )}

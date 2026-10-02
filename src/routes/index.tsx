@@ -27,7 +27,7 @@ function Home() {
   return (
     <div className="space-y-8">
       <header>
-        <p className="text-sm tracking-widest text-teal">CIÊNCIAS DA NATUREZA · 2024–2025</p>
+        <p className="text-sm tracking-widest text-teal">CIÊNCIAS DA NATUREZA · 2020–2025</p>
         <h1 className="mt-2 font-serif text-4xl text-fg">Banco Inteligente de Física do ENEM</h1>
         <p className="mt-2 max-w-2xl text-mute">Base pedagógica verificável para análise, estudo e construção de avaliações.</p>
       </header>

@@ -19,7 +19,8 @@ export type OfficialVariant = {
   answer: string | null;
   answer_status: string;
   matching_status: string | null;
-  reconstruction_status?: string;
+  reconstruction_status?: string | null;
+  text_source?: string;
 };
 export type OfficialImage = {
   variant_id: string;
@@ -32,7 +33,7 @@ export type OfficialImage = {
 };
 export type OfficialFigure = {
   src: string;
-  kind: "enunciado" | "alternativas" | "expressao";
+  kind: "enunciado" | "alternativas" | "expressao" | "questao_integral";
   label: string;
   width: number;
   height: number;
@@ -43,7 +44,7 @@ export type OfficialFigure = {
     page: number;
     pdf_sha256: string;
     dpi: number;
-    text_match: number;
+    text_match: number | null;
   };
 };
 export type OfficialView = {
@@ -54,7 +55,7 @@ export type OfficialView = {
   diagram_required: boolean;
   matching_status_record: string | null;
   figures?: OfficialFigure[];
-  figures_status?: "associada_caderno_azul" | "sem_figura_na_prova" | "nao_associada_variante_sem_caderno_azul";
+  figures_status?: "associada_caderno_azul" | "sem_figura_na_prova" | "nao_associada_variante_sem_caderno_azul" | "recorte_integral_caderno_azul";
 };
 
 export const oficial = raw as unknown as Record<string, OfficialView>;
