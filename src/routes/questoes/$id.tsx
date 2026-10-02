@@ -62,7 +62,7 @@ function Detail() {
   if (!q) {
     return (
       <div>
-        <p role="alert">Questão não encontrada no banco 2024–2025.</p>
+        <p role="alert">Questão não encontrada no banco 2020–2025.</p>
         <Link to="/questoes" className="text-amber">Voltar ao banco</Link>
       </div>
     );
@@ -90,6 +90,14 @@ function Detail() {
           {probable && <StatusBadge status="CANDIDATE" />}
         </div>
         {review && <p className="mt-3 rounded-xl border border-rose bg-panel p-3 text-sm">Questão em revisão de classificação disciplinar.</p>}
+        {q.review_reasons && q.review_reasons.length > 0 && (
+          <div className="mt-3 rounded-xl border border-amber bg-panel p-3 text-sm">
+            <p className="font-semibold">{q.review_required ? "Precisa revisão" : "Observações"} (lote {q.source_batch ?? "—"})</p>
+            <ul className="mt-1 list-disc pl-5">
+              {q.review_reasons.map((r) => <li key={r}>{r}</li>)}
+            </ul>
+          </div>
+        )}
         {probable && <p className="mt-3 rounded-xl border border-amber bg-panel p-3 text-sm">Classificação pedagógica ainda não definitiva. Esta identificação permanece PROBABLE na base de matching.</p>}
       </header>
       <QuestionViewer id={q.id} view={oficial[q.id]} probable={probable} />

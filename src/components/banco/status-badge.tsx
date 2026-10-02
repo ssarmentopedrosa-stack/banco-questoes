@@ -5,6 +5,7 @@ const TONE: Record<string, string> = {
   PARTIAL: "border-amber text-amber",
   DETERMINED: "border-teal text-teal",
   PROBABLE: "border-amber text-amber",
+  INFERRED: "border-amber text-amber",
 };
 
 const MARK: Record<string, string> = {
@@ -13,6 +14,7 @@ const MARK: Record<string, string> = {
   UNCERTAIN: "?",
   PARTIAL: "◐",
   DETERMINED: "✓",
+  INFERRED: "◐",
 };
 
 export function StatusBadge({ status }: { status: string | null | undefined }) {

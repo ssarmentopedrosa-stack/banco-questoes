@@ -44,3 +44,12 @@ O campo `cor` permanece `nao_especificada` nesta versão porque o acervo usado n
 - Importar `data/indice_busca.json` ou `data/banco_fisica.json`.
 - Persistir tentativas em `student_attempts`.
 - Recalibrar `difficulty_score` com taxa de acerto observada, sem apagar a estimativa original.
+
+## Ampliação R2.0
+Questões 2020–2023 entram como variantes isoladas do caderno azul (`ENEM-CN-{ano}-REG-D2-C7-Q{n}`), com estes campos extras:
+- `source_batch`;
+- `review_reasons`;
+- `interface_note`;
+- `variants[].text_source`.
+
+Os recortes ficam em `public/figuras/{ano}/`, com os tipos `enunciado`, `alternativas`, `expressao` e `questao_integral`. Ver `R2.0_AMPLIACAO_2020_2023.md`.

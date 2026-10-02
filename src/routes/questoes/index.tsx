@@ -77,7 +77,7 @@ function QuestoesPage() {
     <div className="space-y-5">
       <header>
         <h1 className="font-serif text-3xl">Banco de questões</h1>
-        <p className="text-mute">{shown.length} de {data.questions.length} questões oficiais de Física 2024–2025.</p>
+        <p className="text-mute">{shown.length} de {data.questions.length} questões oficiais de Física 2020–2025.</p>
       </header>
       <label className="block">
         <span className="text-sm text-mute">Busca</span>
