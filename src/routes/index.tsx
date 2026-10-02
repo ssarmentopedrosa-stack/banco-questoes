@@ -31,6 +31,17 @@ function Home() {
         <h1 className="mt-2 font-serif text-4xl text-fg">Banco Inteligente de Física do ENEM</h1>
         <p className="mt-2 max-w-2xl text-mute">Base pedagógica verificável para análise, estudo e construção de avaliações.</p>
       </header>
+      <Link
+        to="/desafio"
+        className="flex flex-col gap-3 rounded-3xl border border-amber/60 bg-gradient-to-br from-amber/20 via-panel to-panel p-5 transition hover:border-amber sm:flex-row sm:items-center sm:justify-between"
+      >
+        <span>
+          <span className="block text-xs font-semibold tracking-widest text-amber">MODO ALUNO</span>
+          <span className="mt-1 block font-serif text-2xl text-fg">Desafio de Física ⚛</span>
+          <span className="block text-sm text-mute">Rodadas com questões oficiais, XP, níveis, medalhas e desafio do dia.</span>
+        </span>
+        <span className="inline-flex min-h-11 items-center justify-center rounded-xl bg-amber px-5 font-semibold text-ink">Jogar</span>
+      </Link>
       <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {cards.map(([label, value]) => (
           <KpiCard key={label} label={label} value={value} />
