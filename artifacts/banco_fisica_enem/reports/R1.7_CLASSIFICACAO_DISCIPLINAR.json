@@ -1,0 +1,166 @@
+{
+  "phase": "R1.7",
+  "CLASSIFICATION_DETERMINISTIC": true,
+  "fingerprint": "e27676c539ed34dbf211f1a7e3a58f2e566eec0c310c8216d59df0afb342be76",
+  "units_classified": 397,
+  "canonicals_classified": 360,
+  "probable_clusters": 3,
+  "singletons_classified": 34,
+  "variants_total": 1440,
+  "discipline_all": {
+    "INDETERMINADO": 310,
+    "QUIMICA": 28,
+    "FISICA": 29,
+    "BIOLOGIA": 29,
+    "INTERDISCIPLINAR_CN": 1
+  },
+  "discipline_canonicals": {
+    "INDETERMINADO": 280,
+    "QUIMICA": 27,
+    "FISICA": 25,
+    "BIOLOGIA": 27,
+    "INTERDISCIPLINAR_CN": 1
+  },
+  "discipline_cn_section": {
+    "INDETERMINADO": 10,
+    "QUIMICA": 28,
+    "FISICA": 29,
+    "BIOLOGIA": 29,
+    "INTERDISCIPLINAR_CN": 1
+  },
+  "confidence": {
+    "HIGH": 342,
+    "MEDIUM": 29,
+    "LOW": 26
+  },
+  "physics_count": 29,
+  "physics_domain": {
+    "ONDAS": 3,
+    "TERMODINAMICA": 3,
+    "INTERFACE_FISICA": 9,
+    "ELETROMAGNETISMO": 8,
+    "MECANICA": 5,
+    "OPTICA": 1
+  },
+  "physics_subdomain": {
+    "SOM": 2,
+    "TRANSFERENCIA_CALOR": 3,
+    "INDETERMINADO": 9,
+    "ELETROSTATICA": 1,
+    "DINAMICA": 4,
+    "ESTATICA": 1,
+    "CIRCUITOS": 7,
+    "ONDAS_MECANICAS": 1,
+    "REFRACAO": 1
+  },
+  "by_year": {
+    "2024": {
+      "INDETERMINADO": 157,
+      "QUIMICA": 13,
+      "FISICA": 13,
+      "BIOLOGIA": 17
+    },
+    "2025": {
+      "INDETERMINADO": 153,
+      "BIOLOGIA": 12,
+      "QUIMICA": 15,
+      "FISICA": 16,
+      "INTERDISCIPLINAR_CN": 1
+    }
+  },
+  "by_day": {
+    "D1": {
+      "INDETERMINADO": 205
+    },
+    "D2": {
+      "INDETERMINADO": 105,
+      "QUIMICA": 28,
+      "FISICA": 29,
+      "BIOLOGIA": 29,
+      "INTERDISCIPLINAR_CN": 1
+    }
+  },
+  "cn_fisica": [
+    "ENEM-CN-2024-D2-CAN-008",
+    "ENEM-CN-2024-D2-CAN-009",
+    "ENEM-CN-2024-D2-CAN-013",
+    "ENEM-CN-2024-D2-CAN-016",
+    "ENEM-CN-2024-D2-CAN-025",
+    "ENEM-CN-2024-D2-CAN-036",
+    "ENEM-CN-2024-D2-CAN-037",
+    "ENEM-CN-2024-D2-CAN-039",
+    "ENEM-CN-2024-D2-CAN-053",
+    "ENEM-CN-2024-REG-D2-C6-Q91",
+    "ENEM-CN-2024-D2-CAN-065",
+    "ENEM-CN-2024-D2-CAN-083",
+    "ENEM-CN-2024-REG-D2-C6-Q92",
+    "ENEM-CN-2025-D2-CAN-004",
+    "ENEM-CN-2025-D2-CAN-010",
+    "ENEM-CN-2025-REG-D2-C5-Q101",
+    "ENEM-CN-2025-D2-CAN-017",
+    "ENEM-CN-2025-D2-CAN-020",
+    "ENEM-CN-2025-D2-CAN-021",
+    "ENEM-CN-2025-D2-CAN-027",
+    "ENEM-CN-2025-D2-CAN-035",
+    "ENEM-CN-2025-D2-CAN-039",
+    "ENEM-CN-2025-D2-CAN-045",
+    "ENEM-CN-2025-D2-CAN-056",
+    "ENEM-CN-2025-D2-CAN-066",
+    "ENEM-CN-2025-D2-CAN-069",
+    "ENEM-CN-2025-D2-CAN-072",
+    "ENEM-CN-2025-D2-CAN-073",
+    "ENEM-CN-2025-D2-CAN-074"
+  ],
+  "interdisciplinar": [
+    "ENEM-CN-2025-D2-CAN-024"
+  ],
+  "indeterminado_cn": [
+    "ENEM-CN-2024-D2-CAN-003",
+    "ENEM-CN-2024-D2-CAN-024",
+    "ENEM-CN-2024-D2-CAN-034",
+    "ENEM-CN-2024-REG-D2-C8-Q92",
+    "ENEM-CN-2024-D2-CAN-051",
+    "ENEM-CN-2024-D2-CAN-064",
+    "ENEM-CN-2024-D2-CAN-073",
+    "ENEM-CN-2024-D2-CAN-082",
+    "ENEM-CN-2025-D2-CAN-006",
+    "ENEM-CN-2025-D2-CAN-016"
+  ],
+  "low_confidence": [
+    "ENEM-CN-2024-D2-CAN-012",
+    "ENEM-CN-2024-D2-CAN-014",
+    "ENEM-CN-2024-D2-CAN-015",
+    "ENEM-CN-2024-D2-CAN-016",
+    "ENEM-CN-2024-D2-CAN-021",
+    "ENEM-CN-2024-D2-CAN-030",
+    "ENEM-CN-2024-D2-CAN-038",
+    "ENEM-CN-2024-D2-CAN-044",
+    "ENEM-CN-2024-D2-CAN-047",
+    "ENEM-CN-2024-D2-CAN-064",
+    "ENEM-CN-2024-D2-CAN-083",
+    "ENEM-CN-2024-REG-D2-C6-Q92",
+    "ENEM-CN-2025-D2-CAN-003",
+    "ENEM-CN-2025-D2-CAN-004",
+    "ENEM-CN-2025-D2-CAN-010",
+    "ENEM-CN-2025-REG-D2-C5-Q101",
+    "ENEM-CN-2025-D2-CAN-017",
+    "ENEM-CN-2025-D2-CAN-022",
+    "ENEM-CN-2025-D2-CAN-035",
+    "ENEM-CN-2025-D2-CAN-039",
+    "ENEM-CN-2025-D2-CAN-044",
+    "ENEM-CN-2025-D2-CAN-050",
+    "ENEM-CN-2025-D2-CAN-054",
+    "ENEM-CN-2025-D2-CAN-055",
+    "ENEM-CN-2025-D2-CAN-058",
+    "ENEM-CN-2025-D2-CAN-060"
+  ],
+  "review_queue": 37,
+  "reconstructed_used": 0,
+  "essential_image_unavailable": 1,
+  "extraction_quality": {
+    "OK": 327,
+    "PARTIAL": 70
+  },
+  "annulled_units": 4,
+  "probable_status_preserved": true
+}

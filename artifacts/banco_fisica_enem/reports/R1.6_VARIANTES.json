@@ -1,0 +1,47 @@
+{
+  "phase": "R1.6",
+  "total_variants": 1440,
+  "clusters": 397,
+  "canonical_questions": 360,
+  "confirmed_matches": 360,
+  "probable_matches": 3,
+  "review_required": 0,
+  "not_matched": 34,
+  "conflicts": 0,
+  "average_variants_per_canonical": 3.875,
+  "min_variants_per_canonical": 2,
+  "max_variants_per_canonical": 4,
+  "reconstructions": 20,
+  "images_cropped": 0,
+  "deterministic": true,
+  "fingerprint": "28a8d3f7010584f3d6d32b77575aa15bf89da991deb1f630b383331a6208b568",
+  "variants_linked_to_two_canonicals": {},
+  "gabarito_matched": 1424,
+  "gabarito_missing": 0,
+  "gabarito_annulled": 16,
+  "by_year_day": {
+    "2024-D1": {
+      "confirmed": 93,
+      "not_matched": 8
+    },
+    "2024-D2": {
+      "confirmed": 88,
+      "not_matched": 9,
+      "probable": 2
+    },
+    "2025-D1": {
+      "confirmed": 90,
+      "not_matched": 14
+    },
+    "2025-D2": {
+      "confirmed": 89,
+      "probable": 1,
+      "not_matched": 3
+    }
+  },
+  "confirmed_size_hist": {
+    "4": 329,
+    "3": 17,
+    "2": 14
+  }
+}

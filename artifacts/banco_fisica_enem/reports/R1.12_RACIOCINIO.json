@@ -1,0 +1,194 @@
+{
+  "phase": "R1.12",
+  "REASONING_CLASSIFICATION_DETERMINISTIC": true,
+  "fingerprint": "33eb2b330e10fc9db41392f77bdb8e4c4daf17091dc868e21a21fbc8b6251b5a",
+  "processed": 33,
+  "status": {
+    "PARTIAL": 5,
+    "DETERMINED": 23,
+    "UNCERTAIN": 5
+  },
+  "usage": {
+    "primary": {
+      "RELATIONAL_REASONING": 4,
+      "CAUSAL_REASONING": 5,
+      "MODEL_SELECTION": 1,
+      "SPATIAL_REASONING": 3,
+      "PRINCIPLE_SELECTION": 3,
+      "IDENTIFICATION": 1,
+      "EQUATION_SELECTION": 9,
+      "MULTI_STEP_REASONING": 1,
+      "UNCERTAIN": 5,
+      "TEMPORAL_REASONING": 1
+    },
+    "status": {
+      "PARTIAL": 5,
+      "DETERMINED": 23,
+      "UNCERTAIN": 5
+    },
+    "model_sel": {
+      "SINGLE_MODEL": 28,
+      "UNCERTAIN": 5
+    },
+    "principle": {
+      "true": 24,
+      "false": 9
+    },
+    "interpretation": {
+      "true": 28,
+      "false": 5
+    },
+    "causal": {
+      "true": 13,
+      "false": 20
+    },
+    "comparison": {
+      "false": 25,
+      "true": 8
+    },
+    "conservation": {
+      "NONE": 22,
+      "ENERGY": 4,
+      "CHARGE": 1,
+      "MOMENTUM": 1,
+      "UNCERTAIN": 5
+    },
+    "system": {
+      "SINGLE_SYSTEM": 26,
+      "INTERACTING_SYSTEMS": 1,
+      "EQUILIBRIUM": 1,
+      "UNCERTAIN": 5
+    },
+    "transfer": {
+      "true": 27,
+      "false": 6
+    },
+    "image": {
+      "NONE": 10,
+      "SUPPORTING": 15,
+      "REQUIRED": 3,
+      "UNCERTAIN": 5
+    },
+    "actions": {
+      "IDENTIFICAR_PRINCIPIO": 14,
+      "RELACIONAR_VARIAVEIS": 15,
+      "INTERPRETAR_RESULTADO": 13,
+      "ANALISAR_CAUSA": 7,
+      "ANALISAR_EFEITO": 5,
+      "SELECIONAR_MODELO": 2,
+      "PREVER_RESULTADO": 4,
+      "INTERPRETAR_DIAGRAMA": 3,
+      "COMPARAR_SITUACOES": 1,
+      "IDENTIFICAR_GRANDEZAS": 12,
+      "SELECIONAR_EQUACAO": 10,
+      "CALCULAR": 10,
+      "IDENTIFICAR_DADOS": 1,
+      "ENCADEAR_ETAPAS": 1,
+      "VERIFICAR_UNIDADES": 1,
+      "RELACIONAR_ESCALAS": 1,
+      "IDENTIFICAR_RELACOES": 1
+    }
+  },
+  "conceptual": [
+    "ENEM-CN-2024-D2-CAN-009",
+    "ENEM-CN-2024-D2-CAN-013",
+    "ENEM-CN-2024-D2-CAN-016",
+    "ENEM-CN-2024-D2-CAN-025",
+    "ENEM-CN-2024-D2-CAN-034",
+    "ENEM-CN-2024-D2-CAN-036",
+    "ENEM-CN-2024-D2-CAN-037",
+    "ENEM-CN-2024-D2-CAN-039",
+    "ENEM-CN-2025-D2-CAN-017",
+    "ENEM-CN-2025-D2-CAN-066",
+    "ENEM-CN-2025-D2-CAN-069",
+    "ENEM-CN-2025-D2-CAN-074"
+  ],
+  "quantitative": [
+    "ENEM-CN-2024-D2-CAN-008",
+    "ENEM-CN-2024-D2-CAN-053",
+    "ENEM-CN-2024-REG-D2-C6-Q91",
+    "ENEM-CN-2024-D2-CAN-064",
+    "ENEM-CN-2024-D2-CAN-065",
+    "ENEM-CN-2024-D2-CAN-073",
+    "ENEM-CN-2024-D2-CAN-082",
+    "ENEM-CN-2025-D2-CAN-020",
+    "ENEM-CN-2025-D2-CAN-021",
+    "ENEM-CN-2025-D2-CAN-027",
+    "ENEM-CN-2025-D2-CAN-035",
+    "ENEM-CN-2025-D2-CAN-039",
+    "ENEM-CN-2025-D2-CAN-045",
+    "ENEM-CN-2025-D2-CAN-056",
+    "ENEM-CN-2025-D2-CAN-072",
+    "ENEM-CN-2025-D2-CAN-073"
+  ],
+  "model_selection": [
+    "ENEM-CN-2024-D2-CAN-008",
+    "ENEM-CN-2024-D2-CAN-009",
+    "ENEM-CN-2024-D2-CAN-013",
+    "ENEM-CN-2024-D2-CAN-016",
+    "ENEM-CN-2024-D2-CAN-025",
+    "ENEM-CN-2024-D2-CAN-034",
+    "ENEM-CN-2024-D2-CAN-036",
+    "ENEM-CN-2024-D2-CAN-037",
+    "ENEM-CN-2024-D2-CAN-039",
+    "ENEM-CN-2024-D2-CAN-053",
+    "ENEM-CN-2024-REG-D2-C6-Q91",
+    "ENEM-CN-2024-D2-CAN-064",
+    "ENEM-CN-2024-D2-CAN-065",
+    "ENEM-CN-2024-D2-CAN-082",
+    "ENEM-CN-2025-D2-CAN-020",
+    "ENEM-CN-2025-D2-CAN-027",
+    "ENEM-CN-2025-D2-CAN-035",
+    "ENEM-CN-2025-D2-CAN-045",
+    "ENEM-CN-2025-D2-CAN-056",
+    "ENEM-CN-2025-D2-CAN-066",
+    "ENEM-CN-2025-D2-CAN-069",
+    "ENEM-CN-2025-D2-CAN-072",
+    "ENEM-CN-2025-D2-CAN-073",
+    "ENEM-CN-2025-D2-CAN-074"
+  ],
+  "causal": [
+    "ENEM-CN-2024-D2-CAN-008",
+    "ENEM-CN-2024-D2-CAN-009",
+    "ENEM-CN-2024-D2-CAN-013",
+    "ENEM-CN-2024-D2-CAN-016",
+    "ENEM-CN-2024-D2-CAN-025",
+    "ENEM-CN-2024-D2-CAN-036",
+    "ENEM-CN-2024-D2-CAN-037",
+    "ENEM-CN-2024-D2-CAN-082",
+    "ENEM-CN-2025-D2-CAN-017",
+    "ENEM-CN-2025-D2-CAN-056",
+    "ENEM-CN-2025-D2-CAN-066",
+    "ENEM-CN-2025-D2-CAN-069",
+    "ENEM-CN-2025-D2-CAN-074"
+  ],
+  "comparison": [
+    "ENEM-CN-2024-D2-CAN-009",
+    "ENEM-CN-2024-D2-CAN-013",
+    "ENEM-CN-2024-D2-CAN-036",
+    "ENEM-CN-2024-D2-CAN-037",
+    "ENEM-CN-2024-D2-CAN-064",
+    "ENEM-CN-2025-D2-CAN-066",
+    "ENEM-CN-2025-D2-CAN-073",
+    "ENEM-CN-2025-D2-CAN-074"
+  ],
+  "elimination": [
+    "ENEM-CN-2024-D2-CAN-036"
+  ],
+  "conservation": [
+    "ENEM-CN-2024-D2-CAN-009",
+    "ENEM-CN-2024-D2-CAN-013",
+    "ENEM-CN-2024-D2-CAN-025",
+    "ENEM-CN-2024-D2-CAN-036",
+    "ENEM-CN-2024-D2-CAN-073",
+    "ENEM-CN-2025-D2-CAN-074"
+  ],
+  "uncertain_ids": [
+    "ENEM-CN-2024-D2-CAN-083",
+    "ENEM-CN-2024-REG-D2-C6-Q92",
+    "ENEM-CN-2025-D2-CAN-004",
+    "ENEM-CN-2025-D2-CAN-010",
+    "ENEM-CN-2025-REG-D2-C5-Q101"
+  ],
+  "review": 10
+}

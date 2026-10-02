@@ -1,0 +1,388 @@
+{
+  "phase": "R1.4",
+  "generated_at": "2026-09-23T22:29:11+00:00",
+  "total_expected": 32,
+  "total_downloaded": 32,
+  "total_verified": 32,
+  "total_failed": 0,
+  "total_invalid_pdf": 0,
+  "total_pending": 0,
+  "MANIFEST_MATCH": true,
+  "tls_note": "download.inep.gov.br TLS chain not trusted by local CA store; bytes fetched from official host with curl -k",
+  "duplicate_sha256": [],
+  "by_year": {
+    "2024": {
+      "provas": 8,
+      "gabaritos": 8,
+      "verificados": 16,
+      "falhas": 0,
+      "bytes": 41413365
+    },
+    "2025": {
+      "provas": 8,
+      "gabaritos": 8,
+      "verificados": 16,
+      "falhas": 0,
+      "bytes": 26923027
+    }
+  },
+  "regression": {
+    "CN": 619,
+    "FIS": 140,
+    "has_2024_2025_questions": false
+  },
+  "files": [
+    {
+      "year": 2024,
+      "day": 1,
+      "booklet": 1,
+      "color": "azul",
+      "type": "proof",
+      "status": "verified",
+      "size": 4808950,
+      "sha256": "b0adc1dc79a002aba36f725f1ef792cf53e47ff75ee012638ef34a4e6fbb18f5",
+      "file_name": "ENEM_2024_REG_D1_C1_AZUL_PROVA.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 1,
+      "booklet": 1,
+      "color": "azul",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 118234,
+      "sha256": "673d3d060156d6ad610ecf96c3dd0b8c61f361e16c57860c4ca5b5fecc8be050",
+      "file_name": "ENEM_2024_REG_D1_C1_AZUL_GABARITO.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 1,
+      "booklet": 2,
+      "color": "amarelo",
+      "type": "proof",
+      "status": "verified",
+      "size": 4843654,
+      "sha256": "e37573f6c0a0254f972c40951bdbeabd2491957516cf77527da767df27aadaf1",
+      "file_name": "ENEM_2024_REG_D1_C2_AMARELO_PROVA.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 1,
+      "booklet": 2,
+      "color": "amarelo",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 118605,
+      "sha256": "e1198aa21e9f04e81ceb314848bab39189fd314b27e2b8dac70a7a662defeb1d",
+      "file_name": "ENEM_2024_REG_D1_C2_AMARELO_GABARITO.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 1,
+      "booklet": 3,
+      "color": "branco",
+      "type": "proof",
+      "status": "verified",
+      "size": 4812755,
+      "sha256": "475e3f4396a1e449a648a543ba3c2f4a394253b614b524125ef62b6310ab28eb",
+      "file_name": "ENEM_2024_REG_D1_C3_BRANCO_PROVA.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 1,
+      "booklet": 3,
+      "color": "branco",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 119094,
+      "sha256": "c052acff4e88046b05c94fa9a67f69c387ec64b72e1d3e00a22826c5418be187",
+      "file_name": "ENEM_2024_REG_D1_C3_BRANCO_GABARITO.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 1,
+      "booklet": 4,
+      "color": "verde",
+      "type": "proof",
+      "status": "verified",
+      "size": 4832252,
+      "sha256": "e8d4283f2162d9e28f41530ea5eebb925c5029842d2e5e39422bbb0d7a6699fb",
+      "file_name": "ENEM_2024_REG_D1_C4_VERDE_PROVA.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 1,
+      "booklet": 4,
+      "color": "verde",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 118771,
+      "sha256": "34605d09a35cb37c2f1051686a3d87a805675cd56e00af7e506ac230a0394d74",
+      "file_name": "ENEM_2024_REG_D1_C4_VERDE_GABARITO.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 2,
+      "booklet": 5,
+      "color": "amarelo",
+      "type": "proof",
+      "status": "verified",
+      "size": 5003533,
+      "sha256": "ec4e704ab4017762ffb1eba84c55285a429d3d02ed0e58258c1171315cb34937",
+      "file_name": "ENEM_2024_REG_D2_C5_AMARELO_PROVA.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 2,
+      "booklet": 5,
+      "color": "amarelo",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 121742,
+      "sha256": "342edd1d18c0266812b9e379c7b9b2ebfcdd739857445bd03cf3c55951861297",
+      "file_name": "ENEM_2024_REG_D2_C5_AMARELO_GABARITO.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 2,
+      "booklet": 6,
+      "color": "cinza",
+      "type": "proof",
+      "status": "verified",
+      "size": 5253777,
+      "sha256": "f8c847149547e220344882118ec0dcef160dbe0d49a7812faf747172e7201db6",
+      "file_name": "ENEM_2024_REG_D2_C6_CINZA_PROVA.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 2,
+      "booklet": 6,
+      "color": "cinza",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 121447,
+      "sha256": "ab57e0405d0c57ebacef4aeff3e69113c571d3f343269ca1d3b1e984cd345308",
+      "file_name": "ENEM_2024_REG_D2_C6_CINZA_GABARITO.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 2,
+      "booklet": 7,
+      "color": "azul",
+      "type": "proof",
+      "status": "verified",
+      "size": 5456870,
+      "sha256": "0993ae687a93dfbcda8e95ce8708883be9d5a55cabbe1f1a06b81a50c18c6cdc",
+      "file_name": "ENEM_2024_REG_D2_C7_AZUL_PROVA.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 2,
+      "booklet": 7,
+      "color": "azul",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 120684,
+      "sha256": "8d27b5a447061e9a1c181d00a916d10f45e1c6c1da68d628b3ae8bdfedbf5c92",
+      "file_name": "ENEM_2024_REG_D2_C7_AZUL_GABARITO.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 2,
+      "booklet": 8,
+      "color": "verde",
+      "type": "proof",
+      "status": "verified",
+      "size": 5441559,
+      "sha256": "155437f9166dfff5d8b84072dff574f47a0f1bd0638de1574dcfdc898d64bc9a",
+      "file_name": "ENEM_2024_REG_D2_C8_VERDE_PROVA.pdf"
+    },
+    {
+      "year": 2024,
+      "day": 2,
+      "booklet": 8,
+      "color": "verde",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 121438,
+      "sha256": "49f9d861218f1e6ff28037f3bad07a6920a54de85aea9101ebd36cec30619e53",
+      "file_name": "ENEM_2024_REG_D2_C8_VERDE_GABARITO.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 1,
+      "booklet": 1,
+      "color": "azul",
+      "type": "proof",
+      "status": "verified",
+      "size": 3343529,
+      "sha256": "a0f19f878d4ef3ba94c3e0f5ef9e57c13fb046d4bb362f72651898b473ddb7c8",
+      "file_name": "ENEM_2025_REG_D1_C1_AZUL_PROVA.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 1,
+      "booklet": 1,
+      "color": "azul",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 132331,
+      "sha256": "583ac1950cd1927c42c971c270f96c0e33816844084fd5866a13bf94d8e08a81",
+      "file_name": "ENEM_2025_REG_D1_C1_AZUL_GABARITO.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 1,
+      "booklet": 2,
+      "color": "amarelo",
+      "type": "proof",
+      "status": "verified",
+      "size": 2819878,
+      "sha256": "b1e742107beeb264a8c9d457da823d74c9d7169873ecb3d4caaf1db03fd81c3f",
+      "file_name": "ENEM_2025_REG_D1_C2_AMARELO_PROVA.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 1,
+      "booklet": 2,
+      "color": "amarelo",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 133142,
+      "sha256": "10a6daeb38ea518d8428dac0d68820ab1f3062dd4216ca6915a78ce830a2abac",
+      "file_name": "ENEM_2025_REG_D1_C2_AMARELO_GABARITO.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 1,
+      "booklet": 3,
+      "color": "branco",
+      "type": "proof",
+      "status": "verified",
+      "size": 2426166,
+      "sha256": "d8f1e71ff7d1cc0d86efcf604a19d8b9a288c2073d595942d9f5deebdeeed51e",
+      "file_name": "ENEM_2025_REG_D1_C3_BRANCO_PROVA.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 1,
+      "booklet": 3,
+      "color": "branco",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 136787,
+      "sha256": "7beaacb7f790032ab48b3c648420c64a9cc5c8d5b0b7bf695549dc82b4759553",
+      "file_name": "ENEM_2025_REG_D1_C3_BRANCO_GABARITO.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 1,
+      "booklet": 4,
+      "color": "verde",
+      "type": "proof",
+      "status": "verified",
+      "size": 3345579,
+      "sha256": "b9003b04b65e41abfa421f32265e359d60860f869015de438d162b65fb37f226",
+      "file_name": "ENEM_2025_REG_D1_C4_VERDE_PROVA.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 1,
+      "booklet": 4,
+      "color": "verde",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 132861,
+      "sha256": "98aef68686e8fb4eb32e5cc3e48ce87da5522b159e6fe716f460b250a870eac4",
+      "file_name": "ENEM_2025_REG_D1_C4_VERDE_GABARITO.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 2,
+      "booklet": 5,
+      "color": "amarelo",
+      "type": "proof",
+      "status": "verified",
+      "size": 3157985,
+      "sha256": "0a59697676989b55e6f3e40636fad164c1c26868ddba37d04e4fffc101168298",
+      "file_name": "ENEM_2025_REG_D2_C5_AMARELO_PROVA.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 2,
+      "booklet": 5,
+      "color": "amarelo",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 294764,
+      "sha256": "4feea3658a94e20fa226028824b22538cb1b7e405a6a6e547d6a7131e5c97c22",
+      "file_name": "ENEM_2025_REG_D2_C5_AMARELO_GABARITO.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 2,
+      "booklet": 6,
+      "color": "cinza",
+      "type": "proof",
+      "status": "verified",
+      "size": 2734643,
+      "sha256": "5140b5c0c99f88d4b25e61926600ce4ba33879414b10f4e9c40534c8a26b375d",
+      "file_name": "ENEM_2025_REG_D2_C6_CINZA_PROVA.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 2,
+      "booklet": 6,
+      "color": "cinza",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 303341,
+      "sha256": "f53bf552a0fa6ef2b32cfb446d702f6f38fa38285fb25eb0061376073eeb19f6",
+      "file_name": "ENEM_2025_REG_D2_C6_CINZA_GABARITO.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 2,
+      "booklet": 7,
+      "color": "azul",
+      "type": "proof",
+      "status": "verified",
+      "size": 3685677,
+      "sha256": "39af0f0eaf3e30a3cd211bc19db9029204703965a2c76ff232fb3109181fa7c8",
+      "file_name": "ENEM_2025_REG_D2_C7_AZUL_PROVA.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 2,
+      "booklet": 7,
+      "color": "azul",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 293450,
+      "sha256": "9e2d470af35378df532173414ec7077c3ce4df38c084a5f1258579fdf9270aef",
+      "file_name": "ENEM_2025_REG_D2_C7_AZUL_GABARITO.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 2,
+      "booklet": 8,
+      "color": "verde",
+      "type": "proof",
+      "status": "verified",
+      "size": 3681312,
+      "sha256": "2cbe6ea079d6486be130afe978371d4e371b3db08cdfb7b0491e47e5fc0bc160",
+      "file_name": "ENEM_2025_REG_D2_C8_VERDE_PROVA.pdf"
+    },
+    {
+      "year": 2025,
+      "day": 2,
+      "booklet": 8,
+      "color": "verde",
+      "type": "answer_key",
+      "status": "verified",
+      "size": 301582,
+      "sha256": "66c2950d747aec5e55d9489af01d412d9fd6ff978e3402511242d9201a561959",
+      "file_name": "ENEM_2025_REG_D2_C8_VERDE_GABARITO.pdf"
+    }
+  ]
+}

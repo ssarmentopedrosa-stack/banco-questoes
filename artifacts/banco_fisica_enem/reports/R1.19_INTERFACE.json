@@ -1,0 +1,21 @@
+{
+  "phase": "R1.19",
+  "STATUS": "COMPLETE",
+  "fingerprint_banco_json": "8213a066c3f83dd048d3b6e125c46505250b97dae1192455510a5937daed221c",
+  "counts": {"questions": 33, "relations": 177, "confirmed": 39, "candidate": 138, "rejected": 0, "cycles": 0},
+  "interface_ids": [
+    "ENEM-CN-2024-D2-CAN-083",
+    "ENEM-CN-2024-REG-D2-C6-Q92",
+    "ENEM-CN-2025-D2-CAN-004",
+    "ENEM-CN-2025-D2-CAN-010",
+    "ENEM-CN-2025-REG-D2-C5-Q101"
+  ],
+  "note": "O id real do caderno 6 é ENEM-CN-2024-REG-D2-C6-Q92, não ENEM-CN-2024-D2-C6-Q92.",
+  "routes": ["/", "/questoes/", "/questoes/$id", "/mapa"],
+  "components": ["Shell", "KpiCard", "QuestionCard", "StatusBadge", "Legend", "GraphView"],
+  "sources_read_only": ["learning_graph_r1181", "learning_relationships_r1181", "pedagogical_graph_r117", "R1.9-R1.16 jsonl"],
+  "pedagogical_files_modified": false,
+  "legacy_modified": false,
+  "tests": ["tsc", "npm run build", "scripts/banco-integrity.test.mjs", "browser smoke"],
+  "pending": ["Enunciado integral da prova não está na ficha.", "R1.20 não executada."]
+}
