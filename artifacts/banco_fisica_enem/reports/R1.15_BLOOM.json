@@ -1,0 +1,53 @@
+{
+  "phase": "R1.15",
+  "BLOOM_CLASSIFICATION_DETERMINISTIC": true,
+  "fingerprint": "c6937f8f3324b9aca5794c24f989daa2af98dc2b8e7da3a48913158dcb88dbb6",
+  "processed": 33,
+  "status": {
+    "PARTIAL": 7,
+    "DETERMINED": 21,
+    "UNCERTAIN": 5
+  },
+  "usage": {
+    "primary": {
+      "UNDERSTAND": 10,
+      "ANALYZE": 7,
+      "APPLY": 11
+    },
+    "status": {
+      "PARTIAL": 7,
+      "DETERMINED": 21,
+      "UNCERTAIN": 5
+    },
+    "process": {
+      "CONCEPTUAL_INTERPRETATION": 3,
+      "CAUSAL_INTERPRETATION": 4,
+      "MODEL_INTERPRETATION": 1,
+      "EXPERIMENTAL_ANALYSIS": 1,
+      "GEOMETRIC_ANALYSIS": 1,
+      "PRINCIPLE_ANALYSIS": 3,
+      "CONCEPT_IDENTIFICATION": 1,
+      "APPLICATION_OF_MODEL": 9,
+      "SPATIAL_ANALYSIS": 2,
+      "MULTI_STEP_APPLICATION": 1,
+      "TEMPORAL_INTERPRETATION": 1,
+      "APPLICATION_OF_RELATION": 1
+    },
+    "confidence": {
+      "MEDIUM": 17,
+      "HIGH": 11,
+      "LOW": 5
+    }
+  },
+  "no_remember": true,
+  "no_create": true,
+  "no_difficulty": true,
+  "uncertain_ids": [
+    "ENEM-CN-2024-D2-CAN-083",
+    "ENEM-CN-2024-REG-D2-C6-Q92",
+    "ENEM-CN-2025-D2-CAN-004",
+    "ENEM-CN-2025-D2-CAN-010",
+    "ENEM-CN-2025-REG-D2-C5-Q101"
+  ],
+  "review": 12
+}

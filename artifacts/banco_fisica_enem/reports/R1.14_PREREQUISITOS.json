@@ -1,0 +1,113 @@
+{
+  "phase": "R1.14",
+  "PREREQUISITE_CLASSIFICATION_DETERMINISTIC": true,
+  "fingerprint": "8a8ce976bf1ab0c9c6dbe9547b439e91fb0638d391eb76cf38fe7f2bfdb1e918",
+  "processed": 33,
+  "status": {
+    "PARTIAL": 7,
+    "DETERMINED": 21,
+    "UNCERTAIN": 5
+  },
+  "category": {
+    "GRANDEZA_FISICA": 49,
+    "CONCEITO_FISICO": 7,
+    "MODELO_FISICO": 5,
+    "LEI_PRINCIPIO": 14
+  },
+  "level": {
+    "FOUNDATIONAL": 50,
+    "INTERMEDIATE": 25
+  },
+  "necessity": {
+    "ESSENTIAL": 75
+  },
+  "dependency": {
+    "MODERATE": 16,
+    "HIGH": 11,
+    "UNCERTAIN": 5,
+    "LOW": 1
+  },
+  "multiple": {
+    "true": 23,
+    "false": 10
+  },
+  "most_frequent": [
+    "PHY-CON-VOLTAGE",
+    "PHY-CON-CURRENT",
+    "PHY-CON-RESISTANCE",
+    "PHY-CON-OHMS_LAW",
+    "PHY-CON-WAVE_FREQUENCY",
+    "PHY-CON-TEMPERATURE",
+    "PHY-CON-HEAT",
+    "PHY-CON-FORCE"
+  ],
+  "exclusive": [
+    "PHY-CON-ENERGY_LEVELS",
+    "PHY-CON-CHARGE",
+    "PHY-CON-COULOMB",
+    "PHY-CON-CONCAVE_MIRROR",
+    "PHY-CON-MOMENTUM",
+    "PHY-CON-IMPULSE",
+    "PHY-CON-CENTER_OF_MASS",
+    "PHY-CON-SPECIFIC_HEAT",
+    "PHY-CON-HALF_LIFE",
+    "PHY-CON-WAVELENGTH",
+    "PHY-CON-WAVE_SPEED",
+    "PHY-CON-DENSITY",
+    "PHY-CON-HYDROSTATIC_PRESSURE"
+  ],
+  "unused_catalog": [
+    "PHY-CON-ELECTRICAL_POWER",
+    "PHY-CON-DOPPLER",
+    "PHY-CON-CIRCUIT_READING",
+    "PHY-CON-DIAGRAM_READING"
+  ],
+  "many_prereq": [
+    "ENEM-CN-2024-D2-CAN-053",
+    "ENEM-CN-2024-REG-D2-C6-Q91",
+    "ENEM-CN-2024-D2-CAN-065",
+    "ENEM-CN-2025-D2-CAN-020",
+    "ENEM-CN-2025-D2-CAN-027",
+    "ENEM-CN-2025-D2-CAN-035",
+    "ENEM-CN-2025-D2-CAN-045",
+    "ENEM-CN-2025-D2-CAN-072"
+  ],
+  "no_concept": [
+    "ENEM-CN-2024-D2-CAN-083",
+    "ENEM-CN-2024-REG-D2-C6-Q92",
+    "ENEM-CN-2025-D2-CAN-004",
+    "ENEM-CN-2025-D2-CAN-010",
+    "ENEM-CN-2025-REG-D2-C5-Q101"
+  ],
+  "with_math_ref": [
+    "ENEM-CN-2024-D2-CAN-053",
+    "ENEM-CN-2024-REG-D2-C6-Q91",
+    "ENEM-CN-2024-D2-CAN-064",
+    "ENEM-CN-2024-D2-CAN-065",
+    "ENEM-CN-2024-D2-CAN-073",
+    "ENEM-CN-2025-D2-CAN-020",
+    "ENEM-CN-2025-D2-CAN-021",
+    "ENEM-CN-2025-D2-CAN-027",
+    "ENEM-CN-2025-D2-CAN-035",
+    "ENEM-CN-2025-D2-CAN-039",
+    "ENEM-CN-2025-D2-CAN-045",
+    "ENEM-CN-2025-D2-CAN-072",
+    "ENEM-CN-2025-D2-CAN-073"
+  ],
+  "with_repr": [
+    "ENEM-CN-2024-D2-CAN-025",
+    "ENEM-CN-2024-D2-CAN-034",
+    "ENEM-CN-2024-D2-CAN-053",
+    "ENEM-CN-2024-REG-D2-C6-Q91",
+    "ENEM-CN-2024-D2-CAN-064",
+    "ENEM-CN-2024-D2-CAN-065",
+    "ENEM-CN-2025-D2-CAN-020",
+    "ENEM-CN-2025-D2-CAN-027",
+    "ENEM-CN-2025-D2-CAN-035",
+    "ENEM-CN-2025-D2-CAN-045",
+    "ENEM-CN-2025-D2-CAN-072",
+    "ENEM-CN-2025-D2-CAN-073"
+  ],
+  "review": 12,
+  "catalog_size": 31
+}
