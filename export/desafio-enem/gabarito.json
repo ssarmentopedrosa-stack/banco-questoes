@@ -1,8 +1,383 @@
 {
  "kind": "banco-fisica-enem/desafio-gabarito",
  "schema": 1,
- "version": "1.314748f4",
+ "version": "1.6d5b1bf1",
  "answers": {
+  "ENEM-CN-2015-REG-D1-C1-Q49": {
+   "answer": "D",
+   "reasoning": "Encadear potencia util do painel e energia cinetica final para obter o tempo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q50": {
+   "answer": "B",
+   "reasoning": "Localizar no grafico o filtro com pico na faixa de λ calculada.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q53": {
+   "answer": "A",
+   "reasoning": "Combinar a inversao de fase e o caminho 2E para a espessura minima.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q57": {
+   "answer": "C",
+   "reasoning": "Reconhecer que a energia fica armazenada no trabalho realizado sobre o gas ao liquefaze-lo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q63": {
+   "answer": "D",
+   "reasoning": "Ar admitido esfria a volume constante e a pressao interna fica menor que a externa.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q64": {
+   "answer": "B",
+   "reasoning": "Identificar o trabalho total com a variacao de energia cinetica.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q65": {
+   "answer": "D",
+   "reasoning": "Calcular o equilibrio inicial e comparar com a temperatura apos seis horas no quadro.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q68": {
+   "answer": "E",
+   "reasoning": "Escolher o esquema com tudo em paralelo e o interruptor em serie apenas com a lampada.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q70": {
+   "answer": "B",
+   "reasoning": "Encadear Hooke, energia elastica e alcance para obter a razao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q73": {
+   "answer": "C",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q75": {
+   "answer": "B",
+   "reasoning": "Identificar a refracao em camadas de ar com temperaturas diferentes.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q79": {
+   "answer": "A",
+   "reasoning": "Alto calor especifico absorve mais calor com pequena variacao de temperatura.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q82": {
+   "answer": "E",
+   "reasoning": "Ler na figura os bracos de cada forca em oitavos da barra.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q85": {
+   "answer": "B",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q86": {
+   "answer": "D",
+   "reasoning": "Reconhecer o timbre como responsavel pela diferenca de forma de onda.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2015-REG-D1-C1-Q88": {
+   "answer": "C",
+   "reasoning": "Cada torre define uma circunferencia; tres circunferencias determinam um ponto.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q47": {
+   "answer": "C",
+   "reasoning": "Calcular a potencia teorica e comparar com a instalada.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q49": {
+   "answer": "D",
+   "reasoning": "Escolher o grafico f(t) coerente com o efeito Doppler.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q54": {
+   "answer": "C",
+   "reasoning": "Usar a potencia termica dissipada (dobro da eletrica) para obter a vazao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q55": {
+   "answer": "C",
+   "reasoning": "Relacionar o grafico de resposta com o diagrama de faixas do espectro sonoro.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q57": {
+   "answer": "A",
+   "reasoning": "Afastamento: eco mais fraco, tempo de retorno maior e frequencia percebida menor.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q59": {
+   "answer": "B",
+   "reasoning": "Identificar associacoes em serie e em paralelo para cada par de terminais.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q63": {
+   "answer": "D",
+   "reasoning": "Escolher o esboco v × d com patamar e queda concava.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q66": {
+   "answer": "B",
+   "reasoning": "Seguir a cadeia de engrenagens da figura ate o ponteiro.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q74": {
+   "answer": "A",
+   "reasoning": "Identificar ramos e nos do circuito para comparar as correntes.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q77": {
+   "answer": "C",
+   "reasoning": "Extrair velocidades antes e depois da colisao do quadro.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q82": {
+   "answer": "B",
+   "reasoning": "Relacionar o fator 2 de cada polia movel com o atrito estatico maximo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q84": {
+   "answer": "A",
+   "reasoning": "Maior condutividade do aluminio transfere calor mais rapido ao gelo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q86": {
+   "answer": "A",
+   "reasoning": "Pontos de maior aquecimento correspondem a ventres consecutivos.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q88": {
+   "answer": "B",
+   "reasoning": "Campo alternado faz as nanoparticulas girarem e o atrito aquece as celulas.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2016-REG-D1-C1-Q89": {
+   "answer": "E",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q101": {
+   "answer": "E",
+   "reasoning": "Comparar areas de emissao nas faixas visivel e infravermelha.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q103": {
+   "answer": "D",
+   "reasoning": "Achar o minimo da curva e converter perda total em distancia.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q104": {
+   "answer": "C",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q107": {
+   "answer": "B",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q108": {
+   "answer": "C",
+   "reasoning": "Escolher o esboco Ec × h coerente com as trocas de energia acima e abaixo de h = 0.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q110": {
+   "answer": "D",
+   "reasoning": "Identificar o ramo do fusivel e a divisao de corrente.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q112": {
+   "answer": "C",
+   "reasoning": "Obter a diferenca de caminho a partir das medidas da figura.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q115": {
+   "answer": "A",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q127": {
+   "answer": "D",
+   "reasoning": "Ler pontos das curvas e comparar produtos vazao × ΔT.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q129": {
+   "answer": "C",
+   "reasoning": "Comparar a resistencia interna minima com a do corpo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q131": {
+   "answer": "E",
+   "reasoning": "Comparar as duas fases (aceleracao extra e frenagem) dos motoristas.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q133": {
+   "answer": "A",
+   "reasoning": "Avaliar o efeito de cada grandeza sobre V e sobre a resistencia do fio.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q93": {
+   "answer": "E",
+   "reasoning": "Obter R nominal no grafico e aplicar o fator dado.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2017-REG-D2-C7-Q99": {
+   "answer": "B",
+   "reasoning": "Comparar os picos das curvas a × t.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q103": {
+   "answer": "C",
+   "reasoning": "Relacionar o espacamento das faixas com o periodo da vibracao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q104": {
+   "answer": "A",
+   "reasoning": "Forca potente maior quando seu braco e menor que o da resistente (interpotente).",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q108": {
+   "answer": "D",
+   "reasoning": "Converter a relacao V(i) em R(i) e escolher o grafico.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q112": {
+   "answer": "C",
+   "reasoning": "Identificar quais resistores ficam em serie e em paralelo com o toque.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q115": {
+   "answer": "D",
+   "reasoning": "Comparar a potencia com o quadro de equipamentos.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q118": {
+   "answer": "B",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q120": {
+   "answer": "E",
+   "reasoning": "Polaridade invertida produz ondas em oposicao de fase e interferencia destrutiva.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q122": {
+   "answer": "A",
+   "reasoning": "Roda maior eleva o centro de massa e, para mesma rotacao, aumenta a velocidade real.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q125": {
+   "answer": "A",
+   "reasoning": "Maior frequencia, maior desvio; acompanhar a inversao apos o espelho.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q128": {
+   "answer": "B",
+   "reasoning": "Analisar acao e reacao entre ventoinha, ar e vela em cada montagem.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q129": {
+   "answer": "E",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q131": {
+   "answer": "B",
+   "reasoning": "Avaliar como v depende de x e de k.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q134": {
+   "answer": "E",
+   "reasoning": "Sem reduzir a pressao na boca abaixo da atmosferica o suco nao sobe.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q95": {
+   "answer": "D",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2018-REG-D2-C7-Q97": {
+   "answer": "C",
+   "reasoning": "Campo magnetico variavel da onda induz corrente na bobina.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q102": {
+   "answer": "B",
+   "reasoning": "Calcular as areas internas dos dois recipientes e montar a razao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q106": {
+   "answer": "D",
+   "reasoning": "Decompor as tracoes e equilibrar o peso.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q109": {
+   "answer": "B",
+   "reasoning": "Inferir pelo relato e pela figura o sentido e a rapidez relativos a rotacao da Terra.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q111": {
+   "answer": "A",
+   "reasoning": "Encadear a queda livre e o teorema do impulso e comparar com o peso.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q113": {
+   "answer": "A",
+   "reasoning": "Relacionar o periodo do MCU com o tempo de N voltas.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q117": {
+   "answer": "C",
+   "reasoning": "Proporcionalizar o valor energetico e aplicar o rendimento.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q119": {
+   "answer": "B",
+   "reasoning": "Menor deformacao indica maior pressao; massa proporcional ao volume do pneu.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q121": {
+   "answer": "B",
+   "reasoning": "Extrair altura e massa do recorte do manual e aplicar a conservacao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q126": {
+   "answer": "B",
+   "reasoning": "Impor 90 V na TV e testar o numero de lampadas.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q131": {
+   "answer": "B",
+   "reasoning": "Usar a geometria da figura para obter o deslocamento entre fotos.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q132": {
+   "answer": "D",
+   "reasoning": "Raios quase paralelos ao eixo sofrem menor desvio na refracao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q135": {
+   "answer": "C",
+   "reasoning": "Reconhecer no texto a critica ao modelo corpuscular.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q92": {
+   "answer": "A",
+   "reasoning": "Aterrar a cerca escoa as cargas induzidas e evita o choque.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q94": {
+   "answer": "C",
+   "reasoning": "Isolantes reduzem a perda de calor; o frio nao e uma entidade que entra.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2019-REG-D2-C7-Q98": {
+   "answer": "E",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
   "ENEM-CN-2020-REG-D2-C7-Q105": {
    "answer": "D",
    "reasoning": "Relacionar ambiente quente a menor troca de calor no condensador e maior trabalho.",
@@ -150,11 +525,6 @@
   },
   "ENEM-CN-2021-REG-D2-C7-Q131": {
    "answer": "B",
-   "reasoning": null,
-   "reasoningInferred": false
-  },
-  "ENEM-CN-2021-REG-D2-C7-Q133": {
-   "answer": "D",
    "reasoning": null,
    "reasoningInferred": false
   },
@@ -418,16 +788,6 @@
    "reasoning": null,
    "reasoningInferred": false
   },
-  "ENEM-CN-2024-REG-D2-C6-Q91": {
-   "answer": "B",
-   "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
-   "reasoningInferred": false
-  },
-  "ENEM-CN-2024-REG-D2-C6-Q92": {
-   "answer": "B",
-   "reasoning": null,
-   "reasoningInferred": false
-  },
   "ENEM-CN-2025-D2-CAN-004": {
    "answer": "B",
    "reasoning": null,
@@ -496,11 +856,6 @@
   "ENEM-CN-2025-D2-CAN-074": {
    "answer": "C",
    "reasoning": "Explicar o fluxo termico pelo mecanismo adequado.",
-   "reasoningInferred": false
-  },
-  "ENEM-CN-2025-REG-D2-C5-Q101": {
-   "answer": "A",
-   "reasoning": null,
    "reasoningInferred": false
   }
  }

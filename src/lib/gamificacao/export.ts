@@ -7,7 +7,8 @@
  *    raciocínio (o resumo é revelado pelo servidor só depois da resposta);
  *  - gabarito: só para o servidor (alternativa oficial + resumo de raciocínio existente).
  * Regras: anuladas e sem gabarito oficial ficam FORA; "precisa revisão" entram com `reviewRequired: true`
- * (o consumidor as exclui por padrão).
+ * (o consumidor as exclui por padrão). Fora do escopo de Física (`out_of_scope`) e registros de duplicata
+ * (`canonical_id`: a questão já entra pela canônica) também ficam FORA — mesma regra de `banco.hidden`.
  */
 import { altsLookTruncated, cleanText, stemOnly } from "./text.ts";
 
@@ -39,6 +40,8 @@ type Q = {
   uncertainty?: boolean;
   reasoning_core?: string | null;
   reasoning_status?: string | null;
+  out_of_scope?: boolean;
+  canonical_id?: string | null;
 };
 export type BancoInput = { questions: Q[]; paths?: { nodes: string[] }[] };
 export type OficialInput = Record<string, View>;
@@ -101,6 +104,7 @@ export function buildExports(banco: BancoInput, oficial: OficialInput): { public
   const answers: ExportGabarito["answers"] = {};
   const sorted = [...banco.questions].sort((a, b) => a.id.localeCompare(b.id));
   for (const q of sorted) {
+    if (q.out_of_scope || q.canonical_id) continue;
     const { variant: v, figures, annulled } = pick(oficial[q.id]);
     if (annulled || !v || v.answer_status !== "official" || !v.answer) continue;
     const isInterface = q.domain === "INTERFACE_FISICA" || Boolean(q.uncertainty);
