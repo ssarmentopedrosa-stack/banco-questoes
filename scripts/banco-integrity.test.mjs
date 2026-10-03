@@ -8,16 +8,18 @@ const NEW_RE = /^ENEM-CN-(2020|2021|2022|2023)-REG-D2-C7-Q(\d{2,3})$/;
 const novas = banco.questions.filter((q) => q.source_batch === "R2.0");
 const NEW21_RE = /^ENEM-CN-(2015|2016)-REG-D1-C1-Q(\d{2})$|^ENEM-CN-(2017|2018|2019)-REG-D2-C7-Q(\d{2,3})$/;
 const novas21 = banco.questions.filter((q) => q.source_batch === "R2.1");
-const NOVAS = [...novas, ...novas21];
+const NEW22_RE = /^ENEM-CN-(2009|2010|2011|2012|2013|2014)-REG-D1-C1-Q(\d{1,2})$/;
+const novas22 = banco.questions.filter((q) => q.source_batch === "R2.2");
+const NOVAS = [...novas, ...novas21, ...novas22];
 const parseNova = (id) => {
-  const m = id.match(NEW_RE) ?? id.match(NEW21_RE);
+  const m = id.match(NEW_RE) ?? id.match(NEW21_RE) ?? id.match(NEW22_RE);
   return m ? { year: m[1] ?? m[3], num: m[2] ?? m[4] } : null;
 };
 
-test("178 questões únicas (33 de 2024–2025 + 69 de 2020–2023 + 76 de 2015–2019)", () => {
+test("269 questões únicas (33 de 2024–2025 + 69 de 2020–2023 + 76 de 2015–2019 + 91 de 2009–2014)", () => {
   const ids = banco.questions.map((q) => q.id);
-  assert.equal(ids.length, 178);
-  assert.equal(new Set(ids).size, 178);
+  assert.equal(ids.length, 269);
+  assert.equal(new Set(ids).size, 269);
   const porAno = {};
   for (const q of banco.questions) porAno[q.year] = (porAno[q.year] ?? 0) + 1;
   assert.deepEqual(
@@ -29,12 +31,18 @@ test("178 questões únicas (33 de 2024–2025 + 69 de 2020–2023 + 76 de 2015�
     [2015, 2016, 2017, 2018, 2019].map((y) => porAno[String(y)]),
     [16, 15, 15, 15, 15],
   );
+  assert.deepEqual(
+    [2009, 2010, 2011, 2012, 2013, 2014].map((y) => porAno[String(y)]),
+    [17, 13, 13, 16, 17, 15],
+  );
   assert.equal(novas.length, 69);
   assert.equal(novas21.length, 76);
+  assert.equal(novas22.length, 91);
   for (const q of NOVAS) {
     assert.ok(parseNova(q.id), q.id);
     if (q.source_batch === "R2.0") assert.match(q.id, NEW_RE, q.id);
-    else assert.match(q.id, NEW21_RE, q.id);
+    else if (q.source_batch === "R2.1") assert.match(q.id, NEW21_RE, q.id);
+    else assert.match(q.id, NEW22_RE, q.id);
     assert.equal(q.scope, "VARIANT", q.id);
     assert.equal(q.matching_status, "not_matched", q.id);
     if (q.pedagogical_review) continue; // revisadas pelo Chico: teste próprio abaixo
@@ -51,12 +59,13 @@ test("178 questões únicas (33 de 2024–2025 + 69 de 2020–2023 + 76 de 2015�
       }
       assert.ok(q.prerequisites.length > 0 && q.prerequisites.every((p) => /^PHY-CON-[A-Z_]+$/.test(p.id)), q.id);
       if (q.source_batch === "R2.1") assert.ok(q.review_reasons.some((r) => /inferid/i.test(r) && /R2\.1/.test(r)), q.id);
+      if (q.source_batch === "R2.2") assert.ok(q.review_reasons.some((r) => /inferid/i.test(r) && /R2\.2/.test(r)), q.id);
     }
   }
 });
 
 test("relações de aprendizagem: originais intactas, novas CANDIDATE e sem ciclos", () => {
-  const isNew = (e) => e.origin === "R2.0" || e.origin === "R2.1";
+  const isNew = (e) => e.origin === "R2.0" || e.origin === "R2.1" || e.origin === "R2.2";
   const isRev = (e) => e.origin === "REV-CHICO";
   const orig = banco.learningEdges.filter((e) => !isNew(e) && !isRev(e));
   // 177 originais menos as 31 da 2024-C6-Q91 (duplicata ligada à CAN-053; todas já existiam na CAN-053)
@@ -80,6 +89,7 @@ test("relações de aprendizagem: originais intactas, novas CANDIDATE e sem cicl
   }
   assert.equal(banco.pedagogicalEdges.filter((e) => !isNew(e) && !isRev(e)).length, 761 - 87); // 87 originais eram da Q91
   assert.ok(banco.learningEdges.some((e) => e.origin === "R2.1") && banco.pedagogicalEdges.some((e) => e.origin === "R2.1"));
+  assert.ok(banco.learningEdges.some((e) => e.origin === "R2.2") && banco.pedagogicalEdges.some((e) => e.origin === "R2.2"));
   // sem ciclos por tipo de relação
   const byType = {};
   for (const e of banco.learningEdges) ((byType[e.type] ??= {})[e.source] ??= []).push(e.target);
@@ -97,7 +107,7 @@ test("relações de aprendizagem: originais intactas, novas CANDIDATE e sem cicl
     for (const u of Object.keys(adj)) assert.equal(!color[u] && dfs(u), false, `ciclo em ${type}`);
   }
   // novas questões de Física aparecem no cluster do seu domínio
-  for (const q of NOVAS.filter((x) => !x.out_of_scope && !x.canonical_id)) {
+  for (const q of NOVAS.filter((x) => !x.out_of_scope && !x.canonical_id && x.domain !== "INTERFACE_FISICA")) {
     const cl = banco.clusters.find((c) => c.name === q.domain);
     assert.ok(cl && cl.canonical_ids.includes(q.id), q.id);
   }
@@ -105,14 +115,24 @@ test("relações de aprendizagem: originais intactas, novas CANDIDATE e sem cicl
 
 test("interface e probable", () => {
   // 2020–2025: a interface foi resolvida na revisão do Chico (ver teste abaixo); restam as de 2015–2019
-  // a interface de 2015–2019 também foi resolvida (revisão do Chico do lote R2.1): não resta nenhuma
-  const iface = [];
+  // a interface de 2015–2019 também foi resolvida (revisão do Chico do lote R2.1)
+  // restam só as de 2009–2014 (R2.2), ainda sem revisão
+  const iface = [
+    ...[5, 24, 29].map((n) => `ENEM-CN-2009-REG-D1-C1-Q${n}`),
+    ...[54, 55, 89].map((n) => `ENEM-CN-2010-REG-D1-C1-Q${n}`),
+    ...[63, 67].map((n) => `ENEM-CN-2011-REG-D1-C1-Q${n}`),
+    "ENEM-CN-2012-REG-D1-C1-Q71",
+    ...[46, 49].map((n) => `ENEM-CN-2013-REG-D1-C1-Q${n}`),
+    "ENEM-CN-2014-REG-D1-C1-Q90",
+  ];
   assert.equal(banco.questions.filter((q) => q.domain === "INTERFACE_FISICA").length, iface.length);
   for (const id of iface) {
     const q = banco.questions.find((x) => x.id === id);
     assert.ok(q, id);
     assert.equal(q.domain, "INTERFACE_FISICA");
     assert.equal(q.review_required, true);
+    assert.ok(q.interface_note && q.review_reasons[0].startsWith("Questão de interface"), id);
+    for (const c of banco.clusters) if (c.name !== "INTERFACE_FISICA") assert.ok(!c.canonical_ids.includes(id), `${id} em ${c.name}`);
   }
   const p = banco.questions.find((x) => x.id === "ENEM-CN-2025-D2-CAN-010");
   assert.equal(p.matching_status, "probable");
@@ -129,7 +149,7 @@ const oficial = JSON.parse(readFileSync(new URL("../public/oficial-view.json", i
 test("figuras: cada questão tem status e os arquivos existem", async () => {
   const { existsSync, readdirSync } = await import("node:fs");
   const ids = Object.keys(oficial);
-  assert.equal(ids.length, 178);
+  assert.equal(ids.length, 269);
   assert.deepEqual(new Set(ids), new Set(banco.questions.map((q) => q.id)));
   const referenced = new Set();
   let withFig = 0;
@@ -148,9 +168,11 @@ test("figuras: cada questão tem status e os arquivos existem", async () => {
       const azul = v.variants.find((x) => x.booklet === f.source.booklet);
       assert.ok(azul, `${id}: variante do caderno ${f.source.booklet}`);
       assert.equal(azul.number, f.source.number, id);
-      if (NEW_RE.test(id) || NEW21_RE.test(id)) {
+      if (NEW_RE.test(id) || NEW21_RE.test(id) || NEW22_RE.test(id)) {
         assert.ok(azul.start_page <= f.source.page && f.source.page <= azul.end_page, id);
         if (azul.text_source?.startsWith("ocr")) assert.equal(f.source.text_match, null, id);
+        // 2009-Q18: tabela no topo; a ordem de leitura do texto do PDF difere da do enunciado (conferido à mão)
+        else if (id === "ENEM-CN-2009-REG-D1-C1-Q18") assert.ok(f.source.text_match >= 0.6, id);
         // recorte de alternativas em imagem tem pouco texto: limiar menor (a questão fica em revisão)
         else assert.ok(f.source.text_match >= (f.kind === "alternativas" ? 0.75 : 0.85), `${id}: texto confere com o PDF`);
       } else {
@@ -169,8 +191,8 @@ test("figuras: cada questão tem status e os arquivos existem", async () => {
       referenced.add(f.src);
     }
   }
-  assert.equal(withFig, 118);
-  for (const year of ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"]) {
+  assert.equal(withFig, 168);
+  for (const year of ["2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"]) {
     for (const file of readdirSync(new URL(`../public/figuras/${year}/`, import.meta.url))) {
       assert.ok(referenced.has(`/figuras/${year}/${file}`), `arquivo órfão ${file}`);
     }
@@ -245,6 +267,40 @@ test("2015–2019: gabarito oficial, caderno azul, texto do PDF, revisões sinal
     assert.equal(Object.keys(gab21[y]).length, 45, y);
     assert.equal(Object.values(gab21[y]).includes("ANULADA"), false, y);
   }
+});
+
+const gab22 = JSON.parse(readFileSync(new URL("./fixtures/gabarito-cn-2009-2014-azul.json", import.meta.url), "utf8")).gabaritos;
+
+test("2009–2014: gabarito oficial, caderno 1 azul do 1º dia, texto do PDF, revisões sinalizadas", () => {
+  for (const q of novas22) {
+    const { year, num } = parseNova(q.id);
+    const v = oficial[q.id];
+    assert.equal(v.variants.length, 1, q.id);
+    const x = v.variants[0];
+    assert.equal(x.booklet, 1, q.id);
+    assert.equal(x.day, 1, q.id);
+    assert.equal(x.color, "azul", q.id);
+    assert.equal(x.number, Number(num), q.id);
+    // 2009: CN = Q1–45; 2010–2014: CN = Q46–90
+    assert.ok(year === "2009" ? x.number >= 1 && x.number <= 45 : x.number >= 46 && x.number <= 90, q.id);
+    assert.equal(x.answer_status, "official", q.id);
+    assert.equal(x.answer, gab22[year][num], q.id);
+    assert.equal(x.text_source, "pdf_text_layer", q.id);
+    assert.match(x.statement, new RegExp(`^Quest(ão|ÃO) ${num}\\b`, "i"), q.id);
+    assert.equal(q.pedagogical_review, undefined, q.id);
+    if (x.alternatives_status === "complete") assert.deepEqual(x.alternatives.map((a) => a.letter), ["A", "B", "C", "D", "E"], q.id);
+    else {
+      assert.equal(q.review_required, true, `${q.id}: alternativas incompletas exigem revisão`);
+      assert.ok(v.figures.some((f) => ["alternativas", "expressao"].includes(f.kind)), `${q.id}: alternativas incompletas sem recorte`);
+    }
+  }
+  // nenhuma questão de CN anulada em 2009–2014
+  for (const y of ["2009", "2010", "2011", "2012", "2013", "2014"]) {
+    assert.equal(Object.keys(gab22[y]).length, 45, y);
+    assert.equal(Object.values(gab22[y]).includes("ANULADA"), false, y);
+  }
+  assert.equal(novas22.filter((q) => q.review_required).length, 22);
+  assert.equal(novas22.filter((q) => q.domain === "INTERFACE_FISICA").length, 12);
 });
 
 // ---------- Revisão pedagógica do Chico (2020–2025) ----------
@@ -348,13 +404,14 @@ test("revisão do Chico 2015–2019: 76 decisões, interface resolvida, Q121 for
 
 test("regra: sem marca de revisão = classificação inferida/pipeline, nunca validação humana", () => {
   const visiveis = banco.questions.filter((q) => !q.out_of_scope && !q.canonical_id);
-  assert.equal(visiveis.length, 173);
-  assert.equal(visiveis.filter((q) => q.review_required).length, 66);
+  assert.equal(visiveis.length, 264);
+  assert.equal(visiveis.filter((q) => q.review_required).length, 88);
   const semRevisao = visiveis.filter((q) => !q.pedagogical_review);
-  assert.equal(semRevisao.length, 59);
+  assert.equal(semRevisao.length, 150);
   for (const q of semRevisao) {
     assert.ok(!["REVIEWED"].includes(q.taxonomy_status) && !["REVIEWED"].includes(q.matrix_status), q.id);
-    if (q.source_batch) assert.ok(q.review_reasons.some((x) => /inferid/i.test(x)), q.id);
+    // interface sem classificação (R2.2) não tem camada inferida: fica em revisão
+    if (q.source_batch) assert.ok(q.review_reasons.some((x) => /inferid/i.test(x)) || (q.domain === "INTERFACE_FISICA" && q.review_required), q.id);
   }
   for (const q of banco.questions) assert.equal(q.validado ?? false, false, q.id);
   assert.match(vocab.regra_status, /inferida e não validada/);

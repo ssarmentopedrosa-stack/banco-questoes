@@ -1,8 +1,463 @@
 {
  "kind": "banco-fisica-enem/desafio-gabarito",
  "schema": 1,
- "version": "1.6d5b1bf1",
+ "version": "1.ef622138",
  "answers": {
+  "ENEM-CN-2009-REG-D1-C1-Q14": {
+   "answer": "E",
+   "reasoning": "Rendimento global e o produto dos rendimentos; melhorar as etapas de menor eficiencia (transmissao e lampada).",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q17": {
+   "answer": "E",
+   "reasoning": "Obter a velocidade media do trajeto e aplicar a aceleracao centripeta maxima.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q18": {
+   "answer": "E",
+   "reasoning": "Calor a retirar define a capacidade de refrigeracao; a corrente define a bitola da fiacao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q19": {
+   "answer": "D",
+   "reasoning": "Cruzar planta baixa e quadro de referencia para cada comodo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q20": {
+   "answer": "E",
+   "reasoning": "Reaproveitar o calor perdido nos gases da chamine aumenta o rendimento sem reduzir a geracao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q24": {
+   "answer": "A",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q27": {
+   "answer": "D",
+   "reasoning": "A 560 km a gravidade ainda e intensa: o peso atua como forca centripeta da orbita; a frase nao se justifica.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q29": {
+   "answer": "D",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q30": {
+   "answer": "D",
+   "reasoning": "Calcular o tempo de aquecimento pelo resistor e comparar o consumo de gasolina.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q31": {
+   "answer": "E",
+   "reasoning": "Mesma intensidade de transmissao: o decaimento com a distancia nao depende da frequencia.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q32": {
+   "answer": "B",
+   "reasoning": "Raios X sao mais absorvidos pelo calcio dos ossos, que aparecem claros no filme.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q35": {
+   "answer": "A",
+   "reasoning": "Encadear calor necessario, potencia em uma hora e area do refletor.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q37": {
+   "answer": "D",
+   "reasoning": "Sem cones, so os bastonetes respondem a intensidade: o objeto e visto em tons de cinza.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q38": {
+   "answer": "D",
+   "reasoning": "Calcular o volume extra diario e converter em ganho semanal.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q39": {
+   "answer": "B",
+   "reasoning": "O calor flui do interior frio para o exterior quente apenas com trabalho do compressor.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q45": {
+   "answer": "B",
+   "reasoning": "Identificar no esquema as tres lampadas percorridas pela mesma corrente.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2009-REG-D1-C1-Q5": {
+   "answer": "E",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q47": {
+   "answer": "A",
+   "reasoning": "Reconhecer a reflexao das ondas de radio na ionosfera.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q48": {
+   "answer": "C",
+   "reasoning": "Calcular a corrente total e escolher o fusivel no quadro.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q50": {
+   "answer": "A",
+   "reasoning": "Na ebulicao a agua recebe calor sem variar a temperatura, contrariando a ideia de temperatura como quantidade de calor.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q52": {
+   "answer": "C",
+   "reasoning": "O forno mais eficiente fornece mais energia em menos tempo (maior potencia util).",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q54": {
+   "answer": "E",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q55": {
+   "answer": "C",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q58": {
+   "answer": "D",
+   "reasoning": "Puxar o embolo reduz a pressao e baixa o ponto de ebulicao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q68": {
+   "answer": "E",
+   "reasoning": "Aplicar a regra de leitura dos ponteiros descrita no texto.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q70": {
+   "answer": "A",
+   "reasoning": "Ler a potencia na tabela e reconhecer P proporcional a V² com R fixo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q78": {
+   "answer": "B",
+   "reasoning": "Reconhecer a blindagem eletrostatica do metal.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q81": {
+   "answer": "E",
+   "reasoning": "O empuxo, vertical para cima e proporcional ao volume, reduz a forca necessaria.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q84": {
+   "answer": "D",
+   "reasoning": "Com indice negativo o raio refratado fica do mesmo lado da normal que o incidente.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2010-REG-D1-C1-Q89": {
+   "answer": "D",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q46": {
+   "answer": "D",
+   "reasoning": "A agitacao e aleatoria; a trava escolhe um sentido de rotacao para realizar trabalho.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q56": {
+   "answer": "C",
+   "reasoning": "O nailon quase nao se magnetiza, nao varia o fluxo na bobina e nao induz corrente.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q60": {
+   "answer": "A",
+   "reasoning": "Escolher P = R i² e usar a reducao de 40% na corrente.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q63": {
+   "answer": "E",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q66": {
+   "answer": "C",
+   "reasoning": "Reconhecer a impossibilidade de converter integralmente calor em trabalho.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q67": {
+   "answer": "E",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q70": {
+   "answer": "D",
+   "reasoning": "A lampada acende quando base e rosca estao ligadas aos dois polos da pilha.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q73": {
+   "answer": "B",
+   "reasoning": "Identificar o empuxo pela diferenca de leituras e isolar a densidade.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q74": {
+   "answer": "D",
+   "reasoning": "Luz e som sofrem atenuacoes diferentes nos sedimentos; o som penetra mais.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q77": {
+   "answer": "D",
+   "reasoning": "Peso constante gera MUV: distancia cresce com o quadrado do tempo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q78": {
+   "answer": "B",
+   "reasoning": "O volume do tanque limita a agua gasta em cada descarga.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q84": {
+   "answer": "A",
+   "reasoning": "Reconhecer a difracao e escolher o exemplo sonoro equivalente.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2011-REG-D1-C1-Q86": {
+   "answer": "C",
+   "reasoning": "Associar cada etapa da figura a forma de energia predominante e a conversao total.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q50": {
+   "answer": "E",
+   "reasoning": "Identificar a conversao elastica → cinetica tambem presente no estilingue.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q54": {
+   "answer": "B",
+   "reasoning": "Separar o que depende do meio (v) e da fonte (f).",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q55": {
+   "answer": "D",
+   "reasoning": "Escolher o diagrama vetorial compativel com equilibrio de translacao e rotacao.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q60": {
+   "answer": "C",
+   "reasoning": "Traduzir as tres fases do movimento em formas do grafico s(t).",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q61": {
+   "answer": "C",
+   "reasoning": "Comparar lumens por watt para achar a fluorescente equivalente.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q64": {
+   "answer": "E",
+   "reasoning": "A luz do peixe desvia ao passar da agua para o ar; a imagem aparente fica acima.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q67": {
+   "answer": "C",
+   "reasoning": "A pressao depende do desnivel entre a superficie da agua na caixa e a ducha.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q71": {
+   "answer": "E",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q72": {
+   "answer": "C",
+   "reasoning": "Somar os tempos de cada trecho.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q73": {
+   "answer": "E",
+   "reasoning": "Escolher o circuito em que qualquer chave muda o estado da lampada.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q74": {
+   "answer": "A",
+   "reasoning": "A Terra, com maior velocidade orbital, ultrapassa Marte e gera o laco aparente.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q77": {
+   "answer": "D",
+   "reasoning": "Obter o volume total pelos dados da jarra e calcular a massa com a densidade.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q78": {
+   "answer": "A",
+   "reasoning": "Escolher o par de graficos coerente com atrito estatico maximo e cinetico.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q83": {
+   "answer": "B",
+   "reasoning": "Reconhecer o limite imposto pela segunda lei ao rendimento.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q84": {
+   "answer": "A",
+   "reasoning": "Distinguir irradiacao de contaminacao: o material irradiado nao fica radioativo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2012-REG-D1-C1-Q88": {
+   "answer": "B",
+   "reasoning": "A lampada incandescente emite pouca radiacao UV; sua luz e de baixa frequencia.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q46": {
+   "answer": "B",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q48": {
+   "answer": "E",
+   "reasoning": "Superficie preta absorve e emite mais radiacao: varia mais rapido nas duas fases.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q49": {
+   "answer": "D",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q52": {
+   "answer": "E",
+   "reasoning": "Reconhecer que a interferencia ocorre entre ondas de frequencias proximas.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q57": {
+   "answer": "A",
+   "reasoning": "Tampada: pressao externa maior impede a saida; destampada: a velocidade depende so da profundidade.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q61": {
+   "answer": "C",
+   "reasoning": "Aplicar F1/A1 = F2/A2 com velocidade constante (equilibrio).",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q65": {
+   "answer": "C",
+   "reasoning": "Obter λ pelas pessoas por periodo e converter a velocidade.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q66": {
+   "answer": "A",
+   "reasoning": "Polias ligadas por correia tem mesma velocidade linear; no mesmo eixo, mesma frequencia.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q72": {
+   "answer": "E",
+   "reasoning": "Voltimetro em paralelo com a geladeira; amperimetros em serie no ramo principal e no da lampada.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q75": {
+   "answer": "E",
+   "reasoning": "Combinar P = V²/R e R = ρL/A.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q76": {
+   "answer": "C",
+   "reasoning": "O pe empurra o chao para tras; o atrito no pe aponta paralelo ao plano, no sentido do movimento.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q79": {
+   "answer": "D",
+   "reasoning": "O campo eletrico se estabelece rapidamente em todo o circuito e poe os eletrons em movimento.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q82": {
+   "answer": "A",
+   "reasoning": "Comparar o numero de oscilacoes nos graficos.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q83": {
+   "answer": "D",
+   "reasoning": "Calcular o potencial em cada no do voltimetro e subtrair.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q85": {
+   "answer": "A",
+   "reasoning": "Obter a deformacao pela cinematica e igualar forca magnetica e elastica.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q87": {
+   "answer": "B",
+   "reasoning": "Traduzir as fases do movimento no grafico F × t.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2013-REG-D1-C1-Q89": {
+   "answer": "B",
+   "reasoning": "Igualar calor cedido e recebido.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q46": {
+   "answer": "A",
+   "reasoning": "O periodo depende do comprimento; manter a haste sem dilatar mantem o periodo.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q50": {
+   "answer": "D",
+   "reasoning": "O filtro magenta (vermelho + azul) barra o verde.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q55": {
+   "answer": "C",
+   "reasoning": "Converter o desnivel em pressao estatica, ler a vazao e multiplicar pelo tempo total.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q57": {
+   "answer": "C",
+   "reasoning": "Na posicao A a resistencia equivalente e menor e a corrente na lampada 1 e maior.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q62": {
+   "answer": "E",
+   "reasoning": "Ler o grafico Δh × calor e relacionar expansao a variacao de temperatura.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q64": {
+   "answer": "C",
+   "reasoning": "Conservacao de momento e de energia: saem tres esferas do outro lado.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q66": {
+   "answer": "B",
+   "reasoning": "O calor rejeitado na condensacao do vapor aquece a agua do ambiente.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q67": {
+   "answer": "A",
+   "reasoning": "Sem resultante, a esfera mantem a velocidade (inercia).",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q68": {
+   "answer": "E",
+   "reasoning": "Indice maior (1,9) reduz o angulo de refracao: o raio se aproxima da normal.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q72": {
+   "answer": "A",
+   "reasoning": "Inverter movimento relativo e polaridade preserva o sentido da corrente.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q76": {
+   "answer": "C",
+   "reasoning": "Reconhecer o infravermelho emitido pelo corpo humano.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q82": {
+   "answer": "A",
+   "reasoning": "Com modulo da velocidade constante a aceleracao tangencial e nula.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q84": {
+   "answer": "E",
+   "reasoning": "Reconhecer a ressonancia na absorcao maxima em uma frequencia.",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q87": {
+   "answer": "A",
+   "reasoning": "Notas musicais se distinguem pela frequencia (altura).",
+   "reasoningInferred": true
+  },
+  "ENEM-CN-2014-REG-D1-C1-Q90": {
+   "answer": "C",
+   "reasoning": null,
+   "reasoningInferred": false
+  },
   "ENEM-CN-2015-REG-D1-C1-Q49": {
    "answer": "D",
    "reasoning": "Encadear potencia util do painel e energia cinetica final para obter o tempo.",
