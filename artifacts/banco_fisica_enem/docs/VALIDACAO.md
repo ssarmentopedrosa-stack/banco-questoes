@@ -44,3 +44,17 @@ Nesta entrega, **todos** os itens estão `validado = false`.
 - arestas novas `CANDIDATE` e sem ciclos por tipo.
 
 Nenhuma questão nova está `validado = true`.
+
+## Ampliação R2.1 (2015–2019)
+`scripts/banco-integrity.test.mjs` também verifica:
+- 178 questões, com contagem por ano (2015 = 16; 2016–2019 = 15 cada);
+- IDs D1-C1 (2015/16) e D2-C7 (2017–19), número na faixa do caderno;
+- gabarito oficial igual ao fixture `gabarito-cn-2015-2019-azul.json`, sem anuladas;
+- texto da camada do PDF;
+- classificação marcada como inferida;
+- alternativas incompletas com recorte e em revisão;
+- interface listada;
+- figuras sem órfãos;
+- arestas R2.1 `CANDIDATE` e sem ciclos.
+
+Nenhuma questão nova está `validado = true`.

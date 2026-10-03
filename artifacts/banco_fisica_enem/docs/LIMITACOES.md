@@ -34,3 +34,10 @@ Textos de provas oficiais são atos oficiais. A classificação pedagógica e o 
 - 2021: texto via OCR (camada de texto do PDF corrompida). Alternativas não transcritas; a referência é o recorte integral.
 - Competência e habilidade das novas questões são **inferidas** (`matrix_status = INFERRED`). Classificação `CANDIDATE`/`PARTIAL`.
 - Detalhes em `R2.0_AMPLIACAO_2020_2023.md`.
+
+## Ampliação R2.1 (ENEM 2015–2019)
+- Só o caderno azul de cada ano (2015–2016: 1º dia, caderno 1; 2017–2019: 2º dia, caderno 7). Não há casamento entre cores (`not_matched`).
+- PDFs oficiais do INEP obtidos via cópias arquivadas no Wayback Machine, porque o portal falha por TLS neste ambiente. O SHA-256 está registrado.
+- A classificação pedagógica e a habilidade da Matriz são **inferidas**. 28 questões estão em revisão: interface, alternativas em imagem e expressões com expoente ou fração perdidos.
+- `banco.json` cresceu para cerca de 4,9 MB por causa das arestas candidatas.
+- Detalhes em `R2.1_AMPLIACAO_2015_2019.md`.
