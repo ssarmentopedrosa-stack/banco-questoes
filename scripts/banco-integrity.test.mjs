@@ -426,3 +426,33 @@ test("vocabulário: cada conteúdo em um único domínio e valores novos incluí
     if (q.subcontent && q.subcontent !== "INDETERMINADO") assert.ok(vocab.dominios[q.domain][q.content].includes(q.subcontent), `${q.id}: ${q.subcontent}`);
   }
 });
+
+test("explicações do Chico (E1): 173 visíveis 2015–2025, sem observações, coerentes com o gabarito oficial", () => {
+  const oficial = JSON.parse(readFileSync(new URL("../public/oficial-view.json", import.meta.url), "utf8"));
+  const src = readFileSync(new URL("../artifacts/banco_fisica_enem/explicacoes_chico/explicacoes-2015-2025.jsonl", import.meta.url), "utf8")
+    .split("\n").filter(Boolean).map((l) => JSON.parse(l));
+  const comExpl = banco.questions.filter((q) => q.explanation);
+  assert.equal(comExpl.length, 173);
+  assert.equal(src.length, 173);
+  for (const q of comExpl) {
+    assert.ok(!q.out_of_scope && !q.canonical_id, `${q.id}: explicação em registro oculto`);
+    assert.ok(Number(q.year) >= 2015, q.id);
+    const e = q.explanation;
+    assert.equal(e.author, "IA (Chico)");
+    assert.equal(e.status, "aguardando_revisao_professor");
+    assert.equal(e.label, "Explicação escrita por IA (Chico) — aguardando revisão do professor");
+    assert.ok(["alta", "media", "baixa"].includes(e.confidence), q.id);
+    assert.equal(e.needs_review, e.confidence === "baixa", q.id);
+    assert.ok(e.markdown.length > 50 && e.key_concept && e.common_mistake, q.id);
+    assert.ok(!("observacoes" in e), q.id);
+    const ans = oficial[q.id]?.variants?.find((v) => v.answer_status === "official" && v.answer)?.answer;
+    const m = e.markdown.match(/\*\*Por que ([A-E])\b/);
+    if (ans) assert.equal(m?.[1], ans, `${q.id}: explicação contradiz o gabarito oficial`);
+  }
+  assert.equal(comExpl.filter((q) => q.explanation.needs_review).length, 6);
+  const visiveis = banco.questions.filter((q) => !q.out_of_scope && !q.canonical_id && Number(q.year) >= 2015);
+  assert.deepEqual(visiveis.map((q) => q.id).sort(), comExpl.map((q) => q.id).sort());
+  assert.deepEqual(src.map((r) => r.id).sort(), comExpl.map((q) => q.id).sort());
+  for (const r of src) assert.ok(!("observacoes" in r), `${r.id}: observações não entram no repositório público`);
+  assert.ok(!readFileSync(new URL("../public/banco.json", import.meta.url), "utf8").includes('"observacoes"'));
+});

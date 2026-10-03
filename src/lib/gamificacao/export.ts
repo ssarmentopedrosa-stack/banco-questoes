@@ -5,7 +5,8 @@
  * Gera dois arquivos:
  *  - público: enunciado, alternativas, figuras, domínio/ano/demanda, flags — SEM gabarito e SEM resumo de
  *    raciocínio (o resumo é revelado pelo servidor só depois da resposta);
- *  - gabarito: só para o servidor (alternativa oficial + resumo de raciocínio existente).
+ *  - gabarito: só para o servidor (alternativa oficial + resumo de raciocínio existente + explicação escrita
+ *    por IA (Chico), quando houver — ela revela a resposta, então NUNCA vai para o público).
  * Regras: anuladas e sem gabarito oficial ficam FORA; "precisa revisão" entram com `reviewRequired: true`
  * (o consumidor as exclui por padrão). Fora do escopo de Física (`out_of_scope`) e registros de duplicata
  * (`canonical_id`: a questão já entra pela canônica) também ficam FORA — mesma regra de `banco.hidden`.
@@ -42,6 +43,15 @@ type Q = {
   reasoning_status?: string | null;
   out_of_scope?: boolean;
   canonical_id?: string | null;
+  explanation?: {
+    markdown: string;
+    key_concept: string;
+    common_mistake: string;
+    confidence: string;
+    needs_review: boolean;
+    author: string;
+    status: string;
+  } | null;
 };
 export type BancoInput = { questions: Q[]; paths?: { nodes: string[] }[] };
 export type OficialInput = Record<string, View>;
@@ -74,7 +84,18 @@ export type ExportGabarito = {
   kind: typeof EXPORT_KIND_GABARITO;
   schema: number;
   version: string;
-  answers: Record<string, { answer: string; reasoning: string | null; reasoningInferred: boolean }>;
+  answers: Record<string, { answer: string; reasoning: string | null; reasoningInferred: boolean; explanation: ExplicacaoGabarito | null }>;
+};
+
+/** Explicação escrita por IA (Chico), aguardando revisão do professor. `needsReview` = confiança baixa. */
+export type ExplicacaoGabarito = {
+  markdown: string;
+  keyConcept: string;
+  commonMistake: string;
+  confidence: string;
+  needsReview: boolean;
+  author: string;
+  status: string;
 };
 
 const DEMANDS = new Set(["LOW", "MODERATE", "HIGH"]);
@@ -129,6 +150,17 @@ export function buildExports(banco: BancoInput, oficial: OficialInput): { public
       answer: v.answer,
       reasoning: usable ? String(q.reasoning_core) : null,
       reasoningInferred: Boolean(usable) && q.reasoning_status !== "DETERMINED",
+      explanation: q.explanation
+        ? {
+            markdown: q.explanation.markdown,
+            keyConcept: q.explanation.key_concept,
+            commonMistake: q.explanation.common_mistake,
+            confidence: q.explanation.confidence,
+            needsReview: Boolean(q.explanation.needs_review),
+            author: q.explanation.author,
+            status: q.explanation.status,
+          }
+        : null,
     };
   }
   const ids = new Set(questions.map((q) => q.id));

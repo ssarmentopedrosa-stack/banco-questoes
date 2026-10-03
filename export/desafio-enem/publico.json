@@ -1,7 +1,7 @@
 {
  "kind": "banco-fisica-enem/desafio-publico",
  "schema": 1,
- "version": "1.6d5b1bf1",
+ "version": "1.1498aa9c",
  "counts": {
   "total": 171,
   "reviewRequired": 66,
