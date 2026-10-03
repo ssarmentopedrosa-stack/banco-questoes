@@ -104,10 +104,8 @@ test("relações de aprendizagem: originais intactas, novas CANDIDATE e sem cicl
 
 test("interface e probable", () => {
   // 2020–2025: a interface foi resolvida na revisão do Chico (ver teste abaixo); restam as de 2015–2019
-  const iface = [
-    ...[[2015, [73, 85]], [2016, [89]]].flatMap(([y, ns]) => ns.map((n) => `ENEM-CN-${y}-REG-D1-C1-Q${n}`)),
-    ...[[2017, [104, 107, 115, 121]], [2018, [95, 118, 129]], [2019, [98]]].flatMap(([y, ns]) => ns.map((n) => `ENEM-CN-${y}-REG-D2-C7-Q${n}`)),
-  ];
+  // a interface de 2015–2019 também foi resolvida (revisão do Chico do lote R2.1): não resta nenhuma
+  const iface = [];
   assert.equal(banco.questions.filter((q) => q.domain === "INTERFACE_FISICA").length, iface.length);
   for (const id of iface) {
     const q = banco.questions.find((x) => x.id === id);
@@ -220,7 +218,7 @@ test("2015–2019: gabarito oficial, caderno azul, texto do PDF, revisões sinal
     assert.match(x.statement, new RegExp(`^Quest(ão|ÃO) ${num}\\b`, "i"), q.id);
     if (x.alternatives_status === "complete") assert.deepEqual(x.alternatives.map((a) => a.letter), ["A", "B", "C", "D", "E"], q.id);
     else {
-      assert.equal(q.review_required, true, `${q.id}: alternativas incompletas exigem revisão`);
+      assert.equal(q.review_required, !q.out_of_scope, `${q.id}: alternativas incompletas exigem revisão`);
       assert.ok(v.figures.some((f) => ["alternativas", "expressao"].includes(f.kind)), `${q.id}: alternativas incompletas sem recorte`);
     }
   }
@@ -260,9 +258,10 @@ const revisao = parseCsv(readFileSync(new URL("../artifacts/banco_fisica_enem/re
 const byId = Object.fromEntries(banco.questions.map((q) => [q.id, q]));
 const norm = (t) => (t ?? "").replace(/[\s-]+/g, "");
 
-test("revisão do Chico: 42 decisões aplicadas como revisão pedagógica (não validação humana)", () => {
-  assert.equal(revisao.length, 42);
-  for (const r of revisao) {
+const revisao1519 = parseCsv(readFileSync(new URL("../artifacts/banco_fisica_enem/revisao_chico/revisao-2015-2019.csv", import.meta.url), "utf8"));
+
+function checkRevisao(rows) {
+  for (const r of rows) {
     const q = byId[r.id];
     assert.ok(q, r.id);
     const rv = q.pedagogical_review;
@@ -280,15 +279,67 @@ test("revisão do Chico: 42 decisões aplicadas como revisão pedagógica (não 
     const m = r.dominio.match(/^([A-Z_]+) \/ ([A-Z_]+)(?: → ([A-Z_]+) \/ ([A-Z_]+))?/);
     assert.equal(q.domain, m[3] ?? m[1], r.id);
     assert.equal(q.content, m[4] ?? m[2], r.id);
-    const sub = r.dominio.match(/sub novo: ([A-Z_]+)/);
+    const sub = r.dominio.match(/sub (?:novo: )?([A-Z_]+)/);
     if (sub) assert.equal(q.subcontent, sub[1], r.id);
-    const h = r.habilidade.match(/(?:H\d+ → )?(H\d+) \((C\d)\)/);
+    const h = r.habilidade.match(/^(?:H\d+ → )?(H\d+)(?: \((C\d)\))?/);
     assert.equal(q.skill_code, h[1], r.id);
-    assert.equal(q.competency_code, h[2], r.id);
+    assert.equal(q.competency_code, h[2] ?? matriz.habilidades[h[1]].competency, r.id);
     assert.equal(q.taxonomy_status, "REVIEWED", r.id);
     assert.equal(q.matrix_status, "REVIEWED", r.id);
     assert.ok(q.review_reasons.some((x) => x.includes("revisado: Chico")), r.id);
   }
+}
+
+test("revisão do Chico: 42 decisões aplicadas como revisão pedagógica (não validação humana)", () => {
+  assert.equal(revisao.length, 42);
+  checkRevisao(revisao);
+});
+
+test("revisão do Chico 2015–2019: 76 decisões, interface resolvida, Q121 fora do escopo", () => {
+  assert.equal(revisao1519.length, 76);
+  assert.deepEqual(new Set(revisao1519.map((r) => r.id)), new Set(novas21.map((q) => q.id)));
+  checkRevisao(revisao1519);
+  const g = (id) => byId[id];
+  const out = g("ENEM-CN-2017-REG-D2-C7-Q121");
+  assert.ok(out && oficial[out.id], "registro mantido");
+  assert.equal(out.out_of_scope, true);
+  assert.equal(out.domain, "FORA_DO_ESCOPO");
+  assert.equal(out.review_required, false);
+  for (const c of banco.clusters) assert.ok(!c.canonical_ids.includes(out.id), c.name);
+  const q118 = g("ENEM-CN-2018-REG-D2-C7-Q118");
+  assert.equal(q118.discipline, "FISICA");
+  assert.deepEqual([q118.domain, q118.content], ["TERMODINAMICA", "DILATACAO_TERMICA"]);
+  const inter = revisao1519.filter((r) => r.decisao.startsWith("Interdisciplinar")).map((r) => r.id);
+  assert.equal(inter.length, 9);
+  for (const id of inter) assert.ok(g(id).interface_note && g(id).discipline === "INTERDISCIPLINAR", id);
+  for (const [id, h, c] of [["ENEM-CN-2017-REG-D2-C7-Q127", "H6", "C2"], ["ENEM-CN-2015-REG-D1-C1-Q79", "H18", "C5"], ["ENEM-CN-2019-REG-D2-C7-Q94", "H3", "C1"]]) {
+    assert.deepEqual([g(id).skill_code, g(id).competency_code], [h, c], id);
+  }
+  // ex-interface sem camadas avaliadas: não se inventam camadas, seguem em revisão
+  for (const r of revisao1519.filter((x) => x.grupo === "A" && !x.decisao.startsWith("Não é Física"))) {
+    const q = g(r.id);
+    assert.equal(q.review_required, true, r.id);
+    assert.equal(q.bloom ?? null, null, r.id);
+    assert.equal(q.prerequisites.length, 0, r.id);
+  }
+  // não sinalizadas continuam sem review_required; as de alternativas/expressões continuam
+  for (const r of revisao1519.filter((x) => x.grupo === "C")) assert.equal(g(r.id).review_required, false, r.id);
+  for (const r of revisao1519.filter((x) => x.grupo === "B")) assert.equal(g(r.id).review_required, true, r.id);
+  assert.equal(novas21.filter((q) => q.review_required).length, 27);
+});
+
+test("regra: sem marca de revisão = classificação inferida/pipeline, nunca validação humana", () => {
+  const visiveis = banco.questions.filter((q) => !q.out_of_scope && !q.canonical_id);
+  assert.equal(visiveis.length, 174);
+  assert.equal(visiveis.filter((q) => q.review_required).length, 66);
+  const semRevisao = visiveis.filter((q) => !q.pedagogical_review);
+  assert.equal(semRevisao.length, 60);
+  for (const q of semRevisao) {
+    assert.ok(!["REVIEWED"].includes(q.taxonomy_status) && !["REVIEWED"].includes(q.matrix_status), q.id);
+    if (q.source_batch) assert.ok(q.review_reasons.some((x) => /inferid/i.test(x)), q.id);
+  }
+  for (const q of banco.questions) assert.equal(q.validado ?? false, false, q.id);
+  assert.match(vocab.regra_status, /inferida e não validada/);
 });
 
 test("revisão do Chico: 2021-Q133 fora do escopo (mantida), duplicatas como variantes", () => {
@@ -346,6 +397,9 @@ test("vocabulário: cada conteúdo em um único domínio e valores novos incluí
   assert.deepEqual(where.FENOMENOS_ONDULATORIOS, ["ONDAS"]);
   assert.ok(vocab.dominios.TERMODINAMICA.DILATACAO_TERMICA);
   for (const s of ["FISSAO_NUCLEAR", "ENERGIA_NUCLEAR"]) assert.ok(vocab.dominios.FISICA_MODERNA.RADIOATIVIDADE.includes(s), s);
+  assert.ok(vocab.dominios.OPTICA.PROPAGACAO_RETILINEA && vocab.dominios.OPTICA.NATUREZA_DA_LUZ);
+  assert.ok(vocab.dominios.OPTICA.ESPECTRO_ELETROMAGNETICO.includes("COR_ADITIVA"));
+  assert.ok(vocab.decisoes.NATUREZA_DA_LUZ);
   for (const q of banco.questions) {
     if (["INTERFACE_FISICA", "FORA_DO_ESCOPO"].includes(q.domain)) continue;
     assert.ok(vocab.dominios[q.domain]?.[q.content], `${q.id}: ${q.domain}/${q.content}`);

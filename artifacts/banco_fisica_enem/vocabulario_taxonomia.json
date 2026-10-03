@@ -124,6 +124,7 @@
   },
   "OPTICA": {
    "ESPECTRO_ELETROMAGNETICO": [
+    "COR_ADITIVA",
     "INFRAVERMELHO"
    ],
    "ESPELHOS": [
@@ -132,6 +133,7 @@
    "NATUREZA_DA_LUZ": [
     "MODELOS_CORPUSCULAR_E_ONDULATORIO"
    ],
+   "PROPAGACAO_RETILINEA": [],
    "REFLEXAO": [
     "REFLEXAO_RETINIANA"
    ],
@@ -191,10 +193,27 @@
    "conteudo": "RADIOATIVIDADE",
    "origem": "revisado: Chico",
    "exemplo": "ENEM-CN-2023-REG-D2-C7-Q93"
+  },
+  {
+   "tipo": "content",
+   "valor": "PROPAGACAO_RETILINEA",
+   "dominio": "OPTICA",
+   "origem": "revisado: Chico (lote 2015–2019)",
+   "exemplo": "ENEM-CN-2015-REG-D1-C1-Q85"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "COR_ADITIVA",
+   "dominio": "OPTICA",
+   "conteudo": "ESPECTRO_ELETROMAGNETICO",
+   "origem": "revisado: Chico (lote 2015–2019)",
+   "exemplo": "ENEM-CN-2019-REG-D2-C7-Q98"
   }
  ],
  "decisoes": {
   "FENOMENOS_ONDULATORIOS": "domínio único ONDAS (difração, interferência e ondas estacionárias são fenômenos ondulatórios); ENEM-CN-2023-REG-D2-C7-Q112 saiu de OPTICA",
-  "ESPECTRO_ELETROMAGNETICO": "domínio único OPTICA; ENEM-CN-2017-REG-D2-C7-Q101 (inferida no R2.1) saiu de ONDAS"
- }
+  "ESPECTRO_ELETROMAGNETICO": "domínio único OPTICA; ENEM-CN-2017-REG-D2-C7-Q101 (inferida no R2.1) saiu de ONDAS",
+  "NATUREZA_DA_LUZ": "conteúdo de OPTICA criado na inferência do R2.1 (ENEM-CN-2019-REG-D2-C7-Q135, modelos ondulatório × corpuscular da luz) e aceito na revisão do Chico; fica no vocabulário"
+ },
+ "regra_status": "Itens sem pedagogical_review (status REVIEWED, origem \"revisado: Chico\") mantêm a classificação como inferida e não validada: taxonomy_status/matrix_status CANDIDATE/INFERRED/CONFIRMED do pipeline, nunca validação humana. REVIEWED também não é validação do professor."
 }

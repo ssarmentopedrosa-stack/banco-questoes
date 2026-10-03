@@ -70,3 +70,6 @@ Nenhuma questão nova está `validado = true`.
 - nenhuma aresta com registro oculto ou de interface.
 
 A revisão do Chico não conta como `validado = true`.
+- Lote 2015–2019: as 76 decisões do CSV aplicadas; 2017-Q121 fora do escopo; 2018-Q118 em TERMODINAMICA/DILATACAO_TERMICA; as 3 trocas de habilidade.
+- As ex-interface ficam sem camadas inventadas e seguem em revisão.
+- Regra "sem marca de revisão = inferida, não validada": nenhuma questão com `validado = true`.

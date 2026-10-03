@@ -2,7 +2,7 @@
 
 **Quem:** Chico Arretadim, bot de física, em 03/10/2026. É uma **revisão pedagógica automatizada, não validação humana do professor.**
 
-**Fonte:** `revisao_chico/revisao.csv` e `revisao.md`, copiados sem alteração. As decisões cobrem as 42 questões com `review_required = true` de 2020–2025. O lote R2.1 (2015–2019) não foi revisado.
+**Fonte:** `revisao_chico/revisao.csv` e `revisao.md`, copiados sem alteração. As decisões cobrem as 42 questões com `review_required = true` de 2020–2025. O lote R2.1 (2015–2019) foi revisado depois, em um commit à parte: ver `REVISAO_CHICO_2015_2019.md`.
 
 **Base:** este branch parte de `amplia-2015-2019` (PR #6) para evitar conflito em `public/banco.json`, `public/oficial-view.json` e `scripts/banco-integrity.test.mjs`. O diff só fica limpo depois do merge do #6.
 
@@ -46,4 +46,4 @@ Só as relações que dependem dos campos alterados (domínio, conteúdo, subcon
 - As camadas pedagógicas das 17 questões que eram de interface.
 - As habilidades alternativas que o Chico citou: ficaram registradas em `pedagogical_review.skill_alternative`, mas não foram aplicadas.
 - Enunciados e alternativas: nada foi reescrito ou inventado. OCR ruim e alternativas ausentes continuam marcados.
-- O lote R2.1 (2015–2019).
+- O lote R2.1 (2015–2019) ficou de fora deste commit e foi revisado depois (`REVISAO_CHICO_2015_2019.md`).

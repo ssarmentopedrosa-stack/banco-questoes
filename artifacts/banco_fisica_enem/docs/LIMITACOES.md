@@ -47,3 +47,8 @@ Textos de provas oficiais são atos oficiais. A classificação pedagógica e o 
 - Nas 17 questões que eram de interface, as camadas pedagógicas seguem sem classificação e as questões continuam em revisão.
 - O registro 2021-Q133 (Química) e os dois registros de duplicata ficam no JSON, mas fora da lista de Física. Os dois de duplicata estão ligados como variantes.
 - Detalhes em `REVISAO_CHICO_2020_2025.md`.
+
+## Revisão do Chico — lote 2015–2019
+- O Chico revisou as 76 questões do lote. 9 de interface viraram interdisciplinares, a 2018-Q118 virou Física e a 2017-Q121 ficou fora do escopo, sem ser apagada.
+- As 10 ex-interface seguem em revisão, porque as camadas pedagógicas não foram avaliadas.
+- Questões sem marca de revisão continuam com classificação inferida ou de pipeline, não validada (ver `REVISAO_CHICO_2015_2019.md`).
