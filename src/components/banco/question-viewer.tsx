@@ -11,6 +11,7 @@ export function QuestionViewer({ id, view, probable }: { id: string; view: Offic
   const partial = v?.extraction_status === "partial" || v?.alternatives_status !== "complete";
   const essential = Boolean(view?.essential_image_unavailable || view?.image_required);
   const figures = view?.figures ?? [];
+  const fullCrops = view?.full_crops ?? [];
 
   return (
     <section className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_280px]">
@@ -26,7 +27,7 @@ export function QuestionViewer({ id, view, probable }: { id: string; view: Offic
           {!v && <p>Não disponível na extração atual.</p>}
           {v && partial && <p className="mt-2 text-sm text-amber">Texto parcialmente disponível na extração oficial.</p>}
           {v?.text_source?.startsWith("ocr") && (
-            <p className="mt-1 text-sm text-amber">Texto obtido por OCR (camada de texto do PDF oficial corrompida): pode conter erros. O recorte integral do caderno abaixo é a referência.</p>
+            <p className="mt-1 text-sm text-amber">Texto obtido por OCR (camada de texto do PDF oficial corrompida): pode conter erros. {fullCrops.length > 0 ? "Confira em “Ver a questão inteira”, abaixo das figuras." : "O recorte integral do caderno abaixo é a referência."}</p>
           )}
           {v?.reconstruction_status && <p className="mt-1 text-sm text-mute">Reconstrução registrada: {v.reconstruction_status}</p>}
           {v && (
@@ -77,10 +78,34 @@ export function QuestionViewer({ id, view, probable }: { id: string; view: Offic
             </>
           )}
         </div>
+        {fullCrops.length > 0 && (
+          <details className="max-w-3xl rounded-xl border border-line p-3">
+            <summary className="min-h-11 cursor-pointer text-sm">Ver a questão inteira (recorte do caderno, referência do texto)</summary>
+            <ul className="mt-3 space-y-4">
+              {fullCrops.map((f) => (
+                <li key={f.src}>
+                  <figure className="rounded-xl border border-line bg-white p-2">
+                    <img
+                      src={f.src}
+                      alt={`${f.label} — ENEM ${v?.year ?? ""}, caderno ${f.source.booklet} (${f.source.color}), questão ${f.source.number}`}
+                      width={f.width}
+                      height={f.height}
+                      loading="lazy"
+                      className="mx-auto h-auto w-auto max-w-full"
+                    />
+                    <figcaption className="mt-2 text-xs text-slate-600">
+                      {f.label} · caderno {f.source.booklet} ({f.source.color}), questão {f.source.number}, página {f.source.page}
+                    </figcaption>
+                  </figure>
+                </li>
+              ))}
+            </ul>
+          </details>
+        )}
         <div>
           <h3 className="font-serif text-xl">Alternativas</h3>
           {!v || v.alternatives.length === 0 ? (
-            <p>Não disponível na extração atual.</p>
+            <p>{figures.some((f) => f.kind === "alternativas") ? "Em imagem, nas figuras acima." : "Não disponível na extração atual."}</p>
           ) : (
             <ol className="mt-2 max-w-3xl space-y-2">
               {v.alternatives.map((a) => (

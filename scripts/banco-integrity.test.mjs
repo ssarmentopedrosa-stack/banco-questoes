@@ -159,6 +159,15 @@ test("figuras: cada questão tem status e os arquivos existem", async () => {
       }
       referenced.add(f.src);
     }
+    // recorte da questão inteira guardado como referência (2021: figuras isoladas em `figures`)
+    for (const f of v.full_crops ?? []) {
+      assert.match(f.src, new RegExp(`^/figuras/${v.variants[0].year}/${id}-integral-\\d+\\.webp$`), id);
+      assert.ok(existsSync(new URL(`../public${f.src}`, import.meta.url)), f.src);
+      assert.equal(f.kind, "questao_integral", f.src);
+      assert.ok(f.width > 0 && f.height > 0 && f.label, f.src);
+      assert.ok(v.variants[0].start_page <= f.source.page && f.source.page <= v.variants[0].end_page, id);
+      referenced.add(f.src);
+    }
   }
   assert.equal(withFig, 118);
   for (const year of ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"]) {
@@ -189,8 +198,16 @@ test("2020–2023: gabarito oficial, anuladas fora, OCR de 2021 sinalizado", () 
       assert.match(x.text_source, /^ocr/, q.id);
       assert.equal(x.extraction_status, "partial", q.id);
       assert.equal(q.review_required, !q.out_of_scope, q.id);
-      assert.equal(v.figures_status, "recorte_integral_caderno_azul", q.id);
-      assert.ok(v.figures.some((f) => f.kind === "questao_integral"), q.id);
+      if (q.out_of_scope) {
+        assert.equal(v.figures_status, "recorte_integral_caderno_azul", q.id);
+        assert.ok(v.figures.some((f) => f.kind === "questao_integral"), q.id);
+      } else {
+        // figuras isoladas + alternativas em imagem; a questão inteira fica como referência
+        assert.equal(v.figures_status, "associada_caderno_azul", q.id);
+        assert.ok(v.figures.every((f) => f.kind !== "questao_integral"), q.id);
+        assert.ok(v.figures.some((f) => f.kind === "alternativas"), `${q.id}: alternativas em imagem`);
+        assert.ok(v.full_crops.length > 0 && v.full_crops.every((f) => f.kind === "questao_integral"), q.id);
+      }
     } else {
       assert.equal(x.text_source, "pdf_text_layer", q.id);
     }

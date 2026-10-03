@@ -55,6 +55,8 @@ export type OfficialView = {
   diagram_required: boolean;
   matching_status_record: string | null;
   figures?: OfficialFigure[];
+  /** Recorte da questão inteira guardado como referência (2021: o texto vem de OCR). */
+  full_crops?: OfficialFigure[];
   figures_status?: "associada_caderno_azul" | "sem_figura_na_prova" | "nao_associada_variante_sem_caderno_azul" | "recorte_integral_caderno_azul";
 };
 

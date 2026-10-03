@@ -31,7 +31,7 @@ Textos de provas oficiais são atos oficiais. A classificação pedagógica e o 
 ## Ampliação R2.0 (ENEM 2020–2023)
 - Só o caderno 7 AZUL de cada ano: sem casamento entre cores (`not_matched`).
 - Os PDFs não puderam ser baixados do INEP neste ambiente. O de 2020 tem metadados de terceiro (fisica.net/iText).
-- 2021: texto via OCR (camada de texto do PDF corrompida). Alternativas não transcritas; a referência é o recorte integral.
+- 2021: texto via OCR (camada de texto do PDF corrompida). Alternativas não transcritas: aparecem em imagem (recorte isolado das alternativas). A referência do texto é o recorte da questão inteira, guardado em `full_crops` e exibido recolhido na ficha. Ver `FIGURAS_2021_ISOLADAS.md`.
 - Competência e habilidade das novas questões são **inferidas** (`matrix_status = INFERRED`). Classificação `CANDIDATE`/`PARTIAL`.
 - Detalhes em `R2.0_AMPLIACAO_2020_2023.md`.
 
