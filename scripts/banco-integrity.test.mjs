@@ -59,9 +59,10 @@ test("relações de aprendizagem: originais intactas, novas CANDIDATE e sem cicl
   const isNew = (e) => e.origin === "R2.0" || e.origin === "R2.1";
   const isRev = (e) => e.origin === "REV-CHICO";
   const orig = banco.learningEdges.filter((e) => !isNew(e) && !isRev(e));
-  assert.equal(orig.length, 177);
-  assert.equal(orig.filter((e) => e.status === "CONFIRMED").length, 39);
-  assert.equal(orig.filter((e) => e.status === "CANDIDATE").length, 138);
+  // 177 originais menos as 31 da 2024-C6-Q91 (duplicata ligada à CAN-053; todas já existiam na CAN-053)
+  assert.equal(orig.length, 146);
+  assert.equal(orig.filter((e) => e.status === "CONFIRMED").length, 32);
+  assert.equal(orig.filter((e) => e.status === "CANDIDATE").length, 114);
   assert.equal(banco.cycles.length, 0);
   const ids = new Set(banco.questions.map((q) => q.id));
   const novosIds = new Set(NOVAS.map((q) => q.id));
@@ -77,7 +78,7 @@ test("relações de aprendizagem: originais intactas, novas CANDIDATE e sem cicl
       assert.ok(!q.out_of_scope && !q.canonical_id && q.domain !== "INTERFACE_FISICA", `aresta com registro fora do conjunto: ${end}`);
     }
   }
-  assert.equal(banco.pedagogicalEdges.filter((e) => !isNew(e) && !isRev(e)).length, 761);
+  assert.equal(banco.pedagogicalEdges.filter((e) => !isNew(e) && !isRev(e)).length, 761 - 87); // 87 originais eram da Q91
   assert.ok(banco.learningEdges.some((e) => e.origin === "R2.1") && banco.pedagogicalEdges.some((e) => e.origin === "R2.1"));
   // sem ciclos por tipo de relação
   const byType = {};
@@ -330,10 +331,10 @@ test("revisão do Chico 2015–2019: 76 decisões, interface resolvida, Q121 for
 
 test("regra: sem marca de revisão = classificação inferida/pipeline, nunca validação humana", () => {
   const visiveis = banco.questions.filter((q) => !q.out_of_scope && !q.canonical_id);
-  assert.equal(visiveis.length, 174);
+  assert.equal(visiveis.length, 173);
   assert.equal(visiveis.filter((q) => q.review_required).length, 66);
   const semRevisao = visiveis.filter((q) => !q.pedagogical_review);
-  assert.equal(semRevisao.length, 60);
+  assert.equal(semRevisao.length, 59);
   for (const q of semRevisao) {
     assert.ok(!["REVIEWED"].includes(q.taxonomy_status) && !["REVIEWED"].includes(q.matrix_status), q.id);
     if (q.source_batch) assert.ok(q.review_reasons.some((x) => /inferid/i.test(x)), q.id);
@@ -350,7 +351,7 @@ test("revisão do Chico: 2021-Q133 fora do escopo (mantida), duplicatas como var
   assert.equal(q.review_required, false);
   assert.ok(q.exclusion_reason);
   for (const c of banco.clusters) assert.ok(!c.canonical_ids.includes(q.id), c.name);
-  for (const [dup, can, ms] of [["ENEM-CN-2024-REG-D2-C6-Q92", "ENEM-CN-2024-D2-CAN-083", "confirmed"], ["ENEM-CN-2025-REG-D2-C5-Q101", "ENEM-CN-2025-D2-CAN-010", "probable"]]) {
+  for (const [dup, can, ms] of [["ENEM-CN-2024-REG-D2-C6-Q91", "ENEM-CN-2024-D2-CAN-053", "confirmed"], ["ENEM-CN-2024-REG-D2-C6-Q92", "ENEM-CN-2024-D2-CAN-083", "confirmed"], ["ENEM-CN-2025-REG-D2-C5-Q101", "ENEM-CN-2025-D2-CAN-010", "probable"]]) {
     const d = byId[dup];
     assert.equal(d.canonical_id, can);
     assert.equal(d.matching_status, ms);
@@ -361,6 +362,8 @@ test("revisão do Chico: 2021-Q133 fora do escopo (mantida), duplicatas como var
     assert.equal(d.domain, byId[can].domain);
     assert.equal(d.skill_code, byId[can].skill_code);
     for (const c of banco.clusters) assert.ok(!c.canonical_ids.includes(dup));
+    assert.ok(oficial[can].figures.length > 0, `${can} tem figura para a variante`);
+    assert.ok(!banco.paths.some((p) => p.nodes.includes(dup)), dup);
   }
   // 2024–2025: motivos e nota preenchidos
   for (const id of ["ENEM-CN-2024-D2-CAN-083", "ENEM-CN-2024-REG-D2-C6-Q92", "ENEM-CN-2025-D2-CAN-004", "ENEM-CN-2025-D2-CAN-010", "ENEM-CN-2025-REG-D2-C5-Q101"]) {

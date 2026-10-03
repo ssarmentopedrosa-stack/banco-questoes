@@ -47,3 +47,10 @@ Só as relações que dependem dos campos alterados (domínio, conteúdo, subcon
 - As habilidades alternativas que o Chico citou: ficaram registradas em `pedagogical_review.skill_alternative`, mas não foram aplicadas.
 - Enunciados e alternativas: nada foi reescrito ou inventado. OCR ruim e alternativas ausentes continuam marcados.
 - O lote R2.1 (2015–2019) ficou de fora deste commit e foi revisado depois (`REVISAO_CHICO_2015_2019.md`).
+
+## Duplicata 2024-C6-Q91 → CAN-053 (pedido do Silas, 03/10/2026)
+- **Situação:** a `ENEM-CN-2024-REG-D2-C6-Q91` só existe no caderno cinza e não tinha figura (`nao_associada_variante_sem_caderno_azul`). O PR #2 já tinha apontado que ela é duplicata da azul Q131 (CAN-053).
+- **Conferência:** o enunciado é 0,989 igual ao da azul (0,982–0,986 frente aos outros cadernos), com o mesmo gabarito (B) e a mesma classificação.
+- **Vínculo:** feito como na Q92/CAN-083. O registro ganha `canonical_id`, `matching_status = confirmed` e `matching_origin`, e a variante entra em `oficial-view[CAN-053].variants`. A ficha passa a mostrar a figura da CAN-053.
+- **Limpeza:** todas as 42 arestas de aprendizagem e as 338 pedagógicas da Q91 já existiam, iguais, na CAN-053. Foram removidas, junto com os 137 caminhos que passavam pela Q91. Entre elas havia 31 arestas de aprendizagem originais (7 CONFIRMED) e 87 pedagógicas originais; o teste foi ajustado.
+- **Script:** `revisao_chico/aplicar_vinculo_q91.py`.
