@@ -1,862 +1,2401 @@
 {
  "kind": "banco-fisica-enem/desafio-gabarito",
  "schema": 1,
- "version": "1.6d5b1bf1",
+ "version": "1.1498aa9c",
  "answers": {
   "ENEM-CN-2015-REG-D1-C1-Q49": {
    "answer": "D",
    "reasoning": "Encadear potencia util do painel e energia cinetica final para obter o tempo.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o painel entrega uma potência útil constante; essa energia vira energia cinética do carro (sem resistência do ar).\n\n**Resolução:**\n- Potência útil: P = 0,30 × 1 000 W/m² × 9,0 m² = 2 700 W.\n- Velocidade final: 108 km/h ÷ 3,6 = 30 m/s.\n- Energia cinética final: Ec = ½·200·30² = 90 000 J.\n- Tempo: t = Ec/P = 90 000/2 700 ≈ 33 s.\n\n**Por que D:** 33 s é o tempo para fornecer 9×10⁴ J com 2,7 kW.\n\n**Distratoras:** C (10 s) sai de usar a potência total do Sol (9 000 W), sem o rendimento de 30%. Esquecer de converter km/h para m/s leva a um valor muito acima de todas as opções.",
+    "keyConcept": "potência útil e energia cinética",
+    "commonMistake": "Usar a potência solar incidente (9 kW) em vez da potência útil (30% dela).",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q50": {
    "answer": "B",
    "reasoning": "Localizar no grafico o filtro com pico na faixa de λ calculada.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** converter os limites de frequência da faixa UV-B em comprimento de onda (λ = c/f) e comparar com os picos de absorção dos filtros.\n\n**Resolução:**\n- λ = 3,0×10⁸ / 9,34×10¹⁴ ≈ 3,21×10⁻⁷ m = 321 nm.\n- λ = 3,0×10⁸ / 1,03×10¹⁵ ≈ 2,91×10⁻⁷ m = 291 nm.\n- A UV-B vai, portanto, de ≈ 291 nm a 321 nm.\n- No gráfico, o filtro com pico de absorbância nessa faixa (≈ 310 nm) é o IV.\n\n**Por que B:** o filtro IV absorve ao máximo dentro da UV-B.\n\n**Distratoras:** III e V têm picos abaixo de 290 nm (UV-C). II (≈ 355 nm) e I (≈ 420 nm) estão na UV-A ou além. Quem esquece que λ e f são inversamente proporcionais troca as faixas.",
+    "keyConcept": "relação λ = c/f no espectro UV",
+    "commonMistake": "Achar que frequência maior corresponde a comprimento de onda maior.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q53": {
    "answer": "A",
    "reasoning": "Combinar a inversao de fase e o caminho 2E para a espessura minima.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** interferência em película fina. Só a reflexão na interface ar/óleo inverte a fase (equivale a λ/2). O raio que atravessa a película percorre um caminho extra de 2E.\n\n**Resolução:**\n- Defasagem total entre os raios 2 e 5: (caminho extra 2E) + (λ/2 da inversão).\n- Interferência construtiva: a defasagem total deve ser um múltiplo inteiro de λ. Com a menor espessura, 2E + λ/2 = λ ⇒ 2E = λ/2 ⇒ E = λ/4.\n\n**Por que A:** λ/4 é a espessura mínima que compensa a meia onda perdida na inversão de fase.\n\n**Distratoras:** B (λ/2) ignora a inversão de fase e exige 2E = λ, que não é o mínimo pedido. D (λ) confunde a espessura com o caminho total.",
+    "keyConcept": "interferência construtiva em película fina",
+    "commonMistake": "Esquecer a inversão de fase na reflexão ar/óleo e impor 2E = λ.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q57": {
    "answer": "C",
    "reasoning": "Reconhecer que a energia fica armazenada no trabalho realizado sobre o gas ao liquefaze-lo.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** para liquefazer o nitrogênio é preciso realizar trabalho sobre o gás (compressão e refrigeração feitas com a energia excedente). Essa energia fica armazenada e volta quando o líquido ferve e se expande nas turbinas.\n\n**Resolução:** a energia elétrica excedente aciona o processo de resfriamento e liquefação. Ou seja, o sistema elétrico realiza trabalho sobre o nitrogênio. Na ebulição, o gás se expande e devolve parte dessa energia como trabalho nas turbinas.\n\n**Por que C:** o armazenamento acontece quando se realiza trabalho sobre o N₂ durante a liquefação.\n\n**Distratoras:** A e B descrevem a etapa de recuperação (ebulição e expansão), não a de armazenamento. E (liberar calor para a vizinhança) é energia que sai do sistema, não energia guardada. D é só uma etapa de purificação do ar.",
+    "keyConcept": "armazenamento de energia por trabalho termodinâmico",
+    "commonMistake": "Confundir a etapa de recuperação (expansão) com a de armazenamento.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q63": {
    "answer": "D",
    "reasoning": "Ar admitido esfria a volume constante e a pressao interna fica menor que a externa.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** ao abrir a porta, entra ar a temperatura ambiente. Fechada a porta, esse ar esfria a volume constante e a pressão cai (p/T constante).\n\n**Resolução:** com V e quantidade de ar fixos, p ∝ T (em kelvin). O ar resfria, a pressão interna fica menor que a externa, e a diferença de pressão empurra a porta contra a geladeira. Por isso é preciso uma força extra para abrir.\n\n**Por que D:** a pressão interna fica abaixo da externa.\n\n**Distratoras:** A está errada porque o volume da geladeira não muda. E: a temperatura volta ao valor de antes, não fica inferior a ele. A queda de temperatura é a causa, mas o efeito mecânico é a diferença de pressão. C: a força do ímã não muda.",
+    "keyConcept": "transformação isovolumétrica (p ∝ T)",
+    "commonMistake": "Atribuir a dificuldade ao ímã ou à temperatura em si, e não à diferença de pressão.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q64": {
    "answer": "B",
    "reasoning": "Identificar o trabalho total com a variacao de energia cinetica.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** teorema trabalho–energia. O trabalho total realizado é igual à variação da energia cinética.\n\n**Resolução:**\n- Bolt parte do repouso e chega a 12 m/s.\n- W = ΔEc = ½·m·v² = ½·90·12² = ½·90·144 = 6 480 J ≈ 6,5×10³ J.\n\n**Por que B:** 6 480 J arredonda para 6,5×10³ J.\n\n**Distratoras:** D (1,3×10⁴ J) esquece o fator ½ (90·144 = 12 960 J). A (5,4×10² J) usa v em vez de v² (½·90·12 = 540 J).",
+    "keyConcept": "teorema trabalho–energia cinética",
+    "commonMistake": "Esquecer o ½ ou não elevar a velocidade ao quadrado.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q65": {
    "answer": "D",
    "reasoning": "Calcular o equilibrio inicial e comparar com a temperatura apos seis horas no quadro.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** primeiro achar a temperatura de equilíbrio da mistura. Depois calcular a variação percentual após 6 h.\n\n**Resolução:**\n- Mistura (mesma substância): T_eq = (1/3)·10 + (2/3)·40 = 3,3 + 26,7 = 30 °C.\n- Após 6 h, 16 °C: variação = 30 − 16 = 14 °C.\n- Percentual: 14/30 ≈ 0,467 = 46,7% → faixa de 40% a 55%.\n\n**Por que D:** 46,7% cai na categoria D.\n\n**Distratoras:** quem usa a média simples (25 °C) acha 9/25 = 36% (C). Quem toma 40 °C como referência acha 60% (E).",
+    "keyConcept": "equilíbrio térmico e variação percentual",
+    "commonMistake": "Usar a média aritmética simples das temperaturas, ignorando as proporções 1/3 e 2/3.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q68": {
    "answer": "E",
    "reasoning": "Escolher o esquema com tudo em paralelo e o interruptor em serie apenas com a lampada.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** numa instalação residencial, todos os aparelhos ficam em paralelo, ligados à tensão da rede. O interruptor fica em série apenas com o que ele deve controlar.\n\n**Resolução:** as duas tomadas e a lâmpada devem estar em paralelo entre os dois fios da rede. O interruptor precisa estar no ramo da lâmpada, de modo que, aberto, só ela se apague.\n\n**Por que E:** as duas tomadas são ligadas direto aos fios da rede, e o interruptor fica no trecho que alimenta apenas a lâmpada.\n\n**Distratoras:** em A o interruptor está no fio principal e desliga tudo. Em B ele desliga também uma das tomadas. Em C e D há tomadas em série, que não recebem a tensão nominal.",
+    "keyConcept": "associação em paralelo e função do interruptor",
+    "commonMistake": "Colocar o interruptor no fio principal, o que desliga todos os aparelhos.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q70": {
    "answer": "B",
    "reasoning": "Encadear Hooke, energia elastica e alcance para obter a razao.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** com a mesma força F, a borracha mais dura deforma menos. A energia elástica armazenada é Ep = F²/(2k), e ela vira energia cinética do projétil.\n\n**Resolução:**\n- x = F/k ⇒ Ep = ½·k·x² = F²/(2k).\n- ½·m·v² = F²/(2k) ⇒ v² ∝ 1/k.\n- Alcance horizontal (mesmo ângulo): D = v²·sen(2θ)/g ∝ v² ∝ 1/k.\n- k_d = 2·k_m ⇒ D_d/D_m = k_m/k_d = 1/2.\n\n**Por que B:** com força igual, o estilingue duro armazena metade da energia e alcança metade da distância.\n\n**Distratoras:** D (2) vale para deformação igual, não para força igual. A (1/4) eleva a razão ao quadrado sem necessidade.",
+    "keyConcept": "energia potencial elástica com força fixa",
+    "commonMistake": "Supor deformação igual e concluir que o estilingue mais duro lança mais longe.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q73": {
    "answer": "C",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** reação em cadeia na fissão nuclear. Cada núcleo de ²³⁵U que se fissiona libera nêutrons, e esses nêutrons podem provocar a fissão de outros núcleos.\n\n**Resolução:** um nêutron atinge um ²³⁵U, o núcleo se divide em dois menores, libera energia e 2 a 3 nêutrons. Cada nêutron novo pode fissionar outro núcleo, e assim a reação se multiplica.\n\n**Por que C:** o caráter \"em cadeia\" vem dos nêutrons liberados que bombardeiam outros núcleos.\n\n**Distratoras:** A: o calor não provoca novas fissões. D e E falam em fusão, que é outro processo. B inventa uma conversão de ²³⁸U em ²³⁵U.",
+    "keyConcept": "fissão nuclear em cadeia",
+    "commonMistake": "Confundir fissão com fusão ou atribuir a continuidade ao calor liberado.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q75": {
    "answer": "B",
    "reasoning": "Identificar a refracao em camadas de ar com temperaturas diferentes.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** miragens resultam da refração da luz em camadas de ar com temperaturas (e índices de refração) diferentes.\n\n**Resolução:** uma camada de ar quente sobre ar frio junto ao mar tem índice de refração variável com a altura. A luz que vem da água fria é encurvada gradualmente ao atravessar essas camadas e chega ao observador por vários ângulos, formando a falsa imagem.\n\n**Por que B:** o desvio da luz entre meios de índices diferentes é refração.\n\n**Distratoras:** D (reflexão) é a confusão mais comum: a imagem \"parece\" um reflexo, mas a causa é o encurvamento da luz pela variação do índice. Difração e ressonância não se aplicam a essa escala.",
+    "keyConcept": "refração em meio com índice variável",
+    "commonMistake": "Achar que a miragem é uma reflexão comum.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q79": {
    "answer": "A",
    "reasoning": "Alto calor especifico absorve mais calor com pequena variacao de temperatura.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** um bom fluido arrefecedor absorve muito calor sofrendo pouca variação de temperatura, ou seja, tem alto calor específico.\n\n**Resolução:** Q = m·c·ΔT. Para a mesma massa e o mesmo aquecimento ΔT, quanto maior c, maior o calor Q retirado do motor e levado ao radiador.\n\n**Por que A:** alto calor específico maximiza o calor transportado por ciclo.\n\n**Distratoras:** C: baixa condutividade dificultaria a troca de calor. D: ebulição fácil faria o fluido virar vapor. B: não há fusão no processo. E: dilatação alta seria um problema, não uma vantagem.",
+    "keyConcept": "calor específico",
+    "commonMistake": "Pensar que um isolante (baixa condutividade) seria melhor para refrigerar.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q82": {
    "answer": "E",
    "reasoning": "Ler na figura os bracos de cada forca em oitavos da barra.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** equilíbrio de rotação. Em relação ao apoio, o momento do peso do arroz é igual ao momento do peso da barra, que atua no centro da barra (homogênea).\n\n**Resolução:**\n- Divida a barra em 8 partes de comprimento u. Pela figura, o apoio está a 3u da extremidade onde pende o arroz.\n- Centro da barra: 4u da extremidade, logo 1u do apoio.\n- 5,00·g·3u = M·g·1u ⇒ M = 15,0 kg.\n\n**Por que E:** o braço do arroz é três vezes maior que o do peso da barra.\n\n**Distratoras:** C (5 kg) supõe braços iguais. A (3 kg) inverte a razão dos braços.",
+    "keyConcept": "momento de força (alavanca)",
+    "commonMistake": "Esquecer que o peso da barra atua no seu centro de massa.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q85": {
    "answer": "B",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a câmara escura forma uma imagem invertida num anteparo por propagação retilínea da luz. No olho, a imagem também se forma invertida no fundo do globo ocular.\n\n**Resolução:** fazendo a analogia, o orifício corresponde à pupila (por onde a luz entra) e o tecido onde a imagem se projeta corresponde à retina.\n\n**Por que B:** a retina é a \"tela\" onde a imagem se forma.\n\n**Distratoras:** C (pupila) é o orifício, não o anteparo. E (cristalino) é a lente que focaliza. A (íris) controla a abertura.",
+    "keyConcept": "câmara escura × olho humano",
+    "commonMistake": "Confundir o anteparo (retina) com a abertura (pupila).",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q86": {
    "answer": "D",
    "reasoning": "Reconhecer o timbre como responsavel pela diferenca de forma de onda.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** timbre é a qualidade do som que distingue fontes diferentes emitindo a mesma nota. Ele depende da forma da onda (composição de harmônicos).\n\n**Resolução:** mesma nota significa mesma frequência fundamental, ou seja, mesma altura. O que muda entre flauta e piano é o conjunto de harmônicos, isto é, a forma da onda.\n\n**Por que D:** timbre, associado ao formato da onda.\n\n**Distratoras:** E: a altura é a mesma (mesma nota). A e B: intensidade ou potência não distinguem os instrumentos. C: a velocidade do som no ar é a mesma.",
+    "keyConcept": "timbre",
+    "commonMistake": "Confundir timbre com altura (frequência).",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2015-REG-D1-C1-Q88": {
    "answer": "C",
    "reasoning": "Cada torre define uma circunferencia; tres circunferencias determinam um ponto.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** cada torre, pelo tempo de resposta, informa a distância até o celular. Isso coloca o aparelho sobre uma circunferência centrada na torre (localização por trilateração).\n\n**Resolução:**\n- 1 torre: o celular está em algum ponto de uma circunferência.\n- 2 torres: duas circunferências se cruzam, em geral, em 2 pontos.\n- 3 torres: a terceira circunferência escolhe um único ponto.\n\n**Por que C:** três torres são o mínimo para localizar o aparelho no plano.\n\n**Distratoras:** B (duas) esquece que restam dois pontos possíveis. D e E sobram.",
+    "keyConcept": "trilateração com sinais eletromagnéticos",
+    "commonMistake": "Achar que duas distâncias bastam para um ponto único no plano.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q47": {
    "answer": "C",
    "reasoning": "Calcular a potencia teorica e comparar com a instalada.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a potência teórica de uma hidrelétrica é a energia potencial da água que cai por unidade de tempo: P = ρ·Q·g·h.\n\n**Resolução:**\n- P_teórica (por unidade) = 1 000 · 690 · 10 · 118,4 = 816 960 000 W = 816,96 MW.\n- P_instalada por unidade = 14 000 MW / 20 = 700 MW.\n- Potência não aproveitada = 816,96 − 700 = 116,96 MW.\n\n**Por que C:** é a diferença entre a potência teórica e a instalada de cada unidade.\n\n**Distratoras:** D (816,96 MW) é a potência teórica, sem subtrair a instalada. E mistura a potência total da usina com a de uma unidade.",
+    "keyConcept": "potência hidráulica P = ρQgh",
+    "commonMistake": "Esquecer de dividir a potência instalada total pelas 20 unidades.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q49": {
    "answer": "D",
    "reasoning": "Escolher o grafico f(t) coerente com o efeito Doppler.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** efeito Doppler com a fonte em movimento. Na aproximação, o observador percebe frequência maior que a emitida (f_A); no afastamento, menor.\n\n**Resolução:** enquanto a ambulância se aproxima com velocidade constante, a frequência percebida é constante e maior que f_A. Ao passar pelo observador, ela cai rapidamente. No afastamento, fica constante e menor que f_A.\n\n**Por que D:** o gráfico mostra um patamar acima de f_A, uma transição na passagem e um patamar abaixo de f_A.\n\n**Distratoras:** C inverte a ordem (menor antes, maior depois). B confunde frequência com intensidade (pico na passagem). E ignora o efeito Doppler. A sugere uma oscilação que não existe.",
+    "keyConcept": "efeito Doppler (fonte móvel)",
+    "commonMistake": "Confundir a variação de frequência com a de intensidade, imaginando um pico na passagem.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q54": {
    "answer": "C",
    "reasoning": "Usar a potencia termica dissipada (dobro da eletrica) para obter a vazao.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o calor dissipado por segundo (potência térmica) é absorvido pela água de refrigeração: P = (m/t)·c·ΔT.\n\n**Resolução:**\n- Potência dissipada como calor = 2 × 1,0 MW = 2,0×10⁶ W.\n- ΔT máximo = 3 °C; c = 4 kJ/(kg·°C) = 4 000 J/(kg·°C).\n- Fluxo mínimo: m/t = 2,0×10⁶ / (4 000 · 3) ≈ 167 kg/s.\n\n**Por que C:** é o menor fluxo que mantém o aquecimento da água em até 3 °C.\n\n**Distratoras:** B (84) usa só 1 MW, a potência elétrica, e não o calor dissipado. D (250) soma 1 + 2 = 3 MW.",
+    "keyConcept": "calor sensível por unidade de tempo",
+    "commonMistake": "Usar a potência elétrica da usina no lugar da potência dissipada como calor.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q55": {
    "answer": "C",
    "reasoning": "Relacionar o grafico de resposta com o diagrama de faixas do espectro sonoro.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** leitura conjunta de dois gráficos: a resposta de frequência para cada distância e as faixas do espectro sonoro.\n\n**Resolução:** na Figura 1, nas frequências baixas (até ≈ 250 Hz, faixas subgrave e grave da Figura 2), as curvas se separam muito. A 3 mm o nível é ≈ +14 dB; a 60 mm cai para ≈ −5 a −9 dB. Acima de ≈ 2 kHz (médias altas e agudas), as curvas praticamente coincidem.\n\n**Por que C:** aumentar a distância reduz a intensidade principalmente nos graves.\n\n**Distratoras:** B: nos agudos as curvas coincidem, ou seja, não há diminuição relevante. A, D e E dizem \"aumenta\", e o gráfico não mostra aumento com a distância em nenhuma faixa.",
+    "keyConcept": "leitura de gráficos de nível sonoro × frequência",
+    "commonMistake": "Achar que a perda com a distância é igual em todas as frequências.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q57": {
    "answer": "A",
    "reasoning": "Afastamento: eco mais fraco, tempo de retorno maior e frequencia percebida menor.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a mariposa se afasta. O eco fica mais fraco, demora mais a voltar e, pelo efeito Doppler, volta com frequência menor.\n\n**Resolução:**\n- Distância maior: o pulso percorre um caminho maior e se espalha mais, então a intensidade diminui.\n- O tempo de retorno aumenta (t = 2d/v).\n- Refletor se afastando: a frequência percebida diminui.\n\n**Por que A:** intensidade diminuída, tempo de retorno aumentado e frequência diminuída.\n\n**Distratoras:** D acerta intensidade e tempo, mas troca o sinal do Doppler (frequência aumentada só na aproximação). B e E dizem que a intensidade aumenta, o que contradiz o afastamento.",
+    "keyConcept": "eco e efeito Doppler",
+    "commonMistake": "Trocar o sentido do Doppler: no afastamento a frequência percebida diminui.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q59": {
    "answer": "B",
    "reasoning": "Identificar associacoes em serie e em paralelo para cada par de terminais.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** associação de resistores. O ohmímetro mede a resistência equivalente entre os dois pontos em que está ligado.\n\n**Resolução** (figura: 5 kΩ e 20 kΩ entre A e B; 10 kΩ de A a C e de C a B):\n- Entre A e B: 5 kΩ ∥ 20 kΩ ∥ (10 + 10) kΩ. 1/R_AB = 1/5 + 1/20 + 1/20 = 6/20 ⇒ R_AB = 10/3 kΩ.\n- Entre B e C: 10 kΩ (ramo BC) em paralelo com [(5 ∥ 20) + 10] = 4 + 10 = 14 kΩ. R_BC = 10·14/24 = 35/6 kΩ.\n- Razão: R_AB/R_BC = (10/3)/(35/6) = 60/105 = 4/7.\n\n**Por que B:** 4/7.\n\n**Distratoras:** A (1) supõe simetria entre AB e BC, que não existe. As frações em 27 e 81 vêm de somar em série resistores que estão em paralelo.",
+    "keyConcept": "resistência equivalente (série/paralelo)",
+    "commonMistake": "Somar em série resistores que estão em paralelo entre os mesmos pontos.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q63": {
    "answer": "D",
    "reasoning": "Escolher o esboco v × d com patamar e queda concava.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** duas etapas. No tempo de reação a velocidade é constante. Na frenagem, com desaceleração constante, v² = v₀² − 2·a·d.\n\n**Resolução:**\n- Etapa 1: v = v₀ constante enquanto o carro anda a distância de reação, o que dá um patamar horizontal no gráfico v × d.\n- Etapa 2: v = √(v₀² − 2·a·d). Em função da distância, isso é uma curva, não uma reta: a velocidade cai devagar no início e mais rápido perto da parada.\n\n**Por que D:** patamar seguido de uma curva descendente que termina em v = 0.\n\n**Distratoras:** B tem o patamar, mas a queda é uma reta (isso valeria para v × t, não para v × d). A e C ignoram o tempo de reação. E começa do repouso.",
+    "keyConcept": "MUV: v² = v₀² − 2a·d",
+    "commonMistake": "Desenhar a frenagem como reta no gráfico v × d, confundindo-o com v × t.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q66": {
    "answer": "B",
    "reasoning": "Seguir a cadeia de engrenagens da figura ate o ponteiro.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** em engrenagens acopladas pelos dentes, f·N é igual nas duas (N = número de dentes). Engrenagens no mesmo eixo têm a mesma frequência.\n\n**Resolução** (figura: A no eixo do motor engrena em B; C, coaxial a B, engrena em D, que leva o ponteiro):\n- f_B = 18 · 24/72 = 6 RPM; f_C = f_B = 6 RPM.\n- f_D = 6 · 36/108 = 2 RPM.\n\n**Por que B:** o ponteiro gira com a frequência de D, 2 RPM.\n\n**Distratoras:** D (81) e E (162) multiplicam pelas razões invertidas, como se a engrenagem maior girasse mais rápido.",
+    "keyConcept": "transmissão por engrenagens (f·N constante)",
+    "commonMistake": "Inverter a razão de dentes, achando que a engrenagem maior gira mais rápido.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q74": {
    "answer": "A",
    "reasoning": "Identificar ramos e nos do circuito para comparar as correntes.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** as três lâmpadas idênticas estão em paralelo com a bateria; cada uma recebe a mesma corrente i. A corrente em cada ponto é a soma das correntes dos ramos que passam por ele.\n\n**Resolução** (figura):\n- A e E estão no fio principal: I_A = I_E = 3i.\n- B está no fio esquerdo, acima da derivação de L₃: carrega a corrente de L₁ e L₂, I_B = 2i.\n- C está no fio que sai só de L₁ e D no que sai só de L₂: I_C = I_D = i.\n\n**Por que A:** I_A = I_E e I_C = I_D.\n\n**Distratoras:** B inclui I_B entre as iguais a I_A, mas I_B = 2i ≠ 3i. C e D esquecem que C e D também têm correntes iguais.",
+    "keyConcept": "conservação da corrente em ramos paralelos",
+    "commonMistake": "Achar que a corrente é a mesma em todo o fio lateral, sem descontar as derivações.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q77": {
    "answer": "C",
    "reasoning": "Extrair velocidades antes e depois da colisao do quadro.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** colisão perfeitamente inelástica num trilho sem atrito. A quantidade de movimento se conserva.\n\n**Resolução:**\n- Antes: o carrinho 1 vai de 15,0 para 30,0 cm em 1,0 s ⇒ v₁ = 15 cm/s; o carrinho 2 está parado.\n- Depois: os dois juntos vão de 75,0 para 90,0 cm em 3,0 s ⇒ v = 5 cm/s.\n- 150·15 = (150 + m₂)·5 ⇒ 150 + m₂ = 450 ⇒ m₂ = 300 g.\n\n**Por que C:** 300,0 g.\n\n**Distratoras:** D (450 g) é a massa total, não a do carrinho 2. Usar intervalos de tempo errados na tabela também leva a valores distorcidos.",
+    "keyConcept": "conservação da quantidade de movimento",
+    "commonMistake": "Dar como resposta a massa total do conjunto em vez de m₂.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q82": {
    "answer": "B",
    "reasoning": "Relacionar o fator 2 de cada polia movel com o atrito estatico maximo.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** para mover o navio é preciso vencer o atrito estático máximo. Cada polia móvel ideal divide por 2 a força necessária.\n\n**Resolução:**\n- Atrito estático máximo: μ·N = 0,8 · 3 000 · 10 = 24 000 N.\n- Com n polias móveis: F = 24 000/2ⁿ ≤ 400 N ⇒ 2ⁿ ≥ 60.\n- 2⁵ = 32 (não basta); 2⁶ = 64 (basta) ⇒ n = 6.\n\n**Por que B:** 6 é o número mínimo de polias móveis.\n\n**Distratoras:** A (3) e C (7) erram a potência de 2 ou somam a polia fixa. E (10) supõe que cada polia divide a força só por um fator pequeno.",
+    "keyConcept": "associação de polias móveis (F = P/2ⁿ)",
+    "commonMistake": "Achar que cada polia reduz a força linearmente, e não à metade.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q84": {
    "answer": "A",
    "reasoning": "Maior condutividade do aluminio transfere calor mais rapido ao gelo.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** as duas bandejas estão na mesma temperatura (equilíbrio com o ambiente). A sensação de \"mais frio\" do alumínio vem da sua condutividade térmica maior.\n\n**Resolução:** o gelo derrete recebendo calor da bandeja. O alumínio conduz calor muito melhor que o plástico, então entrega calor ao gelo mais depressa.\n\n**Por que A:** derrete mais rápido no alumínio, por causa da maior condutividade.\n\n**Distratoras:** B parte da ideia errada de que o plástico está mais quente (as duas estão à mesma temperatura). C e D trocam condutividade por capacidade térmica ou calor específico. E ignora a diferença de condução.",
+    "keyConcept": "condutividade térmica",
+    "commonMistake": "Confiar no tato e achar que o metal está mais frio.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q86": {
    "answer": "A",
    "reasoning": "Pontos de maior aquecimento correspondem a ventres consecutivos.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** numa onda estacionária, a energia se concentra nos ventres (amplitude máxima). Nos nós a amplitude é nula. A manteiga derrete nos ventres.\n\n**Resolução:** na figura, I, III e V são ventres e II e IV são nós. Dois ventres consecutivos são I e III (ou III e V).\n\n**Por que A:** I e III são pontos consecutivos de manteiga derretida.\n\n**Distratoras:** D (II e IV) são nós, onde não há aquecimento. B e E pulam pontos ou misturam nó com ventre.",
+    "keyConcept": "onda estacionária: nós e ventres",
+    "commonMistake": "Confundir nós com ventres.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q88": {
    "answer": "B",
    "reasoning": "Campo alternado faz as nanoparticulas girarem e o atrito aquece as celulas.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o campo magnético alternado faz as nanopartículas magnéticas girarem para acompanhar a inversão do campo. O atrito com o meio converte essa energia em calor.\n\n**Resolução:** cada inversão do campo reorienta (gira) as nanopartículas. O movimento repetido dissipa energia por atrito com o interior da célula, aquecendo o tecido tumoral.\n\n**Por que B:** giro das nanopartículas e transferência de calor por atrito.\n\n**Distratoras:** D trata o campo como se \"fornecesse calor\" diretamente. E supõe aceleração num único sentido, impossível com campo alternado. A e C atribuem o aquecimento a uma absorção ou interação inespecífica.",
+    "keyConcept": "conversão de energia em campo magnético alternado",
+    "commonMistake": "Dizer que o campo magnético 'leva calor' diretamente às partículas.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2016-REG-D1-C1-Q89": {
    "answer": "E",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a taxa média de aquecimento é ΔT/Δt, a inclinação da curva temperatura × tempo. Taxa quase zero significa curva quase horizontal.\n\n**Resolução:** no gráfico, de 0 s a 40 s, a curva do n-hexano fica praticamente em ≈ 29–30 °C (ΔT ≈ 1 °C). Os outros solventes sobem dezenas de graus. Fisicamente, o n-hexano é apolar, quase não tem dipolo elétrico e, por isso, quase não absorve micro-ondas.\n\n**Por que E:** a alternativa E (CH₃CH₂CH₂CH₂CH₂CH₃) é o n-hexano.\n\n**Distratoras:** A (água) aquece mais devagar que os álcoois, mas ainda sobe ≈ 20 °C em 40 s. B, C e D (álcoois) têm as maiores inclinações.",
+    "keyConcept": "taxa de variação em gráfico T × t",
+    "commonMistake": "Escolher a curva que começa mais baixa, e não a de menor inclinação.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q101": {
    "answer": "E",
    "reasoning": "Comparar areas de emissao nas faixas visivel e infravermelha.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** iluminar sem aquecer exige emitir no visível e quase nada no infravermelho (IV), região associada ao aquecimento.\n\n**Resolução:** no gráfico, tungstênio e xênon emitem muito no IV (acima de ≈ 700 nm). Haleto metálico e mercúrio têm picos fortes no UV. O LED emite praticamente só entre ≈ 400 e 700 nm, bem sobreposto à sensibilidade do olho.\n\n**Por que E:** o LED dá boa iluminação sem emissão relevante no IV.\n\n**Distratoras:** B (tungstênio) é a lâmpada que mais \"esquenta\", com a maior parte da emissão no IV. D (xênon) tem picos fortes no IV.",
+    "keyConcept": "espectro de emissão e radiação infravermelha",
+    "commonMistake": "Achar que mais intensidade total significa iluminação melhor, ignorando o IV.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q103": {
    "answer": "D",
    "reasoning": "Achar o minimo da curva e converter perda total em distancia.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o sinal pode perder até 100 − 10 = 90 dB antes de precisar ser retransmitido. A maior distância vem do comprimento de onda com a menor perda por km.\n\n**Resolução:**\n- Menor perda no gráfico: ≈ 1 dB/km em λ ≈ 1,5 µm.\n- Distância máxima: 90 dB ÷ 1 dB/km = 90 km.\n\n**Por que D:** 90 km.\n\n**Distratoras:** E (100) usa os 100 dB inteiros, sem descontar o limite de 10 dB. C (60) usa a perda de ≈ 1,5 dB/km do mínimo em 1,25 µm. B (18) usa 5 dB/km.",
+    "keyConcept": "atenuação em dB/km",
+    "commonMistake": "Usar 100 dB como margem, sem descontar o limite mínimo de 10 dB.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q104": {
    "answer": "C",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** decaimento radioativo. A taxa de emissões por grama cai pela metade a cada meia-vida (5 730 anos).\n\n**Resolução:**\n- 6 750 emissões/h ÷ 60 = 112,5 emissões/min.\n- Por grama: 112,5 ÷ 30 g = 3,75 emissões/(min·g).\n- 15 → 7,5 → 3,75: duas meias-vidas.\n- Idade: 2 × 5 730 = 11 460 anos.\n\n**Por que C:** 11 460 anos.\n\n**Distratoras:** D (17 190) corresponde a três meias-vidas. Esquecer de passar de hora para minuto, ou não dividir pela massa, leva a fatores errados (como B, que é 5 730/4).",
+    "keyConcept": "meia-vida e datação por C-14",
+    "commonMistake": "Não converter emissões por hora em emissões por minuto e por grama.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q107": {
    "answer": "B",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** escolher o comprimento de onda que a melanina absorve bem e que a oxi-hemoglobina e a água quase não absorvem.\n\n**Resolução:** no gráfico, em 700 nm a melanina absorve ≈ 35%, a oxi-hemoglobina ≈ 0% e a água 0% (ela só passa a absorver acima de ≈ 900 nm).\n\n**Por que B:** 700 nm aquece o folículo sem lesar sangue e tecidos.\n\n**Distratoras:** A (400) e E (500): a oxi-hemoglobina absorve muito. D (900) e C (1 100): a água e a hemoglobina começam a absorver. Quem procura apenas o máximo da melanina escolhe 400 nm e erra.",
+    "keyConcept": "absorção seletiva da radiação",
+    "commonMistake": "Escolher o pico da melanina sem checar a absorção dos outros tecidos.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q108": {
    "answer": "C",
    "reasoning": "Escolher o esboco Ec × h coerente com as trocas de energia acima e abaixo de h = 0.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** conservação de energia em duas regiões. Acima da posição de equilíbrio (h > 0) só atua o peso. Abaixo (h < 0) também atua a força elástica da lona, que varia com a deformação.\n\n**Resolução:**\n- h > 0: Ec = E − m·g·h, função linear de h, que zera em h_máx.\n- h < 0: entra a energia elástica (∝ deformação²), e Ec passa a variar de forma curva até zerar em h_mín.\n\n**Por que C:** curva na região da lona e reta acima dela, com Ec nula nos dois extremos.\n\n**Distratoras:** B usa retas nas duas regiões, ignorando que a energia elástica é quadrática. A e E têm Ec máxima nos extremos, onde a criança na verdade está parada. D põe a curva no lado errado.",
+    "keyConcept": "conservação da energia mecânica (gravitacional + elástica)",
+    "commonMistake": "Tratar a energia elástica como linear na deformação.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q110": {
    "answer": "D",
    "reasoning": "Identificar o ramo do fusivel e a divisao de corrente.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** reduzir o circuito a ramos em paralelo e achar a fração da corrente que passa no fusível.\n\n**Resolução** (pela figura, U alimenta os nós esquerdo e direito):\n- Ramo superior: 60 Ω + (60 Ω ∥ 30 Ω) = 60 + 20 = 80 Ω.\n- Ramo inferior: (60 Ω ∥ [120 Ω + fusível]) + 40 Ω = 40 + 40 = 80 Ω.\n- Corrente no ramo inferior: U/80. A parte que passa pelo 120 Ω (e pelo fusível) é 60/(60 + 120) = 1/3 dela, ou seja, i_f = U/240.\n- i_f ≤ 0,5 A ⇒ U ≤ 120 V.\n\n**Por que D:** 120 V.\n\n**Distratoras:** C (60 V) e B (40 V) aparecem quando se supõe que toda a corrente do ramo passa pelo fusível ou quando se erra a resistência equivalente.",
+    "keyConcept": "divisão de corrente em paralelo",
+    "commonMistake": "Supor que toda a corrente do ramo passa pelo fusível.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q112": {
    "answer": "C",
    "reasoning": "Obter a diferenca de caminho a partir das medidas da figura.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** interferência destrutiva quando a diferença de caminho é meio comprimento de onda.\n\n**Resolução:**\n- Pela figura, o lado ADC tem 40 cm e o lado AEC 30 cm. Cada braço é percorrido ida e volta, então Δ = 2 × (40 − 30) = 20 cm.\n- Primeira anulação: Δ = λ/2 ⇒ λ = 40 cm = 0,40 m.\n- f = v/λ = 320/0,40 = 800 Hz.\n\n**Por que C:** 800 Hz.\n\n**Distratoras:** B (1 600 Hz) faz Δ = λ. A (3 200 Hz) usa só a diferença de 10 cm como λ. E (400 Hz) dobra λ.",
+    "keyConcept": "interferência destrutiva (Δ = λ/2)",
+    "commonMistake": "Esquecer que o caminho extra é o dobro do deslocamento ou impor Δ = λ.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q115": {
    "answer": "A",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** na centrífuga, a rotação produz um efeito equivalente a uma \"gravidade\" muito intensa. Componentes mais densos tendem a ir para o fundo (raio maior) e os menos densos ficam mais perto do eixo.\n\n**Resolução:** todos os componentes giram com a mesma velocidade angular. A separação acontece porque, por inércia, a parte mais densa precisa de uma força centrípeta maior por unidade de volume e se desloca para fora.\n\n**Por que A:** a separação é por diferença de densidade.\n\n**Distratoras:** C: as velocidades angulares são iguais. B: o raio final é consequência da separação, não sua causa. D: a quantidade de cada substância não importa.",
+    "keyConcept": "centrifugação e densidade",
+    "commonMistake": "Achar que as substâncias giram com velocidades angulares diferentes.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q127": {
    "answer": "D",
    "reasoning": "Ler pontos das curvas e comparar produtos vazao × ΔT.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a potência da ducha aquece a água: P = (m/t)·c·ΔT. Para a mesma vazão, P ∝ ΔT.\n\n**Resolução:**\n- Para a mesma vazão (3 L/min, por exemplo), o gráfico do manual dá ΔT ≈ 32 °C na condição superquente (curva 3) e ΔT ≈ 12 °C na condição morno (curva 1).\n- P_morno/P_super = 12/32 = 3/8.\n- Conferência com a potência dada: 6 500 W ≈ (3/60 kg/s)·4 200·32 ≈ 6 700 W, coerente.\n\n**Por que D:** 3/8.\n\n**Distratoras:** A (1/3) e C (3/5) vêm de comparar ΔT em vazões diferentes ou de ler mal as curvas.",
+    "keyConcept": "potência térmica P = ṁ·c·ΔT",
+    "commonMistake": "Comparar as curvas em vazões diferentes.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q129": {
    "answer": "C",
    "reasoning": "Comparar a resistencia interna minima com a do corpo.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a resistência interna do gerador fica em série com o corpo. Ela precisa limitar a corrente a no máximo 0,01 A com 10 000 V.\n\n**Resolução:**\n- R_total mínima = 10 000/0,01 = 1,0×10⁶ Ω.\n- R_corpo = 1 000 Ω ⇒ R_interna ≈ 10⁶ − 10³ ≈ 10⁶ Ω, cerca de mil vezes a do corpo.\n\n**Por que C:** milhares de vezes maior.\n\n**Distratoras:** A (praticamente nula) daria i = 10 A, letal. B e D/E (igual, 10 vezes) dão correntes entre 1 e 5 A, ainda letais.",
+    "keyConcept": "1ª lei de Ohm com resistência interna",
+    "commonMistake": "Esquecer que a resistência interna está em série e limita a corrente.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q131": {
    "answer": "E",
    "reasoning": "Comparar as duas fases (aceleracao extra e frenagem) dos motoristas.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o motorista desatento passa 1 s a mais acelerando antes de frear, então anda mais nesse segundo e freia a partir de uma velocidade maior.\n\n**Resolução:**\n- Segundo extra: v vai de 14 para 15 m/s; d = 14·1 + ½·1·1² = 14,5 m.\n- Frenagem do atento: 14²/(2·5) = 19,6 m. Do desatento: 15²/(2·5) = 22,5 m. Diferença: 2,9 m.\n- Total a mais: 14,5 + 2,9 = 17,4 m.\n\n**Por que E:** 17,4 m.\n\n**Distratoras:** C (14,5 m) conta só o segundo extra. A (2,9 m) conta só a frenagem. B (14,0 m) ignora a aceleração no segundo extra.",
+    "keyConcept": "MUV e distância de parada",
+    "commonMistake": "Esquecer que o desatento freia a partir de uma velocidade maior.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q133": {
    "answer": "A",
    "reasoning": "Avaliar o efeito de cada grandeza sobre V e sobre a resistencia do fio.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a fem máxima do gerador é V = N·B·A·ω. A corrente de curto é i = V/R, e R depende do comprimento do fio (proporcional a N).\n\n**Resolução:** dobrando N, a fem dobra e o comprimento do fio também dobra, então R dobra. Logo i = V/R não muda.\n\n**Por que A:** dobrar o número de espiras dobra V e mantém i.\n\n**Distratoras:** B (frequência) e C (campo) dobram V sem mudar R, então i dobra. D (área) dobra V e aumenta o comprimento só por √2. E (diâmetro do fio) não altera V e reduz R.",
+    "keyConcept": "lei de Faraday e resistência do fio",
+    "commonMistake": "Esquecer que mais espiras também significam mais resistência.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q93": {
    "answer": "E",
    "reasoning": "Obter R nominal no grafico e aplicar o fator dado.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** num resistor ôhmico, R = U/i é constante (inclinação do gráfico i × U). Com amônia, a resistência quadruplica.\n\n**Resolução:**\n- Do gráfico: U = 1,0 V ⇒ i = 2,0×10⁻⁶ A. R = 1,0/(2,0×10⁻⁶) = 5,0×10⁵ Ω (vale para qualquer ponto: 3,0 V e 6,0 µA dão o mesmo).\n- Com amônia: R' = 4 × 5,0×10⁵ = 2,0×10⁶ Ω.\n\n**Por que E:** 2,0×10⁶ Ω.\n\n**Distratoras:** D (5,0×10⁵ Ω) é a resistência sem amônia (esquece o fator 4). A e B (0,5 e 2,0 Ω) ignoram o fator 10⁻⁶ da escala de corrente ou calculam i/U.",
+    "keyConcept": "1ª lei de Ohm a partir de gráfico",
+    "commonMistake": "Esquecer a escala 10⁻⁶ A do eixo ou o fator 4 pedido.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2017-REG-D2-C7-Q99": {
    "answer": "B",
    "reasoning": "Comparar os picos das curvas a × t.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a força do cinto sobre o boneco é F = m·a. Menor risco de lesão significa menor força máxima, isto é, menor pico de aceleração. Como a variação de velocidade é a mesma em todos os testes, as áreas sob as curvas são iguais.\n\n**Resolução:** no gráfico, os picos são aproximadamente: cinto 1 ≈ 150, cinto 2 ≈ 65, cinto 3 ≈ 190, cinto 4 ≈ 85 e cinto 5 ≈ 170 m/s². O cinto 2 distribui a desaceleração por mais tempo e tem o menor pico.\n\n**Por que B:** cinto 2, menor aceleração máxima e, portanto, menor força máxima.\n\n**Distratoras:** D (cinto 4) tem pico um pouco maior. A (cinto 1) começa a agir mais cedo, mas tem pico alto. Quem olha só o instante do pico, e não seu valor, erra.",
+    "keyConcept": "2ª lei de Newton e impulso (F = m·a)",
+    "commonMistake": "Escolher o cinto pelo tempo em que atua, e não pelo pico de aceleração.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q103": {
    "answer": "C",
    "reasoning": "Relacionar o espacamento das faixas com o periodo da vibracao.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o carro passa por faixas igualmente espaçadas. A frequência da trepidação é o número de faixas por segundo: f = v/d.\n\n**Resolução:**\n- v = 108 km/h ÷ 3,6 = 30 m/s; d = 8 cm = 0,08 m.\n- f = 30/0,08 = 375 Hz.\n\n**Por que C:** 375 Hz.\n\n**Distratoras:** D (1 350 Hz) usa 108 sem converter para m/s (108/0,08). A e B vêm de erros de unidade em d.",
+    "keyConcept": "frequência como v/d",
+    "commonMistake": "Não converter km/h para m/s.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q104": {
    "answer": "A",
    "reasoning": "Forca potente maior quando seu braco e menor que o da resistente (interpotente).",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** numa alavanca em equilíbrio, F_p·b_p = F_r·b_r. A força potente é maior que a resistente quando seu braço é menor.\n\n**Resolução:** na pinça (alavanca interpotente), os dedos aplicam a força entre o apoio (a junção) e a ponta onde está o objeto. O braço da força potente é menor que o da resistente, então F_p > F_r.\n\n**Por que A:** pinça.\n\n**Distratoras:** no alicate, quebra-nozes, carrinho de mão e abridor, a força potente é aplicada longe do apoio (braço maior). Elas multiplicam força, então F_p < F_r.",
+    "keyConcept": "momento de força e tipos de alavanca",
+    "commonMistake": "Achar que toda alavanca reduz a força necessária.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q108": {
    "answer": "D",
    "reasoning": "Converter a relacao V(i) em R(i) e escolher o grafico.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** resistência elétrica é a razão R = V/i em cada ponto (resistor não ôhmico).\n\n**Resolução:**\n- V = 10i + i² ⇒ R = V/i = 10 + i.\n- Isso dá uma reta crescente, com R = 10 Ω em i = 0 e R = 17 Ω em i = 7 A.\n\n**Por que D:** é a reta que vai de 10 Ω a ≈ 17 Ω.\n\n**Distratoras:** A (R = 10 constante) ignora o termo i². E (curva quadrática) confunde R com V. C (R = i) esquece o termo 10. B (constante ≈ 17 Ω) usa só o último ponto.",
+    "keyConcept": "resistor não ôhmico (R = V/i)",
+    "commonMistake": "Confundir a curva de R com a de V ou supor R constante.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q112": {
    "answer": "C",
    "reasoning": "Identificar quais resistores ficam em serie e em paralelo com o toque.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** ao tocar em A, liga-se o ponto médio do ramo esquerdo ao ponto A do ramo direito. O resistor abaixo de A fica sem corrente, porque B está aberto.\n\n**Resolução** (figura):\n- Os dois resistores de 4 kΩ de cima ficam em paralelo: 2 kΩ.\n- Em série com o 4 kΩ de baixo do ramo esquerdo: 2 + 4 = 6 kΩ.\n- O 4 kΩ entre A e B não conduz, pois B está aberto.\n\n**Por que C:** 6,0 kΩ.\n\n**Distratoras:** E (12 kΩ) soma tudo em série. A (1,3 kΩ) e B (4 kΩ) põem resistores em paralelo indevidamente ou incluem o resistor de A–B.",
+    "keyConcept": "resistência equivalente com chave",
+    "commonMistake": "Incluir o resistor que fica sem corrente (ramo aberto em B).",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q115": {
    "answer": "D",
    "reasoning": "Comparar a potencia com o quadro de equipamentos.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** potência elétrica P = U·i.\n\n**Resolução:** P = 600 V × 2 A = 1 200 W, igual à da churrasqueira elétrica.\n\n**Por que D:** churrasqueira elétrica (1 200 W).\n\n**Distratoras:** C (aspirador, 600 W) usa só a tensão. E (secadora) e as outras não batem com 1 200 W.",
+    "keyConcept": "potência elétrica P = U·i",
+    "commonMistake": "Confundir a tensão (600 V) com a potência.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q118": {
    "answer": "B",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a curva de energia potencial de ligação é assimétrica. Com mais energia térmica, os átomos oscilam com mais amplitude e a distância média entre eles aumenta.\n\n**Resolução:** de T₁ a T₄, o ponto médio de cada linha horizontal se desloca para distâncias interatômicas maiores. No nível macroscópico, isso é o aumento das dimensões do sólido.\n\n**Por que B:** dilatação térmica.\n\n**Distratoras:** A, C e D (ionização, dissociação, quebra de ligações) exigiriam energia suficiente para separar os átomos de vez, e não é o que a figura mostra. E (formação de ligações) não ocorre.",
+    "keyConcept": "dilatação térmica (modelo microscópico)",
+    "commonMistake": "Achar que mais energia significa quebrar ligações, e não só aumentar a distância média.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q120": {
    "answer": "E",
    "reasoning": "Polaridade invertida produz ondas em oposicao de fase e interferencia destrutiva.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** inverter a polaridade de um alto-falante faz seu cone se mover ao contrário do outro. As ondas saem em oposição de fase.\n\n**Resolução:** dois alto-falantes iguais, em oposição de fase, produzem interferência destrutiva onde as distâncias até eles são iguais (a diferença de caminho é nula e a defasagem é meia onda).\n\n**Por que E:** oposição de fase e interferência destrutiva nos pontos equidistantes.\n\n**Distratoras:** B (batimento) exigiria frequências diferentes, mas o sinal é o mesmo. D (reverberação) é reflexão no ambiente. A (curto-circuito) não ocorre ao inverter os fios. C (ruído) não é um fenômeno de fase.",
+    "keyConcept": "interferência destrutiva por oposição de fase",
+    "commonMistake": "Confundir inversão de fase com mudança de frequência (batimento).",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q122": {
    "answer": "A",
    "reasoning": "Roda maior eleva o centro de massa e, para mesma rotacao, aumenta a velocidade real.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** (1) estabilidade depende da altura do centro de massa; (2) o velocímetro conta voltas da roda e foi calibrado para o diâmetro original.\n\n**Resolução:**\n- Roda maior levanta o carro e eleva o centro de massa, que fica mais instável (tomba com mais facilidade).\n- Em cada volta, a roda maior percorre mais distância (2πR maior). Para a mesma indicação do velocímetro (mesma rotação), a velocidade real é maior.\n\n**Por que A:** CM mais alto (menos estável) e velocidade real maior que a indicada.\n\n**Distratoras:** C e E dizem que o carro fica mais estável com o CM mais alto, o que é errado. B e D dizem que o CM abaixa. E também inverte o erro do velocímetro.",
+    "keyConcept": "centro de massa e v = ω·R",
+    "commonMistake": "Inverter o erro do velocímetro, achando que a roda maior faz a velocidade real ser menor.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q125": {
    "answer": "A",
    "reasoning": "Maior frequencia, maior desvio; acompanhar a inversao apos o espelho.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** dispersão. Como o índice de refração cresce com a frequência, a luz azul desvia mais que a verde, e a verde mais que a vermelha. Depois, a reflexão no espelho plano mantém a ordem dos ângulos.\n\n**Resolução:** o azul sai do prisma mais inclinado para baixo, atinge o espelho mais perto do prisma e, refletido com o mesmo ângulo, sobe mais inclinado, chegando ao ponto mais alto do filme. O vermelho, menos desviado, chega mais baixo.\n\n**Por que A:** de baixo para cima: vermelho, verde, azul.\n\n**Distratoras:** C (azul, verde, vermelho) esquece o efeito da reflexão na trajetória. B, D e E não seguem a ordem das frequências.",
+    "keyConcept": "dispersão da luz e reflexão",
+    "commonMistake": "Esquecer que a luz mais desviada pelo prisma chega mais alta após a reflexão.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q128": {
    "answer": "B",
    "reasoning": "Analisar acao e reacao entre ventoinha, ar e vela em cada montagem.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** 3ª lei de Newton e quantidade de movimento do ar. No carro B, o jato sai livre para trás e a reação empurra o carro para a frente. No carro A, o ar empurrado para a vela também empurra a ventoinha para trás, e as forças internas quase se compensam.\n\n**Resolução:** em A, a ventoinha empurra o ar para a direita (e é empurrada para a esquerda), e o ar atinge a vela, que é empurrada para a direita. Como a vela parabólica desvia o ar de volta, a variação de quantidade de movimento do ar na vela é um pouco maior que na ventoinha. Sobra uma resultante pequena para a direita. Em B, toda a reação do jato acelera o carro.\n\n**Por que B:** 0 < V_A < V_B, com o carro A indo para a direita (sentido da vela).\n\n**Distratoras:** A (A parado) supõe compensação exata, sem considerar o desvio do ar na vela. D e E põem A mais rápido que B. C e E invertem o sentido de A.",
+    "keyConcept": "3ª lei de Newton e quantidade de movimento",
+    "commonMistake": "Achar que soprar a própria vela não produz efeito algum, ou que produz o mesmo efeito do vento.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q129": {
    "answer": "E",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a cor percebida depende da ativação relativa dos pigmentos. Sem o pigmento \"verde\", resta comparar a ativação do \"vermelho\" (e do \"azul\", nulo nessas faixas).\n\n**Resolução:** pelo enunciado, a luz de 530 nm ativa o \"vermelho\" em ≈ 75% e a de 600 nm também em ≈ 75%. O \"azul\" não é ativado em nenhuma das duas. Para esse indivíduo, as duas luzes produzem o mesmo sinal.\n\n**Por que E:** não consegue distinguir os dois comprimentos de onda, porque ambos estimulam o \"vermelho\" com a mesma intensidade.\n\n**Distratoras:** A e C dizem que ele não detectaria as luzes, mas o pigmento \"vermelho\" continua funcionando. B: o laranja estimula o \"vermelho\". D: o roxo não está em jogo.",
+    "keyConcept": "percepção de cor e ativação relativa",
+    "commonMistake": "Achar que, sem um pigmento, a pessoa não enxerga a luz.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q131": {
    "answer": "B",
    "reasoning": "Avaliar como v depende de x e de k.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a energia elástica da mola vira energia cinética do cubo: ½·k·x² = ½·m·v² ⇒ v = x·√(k/m).\n\n**Resolução:** v é proporcional a x. Para multiplicar v por 4, com a mesma mola, basta multiplicar a deformação por 4.\n\n**Por que B:** mesma mola e deformação quatro vezes maior.\n\n**Distratoras:** C (16×) pensa em v², não em v. A (2×) só dobra v. E (k 4×) faz v crescer √4 = 2 vezes. D (k 2×) dá √2.",
+    "keyConcept": "energia potencial elástica e cinética",
+    "commonMistake": "Confundir proporcionalidade com v e com v².",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q134": {
    "answer": "E",
    "reasoning": "Sem reduzir a pressao na boca abaixo da atmosferica o suco nao sobe.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** beber de canudo funciona porque a pressão atmosférica empurra o suco para cima quando a pressão na boca fica menor que ela.\n\n**Resolução:** com um canudo fora do líquido, o ar entra por ele na boca. A pressão na boca não consegue cair abaixo da atmosférica, que é a mesma que atua sobre o suco. Sem diferença de pressão, o suco não sobe.\n\n**Por que E:** a pressão no interior da boca fica praticamente igual à que atua sobre o suco.\n\n**Distratoras:** A, B e D tratam o problema como \"força de sucção\" ou peso do ar. C impõe uma condição de velocidade sem sentido físico.",
+    "keyConcept": "pressão atmosférica e diferença de pressão",
+    "commonMistake": "Achar que o líquido sobe por 'sucção', e não empurrado pela pressão atmosférica.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q95": {
    "answer": "D",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** o densímetro flutua com empuxo igual ao próprio peso. Quanto mais densa a solução, menor o volume submerso, então ele fica mais alto.\n\n**Resolução** (o enunciado diz que os íons ocupam os espaços entre as moléculas, logo o volume continua ≈ 2 L):\n- A: (2 000 g + 100 g)/2 000 cm³ = 1,05 g/cm³, ou seja, 0,05 g/cm³ (uma divisão da escala) acima da água.\n- B: (2 000 + 200)/2 000 = 1,10 g/cm³, duas divisões acima.\n- O densímetro sobe em relação à posição na água pura: uma divisão em A e duas em B.\n\n**Por que D:** é o esquema em que o densímetro emerge mais em A do que na água pura e ainda mais em B.\n\n**Distratoras:** os esquemas em que ele afunda mais com sal invertem a relação entre densidade e volume submerso. Os que mostram A e B iguais ignoram a diferença de concentração.",
+    "keyConcept": "empuxo e densidade (densímetro)",
+    "commonMistake": "Achar que, com mais sal, o densímetro afunda mais.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2018-REG-D2-C7-Q97": {
    "answer": "C",
    "reasoning": "Campo magnetico variavel da onda induz corrente na bobina.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** indução eletromagnética. O campo magnético variável da onda de rádio gera, na bobina, uma corrente induzida que alimenta o chip.\n\n**Resolução:** pela lei de Faraday, a variação do fluxo magnético através das espiras da bobina induz uma fem. Essa fem fornece a energia que a etiqueta precisa para transmitir sinais, sem pilhas.\n\n**Por que C:** o campo magnético da onda induz corrente na bobina.\n\n**Distratoras:** A e B atribuem o efeito ao campo elétrico agindo diretamente. D fala em aquecer os fios, o que não alimenta o circuito. E (ressonância diminuída) não tem sentido físico aqui.",
+    "keyConcept": "indução eletromagnética (Faraday)",
+    "commonMistake": "Atribuir a energia ao aquecimento ou ao campo elétrico agindo diretamente.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q102": {
    "answer": "B",
    "reasoning": "Calcular as areas internas dos dois recipientes e montar a razao.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o fluxo de calor é Q/t = k·A·ΔT/e. O calor recebido derrete gelo, então a massa fundida é proporcional a k·A (mesmo ΔT, espessura e tempo).\n\n**Resolução:**\n- Área interna de A: 6 faces de 40 × 40 = 9 600 cm².\n- Área interna de B: 2 faces de 40 × 40 + 4 faces de 60 × 40 = 3 200 + 9 600 = 12 800 cm².\n- m_B = 2·m_A ⇒ k_B·12 800 = 2·k_A·9 600 ⇒ k_A/k_B = 12 800/19 200 ≈ 0,67.\n\n**Por que B:** 0,67.\n\n**Distratoras:** A (0,50) ignora a diferença de áreas. C (0,75) é só a razão das áreas (9 600/12 800) e esquece o fator 2 das massas. D (1,33) e E (2,00) invertem as razões.",
+    "keyConcept": "condução térmica (lei de Fourier)",
+    "commonMistake": "Ignorar que as áreas das caixas são diferentes.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q106": {
    "answer": "D",
    "reasoning": "Decompor as tracoes e equilibrar o peso.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** equilíbrio da atleta no meio da fita. As componentes verticais das duas trações equilibram o peso.\n\n**Resolução:**\n- Peso: P = 80 · 10 = 800 N.\n- 2·T·sen 10° = 800 ⇒ T = 800/(2 · 0,17) ≈ 2 353 N ≈ 2,4×10³ N.\n\n**Por que D:** cerca de 2,4×10³ N, três vezes o peso, por causa do ângulo pequeno.\n\n**Distratoras:** A (4,0×10² N) só divide o peso por 2 e ignora o ângulo. B (4,1×10² N) usa cos 10° no lugar de sen 10°. C (8,0×10² N) é o próprio peso. E (4,7×10³ N) esquece que são duas trações (800/0,17).",
+    "keyConcept": "equilíbrio de forças com ângulo pequeno",
+    "commonMistake": "Usar o cosseno ou esquecer de dividir o peso entre as duas trações.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q109": {
    "answer": "B",
    "reasoning": "Inferir pelo relato e pela figura o sentido e a rapidez relativos a rotacao da Terra.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** um objeto em órbita baixa dá uma volta na Terra em ≈ 1,5 h, enquanto a Terra gira uma vez em 24 h. A velocidade angular orbital é muito maior. Os lançamentos aproveitam a rotação da Terra, para leste, no mesmo sentido.\n\n**Resolução:** como os fragmentos cortavam o céu e, minutos depois, já estariam sobre outra região (a cidade), eles se moviam em relação à superfície. Ou seja, giravam mais rápido que a Terra e no mesmo sentido de rotação.\n\n**Por que B:** velocidade angular superior à da Terra e no mesmo sentido.\n\n**Distratoras:** A (igual) seria uma órbita geoestacionária: o objeto ficaria parado sobre o mesmo ponto. C, D e E (sentido oposto) contrariam o padrão de lançamentos para leste.",
+    "keyConcept": "velocidade angular orbital × rotação da Terra",
+    "commonMistake": "Achar que objetos em órbita acompanham a rotação da Terra (como os geoestacionários).",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q111": {
    "answer": "A",
    "reasoning": "Encadear a queda livre e o teorema do impulso e comparar com o peso.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** teorema do impulso. A força média no impacto é a variação da quantidade de movimento dividida pelo tempo de contato.\n\n**Resolução:**\n- Velocidade ao atingir o capacete: v = √(2·g·h) = √(2·10·5) = 10 m/s.\n- Δp = m·v = 2,5 · 10 = 25 kg·m/s (o tijolo para).\n- F_média = 25/0,5 = 50 N. Peso do tijolo = 25 N ⇒ 50 N = 2 pesos.\n\n**Por que A:** a força impulsiva média equivale ao peso de 2 tijolos.\n\n**Distratoras:** E (50) confunde o valor da força em newtons (50 N) com o número de tijolos. D (20) corresponderia a um impacto de 0,05 s (500 N).",
+    "keyConcept": "teorema do impulso (F·Δt = Δp)",
+    "commonMistake": "Calcular a velocidade de queda errado ou trocar o tempo de impacto.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q113": {
    "answer": "A",
    "reasoning": "Relacionar o periodo do MCU com o tempo de N voltas.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** num campo magnético uniforme, a componente circular do movimento do íon tem ω = qB/m, independente da velocidade. Medindo N voltas no tempo t, obtém-se ω.\n\n**Resolução:**\n- Força magnética como centrípeta: q·v·B = m·v²/r ⇒ ω = v/r = qB/m.\n- N voltas em t: ω = 2πN/t.\n- qB/m = 2πN/t ⇒ m = qBt/(2πN).\n\n**Por que A:** m = qBt/(2πN).\n\n**Distratoras:** B (qBt/πN) e C trocam 2π por π. D e E esquecem o fator 2π (confundem frequência com velocidade angular).",
+    "keyConcept": "movimento circular de carga em campo magnético",
+    "commonMistake": "Confundir número de voltas por segundo (f) com ω = 2πf.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q117": {
    "answer": "C",
    "reasoning": "Proporcionalizar o valor energetico e aplicar o rendimento.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a energia química liberada na queima (metade aproveitada) aquece a água: Q = m·c·ΔT.\n\n**Resolução:**\n- 2,5 g de castanha: 70 kcal × 2,5/10 = 17,5 kcal = 17 500 cal.\n- Aproveitado (50%): 8 750 cal.\n- ΔT = 8 750/(350 · 1) = 25 °C ⇒ T_final = 20 + 25 = 45 °C.\n\n**Por que C:** 45 °C.\n\n**Distratoras:** A (25) dá a variação ΔT como se fosse a temperatura final. E (70) ignora o rendimento de 50% (ΔT = 50). D (50) também esquece o rendimento e ainda dá a variação como temperatura final.",
+    "keyConcept": "calorimetria com rendimento",
+    "commonMistake": "Esquecer o rendimento ou confundir variação com temperatura final.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q119": {
    "answer": "B",
    "reasoning": "Menor deformacao indica maior pressao; massa proporcional ao volume do pneu.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** um pneu que se deforma menos sob o mesmo esforço está com pressão maior. As massas de ar são proporcionais aos volumes (dado do enunciado).\n\n**Resolução:**\n- O pneu de A deforma muito menos, logo p_A > p_B.\n- O pneu de A é mais estreito, logo tem volume menor e V_A < V_B. Como m ∝ V, m_A < m_B.\n\n**Por que B:** p_A > p_B e m_A < m_B.\n\n**Distratoras:** E acha que mais pressão significa sempre mais massa, ignorando o volume. C e D supõem massas iguais. A inverte as pressões.",
+    "keyConcept": "pressão e quantidade de gás",
+    "commonMistake": "Supor que maior pressão implica necessariamente maior massa de ar.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q121": {
    "answer": "B",
    "reasoning": "Extrair altura e massa do recorte do manual e aplicar a conservacao.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** sistema conservativo. A energia potencial perdida na descida vira energia cinética. Como a translação é desprezível, praticamente toda ela vira energia de rotação.\n\n**Resolução:**\n- Haste: h = 410 mm = 0,41 m. Pela figura, o disco desce 2h/3 até o ponto mais baixo.\n- E_rot ≈ m·g·Δh = 0,030 · 10 · (2/3 · 0,41) ≈ 8,2×10⁻² J.\n\n**Por que B:** 8,20×10⁻² J.\n\n**Distratoras:** A (4,10×10⁻²) usa h/3. C (1,23×10⁻¹) usa h inteiro. D e E (×10⁴, ×10⁵) não convertem g e mm para kg e m.",
+    "keyConcept": "conservação de energia (gravitacional → rotação)",
+    "commonMistake": "Usar a altura errada (h/3 em vez de 2h/3) ou não converter unidades.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q126": {
    "answer": "B",
    "reasoning": "Impor 90 V na TV e testar o numero de lampadas.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o cabo (10 Ω) fica em série com a associação em paralelo da TV e das lâmpadas. Quanto mais lâmpadas, maior a corrente e maior a queda de tensão no cabo.\n\n**Resolução:**\n- A TV precisa de pelo menos 90 V: a queda no cabo deve ser ≤ 30 V, logo i ≤ 3 A.\n- i = 120/(10 + R_p) ≤ 3 ⇒ R_p ≥ 30 Ω.\n- Com n lâmpadas: R_p = 1/(1/50 + n/200) = 200/(4 + n) ≥ 30 ⇒ n ≤ 2,67 ⇒ n = 2.\n- Conferência: n = 2 dá R_p ≈ 33,3 Ω, i ≈ 2,77 A e V_TV ≈ 92 V (funciona). n = 3 dá V_TV ≈ 89 V (não funciona).\n\n**Por que B:** 2 lâmpadas.\n\n**Distratoras:** C (3) arredonda 2,67 para cima. E (5) ignora a resistência do cabo.",
+    "keyConcept": "queda de tensão em fio (série + paralelo)",
+    "commonMistake": "Ignorar a resistência do cabo ou arredondar o número de lâmpadas para cima.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q131": {
    "answer": "B",
    "reasoning": "Usar a geometria da figura para obter o deslocamento entre fotos.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** geometria da foto + MRU. A faixa de terreno coberta por uma foto depende de H e da abertura da câmera. A sobreposição de 20% define o avanço entre duas fotos.\n\n**Resolução:**\n- Abertura de 90°: cada foto cobre 2·H·tg 45° = 2 · 1 000 = 2 000 m.\n- Sobreposição de 20%: o vant deve avançar 80% disso, ΔS = 1 600 m.\n- Δt = 1 600/50 = 32 s.\n\n**Por que B:** 32 segundos.\n\n**Distratoras:** A (40 s) não desconta a sobreposição. E (8 s) usa só o trecho sobreposto (400 m). D (16 s) usa só metade da faixa (H·tg 45° = 1 000 m) com o desconto de 20%.",
+    "keyConcept": "velocidade média e geometria da cobertura",
+    "commonMistake": "Usar o comprimento da sobreposição em vez do avanço entre fotos.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q132": {
    "answer": "D",
    "reasoning": "Raios quase paralelos ao eixo sofrem menor desvio na refracao.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** pupila menor deixa passar só raios quase paralelos ao eixo óptico (paraxiais). Esses raios sofrem menor desvio na refração dentro do olho e formam uma imagem mais nítida.\n\n**Resolução:** debaixo d'água, a córnea perde boa parte do poder de refração (os índices de água e córnea são próximos) e a imagem fica desfocada. Reduzindo a pupila, os raios que entram são quase paraxiais e precisam de pouco desvio, então a imagem fica mais nítida, como num diafragma fechado.\n\n**Por que D:** diminui o desvio dos feixes refratados no interior do olho.\n\n**Distratoras:** A: a intensidade diminui, mas isso não explica a nitidez. B: fechar a pupila aumentaria a difração, não a diminuiria. C e E (polarização, reflexões) não se aplicam.",
+    "keyConcept": "refração no olho e raios paraxiais",
+    "commonMistake": "Achar que menos luz, por si só, melhora a nitidez.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q135": {
    "answer": "C",
    "reasoning": "Reconhecer no texto a critica ao modelo corpuscular.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** Huygens argumenta que raios de luz se cruzam sem se atrapalhar e que a luz não pode ser o transporte de matéria, \"como uma flecha ou bala\".\n\n**Resolução:** a crítica é ao modelo em que a luz é feita de partículas materiais que viajam do objeto ao olho, o modelo corpuscular, associado a Newton. Huygens defendia o modelo ondulatório.\n\n**Por que C:** contesta o modelo corpuscular.\n\n**Distratoras:** B: o modelo ondulatório é justamente o que Huygens defende. A (éter): ele aceitava um meio de propagação. D e E não são o alvo do argumento.",
+    "keyConcept": "modelos corpuscular × ondulatório da luz",
+    "commonMistake": "Achar que Huygens critica o modelo ondulatório.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q92": {
    "answer": "A",
    "reasoning": "Aterrar a cerca escoa as cargas induzidas e evita o choque.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o campo magnético variável da linha de alta tensão induz corrente no arame da cerca (indução eletromagnética). Aterrar a cerca dá a essas cargas um caminho até o solo.\n\n**Resolução:** com o arame ligado à terra, a corrente induzida escoa pelo aterramento, e não pelo corpo de quem toca a cerca.\n\n**Por que A:** fazer o aterramento dos arames da cerca.\n\n**Distratoras:** B e D (fusíveis) só interrompem correntes acima de um limite e não eliminam a indução. C (aterrar a rede) e E (fios encapados) não mudam o campo magnético variável que induz a corrente na cerca. O isolante não blinda o campo magnético.",
+    "keyConcept": "indução eletromagnética e aterramento",
+    "commonMistake": "Achar que isolar os fios da rede impede a indução magnética.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q94": {
    "answer": "C",
    "reasoning": "Isolantes reduzem a perda de calor; o frio nao e uma entidade que entra.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** \"frio\" não é uma substância que entra. O calor flui espontaneamente do corpo mais quente para o mais frio.\n\n**Resolução:** a casa e o corpo estão mais quentes que o ambiente externo e perdem calor para ele. A porta fechada reduz as trocas de calor (principalmente por convecção) entre a casa e o exterior. O cobertor é um isolante que reduz a perda de calor do corpo. Nenhum dos dois produz calor.\n\n**Por que C:** a função de ambos é minimizar a perda de calor.\n\n**Distratoras:** B e D repetem a concepção errada de que o frio entra. A e E atribuem à porta ou ao cobertor a capacidade de aquecer, mas eles não são fontes de energia.",
+    "keyConcept": "transferência de calor (concepção de 'frio')",
+    "commonMistake": "Pensar que o frio entra ou que o cobertor aquece.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2019-REG-D2-C7-Q98": {
    "answer": "E",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** as cores da figura são misturas aditivas de vermelho, verde e azul. Sem receptores de vermelho, a pessoa só percebe as componentes verde e azul.\n\n**Resolução:**\n- Vermelho, magenta (vermelho + azul), amarelo (vermelho + verde) e branco (os três) têm componente vermelha, então o protanope os percebe de outro jeito.\n- O azul puro não tem componente vermelha e é percebido igual pelos dois.\n\n**Por que E:** azul.\n\n**Distratoras:** B (magenta) seria visto apenas como azul pelo protanope. C (amarelo) seria visto como verde. D (branco) seria visto como ciano. A (vermelho) quase não seria percebido.",
+    "keyConcept": "síntese aditiva de cores (RGB)",
+    "commonMistake": "Esquecer que magenta, amarelo e branco contêm vermelho.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q105": {
    "answer": "D",
    "reasoning": "Relacionar ambiente quente a menor troca de calor no condensador e maior trabalho.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a geladeira é uma máquina térmica invertida. O compressor realiza trabalho para que o fluido refrigerante, no condensador (a grade traseira), libere calor para o ambiente e se liquefaça.\n\n**Resolução:**\n- Perto de uma fonte de calor, o ar em volta do condensador fica mais quente e a diferença de temperatura diminui.\n- Para o refrigerante ainda conseguir ceder calor e condensar, ele precisa estar a temperatura e pressão maiores.\n- Isso exige mais trabalho do compressor e, portanto, mais consumo de energia.\n\n**Por que D:** a liquefação do refrigerante no condensador exige mais trabalho do compressor.\n\n**Distratoras:** A descreve parte do mecanismo (menor fluxo de calor no condensador), mas não a razão direta do aumento de consumo. B é o contrário do que acontece. C: o interior continua isolado; quem trabalha mais é o compressor. E não é o efeito principal.",
+    "keyConcept": "refrigerador como máquina térmica",
+    "commonMistake": "Achar que o calor externo 'entra' na geladeira, em vez de dificultar a rejeição de calor no condensador.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q106": {
    "answer": "C",
    "reasoning": "Combinar o esquema da caverna com o grafico tempo x variacao de pressao.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** lei de Stevin. A variação de pressão em relação à superfície é Δp = ρ·g·h. Depois, basta ler o gráfico.\n\n**Resolução:**\n- Pela figura, o bolsão de ar está a 50 m de profundidade (o trecho horizontal de 30 m não importa).\n- Δp = 1 000 · 10 · 50 = 5×10⁵ Pa = 500 kPa.\n- No gráfico, 500 kPa corresponde a 60 min.\n\n**Por que C:** 60 minutos.\n\n**Distratoras:** usar a distância de 30 m daria Δp = 300 kPa e cerca de 25 min (não há alternativa exata; a mais próxima é E). Somar a pressão atmosférica (600 kPa) leva a 80 min (B).",
+    "keyConcept": "pressão hidrostática (Stevin) e leitura de gráfico",
+    "commonMistake": "Somar a pressão atmosférica ou usar a distância horizontal.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q107": {
    "answer": "C",
    "reasoning": "Aplicar fatores de escala a massa e a area para comparar pressoes.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** pressão = peso/área. Na redução em escala, a massa cai com o cubo do fator linear (volume) e a área com o quadrado.\n\n**Resolução:**\n- Fator linear 100: M_torre/M_modelo = 100³ = 10⁶ e A_torre/A_modelo = 100² = 10⁴.\n- P_torre/P_modelo = 10⁶/10⁴ = 10².\n\n**Por que C:** 10².\n\n**Distratoras:** A (10⁰) acha que o mesmo material implica a mesma pressão. D (10⁴) é a razão das áreas. E (10⁶) é a razão das massas.",
+    "keyConcept": "pressão e semelhança (escala)",
+    "commonMistake": "Usar só a razão de massas ou de áreas.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q109": {
    "answer": "E",
    "reasoning": "Reconhecer que, com a valvula ativa, a temperatura nao sobe e o gas extra e desperdicio.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a temperatura de ebulição depende da pressão. Na panela de pressão, a válvula mantém a pressão (e, portanto, a temperatura) praticamente constante depois que o vapor começa a sair.\n\n**Resolução:** com a válvula liberando vapor, a água ferve a temperatura fixa. Fogo mais alto só vaporiza mais água, que escapa pela válvula, sem cozinhar mais rápido.\n\n**Por que E:** evita-se o consumo desnecessário de gás.\n\n**Distratoras:** A: a válvula já limita a pressão, então reduzir o fogo não é o que impede explosões. B e D não têm relação com a chama no regime normal. C: a temperatura do alimento não muda com a chama.",
+    "keyConcept": "ebulição e pressão (panela de pressão)",
+    "commonMistake": "Achar que fogo mais alto aumenta a temperatura do cozimento depois que a válvula abre.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q111": {
    "answer": "B",
    "reasoning": "Identificar interferencia destrutiva no cancelamento de ruido.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o fone com cancelamento capta o ruído e emite uma onda sonora em oposição de fase. A superposição das duas é destrutiva.\n\n**Resolução:** isso funciona bem para ruídos regulares e previsíveis, como o ronco de turbinas, e mal para sons irregulares, como a fala, exatamente como o texto descreve.\n\n**Por que B:** interferência.\n\n**Distratoras:** A (absorção) é o princípio dos fones passivos. C: o som no ar é onda longitudinal e não se polariza. D e E não anulam o ruído.",
+    "keyConcept": "interferência destrutiva",
+    "commonMistake": "Confundir cancelamento ativo com absorção (isolamento) do som.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q113": {
    "answer": "D",
    "reasoning": "Compor MU horizontal com queda livre e reconhecer a parabola.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** lançamento horizontal. Ao deixar a mesa, a bolinha mantém V₀ na horizontal (MRU) e ganha velocidade na vertical (MRUV), o que forma um arco de parábola.\n\n**Resolução:** x = V₀·t e y = g·t²/2, logo y ∝ x². A trajetória começa tangente à horizontal e vai ficando cada vez mais inclinada para baixo.\n\n**Por que D:** parábola com concavidade para baixo, começando horizontal na borda da mesa.\n\n**Distratoras:** A e C mostram queda vertical, a lógica do desenho animado. B é uma reta inclinada (ignora a aceleração). E mostra uma curva que fica horizontal perto do chão, como se a velocidade vertical diminuísse.",
+    "keyConcept": "lançamento horizontal (composição de movimentos)",
+    "commonMistake": "Achar que o objeto cai verticalmente ou em linha reta inclinada.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q114": {
    "answer": "C",
    "reasoning": "Relacionar ressonancias consecutivas de tubo fechado a profundidade.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** num tubo fechado em uma extremidade, só ocorrem harmônicos ímpares: f_n = n·v/(4L), com n = 1, 3, 5… Duas ressonâncias consecutivas diferem de 2·v/(4L) = v/(2L).\n\n**Resolução:**\n- L = 30 m: v/(4L) = 360/120 = 3 Hz. 135 Hz = 45 × 3 Hz (n = 45, ímpar, coerente).\n- Próxima: n = 47, f = 47 × 3 = 141 Hz (ou 135 + 360/60 = 141 Hz).\n\n**Por que C:** 141 Hz.\n\n**Distratoras:** B (138 Hz) soma só 3 Hz, como se também existissem harmônicos pares. E (159 Hz) e D (144 Hz) não correspondem ao espaçamento de um tubo de 30 m.",
+    "keyConcept": "ressonância em tubo fechado",
+    "commonMistake": "Esquecer que em tubo fechado só existem harmônicos ímpares.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q116": {
    "answer": "D",
    "reasoning": "Escolher os pontos com 9 V e calcular a corrente no aparelho.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** divisor de tensão. Os quatro resistores iguais em série dividem 12 V em quatro partes de 3 V. O aparelho de 10 kΩ é muito maior que 100 Ω e quase não altera a divisão.\n\n**Resolução:**\n- 9 V = 3 trechos de 3 V, então B–E (ou A–D) dão 9 V.\n- Corrente no equipamento: i = 9/10 000 = 0,9 mA.\n- Conferência considerando a carga: 300 Ω ∥ 10 kΩ ≈ 291 Ω, V ≈ 12 · 291/391 ≈ 8,9 V, i ≈ 0,89 mA.\n\n**Por que D:** entre B e E, com 0,9 mA. É a única opção com 9 V e a corrente correta.\n\n**Distratoras:** C tem os pontos certos (A–D), mas a corrente errada (1,2 mA = 12 V/10 kΩ). A e B (30 mA) dão a corrente nos resistores de 100 Ω (9/300), não no equipamento. E (A–E) aplica 12 V.",
+    "keyConcept": "divisor de tensão",
+    "commonMistake": "Calcular a corrente pelos resistores do divisor em vez da resistência do equipamento.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q122": {
    "answer": "C",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** flutuação. Um objeto flutua num líquido se sua densidade é menor que a do líquido.\n\n**Resolução:** a solução tem 1,15 g/mL. Flutuam (e são detectados) Ancylostoma (1,06), A. lumbricoides (1,11) e A. suum (1,13). S. mansoni (1,18) e T. saginata (1,30) afundam.\n\n**Por que C:** Ancylostoma, A. lumbricoides e A. suum.\n\n**Distratoras:** A, B, D e E incluem S. mansoni ou T. saginata, que são mais densos que a solução e afundam.",
+    "keyConcept": "densidade e flutuação",
+    "commonMistake": "Inverter o critério (achar que os mais densos sobem).",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q126": {
    "answer": "A",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a bomba atômica (de fissão) libera energia pela quebra de núcleos pesados (U-235 ou Pu-239) bombardeados por nêutrons, numa reação em cadeia.\n\n**Resolução:** cada fissão libera energia e 2 a 3 nêutrons, que provocam novas fissões. Os fragmentos de fissão são radioativos e formam a poeira radioativa citada no texto.\n\n**Por que A:** fissão nuclear do urânio, provocada por nêutrons.\n\n**Distratoras:** B: a fusão do hidrogênio é a da bomba H e não é provocada por prótons. C, D e E descrevem processos inexistentes ou irrelevantes para a detonação.",
+    "keyConcept": "fissão nuclear em cadeia",
+    "commonMistake": "Confundir fissão (bomba A) com fusão (bomba H).",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q128": {
    "answer": "C",
    "reasoning": "Relacionar potencia do aquecedor a variacao de temperatura da agua.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** em regime estacionário, o aquecedor de 50 W repõe exatamente o que o aquário perde. Desligado, a água perde 50 J por segundo.\n\n**Resolução:**\n- Q = P·Δt = 50 · 3 600 = 1,8×10⁵ J.\n- m = 50 kg, c = 4 000 J/(kg·K).\n- ΔT = Q/(m·c) = 1,8×10⁵ / (50 · 4 000) = 0,9 °C.\n\n**Por que C:** 0,9 °C.\n\n**Distratoras:** B (3,6 °C) usaria c = 1 kJ/(kg·K) (confusão com 1 cal/g°C). As demais não saem dos dados com conversões corretas.",
+    "keyConcept": "potência térmica e calorimetria",
+    "commonMistake": "Esquecer de converter 1 h em segundos ou usar calor específico errado.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q130": {
    "answer": "A",
    "reasoning": "Identificar a regiao alem do vermelho no espectro do prisma.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** Herschel descobriu o infravermelho. Além do vermelho há radiação invisível que aquece mais que a luz visível.\n\n**Resolução:** pela figura, o recipiente A fica na extremidade do vermelho, na direção em que o prisma desvia menos a radiação, onde chega o infravermelho. É ali que o aquecimento é maior.\n\n**Por que A:** recipiente A.\n\n**Distratoras:** E (lado do violeta) supõe que maior frequência significa maior aquecimento, mas o efeito térmico observado por Herschel é maior no infravermelho. B, C e D ficam no meio do visível.",
+    "keyConcept": "infravermelho e efeito térmico da radiação",
+    "commonMistake": "Achar que a radiação mais energética por fóton (violeta) é a que mais aquece.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q133": {
    "answer": "C",
    "reasoning": "Associar a carcaca metalica a blindagem eletrostatica.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** blindagem eletrostática (gaiola de Faraday). Num condutor fechado, as cargas se distribuem pela superfície externa e o interior fica protegido.\n\n**Resolução:** a descarga percorre a carcaça metálica e segue para o solo pelo lado de fora, sem atravessar o interior. Por isso o carro conversível, sem teto metálico, não protege.\n\n**Por que C:** blindagem pela carcaça metálica.\n\n**Distratoras:** A: os pneus não isolam um raio que já atravessou quilômetros de ar. B, D e E não explicam a proteção.",
+    "keyConcept": "blindagem eletrostática (gaiola de Faraday)",
+    "commonMistake": "Atribuir a proteção ao isolamento dos pneus.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q134": {
    "answer": "D",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** densidade = massa/volume. O volume de cada moeda é o volume de água deslocado na proveta.\n\n**Resolução:**\n- Leituras: 5 mL → 7 mL (A), → 10 mL (B), → 12 mL (C), → 16 mL (D).\n- Volumes: A = 2, B = 3, C = 2, D = 4 cm³.\n- Densidades: A = 26/2 = 13; B = 27/3 = 9; C = 10/2 = 5; D = 36/4 = 9 g/cm³.\n- Só B e D têm a densidade do cobre (9 g/cm³).\n\n**Por que D:** B e D.\n\n**Distratoras:** usar a leitura total da proveta, em vez da variação, como volume de cada moeda leva a A, B, C ou E.",
+    "keyConcept": "densidade e deslocamento de volume",
+    "commonMistake": "Usar o nível total da proveta em vez da variação de volume.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q91": {
    "answer": "D",
    "reasoning": "Reconhecer que a eletrizacao por atrito ocorre por transferencia de eletrons.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** eletrização por atrito. Ao esfregar dois materiais diferentes, elétrons passam de um para o outro. Um fica com excesso de elétrons (negativo) e o outro com falta (positivo).\n\n**Resolução:** o atrito entre os pelos do gato e a calça transfere elétrons, que são as únicas partículas que se movem com facilidade nesse processo. Prótons ficam presos no núcleo, e nenhuma carga é criada ou destruída.\n\n**Por que D:** movimentação de elétrons entre a calça e os pelos do gato.\n\n**Distratoras:** A fala em troca de átomos, mas são só elétrons que passam. B: prótons não saem do núcleo. C viola a conservação da carga. E descreve uma consequência possível, não a causa da eletrização.",
+    "keyConcept": "eletrização por atrito",
+    "commonMistake": "Achar que prótons ou átomos inteiros são transferidos no atrito.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q93": {
    "answer": "B",
    "reasoning": "Escolher a ligacao em serie do amperimetro e calcular a corrente de fuga.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o amperímetro mede corrente e deve ficar em série com o trecho a medir. A corrente de fuga média sai da carga que se esgota no tempo.\n\n**Resolução:**\n- 5 dias = 5 · 24 = 120 h.\n- i = Q/Δt = 60 Ah / 120 h = 0,5 A.\n- O amperímetro entra em série, entre um terminal da bateria e o circuito do veículo.\n\n**Por que B:** amperímetro em série, com leitura de 0,5 A.\n\n**Distratoras:** A tem a leitura certa, mas o amperímetro está em paralelo com a bateria, o que seria praticamente um curto-circuito. D e E indicam 12 A (60/5, tratando dias como horas). C mostra 2,5 A (60/24, um dia só) com o medidor fora do caminho da corrente para o circuito.",
+    "keyConcept": "uso do amperímetro e carga elétrica (Q = i·Δt)",
+    "commonMistake": "Ligar o amperímetro em paralelo ou esquecer de converter dias em horas.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q98": {
    "answer": "D",
    "reasoning": "Relacionar o aumento da fem induzida a rapidez de variacao do fluxo.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** lei de Faraday. A fem induzida é proporcional à rapidez com que o fluxo magnético varia, |ε| = ΔΦ/Δt.\n\n**Resolução:** num gerador, o fluxo nas bobinas varia porque o ímã ou as bobinas giram. Se o eixo passa a girar mais rápido (maior velocidade angular), o fluxo varia em menos tempo e a ddp aumenta.\n\n**Por que D:** aumento da rapidez de variação do fluxo, com maior velocidade angular.\n\n**Distratoras:** A: diminuir a velocidade reduz a ddp. B e C: área ou campo maiores também aumentariam a ddp, mas não fazem sentido como mudança inesperada durante a operação de um gerador já construído. E: a resistência das bobinas não aumenta a fem.",
+    "keyConcept": "lei de Faraday (fem ∝ ΔΦ/Δt)",
+    "commonMistake": "Achar que basta haver fluxo grande, e não fluxo variando rapidamente.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2020-REG-D2-C7-Q99": {
    "answer": "D",
    "reasoning": "Separar o movimento em fases e calcular os instantes de cada semaforo.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o movimento tem duas fases: MRUV até 72 km/h e depois MRU. Cada semáforo abre quando o carro está 100 m antes dele.\n\n**Resolução:**\n- 72 km/h = 20 m/s. Aceleração por t = 20/1 = 20 s, percorrendo d = 20²/(2·1) = 200 m.\n- Semáforo A (500 m), abre com o carro em 400 m: t = 20 + (400 − 200)/20 = 30 s.\n- Semáforo B (1 000 m), abre em 900 m: t = 20 + 700/20 = 55 s.\n- Semáforo C (1 500 m), abre em 1 400 m: t = 20 + 1 200/20 = 80 s.\n\n**Por que D:** 30 s, 55 s e 80 s.\n\n**Distratoras:** E (35, 60, 85) dá os instantes em que o carro cruza os semáforos, sem os 100 m de antecedência. A (20, 45, 70) ignora a aceleração (carro a 20 m/s desde o início). B (25, 50, 75) ignora a aceleração e os 100 m. C (28, 42, 53) supõe aceleração o tempo todo.",
+    "keyConcept": "MRUV seguido de MRU",
+    "commonMistake": "Ignorar a fase de aceleração ou os 100 m de antecedência.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q100": {
    "answer": "B",
    "reasoning": "Identificar a resistencia do ar como fator que diferencia as quedas.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** no vácuo, todos os corpos caem com a mesma aceleração g. As diferenças observadas no ar vêm da resistência do ar, que depende da forma e da área exposta.\n\n**Resolução:**\n- Colega A: a rolha é mais afetada pelo ar que a pedra.\n- Colega B: a mesma folha (mesma massa, mesmo peso) cai mais rápido amassada, porque a área exposta ao ar diminuiu.\n- O fator comum aos dois casos é a resistência do ar.\n\n**Por que B:** resistência do ar.\n\n**Distratoras:** A e C não explicam a folha: peso e massa são os mesmos e o tempo de queda muda. D: a densidade da folha não muda ao amassá-la. E: g é igual para todos os corpos.",
+    "keyConcept": "queda livre e resistência do ar",
+    "commonMistake": "Atribuir a diferença ao peso ou à massa dos corpos.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q102": {
    "answer": "B",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** cada conjunto Cu/Zn com ponte salina é uma pilha. Ligar o Zn da primeira ao Cu da segunda associa as pilhas em série, e as fem se somam. O cronômetro (carga) e o voltímetro ficam ligados em paralelo aos terminais da associação.\n\n**Resolução:** os eletrodos das pontas (Cu da 1ª pilha e Zn da 2ª) alimentam o cronômetro e o voltímetro, que estão em paralelo entre si. No esquema elétrico, isso equivale a duas pilhas em série, com a mesma polaridade, e um resistor e um voltímetro em paralelo.\n\n**Por que B:** duas pilhas em série, no mesmo sentido, com resistor e voltímetro em paralelo.\n\n**Distratoras:**\n- A: uma única pilha e voltímetro em série.\n- C: pilhas em oposição, o que anularia as fem.\n- D: inclui resistores em série que não existem na montagem.\n- E: quatro pilhas e voltímetro em série.",
+    "keyConcept": "associação de pilhas em série e uso do voltímetro",
+    "commonMistake": "Ligar o voltímetro em série ou contar cada béquer como uma pilha.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q105": {
    "answer": "A",
    "reasoning": "Determinar sentido de F = q v × B visto de cima.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** força magnética sobre carga em movimento: F = q·v×B (regra da mão direita). Cargas de sinais opostos sofrem forças opostas.\n\n**Resolução:**\n- As esferas caem, então v aponta para dentro da folha (mesmo sentido de g). B aponta para a direita.\n- Carga +: v×B aponta para baixo na figura (\"para dentro\" × \"direita\" = \"para baixo\").\n- Carga −: a força tem o sentido oposto, para cima.\n\n**Por que A:** força para baixo na carga + e para cima na carga −.\n\n**Distratoras:** B e D dão o mesmo sentido às duas cargas, ignorando o sinal. C desenha forças ao longo da haste, como uma atração elétrica, e não é força magnética. E inverte os sentidos.",
+    "keyConcept": "força magnética (regra da mão direita)",
+    "commonMistake": "Esquecer que a força inverte para a carga negativa.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q107": {
    "answer": "C",
    "reasoning": "Relacionar menor tempo de aceleracao a maior potencia media.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** potência é a taxa de variação de energia: P = ΔE_c/Δt. É o mesmo carro (mesma massa) indo de 0 a 100 km/h nas duas versões.\n\n**Resolução:**\n- ΔE_c = m·(100 km/h)²/2 é igual nas duas versões.\n- O álcool faz essa variação em 12,9 s, contra 13,4 s da gasolina.\n- Mesmo ΔE_c em menos tempo ⇒ P_álcool > P_gasolina.\n\n**Por que C:** a versão a álcool tem a maior taxa de variação de energia cinética.\n\n**Distratoras:**\n- A: quem acelera mais é o álcool, que leva menos tempo.\n- B: velocidade máxima não mede potência.\n- D: mesma ΔE_c em tempos diferentes dá potências diferentes.\n- E: levar mais tempo para o mesmo trabalho significa menor potência.",
+    "keyConcept": "potência como taxa de variação de energia",
+    "commonMistake": "Associar potência à velocidade máxima ou ao tempo maior de funcionamento.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q108": {
    "answer": "D",
    "reasoning": "Cruzar os versos (distancia e densidade < agua) com a tabela.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** usar a tabela com dois critérios: o planeta é menos denso que a água (densidade relativa < 1) e fica a uma distância da Terra pouco menor que a distância ao Sol.\n\n**Resolução:**\n- A única densidade menor que 1 na tabela é a de Saturno (0,7).\n- Conferindo a distância: Saturno está a 9,6 u.a. do Sol e, alinhado, a cerca de 9,6 − 1,0 = 8,6 u.a. da Terra, pouco menos que a distância ao Sol.\n\n**Por que D:** Saturno.\n\n**Distratoras:** Mercúrio, Júpiter, Urano e Netuno têm densidade relativa maior que 1.",
+    "keyConcept": "densidade relativa e distâncias planetárias",
+    "commonMistake": "Ler a distância ao Sol como distância à Terra sem usar o critério da densidade.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q109": {
    "answer": "C",
    "reasoning": "Aplicar R proporcional a L/A com resistividade constante.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** segunda lei de Ohm: R = ρ·L/A. Com ρ constante, basta comparar L/A.\n\n**Resolução:**\n- R1 ∝ 312/9 ≈ 34,7\n- R2 ∝ 47/4 ≈ 11,8\n- R3 ∝ 54/2 = 27\n- R4 ∝ 106/1 = 106\n- Em ordem crescente: R2 < R3 < R1 < R4.\n\n**Por que C:** R2 < R3 < R1 < R4.\n\n**Distratoras:** A segue apenas a numeração dos fios. B troca R1 e R3. D e E invertem a proporcionalidade, como se R ∝ A/L.",
+    "keyConcept": "segunda lei de Ohm (R = ρL/A)",
+    "commonMistake": "Esquecer que a resistência é inversamente proporcional à área.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q115": {
    "answer": "B",
    "reasoning": "Comparar taxas de conducao para ordenar os materiais.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a panela mais econômica é a que conduz mais calor, ou seja, a de maior condutividade efetiva. Na panela composta, as camadas ficam em série: d/k_ef = d₁/k₁ + d₂/k₂.\n\n**Resolução:**\n- Alumínio: k = 20 W/(m·K).\n- Ferro: k = 8 W/(m·K).\n- Cobre-aço (metade da espessura de cada): 1/k_ef = (1/2)/40 + (1/2)/5 = 0,0125 + 0,1 = 0,1125 ⇒ k_ef ≈ 8,9 W/(m·K).\n- Ordem: alumínio (20) > cobre-aço (8,9) > ferro (8).\n\n**Por que B:** alumínio, cobre-aço e ferro.\n\n**Distratoras:** A faz a média simples (40 + 5)/2 = 22,5 e põe o cobre-aço na frente; na verdade, a camada de aço, pouco condutora, domina a resistência térmica. C, D e E erram a posição do ferro ou da panela composta.",
+    "keyConcept": "condução térmica em camadas (série)",
+    "commonMistake": "Fazer média simples das condutividades em vez de somar resistências térmicas.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q120": {
    "answer": "A",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a cor que vemos é a complementar da cor absorvida.\n\n**Resolução:**\n- O caroteno tem coloração amarelo-alaranjada.\n- No círculo de cores complementares, ficam opostos ao amarelo (560–590 nm) e ao laranja (590–630 nm) o violeta (400–430 nm) e o azul (430–480 nm).\n- Logo, o caroteno absorve sobretudo entre o violeta e o azul.\n\n**Por que A:** entre o violeta e o azul.\n\n**Distratoras:** D (amarelo e laranja) confunde cor refletida com cor absorvida. B (azul e verde) é a faixa absorvida pela antocianina, segundo o texto. C e E não são complementares do amarelo-alaranjado.",
+    "keyConcept": "cores complementares e absorção",
+    "commonMistake": "Confundir a cor vista (refletida) com a cor absorvida.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q125": {
    "answer": "B",
    "reasoning": "Relacionar umidade alta a menor evaporacao do suor.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** com o ambiente mais frio que o corpo, o corpo também perde calor pela evaporação do suor, que retira calor latente da pele. Com o ar úmido, perto da saturação, a evaporação fica mais lenta.\n\n**Resolução:** em dias úmidos, o suor evapora com dificuldade, o corpo perde menos calor e a sensação é de abafamento.\n\n**Por que B:** o suor tem mais dificuldade para evaporar.\n\n**Distratoras:**\n- A: a temperatura do vapor é a mesma do ar.\n- C: a umidade não aumenta a absorção de radiação pelo corpo.\n- D: o ar úmido não se torna mau condutor.\n- E: a condensação na pele exigiria a pele abaixo do ponto de orvalho, o que não ocorre.",
+    "keyConcept": "evaporação (calor latente) e umidade",
+    "commonMistake": "Atribuir o desconforto a uma suposta temperatura maior do vapor.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q126": {
    "answer": "D",
    "reasoning": "Testar estados dos interruptores para acender uma lampada por vez.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** com dois interruptores de três pontos, o circuito deve acender exatamente uma lâmpada por vez, e qualquer uma das três deve poder ser escolhida.\n\n**Resolução (circuito D):**\n- Um polo da bateria alimenta o topo das três lâmpadas.\n- O outro polo vai ao ponto B do interruptor 1.\n- Interruptor 1 em AB: acende a VERDE.\n- Interruptor 1 em BC: a corrente segue para o B do interruptor 2.\n- Interruptor 2 em AB: acende a VERMELHA. Em BC: acende a AZUL.\n\n**Por que D:** é o único esquema em que cada combinação acende uma lâmpada só e as três podem ser selecionadas.\n\n**Distratoras:** em C e E, a AZUL fica ligada direto ao circuito da bateria, então está sempre acesa. Em A e B, as ligações acendem duas lâmpadas juntas ou deixam alguma impossível de acender.",
+    "keyConcept": "circuitos com interruptores de três vias",
+    "commonMistake": "Não seguir o caminho fechado da corrente em cada posição das chaves.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q128": {
    "answer": "D",
    "reasoning": "Calcular energia necessaria e tempo de recarga.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a energia gasta vem do consumo do carro, e o tempo de recarga é energia ÷ potência, com P = U·i.\n\n**Resolução:**\n- E = 110 km ÷ 5,0 km/kWh = 22 kWh.\n- P = 220 V · 20 A = 4 400 W = 4,4 kW.\n- t = 22 kWh ÷ 4,4 kW = 5,0 h.\n\n**Por que D:** 5,0 h.\n\n**Distratoras:** A (0,005) divide kWh por W sem converter (22/4 400).",
+    "keyConcept": "energia elétrica, potência (P = U·i) e consumo",
+    "commonMistake": "Misturar kWh com W sem converter unidades.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q131": {
    "answer": "B",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a frequência cardíaca é o inverso do período entre dois picos consecutivos (o intervalo marcado pelo retângulo tracejado).\n\n**Resolução:**\n- Cada divisão da escala vale 0,2 s.\n- Entre dois picos há cerca de 5 divisões: T ≈ 5 · 0,2 = 1,0 s.\n- f = 1/T = 1 batimento por segundo = 60 batimentos por minuto.\n\n**Por que B:** 60.\n\n**Distratoras:** D (120) corresponde a metade do período. A (30) corresponde ao dobro.",
+    "keyConcept": "período e frequência",
+    "commonMistake": "Contar mal as divisões ou confundir período com frequência.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q134": {
    "answer": "C",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** o alcoolômetro funciona como densímetro, e a densidade depende da temperatura. Ao aquecer, a mistura (e o próprio instrumento) aumenta de volume por dilatação e a densidade diminui.\n\n**Resolução:**\n- Acima de 20 °C, a mistura fica menos densa, o alcoolômetro afunda mais e indica um teor aparente maior.\n- Por isso a correção da tabela reduz a leitura: 35 °GL lidos a 25 °C correspondem a 33,0 °GL.\n\n**Por que C:** mudança do volume dos materiais por dilatação.\n\n**Distratoras:**\n- B: o aquecimento diminui a densidade, não aumenta.\n- A e E: não há mudança química relevante.\n- D: a concentração real de álcool não muda; só a leitura aparente.",
+    "keyConcept": "dilatação térmica e densidade",
+    "commonMistake": "Achar que a concentração de álcool muda com a temperatura.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q92": {
    "answer": "D",
    "reasoning": "Mesmo material implica mesma velocidade; barra maior implica menor frequencia.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a velocidade do som numa barra depende só do material (e do tipo de onda), não do comprimento. A frequência fundamental é inversamente proporcional ao comprimento: f = v/λ, com λ ∝ L.\n\n**Resolução:**\n- Mesmo material e espessura ⇒ v₁ = v₂.\n- A barra 1 é a menor ⇒ λ₁ < λ₂ ⇒ f₁ = v/λ₁ > f₂.\n\n**Por que D:** f₁ > f₂ e v₁ = v₂.\n\n**Distratoras:** A, C e E fazem a velocidade depender do comprimento. B inverte a relação de frequências: a barra menor dá som mais agudo, não mais grave.",
+    "keyConcept": "frequência fundamental × comprimento; velocidade depende do meio",
+    "commonMistake": "Achar que a velocidade do som muda com o comprimento da barra.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q94": {
    "answer": "C",
    "reasoning": "Usar o ponto P tangenciado para obter a velocidade de disparo.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** lançamento oblíquo. Com θ fixo, a equação da trajetória dá a velocidade necessária para a bala passar pelo ponto do canhão A.\n\n**Resolução:**\n- Origem em B; o canhão A está em x = 120 m, y = 35 m.\n- tg 53° = 0,8/0,6 = 4/3 e cos² 53° = 0,36.\n- y = x·tg θ − g·x²/(2·v₀²·cos² θ)\n- 35 = 120·(4/3) − 10·120²/(2·v₀²·0,36)\n- 35 = 160 − 144 000/(0,72·v₀²) ⇒ 200 000/v₀² = 125 ⇒ v₀² = 1 600 ⇒ v₀ = 40 m/s.\n- Conferência: altura máxima = (40·0,8)²/20 = 51,2 m, acima de P (35 + 10 = 45 m). A bala passa por cima do morro.\n\n**Por que C:** 40 m/s.\n\n**Distratoras:** A (30 m/s) e B (35 m/s) não alcançam A: a bala cai antes ou bate no morro. D (45 m/s) e E (50 m/s) fazem a bala passar acima de A com esse ângulo.",
+    "keyConcept": "lançamento oblíquo (equação da trajetória)",
+    "commonMistake": "Ignorar o desnível de 35 m entre os canhões.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2021-REG-D2-C7-Q99": {
    "answer": "A",
    "reasoning": "Identificar irradiacao (Sol-ilha) e conveccao (ilha-brisa).",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** identificar o mecanismo de transferência de calor em cada etapa.\n\n**Resolução:**\n- Sol → ilha de calor: a energia atravessa o espaço como onda eletromagnética, sem precisar de meio material. É irradiação.\n- Ilha de calor → brisa: o ar aquecido sobe num fluxo vertical, levando a brisa para cima. É convecção, ou seja, transporte de matéria aquecida.\n\n**Por que A:** irradiação e convecção.\n\n**Distratoras:** C e D atribuem ao Sol condução ou convecção, mas não há meio material entre o Sol e a Terra. B e E repetem um único mecanismo para as duas etapas.",
+    "keyConcept": "processos de transferência de calor",
+    "commonMistake": "Achar que o calor do Sol chega por condução ou convecção.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q100": {
    "answer": "B",
    "reasoning": "Encadear lancamento horizontal e lancamento vertical.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a velocidade de saída da água é a mesma nas duas situações. O lançamento horizontal permite medir essa velocidade; depois, o lançamento vertical dá a altura.\n\n**Resolução:**\n- Queda de 1 m: t = √(2h/g) = √(2·1/10) = √0,2 s.\n- v = x/t = 3/√0,2 ⇒ v² = 9/0,2 = 45 m²/s².\n- Lançamento vertical: H = v²/(2g) = 45/20 = 2,25 m. Atalho: H = x²/(4h) = 9/4.\n\n**Por que B:** 2,25 m.\n\n**Distratoras:**\n- D (4,50 m): esquece o fator 2 em H = v²/(2g).\n- A (1,50 m): usa x/2.\n- C (4,00 m) e E (5,00 m): não saem das relações corretas.",
+    "keyConcept": "lançamento horizontal e vertical (mesma velocidade inicial)",
+    "commonMistake": "Esquecer que o alcance vertical é v²/(2g).",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q103": {
    "answer": "E",
    "reasoning": "Escolher o diagrama de forcas coerente com o equilibrio.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** diagrama de corpo livre. Cada força tem seu ponto de aplicação correto:\n- peso no centro de massa (CM), vertical para baixo;\n- normal no ponto de contato com o piso, vertical para cima;\n- atrito estático no ponto de contato, paralelo ao piso.\n\n**Resolução:**\n- F é paralela à muleta e empurra para baixo e para a esquerda (a muleta está inclinada para a direita).\n- A ponta tende a escorregar para a esquerda, então o atrito estático aponta para a direita.\n- P fica aplicado no CM.\n\n**Por que E:** F ao longo da muleta, P no CM, N vertical no contato e f_e para a direita no contato.\n\n**Distratoras:**\n- A: F vertical e P aplicado no ponto de contato.\n- B e D: põem N no CM e o atrito para a esquerda.\n- C: aplica P no ponto de contato com o piso.",
+    "keyConcept": "diagrama de forças (pontos de aplicação e atrito)",
+    "commonMistake": "Aplicar o peso no ponto de contato ou inverter o sentido do atrito.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q105": {
    "answer": "A",
    "reasoning": "Comparar Δp (com e sem retorno) em tempos iguais.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:**\n- Força média: F = Δp/Δt. O tempo de colisão é igual nas duas barreiras; a diferença está em Δp.\n- Energia dissipada: é a parte da energia cinética que não volta para o carro.\n\n**Resolução:**\n- Pneus: o carro volta. Δp = m(v + v'), maior do que nos blocos, onde Δp = m·v ⇒ força maior com os pneus.\n- Blocos: o carro para. Toda a energia cinética é dissipada; nos pneus, parte dela permanece com o carro (v').\n\n**Por que A:** força maior nos pneus e energia dissipada maior nos blocos.\n\n**Distratoras:**\n- B, C e E: dizem que a força é maior nos blocos, esquecendo que inverter o sentido aumenta Δp.\n- D: inverte a conclusão sobre a energia dissipada.",
+    "keyConcept": "impulso (F = Δp/Δt) e energia dissipada",
+    "commonMistake": "Esquecer que o rebote aumenta a variação da quantidade de movimento.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q109": {
    "answer": "D",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** decaimento radioativo. A cada meia-vida, a massa cai pela metade.\n\n**Resolução:**\n- Pelo quadro, a massa cai de 12,0 µg para 6,0 µg em 8 dias ⇒ T½ = 8 dias.\n- 40 dias = 5 meias-vidas.\n- m = 12 / 2⁵ = 12/32 = 0,375 µg ≈ 0,4 µg.\n\n**Por que D:** 0,4 µg.\n\n**Distratoras:**\n- A (2,4 µg): divide 12 por 5, como se o decaimento fosse linear.\n- C (0,8 µg): para em 4 meias-vidas.\n- E (0,2 µg): usa 6 meias-vidas.",
+    "keyConcept": "meia-vida (decaimento exponencial)",
+    "commonMistake": "Tratar o decaimento como linear.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q111": {
    "answer": "A",
    "reasoning": "Interpretar a figura de 21 de dezembro e a incidencia direta.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a energia diária de uma placa solar é maior quando o Sol fica mais alto e os dias são mais longos, isto é, no verão local.\n\n**Resolução:**\n- O gráfico tem máximo em 10/01 e mínimo em 10/07, mas nunca chega a zero.\n- Verão em janeiro ⇒ Hemisfério Sul.\n- Há variação sazonal clara, mas sem noite polar (em julho ainda há produção). Isso aponta para latitude intermediária: perto do Trópico de Capricórnio, onde o Sol incide diretamente ao meio-dia em 21/12, como mostra a figura.\n\n**Por que A:** Trópico de Capricórnio.\n\n**Distratoras:**\n- B (Trópico de Câncer): teria o máximo em julho.\n- D (Polo Sul): produção nula no inverno.\n- C (Polo Norte): máximo em julho.\n- E (Equador): variação pequena ao longo do ano, com máximos nos equinócios.",
+    "keyConcept": "sazonalidade e inclinação do eixo terrestre",
+    "commonMistake": "Esquecer que janeiro é verão no Hemisfério Sul.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q112": {
    "answer": "D",
    "reasoning": "Combinar energia e dinamica circular com margem de 25%.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a tensão nas cordas é máxima no ponto mais baixo. Ali, a tensão total menos o peso fornece a resultante centrípeta. A velocidade nesse ponto vem da conservação de energia, partindo de 90°.\n\n**Resolução:**\n- Saindo do repouso a 90°: v² = 2gL.\n- No ponto mais baixo: T_total − mg = m·v²/L = 2mg ⇒ T_total = 3mg = 3 · 240 = 720 N.\n- São dois segmentos: 360 N cada.\n- Com margem de 25%: 1,25 · 360 = 450 N.\n\n**Por que D:** 450 N.\n\n**Distratoras:**\n- C (360 N): esquece os 25%.\n- E (900 N): esquece que são duas cordas.\n- B (300 N): aplica os 25% apenas ao peso (240 N), como se fosse uma corda só.\n- A (120 N): metade do peso.",
+    "keyConcept": "dinâmica do movimento circular + conservação de energia",
+    "commonMistake": "Usar só o peso, esquecendo a força centrípeta no ponto mais baixo.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q115": {
    "answer": "B",
    "reasoning": "Comparar variacoes de temperatura em areas concretada e alagada.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** mesmo volume e mesma energia absorvida ⇒ ΔT = Q/(m·c) = Q/(ρ·V·c). Logo, ΔT é inversamente proporcional a ρ·c.\n\n**Resolução:**\n- Água: ρc = 1 000 · 4,2 = 4 200.\n- Concreto: ρc = 2 500 · 0,8 = 2 000.\n- ΔT_concreto / ΔT_água = 4 200/2 000 = 2,1.\n\n**Por que B:** 2,1.\n\n**Distratoras:**\n- C (2,5): só a razão de densidades.\n- D (5,3): só a razão de calores específicos (4,2/0,8 ≈ 5,25).\n- E (13,1): multiplica as duas razões em vez de combiná-las corretamente.\n- A (1,0): supõe a mesma variação de temperatura.",
+    "keyConcept": "capacidade térmica por volume (ρ·c)",
+    "commonMistake": "Usar só o calor específico, esquecendo que o volume (e não a massa) é o mesmo.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q116": {
    "answer": "B",
    "reasoning": "Obter a maior potencia pelo grafico e a corrente do disjuntor.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a potência elétrica vira calor na água: P = (m/t)·c·ΔT. O disjuntor deve suportar a maior corrente, I = P/U.\n\n**Resolução:**\n- Maior potência (superquente): 3 L/min com ΔT = 30 °C, ou 6 L/min com ΔT = 15 °C; dá o mesmo resultado.\n- Vazão: 3 L/min = 3 000 g/60 s = 50 g/s.\n- P = 50 · 4,2 · 30 = 6 300 W.\n- I = 6 300/220 ≈ 28,6 A ⇒ próximo múltiplo de 5 A: 30 A.\n\n**Por que B:** 30 A.\n\n**Distratoras:**\n- C (20 A): usa o nível quente (4 200 W, 19 A).\n- D (10 A): usa o nível morno.\n- A (60 A): soma as potências dos níveis.",
+    "keyConcept": "potência elétrica e calorimetria em fluxo",
+    "commonMistake": "Dimensionar pelo nível errado ou esquecer de converter L/min em g/s.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q119": {
    "answer": "A",
    "reasoning": "Somar fems com sinal e resistencias para a corrente.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** pilhas em série somam as fem com sinal. Uma pilha invertida subtrai a sua fem. As resistências internas se somam de qualquer forma.\n\n**Resolução:**\n- fem líquida: 1,5 + 1,5 − 1,5 = 1,5 V.\n- Lâmpada: R = U²/P = 4,5²/4,5 = 4,5 Ω.\n- Resistências internas: 3 · 0,5 = 1,5 Ω.\n- i = 1,5/(4,5 + 1,5) = 0,25 A.\n\n**Por que A:** 0,25 A.\n\n**Distratoras:**\n- B (0,33 A): ignora as resistências internas (1,5/4,5).\n- C (0,75 A): usa 4,5 V com as resistências internas.\n- D (1,00 A): é a corrente nominal, com as pilhas certas e sem resistência interna.",
+    "keyConcept": "associação de geradores e lei de Pouillet",
+    "commonMistake": "Esquecer as resistências internas ou não subtrair a fem da pilha invertida.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q123": {
    "answer": "E",
    "reasoning": "Mesma massa e distancia implicam mesma forca gravitacional.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** fora do corpo, a gravitação depende apenas da massa e da distância (F = GMm/r²), não do raio do corpo central.\n\n**Resolução:** o buraco negro tem a mesma massa do Sol e os planetas continuam às mesmas distâncias. A força gravitacional sobre cada planeta não muda, então as órbitas permanecem as mesmas. O horizonte de eventos (3 km) é minúsculo comparado às distâncias planetárias.\n\n**Por que E:** manteriam suas órbitas inalteradas.\n\n**Distratoras:** A e C supõem que o buraco negro \"suga\" tudo, mas a atração é a mesma do Sol. B e D atribuem efeitos que não decorrem de uma massa igual.",
+    "keyConcept": "lei da gravitação universal (depende só de M e r)",
+    "commonMistake": "Achar que buracos negros atraem mais que um corpo de mesma massa.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q128": {
    "answer": "A",
    "reasoning": "Transpor grandezas eletricas para o modelo de trafego.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** no modelo, cada via funciona como na lei de Ohm: R = U/i.\n\n**Resolução:**\n- Rota 1: R = 510/4 = 127,5.\n- Rota 2: R = 608/4 = 152.\n- Rota 3: R = 575/3 ≈ 191,7.\n- Ordem crescente de resistência: 1, 2, 3.\n\n**Por que A:** 1, 2, 3.\n\n**Distratoras:**\n- B e D: ordenam só pela d.d.p. ou só pela corrente.\n- E: inverte a ordem.",
+    "keyConcept": "lei de Ohm (analogia)",
+    "commonMistake": "Ordenar apenas pela d.d.p., sem dividir pela corrente.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q130": {
    "answer": "C",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** pelo texto, os bastonetes respondem à quantidade de fótons, ou seja, à intensidade da luz.\n\n**Resolução:** bastonetes mais sensíveis detectam pouca luz (poucos fótons). Isso favorece a visão em ambientes mal iluminados (visão noturna).\n\n**Por que C:** enxergar bem em ambientes mal iluminados.\n\n**Distratoras:**\n- A, B e E: tratam de cores, que dependem dos cones (energia ou frequência dos fótons).\n- D: diz o contrário do efeito.",
+    "keyConcept": "fótons: energia × intensidade",
+    "commonMistake": "Confundir a função dos cones (cor) com a dos bastonetes (intensidade).",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q134": {
    "answer": "D",
    "reasoning": "Usar a diferenca de chegada para obter a distancia.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o mesmo som chega antes pela água (mais rápido) e depois pelo ar. O atraso entre os sinais permite calcular a distância.\n\n**Resolução:**\n- Pelos gráficos, cada divisão vale 6 s (escala de 208 a 244 s). O sinal em B começa cerca de 2 divisões depois do sinal em A ⇒ Δt ≈ 12 s.\n- Δt = L/340 − L/1 540 = L·(1 540 − 340)/(340 · 1 540) = L·1 200/523 600.\n- L = 12 · 523 600 / 1 200 ≈ 5 236 m.\n\n**Por que D:** ≈ 5 240 m.\n\n**Distratoras:**\n- A (1 540 · 220 ≈ 339 000) e B (340 · 232 ≈ 78 900): multiplicam o tempo absoluto do gráfico por uma das velocidades.\n- C (14 400): multiplica a diferença de velocidades (1 200 m/s) por Δt, o que não tem sentido físico.",
+    "keyConcept": "velocidade do som em meios diferentes (atraso)",
+    "commonMistake": "Usar o tempo absoluto do gráfico em vez da diferença entre os sinais.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q135": {
    "answer": "E",
    "reasoning": "Identificar a refracao como fenomeno que espalha a luz na casa.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a garrafa com água funciona como um meio refringente. A luz do Sol entra pela parte de cima, que fica fora do telhado, e muda de direção ao passar pela água e pela interface com o ar interno, espalhando-se para dentro da casa.\n\n**Resolução:**\n- O buraco é muito maior que o comprimento de onda da luz, então a difração é desprezível.\n- O desvio da luz ocorre nas mudanças de meio (ar → plástico/água → ar), ou seja, por refração.\n\n**Por que E:** refração.\n\n**Distratoras:**\n- A (difração): exigiria aberturas comparáveis ao comprimento de onda; o próprio texto exclui isso.\n- B (absorção): reduziria a luz, não a distribuiria.\n- C (polarização): não explica o efeito.\n- D (reflexão): ocorre, mas não é o fenômeno principal segundo o gabarito.",
+    "keyConcept": "refração da luz",
+    "commonMistake": "Atribuir o efeito à difração.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q93": {
    "answer": "B",
    "reasoning": "Relacionar potencia instalada, irradiancia e eficiencia.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a potência elétrica dos painéis é a potência solar que chega a eles multiplicada pela eficiência: P = η·I·A.\n\n**Resolução:**\n- P = 150 MW = 1,5×10⁸ W.\n- 1,5×10⁸ = 0,20 · 1 500 · A ⇒ A = 1,5×10⁸ / 300 = 5×10⁵ m².\n\n**Por que B:** 500 000 m².\n\n**Distratoras:**\n- A (1 000 000 m²): é o dobro do valor correto (equivaleria a uma eficiência de 10%).\n- C (250 000 m²): usa 75 MW em vez de 150 MW.\n- D (100 000 m²): esquece os 20% de eficiência (1,5×10⁸/1 500).",
+    "keyConcept": "potência, irradiância e eficiência",
+    "commonMistake": "Esquecer a eficiência ou usar a potência de uma só usina.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q95": {
    "answer": "D",
    "reasoning": "Determinar a orientacao das bussolas em A, B e C.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o fio retilíneo com corrente cria um campo magnético em circunferências concêntricas ao fio. O sentido é dado pela regra da mão direita: polegar no sentido da corrente, dedos indicam o campo. A agulha da bússola (polo N) se alinha tangente a essas circunferências, no sentido do campo.\n\n**Resolução:**\n- Com a corrente para cima, o campo circula no sentido anti-horário visto de cima.\n- Em A, B e C, a agulha fica tangente à circunferência tracejada, com o polo N apontando no sentido anti-horário.\n\n**Por que D:** é o esquema com as três agulhas tangentes à circunferência, no sentido anti-horário visto de cima.\n\n**Distratoras:** os outros esquemas mostram agulhas apontando para o fio (radiais) ou tangentes no sentido horário, o que equivale a inverter a regra da mão direita.",
+    "keyConcept": "campo magnético de fio retilíneo (regra da mão direita)",
+    "commonMistake": "Desenhar o campo apontando radialmente para o fio ou inverter o sentido de circulação.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2022-REG-D2-C7-Q96": {
    "answer": "A",
    "reasoning": "Identificar a ligacao que resulta na corrente indicada.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** lei de Ohm, i = U/R. Pela tabela, a parada respiratória ocorre de 20 mA a 100 mA. Com a pele molhada, R ≈ 1 kΩ.\n\n**Resolução:**\n- 20 mA ≤ U/1 000 Ω ≤ 100 mA ⇒ 20 V ≤ U ≤ 100 V.\n- Uma bateria de 12 V daria 12 mA (só contrações).\n- Só a associação em série, com polaridades somando, fornece 24 V ⇒ i = 24 mA, na faixa da parada respiratória.\n\n**Por que A:** baterias em série no mesmo sentido (+ − + −), com 24 V entre A e B.\n\n**Distratoras:**\n- B e D: baterias em oposição, as fem se anulam (≈ 0 V).\n- C: associação em paralelo, 12 V e 12 mA.\n- E: as baterias ficam ligadas uma contra a outra num laço, sem gerar 24 V entre A e B.",
+    "keyConcept": "lei de Ohm e associação de baterias",
+    "commonMistake": "Esquecer que só a série com polaridades alinhadas soma as tensões.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q100": {
    "answer": "C",
    "reasoning": "No ponto mais alto v = 0 e a = g para baixo.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** no lançamento vertical, a única força relevante é o peso. A aceleração vale g, para baixo, durante todo o movimento, inclusive no ponto mais alto.\n\n**Resolução:** no ponto mais alto, a velocidade se anula por um instante (troca de sentido), mas a aceleração continua sendo g, para baixo.\n\n**Por que C:** v = 0 e a ≠ 0 para baixo.\n\n**Distratoras:**\n- B: supõe a = 0 no topo, o erro mais comum. Se a fosse 0 com v = 0, a esfera ficaria parada lá em cima.\n- A: aceleração para cima.\n- D e E: velocidade não nula no topo.",
+    "keyConcept": "aceleração da gravidade no ponto mais alto",
+    "commonMistake": "Achar que no ponto mais alto a aceleração é nula.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q108": {
    "answer": "D",
    "reasoning": "Reconhecer campo magnetico variavel como causa da corrente induzida.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** indução eletromagnética. A bobina sob o vidro é percorrida por corrente alternada e cria um campo magnético variável. Esse campo induz correntes (correntes de Foucault) no fundo metálico da panela.\n\n**Resolução:** as correntes induzidas dissipam energia por efeito Joule e aquecem a panela diretamente.\n\n**Por que D:** campo magnético variável.\n\n**Distratoras:**\n- A e B: radiação e condução descrevem transferência de calor, não a origem da corrente.\n- C: a variação relevante é a do fluxo magnético.\n- E: não é um efeito de ressonância.",
+    "keyConcept": "indução eletromagnética (correntes de Foucault)",
+    "commonMistake": "Confundir o mecanismo de indução com condução térmica.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q109": {
    "answer": "D",
    "reasoning": "Contar trechos de corda que sustentam cada carga.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** polias fixas só mudam a direção da força. Uma polia móvel divide o peso entre os dois ramos da corda.\n\n**Resolução:**\n- Tipo 1 (só polias fixas): F = M₁·g.\n- Tipo 2 (carga presa a uma polia móvel): F = M₂·g/2.\n- Mesma força F: M₁·g = M₂·g/2 ⇒ M₂/M₁ = 2.\n\n**Por que D:** 2.\n\n**Distratoras:**\n- B (1/2): inverte a razão.\n- C (1): ignora a polia móvel.\n- A e E (1/4 e 4): contam duas polias móveis.",
+    "keyConcept": "polias fixas e móveis",
+    "commonMistake": "Inverter a razão ou contar polias fixas como se dividissem a força.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q111": {
    "answer": "C",
    "reasoning": "Barbante mais longo atenua a onda: reducao de amplitude.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** ao se propagar no barbante, parte da energia da onda é dissipada. Quanto maior o caminho, menor a energia que chega e, portanto, menor a amplitude (o som fica mais fraco).\n\n**Resolução:** frequência (altura), período, velocidade no barbante e comprimento de onda não dependem do comprimento do fio. Só a amplitude diminui com a distância percorrida.\n\n**Por que C:** amplitude.\n\n**Distratoras:**\n- A e B: altura e período dependem da fonte (a voz).\n- D: a velocidade depende do meio (tração e densidade do barbante).\n- E: o comprimento de onda depende da frequência e da velocidade, que não mudam.",
+    "keyConcept": "amortecimento: amplitude × frequência",
+    "commonMistake": "Confundir intensidade (amplitude) com altura (frequência).",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q112": {
    "answer": "A",
    "reasoning": "Menor comprimento de onda permite cavidades menores.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a difração limita o tamanho mínimo das cavidades legíveis, que é da ordem do comprimento de onda. Quanto menor λ, menores as cavidades e mais dados na mesma área.\n\n**Resolução:** entre as opções, o menor comprimento de onda é o do violeta (≈ 400 nm), seguido de azul, verde, vermelho e infravermelho.\n\n**Por que A:** violeta.\n\n**Distratoras:**\n- B (azul, a tecnologia \"Blu-ray\"): melhor que verde ou vermelho, mas λ maior que o violeta.\n- D e E: maior λ e mais difração.",
+    "keyConcept": "difração e comprimento de onda",
+    "commonMistake": "Achar que o infravermelho (mais penetrante) seria melhor.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q113": {
    "answer": "A",
    "reasoning": "Calcular intensidade a 10 m da antena.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** uma fonte puntiforme espalha a potência sobre a superfície de uma esfera: I = P/(4πr²).\n\n**Resolução:**\n- I = 2,4×10⁻³ / (4 · 3 · 10²) = 2,4×10⁻³ / 1 200 = 2,0×10⁻⁶ W/m².\n- Esse é o valor no limite de alcance (10 m), ou seja, a intensidade mínima detectável.\n\n**Por que A:** 2,0×10⁻⁶ W/m².\n\n**Distratoras:**\n- B (2,0×10⁻⁵): usa 4πr em vez de 4πr².\n- C (2,4×10⁻⁵): divide só por r² (esquece o 4π).\n- D (2,4×10⁻³): é a própria potência.",
+    "keyConcept": "intensidade de onda esférica (I = P/4πr²)",
+    "commonMistake": "Esquecer o 4π ou elevar r à primeira potência.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q114": {
    "answer": "A",
    "reasoning": "Identificar qual corda fica tensionada na aceleracao e na frenagem.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** a caixa acompanha o caminhão (iminência de movimento), então a resultante sobre ela é M·a. O atrito estático máximo vale μ·N = 0,2 · 2 000 = 400 N. O que faltar é fornecido pela corda que fica esticada.\n\n**Resolução:**\n- **Aceleração (3 m/s², para a frente):**\n  - Resultante necessária: 200 · 3 = 600 N para a frente.\n  - A caixa tende a ir para trás, então o atrito aponta para a frente: 400 N.\n  - Falta 200 N, fornecidos pela corda 2 (dianteira): T₂ = 200 N, T₁ = 0.\n- **Frenagem (5 m/s²):**\n  - Resultante necessária: 200 · 5 = 1 000 N para trás.\n  - Atrito: 400 N para trás.\n  - Faltam 600 N, fornecidos pela corda 1 (traseira): T₁ = 600 N, T₂ = 0.\n\n**Por que A:** aceleração: T₁ = 0 e T₂ = 200; frenagem: T₁ = 600 e T₂ = 0.\n\n**Distratoras:**\n- B (1 400 N): põe o atrito contra a corda na frenagem.\n- C: ignora o atrito na aceleração (T₂ = 600).\n- D e E: trocam as cordas, como se a caixa tendesse a ir no mesmo sentido da aceleração.",
+    "keyConcept": "referencial acelerado, atrito estático e tração",
+    "commonMistake": "Errar o sentido do atrito ou trocar qual corda fica tensionada.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q117": {
    "answer": "A",
    "reasoning": "Multiplicar taxa de dose pelo tempo efetivo.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** dose total = taxa de dose × tempo de exposição em cruzeiro.\n\n**Resolução:**\n- Tempo em cruzeiro: 80% de 1 000 h = 800 h.\n- Dose: 800 · 2 µSv = 1 600 µSv = 1,6 mSv.\n- Equivalente em radiografias: 1,6/0,2 = 8.\n\n**Por que A:** 8 radiografias.\n\n**Distratoras:**\n- B (10): ignora os 80% (2 000 µSv).\n- C (80) e D (100): erram a conversão µSv ↔ mSv por um fator 10.",
+    "keyConcept": "dose de radiação (taxa × tempo)",
+    "commonMistake": "Ignorar a fração do tempo em cruzeiro ou errar a conversão µ ↔ m.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q119": {
    "answer": "C",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** equação de Clapeyron, P·V = n·R·T, com T em kelvin e V em litros (porque R está em L·atm/(mol·K)).\n\n**Resolução:**\n- T = 650 + 273 = 923 K; V = 0,1 L.\n- P = 0,1 · 0,082 · 923 / 0,1 ≈ 75,7 atm ≈ 76 atm.\n\n**Por que C:** 76 atm.\n\n**Distratoras:**\n- D (53): usa T em °C (650).\n- A (756) e B (533): erram o volume por um fator 10 (com T em K ou em °C, respectivamente).",
+    "keyConcept": "equação dos gases ideais (Clapeyron)",
+    "commonMistake": "Usar a temperatura em °C ou errar a conversão de mL para L.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q120": {
    "answer": "C",
    "reasoning": "Queima de L2 aumenta a resistencia equivalente e altera brilhos.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** cada conjunto é uma lâmpada em paralelo com R. Os três conjuntos estão em série. Se L₂ queima, o conjunto do meio fica só com R, que tem resistência maior que o paralelo R∥L.\n\n**Resolução:**\n- A resistência total do circuito aumenta, então a corrente fornecida pela fonte diminui.\n- Essa corrente atravessa os conjuntos de L₁ e L₃, que não mudaram. Com menos corrente, a tensão sobre L₁ e L₃ cai e elas brilham menos.\n\n**Por que C:** menos intensos.\n\n**Distratoras:**\n- A: supõe que nada muda.\n- B: acha que a energia \"sobra\" para as outras lâmpadas.\n- D e E: tratam L₁ e L₃ de forma diferente, mas elas estão em conjuntos idênticos, em série.",
+    "keyConcept": "associação mista de resistores",
+    "commonMistake": "Achar que, se uma lâmpada queima, as outras recebem mais corrente.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q122": {
    "answer": "D",
    "reasoning": "Vapor a 120 °C resfria (sensivel) e condensa (latente).",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o vapor entra a 120 °C e sai como água a 100 °C. Ele cede calor em duas etapas: resfria como vapor de 120 °C até 100 °C (calor sensível) e depois condensa a 100 °C (calor latente de condensação).\n\n**Resolução:** essa energia atravessa a parede e evapora a água do produto. A vaporização no doce é onde a energia é usada, não de onde ela vem.\n\n**Por que D:** calor sensível e calor latente de condensação.\n\n**Distratoras:**\n- A, C e E: citam a vaporização como fonte de energia, confundindo onde a energia é cedida com onde é absorvida.\n- B: esquece o resfriamento de 120 °C para 100 °C.",
+    "keyConcept": "calor sensível e calor latente",
+    "commonMistake": "Confundir a mudança de fase que cede energia (condensação) com a que absorve (vaporização).",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q124": {
    "answer": "B",
    "reasoning": "Comparar tempos de percurso incluindo pedagios.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o tempo total é o tempo de viagem, Δt = d/v, mais as paradas. Só o carro para nas cabines.\n\n**Resolução:**\n- Carro: 480/100 = 4,8 h = 288 min, mais 10 · 3 = 30 min de pedágio ⇒ 318 min.\n- Caminhão: 480/80 = 6 h = 360 min, sem paradas.\n- Diferença: 360 − 318 = 42 min.\n\n**Por que B:** 42 minutos.\n\n**Distratoras:**\n- C (72): ignora as paradas do carro.\n- A (30): considera só os pedágios.\n- D (288) e E (360): são os tempos de viagem isolados.",
+    "keyConcept": "velocidade média com paradas",
+    "commonMistake": "Esquecer o tempo parado nas cabines.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q128": {
    "answer": "C",
    "reasoning": "Interferencia relevante exige mesma frequencia.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** interferência entre ondas eletromagnéticas exige frequências iguais (ou muito próximas). O receptor de rádio é sintonizado numa frequência específica.\n\n**Resolução:** o celular só perturba a comunicação se emitir na mesma frequência em que o rádio do avião opera.\n\n**Por que C:** mesma frequência.\n\n**Distratoras:**\n- A: ondas de rádio não são audíveis.\n- B e D: potência e intensidade iguais não são condição de interferência.\n- E: no ar, todas as ondas eletromagnéticas se propagam praticamente com a mesma velocidade.",
+    "keyConcept": "interferência e frequência",
+    "commonMistake": "Achar que o que importa é a potência do sinal.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q130": {
    "answer": "D",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** um material que não esquenta por fora, mesmo com café quente dentro, é mau condutor de calor (baixa condutividade térmica). Ser reutilizável reduz o descarte de copos plásticos.\n\n**Resolução:** as duas vantagens são o conforto térmico (baixa condutividade) e a redução de resíduo não biodegradável, já que o copo é reutilizado muitas vezes.\n\n**Por que D:** baixa condutividade térmica e redução do resíduo não biodegradável.\n\n**Distratoras:**\n- B e E: alta condutividade faria o copo esquentar por fora.\n- A: o copo tem 50% de plástico não biodegradável, então não é totalmente biodegradável.\n- C: \"aumentar o resíduo\" contraria a proposta.",
+    "keyConcept": "condutividade térmica",
+    "commonMistake": "Confundir isolante térmico com bom condutor.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q132": {
    "answer": "E",
    "reasoning": "Escolher o grafico P x T compativel com transformacao isocorica.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** com volume e quantidade de gás constantes (transformação isocórica), a lei dos gases ideais dá P/T = constante, com T em kelvin. O gráfico P × T é uma reta que passa pela origem.\n\n**Resolução:** os pneus esfriam de T₀ até T, e a pressão cai proporcionalmente de P₀ até P₀·T/T₀. No gráfico, é um segmento de reta crescente, percorrido de cima para baixo, alinhado com a origem.\n\n**Por que E:** segmento de reta de (T₀, P₀) até um ponto mais baixo em T.\n\n**Distratoras:**\n- A e B: pressão constante (isobárica), que não é o caso.\n- C: hipérbole (P ∝ 1/T), sem sentido aqui.\n- D: pressão subindo enquanto a temperatura cai.",
+    "keyConcept": "transformação isocórica (P ∝ T)",
+    "commonMistake": "Confundir a isocórica com isobárica ou isotérmica.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q135": {
    "answer": "D",
    "reasoning": "Usar a diferenca entre ecos para a ida e volta no liquido.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** o pulso atravessa a camada líquida duas vezes (ida e volta). O atraso entre os dois ecos corresponde a esse percurso duplo.\n\n**Resolução:**\n- Δt = 1,1 − 0,5 = 0,6 s.\n- Percurso no líquido: 2 · 450 = 900 m.\n- v = 900/0,6 = 1 500 m/s.\n\n**Por que D:** 1 500 m/s.\n\n**Distratoras:**\n- E (1 800): divide 900 por 0,5 s.\n- C (818): divide 900 por 1,1 s.\n- A (270) e B (540): multiplicam distância e tempo em vez de dividir.",
+    "keyConcept": "eco e velocidade do som (ida e volta)",
+    "commonMistake": "Esquecer que o pulso atravessa a camada duas vezes ou usar o tempo total.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2023-REG-D2-C7-Q93": {
    "answer": "E",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** numa usina nuclear, o calor vem da fissão de núcleos de urânio, não da queima de combustível.\n\n**Resolução:** o calor da fissão vaporiza água, e o vapor move as turbinas. Não há combustão de carvão, petróleo ou gás. Por isso a usina não emite CO₂ nem gases de chuva ácida durante a operação.\n\n**Por que E:** produz calor sem consumir combustíveis fósseis.\n\n**Distratoras:**\n- A: os rejeitos radioativos são justamente difíceis de tratar.\n- B: não há desmatamento associado.\n- C e D: chuva ácida e gases tóxicos vêm da queima de combustíveis fósseis.",
+    "keyConcept": "energia nuclear (fissão) × combustíveis fósseis",
+    "commonMistake": "Atribuir à usina nuclear emissões típicas de termelétricas a combustão.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-008": {
    "answer": "A",
    "reasoning": "Relacionar fonte, observador e grandezas da onda sonora.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** para ser compreendida, a fala precisa estar pelo menos 5 dB acima do ruído de fundo. Com ruído de 45 dB, o nível da fala deve ser ≥ 50 dB.\n\n**Resolução:** no gráfico do infográfico, o nível da fala cai de 60 dB (a 1 m) e passa por 50 dB perto de 3 m. Mais longe que isso, o nível fica abaixo de 50 dB.\n\n**Por que A:** 3,0 m.\n\n**Distratoras:**\n- B (4,5 m): corresponde a cerca de 45 dB, só igual ao ruído, sem a margem de 5 dB.\n- C, D e E: nessas distâncias o nível fica abaixo do ruído.",
+    "keyConcept": "nível sonoro (dB) e leitura de gráfico",
+    "commonMistake": "Esquecer a margem de 5 dB acima do ruído.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-009": {
    "answer": "A",
    "reasoning": "Explicar o fluxo termico pelo mecanismo adequado.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** o iglu é um bom isolante térmico. Com o calor dos corpos e de fontes internas, o ar de dentro fica acima de 0 °C, mesmo com o exterior muito frio.\n\n**Resolução:** para a água congelar, ela precisa ceder calor para um ambiente abaixo de 0 °C. Como o interior do iglu está acima da temperatura de solidificação da água, é preciso uma geladeira.\n\n**Por que A:** a temperatura interna do iglu é maior que a de solidificação da água.\n\n**Distratoras:**\n- B: a umidade não impede a solidificação.\n- C: não é o ar interno que isola a água; a água precisa de um ambiente abaixo de 0 °C.\n- D e E: não explicam a necessidade da geladeira.",
+    "keyConcept": "isolamento térmico e mudança de fase",
+    "commonMistake": "Supor que dentro do iglu a temperatura é igual à de fora.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-013": {
    "answer": "E",
    "reasoning": "Explicar o fluxo termico pelo mecanismo adequado.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** no aquecedor solar (termossifão), a água aquecida nos coletores fica menos densa e sobe até o reservatório. A água fria, mais densa, desce para os coletores.\n\n**Resolução:** o calor é levado junto com a água que circula. Transporte de calor por movimento de matéria é convecção.\n\n**Por que E:** convecção.\n\n**Distratoras:**\n- D (irradiação): é como a energia chega do Sol aos coletores, não como vai dos coletores ao reservatório.\n- C (condução): seria muito lenta através dos canos.\n- A e B: não são processos de transferência entre essas partes.",
+    "keyConcept": "convecção (termossifão)",
+    "commonMistake": "Confundir a etapa Sol → coletor (irradiação) com coletor → reservatório (convecção).",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-016": {
    "answer": "C",
    "reasoning": "Associar emissao tardia de luz a transicao entre niveis.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** fosforescência. A luz ambiente excita elétrons do ZnS dopado para níveis de energia mais altos. Eles voltam lentamente aos níveis inferiores e emitem fótons na faixa amarelo-esverdeada.\n\n**Resolução:** a emissão de luz no escuro vem de transições eletrônicas entre níveis de energia, com o retardo característico da fosforescência.\n\n**Por que C:** transições eletrônicas.\n\n**Distratoras:**\n- E: reflexão exigiria luz incidente naquele momento.\n- D: não há reações nucleares.\n- A e B: não descrevem emissão de luz quantizada.",
+    "keyConcept": "emissão de luz por transições eletrônicas",
+    "commonMistake": "Confundir emissão (fosforescência) com reflexão.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-025": {
    "answer": "E",
    "reasoning": "Explicar o movimento das particulas pelas cargas das barras.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** um condutor metálico oco em equilíbrio eletrostático tem campo nulo no interior (blindagem eletrostática). As linhas de campo chegam e saem da superfície externa perpendicularmente.\n\n**Resolução:**\n- As linhas continuam indo de A (+) para B (−).\n- Perto do cilindro, elas se curvam e terminam ou começam na superfície, onde aparecem cargas induzidas.\n- Dentro do cilindro não há linhas.\n\n**Por que E:** linhas de A para B, curvando-se até a superfície do cilindro e sem nenhuma linha no interior.\n\n**Distratoras:**\n- A: ignora o cilindro.\n- D: linhas cruzando por dentro do cilindro.\n- B e C: invertem o sentido do campo (de B para A).",
+    "keyConcept": "blindagem eletrostática (campo nulo no interior do condutor)",
+    "commonMistake": "Desenhar linhas de campo atravessando o interior do condutor.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-034": {
    "answer": "C",
    "reasoning": "Ler a geometria dos espelhos e prever a imagem.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** no mirascópio, o objeto fica no vértice de E₁, que coincide com o foco de E₂. Os raios do objeto refletem em E₂ e saem paralelos. Depois refletem em E₁ e convergem para o foco de E₁, que é o vértice de E₂, na abertura superior.\n\n**Resolução:**\n- Os raios refletidos realmente se cruzam na abertura de E₂, então a imagem é real.\n- Distância vertical entre objeto (fundo de E₁) e imagem (abertura de E₂), lida na figura: 3,8 + 3,8 = 7,6 cm.\n\n**Por que C:** real e 7,6 cm.\n\n**Distratoras:**\n- B: 3,8 cm é só a altura de um dos espelhos.\n- A: 5 cm é o diâmetro da abertura.\n- D e E: chamam a imagem de virtual, mas os raios convergem de fato no ponto da imagem.",
+    "keyConcept": "espelhos côncavos e imagem real",
+    "commonMistake": "Confundir imagem real com virtual ou usar só metade da altura do equipamento.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-036": {
    "answer": "B",
    "reasoning": "Trocar a ideia de carro rigido pelo papel da deformacao no impulso.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a zona deformável aumenta o tempo da colisão. Ao se deformar, a estrutura do carro converte a energia cinética em trabalho de deformação (calor, deformação permanente), em vez de transmiti-la aos ocupantes.\n\n**Resolução:** num sistema isolado, a quantidade de movimento total se conserva, e a velocidade do centro de massa também. O que a deformação faz é absorver a energia cinética e alongar o tempo de frenagem dos ocupantes, o que diminui as forças sobre eles.\n\n**Por que B:** a deformação absorve a energia cinética do sistema.\n\n**Distratoras:**\n- C: a quantidade de movimento de um sistema isolado não é \"consumida\"; ela se conserva.\n- E: a velocidade do centro de massa de um sistema isolado é constante.\n- A: o acionamento dos airbags é feito por sensores, não pela deformação.\n- D: a zona deformável não é uma barreira; ela funciona justamente por se deformar.",
+    "keyConcept": "colisões: energia dissipada e conservação da quantidade de movimento",
+    "commonMistake": "Achar que a deformação 'consome' a quantidade de movimento do sistema isolado.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-037": {
    "answer": "A",
    "reasoning": "Escolher o principio dinamico que descreve a mudanca do movimento.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** ao tocar o chão, Calvin recebe duas forças do chão: a normal, vertical para cima, que freia a queda, e o atrito, oposto ao movimento horizontal. A força resultante do chão é a soma vetorial dessas duas.\n\n**Resolução:**\n- Pelos quadrinhos, Calvin é lançado do balanço para a esquerda e chega ao chão movendo-se para baixo e para a esquerda (veja as linhas de movimento).\n- A normal aponta para cima. O atrito aponta para a direita, contra o deslizamento.\n- A resultante aponta para cima e para a direita.\n\n**Por que A:** vetor inclinado para cima e para a direita.\n\n**Distratoras:**\n- D: só a normal, ignorando o atrito.\n- B e E: só forças horizontais.\n- C: põe o atrito para a esquerda, a favor do movimento.",
+    "keyConcept": "força de contato: normal + atrito",
+    "commonMistake": "Esquecer o atrito ou orientá-lo no sentido do movimento.",
+    "confidence": "media",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-039": {
    "answer": "C",
    "reasoning": "Reconhecer o papel do centro de massa no equilibrio da roda.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** para corrigir um centro de massa deslocado do centro geométrico, coloca-se uma massa extra do lado oposto, na mesma direção do deslocamento, para que o CM volte ao centro.\n\n**Resolução:** na figura, o CM está acima e à direita do centro, aproximadamente a 45°. A peça de chumbo deve ir no ponto diametralmente oposto, abaixo e à esquerda, o que corresponde ao ponto 3 do esquema.\n\n**Por que C:** o gabarito oficial é C. A física indica o ponto 3, mas o banco não traz o texto das alternativas para confirmar que C corresponde ao ponto 3.",
+    "keyConcept": "centro de massa (balanceamento)",
+    "commonMistake": "Colocar o contrapeso do mesmo lado do deslocamento do CM.",
+    "confidence": "baixa",
+    "needsReview": true,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-053": {
    "answer": "B",
    "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** o LED só conduz no sentido direto e precisa de pelo menos 3,0 V. O resistor em série limita a corrente: i = (U_bateria − U_LED)/R.\n\n**Resolução:**\n- Em cada ramo, com resistor e LED em série: i = (4,5 − 3,0)/1 500 = 1,0×10⁻³ A = 1,0 mA (exatamente I_máx).\n- Com dois ramos iguais em paralelo, cada LED recebe 1,0 mA.\n\n**Por que B:** dois ramos em paralelo, cada um com resistor + LED, e os LEDs no sentido direto.\n\n**Distratoras:**\n- C e E: LEDs invertidos, que não conduzem.\n- A: um único resistor alimenta os dois LEDs em paralelo, e 1 mA se divide em 0,5 mA para cada um.\n- D: LEDs em série exigiriam 6 V, mais que os 4,5 V da bateria.",
+    "keyConcept": "LED (polarização direta) e resistor limitador",
+    "commonMistake": "Ignorar o sentido de condução do LED ou dividir a corrente entre LEDs em paralelo com um único resistor.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-064": {
    "answer": "B",
    "reasoning": "Compor ou decompor velocidades no plano da situacao.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** composição de velocidades. A velocidade do nadador em relação ao fundo é v_n (em relação à água) + v_c (correnteza, 30 m/min, paralela aos lados de 400 m, conforme a figura).\n\n**Resolução:**\n- **Lados longos (800 m):** o nadador inclina-se para que a componente perpendicular de v_n anule a correnteza.\n  - Componente ao longo da aresta: √(50² − 30²) = 40 m/min.\n  - Tempo em cada lado longo: 800/40 = 20 min. Os dois somam 40 min.\n- **Lado 2 → 3 (contra a correnteza, pela figura):** 50 − 30 = 20 m/min, então 400/20 = 20 min.\n- **Lado 4 → 1 (a favor):** 50 + 30 = 80 m/min, então 400/80 = 5 min.\n- **Total:** 40 + 20 + 5 = 65 min.\n\n**Por que B:** o gabarito oficial é B. O banco não traz o texto das alternativas, então não dá para confirmar que B corresponde a 65 min.",
+    "keyConcept": "composição de velocidades (movimento relativo)",
+    "commonMistake": "Somar ou subtrair 30 m/min nos lados longos, em vez de compor as velocidades vetorialmente.",
+    "confidence": "baixa",
+    "needsReview": true,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-065": {
    "answer": "E",
    "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** os cátions da água da chuva se acumulam sobre a camada de grafeno, que é rica em elétrons. Forma-se uma dupla camada de cargas (tipo pseudocapacitor), que cria uma diferença de potencial e permite gerar corrente.\n\n**Resolução:** é a separação de cargas, com elétrons no grafeno e cátions na água, que produz a ddp.\n\n**Por que E:** gera uma diferença de potencial pela interação dos elétrons com os cátions.\n\n**Distratoras:**\n- A: o grafeno não oxida os cátions.\n- B e D: não explicam a geração de eletricidade.\n- C: o texto não fala em catálise.",
+    "keyConcept": "separação de cargas e diferença de potencial",
+    "commonMistake": "Achar que a eletricidade vem de uma reação química de oxidação dos íons.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-082": {
    "answer": "D",
    "reasoning": "Relacionar fonte, observador e grandezas da onda sonora.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** efeito Doppler. Quando a fonte se aproxima, as frentes de onda chegam mais juntas e a frequência percebida aumenta. Com o radar acontece o mesmo: a dianteira da ambulância, que se aproxima, reflete as ondas de rádio com frequência maior.\n\n**Resolução:**\n- Som da sirene durante a aproximação: mais agudo do que o emitido.\n- Radar: a ambulância vem em direção ao radar, então a onda refletida volta com frequência f_r > f.\n\n**Por que D:** mais agudo do que o som emitido, e f_r > f.\n\n**Distratoras:**\n- A e E: som mais grave, que só acontece no afastamento.\n- B: f_r < f também seria o caso do afastamento.\n- C: f_r = f ignora o efeito Doppler na reflexão.",
+    "keyConcept": "efeito Doppler (som e ondas de rádio)",
+    "commonMistake": "Achar que a reflexão no objeto em movimento não altera a frequência.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2024-D2-CAN-083": {
    "answer": "B",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** as lâmpadas funcionam nas especificações quando cada uma recebe a sua tensão nominal: 6 V em L₁ e 12 V em L₂. O fio QR é um divisor de tensão uniforme. Ligando P ao ponto do fio com o mesmo potencial que P teria nessa condição, a tensão sobre cada lâmpada fica fixada (e, com V_QR = 18 V, o amperímetro marca zero).\n\n**Resolução:**\n- Correntes nominais: L₁: 9/6 = 1,5 A. L₂: 18/12 = 1,5 A. São iguais, então a ligação em série é compatível.\n- Divisão de tensão: L₁ deve ficar com 6/(6 + 12) = 1/3 da tensão total, do lado de Q.\n- No fio: 1/3 de 48 cm = 16 cm a partir de Q.\n- Os pontos A–E dividem o fio em 6 segmentos de 8 cm: A = 8 cm, B = 16 cm.\n\n**Por que B:** ponto B.\n\n**Distratoras:**\n- C (24 cm, metade do fio): divide a tensão igualmente entre as lâmpadas.\n- D (32 cm): inverte as lâmpadas (L₁ com 2/3 da tensão).\n- A e E: não correspondem à razão 1:2.",
+    "keyConcept": "divisor de tensão em fio uniforme (ponte)",
+    "commonMistake": "Dividir a tensão igualmente entre as lâmpadas, sem considerar a razão 1:2.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-004": {
    "answer": "B",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a força elétrica sobre uma carga é F = q·E. Para o elétron (q < 0), a força tem sentido oposto ao do campo.\n\n**Resolução:** na Figura 2, o campo E na região B aponta para cima. A força sobre o elétron aponta para baixo, e o feixe é desviado para baixo. Na tela da Figura 1, isso corresponde ao ponto 2.\n\n**Por que B:** o gabarito oficial é B. A física indica o ponto 2, mas o texto das alternativas está corrompido no banco, então não foi possível confirmar que B corresponde ao ponto 2.",
+    "keyConcept": "força elétrica sobre carga negativa",
+    "commonMistake": "Supor que o elétron é desviado no sentido do campo elétrico.",
+    "confidence": "baixa",
+    "needsReview": true,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-010": {
    "answer": "A",
    "reasoning": null,
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** frequência e comprimento de onda são inversamente proporcionais (c = λ·f). Se a frequência da luz emitida aumenta com o tempo (Figura 2, cores indo do vermelho ao verde), o pico do espectro se desloca para comprimentos de onda menores.\n\n**Resolução:**\n- Início: pico em ≈ 600 nm (vermelho-laranja).\n- Final: o sensor emite verde, com pico deslocado para ≈ 550 nm (λ menor, f maior).\n- É o que mostra o gráfico A: a curva tracejada tem pico perto de 550 nm.\n\n**Por que A:** espectro final com pico deslocado para ≈ 550 nm (verde).\n\n**Distratoras:**\n- B: desloca o pico para λ maior (≈ 640 nm), que corresponde a frequência menor.\n- C e D: só mudam a intensidade, mantendo o pico em 600 nm.\n- E: não mostra mudança nenhuma.",
+    "keyConcept": "relação λ × f e espectro de emissão",
+    "commonMistake": "Achar que frequência maior corresponde a comprimento de onda maior.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-017": {
    "answer": "E",
    "reasoning": "Relacionar meia-vida ao tempo de uso do radioisotopo.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a cada meia-vida, a massa radioativa cai pela metade.\n\n**Resolução:**\n- Número de meias-vidas: 26,5/5,3 = 5.\n- Massa restante: m = 2,00 / 2⁵ = 2,00/32 ≈ 0,06 mg.\n\n**Por que E:** 0,06 mg.\n\n**Distratoras:**\n- C (0,40 mg): divide 2,00 por 5, como se o decaimento fosse linear.\n- D (0,13 mg): para em 4 meias-vidas.\n- B (1,00 mg): uma meia-vida só.\n- A (2,00 mg): ignora o decaimento.",
+    "keyConcept": "meia-vida (decaimento exponencial)",
+    "commonMistake": "Dividir pelo número de meias-vidas em vez de dividir por 2 repetidas vezes.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-020": {
    "answer": "E",
    "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a sensibilidade de um sensor é a variação de resistência por grau de temperatura, ou seja, a inclinação B da reta R(T).\n\n**Resolução:** inclinações aproximadas lidas no gráfico, entre −50 e 320:\n- Sensor 2: (225 − 77)/370 ≈ 0,40 Ω/grau.\n- Sensor 5: (145 − 65)/370 ≈ 0,22 Ω/grau.\n- Sensor 4: ≈ 0,16 Ω/grau.\n- Sensor 3: ≈ 0,06 Ω/grau.\n- Sensor 1: ≈ 0,01 Ω/grau.\n- As duas maiores inclinações são as dos sensores 2 e 5.\n\n**Por que E:** 2 e 5.\n\n**Distratoras:**\n- A e B (com o sensor 1): confundem resistência alta com sensibilidade alta.\n- D (2 e 4): o sensor 4 é menos inclinado que o 5.",
+    "keyConcept": "sensibilidade como inclinação (coeficiente angular)",
+    "commonMistake": "Confundir valor alto de resistência com alta sensibilidade.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-021": {
    "answer": "B",
    "reasoning": "Relacionar velocidade, comprimento de onda e frequencia.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a taça tem uma frequência natural de vibração. Se a voz tiver exatamente essa frequência, a taça absorve energia a cada ciclo e a amplitude cresce até a ruptura. Isso é ressonância.\n\n**Resolução:** o que importa é a voz da Mônica coincidir com a frequência natural da taça, e não o volume (intensidade), como o próprio texto destaca.\n\n**Por que B:** ressonância e frequência.\n\n**Distratoras:**\n- D: o fenômeno é ressonância, mas a característica certa é a frequência, não o timbre.\n- E: amplitude é intensidade, que o texto descarta.\n- A e C: reflexão e interferência não explicam a quebra.",
+    "keyConcept": "ressonância",
+    "commonMistake": "Achar que basta gritar mais alto (intensidade) para quebrar a taça.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-027": {
    "answer": "E",
    "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** para reduzir a tensão sobre o equipamento, o resistor de proteção deve ficar em série com ele, dividindo a tensão da fonte.\n\n**Resolução:**\n- Fonte: 1,2·V (20% acima de V). O equipamento deve ficar com V, então R_P fica com 0,2·V.\n- Em série a corrente é a mesma, então as resistências são proporcionais às tensões: R_P/R_C = 0,2V/V ⇒ R_P = 0,2·R_C.\n\n**Por que E:** R_P = 0,2·R_C em série com o equipamento.\n\n**Distratoras:**\n- A e B: em paralelo, o equipamento continua com 1,2·V.\n- C (1,2·R_C) e D (2,2·R_C): em série, deixariam o equipamento com muito menos que V.",
+    "keyConcept": "divisor de tensão (resistor em série)",
+    "commonMistake": "Ligar o resistor de proteção em paralelo, o que não reduz a tensão no aparelho.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-035": {
    "answer": "B",
    "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** cada placa é um gerador não ideal: U = ε − r·i. Placas em série somam fem e resistências internas.\n\n**Resolução:**\n- Resistência interna de uma placa: 34 = 40 − r·7,5 ⇒ r = 6/7,5 = 0,8 Ω.\n- A bomba precisa de 100 V ± 5 V. Com 3 placas em série: ε = 120 V, r = 2,4 Ω.\n- Tensão de operação: U = 120 − 2,4 · 7,5 = 102 V. Está dentro da faixa.\n- Com 2 placas, a operação dá 68 V, insuficiente. Logo, 3 placas é o mínimo.\n\n**Por que B:** gerador equivalente de 120 V com 2,4 Ω.\n\n**Distratoras:**\n- D (102 V; 2,4 Ω): usa a tensão de operação como se fosse a fem.\n- C e E (5,3 Ω): tomam r = 40/7,5 para cada placa.\n- A (136 V; 3,2 Ω): usa 4 placas, mais que o necessário.",
+    "keyConcept": "gerador não ideal e associação em série",
+    "commonMistake": "Confundir fem (circuito aberto) com tensão de operação, ou calcular r = ε/i.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-039": {
    "answer": "C",
    "reasoning": "Usar pressao hidrostatica para limitar a altura de empilhamento.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** a pressão exercida por uma pilha de material de densidade ρ e altura h é p = ρ·g·h (peso por área).\n\n**Resolução:**\n- 10⁴ = 1 250 · 10 · h ⇒ h = 10⁴ / 12 500 = 0,80 m.\n- A área de 50 m² não interfere: a pressão não depende da área.\n\n**Por que C:** 0,80 m.\n\n**Distratoras:**\n- D (1,60 m): erra um fator 2 no cálculo.\n- E (8,00 m): esquece g.\n- A (0,16 m): esquece g e ainda divide pela área (8/50).",
+    "keyConcept": "pressão de uma coluna (p = ρgh)",
+    "commonMistake": "Usar a área no cálculo ou esquecer a gravidade.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-045": {
    "answer": "D",
    "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** indução eletromagnética. A bobina cria um campo magnético variável, que induz correntes (correntes de Foucault) no fundo metálico da panela. Essas correntes dissipam energia por efeito Joule.\n\n**Resolução:** quem aquece é a própria panela, pelas correntes induzidas. O vidro só serve de apoio.\n\n**Por que D:** induzir corrente elétrica na parte inferior da panela, aquecendo-a por efeito Joule.\n\n**Distratoras:**\n- A: imantar a panela não produz calor de forma contínua.\n- B: o campo não \"movimenta átomos\".\n- C e E: radiação através do vidro e convecção no ar não são o mecanismo do fogão por indução.",
+    "keyConcept": "indução eletromagnética e efeito Joule",
+    "commonMistake": "Achar que o fogão de indução aquece o vidro ou emite radiação térmica.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-066": {
    "answer": "C",
    "reasoning": "Escolher o principio dinamico que descreve a mudanca do movimento.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** o atrito cinético vale f = μ_c·N. No plano inclinado, N = m·g·cos θ, que não depende da força que o trabalhador aplica (ela é paralela ao deslocamento).\n\n**Resolução:** durante todo o trajeto no plano a caixa está em movimento, μ_c é o mesmo e N é constante. Logo, a força de atrito é constante, mesmo quando o trabalhador reduz a força.\n\n**Por que C:** força de atrito constante ao longo do tempo.\n\n**Distratoras:**\n- A, B, D e E: fazem o atrito acompanhar a força aplicada, o que vale para o atrito estático, não para o cinético.",
+    "keyConcept": "atrito cinético (f = μN)",
+    "commonMistake": "Achar que o atrito cinético muda com a força aplicada.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-069": {
    "answer": "A",
    "reasoning": "Explicar o efeito optico pela reflexao da luz.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** em ambientes escuros, a pupila se dilata para captar mais luz. Com a pupila dilatada, mais luz do flash entra, atinge a retina (muito vascularizada) e volta refletida, avermelhada, para a câmera.\n\n**Resolução:** maior abertura da pupila significa mais luz chegando à retina e mais luz vermelha refletida de volta. Por isso o efeito é mais comum à noite.\n\n**Por que A:** com a pupila dilatada, chega mais luz à retina.\n\n**Distratoras:**\n- B, C e D: falam em pupila retraída, o que acontece em ambientes claros, justamente quando o efeito é menor.\n- E: o efeito é reflexão na retina vascularizada, não uma diminuição de luz azul e verde nos bastonetes.",
+    "keyConcept": "pupila como diafragma e reflexão na retina",
+    "commonMistake": "Achar que a pupila se contrai no escuro.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-072": {
    "answer": "D",
    "reasoning": "Selecionar a relacao V-I-R (ou P) e organizar as grandezas do dispositivo.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** os aparelhos ligados na régua ficam em paralelo, então as potências se somam. A corrente total é I = P_total/U e não pode passar de 20 A.\n\n**Resolução:**\n- Potência máxima suportada: P = U·I = 110 · 20 = 2 200 W.\n- Carga permanente: computador (250 W) + condicionador de ar (1 100 W, valor do quadro) = 1 350 W.\n- 1ª atividade, impressora: 1 350 + 660 = 2 010 W (≈ 18,3 A). Funciona.\n- 2ª atividade, cafeteira: 1 350 + 900 = 2 250 W (≈ 20,5 A). O fusível se rompe e a régua fica inutilizada.\n- Resultado: só 1 atividade é realizada.\n\n**Por que D:** o gabarito oficial é D. As alternativas não estão no banco, então não foi possível confirmar que D corresponde a \"1 atividade\".",
+    "keyConcept": "potência elétrica em paralelo e corrente máxima (fusível)",
+    "commonMistake": "Esquecer a carga permanente (computador + ar) ou não perceber que, após o fusível queimar, mais nenhuma atividade é possível.",
+    "confidence": "baixa",
+    "needsReview": true,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-073": {
    "answer": "D",
    "reasoning": "Compor ou decompor velocidades no plano da situacao.",
-   "reasoningInferred": true
+   "reasoningInferred": true,
+   "explanation": {
+    "markdown": "**Ideia central:** independência dos movimentos e composição de velocidades: v(avião em relação ao solo) = v(avião em relação ao ar) + v(vento). Cada eixo pode ser tratado separadamente.\n\n**Resolução:**\n- Velocidade necessária em relação ao solo (6 min = 0,1 h): 200 km/h para Leste, 200 km/h para Norte e 10 km/h para cima.\n- Leste: 200 − 30 = 170 km/h para Leste.\n- Norte: o vento sopra 20 km/h para Sul, então 200 + 20 = 220 km/h para Norte.\n- Vertical: o vento empurra 1 km/h para baixo, então 10 + 1 = 11 km/h para cima.\n\n**Por que D:** 170 km/h para Leste, 220 km/h para Norte e 11 km/h para cima.\n\n**Distratoras:**\n- B: soma o vento em vez de descontá-lo.\n- C: ignora o vento.\n- E: erra o sinal da componente Norte-Sul (200 − 20).\n- A: inverte os sentidos.",
+    "keyConcept": "composição vetorial de velocidades (independência dos movimentos)",
+    "commonMistake": "Somar o vento em vez de subtraí-lo, ou errar o sinal da componente Sul.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   },
   "ENEM-CN-2025-D2-CAN-074": {
    "answer": "C",
    "reasoning": "Explicar o fluxo termico pelo mecanismo adequado.",
-   "reasoningInferred": false
+   "reasoningInferred": false,
+   "explanation": {
+    "markdown": "**Ideia central:** dos três processos de transferência de calor (condução, convecção e irradiação), só a irradiação dispensa um meio material. A energia é transportada por ondas eletromagnéticas, principalmente no infravermelho.\n\n**Resolução:** a lâmpada (sobretudo a incandescente) emite radiação térmica que aquece a mariposa mesmo sem participação do ar.\n\n**Por que C:** irradiação.\n\n**Distratoras:**\n- E (convecção): depende de um fluido.\n- A, B e D (reflexão, refração e dispersão): são fenômenos ópticos, não processos de transferência de calor.",
+    "keyConcept": "irradiação térmica",
+    "commonMistake": "Confundir processos de transferência de calor com fenômenos ópticos.",
+    "confidence": "alta",
+    "needsReview": false,
+    "author": "IA (Chico)",
+    "status": "aguardando_revisao_professor"
+   }
   }
  }
 }

@@ -15,6 +15,7 @@ import {
 } from "@/lib/banco";
 import { oficial } from "@/lib/oficial";
 import { QuestionViewer } from "@/components/banco/question-viewer";
+import { ExplanationCard } from "@/components/banco/explanation-card";
 import { useBanco } from "@/lib/use-banco";
 
 export const Route = createFileRoute("/questoes/$id")({ component: Detail });
@@ -125,6 +126,7 @@ function Detail() {
         {probable && <p className="mt-3 rounded-xl border border-amber bg-panel p-3 text-sm">Classificação pedagógica ainda não definitiva. Esta identificação permanece PROBABLE na base de matching.</p>}
       </header>
       <QuestionViewer id={q.id} view={oficial[q.id]} probable={probable} />
+      {q.explanation && <ExplanationCard e={q.explanation} />}
 
       <section>
         <h2 className="mb-2 font-serif text-xl">Núcleo físico</h2>

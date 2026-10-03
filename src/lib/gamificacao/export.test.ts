@@ -36,6 +36,23 @@ describe("export do Desafio ENEM", () => {
     for (const [id, a] of Object.entries(gabarito.answers)) if (a.reasoning) assert.ok(!txt.includes(a.reasoning), `resumo vazou: ${id}`);
   });
 
+  it("explicação do Chico vai só no gabarito (servidor), nunca no público", () => {
+    const keys = keysDeep(publico);
+    for (const k of ["explanation", "markdown", "keyConcept", "key_concept", "commonMistake", "common_mistake", "observacoes"]) assert.ok(!keys.has(k), k);
+    const txt = JSON.stringify(publico);
+    const withExpl = Object.entries(gabarito.answers).filter(([, a]) => a.explanation);
+    assert.ok(withExpl.length > 0);
+    for (const [id, a] of withExpl) {
+      assert.ok(!txt.includes(a.explanation!.markdown.slice(0, 80)), `explicação vazou: ${id}`);
+      assert.equal(a.explanation!.author, "IA (Chico)");
+      assert.equal(a.explanation!.status, "aguardando_revisao_professor");
+      assert.equal(a.explanation!.needsReview, a.explanation!.confidence === "baixa", id);
+    }
+    const src = new Map((banco.questions as { id: string; explanation?: { markdown: string } }[]).map((q) => [q.id, q.explanation]));
+    for (const [id, a] of Object.entries(gabarito.answers)) assert.equal(a.explanation?.markdown ?? null, src.get(id)?.markdown ?? null, id);
+    assert.ok(!JSON.stringify(gabarito).includes("observacoes"));
+  });
+
   it("exclui anuladas e sem gabarito; marca as em revisão", () => {
     const annulled = Object.entries(oficial as Record<string, { variants: { answer_status: string }[] }>)
       .filter(([, v]) => v.variants.some((x) => x.answer_status === "annulled"))

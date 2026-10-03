@@ -57,7 +57,24 @@ export type Question = {
   canonical_id?: string;
   matching_origin?: string;
   pedagogical_review?: PedagogicalReview;
+  /** Explicação escrita por IA (Chico), aguardando revisão do professor. Não é validação humana. */
+  explanation?: Explanation;
 };
+
+/** Explicação/resolução gerada por IA. `needs_review` = confiança baixa. Observações internas NÃO ficam aqui. */
+export type Explanation = {
+  markdown: string;
+  key_concept: string;
+  common_mistake: string;
+  confidence: "alta" | "media" | "baixa";
+  needs_review: boolean;
+  author: string;
+  status: string;
+  label: string;
+  batch: string;
+};
+
+export const CONFIDENCE_LABEL: Record<Explanation["confidence"], string> = { alta: "alta", media: "média", baixa: "baixa" };
 
 /** Revisão pedagógica (não é validação humana do professor). */
 export type PedagogicalReview = {

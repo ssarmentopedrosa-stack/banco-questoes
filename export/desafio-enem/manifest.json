@@ -1,5 +1,5 @@
 {
- "version": "1.6d5b1bf1",
+ "version": "1.1498aa9c",
  "schema": 1,
  "counts": {
   "total": 171,
@@ -14,8 +14,8 @@
   }
  },
  "files": {
-  "publico.json": "483ff53a2d16dc7f0d67c73f4435195f9764f22691ab6ba64fbf02fd4753854a",
-  "gabarito.json": "2a4850af575e41edbd4846b51eaab401f2e38df4c3c3359469eb15fea62ed46e"
+  "publico.json": "de47a9f06ed5548a0e007aef92d8ded838ea56baf919321395a67068b6c14afb",
+  "gabarito.json": "9eac0b406abefd81e8369f5ded74e8fad8c6587c81414f1be2ca8d41ff6977ba"
  },
  "figuras": {
   "base": "public",
