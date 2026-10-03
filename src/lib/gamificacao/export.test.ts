@@ -49,6 +49,17 @@ describe("export do Desafio ENEM", () => {
     assert.equal(publico.counts.reviewRequired, publico.questions.filter((q) => q.reviewRequired).length);
   });
 
+  it("exclui fora do escopo e registros de duplicata (já entram pela canônica)", () => {
+    const ids = new Set(publico.questions.map((q) => q.id));
+    const hidden = (banco.questions as { id: string; out_of_scope?: boolean; canonical_id?: string }[]).filter((q) => q.out_of_scope || q.canonical_id);
+    assert.ok(hidden.length > 0);
+    for (const q of hidden) {
+      assert.ok(!ids.has(q.id), q.id);
+      if (q.canonical_id) assert.ok(ids.has(q.canonical_id), `${q.id}: canônica ${q.canonical_id} exportada`);
+    }
+    assert.ok(!publico.questions.some((q) => q.domain === "FORA_DO_ESCOPO"));
+  });
+
   it("gabarito cobre exatamente as questões públicas, com letra A–E", () => {
     assert.deepEqual(Object.keys(gabarito.answers).sort(), publico.questions.map((q) => q.id).sort());
     for (const a of Object.values(gabarito.answers)) assert.match(a.answer, /^[A-E]$/);
