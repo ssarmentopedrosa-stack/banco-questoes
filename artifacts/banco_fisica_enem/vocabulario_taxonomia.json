@@ -1,0 +1,219 @@
+{
+ "descricao": "Vocabulário controlado da taxonomia de Física (domínio → conteúdo → subconteúdos), derivado de public/banco.json. Cada conteúdo pertence a um único domínio. INTERFACE_FISICA e FORA_DO_ESCOPO são marcadores, não domínios de Física.",
+ "marcadores": {
+  "INTERFACE_FISICA": "interface com outra disciplina, classificação disciplinar pendente",
+  "FORA_DO_ESCOPO": "não é Física (mantida só como registro)",
+  "INDETERMINADO": "valor ainda não classificado"
+ },
+ "dominios": {
+  "ELETROMAGNETISMO": {
+   "CARGA_ELETRICA": [
+    "ELETRIZACAO_POR_ATRITO",
+    "FORCA_ENTRE_CARGAS"
+   ],
+   "CIRCUITOS": [
+    "ASSOCIACAO_E_LEI_DE_OHM",
+    "CIRCUITO_COM_INTERRUPTORES",
+    "GERADORES_E_RECEPTORES",
+    "MEDIDORES_ELETRICOS",
+    "RESISTENCIA_POR_GRAFICO",
+    "RESISTOR_NAO_OHMICO",
+    "SEGUNDA_LEI_DE_OHM"
+   ],
+   "ELETROSTATICA": [
+    "BLINDAGEM_ELETROSTATICA"
+   ],
+   "ENERGIA_ELETRICA": [
+    "ENERGIA_SOLAR_FOTOVOLTAICA",
+    "POTENCIA_E_ENERGIA_ELETRICA"
+   ],
+   "INDUCAO_ELETROMAGNETICA": [
+    "ATERRAMENTO_E_INDUCAO",
+    "LEI_DE_FARADAY"
+   ],
+   "MAGNETISMO": [
+    "CAMPO_DE_FIO_RETILINEO",
+    "CAMPO_MAGNETICO_ALTERNADO",
+    "FORCA_MAGNETICA_SOBRE_CARGA"
+   ]
+  },
+  "FISICA_MODERNA": {
+   "QUANTIZACAO": [
+    "FOSFORESCENCIA"
+   ],
+   "RADIOATIVIDADE": [
+    "DOSE_DE_RADIACAO",
+    "ENERGIA_NUCLEAR",
+    "FISSAO_NUCLEAR",
+    "MEIA_VIDA"
+   ]
+  },
+  "MECANICA": {
+   "CINEMATICA": [
+    "COMPOSICAO_DE_VELOCIDADES",
+    "INDEPENDENCIA_DOS_MOVIMENTOS",
+    "LANCAMENTO_HORIZONTAL",
+    "LANCAMENTO_OBLIQUO",
+    "LANCAMENTO_VERTICAL",
+    "MOVIMENTO_CIRCULAR",
+    "MUV_E_MU",
+    "VELOCIDADE_MEDIA"
+   ],
+   "DINAMICA": [
+    "LEIS_DE_NEWTON",
+    "MOVIMENTO_CIRCULAR",
+    "QUEDA_LIVRE"
+   ],
+   "ENERGIA": [
+    "CONSERVACAO_DA_ENERGIA_MECANICA",
+    "ENERGIA_POTENCIAL_ELASTICA",
+    "POTENCIA_E_RENDIMENTO",
+    "POTENCIA_MECANICA",
+    "TEOREMA_TRABALHO_ENERGIA"
+   ],
+   "ESTATICA": [
+    "CENTRO_DE_MASSA",
+    "DIAGRAMA_DE_FORCAS",
+    "MOMENTO_DE_FORCA",
+    "POLIAS"
+   ],
+   "GRAVITACAO": [
+    "GRAVITACAO_UNIVERSAL",
+    "MOVIMENTOS_DA_TERRA",
+    "MOVIMENTO_ORBITAL",
+    "SISTEMA_SOLAR"
+   ],
+   "HIDROSTATICA": [
+    "PRESSAO_ATMOSFERICA",
+    "PRESSAO_E_ESCALA",
+    "PRESSAO_HIDROSTATICA"
+   ],
+   "IMPULSO_QUANTIDADE_MOVIMENTO": [
+    "COLISAO_E_DEFORMACAO",
+    "CONSERVACAO_DA_QUANTIDADE_DE_MOVIMENTO",
+    "TEOREMA_DO_IMPULSO"
+   ]
+  },
+  "ONDAS": {
+   "CARACTERISTICAS_ONDAS": [
+    "PROPAGACAO_E_PERIODO",
+    "VELOCIDADE_PROPAGACAO"
+   ],
+   "FENOMENOS_ONDULATORIOS": [
+    "DIFRACAO",
+    "INTERFERENCIA",
+    "ONDAS_ESTACIONARIAS"
+   ],
+   "ONDAS_ELETROMAGNETICAS": [
+    "FREQUENCIA_E_COMPRIMENTO",
+    "INTENSIDADE_DE_ONDA",
+    "INTERFERENCIA",
+    "NIVEL_EM_DECIBEL",
+    "VELOCIDADE_PROPAGACAO"
+   ],
+   "SOM": [
+    "EFEITO_DOPPLER",
+    "FREQUENCIA_E_COMPRIMENTO",
+    "NIVEL_EM_DECIBEL",
+    "NIVEL_INTENSIDADE_SONORA",
+    "PROPAGACAO_E_PERIODO",
+    "QUALIDADES_DO_SOM",
+    "TUBOS_SONOROS",
+    "VELOCIDADE_PROPAGACAO"
+   ]
+  },
+  "OPTICA": {
+   "ESPECTRO_ELETROMAGNETICO": [
+    "COR_ADITIVA",
+    "INFRAVERMELHO"
+   ],
+   "ESPELHOS": [
+    "ESPELHOS_CONCAVOS"
+   ],
+   "NATUREZA_DA_LUZ": [
+    "MODELOS_CORPUSCULAR_E_ONDULATORIO"
+   ],
+   "PROPAGACAO_RETILINEA": [],
+   "REFLEXAO": [
+    "REFLEXAO_RETINIANA"
+   ],
+   "REFRACAO": [
+    "DISPERSAO_DA_LUZ",
+    "OLHO_HUMANO",
+    "REFRACAO_DA_LUZ"
+   ]
+  },
+  "TERMODINAMICA": {
+   "CALORIMETRIA": [
+    "CALOR_ESPECIFICO",
+    "CALOR_SENSIVEL_E_LATENTE",
+    "CALOR_SENSIVEL_E_RENDIMENTO",
+    "EQUILIBRIO_TERMICO",
+    "QUANTIDADE_DE_CALOR_POTENCIA"
+   ],
+   "DILATACAO_TERMICA": [],
+   "GASES": [
+    "PRESSAO_E_MASSA_DE_GAS",
+    "TRANSFORMACAO_ISOVOLUMETRICA"
+   ],
+   "MAQUINAS_TERMICAS": [
+    "REFRIGERADOR"
+   ],
+   "MUDANCA_DE_FASE": [
+    "EBULICAO_E_PRESSAO",
+    "EVAPORACAO_E_UMIDADE",
+    "LIQUEFACAO_E_TRABALHO"
+   ],
+   "TRANSFERENCIA_CALOR": [
+    "CONDUCAO_CONVECCAO_IRRADIACAO",
+    "CONDUCAO_TERMICA"
+   ]
+  }
+ },
+ "adicionados_revisao_chico": [
+  {
+   "tipo": "content",
+   "valor": "DILATACAO_TERMICA",
+   "dominio": "TERMODINAMICA",
+   "origem": "revisado: Chico",
+   "exemplo": "ENEM-CN-2021-REG-D2-C7-Q134"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "FISSAO_NUCLEAR",
+   "dominio": "FISICA_MODERNA",
+   "conteudo": "RADIOATIVIDADE",
+   "origem": "revisado: Chico",
+   "exemplo": "ENEM-CN-2020-REG-D2-C7-Q126"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "ENERGIA_NUCLEAR",
+   "dominio": "FISICA_MODERNA",
+   "conteudo": "RADIOATIVIDADE",
+   "origem": "revisado: Chico",
+   "exemplo": "ENEM-CN-2023-REG-D2-C7-Q93"
+  },
+  {
+   "tipo": "content",
+   "valor": "PROPAGACAO_RETILINEA",
+   "dominio": "OPTICA",
+   "origem": "revisado: Chico (lote 2015–2019)",
+   "exemplo": "ENEM-CN-2015-REG-D1-C1-Q85"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "COR_ADITIVA",
+   "dominio": "OPTICA",
+   "conteudo": "ESPECTRO_ELETROMAGNETICO",
+   "origem": "revisado: Chico (lote 2015–2019)",
+   "exemplo": "ENEM-CN-2019-REG-D2-C7-Q98"
+  }
+ ],
+ "decisoes": {
+  "FENOMENOS_ONDULATORIOS": "domínio único ONDAS (difração, interferência e ondas estacionárias são fenômenos ondulatórios); ENEM-CN-2023-REG-D2-C7-Q112 saiu de OPTICA",
+  "ESPECTRO_ELETROMAGNETICO": "domínio único OPTICA; ENEM-CN-2017-REG-D2-C7-Q101 (inferida no R2.1) saiu de ONDAS",
+  "NATUREZA_DA_LUZ": "conteúdo de OPTICA criado na inferência do R2.1 (ENEM-CN-2019-REG-D2-C7-Q135, modelos ondulatório × corpuscular da luz) e aceito na revisão do Chico; fica no vocabulário"
+ },
+ "regra_status": "Itens sem pedagogical_review (status REVIEWED, origem \"revisado: Chico\") mantêm a classificação como inferida e não validada: taxonomy_status/matrix_status CANDIDATE/INFERRED/CONFIRMED do pipeline, nunca validação humana. REVIEWED também não é validação do professor."
+}

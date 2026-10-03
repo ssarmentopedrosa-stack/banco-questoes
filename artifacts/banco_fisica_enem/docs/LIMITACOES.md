@@ -31,7 +31,7 @@ Textos de provas oficiais são atos oficiais. A classificação pedagógica e o 
 ## Ampliação R2.0 (ENEM 2020–2023)
 - Só o caderno 7 AZUL de cada ano: sem casamento entre cores (`not_matched`).
 - Os PDFs não puderam ser baixados do INEP neste ambiente. O de 2020 tem metadados de terceiro (fisica.net/iText).
-- 2021: texto via OCR (camada de texto do PDF corrompida). Alternativas não transcritas; a referência é o recorte integral.
+- 2021: texto via OCR (camada de texto do PDF corrompida). Alternativas não transcritas: aparecem em imagem (recorte isolado das alternativas). A referência do texto é o recorte da questão inteira, guardado em `full_crops` e exibido recolhido na ficha. Ver `FIGURAS_2021_ISOLADAS.md`.
 - Competência e habilidade das novas questões são **inferidas** (`matrix_status = INFERRED`). Classificação `CANDIDATE`/`PARTIAL`.
 - Detalhes em `R2.0_AMPLIACAO_2020_2023.md`.
 
@@ -41,3 +41,14 @@ Textos de provas oficiais são atos oficiais. A classificação pedagógica e o 
 - A classificação pedagógica e a habilidade da Matriz são **inferidas**. 28 questões estão em revisão: interface, alternativas em imagem e expressões com expoente ou fração perdidos.
 - `banco.json` cresceu para cerca de 4,9 MB por causa das arestas candidatas.
 - Detalhes em `R2.1_AMPLIACAO_2015_2019.md`.
+
+## Revisão pedagógica do Chico (2020–2025)
+- Feita por um bot de física (Chico Arretadim), com status `REVIEWED` e origem "revisado: Chico". **Não é validação humana do professor.**
+- Nas 17 questões que eram de interface, as camadas pedagógicas seguem sem classificação e as questões continuam em revisão.
+- O registro 2021-Q133 (Química) e os dois registros de duplicata ficam no JSON, mas fora da lista de Física. Os dois de duplicata estão ligados como variantes.
+- Detalhes em `REVISAO_CHICO_2020_2025.md`.
+
+## Revisão do Chico — lote 2015–2019
+- O Chico revisou as 76 questões do lote. 9 de interface viraram interdisciplinares, a 2018-Q118 virou Física e a 2017-Q121 ficou fora do escopo, sem ser apagada.
+- As 10 ex-interface seguem em revisão, porque as camadas pedagógicas não foram avaliadas.
+- Questões sem marca de revisão continuam com classificação inferida ou de pipeline, não validada (ver `REVISAO_CHICO_2015_2019.md`).

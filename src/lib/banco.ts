@@ -48,6 +48,30 @@ export type Question = {
   source_batch?: string;
   review_reasons?: string[];
   interface_note?: string;
+  /** FISICA | INTERDISCIPLINAR | NAO_FISICA (revisão pedagógica). */
+  discipline?: string;
+  /** Registro mantido, mas fora do conjunto de Física (ex.: não é Física). */
+  out_of_scope?: boolean;
+  exclusion_reason?: string;
+  /** Registro de caderno vinculado como variante de outra questão (canônica). */
+  canonical_id?: string;
+  matching_origin?: string;
+  pedagogical_review?: PedagogicalReview;
+};
+
+/** Revisão pedagógica (não é validação humana do professor). */
+export type PedagogicalReview = {
+  status: string;
+  origin: string;
+  reviewer: string;
+  date: string;
+  decision: string;
+  decision_text: string;
+  domain_text: string;
+  skill_text_review: string;
+  justification: string;
+  skill_alternative: string | null;
+  note: string;
 };
 
 export type LearnEdge = {
@@ -78,7 +102,10 @@ export type PathItem = { nodes: string[]; length: number };
 
 export type Banco = {
   meta: { source: string; derived: boolean; note: string };
+  /** Questões de Física (sem as fora do escopo e sem os registros vinculados como variantes). */
   questions: Question[];
+  /** Registros mantidos no banco, mas fora da lista de Física. */
+  hidden: Question[];
   learningEdges: LearnEdge[];
   pedagogicalEdges: PedEdge[];
   paths: PathItem[];
@@ -115,6 +142,13 @@ export const DOMAIN_LABEL: Record<string, string> = {
   OPTICA: "Óptica",
   FISICA_MODERNA: "Física Moderna",
   INTERFACE_FISICA: "Interface",
+  FORA_DO_ESCOPO: "Fora do escopo (não é Física)",
+};
+
+export const DISCIPLINE_LABEL: Record<string, string> = {
+  FISICA: "Física",
+  INTERDISCIPLINAR: "Interdisciplinar (Física + outra área)",
+  NAO_FISICA: "Não é Física",
 };
 
 export function label(value: string | null | undefined) {
@@ -150,7 +184,17 @@ export function fieldText(q: Question, value: string | null | undefined) {
 
 import raw from "../../public/banco.json";
 
-export const banco = raw as unknown as Banco;
+const all = (raw as unknown as Omit<Banco, "hidden">).questions;
+
+export function isHidden(q: Question) {
+  return Boolean(q.out_of_scope || q.canonical_id);
+}
+
+export const banco: Banco = {
+  ...(raw as unknown as Omit<Banco, "hidden">),
+  questions: all.filter((q) => !isHidden(q)),
+  hidden: all.filter(isHidden),
+};
 
 export function loadBanco(): Promise<Banco> {
   return Promise.resolve(banco);

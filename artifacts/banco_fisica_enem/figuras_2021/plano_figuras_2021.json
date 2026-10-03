@@ -1,0 +1,424 @@
+{
+ "descricao": "Figuras isoladas das 16 questões de Física de 2021 (caderno 7 azul, 2º dia). Caixas em pixels da página renderizada a 300 dpi (pdftoppm -r 300), já aparadas ao conteúdo com margem de 10 px. Origem da caixa: 'ocr' = faixas de tinta fora das linhas de texto do OCR (tesseract 5.5, TSV) e linhas de alternativas; 'manual' = caixa ajustada à mão após conferência visual em folhas de miniaturas.",
+ "pdf": "ENEM-2021-REG-D2-CD7-PV",
+ "pdf_sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+ "dpi": 300,
+ "questoes": {
+  "ENEM-CN-2021-REG-D2-C7-Q92": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 2,
+    "box_px": [
+     426,
+     2625,
+     862,
+     3088
+    ],
+    "origem": "ocr"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 2,
+    "box_px": [
+     1197,
+     668,
+     1562,
+     960
+    ],
+    "origem": "ocr"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q94": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 3,
+    "box_px": [
+     117,
+     537,
+     1170,
+     1090
+    ],
+    "origem": "ocr"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 3,
+    "box_px": [
+     122,
+     1933,
+     340,
+     2218
+    ],
+    "origem": "ocr"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q99": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 4,
+    "box_px": [
+     121,
+     925,
+     1166,
+     1878
+    ],
+    "origem": "ocr"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 4,
+    "box_px": [
+     122,
+     2259,
+     652,
+     2528
+    ],
+    "origem": "ocr"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q100": [
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 4,
+    "box_px": [
+     1197,
+     1229,
+     1738,
+     1610
+    ],
+    "origem": "ocr"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q102": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 5,
+    "box_px": [
+     249,
+     487,
+     2111,
+     1311
+    ],
+    "origem": "manual"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 5,
+    "box_px": [
+     122,
+     1487,
+     1569,
+     2930
+    ],
+    "origem": "manual"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q105": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 6,
+    "box_px": [
+     1305,
+     848,
+     2230,
+     1442
+    ],
+    "origem": "manual"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 6,
+    "box_px": [
+     1185,
+     1674,
+     2243,
+     3132
+    ],
+    "origem": "manual"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q107": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 7,
+    "box_px": [
+     122,
+     2217,
+     2242,
+     2517
+    ],
+    "origem": "manual"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 7,
+    "box_px": [
+     122,
+     2614,
+     2242,
+     3064
+    ],
+    "origem": "ocr"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q108": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 8,
+    "box_px": [
+     142,
+     1174,
+     1164,
+     2461
+    ],
+    "origem": "manual"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 8,
+    "box_px": [
+     122,
+     2696,
+     376,
+     3091
+    ],
+    "origem": "ocr"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q109": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 8,
+    "box_px": [
+     1235,
+     856,
+     2190,
+     1360
+    ],
+    "origem": "manual"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 8,
+    "box_px": [
+     1197,
+     1542,
+     1635,
+     1955
+    ],
+    "origem": "ocr"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q115": [
+   {
+    "kind": "expressao",
+    "label": "Expressão do enunciado 1",
+    "page": 9,
+    "box_px": [
+     1195,
+     1847,
+     2240,
+     2091
+    ],
+    "origem": "manual"
+   },
+   {
+    "kind": "expressao",
+    "label": "Expressão do enunciado 2",
+    "page": 9,
+    "box_px": [
+     1195,
+     2389,
+     2240,
+     2489
+    ],
+    "origem": "manual"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 9,
+    "box_px": [
+     1197,
+     2738,
+     1779,
+     3050
+    ],
+    "origem": "ocr"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q120": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 11,
+    "box_px": [
+     394,
+     2035,
+     2240,
+     2689
+    ],
+    "origem": "manual"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 11,
+    "box_px": [
+     122,
+     2758,
+     729,
+     3087
+    ],
+    "origem": "ocr"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q125": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 13,
+    "box_px": [
+     221,
+     2085,
+     2135,
+     2706
+    ],
+    "origem": "manual"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 13,
+    "box_px": [
+     122,
+     2832,
+     1603,
+     3094
+    ],
+    "origem": "ocr"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q126": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 14,
+    "box_px": [
+     133,
+     694,
+     1161,
+     1370
+    ],
+    "origem": "manual"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas A e B (imagem)",
+    "page": 14,
+    "box_px": [
+     120,
+     1561,
+     1182,
+     3132
+    ],
+    "origem": "manual"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas C, D e E (imagem)",
+    "page": 14,
+    "box_px": [
+     1192,
+     321,
+     2243,
+     3132
+    ],
+    "origem": "manual"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q128": [
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 15,
+    "box_px": [
+     122,
+     2036,
+     310,
+     2376
+    ],
+    "origem": "ocr"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q131": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 15,
+    "box_px": [
+     1198,
+     2239,
+     2240,
+     2554
+    ],
+    "origem": "ocr"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 15,
+    "box_px": [
+     1197,
+     2752,
+     1351,
+     3084
+    ],
+    "origem": "ocr"
+   }
+  ],
+  "ENEM-CN-2021-REG-D2-C7-Q134": [
+   {
+    "kind": "enunciado",
+    "label": "Figura do enunciado",
+    "page": 16,
+    "box_px": [
+     1225,
+     841,
+     2241,
+     1211
+    ],
+    "origem": "manual"
+   },
+   {
+    "kind": "alternativas",
+    "label": "Alternativas (imagem)",
+    "page": 16,
+    "box_px": [
+     1197,
+     1385,
+     2240,
+     1676
+    ],
+    "origem": "ocr"
+   }
+  ]
+ }
+}

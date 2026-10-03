@@ -1,0 +1,77 @@
+grupo,id,decisao,dominio,habilidade,justificativa
+A,ENEM-CN-2015-REG-D1-C1-Q73,Interdisciplinar (Física + Química),FISICA_MODERNA / RADIOATIVIDADE (sub FISSAO_NUCLEAR),H22 (C6) — sem habilidade no dado,Reação em cadeia: a fissão do ²³⁵U libera nêutrons que fissionam outros núcleos (C).
+A,ENEM-CN-2015-REG-D1-C1-Q85,Interdisciplinar (Física + Biologia),OPTICA / PROPAGACAO_RETILINEA (content novo),H15 (C4) — sem habilidade no dado (alt.: H17),"Câmara escura como modelo do olho: o anteparo corresponde à retina (B); propagação retilínea, sem refração."
+A,ENEM-CN-2016-REG-D1-C1-Q89,Interdisciplinar (Física + Química),TERMODINAMICA / CALORIMETRIA,H17 (C5) — sem habilidade no dado,"Taxa média ≈ 0 é a inclinação nula da curva T×t (n-hexano, apolar → E). Fórmulas das alternativas sem índices."
+A,ENEM-CN-2017-REG-D2-C7-Q104,Interdisciplinar (Física + Química),FISICA_MODERNA / RADIOATIVIDADE,H17 (C5) — sem habilidade no dado (alt.: H22),"6750/h ÷ 30 g = 3,75/(min·g) = 15/4 → 2 meias-vidas = 11 460 anos (C)."
+A,ENEM-CN-2017-REG-D2-C7-Q107,Interdisciplinar (Física + Biologia),OPTICA / ESPECTRO_ELETROMAGNETICO,H22 (C6) — sem habilidade no dado (alt.: H17),Escolher λ absorvido pela melanina e pouco pela oxi-hemoglobina/água no gráfico → 700 nm (B).
+A,ENEM-CN-2017-REG-D2-C7-Q115,Interdisciplinar (Física + Química),MECANICA / DINAMICA,H20 (C6) — sem habilidade no dado (alt.: H18),Centrífuga separa por diferença de densidade (inércia no referencial em rotação) (A); tema clássico de separação de misturas.
+A,ENEM-CN-2017-REG-D2-C7-Q121,Não é Física (Química — eletroquímica),— (fora da taxonomia de Física),H5 (C2) se mantida — sem habilidade no dado,Núcleo é ΔE° a partir de potenciais de redução; física só na soma de fem em série. Alternativas (figuras) ausentes.
+A,ENEM-CN-2018-REG-D2-C7-Q118,Física (contexto químico),TERMODINAMICA / DILATACAO_TERMICA,H17 (C5) — sem habilidade no dado (alt.: H21),Assimetria do poço de potencial: distância média cresce com T → dilatação (B).
+A,ENEM-CN-2018-REG-D2-C7-Q129,Interdisciplinar (Física + Biologia),OPTICA / ESPECTRO_ELETROMAGNETICO,H17 (C5) — sem habilidade no dado,"Sem pigmento 'verde', 530 e 600 nm ativam o 'vermelho' igualmente (~75%) → não distingue (E); leitura de gráfico."
+A,ENEM-CN-2018-REG-D2-C7-Q95,Interdisciplinar (Física + Química),MECANICA / HIDROSTATICA,H17 (C5) — sem habilidade no dado (alt.: H18),Mais NaCl → maior densidade → maior empuxo; densímetro flutua mais alto em B (D). Alternativas (figuras) ausentes.
+A,ENEM-CN-2019-REG-D2-C7-Q98,Interdisciplinar (Física + Biologia),OPTICA / ESPECTRO_ELETROMAGNETICO (sub novo: COR_ADITIVA),H17 (C5) — sem habilidade no dado,"Síntese aditiva RGB: sem cone vermelho, só o azul é percebido igual pelos dois (E)."
+B,ENEM-CN-2015-REG-D1-C1-Q53,Física,ONDAS / FENOMENOS_ONDULATORIOS (ok),H1 (C1) — confirmada,Uma única inversão de fase: 2E = λ/2 → E = λ/4 (A). Alternativas (frações) ausentes.
+B,ENEM-CN-2015-REG-D1-C1-Q64,Física,MECANICA / ENERGIA (ok),H20 (C6) — confirmada,"W = ΔEc = ½·90·12² ≈ 6,5×10³ J (B)."
+B,ENEM-CN-2015-REG-D1-C1-Q68,Física,ELETROMAGNETISMO / CIRCUITOS (ok),H5 (C2) — confirmada,"Tomadas e lâmpada em paralelo, interruptor em série só com a lâmpada (E). Alternativas em imagem."
+B,ENEM-CN-2015-REG-D1-C1-Q70,Física,MECANICA / ENERGIA (ok),H20 (C6) — confirmada,Mesma força: Ep = F²/2k ∝ 1/k; D ∝ v² ∝ 1/k → D_d/D_m = 1/2 (B). Alternativas ausentes.
+B,ENEM-CN-2016-REG-D1-C1-Q49,Física,ONDAS / SOM (ok),H1 (C1) — confirmada,Doppler: f constante maior na aproximação e menor no afastamento (D). Gráficos ausentes.
+B,ENEM-CN-2016-REG-D1-C1-Q59,Física,ELETROMAGNETISMO / CIRCUITOS (ok),H5 (C2) — confirmada,Associação de resistores de grafite medida pelo ohmímetro entre A-B e B-C (B). Figura/alternativas ausentes.
+B,ENEM-CN-2016-REG-D1-C1-Q63,Física,MECANICA / CINEMATICA (ok),H20 (C6) — confirmada (alt.: H17),v×d: patamar no tempo de reação e depois queda com v² linear em d (D). Gráficos ausentes.
+B,ENEM-CN-2016-REG-D1-C1-Q74,Física,ELETROMAGNETISMO / CIRCUITOS (ok),H5 (C2) — confirmada,Nós e ramos: I_A = I_E e I_C = I_D (A). Índices perdidos nas alternativas.
+B,ENEM-CN-2017-REG-D2-C7-Q108,Física,MECANICA / ENERGIA (ok),H20 (C6) — confirmada,"Ec×h na cama elástica: zero nos extremos, máxima perto do equilíbrio (C). Gráficos ausentes."
+B,ENEM-CN-2017-REG-D2-C7-Q127,Física,TERMODINAMICA / CALORIMETRIA (ok),H21 → H6 (C2),P = ṁ·c·ΔT a partir do gráfico do manual da ducha (D); é leitura de manual de aparelho. Gráfico/alternativas incompletos.
+B,ENEM-CN-2017-REG-D2-C7-Q93,Física,ELETROMAGNETISMO / CIRCUITOS (ok),H17 (C5) — confirmada,"R = U/i do gráfico (5×10⁵ Ω) ×4 = 2,0×10⁶ Ω (E). Expoentes perdidos."
+B,ENEM-CN-2018-REG-D2-C7-Q108,Física,ELETROMAGNETISMO / CIRCUITOS (ok),H17 (C5) — confirmada,R = V/i = 10 + i: reta crescente com intercepto 10 Ω (D). Gráficos ausentes.
+B,ENEM-CN-2018-REG-D2-C7-Q128,Física,MECANICA / DINAMICA (ok),H20 (C6) — confirmada,3ª lei/quantidade de movimento do ar: B mais rápido que A; A anda pouco (B). Índices perdidos.
+B,ENEM-CN-2019-REG-D2-C7-Q106,Física,MECANICA / ESTATICA (ok),H20 (C6) — confirmada,"2T·sen10° = 800 N → T ≈ 2,4×10³ N (D)."
+B,ENEM-CN-2019-REG-D2-C7-Q113,Física,ELETROMAGNETISMO / MAGNETISMO (ok),H21 (C6) — confirmada (alt.: H20),ω = qB/m = 2πN/t → m = qBt/(2πN) (A). Alternativas (frações) ausentes.
+B,ENEM-CN-2019-REG-D2-C7-Q119,Física,TERMODINAMICA / GASES (ok),H21 (C6) — confirmada,Pneu fino: maior pressão e menor volume → p_A > p_B e m_A < m_B (B).
+B,ENEM-CN-2019-REG-D2-C7-Q121,Física,MECANICA / ENERGIA (ok),H20 (C6) — confirmada,"Erot ≈ mgΔh = 0,03·10·(2/3·0,41) ≈ 8,2×10⁻² J (B)."
+C,ENEM-CN-2015-REG-D1-C1-Q49,Física,MECANICA / ENERGIA (ok),H20 — confirmada (alt.: H23),"P útil 2,7 kW; Ec = 9×10⁴ J → ≈ 33 s (D)."
+C,ENEM-CN-2015-REG-D1-C1-Q50,Física,ONDAS / ONDAS_ELETROMAGNETICAS (ok),H17 — confirmada,λ = c/f: UV-B ≈ 291–321 nm → filtro IV (B).
+C,ENEM-CN-2015-REG-D1-C1-Q57,Física,TERMODINAMICA / MUDANCA_DE_FASE (ok),H21 — confirmada,Energia armazenada como trabalho sobre o N₂ na liquefação (C).
+C,ENEM-CN-2015-REG-D1-C1-Q63,Física,TERMODINAMICA / GASES (ok),H21 — confirmada,Ar resfriado a V constante: p_int < p_ext (D).
+C,ENEM-CN-2015-REG-D1-C1-Q65,Física,TERMODINAMICA / CALORIMETRIA (ok),H21 — confirmada (alt.: H7),"T_eq = 30 °C; queda para 16 °C = 46,7% → selo D."
+C,ENEM-CN-2015-REG-D1-C1-Q75,Física,OPTICA / REFRACAO (ok),H1 — confirmada,Fata Morgana por refração em camadas de ar (B).
+C,ENEM-CN-2015-REG-D1-C1-Q79,Física,TERMODINAMICA / CALORIMETRIA (ok),H21 → H18 (C5),Propriedade do fluido (alto calor específico) para a finalidade de arrefecer (A).
+C,ENEM-CN-2015-REG-D1-C1-Q82,Física,MECANICA / ESTATICA (ok),H20 — confirmada,"Equilíbrio de momentos na barra (15 kg, E); depende da figura (marcas na barra)."
+C,ENEM-CN-2015-REG-D1-C1-Q86,Física,ONDAS / SOM (ok),H1 — confirmada,Timbre (D).
+C,ENEM-CN-2015-REG-D1-C1-Q88,Física,ONDAS / ONDAS_ELETROMAGNETICAS (ok),H1 — confirmada (alt.: H17),Trilateração por tempo de resposta: 3 torres (C).
+C,ENEM-CN-2016-REG-D1-C1-Q47,Física,MECANICA / ENERGIA (ok),H23 — confirmada,"P teórica = ρQgh = 816,96 MW; − 700 MW = 116,96 MW (C)."
+C,ENEM-CN-2016-REG-D1-C1-Q54,Física,TERMODINAMICA / CALORIMETRIA (ok),H21 — confirmada (alt.: H23),ṁ = 2 MW/(4 kJ·3 °C) ≈ 167 kg/s (C).
+C,ENEM-CN-2016-REG-D1-C1-Q55,Física,ONDAS / SOM (ok),H17 — confirmada,Cruzar figuras: intensidade cai nos graves com a distância (C).
+C,ENEM-CN-2016-REG-D1-C1-Q57,Física,ONDAS / SOM (ok),H1 — confirmada,"Afastamento: menor intensidade, retorno mais demorado, f menor (A)."
+C,ENEM-CN-2016-REG-D1-C1-Q66,Física,MECANICA / CINEMATICA (ok),H20 — confirmada,18·(24/72)·(36/108) = 2 RPM (B).
+C,ENEM-CN-2016-REG-D1-C1-Q77,Física,MECANICA / IMPULSO_QUANTIDADE_MOVIMENTO (ok),H20 — confirmada,150·15 = (150 + m₂)·5 → m₂ = 300 g (C).
+C,ENEM-CN-2016-REG-D1-C1-Q82,Física,MECANICA / ESTATICA (ok),H20 — confirmada,400·2ⁿ ≥ 24 000 N → n = 6 (B).
+C,ENEM-CN-2016-REG-D1-C1-Q84,Física,TERMODINAMICA / TRANSFERENCIA_CALOR (ok),H21 — confirmada,Alumínio conduz mais: gelo derrete mais rápido (A).
+C,ENEM-CN-2016-REG-D1-C1-Q86,Física,ONDAS / FENOMENOS_ONDULATORIOS (ok),H1 — confirmada,"Ventres consecutivos da onda estacionária (I e III, A)."
+C,ENEM-CN-2016-REG-D1-C1-Q88,Física,ELETROMAGNETISMO / MAGNETISMO (ok),H21 — confirmada,Campo alternado gira as nanopartículas; aquecimento por atrito (B).
+C,ENEM-CN-2017-REG-D2-C7-Q101,Física,ONDAS / ESPECTRO_ELETROMAGNETICO → OPTICA / ESPECTRO_ELETROMAGNETICO,H17 — confirmada,"LED emite só no visível, sem IV (E); ESPECTRO_ELETROMAGNETICO estava sob OPTICA na taxonomia."
+C,ENEM-CN-2017-REG-D2-C7-Q103,Física,ONDAS / ONDAS_ELETROMAGNETICAS (ok),H17 — confirmada,Margem de 90 dB ÷ menor perda do gráfico → 90 km (D).
+C,ENEM-CN-2017-REG-D2-C7-Q110,Física,ELETROMAGNETISMO / CIRCUITOS (ok),H5 — confirmada,"Dimensionar U máx. pela corrente nominal do fusível (120 V, D)."
+C,ENEM-CN-2017-REG-D2-C7-Q112,Física,ONDAS / FENOMENOS_ONDULATORIOS (ok),H1 — confirmada,"Diferença de caminho de 20 cm = λ/2 → λ = 0,4 m → 800 Hz (C)."
+C,ENEM-CN-2017-REG-D2-C7-Q129,Física,ELETROMAGNETISMO / CIRCUITOS (ok),H5 — confirmada,"10⁴ V/0,01 A = 10⁶ Ω ≈ 1000× o corpo (C)."
+C,ENEM-CN-2017-REG-D2-C7-Q131,Física,MECANICA / CINEMATICA (ok),H20 — confirmada,"14,5 m no 1 s extra + 2,9 m a mais de frenagem = 17,4 m (E)."
+C,ENEM-CN-2017-REG-D2-C7-Q133,Física,ELETROMAGNETISMO / INDUCAO_ELETROMAGNETICA (ok),H21 — confirmada,Dobrar N dobra fem e resistência → i de curto constante (A).
+C,ENEM-CN-2017-REG-D2-C7-Q99,Física,MECANICA / DINAMICA (ok),H20 — confirmada,"Menor pico de desaceleração = menor força (cinto 2, B)."
+C,ENEM-CN-2018-REG-D2-C7-Q103,Física,ONDAS / CARACTERISTICAS_ONDAS (ok),H1 — confirmada,"f = v/d = 30/0,08 = 375 Hz (C)."
+C,ENEM-CN-2018-REG-D2-C7-Q104,Física,MECANICA / ESTATICA (ok),H20 — confirmada (alt.: H18),Alavanca interpotente (pinça) tem força potente > resistente (A).
+C,ENEM-CN-2018-REG-D2-C7-Q112,Física,ELETROMAGNETISMO / CIRCUITOS (ok),H5 — confirmada,"Resistência equivalente com o ponto A fechado = 6,0 kΩ (C)."
+C,ENEM-CN-2018-REG-D2-C7-Q115,Física,ELETROMAGNETISMO / ENERGIA_ELETRICA (ok),H5 — confirmada,P = 600·2 = 1200 W (D).
+C,ENEM-CN-2018-REG-D2-C7-Q120,Física,ONDAS / FENOMENOS_ONDULATORIOS (ok),H1 — confirmada (alt.: H6),"Polaridade invertida: oposição de fase, interferência destrutiva (E)."
+C,ENEM-CN-2018-REG-D2-C7-Q122,Física,MECANICA / CINEMATICA (ok),H20 — confirmada,Raio maior: CM sobe (menos estável) e v real > indicada (A).
+C,ENEM-CN-2018-REG-D2-C7-Q125,Física,OPTICA / REFRACAO (ok),H1 — confirmada,Dispersão (n cresce com f) + reflexão no espelho → ordem no filme (A).
+C,ENEM-CN-2018-REG-D2-C7-Q131,Física,MECANICA / ENERGIA (ok),H20 — confirmada,v ∝ x√k: 4× deformação dá 4× velocidade (B).
+C,ENEM-CN-2018-REG-D2-C7-Q134,Física,MECANICA / HIDROSTATICA (ok),H20 — confirmada,Canudo fora iguala a pressão da boca à atmosférica (E).
+C,ENEM-CN-2018-REG-D2-C7-Q97,Física,ELETROMAGNETISMO / INDUCAO_ELETROMAGNETICA (ok),H21 — confirmada,Campo magnético da onda induz corrente na bobina (C).
+C,ENEM-CN-2019-REG-D2-C7-Q102,Física,TERMODINAMICA / TRANSFERENCIA_CALOR (ok),H21 — confirmada,"Áreas 9 600 e 12 800 cm²; m_B = 2m_A → k_A/k_B ≈ 0,67 (B)."
+C,ENEM-CN-2019-REG-D2-C7-Q109,Física,MECANICA / GRAVITACAO (ok),H20 — confirmada,"Fragmentos à frente da rotação: ω maior, mesmo sentido (B)."
+C,ENEM-CN-2019-REG-D2-C7-Q111,Física,MECANICA / IMPULSO_QUANTIDADE_MOVIMENTO (ok),H20 — confirmada,"Δp = 25 kg·m/s em 0,5 s → 50 N = 2 pesos (A)."
+C,ENEM-CN-2019-REG-D2-C7-Q117,Física,TERMODINAMICA / CALORIMETRIA (ok),H21 — confirmada (alt.: H23),"17,5 kcal × 50% = 8750 cal → ΔT = 25 °C → 45 °C (C)."
+C,ENEM-CN-2019-REG-D2-C7-Q126,Física,ELETROMAGNETISMO / CIRCUITOS (ok),H5 — confirmada,Queda ≤ 30 V no cabo → R_par ≥ 30 Ω → no máx. 2 lâmpadas (B).
+C,ENEM-CN-2019-REG-D2-C7-Q131,Física,MECANICA / CINEMATICA (ok),H20 — confirmada,"Faixa de 2000 m, 20% de sobreposição → 1600 m/50 m/s = 32 s (B)."
+C,ENEM-CN-2019-REG-D2-C7-Q132,Física,OPTICA / REFRACAO (ok),H1 — confirmada,"Pupila menor: raios paraxiais, menor desvio refratado (D)."
+C,ENEM-CN-2019-REG-D2-C7-Q135,Física,OPTICA / NATUREZA_DA_LUZ (content novo no lote; aceitar),H3 — confirmada,Huygens contesta o modelo corpuscular (C); história da ciência.
+C,ENEM-CN-2019-REG-D2-C7-Q92,Física,ELETROMAGNETISMO / INDUCAO_ELETROMAGNETICA (ok),H21 — confirmada,Aterrar a cerca escoa a corrente induzida (A).
+C,ENEM-CN-2019-REG-D2-C7-Q94,Física,TERMODINAMICA / TRANSFERENCIA_CALOR (ok),H21 → H3 (C1),Confronta a ideia de senso comum de que o 'frio entra': porta e cobertor minimizam a perda de calor (C).

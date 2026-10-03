@@ -58,3 +58,18 @@ Nenhuma questão nova está `validado = true`.
 - arestas R2.1 `CANDIDATE` e sem ciclos.
 
 Nenhuma questão nova está `validado = true`.
+
+## Revisão do Chico
+`scripts/banco-integrity.test.mjs` também confere:
+- as 42 decisões do CSV aplicadas: disciplina, domínio/conteúdo e habilidade/competência, com `REVIEWED`/"revisado: Chico" e nunca `CONFIRMED`;
+- a Q133 fora do escopo e mantida;
+- as duplicatas como variantes;
+- o OCR de 2021 ainda marcado;
+- código, competência e texto de habilidade iguais à Matriz oficial;
+- o vocabulário, com cada conteúdo em um único domínio;
+- nenhuma aresta com registro oculto ou de interface.
+
+A revisão do Chico não conta como `validado = true`.
+- Lote 2015–2019: as 76 decisões do CSV aplicadas; 2017-Q121 fora do escopo; 2018-Q118 em TERMODINAMICA/DILATACAO_TERMICA; as 3 trocas de habilidade.
+- As ex-interface ficam sem camadas inventadas e seguem em revisão.
+- Regra "sem marca de revisão = inferida, não validada": nenhuma questão com `validado = true`.

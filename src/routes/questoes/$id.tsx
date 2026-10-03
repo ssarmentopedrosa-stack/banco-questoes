@@ -4,6 +4,7 @@ import { edgeIncident, GraphView } from "@/components/banco/graph-view";
 import { StatusBadge } from "@/components/banco/status-badge";
 import {
   CONTEXT_RELATIONS,
+  DISCIPLINE_LABEL,
   HIGHLIGHT_RELATIONS,
   domainLabel,
   fieldText,
@@ -37,7 +38,7 @@ function Detail() {
   const { data, error, loading } = useBanco();
   const [picked, setPicked] = useState<string | null>(null);
 
-  const q = data?.questions.find((x) => x.id === id);
+  const q = data?.questions.find((x) => x.id === id) ?? data?.hidden.find((x) => x.id === id);
 
   const ped = useMemo(() => {
     if (!data || !q) return [] as PedEdge[];
@@ -90,6 +91,29 @@ function Detail() {
           {probable && <StatusBadge status="CANDIDATE" />}
         </div>
         {review && <p className="mt-3 rounded-xl border border-rose bg-panel p-3 text-sm">Questão em revisão de classificação disciplinar.</p>}
+        {q.out_of_scope && (
+          <p className="mt-3 rounded-xl border border-rose bg-panel p-3 text-sm">
+            Fora do escopo de Física: registro mantido, mas fora das listas, do mapa e do desafio. {q.exclusion_reason}
+          </p>
+        )}
+        {q.canonical_id && (
+          <p className="mt-3 rounded-xl border border-amber bg-panel p-3 text-sm">
+            Este registro é uma variante de caderno vinculada a{" "}
+            <Link to="/questoes/$id" params={{ id: q.canonical_id }} className="text-amber underline">{q.canonical_id}</Link>
+            {q.matching_status === "probable" ? " (casamento PROBABLE)" : ""}. A questão aparece pela ficha canônica.
+          </p>
+        )}
+        {q.pedagogical_review && (
+          <div className="mt-3 rounded-xl border border-sky-400 bg-panel p-3 text-sm">
+            <p className="font-semibold">Revisão pedagógica · {q.pedagogical_review.origin} ({q.pedagogical_review.date.split("-").reverse().join("/")})</p>
+            <p className="mt-1">
+              Disciplina: {q.pedagogical_review.decision_text || DISCIPLINE_LABEL[q.pedagogical_review.decision] || q.pedagogical_review.decision}
+            </p>
+            <p>Habilidade: {q.pedagogical_review.skill_text_review}</p>
+            <p className="mt-1 text-mute">{q.pedagogical_review.justification}</p>
+            <p className="mt-1 text-xs text-mute">{q.pedagogical_review.note}</p>
+          </div>
+        )}
         {q.review_reasons && q.review_reasons.length > 0 && (
           <div className="mt-3 rounded-xl border border-amber bg-panel p-3 text-sm">
             <p className="font-semibold">{q.review_required ? "Precisa revisão" : "Observações"} (lote {q.source_batch ?? "—"})</p>

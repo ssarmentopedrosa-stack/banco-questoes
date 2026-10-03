@@ -52,7 +52,7 @@ Questões 2020–2023 entram como variantes isoladas do caderno azul (`ENEM-CN-{
 - `interface_note`;
 - `variants[].text_source`.
 
-Os recortes ficam em `public/figuras/{ano}/`, com os tipos `enunciado`, `alternativas`, `expressao` e `questao_integral`. Ver `R2.0_AMPLIACAO_2020_2023.md`.
+Os recortes ficam em `public/figuras/{ano}/`, com os tipos `enunciado`, `alternativas`, `expressao` e `questao_integral`. Ver `R2.0_AMPLIACAO_2020_2023.md`. Em 2021 o recorte da questão inteira fica no campo `full_crops` (referência recolhida na ficha), e `figures` tem as figuras isoladas. Ver `FIGURAS_2021_ISOLADAS.md`.
 
 ## Ampliação R2.1
 Questões 2015–2019 (`source_batch = "R2.1"`) seguem o mesmo modelo do R2.0. Os IDs são `ENEM-CN-{ano}-REG-D1-C1-Q{n}` em 2015–2016 (CN no 1º dia) e `ENEM-CN-{ano}-REG-D2-C7-Q{n}` em 2017–2019. As arestas têm `origin = "R2.1"`. Os recortes ficam em `public/figuras/{2015..2019}/`. Ver `R2.1_AMPLIACAO_2015_2019.md`.
