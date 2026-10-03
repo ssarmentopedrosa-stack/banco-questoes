@@ -18,14 +18,16 @@
     "MEDIDORES_ELETRICOS",
     "RESISTENCIA_POR_GRAFICO",
     "RESISTOR_NAO_OHMICO",
-    "SEGUNDA_LEI_DE_OHM"
+    "SEGUNDA_LEI_DE_OHM",
+    "MODELO_DE_CORRENTE"
    ],
    "ELETROSTATICA": [
     "BLINDAGEM_ELETROSTATICA"
    ],
    "ENERGIA_ELETRICA": [
     "ENERGIA_SOLAR_FOTOVOLTAICA",
-    "POTENCIA_E_ENERGIA_ELETRICA"
+    "POTENCIA_E_ENERGIA_ELETRICA",
+    "EFICIENCIA_LUMINOSA"
    ],
    "INDUCAO_ELETROMAGNETICA": [
     "ATERRAMENTO_E_INDUCAO",
@@ -34,7 +36,8 @@
    "MAGNETISMO": [
     "CAMPO_DE_FIO_RETILINEO",
     "CAMPO_MAGNETICO_ALTERNADO",
-    "FORCA_MAGNETICA_SOBRE_CARGA"
+    "FORCA_MAGNETICA_SOBRE_CARGA",
+    "FORCA_MAGNETICA_SOBRE_CONDUTOR"
    ]
   },
   "FISICA_MODERNA": {
@@ -45,7 +48,8 @@
     "DOSE_DE_RADIACAO",
     "ENERGIA_NUCLEAR",
     "FISSAO_NUCLEAR",
-    "MEIA_VIDA"
+    "MEIA_VIDA",
+    "IRRADIACAO"
    ]
   },
   "MECANICA": {
@@ -62,7 +66,8 @@
    "DINAMICA": [
     "LEIS_DE_NEWTON",
     "MOVIMENTO_CIRCULAR",
-    "QUEDA_LIVRE"
+    "QUEDA_LIVRE",
+    "ATRITO"
    ],
    "ENERGIA": [
     "CONSERVACAO_DA_ENERGIA_MECANICA",
@@ -86,7 +91,9 @@
    "HIDROSTATICA": [
     "PRESSAO_ATMOSFERICA",
     "PRESSAO_E_ESCALA",
-    "PRESSAO_HIDROSTATICA"
+    "PRESSAO_HIDROSTATICA",
+    "EMPUXO",
+    "PRINCIPIO_DE_PASCAL"
    ],
    "IMPULSO_QUANTIDADE_MOVIMENTO": [
     "COLISAO_E_DEFORMACAO",
@@ -102,7 +109,9 @@
    "FENOMENOS_ONDULATORIOS": [
     "DIFRACAO",
     "INTERFERENCIA",
-    "ONDAS_ESTACIONARIAS"
+    "ONDAS_ESTACIONARIAS",
+    "REFLEXAO_DE_ONDAS",
+    "RESSONANCIA"
    ],
    "ONDAS_ELETROMAGNETICAS": [
     "FREQUENCIA_E_COMPRIMENTO",
@@ -119,13 +128,19 @@
     "PROPAGACAO_E_PERIODO",
     "QUALIDADES_DO_SOM",
     "TUBOS_SONOROS",
-    "VELOCIDADE_PROPAGACAO"
+    "VELOCIDADE_PROPAGACAO",
+    "SONAR"
+   ],
+   "OSCILACOES": [
+    "PENDULO_SIMPLES"
    ]
   },
   "OPTICA": {
    "ESPECTRO_ELETROMAGNETICO": [
     "COR_ADITIVA",
-    "INFRAVERMELHO"
+    "INFRAVERMELHO",
+    "RAIOS_X",
+    "COR_E_VISAO"
    ],
    "ESPELHOS": [
     "ESPELHOS_CONCAVOS"
@@ -151,18 +166,24 @@
     "EQUILIBRIO_TERMICO",
     "QUANTIDADE_DE_CALOR_POTENCIA"
    ],
-   "DILATACAO_TERMICA": [],
+   "DILATACAO_TERMICA": [
+    "DILATACAO_VOLUMETRICA"
+   ],
    "GASES": [
     "PRESSAO_E_MASSA_DE_GAS",
-    "TRANSFORMACAO_ISOVOLUMETRICA"
+    "TRANSFORMACAO_ISOVOLUMETRICA",
+    "CAPACIDADE_CALORIFICA_DE_GASES"
    ],
    "MAQUINAS_TERMICAS": [
-    "REFRIGERADOR"
+    "REFRIGERADOR",
+    "RENDIMENTO_DE_MAQUINA_TERMICA",
+    "SEGUNDA_LEI_DA_TERMODINAMICA"
    ],
    "MUDANCA_DE_FASE": [
     "EBULICAO_E_PRESSAO",
     "EVAPORACAO_E_UMIDADE",
-    "LIQUEFACAO_E_TRABALHO"
+    "LIQUEFACAO_E_TRABALHO",
+    "CALOR_E_TEMPERATURA"
    ],
    "TRANSFERENCIA_CALOR": [
     "CONDUCAO_CONVECCAO_IRRADIACAO",
@@ -215,5 +236,158 @@
   "ESPECTRO_ELETROMAGNETICO": "domínio único OPTICA; ENEM-CN-2017-REG-D2-C7-Q101 (inferida no R2.1) saiu de ONDAS",
   "NATUREZA_DA_LUZ": "conteúdo de OPTICA criado na inferência do R2.1 (ENEM-CN-2019-REG-D2-C7-Q135, modelos ondulatório × corpuscular da luz) e aceito na revisão do Chico; fica no vocabulário"
  },
- "regra_status": "Itens sem pedagogical_review (status REVIEWED, origem \"revisado: Chico\") mantêm a classificação como inferida e não validada: taxonomy_status/matrix_status CANDIDATE/INFERRED/CONFIRMED do pipeline, nunca validação humana. REVIEWED também não é validação do professor."
+ "regra_status": "Itens sem pedagogical_review (status REVIEWED, origem \"revisado: Chico\") mantêm a classificação como inferida e não validada: taxonomy_status/matrix_status CANDIDATE/INFERRED/CONFIRMED do pipeline, nunca validação humana. REVIEWED também não é validação do professor.",
+ "adicionados_r2_2": [
+  {
+   "tipo": "subcontent",
+   "valor": "RENDIMENTO_DE_MAQUINA_TERMICA",
+   "dominio": "TERMODINAMICA",
+   "conteudo": "MAQUINAS_TERMICAS",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2009-REG-D1-C1-Q20"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "RAIOS_X",
+   "dominio": "OPTICA",
+   "conteudo": "ESPECTRO_ELETROMAGNETICO",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2009-REG-D1-C1-Q32"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "COR_E_VISAO",
+   "dominio": "OPTICA",
+   "conteudo": "ESPECTRO_ELETROMAGNETICO",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2009-REG-D1-C1-Q37"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "DILATACAO_VOLUMETRICA",
+   "dominio": "TERMODINAMICA",
+   "conteudo": "DILATACAO_TERMICA",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2009-REG-D1-C1-Q38"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "REFLEXAO_DE_ONDAS",
+   "dominio": "ONDAS",
+   "conteudo": "FENOMENOS_ONDULATORIOS",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2010-REG-D1-C1-Q47"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "CALOR_E_TEMPERATURA",
+   "dominio": "TERMODINAMICA",
+   "conteudo": "MUDANCA_DE_FASE",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2010-REG-D1-C1-Q50"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "EMPUXO",
+   "dominio": "MECANICA",
+   "conteudo": "HIDROSTATICA",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2010-REG-D1-C1-Q81"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "SEGUNDA_LEI_DA_TERMODINAMICA",
+   "dominio": "TERMODINAMICA",
+   "conteudo": "MAQUINAS_TERMICAS",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2011-REG-D1-C1-Q46"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "SONAR",
+   "dominio": "ONDAS",
+   "conteudo": "SOM",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2011-REG-D1-C1-Q74"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "EFICIENCIA_LUMINOSA",
+   "dominio": "ELETROMAGNETISMO",
+   "conteudo": "ENERGIA_ELETRICA",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2012-REG-D1-C1-Q61"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "ATRITO",
+   "dominio": "MECANICA",
+   "conteudo": "DINAMICA",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2012-REG-D1-C1-Q78"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "IRRADIACAO",
+   "dominio": "FISICA_MODERNA",
+   "conteudo": "RADIOATIVIDADE",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2012-REG-D1-C1-Q84"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "PRINCIPIO_DE_PASCAL",
+   "dominio": "MECANICA",
+   "conteudo": "HIDROSTATICA",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2013-REG-D1-C1-Q61"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "MODELO_DE_CORRENTE",
+   "dominio": "ELETROMAGNETISMO",
+   "conteudo": "CIRCUITOS",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2013-REG-D1-C1-Q79"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "FORCA_MAGNETICA_SOBRE_CONDUTOR",
+   "dominio": "ELETROMAGNETISMO",
+   "conteudo": "MAGNETISMO",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2013-REG-D1-C1-Q85"
+  },
+  {
+   "tipo": "content",
+   "valor": "OSCILACOES",
+   "dominio": "ONDAS",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2014-REG-D1-C1-Q46"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "PENDULO_SIMPLES",
+   "dominio": "ONDAS",
+   "conteudo": "OSCILACOES",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2014-REG-D1-C1-Q46"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "CAPACIDADE_CALORIFICA_DE_GASES",
+   "dominio": "TERMODINAMICA",
+   "conteudo": "GASES",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2014-REG-D1-C1-Q62"
+  },
+  {
+   "tipo": "subcontent",
+   "valor": "RESSONANCIA",
+   "dominio": "ONDAS",
+   "conteudo": "FENOMENOS_ONDULATORIOS",
+   "origem": "inferido R2.2",
+   "exemplo": "ENEM-CN-2014-REG-D1-C1-Q84"
+  }
+ ]
 }

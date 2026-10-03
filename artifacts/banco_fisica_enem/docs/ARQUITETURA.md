@@ -56,3 +56,6 @@ Os recortes ficam em `public/figuras/{ano}/`, com os tipos `enunciado`, `alterna
 
 ## Ampliação R2.1
 Questões 2015–2019 (`source_batch = "R2.1"`) seguem o mesmo modelo do R2.0. Os IDs são `ENEM-CN-{ano}-REG-D1-C1-Q{n}` em 2015–2016 (CN no 1º dia) e `ENEM-CN-{ano}-REG-D2-C7-Q{n}` em 2017–2019. As arestas têm `origin = "R2.1"`. Os recortes ficam em `public/figuras/{2015..2019}/`. Ver `R2.1_AMPLIACAO_2015_2019.md`.
+
+## Ampliação R2.2
+Questões 2009–2014 (`source_batch = "R2.2"`) seguem o mesmo modelo, com IDs `ENEM-CN-{ano}-REG-D1-C1-Q{n}` (CN no 1º dia, caderno 1 azul). As arestas têm `origin = "R2.2"`. Os recortes ficam em `public/figuras/{2009..2014}/`. Ver `R2.2_AMPLIACAO_2009_2014.md`.

@@ -52,3 +52,10 @@ Textos de provas oficiais são atos oficiais. A classificação pedagógica e o 
 - O Chico revisou as 76 questões do lote. 9 de interface viraram interdisciplinares, a 2018-Q118 virou Física e a 2017-Q121 ficou fora do escopo, sem ser apagada.
 - As 10 ex-interface seguem em revisão, porque as camadas pedagógicas não foram avaliadas.
 - Questões sem marca de revisão continuam com classificação inferida ou de pipeline, não validada (ver `REVISAO_CHICO_2015_2019.md`).
+
+## Ampliação R2.2 (ENEM 2009–2014)
+- Só o caderno 1 azul do 1º dia (CN = Q1–45 em 2009 e Q46–90 em 2010–2014). Não há casamento entre cores (`not_matched`).
+- PDFs oficiais do INEP obtidos via cópias arquivadas no Wayback Machine, com SHA-256 registrado. Em 2010, o gabarito foi lido dos círculos verdes da prova-gabarito do INEP. A prova de 2013 do INEP já vem com a resposta marcada, e a tinta verde foi tirada antes dos recortes.
+- A classificação pedagógica e a habilidade da Matriz são **inferidas** e ainda não passaram pelo Chico nem pelo professor. 22 questões estão em revisão: 12 de interface e 10 com alternativas em imagem ou expressões.
+- `banco.json` cresceu para cerca de 11 MB por causa das arestas candidatas.
+- Detalhes em `R2.2_AMPLIACAO_2009_2014.md`.
