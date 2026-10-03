@@ -37,11 +37,12 @@ test("178 questões únicas (33 de 2024–2025 + 69 de 2020–2023 + 76 de 2015�
     else assert.match(q.id, NEW21_RE, q.id);
     assert.equal(q.scope, "VARIANT", q.id);
     assert.equal(q.matching_status, "not_matched", q.id);
+    if (q.pedagogical_review) continue; // revisadas pelo Chico: teste próprio abaixo
     assert.equal(q.is_tri, false, q.id);
     assert.equal(q.is_empirical, false, q.id);
     assert.ok(Array.isArray(q.review_reasons) && q.review_reasons.length > 0, q.id);
     if (q.domain !== "INTERFACE_FISICA") {
-      assert.equal(q.taxonomy_status, "CANDIDATE", q.id);
+      assert.ok(["CANDIDATE"].includes(q.taxonomy_status), q.id);
       assert.equal(q.matrix_status, "INFERRED", q.id);
       assert.match(q.skill_code, /^H([1-9]|[12]\d|30)$/, q.id);
       assert.match(q.competency_code, /^C[1-8]$/, q.id);
@@ -56,7 +57,8 @@ test("178 questões únicas (33 de 2024–2025 + 69 de 2020–2023 + 76 de 2015�
 
 test("relações de aprendizagem: originais intactas, novas CANDIDATE e sem ciclos", () => {
   const isNew = (e) => e.origin === "R2.0" || e.origin === "R2.1";
-  const orig = banco.learningEdges.filter((e) => !isNew(e));
+  const isRev = (e) => e.origin === "REV-CHICO";
+  const orig = banco.learningEdges.filter((e) => !isNew(e) && !isRev(e));
   assert.equal(orig.length, 177);
   assert.equal(orig.filter((e) => e.status === "CONFIRMED").length, 39);
   assert.equal(orig.filter((e) => e.status === "CANDIDATE").length, 138);
@@ -69,8 +71,13 @@ test("relações de aprendizagem: originais intactas, novas CANDIDATE e sem cicl
       assert.equal(e.status, "CANDIDATE");
       assert.ok(novosIds.has(e.source) || novosIds.has(e.target));
     }
+    if (isRev(e)) assert.equal(e.status, "CANDIDATE");
+    for (const end of [e.source, e.target]) {
+      const q = banco.questions.find((x) => x.id === end);
+      assert.ok(!q.out_of_scope && !q.canonical_id && q.domain !== "INTERFACE_FISICA", `aresta com registro fora do conjunto: ${end}`);
+    }
   }
-  assert.equal(banco.pedagogicalEdges.filter((e) => !isNew(e)).length, 761);
+  assert.equal(banco.pedagogicalEdges.filter((e) => !isNew(e) && !isRev(e)).length, 761);
   assert.ok(banco.learningEdges.some((e) => e.origin === "R2.1") && banco.pedagogicalEdges.some((e) => e.origin === "R2.1"));
   // sem ciclos por tipo de relação
   const byType = {};
@@ -89,16 +96,15 @@ test("relações de aprendizagem: originais intactas, novas CANDIDATE e sem cicl
     for (const u of Object.keys(adj)) assert.equal(!color[u] && dfs(u), false, `ciclo em ${type}`);
   }
   // novas questões de Física aparecem no cluster do seu domínio
-  for (const q of NOVAS) {
+  for (const q of NOVAS.filter((x) => !x.out_of_scope && !x.canonical_id)) {
     const cl = banco.clusters.find((c) => c.name === q.domain);
     assert.ok(cl && cl.canonical_ids.includes(q.id), q.id);
   }
 });
 
 test("interface e probable", () => {
+  // 2020–2025: a interface foi resolvida na revisão do Chico (ver teste abaixo); restam as de 2015–2019
   const iface = [
-    "ENEM-CN-2024-D2-CAN-083", "ENEM-CN-2024-REG-D2-C6-Q92", "ENEM-CN-2025-D2-CAN-004", "ENEM-CN-2025-D2-CAN-010", "ENEM-CN-2025-REG-D2-C5-Q101",
-    ...[[2020, [122, 126, 134]], [2021, [102, 120, 131, 133, 134]], [2022, [109, 130]], [2023, [93, 119, 130]]].flatMap(([y, ns]) => ns.map((n) => `ENEM-CN-${y}-REG-D2-C7-Q${n}`)),
     ...[[2015, [73, 85]], [2016, [89]]].flatMap(([y, ns]) => ns.map((n) => `ENEM-CN-${y}-REG-D1-C1-Q${n}`)),
     ...[[2017, [104, 107, 115, 121]], [2018, [95, 118, 129]], [2019, [98]]].flatMap(([y, ns]) => ns.map((n) => `ENEM-CN-${y}-REG-D2-C7-Q${n}`)),
   ];
@@ -183,7 +189,7 @@ test("2020–2023: gabarito oficial, anuladas fora, OCR de 2021 sinalizado", () 
     if (year === "2021") {
       assert.match(x.text_source, /^ocr/, q.id);
       assert.equal(x.extraction_status, "partial", q.id);
-      assert.equal(q.review_required, true, q.id);
+      assert.equal(q.review_required, !q.out_of_scope, q.id);
       assert.equal(v.figures_status, "recorte_integral_caderno_azul", q.id);
       assert.ok(v.figures.some((f) => f.kind === "questao_integral"), q.id);
     } else {
@@ -222,5 +228,127 @@ test("2015–2019: gabarito oficial, caderno azul, texto do PDF, revisões sinal
   for (const y of ["2015", "2016", "2017", "2018", "2019"]) {
     assert.equal(Object.keys(gab21[y]).length, 45, y);
     assert.equal(Object.values(gab21[y]).includes("ANULADA"), false, y);
+  }
+});
+
+// ---------- Revisão pedagógica do Chico (2020–2025) ----------
+const matriz = JSON.parse(readFileSync(new URL("../artifacts/banco_fisica_enem/matriz_cn_oficial.json", import.meta.url), "utf8"));
+const vocab = JSON.parse(readFileSync(new URL("../artifacts/banco_fisica_enem/vocabulario_taxonomia.json", import.meta.url), "utf8"));
+function parseCsv(text) {
+  const rows = [];
+  let row = [], cell = "", q = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (q) {
+      if (c === '"' && text[i + 1] === '"') { cell += '"'; i++; }
+      else if (c === '"') q = false;
+      else cell += c;
+    } else if (c === '"') q = true;
+    else if (c === ",") { row.push(cell); cell = ""; }
+    else if (c === "\n" || c === "\r") {
+      if (c === "\r" && text[i + 1] === "\n") i++;
+      row.push(cell); cell = "";
+      if (row.some((x) => x !== "")) rows.push(row);
+      row = [];
+    } else cell += c;
+  }
+  if (cell || row.length) { row.push(cell); rows.push(row); }
+  const [head, ...body] = rows;
+  return body.map((r) => Object.fromEntries(head.map((h, i) => [h, r[i]])));
+}
+const revisao = parseCsv(readFileSync(new URL("../artifacts/banco_fisica_enem/revisao_chico/revisao.csv", import.meta.url), "utf8"));
+const byId = Object.fromEntries(banco.questions.map((q) => [q.id, q]));
+const norm = (t) => (t ?? "").replace(/[\s-]+/g, "");
+
+test("revisão do Chico: 42 decisões aplicadas como revisão pedagógica (não validação humana)", () => {
+  assert.equal(revisao.length, 42);
+  for (const r of revisao) {
+    const q = byId[r.id];
+    assert.ok(q, r.id);
+    const rv = q.pedagogical_review;
+    assert.ok(rv, r.id);
+    assert.equal(rv.status, "REVIEWED", r.id);
+    assert.equal(rv.origin, "revisado: Chico", r.id);
+    assert.equal(rv.justification, r.justificativa, r.id);
+    assert.doesNotMatch(JSON.stringify(rv), /Silas|validad[oa] pelo professor/i, r.id);
+    assert.notEqual(q.taxonomy_status, "CONFIRMED", r.id);
+    assert.notEqual(q.matrix_status, "CONFIRMED", r.id);
+    assert.equal(q.uncertainty, false, r.id);
+    const dec = r.decisao.startsWith("Não é Física") ? "NAO_FISICA" : r.decisao.startsWith("Interdisciplinar") ? "INTERDISCIPLINAR" : "FISICA";
+    assert.equal(q.discipline, dec, r.id);
+    if (dec === "NAO_FISICA") continue;
+    const m = r.dominio.match(/^([A-Z_]+) \/ ([A-Z_]+)(?: → ([A-Z_]+) \/ ([A-Z_]+))?/);
+    assert.equal(q.domain, m[3] ?? m[1], r.id);
+    assert.equal(q.content, m[4] ?? m[2], r.id);
+    const sub = r.dominio.match(/sub novo: ([A-Z_]+)/);
+    if (sub) assert.equal(q.subcontent, sub[1], r.id);
+    const h = r.habilidade.match(/(?:H\d+ → )?(H\d+) \((C\d)\)/);
+    assert.equal(q.skill_code, h[1], r.id);
+    assert.equal(q.competency_code, h[2], r.id);
+    assert.equal(q.taxonomy_status, "REVIEWED", r.id);
+    assert.equal(q.matrix_status, "REVIEWED", r.id);
+    assert.ok(q.review_reasons.some((x) => x.includes("revisado: Chico")), r.id);
+  }
+});
+
+test("revisão do Chico: 2021-Q133 fora do escopo (mantida), duplicatas como variantes", () => {
+  const q = byId["ENEM-CN-2021-REG-D2-C7-Q133"];
+  assert.ok(q && oficial[q.id], "registro mantido");
+  assert.equal(q.out_of_scope, true);
+  assert.equal(q.domain, "FORA_DO_ESCOPO");
+  assert.equal(q.review_required, false);
+  assert.ok(q.exclusion_reason);
+  for (const c of banco.clusters) assert.ok(!c.canonical_ids.includes(q.id), c.name);
+  for (const [dup, can, ms] of [["ENEM-CN-2024-REG-D2-C6-Q92", "ENEM-CN-2024-D2-CAN-083", "confirmed"], ["ENEM-CN-2025-REG-D2-C5-Q101", "ENEM-CN-2025-D2-CAN-010", "probable"]]) {
+    const d = byId[dup];
+    assert.equal(d.canonical_id, can);
+    assert.equal(d.matching_status, ms);
+    const v = oficial[can].variants.find((x) => x.id === dup);
+    assert.ok(v, `${dup} listada nas variantes de ${can}`);
+    assert.equal(v.answer, oficial[can].variants[0].answer);
+    assert.equal(new Set(oficial[can].variants.map((x) => x.booklet)).size, oficial[can].variants.length, can);
+    assert.equal(d.domain, byId[can].domain);
+    assert.equal(d.skill_code, byId[can].skill_code);
+    for (const c of banco.clusters) assert.ok(!c.canonical_ids.includes(dup));
+  }
+  // 2024–2025: motivos e nota preenchidos
+  for (const id of ["ENEM-CN-2024-D2-CAN-083", "ENEM-CN-2024-REG-D2-C6-Q92", "ENEM-CN-2025-D2-CAN-004", "ENEM-CN-2025-D2-CAN-010", "ENEM-CN-2025-REG-D2-C5-Q101"]) {
+    assert.ok(byId[id].review_reasons.length >= 2 && byId[id].interface_note, id);
+    assert.equal(byId[id].review_required, true, id);
+  }
+  // OCR ruim continua marcado
+  for (const q of banco.questions.filter((x) => x.year === "2021" && x.source_batch === "R2.0" && !x.out_of_scope)) {
+    assert.equal(q.review_required, true, q.id);
+    assert.ok(q.review_reasons.some((x) => /OCR/.test(x)), q.id);
+  }
+  const emRevisao = revisao.filter((r) => byId[r.id].review_required).length;
+  assert.equal(emRevisao, 41);
+});
+
+test("Matriz oficial: código, competência e texto de habilidade coerentes", () => {
+  for (const q of banco.questions) {
+    if (!q.skill_code) continue;
+    const h = matriz.habilidades[q.skill_code];
+    assert.ok(h, `${q.id} ${q.skill_code}`);
+    assert.equal(q.competency_code, h.competency, `${q.id}: ${q.skill_code} é da ${h.competency}`);
+    assert.equal(norm(q.skill_text), norm(h.text), `${q.id}: texto oficial de ${q.skill_code}`);
+    assert.equal(norm(q.competency_text), norm(matriz.competencias[q.competency_code]), `${q.id}: texto oficial de ${q.competency_code}`);
+  }
+  const c = byId["ENEM-CN-2024-D2-CAN-025"];
+  assert.equal(c.skill_code, "H21");
+  assert.equal(c.competency_code, "C6");
+});
+
+test("vocabulário: cada conteúdo em um único domínio e valores novos incluídos", () => {
+  const where = {};
+  for (const [d, cs] of Object.entries(vocab.dominios)) for (const c of Object.keys(cs)) (where[c] ??= []).push(d);
+  for (const [c, ds] of Object.entries(where)) assert.equal(ds.length, 1, `${c} em ${ds}`);
+  assert.deepEqual(where.FENOMENOS_ONDULATORIOS, ["ONDAS"]);
+  assert.ok(vocab.dominios.TERMODINAMICA.DILATACAO_TERMICA);
+  for (const s of ["FISSAO_NUCLEAR", "ENERGIA_NUCLEAR"]) assert.ok(vocab.dominios.FISICA_MODERNA.RADIOATIVIDADE.includes(s), s);
+  for (const q of banco.questions) {
+    if (["INTERFACE_FISICA", "FORA_DO_ESCOPO"].includes(q.domain)) continue;
+    assert.ok(vocab.dominios[q.domain]?.[q.content], `${q.id}: ${q.domain}/${q.content}`);
+    if (q.subcontent && q.subcontent !== "INDETERMINADO") assert.ok(vocab.dominios[q.domain][q.content].includes(q.subcontent), `${q.id}: ${q.subcontent}`);
   }
 });

@@ -6,6 +6,7 @@ const TONE: Record<string, string> = {
   DETERMINED: "border-teal text-teal",
   PROBABLE: "border-amber text-amber",
   INFERRED: "border-amber text-amber",
+  REVIEWED: "border-sky-400 text-sky-300",
 };
 
 const MARK: Record<string, string> = {
@@ -15,6 +16,11 @@ const MARK: Record<string, string> = {
   PARTIAL: "◐",
   DETERMINED: "✓",
   INFERRED: "◐",
+  REVIEWED: "◉",
+};
+
+const LABEL: Record<string, string> = {
+  REVIEWED: "REVISADO: CHICO",
 };
 
 export function StatusBadge({ status }: { status: string | null | undefined }) {
@@ -24,7 +30,7 @@ export function StatusBadge({ status }: { status: string | null | undefined }) {
   return (
     <span className={`inline-flex min-h-7 items-center gap-1 rounded-full border px-2 text-xs font-medium ${tone}`}>
       <span aria-hidden>{mark}</span>
-      <span>{key.replaceAll("_", " ")}</span>
+      <span>{LABEL[key] ?? key.replaceAll("_", " ")}</span>
     </span>
   );
 }
