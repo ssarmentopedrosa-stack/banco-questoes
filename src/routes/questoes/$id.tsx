@@ -62,7 +62,7 @@ function Detail() {
   if (!q) {
     return (
       <div>
-        <p role="alert">Questão não encontrada no banco 2020–2025.</p>
+        <p role="alert">Questão não encontrada no banco 2015–2025.</p>
         <Link to="/questoes" className="text-amber">Voltar ao banco</Link>
       </div>
     );
