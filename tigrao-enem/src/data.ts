@@ -2,7 +2,7 @@ import raw from "./questoes.json";
 
 export type Option = { letter: string; text: string };
 export type Figure = { src: string; kind: string; label: string; width: number; height: number };
-export type Explanation = { markdown: string; keyConcept: string; commonMistake: string; lowConfidence: boolean; author: string };
+export type Explanation = { markdown: string; keyConcept: string; commonMistake: string; lowConfidence: boolean; author: string; reviewed?: boolean };
 export type Question = {
   id: string;
   year: number;
@@ -48,3 +48,35 @@ export const optionText = (q: Question, letter: string | null) => {
   const o = q.options?.find((x) => x.letter === letter);
   return o ? o.text : "alternativa na figura";
 };
+
+/** Subtemas (campo "content" do banco) com nome legível. */
+const SUBTEMAS: Record<string, string> = {
+  CINEMATICA: "Cinemática", DINAMICA: "Dinâmica", ENERGIA: "Energia", ESTATICA: "Estática", HIDROSTATICA: "Hidrostática",
+  GRAVITACAO: "Gravitação", IMPULSO_QUANTIDADE_MOVIMENTO: "Impulso e quantidade de movimento", OSCILACOES: "Oscilações",
+  CIRCUITOS: "Circuitos", ENERGIA_ELETRICA: "Energia elétrica", INDUCAO_ELETROMAGNETICA: "Indução eletromagnética",
+  ELETROSTATICA: "Eletrostática", CARGA_ELETRICA: "Carga elétrica", MAGNETISMO: "Magnetismo",
+  SOM: "Som", FENOMENOS_ONDULATORIOS: "Fenômenos ondulatórios", ONDAS_ELETROMAGNETICAS: "Ondas eletromagnéticas",
+  ESPECTRO_ELETROMAGNETICO: "Espectro eletromagnético", CARACTERISTICAS_ONDAS: "Características das ondas",
+  CALORIMETRIA: "Calorimetria", MAQUINAS_TERMICAS: "Máquinas térmicas", TRANSFERENCIA_CALOR: "Transferência de calor",
+  MUDANCA_DE_FASE: "Mudança de fase", GASES: "Gases", DILATACAO_TERMICA: "Dilatação térmica",
+  REFRACAO: "Refração", ESPELHOS: "Espelhos", REFLEXAO: "Reflexão", NATUREZA_DA_LUZ: "Natureza da luz", PROPAGACAO_RETILINEA: "Propagação retilínea",
+  RADIOATIVIDADE: "Radioatividade", QUANTIZACAO: "Quantização",
+};
+export const subtemaNome = (c: string | null) => (c ? SUBTEMAS[c] ?? c.charAt(0) + c.slice(1).toLowerCase().replace(/_/g, " ") : "Outros");
+
+/** Texto alternativo das figuras (descreve de onde é a imagem; o enunciado vem logo acima). */
+export const figuraAlt = (q: Question, f: Figure, i: number) =>
+  f.kind === "alternativas"
+    ? `Imagem com as alternativas A a E da questão ${q.number} do ENEM ${q.year}`
+    : `Figura ${i + 1} do enunciado da questão ${q.number} do ENEM ${q.year} (${q.area}${q.content ? ", " + subtemaNome(q.content) : ""}). O texto do enunciado está acima.`;
+
+/** Dicas do Tigrão: só trechos da resolução existente (conceito-chave e ideia central). Sem resolução, sem dica. */
+export function dicas(q: Question): string[] {
+  const ex = q.explanation;
+  if (!ex) return [];
+  const out: string[] = [];
+  if (ex.keyConcept) out.push(`Conceito-chave: ${ex.keyConcept}.`);
+  const m = ex.markdown.match(/\*\*Ideia central:\*\*\s*([^\n]+)/);
+  if (m) out.push(m[1].trim());
+  return out;
+}

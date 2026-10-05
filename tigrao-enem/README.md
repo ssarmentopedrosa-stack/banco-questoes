@@ -8,8 +8,8 @@ no mesmo formato do Banco Arretado, com o **Tigrão** como mascote.
   Snapshot atual: questões/gabaritos/figuras do branch do PR #9 (2009–2025) + resoluções do branch do PR #10.
   Depois que os PRs forem decididos, regenere com `npm run sync` (lê o export do branch atual).
 - Entram só questões com **gabarito oficial** e sem flag de revisão; ficam de fora também as com alternativas
-  truncadas ou ausentes. A resolução é a explicação escrita por IA (Chico), sempre marcada como
-  "aguardando revisão do professor". Questões 2009–2014 ainda não têm resolução (o app mostra só o gabarito oficial).
+  truncadas ou ausentes. A resolução é a explicação escrita por IA (Chico), marcada como
+  "aguardando revisão do professor" até ser revisada. Questões 2009–2014 ainda não têm resolução (o app mostra só o gabarito oficial).
 - Arte do Tigrão: `public/tigrao/` são recortes da arte oficial `Tigrão.png` (a mesma do Missão Orbital e do Drive).
 
 ## Comandos
@@ -21,7 +21,21 @@ node scripts/prints.mjs ../caminho/prints   # teste em largura de celular + prin
 ```
 
 ## Jogo
-XP só por acerto (+10; +5 extra no simulado), meta diária de 10 questões (+20 XP), sequência de dias,
-6 níveis (Calouro do Cursinho → Aprovado em Medicina), 16 medalhas, missões semanais (renovam na segunda),
-prática por tema, Mistão do dia (10), Simulado ENEM (15 questões, 45 min, proporção por tema, evita repetir
-questões vistas na prática) e revisão espaçada dos erros (1, 3 e 7 dias).
+- **XP só por acerto**: +10 (com 1 dica: 7; com 2 dicas: 5), +5 extra no simulado, +5 por **erro recuperado** na revisão
+  espaçada (1, 3 e 7 dias). Erro = 0 XP. Meta diária de 10 questões (+20 XP), sequência de dias, 16 medalhas.
+- **Níveis medem XP (treino), não nota**: Calouro → Vestibulando → Cientista da Natureza → Rumo aos 700 → Rumo aos 800 → Mestre do ENEM.
+- **Modos**: Treino inteligente (até 3 revisões vencidas + 4 do tema mais fraco + 3 inéditas), Praticar por tema,
+  Mistão do dia (10), Revisar erros, **Mini-simulado** (15 q, 45 min) e **Simulado ENEM** (45 q, 2h30; pesos
+  Mecânica 13, Eletricidade 10, Ondulatória 8, Termologia 8, Óptica 4, Moderna 2). Nos simulados não há dica,
+  e gabarito/resolução só aparecem no final, com relatório por tema (% de acertos, não é nota TRI).
+- **Meu domínio**: % de acertos nas últimas 10 questões diferentes de cada tema (mínimo 3) e nas últimas 5 de cada subtema.
+- **Missões da semana**: o foco é o tema mais fraco no início da semana.
+- **Dica do Tigrão**: só trechos da resolução existente (conceito-chave e "Ideia central"). Sem resolução, sem dica.
+- **Selo da resolução**: "Aguardando revisão do professor" para as de IA; "Revisada pelo Prof. Silas" quando o
+  gabarito trouxer `reviewedByProfessor: true` (ou status `revisada_professor`).
+- **Ajustes**: tamanho da letra (Normal/Grande/Maior), backup do progresso por código (`TGR1.` + deflate/base64url) ou
+  arquivo, e importação com confirmação. Progresso antigo (v1) é migrado automaticamente e guardado em
+  `tigrao-enem-fisica-v1-backup-v1`.
+- **OCR**: `sync_questoes.py` corrige ligaduras partidas ("gráfi co"), expoentes de unidade (m/s², kg/m³, m s⁻², ×10⁻⁹)
+  sem tocar em dados de tabela/figura; questões ilegíveis ficam em `ILEGIVEIS` (fora do app até revisão).
+- Rodapé: "Questões oficiais do ENEM (Inep). App independente, sem vínculo com o Inep/MEC." e fonte em cada questão.

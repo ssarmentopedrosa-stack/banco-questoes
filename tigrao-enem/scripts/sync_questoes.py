@@ -75,6 +75,35 @@ def limpa(texto, tem_figura=False):
         t = "\n".join(l for l in t.split("\n") if not rotulo_de_figura(l))
     return re.sub(r"[ \t]{2,}", " ", t).strip()
 
+# ---------- correções de OCR (só as inequívocas; nada de tabela/figura é removido) ----------
+SUP = str.maketrans("0123456789-−", "⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁻")
+OCR_LOG = []
+
+def corrige_ocr(qid, texto):
+    antes = texto
+    # 1) ligaduras "fi"/"fl" partidas: "Indefi nido" → "Indefinido", "gráfi co" → "gráfico"
+    texto = re.sub(r"\b([A-Za-zÀ-ú]{2,}f[il]) ([a-zà-ú]{2,})\b", r"\1\2", texto)
+    texto = re.sub(r"\b([Ff][il]) ([a-zà-ú]{2,})\b", r"\1\2", texto)  # "fi ca" → "fica" ("fi"/"fl" sozinhos não são palavras)
+    # 2) expoentes de unidade quando o contexto é inequívoco: "m/s 2 )" → "m/s²)", "g/cm 3 ," → "g/cm³,"
+    texto = re.sub(r"((?<![\w/])(?:m/s|m|cm|km|mm|[A-Za-z]+/m|[A-Za-z]+/cm)) ([23])(?= ?[),.;:/(]| (?:e|de|por)\b)",
+                   lambda m: m.group(1) + m.group(2).translate(SUP), texto)
+    texto = re.sub(r"(²|³) (?=[),.;:/])", r"\1", texto)
+    # 3) potências de 10: "×10 -9" → "×10⁻⁹", "×10 14" → "×10¹⁴"
+    texto = re.sub(r"×\s?10 ([−-]?\d{1,2})\b", lambda m: "×10" + m.group(1).translate(SUP), texto)
+    texto = re.sub(r"\(s [−-]1 \)", "(s⁻¹)", texto)
+    # 4) unidades com expoente negativo depois de um número: "10 m s −2" → "10 m s⁻²", "1 cal g -1 ºC -1" → "1 cal g⁻¹ ºC⁻¹"
+    def _neg(m):
+        return m.group(1) + re.sub(r" [−-] ?([123])", lambda k: ("⁻" + k.group(1)).translate(SUP), m.group(2))
+    texto = re.sub(r"((?:\d[\d,]*|[⁰¹²³⁴⁵⁶⁷⁸⁹]) (?:(?:k?J|cal|kg|km|m) )?)((?:(?:g|kg|s|K|L|m|h|°C|ºC) [−-] ?[123](?![\d,]) ?)+)", _neg, texto)
+    if texto != antes:
+        OCR_LOG.append(qid)
+    return texto
+
+# Questões com texto ilegível que não dá para corrigir sem reescrever (ficam fora até revisão humana).
+ILEGIVEIS = {
+    "ENEM-CN-2024-D2-CAN-053": "1º parágrafo com letras espaçadas e subscrito I_máx fora de lugar ('t e n s ã o e u m a c o r re n te m á x i m a…')",
+}
+
 AREAS = {
     "MECANICA": "Mecânica",
     "TERMODINAMICA": "Termologia",
@@ -119,6 +148,10 @@ def main():
             fora["alternativas ausentes"] += 1
             fora_ano[int(q["year"])] += 1
             continue
+        if q["id"] in ILEGIVEIS:
+            fora["texto ilegível (OCR)"] += 1
+            fora_ano[int(q["year"])] += 1
+            continue
         ex = a.get("explanation")
         usadas.append({
             "id": q["id"],
@@ -126,8 +159,8 @@ def main():
             "area": AREAS.get(q["domain"], q["domain"]),
             "content": q["content"],
             "demand": q["demand"],
-            "statement": limpa(q["statement"], bool(q["figures"])),
-            "options": [{"letter": o["letter"], "text": re.sub(r"\s*\n\s*", " ", o["text"]).strip()} for o in alts] if alts else None,
+            "statement": corrige_ocr(q["id"], limpa(q["statement"], bool(q["figures"]))),
+            "options": [{"letter": o["letter"], "text": corrige_ocr(q["id"], re.sub(r"\s*\n\s*", " ", o["text"]).strip())} for o in alts] if alts else None,
             "figures": q["figures"],
             "number": q["source"]["number"],
             "booklet": q["source"]["booklet"],
@@ -138,6 +171,8 @@ def main():
                 "commonMistake": ex["commonMistake"],
                 "lowConfidence": bool(ex["needsReview"]),
                 "author": ex["author"],
+                # selo "Revisada pelo Prof. Silas": só quando o dado de origem disser que foi revisada
+                "reviewed": bool(ex.get("reviewedByProfessor")) or ex.get("status") in ("revisada_professor", "revisada"),
             },
         })
     dst = os.path.join(APP, "public", "figuras")
@@ -158,6 +193,9 @@ def main():
         "fora": dict(fora),
         "porArea": dict(Counter(q["area"] for q in usadas)),
         "comExplicacao": sum(1 for q in usadas if q["explanation"]),
+        "revisadas": sum(1 for q in usadas if q["explanation"] and q["explanation"]["reviewed"]),
+        "ocrCorrigidas": sorted(set(OCR_LOG)),
+        "ilegiveis": ILEGIVEIS,
     }
     with open(os.path.join(APP, "src", "questoes.json"), "w", encoding="utf-8") as f:
         json.dump({"meta": meta, "questions": usadas}, f, ensure_ascii=False, indent=1)

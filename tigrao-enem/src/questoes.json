@@ -17,7 +17,7 @@
    "2020": 11,
    "2022": 9,
    "2023": 9,
-   "2024": 9,
+   "2024": 8,
    "2025": 10
   },
   "foraPorAno": {
@@ -36,24 +36,55 @@
    "2021": 16,
    "2022": 8,
    "2023": 8,
-   "2024": 5,
+   "2024": 6,
    "2025": 4
   },
-  "total": 164,
+  "total": 163,
   "fora": {
    "em revisão (flag)": 88,
    "alternativas truncadas": 6,
-   "alternativas ausentes": 4
+   "alternativas ausentes": 4,
+   "texto ilegível (OCR)": 1
   },
   "porArea": {
    "Mecânica": 50,
-   "Eletricidade e Magnetismo": 36,
+   "Eletricidade e Magnetismo": 35,
    "Termologia": 29,
    "Ondulatória": 30,
    "Óptica": 15,
    "Física Moderna": 4
   },
-  "comExplicacao": 95
+  "comExplicacao": 94,
+  "revisadas": 0,
+  "ocrCorrigidas": [
+   "ENEM-CN-2009-REG-D1-C1-Q17",
+   "ENEM-CN-2009-REG-D1-C1-Q19",
+   "ENEM-CN-2009-REG-D1-C1-Q30",
+   "ENEM-CN-2009-REG-D1-C1-Q35",
+   "ENEM-CN-2009-REG-D1-C1-Q38",
+   "ENEM-CN-2011-REG-D1-C1-Q73",
+   "ENEM-CN-2013-REG-D1-C1-Q61",
+   "ENEM-CN-2014-REG-D1-C1-Q87",
+   "ENEM-CN-2015-REG-D1-C1-Q49",
+   "ENEM-CN-2015-REG-D1-C1-Q50",
+   "ENEM-CN-2016-REG-D1-C1-Q47",
+   "ENEM-CN-2016-REG-D1-C1-Q82",
+   "ENEM-CN-2017-REG-D2-C7-Q131",
+   "ENEM-CN-2019-REG-D2-C7-Q111",
+   "ENEM-CN-2019-REG-D2-C7-Q117",
+   "ENEM-CN-2019-REG-D2-C7-Q131",
+   "ENEM-CN-2020-REG-D2-C7-Q105",
+   "ENEM-CN-2020-REG-D2-C7-Q106",
+   "ENEM-CN-2020-REG-D2-C7-Q114",
+   "ENEM-CN-2020-REG-D2-C7-Q128",
+   "ENEM-CN-2020-REG-D2-C7-Q99",
+   "ENEM-CN-2022-REG-D2-C7-Q100",
+   "ENEM-CN-2022-REG-D2-C7-Q115",
+   "ENEM-CN-2023-REG-D2-C7-Q100"
+  ],
+  "ilegiveis": {
+   "ENEM-CN-2024-D2-CAN-053": "1º parágrafo com letras espaçadas e subscrito I_máx fora de lugar ('t e n s ã o e u m a c o r re n te m á x i m a…')"
+  }
  },
  "questions": [
   {
@@ -105,7 +136,7 @@
    "area": "Mecânica",
    "content": "DINAMICA",
    "demand": "HIGH",
-   "statement": "O Brasil pode se transformar no primeiro país das\nAméricas a entrar no seleto grupo das nações que dispõem de trens-bala. O Ministério dos Transportes prevê o lançamento do edital de licitação internacional para a construção da ferrovia de alta velocidade Rio-São Paulo. A viagem ligará os 403 quilômetros entre a Central do Brasil, no Rio, e a Estação da Luz, no centro da capital paulista, em uma hora e 25 minutos.\nDisponível em: http://oglobo.globo.com.\nAcesso em: 14 jul. 2009.\nDevido à alta velocidade, um dos problemas a ser enfrentado na escolha do trajeto que será percorrido pelo trem é o dimensionamento das curvas. Considerando-se que uma aceleração lateral confortável para os passageiros e segura para o trem seja de 0,1 g, em que g é a aceleração da gravidade (considerada igual a 10 m/s 2 ), e que a velocidade do trem se mantenha constante em todo o percurso, seria correto prever que as curvas existentes no trajeto deveriam ter raio de curvatura mínimo de, aproximadamente,",
+   "statement": "O Brasil pode se transformar no primeiro país das\nAméricas a entrar no seleto grupo das nações que dispõem de trens-bala. O Ministério dos Transportes prevê o lançamento do edital de licitação internacional para a construção da ferrovia de alta velocidade Rio-São Paulo. A viagem ligará os 403 quilômetros entre a Central do Brasil, no Rio, e a Estação da Luz, no centro da capital paulista, em uma hora e 25 minutos.\nDisponível em: http://oglobo.globo.com.\nAcesso em: 14 jul. 2009.\nDevido à alta velocidade, um dos problemas a ser enfrentado na escolha do trajeto que será percorrido pelo trem é o dimensionamento das curvas. Considerando-se que uma aceleração lateral confortável para os passageiros e segura para o trem seja de 0,1 g, em que g é a aceleração da gravidade (considerada igual a 10 m/s²), e que a velocidade do trem se mantenha constante em todo o percurso, seria correto prever que as curvas existentes no trajeto deveriam ter raio de curvatura mínimo de, aproximadamente,",
    "options": [
     {
      "letter": "A",
@@ -183,7 +214,7 @@
    "area": "Eletricidade e Magnetismo",
    "content": "ENERGIA_ELETRICA",
    "demand": "MODERATE",
-   "statement": "A instalação elétrica de uma casa envolve várias etapas, desde a alocação dos dispositivos, instrumentos e aparelhos elétricos, até a escolha dos materiais que a compõem, passando pelo dimensionamento da potência requerida, da fiação necessária, dos eletrodutos*, entre outras.\nPara cada aparelho elétrico existe um valor de potência associado. Valores típicos de potências para alguns aparelhos elétricos são apresentados no quadro seguinte:\nAparelhos Potência (W)\nAparelho de som 120\nChuveiro elétrico 3.000\nFerro elétrico 500\nTelevisor 200\nGeladeira 200\nRádio 50\n*Eletrodutos são condutos por onde passa a fiação de uma instalação elétrica, com a finalidade de protegê-la.\nA escolha das lâmpadas é essencial para obtenção de uma boa iluminação. A potência da lâmpada deverá estar de acordo com o tamanho do cômodo a ser iluminado. O quadro a seguir mostra a relação entre as áreas dos cômodos (em m 2 ) e as potências das lâmpadas (em W), e foi utilizado como referência para o primeiro pavimento de uma residência.\nPotência da Lâmpada (W)\nÁrea do\nCômodo (m 2 ) Sala/copa Quarto, varanda e\nBanheiro\n/cozinha corredor\nAté 6,0 60 60 60 6,0 a 7,5 100 100 60 7,5 a 10,5 100 100 100\nObs.: Para efeitos dos cálculos das áreas, as paredes são desconsideradas.\nConsiderando a planta baixa fornecida, com todos os aparelhos em funcionamento, a potência total, em watts, será de",
+   "statement": "A instalação elétrica de uma casa envolve várias etapas, desde a alocação dos dispositivos, instrumentos e aparelhos elétricos, até a escolha dos materiais que a compõem, passando pelo dimensionamento da potência requerida, da fiação necessária, dos eletrodutos*, entre outras.\nPara cada aparelho elétrico existe um valor de potência associado. Valores típicos de potências para alguns aparelhos elétricos são apresentados no quadro seguinte:\nAparelhos Potência (W)\nAparelho de som 120\nChuveiro elétrico 3.000\nFerro elétrico 500\nTelevisor 200\nGeladeira 200\nRádio 50\n*Eletrodutos são condutos por onde passa a fiação de uma instalação elétrica, com a finalidade de protegê-la.\nA escolha das lâmpadas é essencial para obtenção de uma boa iluminação. A potência da lâmpada deverá estar de acordo com o tamanho do cômodo a ser iluminado. O quadro a seguir mostra a relação entre as áreas dos cômodos (em m²) e as potências das lâmpadas (em W), e foi utilizado como referência para o primeiro pavimento de uma residência.\nPotência da Lâmpada (W)\nÁrea do\nCômodo (m²) Sala/copa Quarto, varanda e\nBanheiro\n/cozinha corredor\nAté 6,0 60 60 60 6,0 a 7,5 100 100 60 7,5 a 10,5 100 100 100\nObs.: Para efeitos dos cálculos das áreas, as paredes são desconsideradas.\nConsiderando a planta baixa fornecida, com todos os aparelhos em funcionamento, a potência total, em watts, será de",
    "options": [
     {
      "letter": "A",
@@ -326,7 +357,7 @@
    "area": "Termologia",
    "content": "CALORIMETRIA",
    "demand": "HIGH",
-   "statement": "É possível, com 1 litro de gasolina, usando todo o calor produzido por sua combustão direta, aquecer 200 litros de água de 20 °C a 55 °C. Pode-se efetuar esse mesmo aquecimento por um gerador de eletricidade, que consome 1 litro de gasolina por hora e fornece 110 V a um resistor de 11 Ω, imerso na água, durante um certo intervalo de tempo. Todo o calor liberado pelo resistor é transferido à água.\nConsiderando que o calor específico da água é igual a 4,19 J g -1 °C -1 , aproximadamente qual a quantidade de gasolina consumida para o aquecimento de água obtido pelo gerador, quando comparado ao obtido a partir da combustão?",
+   "statement": "É possível, com 1 litro de gasolina, usando todo o calor produzido por sua combustão direta, aquecer 200 litros de água de 20 °C a 55 °C. Pode-se efetuar esse mesmo aquecimento por um gerador de eletricidade, que consome 1 litro de gasolina por hora e fornece 110 V a um resistor de 11 Ω, imerso na água, durante um certo intervalo de tempo. Todo o calor liberado pelo resistor é transferido à água.\nConsiderando que o calor específico da água é igual a 4,19 J g⁻¹ °C⁻¹ , aproximadamente qual a quantidade de gasolina consumida para o aquecimento de água obtido pelo gerador, quando comparado ao obtido a partir da combustão?",
    "options": [
     {
      "letter": "A",
@@ -439,7 +470,7 @@
    "area": "Termologia",
    "content": "CALORIMETRIA",
    "demand": "HIGH",
-   "statement": "O Sol representa uma fonte limpa e inesgotável de energia para o nosso planeta. Essa energia pode ser captada por aquecedores solares, armazenada e convertida posteriormente em trabalho útil. Considere determinada região cuja insolação — potência solar incidente na superfície da Terra — seja de 800 watts/m 2 .\nUma usina termossolar utiliza concentradores solares parabólicos que chegam a dezenas de quilômetros de extensão. Nesses coletores solares parabólicos, a luz refletida pela superfície parabólica espelhada é focalizada em um receptor em forma de cano e aquece o óleo contido em seu interior a 400 °C. O calor desse óleo é transferido para a água, vaporizando-a em uma caldeira. O vapor em alta pressão movimenta uma turbina acoplada a um gerador de energia elétrica.\nConsiderando que a distância entre a borda inferior e a borda superior da superfície refletora tenha 6 m de largura e que focaliza no receptor os 800 watts/m 2 de radiação provenientes do Sol, e que o calor específico da água é 1 cal g -1 ºC -1 = 4.200 J kg -1 ºC -1 , então o comprimento linear do refletor parabólico necessário para elevar a temperatura de 1 m 3 (equivalente a 1 t) de água de 20 °C para 100 °C, em uma hora, estará entre",
+   "statement": "O Sol representa uma fonte limpa e inesgotável de energia para o nosso planeta. Essa energia pode ser captada por aquecedores solares, armazenada e convertida posteriormente em trabalho útil. Considere determinada região cuja insolação — potência solar incidente na superfície da Terra — seja de 800 watts/m².\nUma usina termossolar utiliza concentradores solares parabólicos que chegam a dezenas de quilômetros de extensão. Nesses coletores solares parabólicos, a luz refletida pela superfície parabólica espelhada é focalizada em um receptor em forma de cano e aquece o óleo contido em seu interior a 400 °C. O calor desse óleo é transferido para a água, vaporizando-a em uma caldeira. O vapor em alta pressão movimenta uma turbina acoplada a um gerador de energia elétrica.\nConsiderando que a distância entre a borda inferior e a borda superior da superfície refletora tenha 6 m de largura e que focaliza no receptor os 800 watts/m² de radiação provenientes do Sol, e que o calor específico da água é 1 cal g⁻¹ ºC⁻¹ = 4.200 J kg⁻¹ ºC⁻¹ , então o comprimento linear do refletor parabólico necessário para elevar a temperatura de 1 m³ (equivalente a 1 t) de água de 20 °C para 100 °C, em uma hora, estará entre",
    "options": [
     {
      "letter": "A",
@@ -517,7 +548,7 @@
    "area": "Termologia",
    "content": "DILATACAO_TERMICA",
    "demand": "MODERATE",
-   "statement": "Durante uma ação de fiscalização em postos de combustíveis, foi encontrado um mecanismo inusitado para enganar o consumidor. Durante o inverno, o responsável por um posto de combustível compra álcool por\nR$ 0,50/litro, a uma temperatura de 5 °C. Para revender o líquido aos motoristas, instalou um mecanismo na bomba de combustível para aquecê-lo, para que atinja a temperatura de 35 °C, sendo o litro de álcool revendido a\nR$ 1,60. Diariamente o posto compra 20 mil litros de álcool a 5 ºC e os revende.\nCom relação à situação hipotética descrita no texto e dado que o coeficiente de dilatação volumétrica do álcool é de 1×10 -3 ºC -1 , desprezando-se o custo da energia gasta no aquecimento do combustível, o ganho financeiro que o dono do posto teria obtido devido ao aquecimento do álcool após uma semana de vendas estaria entre",
+   "statement": "Durante uma ação de fiscalização em postos de combustíveis, foi encontrado um mecanismo inusitado para enganar o consumidor. Durante o inverno, o responsável por um posto de combustível compra álcool por\nR$ 0,50/litro, a uma temperatura de 5 °C. Para revender o líquido aos motoristas, instalou um mecanismo na bomba de combustível para aquecê-lo, para que atinja a temperatura de 35 °C, sendo o litro de álcool revendido a\nR$ 1,60. Diariamente o posto compra 20 mil litros de álcool a 5 ºC e os revende.\nCom relação à situação hipotética descrita no texto e dado que o coeficiente de dilatação volumétrica do álcool é de 1×10⁻³ ºC⁻¹ , desprezando-se o custo da energia gasta no aquecimento do combustível, o ganho financeiro que o dono do posto teria obtido devido ao aquecimento do álcool após uma semana de vendas estaria entre",
    "options": [
     {
      "letter": "A",
@@ -1176,7 +1207,7 @@
    "area": "Mecânica",
    "content": "HIDROSTATICA",
    "demand": "MODERATE",
-   "statement": "Em um experimento realizado para determinar a densidade da água de um lago, foram utilizados alguns materiais conforme ilustrado: um dinamômetro D com graduação de 0 N a 50 N e um cubo maciço e homogêneo de 10 cm de aresta e 3 kg de massa. Inicialmente, foi conferida a calibração do dinamômetro, constatando-se a leitura de 30 N quando o cubo era preso ao dinamômetro e suspenso no ar. Ao mergulhar o cubo na água do lago, até que metade do seu volume ficasse submersa, foi registrada a leitura de 24 N no dinamômetro.\nConsiderando que a aceleração da gravidade local é de 10 m/s 2 , a densidade da água do lago, em g/cm 3 , é",
+   "statement": "Em um experimento realizado para determinar a densidade da água de um lago, foram utilizados alguns materiais conforme ilustrado: um dinamômetro D com graduação de 0 N a 50 N e um cubo maciço e homogêneo de 10 cm de aresta e 3 kg de massa. Inicialmente, foi conferida a calibração do dinamômetro, constatando-se a leitura de 30 N quando o cubo era preso ao dinamômetro e suspenso no ar. Ao mergulhar o cubo na água do lago, até que metade do seu volume ficasse submersa, foi registrada a leitura de 24 N no dinamômetro.\nConsiderando que a aceleração da gravidade local é de 10 m/s², a densidade da água do lago, em g/cm³, é",
    "options": [
     {
      "letter": "A",
@@ -1955,7 +1986,7 @@
    "area": "Mecânica",
    "content": "HIDROSTATICA",
    "demand": "LOW",
-   "statement": "Para oferecer acessibilidade aos portadores de dificuldades de locomoção, é utilizado, em ônibus e automóveis, o elevador hidráulico. Nesse dispositivo é usada uma bomba elétrica, para forçar um fluido a passar de uma tubulação estreita para outra mais larga, e dessa forma acionar um pistão que movimenta a plataforma. Considere um elevador hidráulico cuja área da cabeça do pistão seja cinco vezes maior do que a área da tubulação que sai da bomba. Desprezando o atrito e considerando uma aceleração gravitacional de 10 m/s 2 , deseja-se elevar uma pessoa de 65 kg em uma cadeira de rodas de 15 kg sobre a plataforma de 20 kg.\nQual deve ser a força exercida pelo motor da bomba sobre o fluido, para que o cadeirante seja elevado com velocidade constante?",
+   "statement": "Para oferecer acessibilidade aos portadores de dificuldades de locomoção, é utilizado, em ônibus e automóveis, o elevador hidráulico. Nesse dispositivo é usada uma bomba elétrica, para forçar um fluido a passar de uma tubulação estreita para outra mais larga, e dessa forma acionar um pistão que movimenta a plataforma. Considere um elevador hidráulico cuja área da cabeça do pistão seja cinco vezes maior do que a área da tubulação que sai da bomba. Desprezando o atrito e considerando uma aceleração gravitacional de 10 m/s², deseja-se elevar uma pessoa de 65 kg em uma cadeira de rodas de 15 kg sobre a plataforma de 20 kg.\nQual deve ser a força exercida pelo motor da bomba sobre o fluido, para que o cadeirante seja elevado com velocidade constante?",
    "options": [
     {
      "letter": "A",
@@ -2727,7 +2758,7 @@
    "area": "Ondulatória",
    "content": "SOM",
    "demand": "LOW",
-   "statement": "Quando adolescente, as nossas tardes, após as aulas, consistiam em tomar às mãos o violão e o dicionário de acordes de Almir Chediak e desafi ar nosso amigo Hamilton a descobrir, apenas ouvindo o acorde, quais notas eram escolhidas. Sempre perdíamos a aposta, ele possui o ouvido absoluto.\nO ouvido absoluto é uma característica perceptual de poucos indivíduos capazes de identifi car notas isoladas sem outras referências, isto é, sem precisar relacioná-las com outras notas de uma melodia.\nLENT, R. O cérebro do meu professor de acordeão. Disponível em: http://cienciahoje.uol.com.br.\nAcesso em: 15 ago. 2012 (adaptado).\nNo contexto apresentado, a propriedade física das ondas que permite essa distinção entre as notas é a",
+   "statement": "Quando adolescente, as nossas tardes, após as aulas, consistiam em tomar às mãos o violão e o dicionário de acordes de Almir Chediak e desafiar nosso amigo Hamilton a descobrir, apenas ouvindo o acorde, quais notas eram escolhidas. Sempre perdíamos a aposta, ele possui o ouvido absoluto.\nO ouvido absoluto é uma característica perceptual de poucos indivíduos capazes de identificar notas isoladas sem outras referências, isto é, sem precisar relacioná-las com outras notas de uma melodia.\nLENT, R. O cérebro do meu professor de acordeão. Disponível em: http://cienciahoje.uol.com.br.\nAcesso em: 15 ago. 2012 (adaptado).\nNo contexto apresentado, a propriedade física das ondas que permite essa distinção entre as notas é a",
    "options": [
     {
      "letter": "A",
@@ -2762,7 +2793,7 @@
    "area": "Mecânica",
    "content": "ENERGIA",
    "demand": "HIGH",
-   "statement": "Um carro solar é um veículo que utiliza apenas a energia solar para a sua locomoção. Tipicamente, o carro contém um painel fotovoltaico que converte a energia do Sol em energia elétrica que, por sua vez, alimenta um motor elétrico. A imagem mostra o carro solar Tokai\nChallenger, desenvolvido na Universidade de Tokai, no\nJapão, e que venceu o World Solar Challenge de 2009, uma corrida internacional de carros solares, tendo atingido uma velocidade média acima de 100 km/h.\nDisponível em: www.physics.hku.hk. Acesso em: 3 jun. 2015.\nConsidere uma região plana onde a insolação (energia solar por unidade de tempo e de área que chega à superfície da Terra) seja de 1 000 W/m 2 , que o carro solar possua massa de 200 kg e seja construído de forma que o painel fotovoltaico em seu topo tenha uma área de 9,0 m 2 e rendimento de 30%.\nDesprezando as forças de resistência do ar, o tempo que esse carro solar levaria, a partir do repouso, para atingir a velocidade de 108 km/h é um valor mais próximo de",
+   "statement": "Um carro solar é um veículo que utiliza apenas a energia solar para a sua locomoção. Tipicamente, o carro contém um painel fotovoltaico que converte a energia do Sol em energia elétrica que, por sua vez, alimenta um motor elétrico. A imagem mostra o carro solar Tokai\nChallenger, desenvolvido na Universidade de Tokai, no\nJapão, e que venceu o World Solar Challenge de 2009, uma corrida internacional de carros solares, tendo atingido uma velocidade média acima de 100 km/h.\nDisponível em: www.physics.hku.hk. Acesso em: 3 jun. 2015.\nConsidere uma região plana onde a insolação (energia solar por unidade de tempo e de área que chega à superfície da Terra) seja de 1 000 W/m², que o carro solar possua massa de 200 kg e seja construído de forma que o painel fotovoltaico em seu topo tenha uma área de 9,0 m² e rendimento de 30%.\nDesprezando as forças de resistência do ar, o tempo que esse carro solar levaria, a partir do repouso, para atingir a velocidade de 108 km/h é um valor mais próximo de",
    "options": [
     {
      "letter": "A",
@@ -2802,7 +2833,8 @@
     "keyConcept": "potência útil e energia cinética",
     "commonMistake": "Usar a potência solar incidente (9 kW) em vez da potência útil (30% dela).",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -2811,7 +2843,7 @@
    "area": "Ondulatória",
    "content": "ONDAS_ELETROMAGNETICAS",
    "demand": "MODERATE",
-   "statement": "A radiação ultravioleta (UV) é dividida, de acordo com três faixas de frequência, em UV-A, UV-B e UV-C, conforme a figura.\nFrequência (s −1 )\n7,47×10 14 9,34×10 14 1,03×10 15 2,99×10 15\nPara selecionar um filtro solar que apresente absorção máxima na faixa UV-B, uma pessoa analisou os espectros de absorção da radiação UV de cinco filtros solares:\n0,5 0,4 arbitrárias)\nFiltro solar I\nAbsorbância 0,3 (unidades Filtro solar II 0,2\nFiltro solar III\nFiltro solar IV 0,1 Filtro solar V 0,0 240 290 340 390 440\nComprimento de onda (nm)\nConsidere:\nvelocidade da luz = 3,0×10 8 m/s e 1 nm = 1,0×10 -9 m.\nO filtro solar que a pessoa deve selecionar é o",
+   "statement": "A radiação ultravioleta (UV) é dividida, de acordo com três faixas de frequência, em UV-A, UV-B e UV-C, conforme a figura.\nFrequência (s⁻¹)\n7,47×10¹⁴ 9,34×10¹⁴ 1,03×10¹⁵ 2,99×10¹⁵\nPara selecionar um filtro solar que apresente absorção máxima na faixa UV-B, uma pessoa analisou os espectros de absorção da radiação UV de cinco filtros solares:\n0,5 0,4 arbitrárias)\nFiltro solar I\nAbsorbância 0,3 (unidades Filtro solar II 0,2\nFiltro solar III\nFiltro solar IV 0,1 Filtro solar V 0,0 240 290 340 390 440\nComprimento de onda (nm)\nConsidere:\nvelocidade da luz = 3,0×10⁸ m/s e 1 nm = 1,0×10⁻⁹ m.\nO filtro solar que a pessoa deve selecionar é o",
    "options": [
     {
      "letter": "A",
@@ -2858,7 +2890,8 @@
     "keyConcept": "relação λ = c/f no espectro UV",
     "commonMistake": "Achar que frequência maior corresponde a comprimento de onda maior.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -2899,7 +2932,8 @@
     "keyConcept": "armazenamento de energia por trabalho termodinâmico",
     "commonMistake": "Confundir a etapa de recuperação (expansão) com a de armazenamento.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -2940,7 +2974,8 @@
     "keyConcept": "transformação isovolumétrica (p ∝ T)",
     "commonMistake": "Atribuir a dificuldade ao ímã ou à temperatura em si, e não à diferença de pressão.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -2981,7 +3016,8 @@
     "keyConcept": "refração em meio com índice variável",
     "commonMistake": "Achar que a miragem é uma reflexão comum.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3022,7 +3058,8 @@
     "keyConcept": "calor específico",
     "commonMistake": "Pensar que um isolante (baixa condutividade) seria melhor para refrigerar.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3071,7 +3108,8 @@
     "keyConcept": "momento de força (alavanca)",
     "commonMistake": "Esquecer que o peso da barra atua no seu centro de massa.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3112,7 +3150,8 @@
     "keyConcept": "timbre",
     "commonMistake": "Confundir timbre com altura (frequência).",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3161,7 +3200,8 @@
     "keyConcept": "trilateração com sinais eletromagnéticos",
     "commonMistake": "Achar que duas distâncias bastam para um ponto único no plano.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3170,7 +3210,7 @@
    "area": "Mecânica",
    "content": "ENERGIA",
    "demand": "MODERATE",
-   "statement": "A usina de Itaipu é uma das maiores hidrelétricas do mundo em geração de energia. Com 20 unidades geradoras e 14 000 MW de potência total instalada, apresenta uma queda de 118,4 m e vazão nominal de 690 m 3 /s por unidade geradora. O cálculo da potência teórica leva em conta a altura da massa de água represada pela barragem, a gravidade local (10 m/s 2 ) e a densidade da água (1 000 kg/m 3 ). A diferença entre a potência teórica e a instalada é a potência não aproveitada.\nDisponível em: www.itaipu.gov.br. Acesso em: 11 maio 2013 (adaptado).\nQual é a potência, em MW, não aproveitada em cada unidade geradora de Itaipu?",
+   "statement": "A usina de Itaipu é uma das maiores hidrelétricas do mundo em geração de energia. Com 20 unidades geradoras e 14 000 MW de potência total instalada, apresenta uma queda de 118,4 m e vazão nominal de 690 m³/s por unidade geradora. O cálculo da potência teórica leva em conta a altura da massa de água represada pela barragem, a gravidade local (10 m/s²) e a densidade da água (1 000 kg/m³). A diferença entre a potência teórica e a instalada é a potência não aproveitada.\nDisponível em: www.itaipu.gov.br. Acesso em: 11 maio 2013 (adaptado).\nQual é a potência, em MW, não aproveitada em cada unidade geradora de Itaipu?",
    "options": [
     {
      "letter": "A",
@@ -3202,7 +3242,8 @@
     "keyConcept": "potência hidráulica P = ρQgh",
     "commonMistake": "Esquecer de dividir a potência instalada total pelas 20 unidades.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3243,7 +3284,8 @@
     "keyConcept": "calor sensível por unidade de tempo",
     "commonMistake": "Usar a potência elétrica da usina no lugar da potência dissipada como calor.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3299,7 +3341,8 @@
     "keyConcept": "leitura de gráficos de nível sonoro × frequência",
     "commonMistake": "Achar que a perda com a distância é igual em todas as frequências.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3340,7 +3383,8 @@
     "keyConcept": "eco e efeito Doppler",
     "commonMistake": "Trocar o sentido do Doppler: no afastamento a frequência percebida diminui.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3396,7 +3440,8 @@
     "keyConcept": "transmissão por engrenagens (f·N constante)",
     "commonMistake": "Inverter a razão de dentes, achando que a engrenagem maior gira mais rápido.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3452,7 +3497,8 @@
     "keyConcept": "conservação da quantidade de movimento",
     "commonMistake": "Dar como resposta a massa total do conjunto em vez de m₂.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3461,7 +3507,7 @@
    "area": "Mecânica",
    "content": "ESTATICA",
    "demand": "HIGH",
-   "statement": "Uma invenção que significou um grande avanço tecnológico na Antiguidade, a polia composta ou a associação de polias, é atribuída a Arquimedes (287 a.C. a 212 a.C.).\nO aparato consiste em associar uma série de polias móveis a uma polia fixa. A figura exemplifica um arranjo possível para esse aparato. É relatado que Arquimedes teria demonstrado para o rei Hierão um outro arranjo desse aparato, movendo sozinho, sobre a areia da praia, um navio repleto de passageiros e cargas, algo que seria impossível sem a participação de muitos homens.\nSuponha que a massa do navio era de 3 000 kg, que o coeficiente de atrito estático entre o navio e a areia era de 0,8 e que Arquimedes tenha puxado o navio com uma\n→ força F , paralela à direção do movimento e de módulo igual a 400 N. Considere os fios e as polias ideais, a aceleração da gravidade igual a 10 m/s 2 e que a superfície da praia é perfeitamente horizontal.\nF\nDisponível em: www.histedbr.fae.unicamp.br. Acesso em: 28 fev. 2013 (adaptado).\nO número mínimo de polias móveis usadas, nessa situação, por Arquimedes foi",
+   "statement": "Uma invenção que significou um grande avanço tecnológico na Antiguidade, a polia composta ou a associação de polias, é atribuída a Arquimedes (287 a.C. a 212 a.C.).\nO aparato consiste em associar uma série de polias móveis a uma polia fixa. A figura exemplifica um arranjo possível para esse aparato. É relatado que Arquimedes teria demonstrado para o rei Hierão um outro arranjo desse aparato, movendo sozinho, sobre a areia da praia, um navio repleto de passageiros e cargas, algo que seria impossível sem a participação de muitos homens.\nSuponha que a massa do navio era de 3 000 kg, que o coeficiente de atrito estático entre o navio e a areia era de 0,8 e que Arquimedes tenha puxado o navio com uma\n→ força F , paralela à direção do movimento e de módulo igual a 400 N. Considere os fios e as polias ideais, a aceleração da gravidade igual a 10 m/s² e que a superfície da praia é perfeitamente horizontal.\nF\nDisponível em: www.histedbr.fae.unicamp.br. Acesso em: 28 fev. 2013 (adaptado).\nO número mínimo de polias móveis usadas, nessa situação, por Arquimedes foi",
    "options": [
     {
      "letter": "A",
@@ -3501,7 +3547,8 @@
     "keyConcept": "associação de polias móveis (F = P/2ⁿ)",
     "commonMistake": "Achar que cada polia reduz a força linearmente, e não à metade.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3542,7 +3589,8 @@
     "keyConcept": "condutividade térmica",
     "commonMistake": "Confiar no tato e achar que o metal está mais frio.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3591,7 +3639,8 @@
     "keyConcept": "onda estacionária: nós e ventres",
     "commonMistake": "Confundir nós com ventres.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3632,7 +3681,8 @@
     "keyConcept": "conversão de energia em campo magnético alternado",
     "commonMistake": "Dizer que o campo magnético 'leva calor' diretamente às partículas.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3681,7 +3731,8 @@
     "keyConcept": "espectro de emissão e radiação infravermelha",
     "commonMistake": "Achar que mais intensidade total significa iluminação melhor, ignorando o IV.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3730,7 +3781,8 @@
     "keyConcept": "atenuação em dB/km",
     "commonMistake": "Usar 100 dB como margem, sem descontar o limite mínimo de 10 dB.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3779,7 +3831,8 @@
     "keyConcept": "divisão de corrente em paralelo",
     "commonMistake": "Supor que toda a corrente do ramo passa pelo fusível.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3828,7 +3881,8 @@
     "keyConcept": "interferência destrutiva (Δ = λ/2)",
     "commonMistake": "Esquecer que o caminho extra é o dobro do deslocamento ou impor Δ = λ.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3869,7 +3923,8 @@
     "keyConcept": "1ª lei de Ohm com resistência interna",
     "commonMistake": "Esquecer que a resistência interna está em série e limita a corrente.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3878,7 +3933,7 @@
    "area": "Mecânica",
    "content": "CINEMATICA",
    "demand": "HIGH",
-   "statement": "Um motorista que atende a uma chamada de celular é levado à desatenção, aumentando a possibilidade de acidentes ocorrerem em razão do aumento de seu tempo de reação.\nConsidere dois motoristas, o primeiro atento e o segundo utilizando o celular enquanto dirige. Eles aceleram seus carros inicialmente a 1,00 m/s 2 . Em resposta a uma emergência, freiam com uma desaceleração igual a 5,00 m/s 2 . O motorista atento aciona o freio à velocidade de 14,0 m/s, enquanto o desatento, em situação análoga, leva 1,00 segundo a mais para iniciar a frenagem.\nQue distância o motorista desatento percorre a mais do que o motorista atento, até a parada total dos carros?",
+   "statement": "Um motorista que atende a uma chamada de celular é levado à desatenção, aumentando a possibilidade de acidentes ocorrerem em razão do aumento de seu tempo de reação.\nConsidere dois motoristas, o primeiro atento e o segundo utilizando o celular enquanto dirige. Eles aceleram seus carros inicialmente a 1,00 m/s². Em resposta a uma emergência, freiam com uma desaceleração igual a 5,00 m/s². O motorista atento aciona o freio à velocidade de 14,0 m/s, enquanto o desatento, em situação análoga, leva 1,00 segundo a mais para iniciar a frenagem.\nQue distância o motorista desatento percorre a mais do que o motorista atento, até a parada total dos carros?",
    "options": [
     {
      "letter": "A",
@@ -3910,7 +3965,8 @@
     "keyConcept": "MUV e distância de parada",
     "commonMistake": "Esquecer que o desatento freia a partir de uma velocidade maior.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -3951,7 +4007,8 @@
     "keyConcept": "lei de Faraday e resistência do fio",
     "commonMistake": "Esquecer que mais espiras também significam mais resistência.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4000,7 +4057,8 @@
     "keyConcept": "2ª lei de Newton e impulso (F = m·a)",
     "commonMistake": "Escolher o cinto pelo tempo em que atua, e não pelo pico de aceleração.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4041,7 +4099,8 @@
     "keyConcept": "frequência como v/d",
     "commonMistake": "Não converter km/h para m/s.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4090,7 +4149,8 @@
     "keyConcept": "momento de força e tipos de alavanca",
     "commonMistake": "Achar que toda alavanca reduz a força necessária.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4139,7 +4199,8 @@
     "keyConcept": "resistência equivalente com chave",
     "commonMistake": "Incluir o resistor que fica sem corrente (ramo aberto em B).",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4188,7 +4249,8 @@
     "keyConcept": "potência elétrica P = U·i",
     "commonMistake": "Confundir a tensão (600 V) com a potência.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4237,7 +4299,8 @@
     "keyConcept": "interferência destrutiva por oposição de fase",
     "commonMistake": "Confundir inversão de fase com mudança de frequência (batimento).",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4278,7 +4341,8 @@
     "keyConcept": "centro de massa e v = ω·R",
     "commonMistake": "Inverter o erro do velocímetro, achando que a roda maior faz a velocidade real ser menor.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4327,7 +4391,8 @@
     "keyConcept": "dispersão da luz e reflexão",
     "commonMistake": "Esquecer que a luz mais desviada pelo prisma chega mais alta após a reflexão.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4376,7 +4441,8 @@
     "keyConcept": "energia potencial elástica e cinética",
     "commonMistake": "Confundir proporcionalidade com v e com v².",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4417,7 +4483,8 @@
     "keyConcept": "pressão atmosférica e diferença de pressão",
     "commonMistake": "Achar que o líquido sobe por 'sucção', e não empurrado pela pressão atmosférica.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4458,7 +4525,8 @@
     "keyConcept": "indução eletromagnética (Faraday)",
     "commonMistake": "Atribuir a energia ao aquecimento ou ao campo elétrico agindo diretamente.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4499,7 +4567,8 @@
     "keyConcept": "condução térmica (lei de Fourier)",
     "commonMistake": "Ignorar que as áreas das caixas são diferentes.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4548,7 +4617,8 @@
     "keyConcept": "velocidade angular orbital × rotação da Terra",
     "commonMistake": "Achar que objetos em órbita acompanham a rotação da Terra (como os geoestacionários).",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4557,7 +4627,7 @@
    "area": "Mecânica",
    "content": "IMPULSO_QUANTIDADE_MOVIMENTO",
    "demand": "MODERATE",
-   "statement": "Em qualquer obra de construção civil é fundamental a utilização de equipamentos de proteção individual, tal como capacetes. Por exemplo, a queda livre de um tijolo de massa 2,5 kg de uma altura de 5 m, cujo impacto contra um capacete pode durar até 0,5 s, resulta em uma força impulsiva média maior do que o peso do tijolo.\nSuponha que a aceleração gravitacional seja 10 m s −2 e que o efeito de resistência do ar seja desprezível.\nA força impulsiva média gerada por esse impacto equivale ao peso de quantos tijolos iguais?",
+   "statement": "Em qualquer obra de construção civil é fundamental a utilização de equipamentos de proteção individual, tal como capacetes. Por exemplo, a queda livre de um tijolo de massa 2,5 kg de uma altura de 5 m, cujo impacto contra um capacete pode durar até 0,5 s, resulta em uma força impulsiva média maior do que o peso do tijolo.\nSuponha que a aceleração gravitacional seja 10 m s⁻² e que o efeito de resistência do ar seja desprezível.\nA força impulsiva média gerada por esse impacto equivale ao peso de quantos tijolos iguais?",
    "options": [
     {
      "letter": "A",
@@ -4589,7 +4659,8 @@
     "keyConcept": "teorema do impulso (F·Δt = Δp)",
     "commonMistake": "Calcular a velocidade de queda errado ou trocar o tempo de impacto.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4598,7 +4669,7 @@
    "area": "Termologia",
    "content": "CALORIMETRIA",
    "demand": "MODERATE",
-   "statement": "Em uma aula experimental de calorimetria, uma professora queimou 2,5 g de castanha-de-caju crua para aquecer 350 g de água, em um recipiente apropriado para diminuir as perdas de calor. Com base na leitura da tabela nutricional a seguir e da medida da temperatura da água, após a queima total do combustível, ela concluiu que 50% da energia disponível foi aproveitada. O calor específico da água é 1 cal g −1 °C −1 , e sua temperatura inicial era de 20 °C.\nQuantidade por porção de 10 g (2 castanhas)\nValor energético 70 kcal\nCarboidratos 0,8 g\nProteínas 3,5 g\nGorduras totais 3,5 g\nQual foi a temperatura da água, em grau Celsius, medida ao final do experimento?",
+   "statement": "Em uma aula experimental de calorimetria, uma professora queimou 2,5 g de castanha-de-caju crua para aquecer 350 g de água, em um recipiente apropriado para diminuir as perdas de calor. Com base na leitura da tabela nutricional a seguir e da medida da temperatura da água, após a queima total do combustível, ela concluiu que 50% da energia disponível foi aproveitada. O calor específico da água é 1 cal g⁻¹ °C⁻¹ , e sua temperatura inicial era de 20 °C.\nQuantidade por porção de 10 g (2 castanhas)\nValor energético 70 kcal\nCarboidratos 0,8 g\nProteínas 3,5 g\nGorduras totais 3,5 g\nQual foi a temperatura da água, em grau Celsius, medida ao final do experimento?",
    "options": [
     {
      "letter": "A",
@@ -4638,7 +4709,8 @@
     "keyConcept": "calorimetria com rendimento",
     "commonMistake": "Esquecer o rendimento ou confundir variação com temperatura final.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4687,7 +4759,8 @@
     "keyConcept": "queda de tensão em fio (série + paralelo)",
     "commonMistake": "Ignorar a resistência do cabo ou arredondar o número de lâmpadas para cima.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4696,7 +4769,7 @@
    "area": "Mecânica",
    "content": "CINEMATICA",
    "demand": "HIGH",
-   "statement": "A agricultura de precisão reúne técnicas agrícolas que consideram particularidades locais do solo ou lavoura a fim de otimizar o uso de recursos. Uma das formas de adquirir informações sobre essas particularidades é a fotografia aérea de baixa altitude realizada por um veículo aéreo não tripulado (vant). Na fase de aquisição é importante determinar o nível de sobreposição entre as fotografias. A figura ilustra como uma sequência de imagens é coletada por um vant e como são formadas as sobreposições frontais.\nVant com câmera fotográfica 1 2 3\nH 45° 45° Solo 20% de\n∆S sobreposição frontal\nImagens coletadas 1 2 3 1, 2 e 3\nO operador do vant recebe uma encomenda na qual as imagens devem ter uma sobreposição frontal de 20% em um terreno plano. Para realizar a aquisição das imagens, seleciona uma altitude H fixa de voo de 1 000 m, a uma velocidade constante de 50 m s −1 . A abertura da câmera fotográfica do vant é de 90°. Considere tg(45°) = 1.\nNatural Resources Canada. Concepts of Aerial Photography.\nDisponível em: www.nrcan.gc.ca. Acesso em: 26 abr. 2019 (adaptado).\nCom que intervalo de tempo o operador deve adquirir duas imagens consecutivas?",
+   "statement": "A agricultura de precisão reúne técnicas agrícolas que consideram particularidades locais do solo ou lavoura a fim de otimizar o uso de recursos. Uma das formas de adquirir informações sobre essas particularidades é a fotografia aérea de baixa altitude realizada por um veículo aéreo não tripulado (vant). Na fase de aquisição é importante determinar o nível de sobreposição entre as fotografias. A figura ilustra como uma sequência de imagens é coletada por um vant e como são formadas as sobreposições frontais.\nVant com câmera fotográfica 1 2 3\nH 45° 45° Solo 20% de\n∆S sobreposição frontal\nImagens coletadas 1 2 3 1, 2 e 3\nO operador do vant recebe uma encomenda na qual as imagens devem ter uma sobreposição frontal de 20% em um terreno plano. Para realizar a aquisição das imagens, seleciona uma altitude H fixa de voo de 1 000 m, a uma velocidade constante de 50 m s⁻¹ . A abertura da câmera fotográfica do vant é de 90°. Considere tg(45°) = 1.\nNatural Resources Canada. Concepts of Aerial Photography.\nDisponível em: www.nrcan.gc.ca. Acesso em: 26 abr. 2019 (adaptado).\nCom que intervalo de tempo o operador deve adquirir duas imagens consecutivas?",
    "options": [
     {
      "letter": "A",
@@ -4736,7 +4809,8 @@
     "keyConcept": "velocidade média e geometria da cobertura",
     "commonMistake": "Usar o comprimento da sobreposição em vez do avanço entre fotos.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4777,7 +4851,8 @@
     "keyConcept": "refração no olho e raios paraxiais",
     "commonMistake": "Achar que menos luz, por si só, melhora a nitidez.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4818,7 +4893,8 @@
     "keyConcept": "modelos corpuscular × ondulatório da luz",
     "commonMistake": "Achar que Huygens critica o modelo ondulatório.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4859,7 +4935,8 @@
     "keyConcept": "indução eletromagnética e aterramento",
     "commonMistake": "Achar que isolar os fios da rede impede a indução magnética.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4900,7 +4977,8 @@
     "keyConcept": "transferência de calor (concepção de 'frio')",
     "commonMistake": "Pensar que o frio entra ou que o cobertor aquece.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4913,7 +4991,7 @@
    "options": [
     {
      "letter": "A",
-     "text": "o fl uxo de calor por condução no condensador sofre considerável redução."
+     "text": "o fluxo de calor por condução no condensador sofre considerável redução."
     },
     {
      "letter": "B",
@@ -4921,7 +4999,7 @@
     },
     {
      "letter": "C",
-     "text": "o fl uxo de calor promove signifi cativa elevação da temperatura no interior do refrigerador."
+     "text": "o fluxo de calor promove significativa elevação da temperatura no interior do refrigerador."
     },
     {
      "letter": "D",
@@ -4929,7 +5007,7 @@
     },
     {
      "letter": "E",
-     "text": "as correntes de convecção nas proximidades do condensador ocorrem com maior difi culdade."
+     "text": "as correntes de convecção nas proximidades do condensador ocorrem com maior dificuldade."
     }
    ],
    "figures": [],
@@ -4941,7 +5019,8 @@
     "keyConcept": "refrigerador como máquina térmica",
     "commonMistake": "Achar que o calor externo 'entra' na geladeira, em vez de dificultar a rejeição de calor no condensador.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -4950,7 +5029,7 @@
    "area": "Mecânica",
    "content": "HIDROSTATICA",
    "demand": "HIGH",
-   "statement": "Um mergulhador fi ca preso ao explorar uma caverna no oceano. Dentro da caverna formou-se um bolsão de ar, como mostrado na fi gura, onde o mergulhador se abrigou.\nDurante o resgate, para evitar danos a seu organismo, foi necessário que o mergulhador passasse por um processo de descompressão antes de retornar à superfície para que seu corpo fi casse novamente sob pressão atmosférica. O gráfi co mostra a relação entre os tempos de descompressão recomendados para indivíduos nessa situação e a variação de pressão.\n(min)\n100 80 de descompressão 60\nTempo 40 20 100 200 300 400 500 600 700\nVariação de pressão (kPa)\nConsidere que a aceleração da gravidade seja igual a 10 m s −2 e que a densidade da água seja de\nρ = 1 000 kg m −3 .\nEm minutos, qual é o tempo de descompressão a que o mergulhador deverá ser submetido?",
+   "statement": "Um mergulhador fica preso ao explorar uma caverna no oceano. Dentro da caverna formou-se um bolsão de ar, como mostrado na figura, onde o mergulhador se abrigou.\nDurante o resgate, para evitar danos a seu organismo, foi necessário que o mergulhador passasse por um processo de descompressão antes de retornar à superfície para que seu corpo ficasse novamente sob pressão atmosférica. O gráfico mostra a relação entre os tempos de descompressão recomendados para indivíduos nessa situação e a variação de pressão.\n(min)\n100 80 de descompressão 60\nTempo 40 20 100 200 300 400 500 600 700\nVariação de pressão (kPa)\nConsidere que a aceleração da gravidade seja igual a 10 m s⁻² e que a densidade da água seja de\nρ = 1 000 kg m⁻³ .\nEm minutos, qual é o tempo de descompressão a que o mergulhador deverá ser submetido?",
    "options": [
     {
      "letter": "A",
@@ -4997,7 +5076,8 @@
     "keyConcept": "pressão hidrostática (Stevin) e leitura de gráfico",
     "commonMistake": "Somar a pressão atmosférica ou usar a distância horizontal.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5038,7 +5118,8 @@
     "keyConcept": "ebulição e pressão (panela de pressão)",
     "commonMistake": "Achar que fogo mais alto aumenta a temperatura do cozimento depois que a válvula abre.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5079,7 +5160,8 @@
     "keyConcept": "interferência destrutiva",
     "commonMistake": "Confundir cancelamento ativo com absorção (isolamento) do som.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5088,7 +5170,7 @@
    "area": "Ondulatória",
    "content": "SOM",
    "demand": "HIGH",
-   "statement": "Dois engenheiros estão verificando se uma cavidade perfurada no solo está de acordo com o planejamento de uma obra, cuja profundidade requerida é de 30 m.\nO teste é feito por um dispositivo denominado oscilador de áudio de frequência variável, que permite relacionar a profundidade com os valores da frequência de duas ressonâncias consecutivas, assim como em um tubo sonoro fechado. A menor frequência de ressonância que o aparelho mediu foi 135 Hz. Considere que a velocidade do som dentro da cavidade perfurada é de 360 m s - 1 .\nSe a profundidade estiver de acordo com o projeto, qual será o valor da próxima frequência de ressonância que será medida?",
+   "statement": "Dois engenheiros estão verificando se uma cavidade perfurada no solo está de acordo com o planejamento de uma obra, cuja profundidade requerida é de 30 m.\nO teste é feito por um dispositivo denominado oscilador de áudio de frequência variável, que permite relacionar a profundidade com os valores da frequência de duas ressonâncias consecutivas, assim como em um tubo sonoro fechado. A menor frequência de ressonância que o aparelho mediu foi 135 Hz. Considere que a velocidade do som dentro da cavidade perfurada é de 360 m s⁻¹ .\nSe a profundidade estiver de acordo com o projeto, qual será o valor da próxima frequência de ressonância que será medida?",
    "options": [
     {
      "letter": "A",
@@ -5120,7 +5202,8 @@
     "keyConcept": "ressonância em tubo fechado",
     "commonMistake": "Esquecer que em tubo fechado só existem harmônicos ímpares.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5169,7 +5252,8 @@
     "keyConcept": "divisor de tensão",
     "commonMistake": "Calcular a corrente pelos resistores do divisor em vez da resistência do equipamento.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5178,7 +5262,7 @@
    "area": "Termologia",
    "content": "CALORIMETRIA",
    "demand": "MODERATE",
-   "statement": "Mesmo para peixes de aquário, como o peixe arco-íris, a temperatura da água fora da faixa ideal (26 °C a 28 °C), bem como sua variação brusca, pode afetar a saúde do animal. Para manter a temperatura da água dentro do aquário na média desejada, utilizam- se dispositivos de aquecimento com termostato. Por exemplo, para um aquário de 50 L, pode-se utilizar um sistema de aquecimento de 50 W otimizado para suprir sua taxa de resfriamento. Essa taxa pode ser considerada praticamente constante, já que a temperatura externa ao aquário é mantida pelas estufas. Utilize para a água o calor específico 4,0 kJ kg −1 K −1 e a densidade 1 kg L −1 .\nSe o sistema de aquecimento for desligado por 1 h, qual o valor mais próximo para a redução da temperatura da água do aquário?",
+   "statement": "Mesmo para peixes de aquário, como o peixe arco-íris, a temperatura da água fora da faixa ideal (26 °C a 28 °C), bem como sua variação brusca, pode afetar a saúde do animal. Para manter a temperatura da água dentro do aquário na média desejada, utilizam- se dispositivos de aquecimento com termostato. Por exemplo, para um aquário de 50 L, pode-se utilizar um sistema de aquecimento de 50 W otimizado para suprir sua taxa de resfriamento. Essa taxa pode ser considerada praticamente constante, já que a temperatura externa ao aquário é mantida pelas estufas. Utilize para a água o calor específico 4,0 kJ kg⁻¹ K⁻¹ e a densidade 1 kg L⁻¹ .\nSe o sistema de aquecimento for desligado por 1 h, qual o valor mais próximo para a redução da temperatura da água do aquário?",
    "options": [
     {
      "letter": "A",
@@ -5210,7 +5294,8 @@
     "keyConcept": "potência térmica e calorimetria",
     "commonMistake": "Esquecer de converter 1 h em segundos ou usar calor específico errado.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5251,7 +5336,8 @@
     "keyConcept": "blindagem eletrostática (gaiola de Faraday)",
     "commonMistake": "Atribuir a proteção ao isolamento dos pneus.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5300,7 +5386,8 @@
     "keyConcept": "eletrização por atrito",
     "commonMistake": "Achar que prótons ou átomos inteiros são transferidos no atrito.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5341,7 +5428,8 @@
     "keyConcept": "lei de Faraday (fem ∝ ΔΦ/Δt)",
     "commonMistake": "Achar que basta haver fluxo grande, e não fluxo variando rapidamente.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5350,7 +5438,7 @@
    "area": "Mecânica",
    "content": "CINEMATICA",
    "demand": "HIGH",
-   "statement": "Você foi contratado para sincronizar os quatro semáforos de uma avenida, indicados pelas letras O, A,\nB e C, conforme a figura.\nOs semáforos estão separados por uma distância de 500 m. Segundo os dados estatísticos da companhia controladora de trânsito, um veículo, que está inicialmente parado no semáforo O, tipicamente parte com aceleração constante de 1 m s −2 até atingir a velocidade de 72 km h −1 e, a partir daí, prossegue com velocidade constante. Você deve ajustar os semáforos\nA, B e C de modo que eles mudem para a cor verde quando o veículo estiver a 100 m de cruzá-los, para que ele não tenha que reduzir a velocidade em nenhum momento.\nConsiderando essas condições, aproximadamente quanto tempo depois da abertura do semáforo O os semáforos A, B e C devem abrir, respectivamente?",
+   "statement": "Você foi contratado para sincronizar os quatro semáforos de uma avenida, indicados pelas letras O, A,\nB e C, conforme a figura.\nOs semáforos estão separados por uma distância de 500 m. Segundo os dados estatísticos da companhia controladora de trânsito, um veículo, que está inicialmente parado no semáforo O, tipicamente parte com aceleração constante de 1 m s⁻² até atingir a velocidade de 72 km h⁻¹ e, a partir daí, prossegue com velocidade constante. Você deve ajustar os semáforos\nA, B e C de modo que eles mudem para a cor verde quando o veículo estiver a 100 m de cruzá-los, para que ele não tenha que reduzir a velocidade em nenhum momento.\nConsiderando essas condições, aproximadamente quanto tempo depois da abertura do semáforo O os semáforos A, B e C devem abrir, respectivamente?",
    "options": [
     {
      "letter": "A",
@@ -5390,7 +5478,8 @@
     "keyConcept": "MRUV seguido de MRU",
     "commonMistake": "Ignorar a fase de aceleração ou os 100 m de antecedência.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5399,7 +5488,7 @@
    "area": "Mecânica",
    "content": "CINEMATICA",
    "demand": "HIGH",
-   "statement": "Em um dia de calor intenso, dois colegas estão a brincar com a água da mangueira. Um deles quer saber até que altura o jato de água alcança, a partir da saída de água, quando a mangueira está posicionada totalmente na direção vertical. O outro colega propõe então o seguinte experimento: eles posicionarem a saída de água da mangueira na direção horizontal, a 1 m de altura em relação ao chão, e então medirem a distância horizontal entre a mangueira e o local onde a água atinge o chão. A medida dessa distância foi de 3 m, e a partir disso eles calcularam o alcance vertical do jato de água. Considere a aceleração da gravidade de 10 m s -2 .\nO resultado que eles obtiveram foi de",
+   "statement": "Em um dia de calor intenso, dois colegas estão a brincar com a água da mangueira. Um deles quer saber até que altura o jato de água alcança, a partir da saída de água, quando a mangueira está posicionada totalmente na direção vertical. O outro colega propõe então o seguinte experimento: eles posicionarem a saída de água da mangueira na direção horizontal, a 1 m de altura em relação ao chão, e então medirem a distância horizontal entre a mangueira e o local onde a água atinge o chão. A medida dessa distância foi de 3 m, e a partir disso eles calcularam o alcance vertical do jato de água. Considere a aceleração da gravidade de 10 m s⁻² .\nO resultado que eles obtiveram foi de",
    "options": [
     {
      "letter": "A",
@@ -5431,7 +5520,8 @@
     "keyConcept": "lançamento horizontal e vertical (mesma velocidade inicial)",
     "commonMistake": "Esquecer que o alcance vertical é v²/(2g).",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5472,7 +5562,8 @@
     "keyConcept": "impulso (F = Δp/Δt) e energia dissipada",
     "commonMistake": "Esquecer que o rebote aumenta a variação da quantidade de movimento.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5528,7 +5619,8 @@
     "keyConcept": "sazonalidade e inclinação do eixo terrestre",
     "commonMistake": "Esquecer que janeiro é verão no Hemisfério Sul.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5569,7 +5661,8 @@
     "keyConcept": "dinâmica do movimento circular + conservação de energia",
     "commonMistake": "Usar só o peso, esquecendo a força centrípeta no ponto mais baixo.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5578,7 +5671,7 @@
    "area": "Termologia",
    "content": "CALORIMETRIA",
    "demand": "MODERATE",
-   "statement": "A variação da incidência de radiação solar sobre a superfície da Terra resulta em uma variação de temperatura ao longo de um dia denominada amplitude térmica. Edificações e pavimentações realizadas nas áreas urbanas contribuem para alterar as amplitudes térmicas dessas regiões, em comparação com regiões que mantêm suas características naturais, com presença de vegetação e água, já que o calor específico do concreto é inferior ao da água. Assim, parte da avaliação do impacto ambiental que a presença de concreto proporciona às áreas urbanas consiste em considerar a substituição da área concretada por um mesmo volume de água e comparar as variações de temperatura devido à absorção da radiação solar nas duas situações (concretada e alagada). Desprezando os efeitos da evaporação e considerando que toda a radiação é absorvida, essa avaliação pode ser realizada com os seguintes dados:\n kg J \nDensidade Calor específi co \n m 3 g C \nÁgua 1 000 4,2\nConcreto 2 500 0,8\nROMERO, M. A. B. et al. Mudanças climáticas e ilhas de calor urbanas.\nBrasília: UnB; ETB, 2019 (adaptado).\nA razão entre as variações de temperatura nas áreas concretada e alagada é mais próxima de",
+   "statement": "A variação da incidência de radiação solar sobre a superfície da Terra resulta em uma variação de temperatura ao longo de um dia denominada amplitude térmica. Edificações e pavimentações realizadas nas áreas urbanas contribuem para alterar as amplitudes térmicas dessas regiões, em comparação com regiões que mantêm suas características naturais, com presença de vegetação e água, já que o calor específico do concreto é inferior ao da água. Assim, parte da avaliação do impacto ambiental que a presença de concreto proporciona às áreas urbanas consiste em considerar a substituição da área concretada por um mesmo volume de água e comparar as variações de temperatura devido à absorção da radiação solar nas duas situações (concretada e alagada). Desprezando os efeitos da evaporação e considerando que toda a radiação é absorvida, essa avaliação pode ser realizada com os seguintes dados:\n kg J \nDensidade Calor específico \n m 3 g C \nÁgua 1 000 4,2\nConcreto 2 500 0,8\nROMERO, M. A. B. et al. Mudanças climáticas e ilhas de calor urbanas.\nBrasília: UnB; ETB, 2019 (adaptado).\nA razão entre as variações de temperatura nas áreas concretada e alagada é mais próxima de",
    "options": [
     {
      "letter": "A",
@@ -5618,7 +5711,8 @@
     "keyConcept": "capacidade térmica por volume (ρ·c)",
     "commonMistake": "Usar só o calor específico, esquecendo que o volume (e não a massa) é o mesmo.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5659,7 +5753,8 @@
     "keyConcept": "lei da gravitação universal (depende só de M e r)",
     "commonMistake": "Achar que buracos negros atraem mais que um corpo de mesma massa.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5700,7 +5795,8 @@
     "keyConcept": "lei de Ohm (analogia)",
     "commonMistake": "Ordenar apenas pela d.d.p., sem dividir pela corrente.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5756,7 +5852,8 @@
     "keyConcept": "velocidade do som em meios diferentes (atraso)",
     "commonMistake": "Usar o tempo absoluto do gráfico em vez da diferença entre os sinais.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5805,7 +5902,8 @@
     "keyConcept": "refração da luz",
     "commonMistake": "Atribuir o efeito à difração.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5814,7 +5912,7 @@
    "area": "Mecânica",
    "content": "CINEMATICA",
    "demand": "LOW",
-   "statement": "Um professor lança uma esfera verticalmente para cima, a qual retorna, depois de alguns segundos, ao ponto de lançamento. Em seguida, lista em um quadro todas as possibilidades para as grandezas cinemáticas.\nGrandeza cinemática Módulo Sentido\nPara cima v ≠ 0\nVelocidade Para baixo v = 0 Indefi nido*\nPara cima a ≠ 0\nAceleração Para baixo a = 0 Indefi nido*\n*Grandezas com módulo nulo não têm sentido definido.\nEle solicita aos alunos que analisem as grandezas cinemáticas no instante em que a esfera atinge a altura máxima, escolhendo uma combinação para os módulos e sentidos da velocidade e da aceleração.\nA escolha que corresponde à combinação correta é",
+   "statement": "Um professor lança uma esfera verticalmente para cima, a qual retorna, depois de alguns segundos, ao ponto de lançamento. Em seguida, lista em um quadro todas as possibilidades para as grandezas cinemáticas.\nGrandeza cinemática Módulo Sentido\nPara cima v ≠ 0\nVelocidade Para baixo v = 0 Indefinido*\nPara cima a ≠ 0\nAceleração Para baixo a = 0 Indefinido*\n*Grandezas com módulo nulo não têm sentido definido.\nEle solicita aos alunos que analisem as grandezas cinemáticas no instante em que a esfera atinge a altura máxima, escolhendo uma combinação para os módulos e sentidos da velocidade e da aceleração.\nA escolha que corresponde à combinação correta é",
    "options": [
     {
      "letter": "A",
@@ -5854,7 +5952,8 @@
     "keyConcept": "aceleração da gravidade no ponto mais alto",
     "commonMistake": "Achar que no ponto mais alto a aceleração é nula.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5895,7 +5994,8 @@
     "keyConcept": "indução eletromagnética (correntes de Foucault)",
     "commonMistake": "Confundir o mecanismo de indução com condução térmica.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5944,7 +6044,8 @@
     "keyConcept": "amortecimento: amplitude × frequência",
     "commonMistake": "Confundir intensidade (amplitude) com altura (frequência).",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -5985,7 +6086,8 @@
     "keyConcept": "difração e comprimento de onda",
     "commonMistake": "Achar que o infravermelho (mais penetrante) seria melhor.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6026,7 +6128,8 @@
     "keyConcept": "dose de radiação (taxa × tempo)",
     "commonMistake": "Ignorar a fração do tempo em cruzeiro ou errar a conversão µ ↔ m.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6067,7 +6170,8 @@
     "keyConcept": "calor sensível e calor latente",
     "commonMistake": "Confundir a mudança de fase que cede energia (condensação) com a que absorve (vaporização).",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6108,7 +6212,8 @@
     "keyConcept": "velocidade média com paradas",
     "commonMistake": "Esquecer o tempo parado nas cabines.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6149,7 +6254,8 @@
     "keyConcept": "interferência e frequência",
     "commonMistake": "Achar que o que importa é a potência do sinal.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6198,7 +6304,8 @@
     "keyConcept": "eco e velocidade do som (ida e volta)",
     "commonMistake": "Esquecer que o pulso atravessa a camada duas vezes ou usar o tempo total.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6247,7 +6354,8 @@
     "keyConcept": "nível sonoro (dB) e leitura de gráfico",
     "commonMistake": "Esquecer a margem de 5 dB acima do ruído.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6296,7 +6404,8 @@
     "keyConcept": "convecção (termossifão)",
     "commonMistake": "Confundir a etapa Sol → coletor (irradiação) com coletor → reservatório (convecção).",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6345,7 +6454,8 @@
     "keyConcept": "emissão de luz por transições eletrônicas",
     "commonMistake": "Confundir emissão (fosforescência) com reflexão.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6380,7 +6490,8 @@
     "keyConcept": "blindagem eletrostática (campo nulo no interior do condutor)",
     "commonMistake": "Desenhar linhas de campo atravessando o interior do condutor.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6436,7 +6547,8 @@
     "keyConcept": "espelhos côncavos e imagem real",
     "commonMistake": "Confundir imagem real com virtual ou usar só metade da altura do equipamento.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6485,7 +6597,8 @@
     "keyConcept": "colisões: energia dissipada e conservação da quantidade de movimento",
     "commonMistake": "Achar que a deformação 'consome' a quantidade de movimento do sistema isolado.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6527,42 +6640,8 @@
     "keyConcept": "força de contato: normal + atrito",
     "commonMistake": "Esquecer o atrito ou orientá-lo no sentido do movimento.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
-   }
-  },
-  {
-   "id": "ENEM-CN-2024-D2-CAN-053",
-   "year": 2024,
-   "area": "Eletricidade e Magnetismo",
-   "content": "CIRCUITOS",
-   "demand": "HIGH",
-   "statement": "O LED é um dispositivo eletrônico que conduz corrente elétrica em um único sentido, sendo caracterizado por uma t e n s ã o e u m a c o r re n te m á x i m a d e fu n c io n a m e n t o , I . U m L E D m á x a c e n d e a p e n a s s e a c or r e n te q u e o p e rc o rr e e s t á n o s en t id permitido e se a diferença de potencial à qual está submetido é igual ou superior à sua tensão de funcionamento. A figura ilustra o símbolo do LED usado na representação de circuitos.\nUm estudante de física analisa as propriedades do LED em um circuito simples de corrente contínua. Ele dispõe dos seguintes materiais: uma bateria ideal de 4,5 V; dois LEDs de tensão 3,0 V e I = 1,0 mA cada; e dois resistores de máx 1,5 kΩ cada.\nO circuito que o estudante pode montar, para que ambos os\nLEDs fiquem acesos e cada um seja percorrido por I , é máx",
-   "options": null,
-   "figures": [
-    {
-     "src": "./figuras/2024/ENEM-CN-2024-D2-CAN-053-1.webp",
-     "kind": "enunciado",
-     "label": "Figura do enunciado",
-     "width": 370,
-     "height": 171
-    },
-    {
-     "src": "./figuras/2024/ENEM-CN-2024-D2-CAN-053-2.webp",
-     "kind": "alternativas",
-     "label": "Alternativas (imagem)",
-     "width": 762,
-     "height": 1170
-    }
-   ],
-   "number": 131,
-   "booklet": 7,
-   "answer": "B",
-   "explanation": {
-    "markdown": "**Ideia central:** o LED só conduz no sentido direto e precisa de pelo menos 3,0 V. O resistor em série limita a corrente: i = (U_bateria − U_LED)/R.\n\n**Resolução:**\n- Em cada ramo, com resistor e LED em série: i = (4,5 − 3,0)/1 500 = 1,0×10⁻³ A = 1,0 mA (exatamente I_máx).\n- Com dois ramos iguais em paralelo, cada LED recebe 1,0 mA.\n\n**Por que B:** dois ramos em paralelo, cada um com resistor + LED, e os LEDs no sentido direto.\n\n**Distratoras:**\n- C e E: LEDs invertidos, que não conduzem.\n- A: um único resistor alimenta os dois LEDs em paralelo, e 1 mA se divide em 0,5 mA para cada um.\n- D: LEDs em série exigiriam 6 V, mais que os 4,5 V da bateria.",
-    "keyConcept": "LED (polarização direta) e resistor limitador",
-    "commonMistake": "Ignorar o sentido de condução do LED ou dividir a corrente entre LEDs em paralelo com um único resistor.",
-    "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6603,7 +6682,8 @@
     "keyConcept": "efeito Doppler (som e ondas de rádio)",
     "commonMistake": "Achar que a reflexão no objeto em movimento não altera a frequência.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6644,7 +6724,8 @@
     "keyConcept": "meia-vida (decaimento exponencial)",
     "commonMistake": "Dividir pelo número de meias-vidas em vez de dividir por 2 repetidas vezes.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6693,7 +6774,8 @@
     "keyConcept": "sensibilidade como inclinação (coeficiente angular)",
     "commonMistake": "Confundir valor alto de resistência com alta sensibilidade.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6742,7 +6824,8 @@
     "keyConcept": "ressonância",
     "commonMistake": "Achar que basta gritar mais alto (intensidade) para quebrar a taça.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6770,7 +6853,8 @@
     "keyConcept": "divisor de tensão (resistor em série)",
     "commonMistake": "Ligar o resistor de proteção em paralelo, o que não reduz a tensão no aparelho.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6805,7 +6889,8 @@
     "keyConcept": "gerador não ideal e associação em série",
     "commonMistake": "Confundir fem (circuito aberto) com tensão de operação, ou calcular r = ε/i.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6846,7 +6931,8 @@
     "keyConcept": "pressão de uma coluna (p = ρgh)",
     "commonMistake": "Usar a área no cálculo ou esquecer a gravidade.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6874,7 +6960,8 @@
     "keyConcept": "atrito cinético (f = μN)",
     "commonMistake": "Achar que o atrito cinético muda com a força aplicada.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6915,7 +7002,8 @@
     "keyConcept": "pupila como diafragma e reflexão na retina",
     "commonMistake": "Achar que a pupila se contrai no escuro.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -6964,7 +7052,8 @@
     "keyConcept": "composição vetorial de velocidades (independência dos movimentos)",
     "commonMistake": "Somar o vento em vez de subtraí-lo, ou errar o sinal da componente Sul.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   },
   {
@@ -7005,7 +7094,8 @@
     "keyConcept": "irradiação térmica",
     "commonMistake": "Confundir processos de transferência de calor com fenômenos ópticos.",
     "lowConfidence": false,
-    "author": "IA (Chico)"
+    "author": "IA (Chico)",
+    "reviewed": false
    }
   }
  ]
