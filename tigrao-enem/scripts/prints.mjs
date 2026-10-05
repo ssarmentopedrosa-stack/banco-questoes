@@ -28,7 +28,7 @@ const atual = async () => {
 const clicaLetra = (l) => page.getByRole("button", { name: `Alternativa ${l}`, exact: true }).click();
 
 await page.goto("http://127.0.0.1:4189/"); await wait(1200);
-check(await page.getByText("Banco do Tigrão").isVisible(), "home abre com o Tigrão");
+check(await page.getByText("Tigrão ENEM", { exact: true }).isVisible(), "home abre com o Tigrão");
 const vHome = page.locator('video[data-clip="anim_abertura"]');
 check((await vHome.count()) === 1, "home usa o clipe de abertura");
 await page.waitForFunction(() => { const v = document.querySelector('video[data-clip="anim_abertura"]'); return v && v.readyState >= 2 && !v.paused && v.currentTime > 0.3; }, null, { timeout: 8000 }).then(() => check(true, "abertura toca (autoplay mudo, em loop)"), () => check(false, "abertura toca"));

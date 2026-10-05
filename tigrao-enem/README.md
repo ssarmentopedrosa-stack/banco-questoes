@@ -1,4 +1,4 @@
-# Banco do Tigrão · Física do ENEM
+# Tigrão ENEM · Física, questões oficiais
 
 App gamificado (celular, sem login) com as questões oficiais de Física do ENEM deste repositório,
 no mesmo formato do Banco Arretado, com o **Tigrão** como mascote.

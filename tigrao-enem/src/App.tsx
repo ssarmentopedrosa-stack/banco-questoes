@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft, BookOpen, Check, ChevronRight, Clock, ExternalLink, Flame, RotateCcw, Sparkles, Target, Timer, Trophy, X, ZoomIn, CalendarCheck,
 } from "lucide-react";
-import { LETTERS, META, QUESTIONS, TOPICS, optionText, plural, topicInfo, type Figure, type Question } from "./data";
+import { LETTERS, QUESTIONS, TOPICS, optionText, plural, topicInfo, type Figure, type Question } from "./data";
 import {
   ALL_BADGES, LEVELS, META_DIARIA, MISSIONS, SIMULADO_N, SIMULADO_SEGUNDOS, XP, badgeLabel, dueReviews, levelOf, load,
   practiceSet, registerAnswer, registerSimulado, reviewSet, save, scheduledReviews, simuladoSet, topicStats, type Gain, type State,
@@ -163,8 +163,8 @@ function Home(p: { state: State; onTemas: () => void; onSimulado: () => void; on
         <div className="relative flex items-end gap-3">
           <TigraoAnimado clip="anim_abertura" poster="acena.webp" alt="Tigrão, o cão astronauta, acenando" className="h-36 w-36 shrink-0 rounded-3xl object-cover ring-4 ring-white/70" imgClassName="anim-float" />
           <div className="pb-1">
-            <div className="font-titulo text-[26px] font-extrabold leading-7">Banco do Tigrão</div>
-            <div className="text-xs font-semibold text-white/85">Física do ENEM · questões oficiais {META.porAno ? `${Object.keys(META.porAno)[0]}–${Object.keys(META.porAno).slice(-1)[0]}` : ""}</div>
+            <div className="font-titulo text-[26px] font-extrabold leading-7">Tigrão ENEM</div>
+            <div className="text-xs font-semibold text-white/85">Física, questões oficiais</div>
             <Balao className="mt-2">{falaHome(state, due)}</Balao>
           </div>
         </div>
