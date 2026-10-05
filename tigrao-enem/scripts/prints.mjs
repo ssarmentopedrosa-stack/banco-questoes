@@ -29,8 +29,12 @@ const clicaLetra = (l) => page.getByRole("button", { name: `Alternativa ${l}`, e
 
 await page.goto("http://127.0.0.1:4189/"); await wait(1200);
 check(await page.getByText("Banco do Tigrão").isVisible(), "home abre com o Tigrão");
-check((await page.locator('img[src*="tigrao/acena"]').count()) === 1, "arte oficial do Tigrão na home");
+const vHome = page.locator('video[data-clip="anim_abertura"]');
+check((await vHome.count()) === 1, "home usa o clipe de abertura");
+await page.waitForFunction(() => { const v = document.querySelector('video[data-clip="anim_abertura"]'); return v && v.readyState >= 2 && !v.paused && v.currentTime > 0.3; }, null, { timeout: 8000 }).then(() => check(true, "abertura toca (autoplay mudo, em loop)"), () => check(false, "abertura toca"));
+check(await vHome.evaluate((v) => v.muted && v.loop && v.playsInline && v.autoplay && !!v.poster), "vídeo muted+loop+playsinline+autoplay com pôster");
 await page.screenshot({ path: OUT + "01_home_tigrao.png" });
+await page.screenshot({ path: OUT + "11_home_tigrao_animado.png" });
 
 // prática por tema até achar questão com figura
 await page.getByText("Praticar por tema").click(); await wait(400);
@@ -55,11 +59,13 @@ const errada = ["A", "B", "C", "D", "E"].find((l) => l !== q.answer);
 await clicaLetra(errada); await wait(1200);
 const s1 = await state();
 check(s1.xp === xpAntes, `erro não dá XP (${xpAntes} → ${s1.xp})`);
-check(await page.locator('img[alt="Tigrão pensativo"]').isVisible(), "Tigrão reage diferente no erro");
+check(await page.locator('video[data-clip="anim_erro"]').isVisible(), "erro usa o clipe de apoio do Tigrão");
 check((await page.evaluate(() => window.scrollY)) > 100, "rolou até o feedback");
 check(await page.getByText("aguardando revisão do professor").first().isVisible(), "resolução marcada como IA aguardando revisão");
 check(s1.review[q.id]?.box === 0, "erro entrou na revisão espaçada");
-await page.screenshot({ path: OUT + "03_feedback_erro.png" });
+await wait(1500);
+await page.locator('video[data-clip="anim_erro"]').scrollIntoViewIfNeeded(); await page.evaluate(() => window.scrollBy(0, -120)); await wait(300);
+await page.screenshot({ path: OUT + "13_feedback_erro_animado.png" });
 
 // confirmação ao sair
 await page.getByRole("button", { name: "Sair" }).click(); await wait(300);
@@ -70,7 +76,10 @@ q = await atual(); vistosPratica.push(q.id);
 const xp2 = (await state()).xp;
 await clicaLetra(q.answer); await wait(900);
 check((await state()).xp >= xp2 + 10, "acerto dá XP");
-check(await page.locator('img[alt="Tigrão comemorando"]').isVisible(), "Tigrão comemora no acerto");
+check(await page.locator('video[data-clip="anim_acerto"]').isVisible(), "acerto usa o clipe de comemoração");
+await page.waitForTimeout(1500);
+await page.locator('video[data-clip="anim_acerto"]').scrollIntoViewIfNeeded(); await page.evaluate(() => window.scrollBy(0, -120)); await wait(300);
+await page.screenshot({ path: OUT + "12_feedback_acerto_animado.png" });
 await page.screenshot({ path: OUT + "06_feedback_acerto.png" });
 await page.getByRole("button", { name: "Sair" }).click(); await wait(200);
 await page.getByRole("dialog").getByRole("button", { name: "Sair" }).click(); await wait(500);
@@ -105,6 +114,11 @@ await page.screenshot({ path: OUT + "08_conquistas.png", fullPage: true });
 const st = await state();
 check(st.badges.includes("simulado"), "medalha do simulado");
 check(st.week.simulados === 1 && st.week.paid.includes("m-simulado"), "missão semanal do simulado paga");
+const rm = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, reducedMotion: "reduce" });
+const p2 = await rm.newPage();
+await p2.goto("http://127.0.0.1:4189/"); await p2.waitForTimeout(800);
+check((await p2.locator("video").count()) === 0 && (await p2.locator('img[src*="tigrao/acena"]').count()) === 1, "prefers-reduced-motion: sem vídeo, imagem estática");
+await rm.close();
 check(erros.length === 0, "sem erros no console " + erros.join(" | "));
 await browser.close();
 server.httpServer.close();

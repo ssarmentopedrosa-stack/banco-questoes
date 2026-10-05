@@ -58,6 +58,40 @@ export default function App() {
   );
 }
 
+/* ---------- Tigrão animado (clipes curtos, mudos, em loop; imagem estática como pôster/fallback) ---------- */
+type Clip = "anim_abertura" | "anim_acerto" | "anim_erro";
+function useReducedMotion() {
+  const q = "(prefers-reduced-motion: reduce)";
+  const [r, setR] = useState(() => typeof window !== "undefined" && !!window.matchMedia && window.matchMedia(q).matches);
+  useEffect(() => {
+    if (!window.matchMedia) return;
+    const m = window.matchMedia(q);
+    const h = () => setR(m.matches);
+    m.addEventListener?.("change", h);
+    return () => m.removeEventListener?.("change", h);
+  }, []);
+  return r;
+}
+function TigraoAnimado({ clip, poster, alt, className, imgClassName = "" }: { clip: Clip; poster: string; alt: string; className: string; imgClassName?: string }) {
+  const reduced = useReducedMotion();
+  const [falhou, setFalhou] = useState(false);
+  const ref = useRef<HTMLVideoElement>(null);
+  useEffect(() => {
+    const v = ref.current;
+    if (!v) return;
+    v.muted = true; // iOS só faz autoplay com muted
+    v.play().catch(() => { /* autoplay bloqueado: fica o pôster */ });
+  }, [clip, reduced, falhou]);
+  if (reduced || falhou) return <img src={T + poster} alt={alt} className={className + " " + imgClassName} />;
+  return (
+    <video ref={ref} key={clip} className={className + " bg-[#c9cacc]"} poster={T + poster} aria-label={alt} role="img" data-clip={clip}
+      autoPlay muted loop playsInline preload="auto" disablePictureInPicture onError={() => setFalhou(true)}>
+      <source src={T + clip + ".mp4"} type="video/mp4" />
+      <source src={T + clip + ".webm"} type="video/webm" onError={() => setFalhou(true)} />
+    </video>
+  );
+}
+
 /* ---------- peças visuais ---------- */
 function TopBar({ state }: { state: State }) {
   const lv = levelOf(state.xp);
@@ -127,7 +161,7 @@ function Home(p: { state: State; onTemas: () => void; onSimulado: () => void; on
         <div className="estrelas absolute inset-0" />
         <div className="absolute -right-6 -top-6 h-28 w-28 rounded-full bg-laranja/30" />
         <div className="relative flex items-end gap-3">
-          <img src={T + "acena.webp"} alt="Tigrão, o cão astronauta, acenando" className="anim-float h-36 w-36 shrink-0 rounded-3xl object-cover ring-4 ring-white/70" />
+          <TigraoAnimado clip="anim_abertura" poster="acena.webp" alt="Tigrão, o cão astronauta, acenando" className="h-36 w-36 shrink-0 rounded-3xl object-cover ring-4 ring-white/70" imgClassName="anim-float" />
           <div className="pb-1">
             <div className="font-titulo text-[26px] font-extrabold leading-7">Banco do Tigrão</div>
             <div className="text-xs font-semibold text-white/85">Física do ENEM · questões oficiais {META.porAno ? `${Object.keys(META.porAno)[0]}–${Object.keys(META.porAno).slice(-1)[0]}` : ""}</div>
@@ -318,6 +352,18 @@ function Quiz(p: {
   const ultima = i === questions.length - 1;
   const emAndamento = items.length > 0 || chosen !== null;
 
+  // pré-carrega (baixa prioridade) os clipes de feedback, sem atrasar a resposta
+  useEffect(() => {
+    if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
+    const links = ["anim_acerto", "anim_erro"].map((c) => {
+      const l = document.createElement("link");
+      l.rel = "prefetch"; l.href = T + c + ".mp4"; l.as = "video";
+      document.head.appendChild(l);
+      return l;
+    });
+    return () => links.forEach((l) => l.remove());
+  }, []);
+
   // confirma antes de fechar/recarregar a página no meio da sessão
   useEffect(() => {
     if (!emAndamento) return;
@@ -472,8 +518,9 @@ function Quiz(p: {
           <div className={`relative flex items-center gap-3 overflow-hidden rounded-3xl p-3 ${correct ? "bg-teal text-white" : "bg-vermelho-claro text-tinta ring-2 ring-vermelho/40"}`}>
             {correct && <Confete />}
             <div className="relative shrink-0">
-              <img src={T + (correct ? "avatar.webp" : "busto.webp")} alt={correct ? "Tigrão comemorando" : "Tigrão pensativo"}
-                className={`h-24 w-24 rounded-2xl object-cover ${correct ? "anim-pulo" : "anim-pensa"}`} />
+              <TigraoAnimado clip={correct ? "anim_acerto" : "anim_erro"} poster={correct ? "avatar.webp" : "busto.webp"}
+                alt={correct ? "Tigrão comemorando" : "Tigrão dando força"} className={`h-24 rounded-2xl object-cover ${correct ? "w-24" : "w-28"}`}
+                imgClassName={correct ? "anim-pulo" : "anim-pensa"} />
               <span className="absolute -right-2 -top-2 text-2xl">{correct ? "🎉" : "🤔"}</span>
             </div>
             <div>
@@ -585,8 +632,9 @@ function Resultado(p: {
         <div className="relative font-titulo text-sm font-extrabold uppercase tracking-wider text-white/85">
           {p.mode === "simulado" ? "Resultado do Simulado ENEM" : p.mode === "revisao" ? "Revisão concluída" : p.topic ?? "Mistão do dia"}
         </div>
-        <img src={T + (otimo ? "acena.webp" : baixo ? "busto.webp" : "avatar.webp")} alt="Tigrão"
-          className={`relative mx-auto mt-3 h-44 w-44 rounded-3xl object-cover ring-4 ring-white/70 ${otimo ? "anim-pulo" : baixo ? "anim-pensa" : "anim-float"}`} />
+        <TigraoAnimado clip={otimo ? "anim_acerto" : baixo ? "anim_erro" : "anim_abertura"} poster={otimo ? "acena.webp" : baixo ? "busto.webp" : "avatar.webp"}
+          alt={otimo ? "Tigrão comemorando" : baixo ? "Tigrão dando força" : "Tigrão acenando"}
+          className="relative mx-auto mt-3 h-44 w-44 rounded-3xl object-cover ring-4 ring-white/70" imgClassName={otimo ? "anim-pulo" : baixo ? "anim-pensa" : "anim-float"} />
         <div className="relative mt-3 font-titulo text-5xl font-extrabold">{score}/{total}</div>
         <div className="relative text-sm font-bold text-white/90">{plural(score, "acerto", "acertos")} · {pct}%{p.mode === "simulado" ? ` · ${fmt(p.seconds)} min` : ""}</div>
         <Balao className="sem-rabo relative mx-auto mt-3 w-fit">{msg}</Balao>
