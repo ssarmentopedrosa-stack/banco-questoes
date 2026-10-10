@@ -13,6 +13,7 @@ const PORT = 4191;
 const server = await preview({ root: new URL("..", import.meta.url).pathname, preview: { port: PORT, host: "127.0.0.1" } });
 const browser = await chromium.launch({ executablePath: "/usr/bin/google-chrome", args: ["--no-sandbox"] });
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true, locale: "pt-BR" });
+await ctx.addInitScript(() => { window.__tigraoSorte = () => 1; });
 const page = await ctx.newPage();
 const erros = [];
 page.on("pageerror", (e) => erros.push(String(e)));
@@ -57,18 +58,25 @@ for (const m of ["biologia", "quimica", "geografia", "natureza"]) {
   const s0 = await st(m);
   check(s0 === null || s0.xp === 0, `${m}: começa com XP próprio zerado`);
   await page.screenshot({ path: OUT + `${m}_1_home.png` });
+  check(await page.getByTestId("treino-rapido").isVisible() && /Dia de folga/.test(await page.getByTestId("folga").innerText()), `${m}: home com Treino rápido de 5 e dia de folga`);
   // prática: responde 5, procurando uma com figura
   await page.getByText("Mistão do dia").first().click().catch(async () => { await page.getByText(/Mistão/).first().click(); });
   await wait(600);
   let fotoFig = false;
   for (let k = 0; k < 5; k++) {
     const q = await atual(m);
-    if (!fotoFig && q.figures.length) { await wait(500); await page.screenshot({ path: OUT + `${m}_2_figura.png`, fullPage: true }); fotoFig = true; }
+    if (!fotoFig && q.figures.length) {
+      await wait(500); await page.screenshot({ path: OUT + `${m}_2_figura.png`, fullPage: true }); fotoFig = true;
+      if (await page.getByTestId("figura").count()) check(await page.getByTestId("figura").first().locator("img").evaluate((e) => e.getBoundingClientRect().width >= window.innerWidth * 0.85), `${m}: figura em largura total (${q.id})`);
+    }
     await letra(k % 2 ? "A" : q.answer); await wait(250);
     if (k === 0) { await page.screenshot({ path: OUT + `${m}_3_corrigida.png`, fullPage: true }); check((await page.getByText(/Revisada pelo Prof/).count()) === 0, `${m}: sem selo de revisada`); }
     if (k === 1 && q.explanation && q.answer !== "A") {
       await page.screenshot({ path: OUT + `${m}_3b_errou_resolucao.png`, fullPage: true });
       check(await page.getByText("Resolução ainda não revisada pelo professor").isVisible(), `${m}: errou → resolução com aviso de não revisada`);
+      check((await page.getByTestId("reacao-tigrao").getAttribute("data-reacao")) === "erro" && (await page.getByTestId("fala-tigrao").innerText()).length > 15, `${m}: Tigrão reage ao erro com fala de treinador`);
+      const rt = page.getByTestId("resolucao-topicos");
+      check((await rt.getByTestId("sec-como").count()) === 1 && (await rt.locator("li").count()) >= 2 && (await rt.getByTestId("sec-resposta").innerText()).includes("Resposta: " + q.answer), `${m}: resolução em tópicos (${await rt.locator("li").count()} bullets, ${(await rt.getByTestId("sec-outras").count()) ? "com" : "sem"} 'por que as outras')`);
       const corpo = await page.locator("body").innerText();
       check(!corpo.includes("**") && !corpo.includes("Revisada pelo Prof"), `${m}: resolução formatada (sem "**") e sem selo de revisada`);
     }
@@ -94,12 +102,32 @@ for (const m of ["biologia", "quimica", "geografia", "natureza"]) {
   await wait(900);
   check(new Set(ids).size === 15, `${m}: simulado sem repetição (${temas.size} temas)`);
   check(await page.getByText("5/15").isVisible(), `${m}: placar 5/15`);
+  check((await page.getByTestId("pct-geral").getAttribute("data-faixa")) === "vermelho" && (await page.getByTestId("legenda-faixas").count()) === 1, `${m}: 33% em vermelho, com legenda das faixas`);
+  const fx = await page.getByTestId("tema-resultado").evaluateAll((els) => els.map((e) => [e.getAttribute("data-faixa"), +e.innerText.match(/(\d+)%/)[1]]));
+  check(fx.every(([f, p]) => f === (p < 40 ? "vermelho" : p < 70 ? "ambar" : "verde")), `${m}: cores do relatório por faixa (${fx.map(([f, p]) => p + "%=" + f).join(" ")})`);
   await page.screenshot({ path: OUT + `${m}_4_simulado.png` });
   const s2 = await st(m);
   check(s2.simulados.length === 1 && s2.simulados[0].kind === "mini", `${m}: simulado registrado`);
   check((await imagensOk()).length === 0, `${m}: nenhuma imagem quebrada`);
-  // simulado completo de 45: abre e sai
+  // Treino rápido de 5
   await page.getByRole("button", { name: "Início" }).click(); await wait(400);
+  await page.getByTestId("treino-rapido").click(); await wait(600);
+  check((await page.getByTestId("contador").innerText()) === "1/5", `${m}: treino rápido tem 5 questões`);
+  for (let k = 0; k < 5; k++) {
+    const q = await atual(m);
+    await letra(q.answer); await wait(250);
+    await page.getByText(k === 4 ? "Ver resultado" : "Próxima questão").click(); await wait(300);
+  }
+  await wait(500);
+  check(await page.getByText("Treino rápido de 5").first().isVisible() && await page.getByText("5/5").isVisible(), `${m}: resultado do treino rápido 5/5`);
+  await page.getByRole("button", { name: "Início" }).click(); await wait(400);
+  // domínio com níveis
+  await page.getByRole("button", { name: "Meu domínio por tema" }).click(); await wait(500);
+  const chips = await page.locator('[data-testid^="nivel-"]').allInnerTexts();
+  check(chips.length > 0 && chips.every((c) => /Iniciante|Praticando|Dominando|sem dados/.test(c)) && chips.some((c) => /Iniciante|Praticando|Dominando/.test(c)) && await page.getByTestId("proximo-passo").isVisible() && await page.getByTestId("regras-nivel").isVisible(), `${m}: domínio com níveis (${chips.join(", ")}) e próximo passo`);
+  if (m === "biologia") await page.screenshot({ path: OUT + "biologia_5_dominio.png" });
+  await page.getByRole("button", { name: "Voltar" }).click(); await wait(300);
+  // simulado completo de 45: abre e sai
   const comp = page.getByText(/^Simulado (ENEM|Ciências da Natureza)$/).first();
   if (await comp.isEnabled()) {
     await comp.click(); await wait(1200);

@@ -11,7 +11,11 @@ export let LEVELS = [
 ];
 
 /** Erro não dá XP. Dica reduz o XP do acerto. Recuperar um erro na revisão dá bônus. */
-export const XP = { acerto: 10, acertoComDica: [10, 7, 5], bonusSimulado: 5, revisao: 5, gabaritou: 50, metaDiaria: 20 };
+export const XP = { acerto: 10, acertoComDica: [10, 7, 5], bonusSimulado: 5, revisao: 8, gabaritou: 50, metaDiaria: 20, surpresa: 5 };
+/** Chance do bônus surpresa num acerto (nunca em simulado). */
+export const CHANCE_SURPRESA = 0.1;
+/** Sorteio (os testes podem fixar com window.__tigraoSorte). */
+const sorteio = () => { const f = (globalThis as { __tigraoSorte?: () => number }).__tigraoSorte; return f ? f() : Math.random(); };
 export const META_DIARIA = 10;
 export const BADGE_MIN_ACERTOS = 5;
 export const INTERVALOS = [1, 3, 7]; // dias da revisão espaçada
@@ -61,6 +65,8 @@ export type State = {
   log: LogItem[];
   week: Week;
   prefs: { fonte: 0 | 1 | 2 };
+  /** Dia de folga: 1 por semana, automático. Protege a sequência se você ficar UM dia sem estudar. */
+  folga: { semana: string; usadaEm: string | null; avisar: boolean };
 };
 
 const iso = (d: Date) => d.toLocaleDateString("sv-SE"); // AAAA-MM-DD no fuso do aparelho
@@ -91,6 +97,7 @@ export const emptyState = (): State => ({
   log: [],
   week: { id: weekId(), answered: 0, days: [], simulados: 0, revisaoAcertos: 0, paid: [], focus: TOPICS[0].name, focusAcertos: 0 },
   prefs: { fonte: 0 },
+  folga: { semana: weekId(), usadaEm: null, avisar: false },
 });
 
 /* ---------- domínio (honesto: últimas respostas, não volume) ---------- */
@@ -105,11 +112,54 @@ function dominio(s: State, filtro: (l: LogItem) => boolean, janela: number, min:
     ult.push(l.ok);
   }
   const n = ult.length;
-  return { n, pct: n >= min ? Math.round((ult.filter(Boolean).length / n) * 100) : null };
+  return { n, pct: n >= min ? Math.round((ult.filter(Boolean).length / n) * 100) : null, ult };
 }
 export const dominioTema = (s: State, area: string) => dominio(s, (l) => l.area === area, DOMINIO.janelaTema, DOMINIO.minTema);
 export const dominioSub = (s: State, area: string, content: string | null) =>
   dominio(s, (l) => l.area === area && l.content === content, DOMINIO.janelaSub, DOMINIO.minSub);
+/* ---------- níveis de domínio por tema ---------- */
+export const NIVEIS_DOMINIO = [
+  { id: "iniciante", nome: "Iniciante", emoji: "🌱", min: 0, minN: DOMINIO.minTema, regra: `menos de 50% de acertos (ou menos de ${DOMINIO.minTema} questões respondidas)` },
+  { id: "praticando", nome: "Praticando", emoji: "💪", min: 50, minN: DOMINIO.minTema, regra: "de 50% a 79% de acertos" },
+  { id: "dominando", nome: "Dominando", emoji: "🏆", min: 80, minN: 5, regra: "80% ou mais, com pelo menos 5 questões na conta" },
+] as const;
+/** 0 = Iniciante, 1 = Praticando, 2 = Dominando. Sem dados suficientes conta como Iniciante. */
+export function nivelDominio(d: { n: number; pct: number | null }): number {
+  if (d.pct === null) return 0;
+  let k = 0;
+  NIVEIS_DOMINIO.forEach((nv, i) => { if (d.pct! >= nv.min && d.n >= nv.minN) k = i; });
+  return k;
+}
+/** Quantos acertos seguidos em questões novas do tema levam ao próximo nível (null se já está no topo). */
+export function acertosParaSubir(s: State, area: string): number | null {
+  const d = dominioTema(s, area);
+  const atual = nivelDominio(d);
+  if (atual >= NIVEIS_DOMINIO.length - 1) return null;
+  for (let k = 1; k <= DOMINIO.janelaTema; k++) {
+    const ult = [...Array(k).fill(true), ...d.ult].slice(0, DOMINIO.janelaTema);
+    const n = ult.length;
+    const pct = n >= DOMINIO.minTema ? Math.round((ult.filter(Boolean).length / n) * 100) : null;
+    if (nivelDominio({ n, pct }) > atual) return k;
+  }
+  return DOMINIO.janelaTema;
+}
+export type ProximoPasso = { texto: string; acao: "revisao" | "tema" | "rapido" | "simulado"; tema?: string };
+export function proximoPasso(s: State): ProximoPasso {
+  const due = dueReviews(s).length;
+  if (due) return { texto: `Recupere ${due === 1 ? "o erro" : `os ${due} erros`} de hoje na revisão: cada acerto vale +${XP.revisao} XP extra.`, acao: "revisao" };
+  const tema = temaMaisFraco(s);
+  const d = dominioTema(s, tema);
+  if (d.pct === null) {
+    const falta = DOMINIO.minTema - d.n;
+    return { texto: `Responda ${falta} ${falta === 1 ? "questão" : "questões"} de ${tema} pra eu medir seu nível nesse tema.`, acao: "tema", tema };
+  }
+  const k = acertosParaSubir(s, tema);
+  if (k === null) return { texto: "Todos os temas medidos estão em Dominando! Faça um mini-simulado pra testar de verdade.", acao: "simulado" };
+  const nv = NIVEIS_DOMINIO[nivelDominio(d)], prox = NIVEIS_DOMINIO[nivelDominio(d) + 1];
+  return { texto: `${tema} está em ${nv.nome} (${d.pct}% nas últimas ${d.n}). Acerte ${k} ${k === 1 ? "questão nova" : "questões novas"} desse tema pra chegar em ${prox.nome}.`, acao: "tema", tema };
+}
+export const folgaDisponivel = (s: State) => !(s.folga.semana === weekId() && s.folga.usadaEm);
+
 export function subtemas(area: string) {
   const m = new Map<string | null, number>();
   for (const q of byTopic(area)) m.set(q.content, (m.get(q.content) ?? 0) + 1);
@@ -128,7 +178,7 @@ const novaSemana = (s: State): Week => ({ id: weekId(), answered: 0, days: [], s
 /** Normaliza e migra progresso salvo (v1 → v2) sem perder nada. */
 export function normalize(raw: Partial<State> & Record<string, unknown>): State {
   const base = emptyState();
-  const s = { ...base, ...raw, prefs: { ...base.prefs, ...(raw.prefs ?? {}) } } as State;
+  const s = { ...base, ...raw, prefs: { ...base.prefs, ...(raw.prefs ?? {}) }, folga: { ...base.folga, ...(raw.folga ?? {}) } } as State;
   s.schema = 2;
   for (const [id, a] of Object.entries(s.answers ?? {})) {
     if (!Array.isArray(a.hist)) s.answers[id] = { ...a, everCorrect: Boolean(a.everCorrect) || a.correct, hist: [a.correct] };
@@ -144,7 +194,14 @@ export function normalize(raw: Partial<State> & Record<string, unknown>): State 
   s.review = s.review ?? {};
   s.recent = s.recent ?? [];
   if (s.daily?.date !== today()) s.daily = { date: today(), count: 0, goalPaid: false };
-  if (s.streak.lastDate && s.streak.lastDate !== today() && s.streak.lastDate !== yesterday()) s.streak = { ...s.streak, count: 0 };
+  s.streak = { ...base.streak, ...(s.streak ?? {}) };
+  if (s.streak.lastDate && s.streak.lastDate !== today() && s.streak.lastDate !== yesterday()) {
+    // dia de folga: ficou exatamente 1 dia sem estudar e a folga desta semana está livre → a sequência continua
+    if (s.streak.lastDate === addDays(-2) && s.streak.count > 0 && folgaDisponivel(s)) {
+      s.folga = { semana: weekId(), usadaEm: yesterday(), avisar: true };
+      s.streak = { ...s.streak, lastDate: yesterday() };
+    } else s.streak = { ...s.streak, count: 0 };
+  }
   if (!s.week || s.week.id !== weekId()) s.week = novaSemana(s);
   else if (!s.week.focus) {
     const ids = new Set(missoes(s.week).map((m) => m.id));
@@ -205,7 +262,12 @@ function payMissions(s: State): string[] {
   return done;
 }
 
-export type Gain = { xp: number; newBadges: string[]; levelUp: string | null; metaBatida: boolean; missoes: string[]; recuperou: boolean };
+export type Gain = {
+  xp: number; newBadges: string[]; levelUp: string | null; metaBatida: boolean; missoes: string[]; recuperou: boolean;
+  /** bônus surpresa (XP) */ surpresa?: number;
+  /** sequência que avançou com esta resposta (1ª questão do dia) */ sequencia?: number;
+  /** tema que subiu de nível de domínio */ dominioUp?: { tema: string; nivel: string } | null;
+};
 export type Origem = "pratica" | "simulado" | "revisao";
 
 /** Registra uma resposta e devolve o novo estado + o que foi ganho. */
@@ -213,6 +275,7 @@ export function registerAnswer(prev: State, q: Question, correct: boolean, orige
   const s: State = normalize(structuredClone(prev));
   const xpBefore = s.xp;
   const lvlBefore = levelOf(s.xp).index;
+  const domAntes = nivelDominio(dominioTema(s, q.area));
   const a = s.answers[q.id];
   const t = today();
   s.answers[q.id] = {
@@ -243,10 +306,14 @@ export function registerAnswer(prev: State, q: Question, correct: boolean, orige
     if (recuperou && origem !== "simulado") gained += XP.revisao;
     if (q.area === s.week.focus) s.week.focusAcertos += 1;
   }
+  let surpresa = 0;
+  if (correct && origem !== "simulado" && sorteio() < CHANCE_SURPRESA) { surpresa = XP.surpresa; gained += surpresa; }
+  let sequencia = 0;
   if (s.streak.lastDate !== t) {
     s.streak.count = s.streak.lastDate === yesterday() ? s.streak.count + 1 : 1;
     s.streak.lastDate = t;
     s.streak.best = Math.max(s.streak.best, s.streak.count);
+    sequencia = s.streak.count;
   }
   s.daily.count += 1;
   s.week.answered += 1;
@@ -261,7 +328,9 @@ export function registerAnswer(prev: State, q: Question, correct: boolean, orige
   const ms = payMissions(s);
   const newBadges = checkBadges(s);
   const lvlAfter = levelOf(s.xp).index;
-  return [s, { xp: s.xp - xpBefore, newBadges, levelUp: lvlAfter > lvlBefore ? levelOf(s.xp).cur.title : null, metaBatida, missoes: ms, recuperou }];
+  const domDepois = nivelDominio(dominioTema(s, q.area));
+  const dominioUp = correct && origem !== "simulado" && domDepois > domAntes ? { tema: q.area, nivel: NIVEIS_DOMINIO[domDepois].nome } : null;
+  return [s, { xp: s.xp - xpBefore, newBadges, levelUp: lvlAfter > lvlBefore ? levelOf(s.xp).cur.title : null, metaBatida, missoes: ms, recuperou, surpresa, sequencia, dominioUp }];
 }
 
 export function registerSimulado(prev: State, kind: SimKind, score: number, total: number, seconds: number): [State, Gain] {
@@ -373,18 +442,20 @@ export const scheduledReviews = (s: State) => {
 };
 export const reviewSet = (s: State) => shuffle(dueReviews(s)).slice(0, 10);
 
-/** Treino inteligente (10): até 3 revisões vencidas + 4 do tema mais fraco + 3 inéditas de outros temas. */
-export function smartSet(s: State): { questions: Question[]; revisao: Set<string>; foco: string } {
+/** Treino inteligente (10): até 3 revisões vencidas + 4 do tema mais fraco + 3 inéditas de outros temas.
+ *  Treino rápido (5): mesma mistura em escala menor (até 2 revisões + 2 do ponto fraco + 1 inédita). */
+export function smartSet(s: State, n = 10): { questions: Question[]; revisao: Set<string>; foco: string } {
   const foco = temaMaisFraco(s);
-  const rev = shuffle(dueReviews(s)).slice(0, 3);
+  const nRev = n >= 10 ? 3 : 2, nFraco = n >= 10 ? 4 : 2, nNovas = n - nRev - nFraco;
+  const rev = shuffle(dueReviews(s)).slice(0, nRev);
   const usados = new Set(rev.map((q) => q.id));
-  const fracas = practiceSet(s, foco, 4, usados);
+  const fracas = practiceSet(s, foco, nFraco, usados);
   fracas.forEach((q) => usados.add(q.id));
   const recent = new Set(s.recent);
-  const novas = shuffle(QUESTIONS.filter((q) => q.area !== foco && !s.answers[q.id] && !recent.has(q.id) && !usados.has(q.id))).slice(0, 3);
+  const novas = shuffle(QUESTIONS.filter((q) => q.area !== foco && !s.answers[q.id] && !recent.has(q.id) && !usados.has(q.id))).slice(0, nNovas);
   novas.forEach((q) => usados.add(q.id));
-  const resto = practiceSet(s, null, 10, usados);
-  const questions = shuffle([...rev, ...fracas, ...novas, ...resto].slice(0, 10));
+  const resto = practiceSet(s, null, n, usados);
+  const questions = shuffle([...rev, ...fracas, ...novas, ...resto].slice(0, n));
   return { questions, revisao: new Set(rev.map((q) => q.id)), foco };
 }
 

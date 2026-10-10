@@ -11,6 +11,10 @@ const server = await preview({ root: new URL("..", import.meta.url).pathname, pr
 const browser = await chromium.launch({ executablePath: "/usr/bin/google-chrome", args: ["--no-sandbox"] });
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true, locale: "pt-BR" });
 await ctx.grantPermissions(["clipboard-read", "clipboard-write"], { origin: "http://127.0.0.1:4189" });
+// sorteio determinístico: sem bônus surpresa, a não ser quando o teste força (window.__tigraoSorte = () => 0)
+await ctx.addInitScript(() => { window.__tigraoSorte = () => 1; });
+const V3 = "/workspace/enem_tigrao/screens_v3/";
+mkdirSync(V3, { recursive: true });
 const page = await ctx.newPage();
 const erros = [];
 page.on("pageerror", (e) => erros.push(String(e)));
@@ -32,6 +36,12 @@ await page.goto("http://127.0.0.1:4189/"); await wait(1200);
 check(await page.getByTestId("materia-fisica").isVisible(), "1º acesso mostra a escolha de matéria");
 await page.getByTestId("materia-fisica").click(); await wait(1200);
 check(await page.getByText("Tigrão ENEM", { exact: true }).isVisible(), "home abre com o Tigrão");
+check(await page.getByTestId("treino-rapido").isVisible() && /Treino rápido de 5/.test(await page.getByTestId("treino-rapido").innerText()), "home: botão principal Treino rápido de 5");
+{
+  const [br, bi] = await Promise.all([page.getByTestId("treino-rapido").boundingBox(), page.getByText("Treino inteligente").first().boundingBox()]);
+  check(br.y < bi.y && br.height >= 56, "treino rápido vem antes e é o botão mais destacado");
+}
+check(/Dia de folga/.test(await page.getByTestId("folga").innerText()), "card mostra o dia de folga semanal: " + (await page.getByTestId("folga").innerText()).replace(/\s+/g, " "));
 const vHome = page.locator('video[data-clip="anim_abertura"]');
 check((await vHome.count()) === 1, "home usa o clipe de abertura");
 await page.waitForFunction(() => { const v = document.querySelector('video[data-clip="anim_abertura"]'); return v && v.readyState >= 2 && !v.paused && v.currentTime > 0.3; }, null, { timeout: 8000 }).then(() => check(true, "abertura toca (autoplay mudo, em loop)"), () => check(false, "abertura toca"));
@@ -55,6 +65,29 @@ vistosPratica.push(q.id);
 check(q.figures.length > 0, `questão com figura: ${q.id}`);
 await page.waitForFunction(() => [...document.querySelectorAll('img[src*="figuras"]')].every((i) => i.complete && i.naturalWidth > 0));
 await page.screenshot({ path: OUT + "02_questao_com_figura.png" });
+await page.evaluate(() => window.scrollTo(0, 0)); await wait(400);
+const topoAlts = await page.getByTestId("alternativas").evaluate((e) => e.getBoundingClientRect().top + window.scrollY);
+// questão longa: garante que as alternativas comecem abaixo da tela (encolhe a altura se precisar)
+if (topoAlts < 844) { await page.setViewportSize({ width: 390, height: Math.max(260, Math.floor(topoAlts) - 60) }); await wait(500); }
+const altsAbaixo = await page.getByTestId("alternativas").evaluate((e) => e.getBoundingClientRect().top > window.innerHeight);
+await page.screenshot({ path: V3 + "07_botao_ir_alternativas.png" });
+{
+  check(await page.getByTestId("ir-alternativas").isVisible(), "questão longa mostra botão flutuante 'Ir para as alternativas'");
+  await page.getByTestId("ir-alternativas").click(); await wait(900);
+  check(await page.getByTestId("alternativas").evaluate((e) => e.getBoundingClientRect().top < window.innerHeight), "botão flutuante leva às alternativas");
+  check((await page.getByTestId("ir-alternativas").count()) === 0, "botão flutuante some quando as alternativas aparecem");
+}
+check(altsAbaixo, "alternativas abaixo da tela no teste do botão");
+await page.setViewportSize({ width: 390, height: 844 }); await wait(300);
+const fig0 = page.getByTestId("figura").first();
+check(await fig0.locator("img").evaluate((e) => e.getBoundingClientRect().width >= window.innerWidth * 0.85), "figura ocupa a largura toda do cartão: " + Math.round((await fig0.locator("img").boundingBox()).width) + "px de 390");
+await fig0.click(); await wait(400);
+check(await page.getByTestId("zoom").isVisible(), "tocar na figura abre o zoom");
+await page.getByTestId("zoom").locator("img").click(); await wait(300);
+check(await page.getByTestId("zoom").locator("img").evaluate((i) => i.getBoundingClientRect().width > window.innerWidth), "segundo toque amplia além da tela");
+await page.screenshot({ path: V3 + "06_figura_zoom.png" });
+await page.getByRole("button", { name: "Fechar" }).click(); await wait(300);
+check((await page.getByTestId("zoom").count()) === 0, "zoom fecha");
 
 // erro: sem XP, Tigrão pensativo, rolagem até o feedback
 const xpAntes = (await state()).xp;
@@ -65,6 +98,17 @@ check(s1.xp === xpAntes, `erro não dá XP (${xpAntes} → ${s1.xp})`);
 check(await page.locator('video[data-clip="anim_erro"]').isVisible(), "erro usa o clipe de apoio do Tigrão");
 check((await page.evaluate(() => window.scrollY)) > 100, "rolou até o feedback");
 check((await page.getByTestId("selo").first().innerText()).includes("Aguardando revisão do professor"), "selo: explicação de IA aguardando revisão do professor");
+check((await page.getByTestId("reacao-tigrao").getAttribute("data-reacao")) === "erro", "reação do Tigrão no erro");
+const falaErro = await page.getByTestId("fala-tigrao").innerText();
+check(/Oxe|Vixe|Errar aqui é treino|Calma/.test(falaErro), "fala de treinador no erro: " + falaErro);
+const res = page.getByTestId("resolucao-topicos");
+const txtRes = await res.innerText();
+check(await res.getByTestId("sec-ideia").isVisible() && await res.getByTestId("sec-como").isVisible(), "resolução em tópicos: Ideia-chave e Como resolver");
+check((await res.locator("li").count()) >= 3 && (await res.locator("li b, li strong").count()) >= 1, "resolução em bullets com conceito em negrito");
+check((await res.getByTestId("sec-resposta").innerText()).includes("Resposta: " + q.answer), "resolução termina com a resposta do gabarito");
+check(!txtRes.includes("**"), "resolução sem markdown cru");
+check(await page.getByTestId("selo").first().evaluate((e) => { const c = getComputedStyle(e).color.match(/\d+/g).map(Number); return c[0] + c[1] + c[2] < 200; }), "aviso de IA com texto escuro (alto contraste)");
+
 check(await page.getByTestId("fonte-questao").isVisible() && /ENEM \d{4} \(Inep\)/.test(await page.getByTestId("fonte-questao").innerText()), "fonte/ano na questão");
 check(await page.getByTestId("aviso").innerText() === "Questões oficiais do ENEM (Inep). App independente, sem vínculo com o Inep/MEC.", "aviso de independência no rodapé");
 const alts = await page.locator('img[src*="figuras"]').evaluateAll((els) => els.map((e) => e.alt));
@@ -73,6 +117,10 @@ check(s1.review[q.id]?.box === 0, "erro entrou na revisão espaçada");
 await wait(1500);
 await page.locator('video[data-clip="anim_erro"]').scrollIntoViewIfNeeded(); await page.evaluate(() => window.scrollBy(0, -120)); await wait(300);
 await page.screenshot({ path: OUT + "13_feedback_erro_animado.png" });
+await page.getByTestId("reacao-tigrao").scrollIntoViewIfNeeded(); await page.evaluate(() => window.scrollBy(0, -70)); await wait(300);
+await page.screenshot({ path: V3 + "02_reacao_tigrao_erro.png" });
+await page.evaluate(() => { document.querySelector('[data-testid="selo"]').scrollIntoView({ block: "start" }); window.scrollBy(0, -150); }); await wait(300);
+await page.screenshot({ path: V3 + "03_resolucao_em_topicos.png" });
 
 // confirmação ao sair
 await page.getByRole("button", { name: "Sair" }).click(); await wait(300);
@@ -84,6 +132,12 @@ const xp2 = (await state()).xp;
 await clicaLetra(q.answer); await wait(900);
 check((await state()).xp >= xp2 + 10, "acerto dá XP");
 check(await page.locator('video[data-clip="anim_acerto"]').isVisible(), "acerto usa o clipe de comemoração");
+check((await page.getByTestId("reacao-tigrao").getAttribute("data-reacao")) === "acerto" && (await page.getByTestId("fala-tigrao").innerText()).length > 10, "reação de acerto com fala do Tigrão");
+{
+  const fb = (await page.getByTestId("xp-feedback").innerText()).trim();
+  const extra = (await page.getByText(/Missão cumprida: Acertar 5/).count()) ? 40 : 0;
+  check((await page.getByTestId("bonus-surpresa").count()) === 0 && fb === `+${10 + extra} XP`, "sem sorteio, acerto vale +10 XP: " + fb + (extra ? " (inclui +40 da missão semanal)" : ""));
+}
 await page.waitForTimeout(1500);
 await page.locator('video[data-clip="anim_acerto"]').scrollIntoViewIfNeeded(); await page.evaluate(() => window.scrollBy(0, -120)); await wait(300);
 await page.screenshot({ path: OUT + "12_feedback_acerto_animado.png" });
@@ -114,6 +168,13 @@ const primeiraErrada = page.locator("text=/^Gabarito: [A-E]\\)/").first();
 check(await primeiraErrada.isVisible(), "revisão do simulado mostra o texto da alternativa");
 await page.evaluate(() => window.scrollTo(0, 0)); await wait(300);
 await page.screenshot({ path: OUT + "04_simulado_resultado.png" });
+check((await page.getByTestId("pct-geral").getAttribute("data-faixa")) === "ambar", "53% no simulado fica âmbar (não vermelho)");
+check((await page.getByTestId("legenda-faixas").count()) === 1 && /40%/.test(await page.getByTestId("legenda-faixas").innerText()), "resultado tem legenda das faixas");
+const faixas = await page.getByTestId("tema-resultado").evaluateAll((els) => els.map((e) => [e.getAttribute("data-faixa"), +e.innerText.match(/(\d+)%/)[1]]));
+check(faixas.length > 0 && faixas.every(([f, p]) => f === (p < 40 ? "vermelho" : p < 70 ? "ambar" : "verde")), "cores por faixa (<40 vermelho, 40–69 âmbar, ≥70 verde): " + faixas.map(([f, p]) => p + "%=" + f).join(" "));
+await page.getByTestId("relatorio-tema").scrollIntoViewIfNeeded(); await page.evaluate(() => window.scrollBy(0, -330)); await wait(300);
+await page.screenshot({ path: V3 + "05_resultado_simulado.png" });
+await page.evaluate(() => window.scrollTo(0, 0)); await wait(200);
 await primeiraErrada.click(); await wait(500);
 await primeiraErrada.scrollIntoViewIfNeeded(); await page.evaluate(() => window.scrollBy(0, -80)); await wait(300);
 await page.screenshot({ path: OUT + "07_simulado_revisao_aberta.png" });
@@ -125,6 +186,10 @@ await page.getByText("Início").click(); await wait(900);
 await page.screenshot({ path: OUT + "21_home.png" });
 await page.getByRole("button", { name: "Meu domínio por tema" }).click(); await wait(500);
 check(/^\d+%$/.test(await page.getByTestId("dom-Mecânica").innerText()), "domínio mostra % em Mecânica: " + (await page.getByTestId("dom-Mecânica").innerText()));
+check(/Iniciante|Praticando|Dominando/.test(await page.getByTestId("nivel-Mecânica").innerText()), "nível de domínio por tema: " + (await page.getByTestId("nivel-Mecânica").innerText()));
+check(/80%/.test(await page.getByTestId("regras-nivel").innerText()) && /50%/.test(await page.getByTestId("regras-nivel").innerText()), "regras dos níveis explicadas");
+check(/base: (1 questão|últimas \d+ questões)/.test(await page.locator("body").innerText()), "mostra em quantas questões o nível se baseia");
+check(await page.getByTestId("proximo-passo").isVisible(), "sugestão de próximo passo: " + (await page.getByTestId("proximo-passo").innerText()).replace(/\n/g, " ").slice(0, 90));
 await page.screenshot({ path: OUT + "22_dominio.png" });
 await page.getByRole("button", { name: "Voltar" }).click(); await wait(300);
 await page.getByText("Conquistas", { exact: true }).click(); await wait(500);
@@ -184,7 +249,11 @@ check(q.explanation.keyConcept && txtDica.includes(q.explanation.keyConcept), "d
 await page.getByTestId("dicas").scrollIntoViewIfNeeded(); await page.evaluate(() => window.scrollBy(0, -200)); await wait(300);
 await page.screenshot({ path: OUT + "23_dica.png" });
 await clicaLetra(q.answer); await wait(700);
-check((await page.getByTestId("xp-feedback").innerText()).trim() === "+7 XP", "acerto com 1 dica vale 7 XP: " + (await page.getByTestId("xp-feedback").innerText()));
+{
+  // a missão semanal "Acertar 5 de <tema da semana>" pode ser paga junto (+40), dependendo da semana
+  const extraMissao = (await page.getByText(/Missão cumprida: Acertar 5/).count()) ? 40 : 0;
+  check((await page.getByTestId("xp-feedback").innerText()).trim() === `+${7 + extraMissao} XP`, "acerto com 1 dica vale 7 XP: " + (await page.getByTestId("xp-feedback").innerText()) + (extraMissao ? " (inclui +40 da missão semanal)" : ""));
+}
 const semExp = Q.filter((x) => !x.explanation).length;
 check(true, `questões sem resolução (sem dica): ${semExp}`);
 
@@ -204,7 +273,8 @@ for (let k = 0; k < 10; k++) {
     achou = true;
     check(await page.getByText("🔁 revisão").isVisible(), "treino inteligente marca a questão de revisão");
     await clicaLetra(q.answer); await wait(600);
-    check((await page.getByTestId("xp-feedback").innerText()).trim() === "+15 XP" && (await page.getByText("Erro recuperado!").isVisible()), "recuperar erro na revisão vale 10 + 5 XP");
+    check((await page.getByTestId("xp-feedback").innerText()).trim() === "+18 XP" && (await page.getByTestId("chip-recuperou").isVisible()) && /Erro recuperado! \+8 XP/.test(await page.getByTestId("chip-recuperou").innerText()), "recuperar erro na revisão vale 10 + 8 XP, com destaque");
+    check((await page.getByTestId("reacao-tigrao").getAttribute("data-reacao")) === "recuperou", "reação especial do Tigrão no erro recuperado");
     break;
   }
   await clicaLetra(["A", "B", "C", "D", "E"].find((l) => l !== q.answer)); await wait(250);
@@ -232,6 +302,66 @@ check(mg.s.schema === 2 && mg.s.xp === 700 && mg.s.log.length === 4 && mg.s.simu
 check(await page.getByText("Rumo aos 700").first().isVisible(), "nível migrado mostra o novo nome");
 await page.getByRole("button", { name: "Meu domínio por tema" }).click(); await wait(400);
 check((await page.getByTestId("dom-Mecânica").innerText()) === "75%", "domínio após migração: 3 de 4 = 75%");
+check(/Praticando/.test(await page.getByTestId("nivel-Mecânica").innerText()), "75% com 4 questões = Praticando (Dominando exige ≥80% em 5+)");
+const migr = await state();
+check(migr.folga && migr.streak.count === 2, "migração cria o dia de folga sem mexer na sequência");
+
+// sequência com dia de folga: última atividade anteontem → a folga cobre ontem
+const ANTEONTEM = await page.evaluate(() => { const d = new Date(); d.setDate(d.getDate() - 2); return d.toLocaleDateString("sv-SE"); });
+const ONTEM = await page.evaluate(() => { const d = new Date(); d.setDate(d.getDate() - 1); return d.toLocaleDateString("sv-SE"); });
+const base4 = Q.filter((x) => x.area === "Mecânica" && x.options).slice(0, 4);
+await page.evaluate(([d, ids]) => {
+  localStorage.clear();
+  const answers = Object.fromEntries(ids.map((id, k) => [id, { correct: true, attempts: 1, everCorrect: true, lastAt: new Date(Date.now() - 86400000 * 2 - (4 - k) * 60000).toISOString() }]));
+  localStorage.setItem("tigrao-enem-fisica-v1", JSON.stringify({ xp: 300, answers, streak: { count: 4, best: 6, lastDate: d }, daily: { date: d, count: 3, goalPaid: false }, recent: ids }));
+}, [ANTEONTEM, base4.map((x) => x.id)]);
+await page.goto("http://127.0.0.1:4189/"); await wait(900);
+const sf = await state();
+check(sf.streak.count === 4 && sf.folga.usadaEm === ONTEM, `folga automática salvou a sequência (4 dias, folga em ${sf.folga.usadaEm})`);
+check(await page.getByTestId("aviso-folga").isVisible(), "aviso: dia de folga usado");
+check(/usado em/.test(await page.getByTestId("folga").innerText()), "card mostra a folga já usada nesta semana");
+await page.screenshot({ path: V3 + "01_home_treino_rapido.png" });
+await page.screenshot({ path: OUT + "26_home_treino_rapido.png" });
+
+// Treino rápido de 5: bônus surpresa forçado, sequência avança, resultado
+await page.getByTestId("treino-rapido").click(); await wait(600);
+check((await page.getByTestId("contador").innerText()) === "1/5", "treino rápido tem 5 questões");
+await page.evaluate(() => { window.__tigraoSorte = () => 0; });
+q = await atual();
+await clicaLetra(q.answer); await wait(700);
+check(await page.getByTestId("bonus-surpresa").isVisible() && (await page.getByTestId("xp-feedback").innerText()).trim() === "+15 XP", "bônus surpresa: +5 XP no acerto (" + (await page.getByTestId("xp-feedback").innerText()) + ")");
+check(/5 dias seguidos/.test(await page.getByTestId("reacao-tigrao").innerText()), "1ª questão do dia avança a sequência com reação do Tigrão");
+await page.evaluate(() => { window.__tigraoSorte = () => 1; });
+for (let k = 1; k < 5; k++) {
+  await page.getByText("Próxima questão").click(); await wait(350);
+  q = await atual();
+  await clicaLetra(q.answer); await wait(450);
+}
+await page.getByText(/Ver resultado|Próxima questão/).first().click(); await wait(800);
+check(await page.getByText("Treino rápido de 5").first().isVisible(), "resultado do treino rápido");
+const sr = await state();
+check(sr.streak.count === 5 && sr.streak.lastDate === HOJE, "1 questão no dia já conta pra sequência");
+
+// subir de nível de domínio (toast) numa prática por tema
+await page.evaluate(([h, ids]) => {
+  localStorage.clear();
+  const answers = Object.fromEntries(ids.map((id, k) => [id, { correct: true, attempts: 1, everCorrect: true, lastAt: new Date(Date.now() - (4 - k) * 60000).toISOString() }]));
+  localStorage.setItem("tigrao-enem-fisica-v1", JSON.stringify({ xp: 300, answers, daily: { date: h, count: 50, goalPaid: true }, streak: { count: 1, best: 1, lastDate: h }, recent: ids }));
+}, [HOJE, base4.map((x) => x.id)]);
+await page.goto("http://127.0.0.1:4189/"); await wait(700);
+await page.getByText("Praticar por tema").click(); await wait(300);
+await page.getByText("Mecânica", { exact: true }).click(); await wait(400);
+q = await atual();
+await clicaLetra(q.answer); await wait(700);
+check(await page.getByTestId("dominio-up").isVisible() && /Mecânica.*Dominando/.test(await page.getByTestId("dominio-up").innerText()), "toast de nível: " + (await page.getByTestId("dominio-up").innerText().catch(() => "—")));
+await page.getByRole("button", { name: "Sair" }).click(); await wait(200);
+await page.getByRole("dialog").getByRole("button", { name: "Sair" }).click(); await wait(500);
+check(await page.getByTestId("resultado-dominio-up").first().isVisible(), "resumo mostra o novo nível de domínio");
+await page.getByText("Início").click(); await wait(600);
+await page.getByRole("button", { name: "Meu domínio por tema" }).click(); await wait(500);
+check(/Dominando/.test(await page.getByTestId("nivel-Mecânica").innerText()), "domínio: Mecânica em Dominando");
+await page.screenshot({ path: V3 + "04_dominio_por_tema.png" });
+await page.screenshot({ path: OUT + "27_dominio_niveis.png", fullPage: true });
 const rm = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, reducedMotion: "reduce" });
 const p2 = await rm.newPage();
 await p2.goto("http://127.0.0.1:4189/"); await p2.waitForTimeout(800);

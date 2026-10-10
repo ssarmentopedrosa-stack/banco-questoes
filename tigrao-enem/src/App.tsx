@@ -1,17 +1,18 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft, BookOpen, Brain, CalendarCheck, Check, ChevronRight, Clock, Download, ExternalLink, Flame, Gauge, Lightbulb, RotateCcw,
-  Settings, Sparkles, Target, Timer, Trophy, Upload, X, ZoomIn,
+  ArrowDown, Settings, Sparkles, Target, Timer, Trophy, Upload, X, Zap, ZoomIn,
 } from "lucide-react";
 import { LETTERS, MATERIA, QUESTIONS, TOPICS, dicas, figuraAlt, optionText, plural, topicInfo, type Option, type Question } from "./data";
 import {
-  ALL_BADGES, DOMINIO, LEVELS, META_DIARIA, SIMULADOS, XP, badgeLabel, dominioSub, dominioTema, dueReviews, levelOf, load, missoes,
-  practiceSet, registerAnswer, registerSimulado, reviewSet, save, scheduledReviews, simuladoDisponivel, simuladoSet, smartSet, subtemas,
-  temaMaisFraco, topicStats, type Gain, type SimKind, type State,
+  ALL_BADGES, CHANCE_SURPRESA, DOMINIO, LEVELS, META_DIARIA, NIVEIS_DOMINIO, SIMULADOS, XP, badgeLabel, dominioSub, dominioTema, dueReviews, folgaDisponivel,
+  levelOf, load, missoes, nivelDominio, practiceSet, proximoPasso, registerAnswer, registerSimulado, reviewSet, save, scheduledReviews, simuladoDisponivel,
+  simuladoSet, smartSet, subtemas, temaMaisFraco, topicStats, type Gain, type SimKind, type State,
 } from "./game";
+import { estruturar } from "./resolucao";
 import { baixarArquivo, exportCode, importCode } from "./backup";
 
-type Mode = "pratica" | "inteligente" | "revisao" | SimKind;
+type Mode = "pratica" | "inteligente" | "rapido" | "revisao" | SimKind;
 const isSim = (m: Mode): m is SimKind => m === "mini" || m === "completo";
 type Quiz = { mode: Mode; topic: string | null; questions: Question[]; revisao: string[] };
 type Screen =
@@ -21,7 +22,7 @@ type Screen =
   | { name: "conquistas" }
   | { name: "ajustes" }
   | ({ name: "quiz" } & Quiz)
-  | { name: "resultado"; mode: Mode; topic: string | null; items: Item[]; xp: number; badges: string[]; levelUp: string | null; missoes: string[]; seconds: number };
+  | { name: "resultado"; mode: Mode; topic: string | null; items: Item[]; xp: number; badges: string[]; levelUp: string | null; missoes: string[]; seconds: number; dominioUps: string[] };
 type Item = { q: Question; chosen: string | null };
 
 const T = "./tigrao/";
@@ -56,17 +57,21 @@ export default function App({ onTrocar }: { onTrocar?: () => void }) {
     const r = smartSet(state);
     go({ mode: "inteligente", topic: r.foco, questions: r.questions, revisao: [...r.revisao] });
   };
+  const startRapido = () => {
+    const r = smartSet(state, 5);
+    go({ mode: "rapido", topic: r.foco, questions: r.questions, revisao: [...r.revisao] });
+  };
   const home = () => setScreen({ name: "home" });
 
   return (
     <div className="mx-auto min-h-screen max-w-md px-4 pb-10 pt-3">
       {screen.name === "home" && (
         <Home state={state} onTemas={() => setScreen({ name: "temas" })} onSimulado={startSimulado} onRevisao={startRevisao} onMix={() => startPratica(null)}
-          onInteligente={startInteligente} onConquistas={() => setScreen({ name: "conquistas" })} onDominio={() => setScreen({ name: "dominio" })}
+          onInteligente={startInteligente} onRapido={startRapido} setState={setState} onConquistas={() => setScreen({ name: "conquistas" })} onDominio={() => setScreen({ name: "dominio" })}
           onAjustes={() => setScreen({ name: "ajustes" })} onTrocar={onTrocar} />
       )}
       {screen.name === "temas" && <Temas state={state} onBack={home} onPick={startPratica} />}
-      {screen.name === "dominio" && <Dominio state={state} onBack={home} onPick={startPratica} />}
+      {screen.name === "dominio" && <Dominio state={state} onBack={home} onPick={startPratica} onRevisao={startRevisao} onSimulado={() => startSimulado("mini")} />}
       {screen.name === "conquistas" && <Conquistas state={state} onBack={home} />}
       {screen.name === "ajustes" && <Ajustes state={state} setState={setState} onBack={home} />}
       {screen.name === "quiz" && (
@@ -75,7 +80,7 @@ export default function App({ onTrocar }: { onTrocar?: () => void }) {
       )}
       {screen.name === "resultado" && (
         <Resultado {...screen} state={state} onHome={home}
-          onAgain={() => (isSim(screen.mode) ? startSimulado(screen.mode) : screen.mode === "revisao" ? startRevisao() : screen.mode === "inteligente" ? startInteligente() : startPratica(screen.topic))} />
+          onAgain={() => (isSim(screen.mode) ? startSimulado(screen.mode) : screen.mode === "revisao" ? startRevisao() : screen.mode === "inteligente" ? startInteligente() : screen.mode === "rapido" ? startRapido() : startPratica(screen.topic))} />
       )}
       <p className="mt-6 px-2 text-center text-[0.6875rem] leading-4 text-tinta/70" data-testid="aviso">{AVISO}</p>
     </div>
@@ -158,6 +163,27 @@ function Barra({ pct, cor = "bg-azul", fundo = "bg-ceu" }: { pct: number; cor?: 
   return <div className={`h-2 overflow-hidden rounded-full ${fundo}`}><div className={`h-full rounded-full ${cor} transition-all`} style={{ width: `${Math.max(0, Math.min(100, pct))}%` }} /></div>;
 }
 
+const dataCurta = (iso: string) => { const [, m, d] = iso.split("-"); return `${d}/${m}`; };
+/** Faixas de acerto com significado: abaixo de 40% vermelho, 40–69% âmbar, 70% ou mais verde. */
+const faixaPct = (pct: number) =>
+  pct < 40 ? { id: "vermelho", barra: "bg-vermelho", chip: "bg-vermelho-claro text-vermelho" }
+    : pct < 70 ? { id: "ambar", barra: "bg-ambar", chip: "bg-ambar-claro text-noite" }
+      : { id: "verde", barra: "bg-teal", chip: "bg-teal-claro text-teal" };
+const COR_NIVEL = [
+  { barra: "bg-vermelho", chip: "bg-vermelho-claro text-vermelho" },
+  { barra: "bg-ambar", chip: "bg-ambar-claro text-noite" },
+  { barra: "bg-teal", chip: "bg-teal-claro text-teal" },
+];
+function LegendaFaixas() {
+  return (
+    <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-[0.6875rem] font-bold text-tinta/85" data-testid="legenda-faixas">
+      <span className="flex items-center gap-1"><span className="h-2.5 w-2.5 rounded-full bg-vermelho" /> abaixo de 40%</span>
+      <span className="flex items-center gap-1"><span className="h-2.5 w-2.5 rounded-full bg-ambar" /> 40% a 69%</span>
+      <span className="flex items-center gap-1"><span className="h-2.5 w-2.5 rounded-full bg-teal" /> 70% ou mais</span>
+    </div>
+  );
+}
+
 /* ---------- HOME ---------- */
 function falaHome(state: State, due: number) {
   const respondidas = Object.keys(state.answers).length;
@@ -170,16 +196,21 @@ function falaHome(state: State, due: number) {
     if (!simHoje) return "Meta do dia batida! 🎯 Que tal um mini-simulado pra fechar com chave de ouro?";
     return "Meta batida e simulado feito. Hoje você foi longe! Descansa que amanhã tem mais. 🌙";
   }
-  if (feitoHoje === 0 && state.streak.count > 0) return `Seu foguinho tá em ${plural(state.streak.count, "dia", "dias")}! Responda uma questão hoje pra não apagar. 🔥`;
+  if (feitoHoje === 0 && state.streak.count > 0) return `Seu foguinho tá em ${plural(state.streak.count, "dia", "dias")}! Uma questão hoje já mantém aceso. Bora no treino rápido? 🔥`;
   if (due > 0) return `Tem ${plural(due, "erro", "erros")} pra revisar. O Treino inteligente já mistura com seu ponto fraco!`;
   return `Bora! Faltam ${plural(META_DIARIA - feitoHoje, "questão", "questões")} pra meta de hoje.`;
 }
 
 function Home(p: {
   state: State; onTemas: () => void; onSimulado: (k: SimKind) => void; onRevisao: () => void; onMix: () => void; onInteligente: () => void;
-  onConquistas: () => void; onDominio: () => void; onAjustes: () => void; onTrocar?: () => void;
+  onRapido: () => void; setState: (s: State) => void; onConquistas: () => void; onDominio: () => void; onAjustes: () => void; onTrocar?: () => void;
 }) {
   const { state } = p;
+  const [avisoFolga] = useState(state.folga.avisar ? state.folga.usadaEm : null);
+  useEffect(() => {
+    if (state.folga.avisar) p.setState({ ...state, folga: { ...state.folga, avisar: false } });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const respondidas = Object.keys(state.answers).length;
   const due = dueReviews(state).length;
   const agendadas = scheduledReviews(state).length;
@@ -208,20 +239,47 @@ function Home(p: {
         </div>
       </div>
 
-      <div className="rounded-3xl bg-papel p-4 shadow-sm ring-1 ring-borda">
-        <div className="flex items-center justify-between text-sm font-bold">
+      <button onClick={p.onRapido} data-testid="treino-rapido"
+        className="relative flex w-full items-center gap-3 overflow-hidden rounded-[28px] bg-gradient-to-r from-laranja to-laranja-escuro p-4 text-left text-white shadow-lg ring-4 ring-laranja/30 active:scale-[.98]">
+        <span className="rounded-2xl bg-white/25 p-3"><Zap className="h-8 w-8" fill="currentColor" /></span>
+        <span className="flex-1">
+          <span className="block font-titulo text-2xl font-extrabold leading-7">Treino rápido de 5</span>
+          <span className="text-[0.8125rem] font-bold text-white">5 questões · uns 5 minutos</span>
+          <span className="block text-[0.6875rem] font-semibold text-white/90">{due ? "revisão + " : ""}seu ponto fraco ({fraco}) + inédita</span>
+        </span>
+        <ChevronRight className="h-7 w-7" />
+      </button>
+
+      <div className="rounded-3xl bg-papel p-4 shadow-sm ring-1 ring-borda" data-testid="card-sequencia">
+        {avisoFolga && (
+          <div className="anim-pop mb-3 rounded-2xl bg-azul-claro px-3 py-2 text-[0.8125rem] font-bold text-noite ring-1 ring-azul/40" data-testid="aviso-folga">
+            🛌 Usei seu dia de folga em {dataCurta(avisoFolga)}: sua sequência de {plural(state.streak.count, "dia", "dias")} tá salva!
+          </div>
+        )}
+        <div className="flex items-center gap-3">
+          <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-laranja-claro text-laranja-escuro"><Flame className="h-7 w-7" fill="currentColor" /></span>
+          <div className="min-w-0 flex-1">
+            <div className="font-titulo text-lg font-extrabold leading-6 text-noite">{plural(state.streak.count, "dia seguido", "dias seguidos")}</div>
+            <div className="text-[0.75rem] font-semibold text-tinta/80">{state.daily.count > 0 ? "✅ Hoje já conta! " : "Responda 1 questão hoje pra contar o dia. "}Recorde: {plural(state.streak.best, "dia", "dias")}.</div>
+          </div>
+        </div>
+        <div className={`mt-2 rounded-2xl px-3 py-2 text-[0.75rem] font-bold ${folgaDisponivel(state) ? "bg-teal-claro text-noite" : "bg-desligado text-tinta"}`} data-testid="folga">
+          🛌 Dia de folga: {folgaDisponivel(state) ? "disponível esta semana" : `usado em ${dataCurta(state.folga.usadaEm!)} (volta na segunda)`}
+          <span className="block text-[0.6875rem] font-semibold text-tinta/80">Se você ficar 1 dia sem estudar, ele é usado sozinho e a sequência não zera. 1 por semana.</span>
+        </div>
+        <div className="mt-3 flex items-center justify-between text-sm font-bold">
           <span className="flex items-center gap-1.5 text-noite"><Target className="h-4 w-4" /> Meta do dia</span>
           <span className="text-tinta/80">{Math.min(state.daily.count, META_DIARIA)}/{META_DIARIA} questões {metaOk && "✅"}</span>
         </div>
         <div className="mt-2"><Barra pct={metaPct} cor={metaOk ? "bg-teal" : "bg-laranja"} /></div>
-        <div className="mt-1 text-[0.6875rem] text-tinta/70">{metaOk ? `Meta batida hoje! +${XP.metaDiaria} XP garantidos. Volte amanhã pra manter o 🔥.` : `Bata a meta e ganhe +${XP.metaDiaria} XP. Estudar todo dia mantém o 🔥.`}</div>
+        <div className="mt-1 text-[0.6875rem] text-tinta/75">{metaOk ? `Meta batida hoje! +${XP.metaDiaria} XP garantidos.` : `Bata a meta de ${META_DIARIA} e ganhe +${XP.metaDiaria} XP de bônus.`}</div>
       </div>
 
-      <button onClick={p.onInteligente} className="flex w-full items-center gap-3 rounded-3xl bg-gradient-to-r from-azul to-roxo p-4 text-left text-white shadow-md active:scale-[.98]">
-        <span className="rounded-2xl bg-white/20 p-2.5"><Brain className="h-7 w-7" /></span>
+      <button onClick={p.onInteligente} className="flex w-full items-center gap-3 rounded-3xl bg-gradient-to-r from-azul to-roxo p-3.5 text-left text-white shadow-md active:scale-[.98]">
+        <span className="rounded-2xl bg-white/20 p-2"><Brain className="h-6 w-6" /></span>
         <span className="flex-1">
-          <span className="block font-titulo text-xl font-extrabold leading-6">Treino inteligente</span>
-          <span className="text-[0.75rem] font-semibold text-white/90">10 questões: {due ? `${Math.min(due, 3)} de revisão + ` : ""}seu ponto fraco ({fraco}) + inéditas</span>
+          <span className="block font-titulo text-lg font-extrabold leading-5">Treino inteligente</span>
+          <span className="text-[0.6875rem] font-semibold text-white/90">10 questões: {due ? `${Math.min(due, 3)} de revisão + ` : ""}seu ponto fraco ({fraco}) + inéditas</span>
         </span>
         <ChevronRight className="h-6 w-6" />
       </button>
@@ -245,15 +303,16 @@ function Home(p: {
           <div className="mt-2 space-y-1.5">
             {TOPICS.map((t) => {
               const d = dominioTema(state, t.name);
+              const nv = NIVEIS_DOMINIO[nivelDominio(d)];
               return (
                 <div key={t.name} className="flex items-center gap-2 text-[0.75rem]">
-                  <span className="w-36 truncate font-bold">{t.emoji} {t.name}</span>
-                  <span className="flex-1"><Barra pct={d.pct ?? 0} cor={t.cor} /></span>
-                  <span className="w-9 text-right font-black text-tinta/80">{d.pct === null ? "—" : `${d.pct}%`}</span>
+                  <span className="w-32 truncate font-bold">{t.emoji} {t.name}</span>
+                  <span className="flex-1"><Barra pct={d.pct ?? 0} cor={COR_NIVEL[nivelDominio(d)].barra} /></span>
+                  <span className={`w-24 shrink-0 rounded-full px-1.5 py-0.5 text-center text-[0.625rem] font-black ${d.pct === null ? "bg-desligado text-tinta/80" : COR_NIVEL[nivelDominio(d)].chip}`}>{d.pct === null ? "sem dados" : `${nv.emoji} ${nv.nome}`}</span>
                 </div>
               );
             })}
-            <div className="pt-1 text-[0.75rem] font-bold text-vermelho">Seu maior gargalo agora: {fraco}</div>
+            <div className="pt-1 text-[0.75rem] font-bold text-noite">👉 Próximo passo: <span className="font-semibold">{proximoPasso(state).texto}</span></div>
           </div>
         ) : (
           <div className="mt-1 text-[0.75rem] text-tinta/75">Responda pelo menos {DOMINIO.minTema} questões de um tema para ver seu domínio. Ele usa suas últimas respostas, não o volume.</div>
@@ -358,33 +417,58 @@ function Temas({ state, onBack, onPick }: { state: State; onBack: () => void; on
 }
 
 /* ---------- DOMÍNIO ---------- */
-function Dominio({ state, onBack, onPick }: { state: State; onBack: () => void; onPick: (t: string) => void }) {
+function Dominio({ state, onBack, onPick, onRevisao, onSimulado }: { state: State; onBack: () => void; onPick: (t: string) => void; onRevisao: () => void; onSimulado: () => void }) {
   const fraco = temaMaisFraco(state);
-  const [aberto, setAberto] = useState<string | null>(fraco);
+  const [aberto, setAberto] = useState<string | null>(null);
+  const passo = proximoPasso(state);
+  const acao = () => (passo.acao === "revisao" ? onRevisao() : passo.acao === "simulado" ? onSimulado() : onPick(passo.tema ?? fraco));
   return (
     <div className="space-y-3">
       <Header title="Meu domínio" onBack={onBack} />
-      <div className="rounded-3xl bg-papel p-3 text-[0.75rem] leading-4 text-tinta/85 shadow-sm ring-1 ring-borda">
-        O domínio mostra quantas das suas <b>últimas {DOMINIO.janelaTema} questões diferentes</b> de cada tema você acertou (subtemas: últimas {DOMINIO.janelaSub}).
-        Responder mais não aumenta o número; acertar sim. Aparece depois de {DOMINIO.minTema} questões do tema.
+      <div className="flex items-center gap-3 rounded-3xl bg-noite p-3 text-white shadow-md" data-testid="proximo-passo">
+        <img src={T + "busto.webp"} alt="" className="h-16 w-16 shrink-0 rounded-2xl object-cover ring-2 ring-white/60" />
+        <div className="min-w-0 flex-1">
+          <div className="text-[0.6875rem] font-black uppercase tracking-wide text-laranja-claro">👉 Próximo passo</div>
+          <div className="text-[0.8125rem] font-semibold leading-5">{passo.texto}</div>
+          <button onClick={acao} className="mt-1.5 rounded-full bg-laranja px-3 py-1.5 text-[0.75rem] font-extrabold text-white">
+            {passo.acao === "revisao" ? "Revisar agora" : passo.acao === "simulado" ? "Fazer mini-simulado" : `Treinar ${passo.tema}`}
+          </button>
+        </div>
       </div>
-      <div className="flex items-center gap-3 rounded-3xl bg-vermelho-claro p-3 ring-1 ring-vermelho/30">
-        <img src={T + "busto.webp"} alt="" className="h-14 w-14 rounded-2xl object-cover" />
-        <div className="flex-1 text-[0.8125rem]"><b>Seu maior gargalo:</b> {fraco}</div>
-        <button onClick={() => onPick(fraco)} className="rounded-full bg-vermelho px-3 py-2 text-[0.75rem] font-bold text-white">Treinar</button>
+      <div className="rounded-3xl bg-papel p-3 text-[0.75rem] leading-4 text-tinta shadow-sm ring-1 ring-borda" data-testid="regras-nivel">
+        <div className="mb-1.5 font-extrabold text-noite">Como o nível de cada tema é calculado</div>
+        <p className="mb-2">Conta só as suas <b>últimas {DOMINIO.janelaTema} questões diferentes</b> de cada tema: responder mais não sobe o nível, acertar sim.</p>
+        <ul className="space-y-1">
+          {NIVEIS_DOMINIO.map((nv, k) => (
+            <li key={nv.id} className="flex items-start gap-2">
+              <span className={`shrink-0 rounded-full px-2 py-0.5 text-[0.6875rem] font-black ${COR_NIVEL[k].chip}`}>{nv.emoji} {nv.nome}</span>
+              <span className="pt-0.5">{nv.regra}</span>
+            </li>
+          ))}
+        </ul>
       </div>
       {TOPICS.map((t) => {
         const d = dominioTema(state, t.name);
         const st = topicStats(state, t.name);
+        const k = nivelDominio(d);
+        const nv = NIVEIS_DOMINIO[k];
         const open = aberto === t.name;
         return (
           <div key={t.name} className="rounded-3xl bg-papel p-3 shadow-sm ring-1 ring-borda">
             <button className="flex w-full items-center gap-2 text-left" onClick={() => setAberto(open ? null : t.name)} aria-expanded={open}>
               <span className={`${t.corClara} grid h-10 w-10 shrink-0 place-items-center rounded-xl text-xl`}>{t.emoji}</span>
               <span className="min-w-0 flex-1">
-                <span className="flex justify-between text-[0.875rem] font-bold"><span>{t.name}</span><span data-testid={"dom-" + t.name}>{d.pct === null ? "—" : `${d.pct}%`}</span></span>
-                <span className="mt-1 block"><Barra pct={d.pct ?? 0} cor={t.cor} /></span>
-                <span className="text-[0.6875rem] text-tinta/70">{d.pct === null ? `responda ${DOMINIO.minTema - d.n} ${DOMINIO.minTema - d.n === 1 ? "questão" : "questões"} pra medir` : `base: últimas ${d.n} questões`} · {st.vistas}/{st.total} vistas</span>
+                <span className="flex items-center justify-between gap-2 text-[0.875rem] font-bold">
+                  <span className="truncate">{t.name}</span>
+                  <span className="flex shrink-0 items-center gap-1.5">
+                    <span data-testid={"nivel-" + t.name} className={`rounded-full px-2 py-0.5 text-[0.625rem] font-black ${d.pct === null ? "bg-desligado text-tinta/80" : COR_NIVEL[k].chip}`}>{d.pct === null ? "sem dados" : `${nv.emoji} ${nv.nome}`}</span>
+                    <span data-testid={"dom-" + t.name}>{d.pct === null ? "—" : `${d.pct}%`}</span>
+                  </span>
+                </span>
+                <span className="mt-1 block"><Barra pct={d.pct ?? 0} cor={COR_NIVEL[k].barra} /></span>
+                <span className="text-[0.6875rem] text-tinta/80">
+                  {d.pct === null ? `responda ${DOMINIO.minTema - d.n} ${DOMINIO.minTema - d.n === 1 ? "questão" : "questões"} pra medir` : `base: ${d.n === 1 ? "1 questão" : `últimas ${d.n} questões`}`} · {st.vistas}/{st.total} vistas
+                </span>
               </span>
               <ChevronRight className={`h-4 w-4 shrink-0 transition ${open ? "rotate-90" : ""}`} />
             </button>
@@ -395,7 +479,7 @@ function Dominio({ state, onBack, onPick }: { state: State; onBack: () => void; 
                   return (
                     <div key={sub.nome} className="flex items-center gap-2 text-[0.75rem]">
                       <span className="w-40 truncate">{sub.nome} <span className="text-tinta/60">({sub.total})</span></span>
-                      <span className="flex-1"><Barra pct={ds.pct ?? 0} cor={t.cor} /></span>
+                      <span className="flex-1"><Barra pct={ds.pct ?? 0} cor={ds.pct === null ? "bg-ceu" : faixaPct(ds.pct).barra} /></span>
                       <span className="w-9 text-right font-bold">{ds.pct === null ? "—" : `${ds.pct}%`}</span>
                     </div>
                   );
@@ -447,23 +531,37 @@ function Enunciado({ q, className }: { q: Question; className: string }) {
 }
 
 function Figuras({ q, only, indices, pular }: { q: Question; only?: "alternativas" | "enunciado"; indices?: number[]; pular?: Set<number> }) {
-  const [zoom, setZoom] = useState<{ src: string; alt: string } | null>(null);
+  const [zoom, setZoom] = useState<{ src: string; alt: string; w: number } | null>(null);
+  const [grande, setGrande] = useState(false);
   const list = q.figures.map((f, i) => ({ f, i, alt: figuraAlt(q, f, i) }))
     .filter(({ i }) => (indices ? indices.includes(i) : !pular?.has(i)))
     .filter(({ f }) => (only === "alternativas" ? f.kind === "alternativas" : only === "enunciado" ? f.kind !== "alternativas" : true));
+  useEffect(() => {
+    if (!zoom) return;
+    const h = (e: KeyboardEvent) => e.key === "Escape" && setZoom(null);
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
+  }, [zoom]);
   if (!list.length) return null;
   return (
-    <div className="mt-3 space-y-2">
+    <div className="-mx-2 mt-3 space-y-2">
       {list.map(({ f, alt }) => (
-        <button key={f.src} onClick={() => setZoom({ src: f.src, alt })} className="relative block w-full overflow-hidden rounded-2xl bg-white p-2 ring-1 ring-borda" aria-label={"Ampliar: " + alt}>
-          <img src={f.src} alt={alt} width={f.width} height={f.height} loading="lazy" className="mx-auto h-auto max-h-[420px] w-auto max-w-full object-contain" />
-          <span className="absolute bottom-1.5 right-1.5 flex items-center gap-1 rounded-full bg-noite/80 px-2 py-0.5 text-[0.625rem] font-bold text-white"><ZoomIn className="h-3 w-3" /> ampliar</span>
+        <button key={f.src} onClick={() => { setGrande(false); setZoom({ src: f.src, alt, w: f.width }); }} className="relative block w-full overflow-hidden rounded-xl bg-white ring-1 ring-borda" aria-label={"Ampliar: " + alt} data-testid="figura">
+          <img src={f.src} alt={alt} width={f.width} height={f.height} loading="lazy" className="block h-auto max-h-[75vh] w-full object-contain" />
+          <span className="absolute bottom-1.5 right-1.5 flex items-center gap-1 rounded-full bg-noite/85 px-2 py-0.5 text-[0.625rem] font-bold text-white"><ZoomIn className="h-3 w-3" /> toque pra ampliar</span>
         </button>
       ))}
       {zoom && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-noite/90 p-3" onClick={() => setZoom(null)} role="dialog" aria-label="Figura ampliada">
-          <img src={zoom.src} alt={zoom.alt} className="max-h-full max-w-full rounded-xl bg-white p-2" />
-          <button className="absolute right-3 top-3 rounded-full bg-white p-2" aria-label="Fechar"><X className="h-5 w-5" /></button>
+        <div className="fixed inset-0 z-50 flex flex-col bg-noite/95" role="dialog" aria-label="Figura ampliada" data-testid="zoom">
+          <div className="flex items-center justify-between gap-2 p-2 text-[0.75rem] font-bold text-white">
+            <span>{grande ? "Arraste pra ver o resto · toque pra reduzir" : "Toque na figura pra ampliar mais"}</span>
+            <button onClick={() => setZoom(null)} className="rounded-full bg-white p-2 text-noite" aria-label="Fechar"><X className="h-5 w-5" /></button>
+          </div>
+          <div className="flex-1 overflow-auto p-2" style={{ touchAction: "pan-x pan-y pinch-zoom" }}>
+            <img src={zoom.src} alt={zoom.alt} onClick={() => setGrande(!grande)}
+              className={`mx-auto rounded-lg bg-white ${grande ? "max-w-none" : "max-h-full w-full object-contain"}`}
+              style={grande ? { width: `${Math.max(zoom.w, 900)}px` } : undefined} />
+          </div>
         </div>
       )}
     </div>
@@ -492,7 +590,7 @@ const fonteQuestao = (q: Question) => `Fonte: ENEM ${q.year} (Inep) · caderno $
 
 function QuizView(p: Quiz & {
   state: State; setState: (s: State) => void; onExit: () => void;
-  onFinish: (r: { items: Item[]; xp: number; badges: string[]; levelUp: string | null; missoes: string[]; seconds: number }) => void;
+  onFinish: (r: { items: Item[]; xp: number; badges: string[]; levelUp: string | null; missoes: string[]; seconds: number; dominioUps: string[] }) => void;
 }) {
   const { questions, mode } = p;
   const sim = isSim(mode);
@@ -504,12 +602,14 @@ function QuizView(p: Quiz & {
   const [gain, setGain] = useState<Gain | null>(null);
   const [nDicas, setNDicas] = useState(0);
   const [sair, setSair] = useState(false);
-  const acc = useRef({ xp: 0, badges: [] as string[], levelUp: null as string | null, missoes: [] as string[], state: p.state });
+  const acc = useRef({ xp: 0, badges: [] as string[], levelUp: null as string | null, missoes: [] as string[], dominioUps: [] as string[], state: p.state });
+  const altsRef = useRef<HTMLDivElement>(null);
+  const [altsVisiveis, setAltsVisiveis] = useState(true);
   const [left, setLeft] = useState(total);
   const start = useRef(Date.now());
   const finished = useRef(false);
   const feedbackRef = useRef<HTMLDivElement>(null);
-  const frase = useMemo(() => ({ ok: pick(frasesAcerto()), erro: pick(FRASES_ERRO) }), [i]);
+  const frase = useMemo(() => ({ ok: pick(frasesAcerto()), erro: pick(FRASES_ERRO), sorte: Math.random() }), [i]);
   const q = questions[i];
   const ultima = i === questions.length - 1;
   const emAndamento = items.length > 0 || chosen !== null;
@@ -540,6 +640,7 @@ function QuizView(p: Quiz & {
   const absorb = (g: Gain) => {
     acc.current.xp += g.xp; acc.current.badges.push(...g.newBadges); acc.current.missoes.push(...g.missoes);
     if (g.levelUp) acc.current.levelUp = g.levelUp;
+    if (g.dominioUp) acc.current.dominioUps.push(`${g.dominioUp.tema}: ${g.dominioUp.nivel}`);
   };
 
   const finish = (all: Item[]) => {
@@ -558,7 +659,7 @@ function QuizView(p: Quiz & {
       s = ns; absorb(g);
       p.setState(s);
     }
-    p.onFinish({ items: all, xp: acc.current.xp, badges: acc.current.badges, levelUp: acc.current.levelUp, missoes: acc.current.missoes, seconds });
+    p.onFinish({ items: all, xp: acc.current.xp, badges: acc.current.badges, levelUp: acc.current.levelUp, missoes: acc.current.missoes, seconds, dominioUps: acc.current.dominioUps });
   };
 
   useEffect(() => {
@@ -571,6 +672,16 @@ function QuizView(p: Quiz & {
     return () => clearInterval(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [items, chosen]);
+
+  const longa = !!q && (q.statement.length > 650 || q.figures.length > 0);
+  useEffect(() => {
+    const el = altsRef.current;
+    if (!el || !("IntersectionObserver" in window)) return;
+    const io = new IntersectionObserver(([e]) => setAltsVisiveis(e.isIntersecting || e.boundingClientRect.top < 0), { threshold: 0.05 });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [i, q?.id]);
+  const irParaAlternativas = () => altsRef.current?.scrollIntoView({ behavior: window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
 
   if (!q) {
     return (
@@ -611,7 +722,7 @@ function QuizView(p: Quiz & {
   };
   const correct = chosen === q.answer;
   const t = topicInfo(q.area);
-  const titulo = sim ? SIMULADOS[mode].nome : mode === "revisao" ? "Revisão de erros" : mode === "inteligente" ? "Treino inteligente" : p.topic ?? "Mistão do dia";
+  const titulo = sim ? SIMULADOS[mode].nome : mode === "revisao" ? "Revisão de erros" : mode === "inteligente" ? "Treino inteligente" : mode === "rapido" ? "Treino rápido de 5" : p.topic ?? "Mistão do dia";
   const letras: Option[] = q.options ?? LETTERS.map((l) => ({ letter: l, text: "" }));
   const ds = sim ? [] : dicas(q);
 
@@ -677,7 +788,14 @@ function QuizView(p: Quiz & {
 
       {sim && <p className="mt-3 text-center text-[0.6875rem] font-semibold text-tinta/75">Modo prova: gabarito e resolução só aparecem no final.</p>}
 
-      <div className={`mt-3 ${q.options ? "space-y-2.5" : "grid grid-cols-5 gap-2"}`}>
+      {longa && !altsVisiveis && !revealed && !chosen && (
+        <button onClick={irParaAlternativas} data-testid="ir-alternativas"
+          className="anim-sobe fixed bottom-4 left-1/2 z-40 flex -translate-x-1/2 items-center gap-1.5 rounded-full bg-noite px-4 py-2.5 text-[0.8125rem] font-extrabold text-white shadow-xl ring-2 ring-white">
+          <ArrowDown className="h-4 w-4" /> Ir para as alternativas
+        </button>
+      )}
+
+      <div ref={altsRef} className={`mt-3 scroll-mt-3 ${q.options ? "space-y-2.5" : "grid grid-cols-5 gap-2"}`} data-testid="alternativas">
         {letras.map((o) => {
           const isChosen = chosen === o.letter;
           const isAns = o.letter === q.answer;
@@ -704,28 +822,7 @@ function QuizView(p: Quiz & {
 
       {revealed && (
         <div ref={feedbackRef} className="anim-pop mt-4 scroll-mt-3 space-y-3">
-          <div className={`relative flex items-center gap-3 overflow-hidden rounded-3xl p-3 ${correct ? "bg-teal text-white" : "bg-vermelho-claro text-tinta ring-2 ring-vermelho/40"}`}>
-            {correct && <Confete />}
-            <div className="relative shrink-0">
-              <TigraoAnimado clip={correct ? "anim_acerto" : "anim_erro"} poster={correct ? "avatar.webp" : "busto.webp"}
-                alt={correct ? "Tigrão comemorando" : "Tigrão dando força"} className={`h-24 rounded-2xl object-cover ${correct ? "w-24" : "w-28"}`}
-                imgClassName={correct ? "anim-pulo" : "anim-pensa"} />
-              <span className="absolute -right-2 -top-2 text-2xl">{correct ? "🎉" : "🤔"}</span>
-            </div>
-            <div>
-              <div className="font-titulo text-xl font-extrabold leading-6">{correct ? frase.ok : frase.erro}</div>
-              <div className="text-sm font-semibold opacity-90" data-testid="xp-feedback">
-                {correct ? `+${gain?.xp ?? XP.acerto} XP` : `Gabarito oficial: letra ${q.answer}. Sem XP desta vez — vale pela revisão!`}
-              </div>
-              {correct && nDicas > 0 && <div className="text-xs font-bold">💡 Com {plural(nDicas, "dica", "dicas")}: acerto vale {XP.acertoComDica[Math.min(nDicas, 2)]} XP.</div>}
-              {gain?.recuperou && <div className="text-xs font-bold">🔁 Erro recuperado! +{XP.revisao} XP de revisão.</div>}
-              {!correct && <div className="text-xs font-bold">🔁 Ela volta na sua revisão de erros.</div>}
-              {gain?.metaBatida && <div className="text-xs font-bold">🎯 Meta do dia batida! +{XP.metaDiaria} XP</div>}
-              {gain?.missoes.map((m) => <div key={m} className="text-xs font-bold">🗓️ Missão cumprida: {m}</div>)}
-              {gain?.levelUp && <div className="text-xs font-bold">⬆️ Subiu de nível: {gain.levelUp}!</div>}
-              {gain?.newBadges.map((b) => <div key={b} className="text-xs font-bold">🏅 Nova medalha: {badgeLabel(b).nome}</div>)}
-            </div>
-          </div>
+          <ReacaoTigrao q={q} correct={correct} gain={gain} sorte={frase.sorte} titulo={correct ? frase.ok : frase.erro} nDicas={nDicas} />
           <Resolucao q={q} />
         </div>
       )}
@@ -748,33 +845,47 @@ function QuizView(p: Quiz & {
 function inline(s: string) {
   return s.split(/(\*\*[^*]+\*\*)/g).map((part, k) => (part.startsWith("**") && part.endsWith("**") ? <b key={k}>{part.slice(2, -2)}</b> : part));
 }
-function Markdown({ text }: { text: string }) {
-  const blocos: React.ReactNode[] = [];
-  let lista: string[] = [];
-  const flush = () => {
-    if (lista.length) blocos.push(<ul key={blocos.length} className="ml-4 list-disc space-y-0.5">{lista.map((l, k) => <li key={k}>{inline(l)}</li>)}</ul>);
-    lista = [];
-  };
-  for (const linha of text.split("\n")) {
-    const l = linha.trim();
-    if (l.startsWith("- ")) { lista.push(l.slice(2)); continue; }
-    flush();
-    if (l) blocos.push(<p key={blocos.length}>{inline(l)}</p>);
-  }
-  flush();
-  return <div className="space-y-2 text-[0.875rem] leading-5">{blocos}</div>;
-}
 
 function SeloResolucao({ q }: { q: Question }) {
   const ex = q.explanation!;
+  const base = "mb-3 rounded-2xl px-3 py-2 text-[0.75rem] font-extrabold leading-4";
   if (ex.author === "IA")
-    return <div data-testid="selo" className="mb-2 rounded-2xl bg-laranja-claro px-3 py-2 text-[0.6875rem] font-bold leading-4 text-laranja-escuro">🤖 Resolução gerada por IA · Resolução ainda não revisada pelo professor</div>;
+    return <div data-testid="selo" className={`${base} bg-ouro-claro text-noite ring-2 ring-laranja`}>🤖 Resolução gerada por IA · Resolução ainda não revisada pelo professor</div>;
   if (ex.reviewed)
-    return <div data-testid="selo" className="mb-2 rounded-2xl bg-teal-claro px-3 py-2 text-[0.6875rem] font-bold leading-4 text-teal">✅ Revisada pelo Prof. Silas</div>;
+    return <div data-testid="selo" className={`${base} bg-teal-claro text-teal ring-1 ring-teal`}>✅ Revisada pelo Prof. Silas</div>;
   return (
-    <div data-testid="selo" className="mb-2 rounded-2xl bg-laranja-claro px-3 py-2 text-[0.6875rem] font-bold leading-4 text-laranja-escuro">
+    <div data-testid="selo" className={`${base} bg-ouro-claro text-noite ring-2 ring-laranja`}>
       🤖 Explicação gerada por IA ({ex.author.replace(/^IA \((.*)\)$/, "$1")}) · Aguardando revisão do professor
       {ex.lowConfidence && " · ⚠️ Confiança baixa: confira com atenção."}
+    </div>
+  );
+}
+
+function Secao({ titulo, children, testid }: { titulo: string; children: React.ReactNode; testid?: string }) {
+  return (
+    <div data-testid={testid}>
+      <div className="mb-1 text-[0.75rem] font-black uppercase tracking-wide text-azul">{titulo}</div>
+      {children}
+    </div>
+  );
+}
+const Lista = ({ itens }: { itens: string[] }) => (
+  <ul className="ml-4 list-disc space-y-1 marker:text-laranja">{itens.map((t, k) => <li key={k}>{inline(t.replace(/^(\*\*)?([a-záéíóúâêôãõç])/, (_m, b, c) => (b ?? "") + c.toUpperCase()))}</li>)}</ul>
+);
+
+/** Resolução em tópicos: Ideia-chave / Como resolver / Por que as outras estão erradas / Resposta (mesmo texto, só reorganizado). */
+function ResolucaoTopicos({ q }: { q: Question }) {
+  const r = estruturar(q.explanation!, q.answer);
+  const ideias = r.conceito ? [`**${r.conceito.replace(/\.$/, "")}**${r.ideia.length ? ": " + r.ideia[0] : ""}`, ...r.ideia.slice(1)] : r.ideia;
+  return (
+    <div className="space-y-3 text-[0.875rem] leading-5" data-testid="resolucao-topicos">
+      {ideias.length > 0 && <Secao titulo="💡 Ideia-chave" testid="sec-ideia"><Lista itens={ideias} /></Secao>}
+      {r.passos.length > 0 && <Secao titulo="🧭 Como resolver" testid="sec-como"><Lista itens={r.passos} /></Secao>}
+      {r.outras.length > 0 && <Secao titulo="🚫 Por que as outras estão erradas" testid="sec-outras"><Lista itens={r.outras} /></Secao>}
+      {q.explanation!.commonMistake && <Secao titulo="⚠️ Erro comum"><Lista itens={[q.explanation!.commonMistake]} /></Secao>}
+      <div className="rounded-2xl bg-teal-claro px-3 py-2 font-bold text-noite" data-testid="sec-resposta">
+        ✅ Resposta: {r.resposta}{r.porQue ? <span className="font-semibold"> · {inline(r.porQue)}</span> : null}
+      </div>
     </div>
   );
 }
@@ -791,8 +902,7 @@ function Resolucao({ q }: { q: Question }) {
       {ex ? (
         <>
           <SeloResolucao q={q} />
-          <Markdown text={ex.markdown} />
-          {ex.commonMistake && <div className="mt-2 text-[0.8125rem]"><b>Erro comum:</b> {ex.commonMistake}</div>}
+          <ResolucaoTopicos q={q} />
         </>
       ) : (
         <p className="text-[0.8125rem] text-tinta/85">A resolução comentada desta questão ainda não foi escrita. Confira o gabarito oficial acima.</p>
@@ -805,12 +915,103 @@ function Resolucao({ q }: { q: Question }) {
   );
 }
 
-function Confete() {
+/* ---------- reações do Tigrão (acerto, erro, sequência, erro recuperado, meta do dia, bônus surpresa) ---------- */
+type Reacao = "acerto" | "erro" | "sequencia" | "recuperou" | "meta" | "surpresa";
+function tipoReacao(correct: boolean, g: Gain | null): Reacao {
+  if (!correct) return "erro";
+  if (g?.metaBatida) return "meta";
+  if (g?.recuperou) return "recuperou";
+  if (g?.sequencia && g.sequencia >= 2) return "sequencia";
+  if (g?.surpresa) return "surpresa";
+  return "acerto";
+}
+/** Cada reação usa uma arte/expressão diferente do Tigrão (mesmas artes de public/tigrao, variando recorte, moldura e animação). */
+const VISUAL: Record<Reacao, { clip?: Clip; img: string; anim: string; emoji: string; moldura: string; fundo: string; alt: string }> = {
+  acerto: { clip: "anim_acerto", img: "avatar.webp", anim: "anim-pulo", emoji: "🎉", moldura: "", fundo: "bg-teal text-white", alt: "Tigrão comemorando" },
+  surpresa: { clip: "anim_acerto", img: "avatar.webp", anim: "anim-pulo", emoji: "🎁", moldura: "ring-4 ring-ouro-claro", fundo: "bg-teal text-white", alt: "Tigrão com um presente" },
+  erro: { clip: "anim_erro", img: "busto.webp", anim: "anim-pensa", emoji: "🤔", moldura: "", fundo: "bg-vermelho-claro text-tinta ring-2 ring-vermelho/40", alt: "Tigrão pensativo, dando força" },
+  sequencia: { img: "avatar.webp", anim: "anim-brilho", emoji: "🔥", moldura: "ring-4 ring-laranja", fundo: "bg-gradient-to-r from-laranja-escuro to-laranja text-white", alt: "Tigrão animado com a sequência" },
+  recuperou: { img: "acena.webp", anim: "anim-giro", emoji: "💪", moldura: "ring-4 ring-white", fundo: "bg-gradient-to-r from-teal to-azul text-white", alt: "Tigrão vibrando com o erro recuperado" },
+  meta: { img: "cena.webp", anim: "anim-brilho", emoji: "🏆", moldura: "ring-4 ring-ouro-claro", fundo: "bg-gradient-to-r from-noite to-azul text-white", alt: "Tigrão no laboratório comemorando a meta" },
+};
+function falaTigrao(tipo: Reacao, q: Question, g: Gain | null, sorte: number): { titulo?: string; fala: string } {
+  const c = q.explanation?.keyConcept?.replace(/\.$/, "");
+  const n = g?.sequencia ?? 0;
+  const um = (xs: string[]) => xs[Math.floor(sorte * xs.length) % xs.length];
+  switch (tipo) {
+    case "erro":
+      return { fala: um([
+        c ? `Oxe, essa pegou! O pulo do gato aqui é: ${c}.` : "Oxe, essa pegou! Bora ver a resolução juntos.",
+        `Vixe, quase! O gabarito é ${q.answer}. Lê a resolução comigo, sem aperreio.`,
+        "Errar aqui é treino. Essa volta na sua revisão e aí você pega de jeito.",
+        c ? `Calma! Revê só isto: ${c}. Depois a próxima vem mais fácil.` : "Calma! Respira, lê a resolução e bora pra próxima.",
+      ]) };
+    case "meta":
+      return { titulo: "Meta do dia batida! 🎯", fala: um([`${META_DIARIA} questões hoje! Tô orgulhoso de você, visse? +${XP.metaDiaria} XP de bônus.`, `Bateu as ${META_DIARIA} de hoje. Dever cumprido! +${XP.metaDiaria} XP de bônus.`]) };
+    case "recuperou":
+      return { titulo: "Virou o jogo! 💪", fala: um(["O que pegou antes, agora você acertou. Isso é aprender de verdade!", "Esse erro agora é acerto. Arretado demais!"]) };
+    case "sequencia":
+      return { titulo: `${n} dias seguidos! 🔥`, fala: um([`Constância é o que pesa no ENEM. Bora manter o foguinho aceso!`, `Oxente, ${n} dias sem falhar! Tô orgulhoso, visse?`]) };
+    case "surpresa":
+      return { titulo: "Bônus surpresa! 🎁", fala: um([`Ó o presente: +${XP.surpresa} XP extra por essa resposta!`, `Hoje o Tigrão tá generoso: +${XP.surpresa} XP de bônus!`]) };
+    default:
+      return { fala: um([`Arretado! Mandou bem em ${q.area}.`, c ? `Isso aí! Você pegou a ideia: ${c}.` : "Isso aí! Raciocínio no ponto.", "Massa! Leu com calma e acertou. Na prova é assim."]) };
+  }
+}
+function ReacaoTigrao({ q, correct, gain, sorte, titulo, nDicas }: { q: Question; correct: boolean; gain: Gain | null; sorte: number; titulo: string; nDicas: number }) {
+  const tipo = tipoReacao(correct, gain);
+  const v = VISUAL[tipo];
+  const f = falaTigrao(tipo, q, gain, sorte);
+  const festa = tipo === "meta" || tipo === "sequencia" || tipo === "recuperou" || !!gain?.dominioUp;
+  const cls = `h-24 w-24 rounded-2xl object-cover ${v.moldura}`;
+  return (
+    <div className={`relative overflow-hidden rounded-3xl p-3 ${v.fundo}`} data-testid="reacao-tigrao" data-reacao={tipo}>
+      {correct && <Confete n={festa ? 26 : 14} />}
+      <div className="relative flex items-center gap-3">
+        <div className="relative shrink-0">
+          {v.clip ? (
+            <TigraoAnimado clip={v.clip} poster={v.img} alt={v.alt} className={cls + (tipo === "erro" ? " w-28" : "")} imgClassName={v.anim} />
+          ) : (
+            <img src={T + v.img} alt={v.alt} className={`${cls} ${v.anim}`} data-expressao={tipo} />
+          )}
+          <span className="anim-estrela absolute -right-2 -top-2 text-2xl">{v.emoji}</span>
+        </div>
+        <div className="min-w-0">
+          <div className="font-titulo text-xl font-extrabold leading-6">{f.titulo ?? titulo}</div>
+          <div className="text-sm font-semibold opacity-90" data-testid="xp-feedback">
+            {correct ? `+${gain?.xp ?? XP.acerto} XP` : `Gabarito oficial: letra ${q.answer}. Sem XP desta vez — vale pela revisão!`}
+          </div>
+          {correct && nDicas > 0 && <div className="text-xs font-bold">💡 Com {plural(nDicas, "dica", "dicas")}: acerto vale {XP.acertoComDica[Math.min(nDicas, 2)]} XP.</div>}
+        </div>
+      </div>
+      <div className={`relative mt-2 rounded-2xl px-3 py-2 text-[0.8125rem] font-semibold leading-5 ${correct ? "bg-white/95 text-tinta" : "bg-papel text-tinta"}`} data-testid="fala-tigrao">
+        🐾 {f.fala}
+      </div>
+      <div className="relative mt-2 flex flex-wrap gap-1.5 text-[0.75rem] font-extrabold">
+        {gain?.recuperou && <span className="anim-sobe rounded-full bg-white px-2.5 py-1 text-teal ring-2 ring-teal" data-testid="chip-recuperou">🔁 Erro recuperado! +{XP.revisao} XP de revisão</span>}
+        {!!gain?.surpresa && <span className="anim-sobe rounded-full bg-ouro-claro px-2.5 py-1 text-noite ring-2 ring-laranja" data-testid="bonus-surpresa">🎁 Bônus surpresa: +{gain.surpresa} XP</span>}
+        {!!gain?.sequencia && gain.sequencia >= 2 && <span className="anim-sobe rounded-full bg-laranja-claro px-2.5 py-1 text-laranja-escuro">🔥 {gain.sequencia} dias seguidos</span>}
+        {!correct && <span className="rounded-full bg-papel px-2.5 py-1 text-tinta ring-1 ring-borda">🔁 Ela volta na sua revisão de erros.</span>}
+        {gain?.metaBatida && <span className="anim-sobe rounded-full bg-ouro-claro px-2.5 py-1 text-noite">🎯 Meta do dia batida! +{XP.metaDiaria} XP</span>}
+        {gain?.missoes.map((m) => <span key={m} className="rounded-full bg-papel px-2.5 py-1 text-tinta">🗓️ Missão cumprida: {m}</span>)}
+        {gain?.levelUp && <span className="rounded-full bg-papel px-2.5 py-1 text-tinta">⬆️ Subiu de nível: {gain.levelUp}!</span>}
+        {gain?.newBadges.map((b) => <span key={b} className="rounded-full bg-papel px-2.5 py-1 text-tinta">🏅 Nova medalha: {badgeLabel(b).nome}</span>)}
+      </div>
+      {gain?.dominioUp && (
+        <div role="status" className="anim-pop relative mt-2 rounded-2xl bg-ouro-claro px-3 py-2 text-[0.8125rem] font-extrabold text-noite ring-2 ring-laranja" data-testid="dominio-up">
+          🏅 Subiu de nível em {gain.dominioUp.tema}: agora você está em <b>{gain.dominioUp.nivel}</b>!
+        </div>
+      )}
+    </div>
+  );
+}
+
+function Confete({ n = 14 }: { n?: number }) {
   const cores = ["#f08a24", "#ffd166", "#ffffff", "#9cc3ff", "#2453a6"];
   return (
     <>
-      {Array.from({ length: 14 }).map((_, k) => (
-        <span key={k} className="confete" style={{ left: `${(k * 7 + 5) % 100}%`, top: -10, background: cores[k % cores.length], animationDelay: `${(k % 5) * 0.08}s` }} />
+      {Array.from({ length: n }).map((_, k) => (
+        <span key={k} className="confete" aria-hidden="true" style={{ left: `${(k * 37 + 5) % 100}%`, top: -10, background: cores[k % cores.length], animationDelay: `${(k % 7) * 0.07}s` }} />
       ))}
     </>
   );
@@ -818,7 +1019,7 @@ function Confete() {
 
 /* ---------- RESULTADO ---------- */
 function Resultado(p: {
-  mode: Mode; topic: string | null; items: Item[]; xp: number; badges: string[]; levelUp: string | null; missoes: string[]; seconds: number;
+  mode: Mode; topic: string | null; items: Item[]; xp: number; badges: string[]; levelUp: string | null; missoes: string[]; seconds: number; dominioUps?: string[];
   state: State; onHome: () => void; onAgain: () => void;
 }) {
   const sim = isSim(p.mode);
@@ -837,7 +1038,8 @@ function Resultado(p: {
     const its = p.items.filter((it) => it.q.area === t.name);
     return { t, n: its.length, ok: its.filter((it) => it.chosen === it.q.answer).length };
   }).filter((x) => x.n > 0);
-  const tituloModo = sim ? `Resultado do ${SIMULADOS[p.mode as SimKind].nome}` : p.mode === "revisao" ? "Revisão concluída" : p.mode === "inteligente" ? "Treino inteligente" : p.topic ?? "Mistão do dia";
+  const tituloModo = sim ? `Resultado do ${SIMULADOS[p.mode as SimKind].nome}` : p.mode === "revisao" ? "Revisão concluída" : p.mode === "inteligente" ? "Treino inteligente" : p.mode === "rapido" ? "Treino rápido de 5" : p.topic ?? "Mistão do dia";
+  const faixa = faixaPct(pct);
   return (
     <div className="space-y-4">
       <div className={`relative overflow-hidden rounded-[28px] p-5 text-center text-white shadow-md ${baixo ? "bg-azul" : "bg-noite"}`}>
@@ -849,7 +1051,7 @@ function Resultado(p: {
           className="relative mx-auto mt-3 h-44 w-44 rounded-3xl object-cover ring-4 ring-white/70" imgClassName={otimo ? "anim-pulo" : baixo ? "anim-pensa" : "anim-float"} />
         <div className="relative mt-3 font-titulo text-5xl font-extrabold">{score}/{total}</div>
         <div className="relative text-sm font-bold text-white/90">
-          {plural(score, "acerto", "acertos")} · {pct}%{sim ? ` · ${fmt(p.seconds)}` : ""}{sim && brancos ? ` · ${brancos} em branco` : ""}
+          {plural(score, "acerto", "acertos")} · <span className={`rounded-full px-2 py-0.5 font-extrabold ${faixa.chip}`} data-testid="pct-geral" data-faixa={faixa.id}>{pct}%</span>{sim ? ` · ${fmt(p.seconds)}` : ""}{sim && brancos ? ` · ${brancos} em branco` : ""}
         </div>
         <Balao className="sem-rabo relative mx-auto mt-3 w-fit">{msg}</Balao>
       </div>
@@ -864,19 +1066,25 @@ function Resultado(p: {
         <div className="rounded-3xl bg-papel p-4 shadow-sm ring-1 ring-borda" data-testid="relatorio-tema">
           <div className="mb-2 font-titulo text-lg font-extrabold text-noite">Relatório por tema</div>
           <div className="space-y-2">
-            {porTema.map(({ t, n, ok }) => (
-              <div key={t.name} className="text-[0.8125rem]">
-                <div className="flex justify-between font-bold"><span>{t.emoji} {t.name}</span><span>{ok}/{n} · {Math.round((ok / n) * 100)}%</span></div>
-                <div className="mt-1"><Barra pct={(ok / n) * 100} cor={t.cor} /></div>
-              </div>
-            ))}
+            {porTema.map(({ t, n, ok }) => {
+              const pt = Math.round((ok / n) * 100);
+              const f = faixaPct(pt);
+              return (
+                <div key={t.name} className="text-[0.8125rem]" data-testid="tema-resultado" data-faixa={f.id}>
+                  <div className="flex justify-between font-bold"><span>{t.emoji} {t.name}</span><span>{ok}/{n} · <span className={`rounded-full px-1.5 ${f.chip}`}>{pt}%</span></span></div>
+                  <div className="mt-1"><Barra pct={pt} cor={f.barra} /></div>
+                </div>
+              );
+            })}
           </div>
+          <LegendaFaixas />
           <p className="mt-2 text-[0.6875rem] leading-4 text-tinta/70">Percentual de acertos neste simulado. Não é nota TRI do ENEM. Os erros já entraram na sua revisão.</p>
         </div>
       )}
 
-      {(p.levelUp || p.badges.length > 0 || p.missoes.length > 0) && (
+      {(p.levelUp || p.badges.length > 0 || p.missoes.length > 0 || !!p.dominioUps?.length) && (
         <div className="anim-pop rounded-3xl bg-laranja-claro p-4 ring-2 ring-laranja">
+          {[...new Set(p.dominioUps ?? [])].map((d) => <div key={d} className="text-sm font-bold" data-testid="resultado-dominio-up">🏅 Novo nível de domínio · {d}</div>)}
           {p.levelUp && <div className="font-titulo text-lg font-extrabold">⬆️ Subiu de nível! Agora você é {p.levelUp}</div>}
           {[...new Set(p.missoes)].map((m) => <div key={m} className="text-sm font-bold">🗓️ Missão cumprida: {m}</div>)}
           {[...new Set(p.badges)].map((b) => { const l = badgeLabel(b); return <div key={b} className="text-sm font-bold">{l.emoji} Medalha nova: {l.nome}</div>; })}
@@ -1068,6 +1276,7 @@ function Ajustes({ state, setState, onBack }: { state: State; setState: (s: Stat
         <p><b>{AVISO}</b></p>
         <p className="mt-1">{QUESTIONS.length} questões de {MATERIA.nome} com gabarito oficial. {notaResolucoes()}</p>
         {MATERIA.id !== "fisica" && <p className="mt-1">Questões de {MATERIA.nome} separadas do caderno de {MATERIA.area} por classificação automática (revisão do professor pendente). Algumas foram transcritas do PDF oficial do Inep; questões com texto incompleto ou figura não recuperada ficaram de fora.</p>}
+        <p className="mt-1" data-testid="regras-jogo"><b>Como o jogo funciona:</b> acerto vale +{XP.acerto} XP; erro recuperado na revisão, +{XP.revisao} XP; meta de {META_DIARIA} questões no dia, +{XP.metaDiaria} XP. Em treinos (nunca em simulados), cerca de {Math.round(CHANCE_SURPRESA * 100)}% dos acertos ganham um bônus surpresa de +{XP.surpresa} XP. A sequência conta o dia com pelo menos 1 questão respondida, e você tem 1 dia de folga automático por semana.</p>
         <p className="mt-1">Provas originais: <a className="font-bold text-azul underline" href={INEP} target="_blank" rel="noreferrer">gov.br/inep</a>.</p>
       </div>
     </div>

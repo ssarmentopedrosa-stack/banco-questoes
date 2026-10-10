@@ -23,6 +23,8 @@
   --color-roxo-claro: #e8e1f7;
   --color-tinta: #1b2440;
   --color-ouro-claro: #fff4d6;
+  --color-ambar: #c98a00;
+  --color-ambar-claro: #fff0c4;
   --font-sans: "Nunito Variable", system-ui, sans-serif;
   --font-titulo: "Baloo 2", "Nunito Variable", system-ui, sans-serif;
 }
@@ -62,4 +64,15 @@ body {
 .balao { position: relative; }
 .balao::after { content: ""; position: absolute; left: -9px; top: 22px; border: 9px solid transparent; border-right-color: #fffdf8; border-left: 0; }
 .balao.sem-rabo::after { display: none; }
-@media (prefers-reduced-motion: reduce) { .anim-pop, .anim-shake, .anim-float, .anim-pulo, .anim-pensa, .confete { animation: none !important; } }
+@keyframes brilho { 0%,100% { box-shadow: 0 0 0 0 rgba(255,209,102,.0) } 50% { box-shadow: 0 0 0 8px rgba(255,209,102,.55) } }
+@keyframes giro { 0% { transform: rotate(0) scale(1) } 40% { transform: rotate(-8deg) scale(1.08) } 70% { transform: rotate(6deg) scale(1.04) } 100% { transform: rotate(0) scale(1) } }
+@keyframes sobe { 0% { transform: translateY(8px); opacity: 0 } 100% { transform: translateY(0); opacity: 1 } }
+@keyframes estrela { 0% { transform: scale(.4) rotate(0); opacity: 0 } 50% { transform: scale(1.2) rotate(20deg); opacity: 1 } 100% { transform: scale(1) rotate(0); opacity: 1 } }
+.anim-brilho { animation: brilho 1.2s ease-in-out 3; }
+.anim-giro { animation: giro .9s ease-in-out 2; }
+.anim-sobe { animation: sobe .3s ease-out both; }
+.anim-estrela { animation: estrela .6s ease-out both; }
+@media (prefers-reduced-motion: reduce) {
+  .anim-pop, .anim-shake, .anim-float, .anim-pulo, .anim-pensa, .anim-brilho, .anim-giro, .anim-sobe, .anim-estrela { animation: none !important; }
+  .confete { display: none !important; }
+}
