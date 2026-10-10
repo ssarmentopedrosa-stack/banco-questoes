@@ -1,0 +1,550 @@
+{
+ "contagem": {
+  "correções pontuais (2ª rodada)": 102,
+  "figuras de texto convertidas em texto": 2,
+  "alternativas-imagem convertidas em texto": 5,
+  "\"x\" → \"×\" em potências de 10": 5
+ },
+ "movidas": [
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q116",
+   "biologia",
+   "quimica",
+   "Eletroquímica"
+  ],
+  [
+   "ENEM-CN-2017-REG-D2-C7-Q113",
+   "biologia",
+   "quimica",
+   "Química Geral e Ambiental"
+  ],
+  [
+   "ENEM-CN-2015-REG-D1-C1-Q67",
+   "quimica",
+   "biologia",
+   "Corpo Humano e Saúde"
+  ]
+ ],
+ "nao_aplicadas": [
+  [
+   "ENEM-CN-2014-REG-D1-C1-Q56",
+   "S₅₀ "
+  ],
+  [
+   "ENEM-CN-2014-REG-D1-C1-Q56",
+   "S₁₀ "
+  ]
+ ],
+ "log": [
+  [
+   "ENEM-CN-2020-REG-D2-C7-Q103",
+   "maté – ria-prima",
+   "matéria-prima"
+  ],
+  [
+   "ENEM-CN-2021-REG-D2-C7-Q119",
+   "construção 9com",
+   "construção (com"
+  ],
+  [
+   "ENEM-CN-2023-REG-D2-C7-Q98",
+   "Ácidos necleicos.",
+   "Ácidos nucleicos."
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q102",
+   "cDNAviral",
+   "cDNA viral"
+  ],
+  [
+   "ENEM-CN-2020-REG-D2-C7-Q125",
+   "frequência de 1A",
+   "frequência de Iᴬ"
+  ],
+  [
+   "ENEM-CN-2020-REG-D2-C7-Q125",
+   "frequência de IB",
+   "frequência de Iᴮ"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q110",
+   "cerca de\n5 000",
+   "cerca de 5 000"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q110",
+   "aproximadamente\n200",
+   "aproximadamente 200"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q110",
+   "por volta de\n20",
+   "por volta de 20"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q110",
+   "para o desenvolvimento",
+   "para o desenvolvimento."
+  ],
+  [
+   "ENEM-CN-2023-REG-D2-C7-Q127",
+   "reduzindo o\nFe³⁺",
+   "reduzindo o Fe³⁺"
+  ],
+  [
+   "ENEM-CN-2023-REG-D2-C7-Q127",
+   "sítio de\nFe³⁺",
+   "sítio de Fe³⁺"
+  ],
+  [
+   "ENEM-CN-2023-REG-D2-C7-Q99",
+   "para tentar controlar a doença.",
+   "para tentar controlar a doença.\n\nEm qual material "
+  ],
+  [
+   "ENEM-CN-2025-REG-D2-C7-Q98",
+   "competitivo.\nCARLOS JR., L. A.; BARBOSA, N. P. U.;",
+   "competitivo.\n\nCARLOS JR., L. A.; BARBOSA, N. P. U."
+  ],
+  [
+   "ENEM-CN-2019-REG-D2-C7-Q101",
+   "D proteínas, para",
+   "Proteínas, para"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q66",
+   "O<sub>2</sub>",
+   "O₂"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q49",
+   "higienizaçao",
+   "higienização"
+  ],
+  [
+   "ENEM-CN-2011-REG-D1-C1-Q76",
+   "família\nApocinaceae",
+   "família Apocinaceae"
+  ],
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q116",
+   "à base de\n[[FIG 0]]\n sensibilizadas",
+   "à base de TiO₂ sensibilizadas"
+  ],
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q116",
+   "adsorvido sobre o\n[[FIG 1]]\n é responsável",
+   "adsorvido sobre o TiO₂ é responsável"
+  ],
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q116",
+   "energia luminosa\n[[FIG 2]]\n, e o corante",
+   "energia luminosa (hν), e o corante"
+  ],
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q116",
+   "elétrons para o\n[[FIG 3]]\n. Um esquema",
+   "elétrons para o TiO₂. Um esquema"
+  ],
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q116",
+   "[[FIG 4]]",
+   "[[FIG 0]]"
+  ],
+  [
+   "ENEM-CN-2011-REG-D1-C1-Q50",
+   "Substância Fórmula ∆Hcº (kJ/mol) benzeno C₆H₆ (l) ",
+   "Substância — Fórmula — ∆Hcº (kJ/mol)\nBenzeno — C₆H"
+  ],
+  [
+   "ENEM-CN-2011-REG-D1-C1-Q50",
+   "(adaptado).\nNeste contexto",
+   "(adaptado).\n\nNeste contexto"
+  ],
+  [
+   "ENEM-CN-2011-REG-D1-C1-Q75",
+   "representa esse processo:\nGROISMAN",
+   "representa esse processo:\n\nCa₁₀(PO₄)₆(OH)₂(s) ⇌ 10"
+  ],
+  [
+   "ENEM-CN-2011-REG-D1-C1-Q75",
+   "Sabese",
+   "Sabe-se"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q82",
+   "PO₂-2",
+   "PO₂²⁻"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q82",
+   "ácida.Nela",
+   "ácida. Nela"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q67",
+   "CH₄(g)+ H₂O(v) + calor ↔CO(g) + 3H2(g)",
+   "CH₄(g) + H₂O(v) + calor ⇌ CO(g) + 3 H₂(g)"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q67",
+   "uma vez que a a formação",
+   "uma vez que há a formação"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q83",
+   "açúcar ma água",
+   "açúcar na água"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q85",
+   "acompanha da introdução",
+   "acompanhada da introdução"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q80",
+   "molácula",
+   "molécula"
+  ],
+  [
+   "ENEM-CN-2011-REG-D1-C1-Q54",
+   "formam um estético simples",
+   "formam um eutético simples"
+  ],
+  [
+   "ENEM-CN-2012-REG-D1-C1-Q53",
+   "ainda,a inscrição",
+   "ainda, a inscrição"
+  ],
+  [
+   "ENEM-CN-2012-REG-D1-C1-Q58",
+   "são,respectivamente",
+   "são, respectivamente"
+  ],
+  [
+   "ENEM-CN-2014-REG-D1-C1-Q88",
+   "2CaSO4(s)",
+   "2 CaSO₄(s)"
+  ],
+  [
+   "ENEM-CN-2016-REG-D1-C1-Q64",
+   "2 CO₂ + 7H+ + 8e– → CH₃COO⁻ + 2H2O               E",
+   "2 CO₂ + 7 H⁺ + 8 e⁻ → CH₃COO⁻ + 2 H₂O     E°’ = −0"
+  ],
+  [
+   "ENEM-CN-2016-REG-D1-C1-Q64",
+   "O₂ + 4H+ + 4e– → 2H2O                             ",
+   "O₂ + 4 H⁺ + 4 e⁻ → 2 H₂O     E°’ = 0,8 V"
+  ],
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q93",
+   "WIlhelm Kõnlg",
+   "Wilhelm König"
+  ],
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q93",
+   "coleção da Instituição",
+   "coleção da instituição"
+  ],
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q93",
+   "redução:\n[[FIG 0]]\n (Fe^+|Fe) = -0,4: 4 V; \n[[FIG ",
+   "redução: E⁰(Fe²⁺|Fe) = −0,44 V; E⁰(H⁺|H₂) = 0,00 V"
+  ],
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q93",
+   "[[FIG 3]]",
+   "[[FIG 0]]"
+  ],
+  [
+   "ENEM-CN-2019-REG-D2-C7-Q129",
+   "192 g mol^{-1 }​−1​​.",
+   "192 g mol⁻¹."
+  ],
+  [
+   "ENEM-CN-2020-REG-D2-C7-Q112",
+   "equação química:\n∆H < 0 (azul) (rosa)",
+   "equação química:\n\nCoCl₂(s) (azul) + 6 H₂O(g) ⇌ CoC"
+  ],
+  [
+   "ENEM-CN-2019-REG-D2-C7-Q95",
+   "termoquí micas",
+   "termoquímicas"
+  ],
+  [
+   "ENEM-CN-2019-REG-D2-C7-Q95",
+   "combustão dá glicose",
+   "combustão da glicose"
+  ],
+  [
+   "ENEM-CN-2019-REG-D2-C7-Q104",
+   "ocorrância",
+   "ocorrência"
+  ],
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q132",
+   "Identificaçáo",
+   "Identificação"
+  ],
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q135",
+   "retorne ã terra",
+   "retorne à terra"
+  ],
+  [
+   "ENEM-CN-2017-REG-D2-C7-Q122",
+   "flnal",
+   "final"
+  ],
+  [
+   "ENEM-CN-2017-REG-D2-C7-Q119",
+   "NaCI",
+   "NaCl"
+  ],
+  [
+   "ENEM-CN-2017-REG-D2-C7-Q119",
+   "HCI",
+   "HCl"
+  ],
+  [
+   "ENEM-CN-2017-REG-D2-C7-Q132",
+   "CI⁻",
+   "Cl⁻"
+  ],
+  [
+   "ENEM-CN-2017-REG-D2-C7-Q130",
+   "Α-caroteno",
+   "α-caroteno"
+  ],
+  [
+   "ENEM-CN-2017-REG-D2-C7-Q130",
+   "Γ-caroteno",
+   "γ-caroteno"
+  ],
+  [
+   "ENEM-CN-2017-REG-D2-C7-Q130",
+   "Α-criptoxantina",
+   "α-criptoxantina"
+  ],
+  [
+   "ENEM-CN-2017-REG-D2-C7-Q102",
+   "ácidos (H X com",
+   "ácidos (HX) com"
+  ],
+  [
+   "ENEM-CN-2020-REG-D2-C7-Q96",
+   "g mo1–1",
+   "g mol⁻¹"
+  ],
+  [
+   "ENEM-CN-2020-REG-D2-C7-Q124",
+   "conta - minando",
+   "contaminando"
+  ],
+  [
+   "ENEM-CN-2020-REG-D2-C7-Q124",
+   "Rio de\nJaneiro",
+   "Rio de Janeiro"
+  ],
+  [
+   "ENEM-CN-2018-REG-D2-C7-Q102",
+   "mercúrio(ll)",
+   "mercúrio(II)"
+  ],
+  [
+   "ENEM-CN-2019-REG-D2-C7-Q108",
+   "5s25p6",
+   "5s² 5p⁶"
+  ],
+  [
+   "ENEM-CN-2019-REG-D2-C7-Q108",
+   "2s22p5",
+   "2s² 2p⁵"
+  ],
+  [
+   "ENEM-CN-2023-REG-D2-C7-Q96",
+   "anidro, CaCI,.",
+   "anidro, CaCl₂."
+  ],
+  [
+   "ENEM-CN-2023-REG-D2-C7-Q96",
+   "di-hidratado, CaCI, 2H,0.",
+   "di-hidratado, CaCl₂·2H₂O."
+  ],
+  [
+   "ENEM-CN-2021-REG-D2-C7-Q111",
+   "Filmar parceria",
+   "Firmar parceria"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q131",
+   "canela.Associações",
+   "canela. Associações"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q131",
+   "passadoda",
+   "passado da"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q131",
+   "químicaorgânica",
+   "química orgânica"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q131",
+   "compostosditos",
+   "compostos ditos"
+  ],
+  [
+   "ENEM-CN-2023-REG-D2-C7-Q94",
+   "seauintes",
+   "seguintes"
+  ],
+  [
+   "ENEM-CN-2021-REG-D2-C7-Q103",
+   "da celulosa",
+   "da celulose"
+  ],
+  [
+   "ENEM-CN-2021-REG-D2-C7-Q95",
+   "31, 2 g",
+   "31,2 g"
+  ],
+  [
+   "ENEM-CN-2025-REG-D2-C7-Q125",
+   "K−1",
+   "K⁻¹"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q91",
+   "tricloroeteno\n(TCE)",
+   "tricloroeteno (TCE)"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q91",
+   "contêm\nFe(III)",
+   "contêm Fe(III)"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q91",
+   "persulfato:\nremediação",
+   "persulfato: remediação"
+  ],
+  [
+   "ENEM-CH-2011-REG-D1-C1-Q37",
+   "ambiente produtivo. D",
+   "ambiente produtivo."
+  ],
+  [
+   "ENEM-CH-2018-REG-D1-C1-Q89",
+   "científlca",
+   "científica"
+  ],
+  [
+   "ENEM-CH-2019-REG-D1-C1-Q46",
+   "transformá-to",
+   "transformá-lo"
+  ],
+  [
+   "ENEM-CH-2020-REG-D1-C1-Q75",
+   "Hlstória",
+   "História"
+  ],
+  [
+   "ENEM-CH-2020-REG-D1-C1-Q82",
+   "Popocatepéti e  filipino",
+   "Popocatépetl e o filipino"
+  ],
+  [
+   "ENEM-CH-2020-REG-D1-C1-Q90",
+   "Por outros lado",
+   "Por outro lado"
+  ],
+  [
+   "ENEM-CH-2021-REG-D1-C1-Q61",
+   "tentativa de tomar o Rio",
+   "tentativa de tornar o Rio"
+  ],
+  [
+   "ENEM-CH-2021-REG-D1-C1-Q70",
+   "Disponível m:",
+   "Disponível em:"
+  ],
+  [
+   "ENEM-CH-2021-REG-D1-C1-Q72",
+   "Qual media promove",
+   "Qual medida promove"
+  ],
+  [
+   "ENEM-CH-2021-REG-D1-C1-Q79",
+   "áreas degradas.",
+   "áreas degradadas."
+  ],
+  [
+   "ENEM-CH-2022-REG-D1-C1-Q51",
+   "funda – mentais",
+   "fundamentais"
+  ],
+  [
+   "ENEM-CH-2022-REG-D1-C1-Q51",
+   "capa – cidade",
+   "capacidade"
+  ],
+  [
+   "ENEM-CH-2022-REG-D1-C1-Q64",
+   "contoladas",
+   "controladas"
+  ],
+  [
+   "ENEM-CH-2022-REG-D1-C1-Q72",
+   "é maio grave",
+   "é mais grave"
+  ],
+  [
+   "ENEM-CH-2022-REG-D1-C1-Q72",
+   "mais de um hora",
+   "mais de uma hora"
+  ],
+  [
+   "ENEM-CH-2022-REG-D1-C1-Q75",
+   "povo da águas",
+   "povo das águas"
+  ],
+  [
+   "ENEM-CH-2022-REG-D1-C1-Q87",
+   "estigmatizarão de estratos sociais ,",
+   "estigmatização de estratos sociais,"
+  ],
+  [
+   "ENEM-CH-2023-REG-D1-C1-Q53",
+   "anos.,",
+   "anos,"
+  ],
+  [
+   "ENEM-CH-2023-REG-D1-C1-Q66",
+   "ТЕХТО ІІ",
+   "TEXTO II"
+  ],
+  [
+   "ENEM-CH-2023-REG-D1-C1-Q66",
+   "ТЕХТО I",
+   "TEXTO I"
+  ],
+  [
+   "ENEM-CH-2023-REG-D1-C1-Q83",
+   "desordenada exporta no texto",
+   "desordenada exposta no texto"
+  ],
+  [
+   "ENEM-CH-2012-REG-D1-C1-Q20",
+   "alternativa duplicada",
+   "C"
+  ],
+  [
+   "ENEM-CH-2018-REG-D1-C1-Q73",
+   "alt C",
+   "Emprego de armamentos sofisticados."
+  ]
+ ]
+}

@@ -1,0 +1,574 @@
+materia,ano,questao,id,tema,gabarito_oficial,texto_do_pdf,figuras,inicio_enunciado
+biologia,2009,3,ENEM-CN-2009-REG-D1-C1-Q3,Corpo Humano e Saúde,A,,0,"Estima-se que haja atualmente no mundo 40 milhões de pessoas infectadas pelo HIV (o vírus que causa a AIDS), sendo que a"
+biologia,2009,4,ENEM-CN-2009-REG-D1-C1-Q4,Genética e Biotecnologia,B,,0,"Em um experimento, preparou-se um conjunto de plantas por técnica de clonagem a partir de uma planta original que aprese"
+biologia,2009,6,ENEM-CN-2009-REG-D1-C1-Q6,Citologia e Bioquímica,D,,0,"O ciclo biogeoquímico do carbono compreende diversos compartimentos, entre os quais a Terra, a atmosfera e os oceanos, e"
+biologia,2009,7,ENEM-CN-2009-REG-D1-C1-Q7,Corpo Humano e Saúde,D,,0,Um novo método para produzir insulina artificial que utiliza tecnologia de DNA recombinante foi desenvolvido por pesquis
+biologia,2009,8,ENEM-CN-2009-REG-D1-C1-Q8,Ecologia e Meio Ambiente,B,,0,"A economia moderna depende da disponibilidade de muita energia em diferentes formas, para funcionar e crescer. No Brasil"
+biologia,2009,9,ENEM-CN-2009-REG-D1-C1-Q9,Ecologia e Meio Ambiente,D,,0,As mudanças climáticas e da vegetação ocorridas nos trópicos da América do Sul têm sido bem documentadas por diversos au
+biologia,2009,10,ENEM-CN-2009-REG-D1-C1-Q10,Citologia e Bioquímica,C,,0,"A fotossíntese é importante para a vida na Terra. Nos cloroplastos dos organismos fotossintetizantes, a energia solar é "
+biologia,2009,11,ENEM-CN-2009-REG-D1-C1-Q11,Corpo Humano e Saúde,C,,0,"Para que todos os órgãos do corpo humano funcionem em boas condições, é necessário que a temperatura do corpo fique semp"
+biologia,2009,13,ENEM-CN-2009-REG-D1-C1-Q13,Ecologia e Meio Ambiente,D,,0,"A abertura e a pavimentação de rodovias em zonas rurais e regiões afastadas dos centros urbanos, por um lado, possibilit"
+biologia,2009,16,ENEM-CN-2009-REG-D1-C1-Q16,Genética e Biotecnologia,D,,1,A figura seguinte representa um modelo de transmissão da informação genética nos sistemas biológicos. No fim do processo
+biologia,2009,21,ENEM-CN-2009-REG-D1-C1-Q21,Botânica e Zoologia,C,,0,"Os seres vivos apresentam diferentes ciclos de vida, caracterizados pelas fases nas quais gametas são produzidos e pelo"
+biologia,2009,22,ENEM-CN-2009-REG-D1-C1-Q22,Corpo Humano e Saúde,D,,1,"Um medicamento, após ser ingerido, atinge a corrente sanguínea e espalha-se pelo organismo, mas, como suas moléculas “nã"
+biologia,2009,25,ENEM-CN-2009-REG-D1-C1-Q25,Botânica e Zoologia,B,,1,Os planos de controle e erradicação de doenças em animais envolvem ações de profilaxia e dependem em grande medida 
+biologia,2009,28,ENEM-CN-2009-REG-D1-C1-Q28,Botânica e Zoologia,B,,1,Uma pesquisadora deseja reflorestar uma área de mata ciliar quase que totalmente desmatada. Essa formação vegetal é 
+biologia,2009,33,ENEM-CN-2009-REG-D1-C1-Q33,Ecologia e Meio Ambiente,C,,1,Os ratos Peromyscus polionotus encontram-se distribuídos em ampla região na América do Norte. A pelagem de ratos dess
+biologia,2009,40,ENEM-CN-2009-REG-D1-C1-Q40,Corpo Humano e Saúde,D,,0,"Na manipulação em escala nanométrica, os átomos revelam características peculiares, podendo apresentar tolerância "
+biologia,2009,41,ENEM-CN-2009-REG-D1-C1-Q41,Genética e Biotecnologia,A,,0,"Uma vítima de acidente de carro foi encontrada carbonizada devido a uma explosão. Indícios, como certos adereços de "
+biologia,2009,42,ENEM-CN-2009-REG-D1-C1-Q42,Ecologia e Meio Ambiente,E,,0,"O cultivo de camarões de água salgada vem se desenvolvendo muito nos últimos anos na região Nordeste do Brasil e, em"
+biologia,2010,46,ENEM-CN-2010-REG-D1-C1-Q46,Corpo Humano e Saúde,B,,0,"A vacina, o soro e os antibióticos submetem os organismos a processos biológicos diferentes. Pessoas que viajam para reg"
+biologia,2010,49,ENEM-CN-2010-REG-D1-C1-Q49,Corpo Humano e Saúde,E,,0,A cárie dental resulta da atividade de bactérias que degradam os açúcares e os transformam em ácidos que corroem a porçã
+biologia,2010,51,ENEM-CN-2010-REG-D1-C1-Q51,Botânica e Zoologia,D,,0,O texto “O vôo das Folhas” traz uma visão dos índios Ticunas para um fenômeno usualmente observado na natureza:  **O vôo
+biologia,2010,57,ENEM-CN-2010-REG-D1-C1-Q57,Ecologia e Meio Ambiente,B,,0,O despejo de dejetos de esgotos domésticos e industriais vem causando sérios problemas aos rios brasileiros. Esses polue
+biologia,2010,60,ENEM-CN-2010-REG-D1-C1-Q60,Botânica e Zoologia,A,,0,A lavoura arrozeira na planície costeira da região sul do Brasil comumente sofre perdas elevadas devido a salinização da
+biologia,2010,61,ENEM-CN-2010-REG-D1-C1-Q61,Ecologia e Meio Ambiente,C,,0,"No ano de 2000, um vazamento em um duto de óleo na baía de Guanabara (RJ) causou um dos maiores acidentes ambientais do "
+biologia,2010,62,ENEM-CN-2010-REG-D1-C1-Q62,Citologia e Bioquímica,B,,1,"Para explicar a absorção de nutrientes, bem como a função das microvilosidades das membranas das células que revestem as"
+biologia,2010,64,ENEM-CN-2010-REG-D1-C1-Q64,Evolução,B,,0,"Alguns anfíbios e répteis são adaptados à vida subterrânea. Nessa situação, apresentam algumas características corporais"
+biologia,2010,66,ENEM-CN-2010-REG-D1-C1-Q66,Citologia e Bioquímica,B,,0,Um ambiente capaz de asfixiar todos os animais conhecidos do planeta foi colonizado por pelo menos três espécies diferen
+biologia,2010,71,ENEM-CN-2010-REG-D1-C1-Q71,Corpo Humano e Saúde,E,,0,"O uso prolongado de lentes de contato, sobretudo durante a noite, aliado a condições precárias de higiene representam fa"
+biologia,2010,75,ENEM-CN-2010-REG-D1-C1-Q75,Ecologia e Meio Ambiente,B,,1,"[[FIG 0]]  Dois pesquisadores percorreram os trajetos marcados no mapa. A tarefa deles foi analisar os ecossistemas e, e"
+biologia,2010,76,ENEM-CN-2010-REG-D1-C1-Q76,Genética e Biotecnologia,C,,0,Investigadores das Universidades de Oxford e da Califórnia desenvolveram uma variedade de Aedes aegypti geneticamente mo
+biologia,2010,87,ENEM-CN-2010-REG-D1-C1-Q87,Botânica e Zoologia,E,,0,De 15% a 20% da área de um canavial precisa ser renovada anualmente. Entre o período de corte e o de plantação de novas 
+biologia,2010,88,ENEM-CN-2010-REG-D1-C1-Q88,Ecologia e Meio Ambiente,D,,0,"Diversos comportamentos e funções fisiológicas do nosso corpo são periódicos, sendo assim, são classificados como ritmo "
+biologia,2011,47,ENEM-CN-2011-REG-D1-C1-Q47,Ecologia e Meio Ambiente,C,,1,"Os personagens da figura estão representando uma situação hipotética de cadeia alimentar.  [[FIG 0]]  Suponha que, em ce"
+biologia,2011,48,ENEM-CN-2011-REG-D1-C1-Q48,Corpo Humano e Saúde,E,,0,"A produção de soro antiofídico é feita por meio da extração da peçonha de serpentes que, após tratamento é introduzida e"
+biologia,2011,49,ENEM-CN-2011-REG-D1-C1-Q49,Corpo Humano e Saúde,A,,1,"Um paciente deu entrada em um pronto-socorro apresentando os seguintes sintomas: cansaço, dificuldade em respirar e sang"
+biologia,2011,51,ENEM-CN-2011-REG-D1-C1-Q51,Ecologia e Meio Ambiente,D,,0,"Para evitar o desmatamento da Mata Atlântica nos arredores da cidade de Amargosa, no Recôncavo da Bahia, o Ibama tem atu"
+biologia,2011,52,ENEM-CN-2011-REG-D1-C1-Q52,Ecologia e Meio Ambiente,B,,0,"Belém é cercada por 39 ilhas, e suas populações convivem com ameaças de doenças. O motivo, apontado por especialistas, é"
+biologia,2011,53,ENEM-CN-2011-REG-D1-C1-Q53,Corpo Humano e Saúde,E,,0,"O vírus do papiloma humano (HPV, na sigla em inglês) causa o aparecimento de verrugas e infecção persistente, sendo o pr"
+biologia,2011,57,ENEM-CN-2011-REG-D1-C1-Q57,Ecologia e Meio Ambiente,A,,0,"O controle biológico, técnica empregada no combate a espécies que causam danos e prejuízos aos seres humanos, é utilizad"
+biologia,2011,59,ENEM-CN-2011-REG-D1-C1-Q59,Citologia e Bioquímica,B,,0,"A cal (óxido de cálcio, CaO), cuja suspensão em água é muito usada como uma tinta de baixo custo, dá uma tonalidade bran"
+biologia,2011,64,ENEM-CN-2011-REG-D1-C1-Q64,Corpo Humano e Saúde,A,,1,"[[FIG 0]]  O mapa mostra a área de ocorrência da malária no mundo. Considerando-se sua distribuição na América do Sul, a"
+biologia,2011,65,ENEM-CN-2011-REG-D1-C1-Q65,Genética e Biotecnologia,E,,0,"Em 1999, a geneticista Emma Whitelaw desenvolveu um experimento no qual ratas prenhes foram submetidas a uma dieta rica "
+biologia,2011,68,ENEM-CN-2011-REG-D1-C1-Q68,Corpo Humano e Saúde,D,,0,"Um instituto de pesquisa norte-americano divulgou recentemente ter criado uma “célula sintética”, uma bactéria chamada d"
+biologia,2011,69,ENEM-CN-2011-REG-D1-C1-Q69,Corpo Humano e Saúde,E,,0,"Os sintomas mais sérios da Gripe A, causada pelo vírus H1N1, foram apresentados por pessoas mais idosas e por gestantes."
+biologia,2011,76,ENEM-CN-2011-REG-D1-C1-Q76,Botânica e Zoologia,E,sim,0,"Diferente do que o senso comum acredita, as lagartas de borboletas não possuem voracidade generalizada. Um estudo mostro"
+biologia,2011,79,ENEM-CN-2011-REG-D1-C1-Q79,Corpo Humano e Saúde,B,,0,"Moradores sobreviventes da tragédia que destruiu aproximadamente 60 casas no Morro do Bumba, na Zona Norte de Niterói (R"
+biologia,2011,80,ENEM-CN-2011-REG-D1-C1-Q80,Ecologia e Meio Ambiente,D,,0,"Segundo dados do Balanço Energético Nacional de 2008, do Ministério das Minas e Energia, a matriz energética brasileira "
+biologia,2011,82,ENEM-CN-2011-REG-D1-C1-Q82,Ecologia e Meio Ambiente,D,,0,Os vaga-lumes machos e fêmeas emitem sinais luminosos para se atraírem para o acasalamento. O macho reconhece a fêmea de
+biologia,2011,87,ENEM-CN-2011-REG-D1-C1-Q87,Botânica e Zoologia,B,,0,"**Os Bichinhos e O Homem**  Arca de Noé Toquinho & Vinicius de Moraes Nossa irmã, a mosca É feia e tosca Enquanto que o "
+biologia,2011,88,ENEM-CN-2011-REG-D1-C1-Q88,Botânica e Zoologia,D,,0,"Certas espécies de algas são capazes de absorver rapidamente compostos inorgânicos presentes na água, acumulando-os dura"
+biologia,2011,89,ENEM-CN-2011-REG-D1-C1-Q89,Botânica e Zoologia,C,,0,"Durante as estações chuvosas, aumentam no Brasil as campanhas de prevenção à dengue, que têm como objetivo a redução da "
+biologia,2012,48,ENEM-CN-2012-REG-D1-C1-Q48,Genética e Biotecnologia,E,,0,"O milho transgênico é produzido a partir da manipulação do milho original, com a transferência, para este, de um gene de"
+biologia,2012,51,ENEM-CN-2012-REG-D1-C1-Q51,Ecologia e Meio Ambiente,E,,0,"Pesticidas são contaminantes ambientais altamente tóxicos aos seres vivos e, geralmente, com grande persistência ambient"
+biologia,2012,52,ENEM-CN-2012-REG-D1-C1-Q52,Corpo Humano e Saúde,D,,0,Medidas de saneamento básico são fundamentais no processo de promoção de saúde e qualidade de vida da população. Muitas 
+biologia,2012,56,ENEM-CN-2012-REG-D1-C1-Q56,Botânica e Zoologia,D,,1,"A figura representa um dos modelos de um sistema de interações entre seres vivos. Ela apresenta duas propriedades, P1 e "
+biologia,2012,57,ENEM-CN-2012-REG-D1-C1-Q57,Botânica e Zoologia,D,,0,Muitas espécies de plantas lenhosas são encontradas no cerrado brasileiro. Para a sobrevivência nas condições de longos 
+biologia,2012,62,ENEM-CN-2012-REG-D1-C1-Q62,Genética e Biotecnologia,B,,0,"Não é de hoje que o homem cria, artificialmente, variedades de peixes por meio da hibridação. Esta é uma técnica muito u"
+biologia,2012,63,ENEM-CN-2012-REG-D1-C1-Q63,Genética e Biotecnologia,A,,0,"Há milhares de anos o homem faz uso da biotecnologia para a produção de alimentos como pães, cervejas e vinhos. Na fabri"
+biologia,2012,65,ENEM-CN-2012-REG-D1-C1-Q65,Genética e Biotecnologia,E,,0,"Os vegetais biossintetizam determinadas substâncias (por exemplo, alcaloides e flavonoides), cuja estrutura química e co"
+biologia,2012,68,ENEM-CN-2012-REG-D1-C1-Q68,Ecologia e Meio Ambiente,D,,0,"O menor tamanduá do mundo é solitário e tem hábitos noturnos, passa o dia repousando, geralmente em um emaranhado de cip"
+biologia,2012,75,ENEM-CN-2012-REG-D1-C1-Q75,Botânica e Zoologia,C,,0,"Em certos locais, larvas de moscas, criadas em arroz cozido, são utilizadas como iscas para pesca. Alguns criadores, no "
+biologia,2012,79,ENEM-CN-2012-REG-D1-C1-Q79,Corpo Humano e Saúde,C,,1,"O armazenamento de certas vitaminas no organismo apresenta grande dependência de sua solubilidade. Por exemplo, vitamina"
+biologia,2012,81,ENEM-CN-2012-REG-D1-C1-Q81,Ecologia e Meio Ambiente,B,,0,Paleontólogos estudam fósseis e esqueletos de dinossauros para tentar explicar o desaparecimento desses animais. Esses e
+biologia,2012,85,ENEM-CN-2012-REG-D1-C1-Q85,Botânica e Zoologia,C,,1,"A imagem representa o processo de evolução das plantas e algumas de suas estruturas. Para o sucesso desse processo, a pa"
+biologia,2012,87,ENEM-CN-2012-REG-D1-C1-Q87,Corpo Humano e Saúde,E,,0,"A doença de Chagas afeta mais de oito milhões de brasileiros, sendo comum em áreas rurais. É uma doença causada pelo pro"
+biologia,2013,50,ENEM-CN-2013-REG-D1-C1-Q50,Corpo Humano e Saúde,A,,0,"Milhares de pessoas estavam morrendo de varíola humana no final do século XVIII. Em 1796, o médico Edward Jenner (1749-1"
+biologia,2013,53,ENEM-CN-2013-REG-D1-C1-Q53,Corpo Humano e Saúde,B,,0,As serpentes que habitam regiões de seca podem ficar em jejum por um longo período de tempo devido à escassez de aliment
+biologia,2013,55,ENEM-CN-2013-REG-D1-C1-Q55,Corpo Humano e Saúde,A,,0,"A pílula anticoncepcional é um dos métodos contraceptivos de maior segurança, sendo constituída basicamente de dois horm"
+biologia,2013,56,ENEM-CN-2013-REG-D1-C1-Q56,Corpo Humano e Saúde,B,,1,"A imagem representa uma ilustração retirada do livro De Motu Cordis, de autoria do médico inglês Willian Harvey, que fez"
+biologia,2013,59,ENEM-CN-2013-REG-D1-C1-Q59,Citologia e Bioquímica,A,,0,"Plantas terrestres que ainda estão em fase de crescimento fixam grandes quantidades de CO2, utilizando-o para formar nov"
+biologia,2013,60,ENEM-CN-2013-REG-D1-C1-Q60,Ecologia e Meio Ambiente,B,,0,"As fêmeas de algumas espécies de aranhas, escorpiões e de outros invertebrados predam os machos após a cópula e insemina"
+biologia,2013,62,ENEM-CN-2013-REG-D1-C1-Q62,Citologia e Bioquímica,B,,0,"A estratégia de obtenção de plantas transgênicas pela inserção de transgenes em cloroplastos, em substituição à metodolo"
+biologia,2013,63,ENEM-CN-2013-REG-D1-C1-Q63,Ecologia e Meio Ambiente,C,,0,"No Brasil, cerca de 80% da energia elétrica advém de hidrelétricas, cuja construção implica o represamento de rios. A fo"
+biologia,2013,70,ENEM-CN-2013-REG-D1-C1-Q70,Genética e Biotecnologia,C,,1,Cinco casais alegavam ser os pais de um bebê. A confirmação da paternidade foi obtida pelo exame de DNA. O resultado do 
+biologia,2013,78,ENEM-CN-2013-REG-D1-C1-Q78,Corpo Humano e Saúde,B,,0,"A contaminação pelo vírus da rubéola é especialmente preocupante em grávidas, devido à síndrome da rubéola congênita (SR"
+biologia,2013,80,ENEM-CN-2013-REG-D1-C1-Q80,Botânica e Zoologia,B,,0,Estudos de fluxo de energia em ecossistemas demonstram que a alta produtividade nos manguezais está diretamente relacion
+biologia,2013,88,ENEM-CN-2013-REG-D1-C1-Q88,Genética e Biotecnologia,D,,0,"Para a identificação de um rapaz vítima de acidente, fragmentos de tecidos foram retirados e submetidos à extração de DN"
+biologia,2014,47,ENEM-CN-2014-REG-D1-C1-Q47,Corpo Humano e Saúde,D,,0,"Na década de 1940, na Região Centro-Oeste, produtores rurais, cujos bois, porcos, aves e cabras estavam morrendo por uma"
+biologia,2014,53,ENEM-CN-2014-REG-D1-C1-Q53,Evolução,A,,0,"Embora seja um conceito fundamental da Biologia, o termo “evolução” pode adquirir significados diferentes no senso comum"
+biologia,2014,60,ENEM-CN-2014-REG-D1-C1-Q60,Corpo Humano e Saúde,C,,0,"Existem bactérias que inibem o crescimento de um fungo causador de doenças no tomateiro, por consumirem o ferro disponív"
+biologia,2014,61,ENEM-CN-2014-REG-D1-C1-Q61,Ecologia e Meio Ambiente,B,,1,"Uma região de Cerrado possui lençol freático profundo, estação seca bem marcada, grande insolação e recorrência de incên"
+biologia,2014,63,ENEM-CN-2014-REG-D1-C1-Q63,Ecologia e Meio Ambiente,E,,1,A aplicação excessiva de fertilizantes nitrogenados na agricultura pode acarretar alterações no solo e na água pelo acúm
+biologia,2014,69,ENEM-CN-2014-REG-D1-C1-Q69,Genética e Biotecnologia,E,,1,"Em um laboratório de genética experimental, observou-se que determinada bactéria continha um gene que conferia resistênc"
+biologia,2014,73,ENEM-CN-2014-REG-D1-C1-Q73,Citologia e Bioquímica,D,,0,"Segundo a teoria evolutiva mais aceita hoje, as mitocôndrias, organelas celulares responsáveis pela produção de ATP em c"
+biologia,2014,74,ENEM-CN-2014-REG-D1-C1-Q74,Genética e Biotecnologia,D,,1,"[[FIG 0]]  No heredograma, os símbolos preenchidos representam pessoas portadoras de um tipo raro de doença genética. Os"
+biologia,2014,75,ENEM-CN-2014-REG-D1-C1-Q75,Citologia e Bioquímica,B,sim,0,Um pesquisador percebe que o rótulo de um dos vidros em que guarda um concentrado de enzimas digestivas está ilegível. E
+biologia,2014,79,ENEM-CN-2014-REG-D1-C1-Q79,Corpo Humano e Saúde,B,,1,"Em um hospital havia cinco lotes de bolsas de sangue, rotulados com os códigos I, II, III, IV e V. Cada lote continha ap"
+biologia,2014,81,ENEM-CN-2014-REG-D1-C1-Q81,Corpo Humano e Saúde,B,,1,Os parasitoides (misto de parasitas e predadores) são insetos diminutos que têm hábitos muito peculiares: suas larvas po
+biologia,2014,85,ENEM-CN-2014-REG-D1-C1-Q85,Citologia e Bioquímica,D,,1,"[[FIG 0]]  Embora sejam produzidos e utilizados em situações distintas, os imunobiológicos I e II atuam de forma semelha"
+biologia,2014,89,ENEM-CN-2014-REG-D1-C1-Q89,Citologia e Bioquímica,D,,0,"Na década de 1990, células do cordão umbilical de recém-nascidos humanos começaram a ser guardadas por criopreservação, "
+biologia,2015,46,ENEM-CN-2015-REG-D1-C1-Q46,Corpo Humano e Saúde,D,,1,"Hipoxia ou mal das alturas consiste na diminuição de oxigênio (O2) no sangue arterial do organismo. Por essa razão, muit"
+biologia,2015,47,ENEM-CN-2015-REG-D1-C1-Q47,Ecologia e Meio Ambiente,C,sim,0,A indústria têxtil utiliza grande quantidade de corantes no processo de tingimento dos tecidos. O escurecimento das água
+biologia,2015,48,ENEM-CN-2015-REG-D1-C1-Q48,Citologia e Bioquímica,C,,0,Muitos estudos de síntese e endereçamento de proteínas utilizam aminoácidos marcados radioativamente para acompanhar as 
+biologia,2015,54,ENEM-CN-2015-REG-D1-C1-Q54,Genética e Biotecnologia,E,,0,"Um importante princípio da biologia, relacionado à transmissão de caracteres e à embriogênese humana, foi quebrado com a"
+biologia,2015,56,ENEM-CN-2015-REG-D1-C1-Q56,Evolução,E,,0,Algumas raças de cães domésticos não conseguem copular entre si devido à grande diferença em seus tamanhos corporais. Ai
+biologia,2015,61,ENEM-CN-2015-REG-D1-C1-Q61,Botânica e Zoologia,D,,0,"O nitrogênio é essencial para a vida e o maior reservatório global desse elemento, na forma de N2, é a atmosfera. Os pri"
+biologia,2015,66,ENEM-CN-2015-REG-D1-C1-Q66,Genética e Biotecnologia,E,,0,A cariotipagem é um método que analisa células de um indivíduo para determinar seu padrão cromossômico. Essa técnica con
+biologia,2015,72,ENEM-CN-2015-REG-D1-C1-Q72,Corpo Humano e Saúde,B,,0,"Tanto a febre amarela quanto a dengue são doenças causadas por vírus do grupo dos arbovírus, pertencentes ao gênero Flav"
+biologia,2015,74,ENEM-CN-2015-REG-D1-C1-Q74,Corpo Humano e Saúde,A,,0,"A palavra “biotecnologia” surgiu no século XX, quando o cientista Herbert Boyer introduziu a informação responsável pela"
+biologia,2015,78,ENEM-CN-2015-REG-D1-C1-Q78,Corpo Humano e Saúde,E,,0,"A definição de queimadura é bem ampla, porém, basicamente, é a lesão causada pela ação direta ou indireta produzida pela"
+biologia,2015,83,ENEM-CN-2015-REG-D1-C1-Q83,Botânica e Zoologia,D,,0,"Os anfíbios representam o primeiro grupo de vertebrados que, evolutivamente, conquistou o ambiente terrestre. Apesar dis"
+biologia,2015,87,ENEM-CN-2015-REG-D1-C1-Q87,Genética e Biotecnologia,D,,0,"O formato das células de organismos pluricelulares é extremamente variado. Existem células discoides, como é o caso das "
+biologia,2015,89,ENEM-CN-2015-REG-D1-C1-Q89,Corpo Humano e Saúde,E,,0,Euphorbia milii é uma planta ornamental amplamente disseminada no Brasil e conhecida como coroa-de-cristo. O estudo quím
+biologia,2016,56,ENEM-CN-2016-REG-D1-C1-Q56,Citologia e Bioquímica,B,,0,"As proteínas de uma célula eucariótica possuem peptídeos sinais, que são sequências de aminoácidos responsáveis pelo seu"
+biologia,2016,62,ENEM-CN-2016-REG-D1-C1-Q62,Botânica e Zoologia,A,sim,0,"Ao percorrer o trajeto de uma cadeia alimentar, o carbono, elemento essencial e majoritário da matéria orgânica que comp"
+biologia,2016,65,ENEM-CN-2016-REG-D1-C1-Q65,Botânica e Zoologia,E,,0,A formação de coágulos sanguíneos em veias e artérias é um dos fatores responsáveis pela ocorrência de doenças cardiovas
+biologia,2016,69,ENEM-CN-2016-REG-D1-C1-Q69,Corpo Humano e Saúde,E,,0,Recentemente um estudo feito em campos de trigo mostrou que níveis elevados do dióxido de carbono na atmosfera prejudica
+biologia,2016,70,ENEM-CN-2016-REG-D1-C1-Q70,Genética e Biotecnologia,A,,0,"Pesquisadores recuperaram DNA de ossos de mamute (Mammuthus primigenius) encontrados na Sibéria, que tiveram sua idade d"
+biologia,2016,71,ENEM-CN-2016-REG-D1-C1-Q71,Botânica e Zoologia,D,,0,"A vegetação apresenta adaptações ao ambiente, como plantas arbóreas e arbustivas com raízes que se expandem horizontalme"
+biologia,2016,73,ENEM-CN-2016-REG-D1-C1-Q73,Ecologia e Meio Ambiente,C,,0,"Os ecossistemas degradados por intensa atividade agrícola apresentam geralmente, diminuição de sua a estabilidade. Nesse"
+biologia,2016,79,ENEM-CN-2016-REG-D1-C1-Q79,Corpo Humano e Saúde,B,,1,Vários métodos são empregados para prevenção de infecções por microrganismos. Dois desses métodos utilizam microrganismo
+biologia,2016,80,ENEM-CN-2016-REG-D1-C1-Q80,Evolução,E,,0,"O Painel Intergovernamental de Mudanças Climáticas (na sigla em inglês, IPCC) prevê que nas próximas décadas o planeta p"
+biologia,2016,83,ENEM-CN-2016-REG-D1-C1-Q83,Genética e Biotecnologia,C,,0,"O Brasil possui um grande número de espécies distintas entre animais, vegetais e microrganismos envoltos em uma imensa c"
+biologia,2016,87,ENEM-CN-2016-REG-D1-C1-Q87,Corpo Humano e Saúde,E,sim,0,Portadores de diabetes insipidus reclamam da confusão feita pelos profissionais da saúde quanto aos dois tipos de diabet
+biologia,2016,90,ENEM-CN-2016-REG-D1-C1-Q90,Botânica e Zoologia,E,sim,0,"Apesar da grande diversidade biológica, a hipótese de que a vida na Terra tenha tido uma única origem comum é aceita pel"
+biologia,2017,91,ENEM-CN-2017-REG-D2-C7-Q91,Ecologia e Meio Ambiente,D,,1,A toxicidade de algumas substâncias é normalmente representada por um índice conhecido como DL50 (dose letal mediana). E
+biologia,2017,92,ENEM-CN-2017-REG-D2-C7-Q92,Corpo Humano e Saúde,E,,0,"Os medicamentos são rotineiramente utilizados pelo ser humano com o intuito de diminuir ou, por muitas vezes, curar poss"
+biologia,2017,98,ENEM-CN-2017-REG-D2-C7-Q98,Citologia e Bioquímica,C,,1,"A classificação biológica proposta por Whittaker permite distinguir cinco grandes linhas evolutivas utilizando, como cri"
+biologia,2017,100,ENEM-CN-2017-REG-D2-C7-Q100,Corpo Humano e Saúde,B,,0,"Pesquisadores criaram um tipo de plaqueta artificial, feita com um polímero gelatinoso coberto de anticorpos, que promet"
+biologia,2017,109,ENEM-CN-2017-REG-D2-C7-Q109,Botânica e Zoologia,A,,0,O fenômeno da piracema (subida do rio) é um importante mecanismo que influencia a reprodução de algumas espécies de peix
+biologia,2017,111,ENEM-CN-2017-REG-D2-C7-Q111,Botânica e Zoologia,E,,0,"Os botos-cinza (Sotalia guianensis), mamíferos da família dos golfinhos, são excelentes indicadores da poluição das área"
+biologia,2017,113,ENEM-CN-2017-REG-D2-C7-Q113,Corpo Humano e Saúde,E,,1,A farinha de linhaça dourada é um produto natural que oferece grandes benefícios para o nosso organismo. A maior parte d
+biologia,2017,116,ENEM-CN-2017-REG-D2-C7-Q116,Citologia e Bioquímica,A,,1,"Visando explicar uma das propriedades da membrana plasmática, fusionou-se uma célula de camundongo com uma célula humana"
+biologia,2017,117,ENEM-CN-2017-REG-D2-C7-Q117,Genética e Biotecnologia,D,,0,A distrofia muscular Duchenne (DMD) é uma doença causada por uma mutação em um gene localizado no cromossomo X. Pesquisa
+biologia,2017,118,ENEM-CN-2017-REG-D2-C7-Q118,Ecologia e Meio Ambiente,A,,1,"Para se adequar às normas ambientais atuais, as construtoras precisam prever em suas obras a questão do uso de materiais"
+biologia,2017,123,ENEM-CN-2017-REG-D2-C7-Q123,Botânica e Zoologia,C,,0,"A Mata Atlântica caracteriza-se por uma grande diversidade de epífitas, como as bromélias. Essas plantas estão adaptadas"
+biologia,2017,125,ENEM-CN-2017-REG-D2-C7-Q125,Genética e Biotecnologia,C,,0,"A reação em cadeia da polimerase (PCR, na sigla em inglês) é uma técnica de biologia molecular que permite replicação in"
+biologia,2017,135,ENEM-CN-2017-REG-D2-C7-Q135,Citologia e Bioquímica,E,sim,0,"A terapia celular tem sido amplamente divulgada como revolucionária, por permitir a regeneração de tecidos a partir de c"
+biologia,2018,94,ENEM-CN-2018-REG-D2-C7-Q94,Citologia e Bioquímica,E,,0,"Anabolismo e catabolismo são processos celulares antagônicos, que são controlados principalmente pela ação hormonal. Por"
+biologia,2018,96,ENEM-CN-2018-REG-D2-C7-Q96,Citologia e Bioquímica,B,,0,"Para serem absorvidos pelas células do intestino humano, os lipídios ingeridos precisam ser primeiramente emulsificados."
+biologia,2018,98,ENEM-CN-2018-REG-D2-C7-Q98,Ecologia e Meio Ambiente,A,,0,Corredores ecológicos visam mitigar os efeitos da fragmentação dos ecossistemas promovendo a ligação entre diferentes ár
+biologia,2018,100,ENEM-CN-2018-REG-D2-C7-Q100,Citologia e Bioquímica,E,,0,"No ciclo celular atuam moléculas reguladoras. Dentre elas, a proteína p53 é ativada em resposta a mutações no DNA, evita"
+biologia,2018,101,ENEM-CN-2018-REG-D2-C7-Q101,Botânica e Zoologia,B,,0,"O deserto é um bioma que se localiza em regiões de pouca umidade. A fauna é, predominantemente, composta por animais roe"
+biologia,2018,110,ENEM-CN-2018-REG-D2-C7-Q110,Genética e Biotecnologia,A,,0,Um estudante relatou que o mapeamento do DNA da cevada foi quase todo concluído e seu código genético desvendado. Chamou
+biologia,2018,111,ENEM-CN-2018-REG-D2-C7-Q111,Botânica e Zoologia,E,,0,"A polinização, que viabiliza o transporte do grão de pólen de uma planta até o estigma de outra, pode ser realizada biót"
+biologia,2018,113,ENEM-CN-2018-REG-D2-C7-Q113,Citologia e Bioquímica,A,,0,"Companhias que fabricam jeans usam cloro para o clareamento, seguido de lavagem. Algumas estão substituindo o cloro por "
+biologia,2018,116,ENEM-CN-2018-REG-D2-C7-Q116,Citologia e Bioquímica,B,,5,Células solares à base de [[FIG 0]]  sensibilizadas por corantes (S) são promissoras e poderão vir a substituir as célul
+biologia,2018,117,ENEM-CN-2018-REG-D2-C7-Q117,Citologia e Bioquímica,D,,1,"O nível metabólico de uma célula pode ser determinado pela taxa de síntese de RNAs e proteínas, processos dependentes de"
+biologia,2018,119,ENEM-CN-2018-REG-D2-C7-Q119,Corpo Humano e Saúde,C,,0,"A utilização de extratos de origem natural tem recebido a atenção de pesquisadores em todo o mundo, principalmente nos p"
+biologia,2018,123,ENEM-CN-2018-REG-D2-C7-Q123,Citologia e Bioquímica,E,,1,As células e os organismos precisam realizar trabalho para permanecerem vivos e se reproduzirem. A energia metabólica ne
+biologia,2018,127,ENEM-CN-2018-REG-D2-C7-Q127,Genética e Biotecnologia,E,,1,"Considere, em um fragmento ambiental, uma árvore matriz com frutos (M) e outras cinco que produziram flores e são apenas"
+biologia,2018,133,ENEM-CN-2018-REG-D2-C7-Q133,Botânica e Zoologia,C,,0,"Insetos podem apresentar três tipos de desenvolvimento. Um deles, a holometabolia (desenvolvimento completo), é constitu"
+biologia,2019,96,ENEM-CN-2019-REG-D2-C7-Q96,Ecologia e Meio Ambiente,C,,1,No quadro estão apresentadas informações sobre duas estratégias de sobrevivência que podem ser adotadas por algumas espé
+biologia,2019,97,ENEM-CN-2019-REG-D2-C7-Q97,Botânica e Zoologia,D,,0,"As cutias, pequenos roedores das zonas tropicais, transportam pela boca as sementes que caem das árvores, mas, em vez de"
+biologia,2019,101,ENEM-CN-2019-REG-D2-C7-Q101,Citologia e Bioquímica,C,,0,A eritropoetina (EPO) é um hormônio endógeno secretado pelos rins que influencia a maturação dos eritrócitos. Suas forma
+biologia,2019,107,ENEM-CN-2019-REG-D2-C7-Q107,Botânica e Zoologia,B,,0,"Na piscicultura, costumam-se usar larvas de Artemia (crustáceo) para alimentar larvas de peixes. Ovos de Artemia são col"
+biologia,2019,110,ENEM-CN-2019-REG-D2-C7-Q110,Genética e Biotecnologia,D,,0,"Com base nos experimentos de plantas de Mendel, foram estabelecidos três princípios básicos, que são conhecidos como lei"
+biologia,2019,114,ENEM-CN-2019-REG-D2-C7-Q114,Corpo Humano e Saúde,E,,0,"Na família Retroviridae encontram-se diversos vírus que infectam aves e mamíferos, sendo caracterizada pela produção de "
+biologia,2019,116,ENEM-CN-2019-REG-D2-C7-Q116,Citologia e Bioquímica,B,,1,A fluidez da membrana celular é caracterizada pela capacidade de movimento das moléculas componentes dessa estrutura. Os
+biologia,2019,127,ENEM-CN-2019-REG-D2-C7-Q127,Citologia e Bioquímica,E,,0,"O 2,4-dinitrofenol (DNP) é conhecido como desacoplador da cadeia de elétrons na mitocôndria e apresenta um efeito emagre"
+biologia,2019,133,ENEM-CN-2019-REG-D2-C7-Q133,Citologia e Bioquímica,A,,0,O “The Kidney Project” é um projeto realizado por cientistas que pretendem desenvolver um rim biônico que executará a ma
+biologia,2020,95,ENEM-CN-2020-REG-D2-C7-Q95,Ecologia e Meio Ambiente,C,,0,"A fragmentação dos hábitats é caracterizada pela formação de ilhas da paisagem original, circundadas por áreas transform"
+biologia,2020,103,ENEM-CN-2020-REG-D2-C7-Q103,Ecologia e Meio Ambiente,A,,0,O dióxido de carbono passa para o estado sólido (gelo seco) a –78 °C e retorna ao estado gasoso à temperatura ambiente. 
+biologia,2020,115,ENEM-CN-2020-REG-D2-C7-Q115,Genética e Biotecnologia,B,sim,0,Instituições acadêmicas e de pesquisa no mundo estão inserindo genes em genomas de plantas que possam codificar produtos
+biologia,2020,117,ENEM-CN-2020-REG-D2-C7-Q117,Corpo Humano e Saúde,D,,0,"“Pesquisadores dos Estados Unidos desenvolveram uma nova técnica, que utiliza raios de luz infravermelha (invisíveis a o"
+biologia,2020,118,ENEM-CN-2020-REG-D2-C7-Q118,Botânica e Zoologia,C,,0,"Aranhas, escorpiões, carrapatos e ácaros são representantes da classe dos Aracnídeos. Esses animais são terrestres em su"
+biologia,2020,121,ENEM-CN-2020-REG-D2-C7-Q121,Citologia e Bioquímica,E,,1,"Em uma aula sobre metabolismo energético, foi apresentado um experimento clássico realizado por Engelmann. Um recipiente"
+biologia,2020,125,ENEM-CN-2020-REG-D2-C7-Q125,Genética e Biotecnologia,D,,1,"Uma população encontra-se em equilíbrio genético quanto ao sistema ABO, em que 25% dos indivíduos pertencem ao grupo O e"
+biologia,2020,127,ENEM-CN-2020-REG-D2-C7-Q127,Botânica e Zoologia,C,sim,0,"Plantas pioneiras são as que iniciam o processo natural de cicatrização de uma área desprovida de vegetação. Em geral, t"
+biologia,2021,93,ENEM-CN-2021-REG-D2-C7-Q93,Botânica e Zoologia,E,,1,"O polvo mimético apresenta padrões cromáticos e comportamentos muito curiosos. Frequentemente, muda a orientação de seus"
+biologia,2021,96,ENEM-CN-2021-REG-D2-C7-Q96,Genética e Biotecnologia,B,,1,"A sequência de nucleotídeos do RNA mensageiro presentes em um gene de um fungo, constituída de sete códons, está escrita"
+biologia,2021,98,ENEM-CN-2021-REG-D2-C7-Q98,Corpo Humano e Saúde,D,,0,Durante o desenvolvimento embrionário humano ocorre uma comunicação entre os átrios direito e esquerdo através do forame
+biologia,2021,104,ENEM-CN-2021-REG-D2-C7-Q104,Botânica e Zoologia,B,,0,O rompimento da barragem de rejeitos de mineração no município mineiro de Mariana e o derramamento de produtos tóxicos n
+biologia,2021,110,ENEM-CN-2021-REG-D2-C7-Q110,Citologia e Bioquímica,B,,0,Organismos autótrofos e heterótrofos realizam processos complementares que associam os ciclos do carbono e do oxigênio. 
+biologia,2021,112,ENEM-CN-2021-REG-D2-C7-Q112,Genética e Biotecnologia,E,,0,"Os búfalos são animais considerados rústicos pelos criadores e, por isso, são deixados no campo sem controle reprodutivo"
+biologia,2021,114,ENEM-CN-2021-REG-D2-C7-Q114,Corpo Humano e Saúde,B,,0,Um dos exames clínicos mais tradicionais para medir a capacidade reflexa dos indivíduos é o exame do reflexo patelar. Es
+biologia,2021,119,ENEM-CN-2021-REG-D2-C7-Q119,Botânica e Zoologia,A,,1,Com o objetivo de identificar a melhor espécie produtora de madeira para construção 9com resistência mecânica e à degrad
+biologia,2021,121,ENEM-CN-2021-REG-D2-C7-Q121,Corpo Humano e Saúde,E,,0,"Entre 2014 e 2016, as regiões central e oeste da África sofreram um grave epidemia de febre hemorrágica causada pelo vír"
+biologia,2021,127,ENEM-CN-2021-REG-D2-C7-Q127,Botânica e Zoologia,C,,0,"Estudo aponta que a extinção de preguiças-gigantes, cuja base da dieta eram frutos e sementes, provocou impactos conside"
+biologia,2021,129,ENEM-CN-2021-REG-D2-C7-Q129,Botânica e Zoologia,B,,0,"Nas angiospermas, além da fertilização da oosfera, existe uma segunda fertilização que resulta num tecido triploide.  Es"
+biologia,2021,132,ENEM-CN-2021-REG-D2-C7-Q132,Genética e Biotecnologia,A,,0,A deficiência de lipase ácida lisossômica é uma doença hereditária associada a um gene do cromossomo 10. Os pais dos pac
+biologia,2022,92,ENEM-CN-2022-REG-D2-C7-Q92,Corpo Humano e Saúde,D,,0,"De acordo com a Organização Mundial da Saúde, a filariose e a leishmaniose são consideradas doenças tropicais infecciosa"
+biologia,2022,98,ENEM-CN-2022-REG-D2-C7-Q98,Genética e Biotecnologia,E,,0,"A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou um produto de terapia gênica no país, indicado para o tratam"
+biologia,2022,99,ENEM-CN-2022-REG-D2-C7-Q99,Ecologia e Meio Ambiente,A,,0,A extinção de espécies é uma ameaça real que afeta diversas regiões do país. A introdução de espécies exóticas pode ser 
+biologia,2022,102,ENEM-CN-2022-REG-D2-C7-Q102,Genética e Biotecnologia,E,,0,"Entre as diversas técnicas para diagnóstico da covid-19, destaca-se o teste genético. Considerando as diferentes variant"
+biologia,2022,104,ENEM-CN-2022-REG-D2-C7-Q104,Corpo Humano e Saúde,E,,0,Diversas substâncias são empregadas com a intenção de incrementar o desempenho esportivo de atletas de alto nível. O cha
+biologia,2022,110,ENEM-CN-2022-REG-D2-C7-Q110,Botânica e Zoologia,D,,0,"Desde a proposição da teoria de seleção natural por Darwin, os seres vivos nunca mais foram olhados da mesma forma. No q"
+biologia,2022,114,ENEM-CN-2022-REG-D2-C7-Q114,Citologia e Bioquímica,C,,0,"As células da epiderme da folha da Tradescantia pallida purpurea, uma herbácea popularmente conhecida como trapoeraba-ro"
+biologia,2022,120,ENEM-CN-2022-REG-D2-C7-Q120,Citologia e Bioquímica,E,,1,"Em uma aula prática de bioquímica, para medir a atividade catalítica da enzima catalase, foram realizados seis ensaios i"
+biologia,2022,122,ENEM-CN-2022-REG-D2-C7-Q122,Corpo Humano e Saúde,A,,0,"O veneno da cascavel pode causar hemorragia com risco de morte a quem é picado pela serpente. No entanto, pesquisadores "
+biologia,2022,125,ENEM-CN-2022-REG-D2-C7-Q125,Genética e Biotecnologia,E,,1,"Na figura está representado o mosaicismo em função da inativação aleatória de um dos cromossomos X, que ocorre em todas "
+biologia,2022,127,ENEM-CN-2022-REG-D2-C7-Q127,Citologia e Bioquímica,E,,0,"Os ursos, por não apresentarem uma hibernação verdadeira, acordam por causa da presença de termogenina, uma proteína mit"
+biologia,2022,133,ENEM-CN-2022-REG-D2-C7-Q133,Corpo Humano e Saúde,D,,0,"O protozoário Trypanosoma cruzi, causador da doença de Chagas, pode ser a nova arma da medicina contra o câncer. Pesquis"
+biologia,2023,91,ENEM-CN-2023-REG-D2-C7-Q91,Botânica e Zoologia,D,,0,"O número de abelhas encontra-se em declínio em várias regiões do mundo, inclusive no Brasil, sendo que vários fatores co"
+biologia,2023,95,ENEM-CN-2023-REG-D2-C7-Q95,Botânica e Zoologia,B,,0,"As aves apresentam dois tipos de músculos em seus corpos: vermelhos e brancos. Aves migratórias como garças, gansos e pa"
+biologia,2023,97,ENEM-CN-2023-REG-D2-C7-Q97,Botânica e Zoologia,A,,0,"Um garoto comprou vários abacates na feira, mas descobriu que eles não estavam maduros o suficiente para serem consumido"
+biologia,2023,98,ENEM-CN-2023-REG-D2-C7-Q98,Citologia e Bioquímica,B,,0,Há muito tempo são conhecidas espécies de lesmas-do-mar com uma capacidade impar: guardar parte da maquinaria das célula
+biologia,2023,99,ENEM-CN-2023-REG-D2-C7-Q99,Corpo Humano e Saúde,D,,0,A leishmaniose visceral é uma zoonose causada por um protozoário do gênero Leishmania que é encontrado em diversos tecid
+biologia,2023,101,ENEM-CN-2023-REG-D2-C7-Q101,Corpo Humano e Saúde,A,,0,"Muitas mulheres sofrem com desconfortos nos dias que antecedem a menstruação, a chamada tensão pré-menstrual. Entre outr"
+biologia,2023,103,ENEM-CN-2023-REG-D2-C7-Q103,Botânica e Zoologia,D,,0,"Durante a evolução das plantas, ocorreu uma transição do ambiente aquático para o ambiente terrestre graças ao surgiment"
+biologia,2023,105,ENEM-CN-2023-REG-D2-C7-Q105,Botânica e Zoologia,E,,0,Barbatimão é o nome popular de uma árvore cuja casca e utilizada para fins medicinais. Essa casca é constituída principa
+biologia,2023,106,ENEM-CN-2023-REG-D2-C7-Q106,Corpo Humano e Saúde,C,,0,A tecnologia de vacinas de RNA mensageiro (RNAm) é investigada há anos. Avanços científicos em genética molecular permit
+biologia,2023,107,ENEM-CN-2023-REG-D2-C7-Q107,Citologia e Bioquímica,D,,0,"Na fertilização in vitro, espermatozoides são adicionados aos gametas femininos retirados de uma mulher. Após o período "
+biologia,2023,115,ENEM-CN-2023-REG-D2-C7-Q115,Botânica e Zoologia,B,,0,A biorremediação designa tratamentos que usam organismos para reduzir a quantidade de substâncias tóxicas no ambiente ou
+biologia,2023,116,ENEM-CN-2023-REG-D2-C7-Q116,Ecologia e Meio Ambiente,B,,1,"O ciclo do nitrogênio é composto por várias etapas, conforme a figura, sendo cada uma desempenhada por um grupo específi"
+biologia,2023,125,ENEM-CN-2023-REG-D2-C7-Q125,Genética e Biotecnologia,E,,0,"**Pais com síndrome de Down**  A síndrome de Down é uma alteração genética associada à trissomia do cromossomo 21, ou se"
+biologia,2023,127,ENEM-CN-2023-REG-D2-C7-Q127,Citologia e Bioquímica,C,,1,**Toxicidade do cianeto**  A produção de ATP depende do gradiente de prótons gerado pela cadeia respiratória. Nessas rea
+biologia,2023,134,ENEM-CN-2023-REG-D2-C7-Q134,Citologia e Bioquímica,E,,0,**Avaliação de substâncias genotóxicas**  O ensaio de micronúcleos é um teste de avaliação de genotoxicidade que associa
+biologia,2024,95,ENEM-CN-2024-REG-D2-C7-Q95,Genética e Biotecnologia,A,sim,0,O desenvolvimento da biotecnologia e da clonagem gênica em procariotos fez com que a produção de proteínas se tornasse m
+biologia,2024,102,ENEM-CN-2024-REG-D2-C7-Q102,Citologia e Bioquímica,A,sim,0,"Uma agricultora, com a intenção de comercializar o milho recém-colhido, testou uma forma de preservar o sabor adocicado "
+biologia,2024,105,ENEM-CN-2024-REG-D2-C7-Q105,Ecologia e Meio Ambiente,D,sim,0,Impactos do microplástico A ação de fatores abióticos aliada à biodeterioração contribuem para a formação de microplásti
+biologia,2024,107,ENEM-CN-2024-REG-D2-C7-Q107,Corpo Humano e Saúde,E,sim,0,"Com base em testes realizados em ratos, concluiu-se que os compostos nitrosos são substâncias mutagênicas, ou seja, prod"
+biologia,2024,108,ENEM-CN-2024-REG-D2-C7-Q108,Ecologia e Meio Ambiente,B,sim,0,Sistemas agroflorestais (SAFs) Os sistemas agroflorestais alinham os interesses econômicos aos ecológicos. Esses sistema
+biologia,2024,109,ENEM-CN-2024-REG-D2-C7-Q109,Botânica e Zoologia,B,sim,0,"As fibras musculares esqueléticas não são todas iguais. As fibras lentas, também conhecidas como fibras vermelhas, apres"
+biologia,2024,111,ENEM-CN-2024-REG-D2-C7-Q111,Botânica e Zoologia,D,sim,0,"O exoesqueleto dos crustáceos é formado por quitina e impregnações de sais calcários e, por isso, é mais duro quando com"
+biologia,2024,126,ENEM-CN-2024-REG-D2-C7-Q126,Corpo Humano e Saúde,A,sim,0,Indústrias farmacêuticas e instituições científicas têm trabalhado no desenvolvimento de diferentes vacinas contra a cov
+biologia,2025,92,ENEM-CN-2025-REG-D2-C7-Q92,Citologia e Bioquímica,D,sim,0,"A maioria dos seres vivos tem um relógio biológico (ciclo circadiano), que regula as mudanças metabólicas e comportament"
+biologia,2025,93,ENEM-CN-2025-REG-D2-C7-Q93,Botânica e Zoologia,C,sim,0,Os funcionários de um zoológico observaram um aumento na taxa de mortalidade de aves aquáticas por afogamento. Um grupo 
+biologia,2025,96,ENEM-CN-2025-REG-D2-C7-Q96,Botânica e Zoologia,B,sim,0,Os sapinhos-ponta-de-flecha constituem um grupo de espécies encontradas na América Central e do Sul. Seus venenos são ob
+biologia,2025,98,ENEM-CN-2025-REG-D2-C7-Q98,Ecologia e Meio Ambiente,D,sim,0,"O bioma Cerrado é caracterizado por apresentar ampla e natural diversidade de espécies vegetais. Nos últimos tempos, o h"
+biologia,2025,99,ENEM-CN-2025-REG-D2-C7-Q99,Corpo Humano e Saúde,C,sim,0,"O monstro de gila, um lagarto encontrado em um deserto dos Estados Unidos, apresenta adaptações à falta de alimento ness"
+biologia,2025,102,ENEM-CN-2025-REG-D2-C7-Q102,Botânica e Zoologia,E,sim,0,"O sashimi (filé de peixe cru) de baiacu é uma iguaria muito apreciada no Japão. Entretanto, sua ingestão pode causar a m"
+biologia,2025,103,ENEM-CN-2025-REG-D2-C7-Q103,Citologia e Bioquímica,A,sim,0,A deficiência da enzima lipase ácida causa uma doença em que o portador apresenta células que não degradam colesterol es
+biologia,2025,112,ENEM-CN-2025-REG-D2-C7-Q112,Corpo Humano e Saúde,D,sim,0,"Golden Rice, ou arroz dourado, é uma variedade de arroz enriquecida em betacaroteno, precursor da vitamina A. Foi desenv"
+biologia,2025,116,ENEM-CN-2025-REG-D2-C7-Q116,Botânica e Zoologia,C,sim,0,"As cangas são ambientes resultantes da atuação, ao longo de milhões de anos, de chuvas, enxurradas, calor e ventos em ro"
+quimica,2009,1,ENEM-CN-2009-REG-D1-C1-Q1,Química Geral e Ambiental,C,,0,"A atmosfera terrestre é composta pelos gases nitrogênio (N2) e oxigênio (O2), que somam cerca de 99%, e por gases traços"
+quimica,2009,2,ENEM-CN-2009-REG-D1-C1-Q2,Química Orgânica,D,,1,"Analise a figura.  [[FIG 0]]  Supondo que seja necessário dar um título para essa figura, a alternativa que melhor tradu"
+quimica,2009,12,ENEM-CN-2009-REG-D1-C1-Q12,Equilíbrio Químico e pH,A,sim,0,"Sabões são sais de ácidos carboxílicos de cadeia longa utilizados com a finalidade de facilitar, durante processos de la"
+quimica,2009,23,ENEM-CN-2009-REG-D1-C1-Q23,Eletroquímica,E,,0,Cerca de 1% do lixo urbano é constituído por resíduos sólidos contendo elementos tóxicos. Entre esses elementos estão me
+quimica,2009,26,ENEM-CN-2009-REG-D1-C1-Q26,Equilíbrio Químico e pH,D,,0,"O processo de industrialização tem gerado sérios problemas de ordem ambiental, econômica e social, entre os quais se"
+quimica,2009,34,ENEM-CN-2009-REG-D1-C1-Q34,Química Orgânica,C,,0,"O lixo orgânico de casa – constituído de restos de verduras, frutas, legumes, cascas de ovo, aparas de grama, entre ou"
+quimica,2009,36,ENEM-CN-2009-REG-D1-C1-Q36,Soluções e Concentração,E,,0,"O uso de protetores solares em situações de grande exposição aos raios solares como, por exemplo, nas praias, é de "
+quimica,2009,44,ENEM-CN-2009-REG-D1-C1-Q44,Química Orgânica,D,,0,O álcool hidratado utilizado como combustível veicular é obtido por meio da destilação fracionada de soluções aqu
+quimica,2010,53,ENEM-CN-2010-REG-D1-C1-Q53,Química Geral e Ambiental,A,,0,"O fósforo, geralmente representado pelo íon de fosfato (PO4−3), é um ingrediente insubstituível da vida, já que é parte "
+quimica,2010,55,ENEM-CN-2010-REG-D1-C1-Q55,Química Geral e Ambiental,C,,0,"Em visita a uma usina sucroalcooleira, um grupo de alunos pôde observar a série de processos de beneficiamento da cana-d"
+quimica,2010,65,ENEM-CN-2010-REG-D1-C1-Q65,Equilíbrio Químico e pH,E,,0,"As misturas efervescentes, em pó ou comprimidos, são comuns para a administração de vitamina C ou de medicamentos para a"
+quimica,2010,67,ENEM-CN-2010-REG-D1-C1-Q67,Termoquímica e Cinética,D,,0,O abastecimento de nossas necessidades energéticas futuras dependerá certamente do desenvolvimento de tecnologias para a
+quimica,2010,72,ENEM-CN-2010-REG-D1-C1-Q72,Estequiometria e Cálculos,E,,0,"Todos os organismos necessitam de água e grande parte deles vive em rios, lagos e oceanos. Os processos biológicos, como"
+quimica,2010,74,ENEM-CN-2010-REG-D1-C1-Q74,Estequiometria e Cálculos,D,,0,"A eletrólise é muito empregada na indústria com o objetivo de reaproveitar parte dos metais sucateados. O cobre, por exe"
+quimica,2010,79,ENEM-CN-2010-REG-D1-C1-Q79,Estequiometria e Cálculos,D,,0,As mobilizações para promover um planeta melhor para as futuras gerações são cada vez frequentes. A maior parte dos meio
+quimica,2010,80,ENEM-CN-2010-REG-D1-C1-Q80,Química Geral e Ambiental,E,,0,"Os pesticidas modernos são divididos em várias classes, entre as quais se destacam os organofosforados, materiais que ap"
+quimica,2010,82,ENEM-CN-2010-REG-D1-C1-Q82,Química Geral e Ambiental,A,,2,As baterias de Ni-Cd muito utilizadas no nosso cotidiano não devem ser descartadas em lixos comuns uma vez que uma consi
+quimica,2010,83,ENEM-CN-2010-REG-D1-C1-Q83,Soluções e Concentração,B,,1,"Ao colocar um pouco de açúcar ma água e mexer até a obtenção de uma só fase, prepara-se uma solução. O mesmo acontece ao"
+quimica,2010,85,ENEM-CN-2010-REG-D1-C1-Q85,Equilíbrio Químico e pH,A,,0,"Decisão de asfaltamento da rodovia MG-010, acompanha da introdução de espécies exóticas, e a prática de incêndios crimin"
+quimica,2010,90,ENEM-CN-2010-REG-D1-C1-Q90,Química Geral e Ambiental,C,,0,O lixão que recebia 130 toneladas de lixo e contaminava a região com seu chorume (líquido derivado da decomposição de co
+quimica,2011,50,ENEM-CN-2011-REG-D1-C1-Q50,Química Orgânica,C,sim,0,"Um dos problemas dos combustíveis que contêm carbono é que sua queima produz dióxido de carbono. Portanto, uma caracterí"
+quimica,2011,54,ENEM-CN-2011-REG-D1-C1-Q54,Química Geral e Ambiental,C,,1,"Certas ligas estanho-chumbo com composição específica formam um estético simples, o que significa que uma liga com essas"
+quimica,2011,55,ENEM-CN-2011-REG-D1-C1-Q55,Soluções e Concentração,B,,0,"No processo de industrialização da mamona, além do óleo que contém vários ácidos graxos, é obtida uma massa orgânica, co"
+quimica,2011,58,ENEM-CN-2011-REG-D1-C1-Q58,Equilíbrio Químico e pH,E,sim,0,"A pele humana, quando está bem hidratada, adquire boa elasticidade e aspecto macio e suave. Em contrapartida, quando est"
+quimica,2011,75,ENEM-CN-2011-REG-D1-C1-Q75,Equilíbrio Químico e pH,B,sim,0,Os refrigerantes têm-se tornado cada vez mais o alvo de políticas públicas de saúde. Os de cola apresentam ácido fosfóri
+quimica,2011,83,ENEM-CN-2011-REG-D1-C1-Q83,Química Orgânica,C,,0,"O etanol é considerado um biocombustível promissor, pois, sob o ponto de vista do balanço de carbono, possui uma taxa de"
+quimica,2011,85,ENEM-CN-2011-REG-D1-C1-Q85,Química Geral e Ambiental,B,,0,"Um dos processos usados no tratamento do lixo é a incineração, que apresenta vantagens e desvantagens. Em São Paulo, por"
+quimica,2011,90,ENEM-CN-2011-REG-D1-C1-Q90,Química Geral e Ambiental,A,,1,"[[FIG 0]]  De acordo com o relatório “A grande sombra da pecuária” (Livestock’s Long Shadow), feito pela Organização das"
+quimica,2012,46,ENEM-CN-2012-REG-D1-C1-Q46,Química Geral e Ambiental,B,,0,"Para diminuir o acúmulo de lixo e o desperdício de materiais de valor econômico e, assim, reduzir a exploração de recurs"
+quimica,2012,53,ENEM-CN-2012-REG-D1-C1-Q53,Química Geral e Ambiental,A,,1,"O rótulo de um desodorante aerossol informa ao consumidor que o produto possui em sua composição os gases isobutano, but"
+quimica,2012,58,ENEM-CN-2012-REG-D1-C1-Q58,Química Orgânica,A,,1,A própolis é um produto natural conhecido por suas propriedades anti-inflamatórias e cicatrizantes. Esse material contém
+quimica,2012,59,ENEM-CN-2012-REG-D1-C1-Q59,Estequiometria e Cálculos,B,sim,0,"No Japão, um movimento nacional para a promoção da luta contra o aquecimento global leva o slogan: 1 pessoa, 1 dia, 1 kg"
+quimica,2012,70,ENEM-CN-2012-REG-D1-C1-Q70,Química Orgânica,D,,0,"Em uma planície, ocorreu um acidente ambiental em decorrência do derramamento de grande quantidade de um hidrocarboneto "
+quimica,2012,76,ENEM-CN-2012-REG-D1-C1-Q76,Química Geral e Ambiental,B,,0,"Os tubos de PVC, material organoclorado sintético, são normalmente utilizados como encanamento na construção civil. Ao f"
+quimica,2012,86,ENEM-CN-2012-REG-D1-C1-Q86,Soluções e Concentração,E,,0,Osmose é um processo espontâneo que ocorre em todos os organismos vivos e é essencial à manutenção da vida. Uma solução 
+quimica,2012,89,ENEM-CN-2012-REG-D1-C1-Q89,Soluções e Concentração,E,,1,"Quando colocados em água, os fosfolipídeos tendem a formar lipossomos, estruturas formadas por uma bicamada lipídica, co"
+quimica,2012,90,ENEM-CN-2012-REG-D1-C1-Q90,Estequiometria e Cálculos,B,sim,0,Aspartame é um edulcorante artificial (adoçante dietético) que apresenta potencial adoçante 200 vezes maior que o açúcar
+quimica,2013,46,ENEM-CN-2013-REG-D1-C1-Q46,Química Orgânica,B,,1,Músculos artificiais são dispositivos feitos com plásticos inteligentes que respondem a uma corrente elétrica com um mov
+quimica,2013,47,ENEM-CN-2013-REG-D1-C1-Q47,Estequiometria e Cálculos,B,,0,"O brasileiro consome em média 500 miligramas de cálcio por dia, quando a quantidade recomendada é o dobro. Uma alimentaç"
+quimica,2013,49,ENEM-CN-2013-REG-D1-C1-Q49,Química Geral e Ambiental,D,,1,"Glicose marcada com nuclídeos de carbono-11 é utilizada na medicina para se obter imagens tridimensionais do cérebro, po"
+quimica,2013,51,ENEM-CN-2013-REG-D1-C1-Q51,Química Geral e Ambiental,B,,0,"Química Verde pode ser definida como a criação, o desenvolvimento e a aplicação de produtos e processos químicos para re"
+quimica,2013,58,ENEM-CN-2013-REG-D1-C1-Q58,Soluções e Concentração,A,,0,"O citral, substância de odor fortemente cítrico, é obtido a partir de algumas plantas como o capim-limão, cujo óleo esse"
+quimica,2013,67,ENEM-CN-2013-REG-D1-C1-Q67,Química Geral e Ambiental,C,,0,"Sabe-se que o aumento da concentração de gases como CO2, CH4 e N2O na atmosfera é um dos fatores responsáveis pelo agrav"
+quimica,2013,69,ENEM-CN-2013-REG-D1-C1-Q69,Equilíbrio Químico e pH,E,,0,A formação frequente de grandes volumes de pirita (FeS2) em uma variedade de depósitos minerais favorece a formação de s
+quimica,2013,74,ENEM-CN-2013-REG-D1-C1-Q74,Eletroquímica,C,,0,"Eu também podia decompor a água, se fosse salgada ou acidulada, usando a pilha de Daniell como fonte de força. Lembro o "
+quimica,2013,77,ENEM-CN-2013-REG-D1-C1-Q77,Estequiometria e Cálculos,D,,0,"A produção de aço envolve o aquecimento do minério de ferro, junto com carvão (carbono) e ar atmosférico em uma série de"
+quimica,2013,81,ENEM-CN-2013-REG-D1-C1-Q81,Química Geral e Ambiental,A,,0,"Entre as substâncias usadas para o tratamento de água está o sulfato de alumínio que, em meio alcalino, forma partículas"
+quimica,2014,49,ENEM-CN-2014-REG-D1-C1-Q49,Química Orgânica,D,,0,O potencial brasileiro para transformar lixo em energia permanece subutilizado — apenas pequena parte dos resíduos brasi
+quimica,2014,52,ENEM-CN-2014-REG-D1-C1-Q52,Química Orgânica,D,,0,"A talidomida é um sedativo leve e foi muito utilizado no tratamento de náuseas, comuns no início da gravidez. Quando foi"
+quimica,2014,56,ENEM-CN-2014-REG-D1-C1-Q56,Soluções e Concentração,D,,0,Diesel é uma mistura de hidrocarbonetos que também apresenta enxofre em sua composição. Esse enxofre é um componente ind
+quimica,2014,58,ENEM-CN-2014-REG-D1-C1-Q58,Estequiometria e Cálculos,B,,0,"A capacidade de limpeza e a eficiência de um sabão dependem de sua propriedade de formar micelas estáveis, que arrastam "
+quimica,2014,70,ENEM-CN-2014-REG-D1-C1-Q70,Soluções e Concentração,D,sim,0,"Visando minimizar impactos ambientais, a legislação brasileira determina que resíduos químicos lançados diretamente no c"
+quimica,2014,77,ENEM-CN-2014-REG-D1-C1-Q77,Química Orgânica,B,sim,0,O estudo de compostos orgânicos permite aos analistas definir propriedades físicas e químicas responsáveis pelas caracte
+quimica,2014,78,ENEM-CN-2014-REG-D1-C1-Q78,Química Orgânica,D,,0,"Com o objetivo de substituir as sacolas de polietileno, alguns supermercados têm utilizado um novo tipo de plástico ecol"
+quimica,2014,86,ENEM-CN-2014-REG-D1-C1-Q86,Equilíbrio Químico e pH,E,,0,"Grande quantidade dos maus odores do nosso dia a dia está relacionada a compostos alcalinos. Assim, em vários desses cas"
+quimica,2014,88,ENEM-CN-2014-REG-D1-C1-Q88,Estequiometria e Cálculos,C,,0,"Grandes fontes de emissão do gás dióxido de enxofre são as indústrias de extração de cobre e níquel, em decorrência da o"
+quimica,2015,51,ENEM-CN-2015-REG-D1-C1-Q51,Química Geral e Ambiental,C,,0,"Um grupo de pesquisadores desenvolveu um método simples, barato e eficaz de remoção de petróleo contaminante na água, qu"
+quimica,2015,52,ENEM-CN-2015-REG-D1-C1-Q52,Química Geral e Ambiental,A,sim,0,"A soda cáustica pode ser usada no desentupimento de encanamentos domésticos e tem, em sua composição, o hidróxido de sód"
+quimica,2015,55,ENEM-CN-2015-REG-D1-C1-Q55,Estequiometria e Cálculos,B,sim,0,A hidroponia pode ser definida como uma técnica de produção de vegetais sem necessariamente a presença de solo. Uma das 
+quimica,2015,58,ENEM-CN-2015-REG-D1-C1-Q58,Química Geral e Ambiental,B,,0,"Alimentos em conserva são frequentemente armazenados em latas metálicas seladas, fabricadas com um material chamado folh"
+quimica,2015,62,ENEM-CN-2015-REG-D1-C1-Q62,Soluções e Concentração,A,,0,"Em um experimento, colocou-se água até a metade da capacidade de um frasco de vidro e, em seguida, adicionaram-se três g"
+quimica,2015,67,ENEM-CN-2015-REG-D1-C1-Q67,Estequiometria e Cálculos,D,,0,"Durante uma expedição, um grupo de estudantes perdeu-se de seu guia. Ao longo do dia em que esse grupo estava perdido, s"
+quimica,2015,71,ENEM-CN-2015-REG-D1-C1-Q71,Equilíbrio Químico e pH,B,sim,0,"Vários ácidos são utilizados em indústrias que descartam seus efluentes nos corpos d’água, como rios e lagos, podendo af"
+quimica,2015,76,ENEM-CN-2015-REG-D1-C1-Q76,Estequiometria e Cálculos,C,sim,0,"Para proteger estruturas de aço da corrosão, a indústria utiliza uma técnica chamada galvanização. Um metal bastante uti"
+quimica,2015,80,ENEM-CN-2015-REG-D1-C1-Q80,Química Geral e Ambiental,A,,0,"Pesticidas são substâncias utilizadas para promover o controle de pragas. No entanto, após sua aplicação em ambientes ab"
+quimica,2016,46,ENEM-CN-2016-REG-D1-C1-Q46,Soluções e Concentração,B,,0,"Em sua formulação, o spray de pimenta contém porcentagens variadas de oleorresina de Capsicum, cujo princípio ativo é a "
+quimica,2016,51,ENEM-CN-2016-REG-D1-C1-Q51,Soluções e Concentração,C,,0,"Em meados de 2003, mais de 20 pessoas morreram no Brasil após terem ingerido uma suspensão de sulfato de bário utilizada"
+quimica,2016,58,ENEM-CN-2016-REG-D1-C1-Q58,Estequiometria e Cálculos,D,sim,0,"A minimização do tempo e custo de uma reação química, bem como o aumento na sua taxa de conversão, caracterizam a eficiê"
+quimica,2016,60,ENEM-CN-2016-REG-D1-C1-Q60,Química Orgânica,D,sim,0,"O carvão ativado é um material que possui elevado teor de carbono, sendo muito utilizado para a remoção de compostos org"
+quimica,2016,64,ENEM-CN-2016-REG-D1-C1-Q64,Eletroquímica,B,,0,TEXTO I  Biocélulas combustíveis são uma alternativa tecnológica para substituição das baterias convencionais. Em uma bi
+quimica,2016,67,ENEM-CN-2016-REG-D1-C1-Q67,Química Geral e Ambiental,D,,0,"Primeiro, em relação àquilo a que chamamos água, quando congela, parece-nos estar a olhar para algo que se tornou pedra "
+quimica,2016,68,ENEM-CN-2016-REG-D1-C1-Q68,Química Orgânica,B,,0,Para cada litro de etanol produzido em uma indústria de cana-de-açúcar são gerados cerca de 18 L de vinhaça que é utiliz
+quimica,2016,72,ENEM-CN-2016-REG-D1-C1-Q72,Química Geral e Ambiental,C,,1,Uma pessoa é responsável pela manutenção de uma sauna úmida. Todos os dias cumpre o mesmo ritual: colhe folhas de capim-
+quimica,2017,95,ENEM-CN-2017-REG-D2-C7-Q95,Eletroquímica,D,,1,A eletrólise é um processo não espontâneo de grande importância para a indústria química. Uma de suas aplicações é a obt
+quimica,2017,97,ENEM-CN-2017-REG-D2-C7-Q97,Química Geral e Ambiental,B,,0,"Um fato corriqueiro ao se cozinhar arroz é o derramamento de parte da água de cozimento sobre a chama azul do fogo, muda"
+quimica,2017,102,ENEM-CN-2017-REG-D2-C7-Q102,Equilíbrio Químico e pH,D,,0,"Partículas microscópicas existentes na atmosfera funcionam como núcleos de condensação de vapor de água que, sob condiçõ"
+quimica,2017,106,ENEM-CN-2017-REG-D2-C7-Q106,Soluções e Concentração,A,,0,"Na Idade Média, para elaborar preparados a partir de plantas produtoras de óleos essenciais, as coletas das espécies era"
+quimica,2017,114,ENEM-CN-2017-REG-D2-C7-Q114,Química Orgânica,B,,1,"O biodiesel é um biocombustível obtido a partir de fontes renováveis, que surgiu como alternativa ao uso do diesel de pe"
+quimica,2017,119,ENEM-CN-2017-REG-D2-C7-Q119,Equilíbrio Químico e pH,A,,1,Diversos produtos naturais podem ser obtidos de plantas por processo de extração. O lapachol é da classe das naftoquinon
+quimica,2017,122,ENEM-CN-2017-REG-D2-C7-Q122,Estequiometria e Cálculos,D,,1,"O ácido acetilsalicílico, AAS (massa molar igual a 180 g/mol), é sintetizado a partir da reação do ácido salicílico (mas"
+quimica,2017,126,ENEM-CN-2017-REG-D2-C7-Q126,Química Geral e Ambiental,C,,0,"No ar que respiramos existem os chamados “gases inertes”. Trazem curiosos nomes gregos, que significam “o Novo”, “o Ocul"
+quimica,2017,130,ENEM-CN-2017-REG-D2-C7-Q130,Química Geral e Ambiental,D,,1,A cromatografia em papel é um método de separação que se baseia na migração diferencial dos componentes de uma mistura e
+quimica,2017,132,ENEM-CN-2017-REG-D2-C7-Q132,Soluções e Concentração,E,,0,"Uma das estratégias para conservação de alimentos é o salgamento, adição de cloreto de sódio (NaCl), historicamente util"
+quimica,2017,134,ENEM-CN-2017-REG-D2-C7-Q134,Química Orgânica,A,,2,"A ozonólise, reação utilizada na indústria madeireira para a produção de papel, é utilizada em escala de laboratório na "
+quimica,2018,91,ENEM-CN-2018-REG-D2-C7-Q91,Química Orgânica,B,,1,"Pesquisas demonstram que nanodispositivos baseados em movimentos de dimensões atômicas, induzidos por luz, poderão ter a"
+quimica,2018,93,ENEM-CN-2018-REG-D2-C7-Q93,Eletroquímica,D,,4,"Em 1938 o arqueólogo alemão WIlhelm Kõnlg, diretor do Museu Nacional do Iraque, encontrou um objeto estranho na coleção "
+quimica,2018,99,ENEM-CN-2018-REG-D2-C7-Q99,Química Geral e Ambiental,C,,1,A identificação de riscos de produtos perigosos para o transporte rodoviário é obrigatória e realizada por meio da sinal
+quimica,2018,102,ENEM-CN-2018-REG-D2-C7-Q102,Termoquímica e Cinética,C,,0,"O sulfeto de mercúrio(ll) foi usado como pigmento vermelho para pinturas de quadros e murais. Esse pigmento, conhecido c"
+quimica,2018,109,ENEM-CN-2018-REG-D2-C7-Q109,Química Geral e Ambiental,D,,4,"A hidroxilamina [[FIG 0]]  é extremamente reativa em reações de substituição nucleofílica, justificando sua utilização e"
+quimica,2018,114,ENEM-CN-2018-REG-D2-C7-Q114,Eletroquímica,A,,1,"Por meio de reações químicas que envolvem carboidratos, lipídeos e proteínas, nossas células obtêm energia e produzem gá"
+quimica,2018,121,ENEM-CN-2018-REG-D2-C7-Q121,Química Geral e Ambiental,E,,1,O manejo adequado do solo possibilita a manutenção de sua fertilidade à medida que as trocas de nutrientes entre matéria
+quimica,2018,130,ENEM-CN-2018-REG-D2-C7-Q130,Química Geral e Ambiental,B,,1,O grafeno é uma forma alotrópica do carbono constituído por uma folha planar (arranjo bidimensional) de átomos de carbon
+quimica,2018,132,ENEM-CN-2018-REG-D2-C7-Q132,Equilíbrio Químico e pH,A,,0,"As abelhas utilizam a sinalização química para distinguir a abelha-rainha de uma operária, sendo capazes de reconhecer d"
+quimica,2018,135,ENEM-CN-2018-REG-D2-C7-Q135,Equilíbrio Químico e pH,D,,0,O alemão Fritz Haber recebeu o Prêmio Nobel de química de 1918 pelo desenvolvimento de um processo viável para a síntese
+quimica,2019,91,ENEM-CN-2019-REG-D2-C7-Q91,Química Geral e Ambiental,A,,1,"Para realizar o desentupimento de tubulações de esgotos residenciais, é utilizada uma mistura sólida comercial que conté"
+quimica,2019,95,ENEM-CN-2019-REG-D2-C7-Q95,Estequiometria e Cálculos,A,,1,"Glicólise é um processo que ocorre nas células, convertendo glicose em piruvato. Durante a prática de exercícios físicos"
+quimica,2019,99,ENEM-CN-2019-REG-D2-C7-Q99,Equilíbrio Químico e pH,A,,0,"A cada safra, a quantidade de café beneficiado é igual à quantidade de resíduos gerados pelo seu beneficiamento. O resíd"
+quimica,2019,103,ENEM-CN-2019-REG-D2-C7-Q103,Equilíbrio Químico e pH,C,,2,"Estudos mostram o desenvolvimento de biochips utilizados para auxiliar o diagnóstico de diabetes melito, doença evidenci"
+quimica,2019,104,ENEM-CN-2019-REG-D2-C7-Q104,Soluções e Concentração,D,,0,Algumas toneladas de medicamentos para uso humano e veterinário são produzidas por ano. Os fármacos são desenvolvidos pa
+quimica,2019,105,ENEM-CN-2019-REG-D2-C7-Q105,Química Geral e Ambiental,D,,0,Um teste de laboratório permite identificar alguns cátions metálicos ao introduzir uma pequena quantidade do material de
+quimica,2019,108,ENEM-CN-2019-REG-D2-C7-Q108,Química Geral e Ambiental,C,,0,"Por terem camada de valência completa, alta energia de ionização e afinidade eletrônica praticamente nula, considerou-se"
+quimica,2019,115,ENEM-CN-2019-REG-D2-C7-Q115,Eletroquímica,A,,0,"O concreto utilizado na construção civil é um material formado por cimento misturado a areia, a brita e a água.  A areia"
+quimica,2019,120,ENEM-CN-2019-REG-D2-C7-Q120,Química Geral e Ambiental,A,,1,A utilização de corantes na indústria de alimentos é bastante difundida e a escolha por corantes naturais vem sendo mais
+quimica,2019,122,ENEM-CN-2019-REG-D2-C7-Q122,Termoquímica e Cinética,E,,1,O odor que permanece nas mãos após o contato com alho pode ser eliminado pela utilização de um “sabonete de aço inoxidáv
+quimica,2019,124,ENEM-CN-2019-REG-D2-C7-Q124,Química Orgânica,B,,1,Uma das técnicas de reciclagem química do polímero PET [poli(tereftalato de etileno)] gera o tereftalato de metila e o e
+quimica,2019,129,ENEM-CN-2019-REG-D2-C7-Q129,Equilíbrio Químico e pH,C,,1,Um dos parâmetros de controle de qualidade de polpas de frutas destinadas ao consumo como bebida é a acidez total expres
+quimica,2019,130,ENEM-CN-2019-REG-D2-C7-Q130,Soluções e Concentração,E,,0,"Uma cozinheira colocou sal a mais no feijão que estava cozinhando. Para solucionar o problema, ela acrescentou batatas c"
+quimica,2019,134,ENEM-CN-2019-REG-D2-C7-Q134,Química Orgânica,D,,1,"Um experimento simples, que pode ser realizado com materiais encontrados em casa, é realizado da seguinte forma: adicion"
+quimica,2020,94,ENEM-CN-2020-REG-D2-C7-Q94,Química Geral e Ambiental,A,,1,Um microempresário do ramo de cosméticos utiliza óleos essenciais e quer produzir um creme com fragrância de rosas. O pr
+quimica,2020,96,ENEM-CN-2020-REG-D2-C7-Q96,Estequiometria e Cálculos,B,,0,A sacarase (ou invertase) é uma enzima que atua no intestino humano hidrolisando o dissacarídeo sacarose nos monossacarí
+quimica,2020,97,ENEM-CN-2020-REG-D2-C7-Q97,Química Orgânica,D,,0,Grandes reservatórios de óleo leve de melhor qualidade e que produz petróleo mais fino foram descobertos no litoral bras
+quimica,2020,102,ENEM-CN-2020-REG-D2-C7-Q102,Química Geral e Ambiental,D,,1,"A obtenção de óleos vegetais, de maneira geral, passa pelas etapas descritas no quadro.  [[FIG 0]]  Qual das subetapas d"
+quimica,2020,108,ENEM-CN-2020-REG-D2-C7-Q108,Equilíbrio Químico e pH,C,,0,"“Na indústria farmacêutica, é muito comum o emprego de substâncias de revestimento em medicamentos de uso oral, pois tra"
+quimica,2020,110,ENEM-CN-2020-REG-D2-C7-Q110,Termoquímica e Cinética,D,sim,0,"A nanotecnologia pode ser caracterizada quando os compostos estão na ordem de milionésimos de milímetros, como na utiliz"
+quimica,2020,112,ENEM-CN-2020-REG-D2-C7-Q112,Equilíbrio Químico e pH,D,sim,0,"Para garantir que produtos eletrônicos estejam armazenados de forma adequada antes da venda, algumas empresas utilizam c"
+quimica,2020,120,ENEM-CN-2020-REG-D2-C7-Q120,Química Geral e Ambiental,A,sim,0,O crescimento da frota de veículos em circulação no mundo tem levado à busca e desenvolvimento de tecnologias que permit
+quimica,2020,123,ENEM-CN-2020-REG-D2-C7-Q123,Química Geral e Ambiental,E,,1,"Em seu laboratório, um técnico em química foi incumbido de tratar um resíduo, evitando seu descarte direto no meio ambie"
+quimica,2020,124,ENEM-CN-2020-REG-D2-C7-Q124,Química Orgânica,D,,0,"Em 2011, uma falha no processo de perfuração realizado por uma empresa petrolífera ocasionou derramamento de petróleo na"
+quimica,2020,132,ENEM-CN-2020-REG-D2-C7-Q132,Química Geral e Ambiental,D,,0,Megaespetáculos com queima de grande quantidade de fogos de artifício em festas de final de ano são muito comuns no Bras
+quimica,2021,91,ENEM-CN-2021-REG-D2-C7-Q91,Soluções e Concentração,E,,1,"No cultivo por hidroponia, são utilizados soluções nutritivas contendo macronutrientes e micronutrientes essenciais. Alé"
+quimica,2021,95,ENEM-CN-2021-REG-D2-C7-Q95,Química Geral e Ambiental,A,,0,"Os pesticidas organoclorados foram amplamente empregados na agricultura, contudo, em razão das suas elevadas toxicidades"
+quimica,2021,97,ENEM-CN-2021-REG-D2-C7-Q97,Química Orgânica,E,,0,A simples atitude de não jogar direto no lixo ou no ralo da pia o óleo de cozinha usado pode contribuir para a redução d
+quimica,2021,103,ENEM-CN-2021-REG-D2-C7-Q103,Equilíbrio Químico e pH,E,,1,Um técnico analisou um lote de analgésicos que supostamente estava fora das especificações. A composição prevista era 10
+quimica,2021,111,ENEM-CN-2021-REG-D2-C7-Q111,Química Geral e Ambiental,B,,0,Uma escola iniciou o processo educativo para implantação da coleta seletiva e destino de materiais recicláveis. Para ati
+quimica,2021,113,ENEM-CN-2021-REG-D2-C7-Q113,Eletroquímica,E,,1,O ciclo do cobre é um experimento didático em que o cobre metálico é utilizado como reagente de partida. Após uma sequên
+quimica,2021,116,ENEM-CN-2021-REG-D2-C7-Q116,Equilíbrio Químico e pH,C,,1,As águas subterrâneas têm sido contaminadas pelo uso de pesticidas na agricultura. Entre as várias substâncias usualment
+quimica,2021,117,ENEM-CN-2021-REG-D2-C7-Q117,Química Orgânica,B,,0,"Com o aumento da população de suínos no Brasil, torna-se necessária a adoção de métodos para reduzir o potencial poluido"
+quimica,2021,124,ENEM-CN-2021-REG-D2-C7-Q124,Equilíbrio Químico e pH,C,,1,O emprego de células de combustível a hidrogênio pode ser uma tecnologia adequada ao transporte automotivo. O quadro apr
+quimica,2021,130,ENEM-CN-2021-REG-D2-C7-Q130,Química Orgânica,B,,1,"Com o objetivo de proporcionar aroma e sabor a diversos alimentos, a indústria alimentícia se utiliza de flavorizantes. "
+quimica,2021,133,ENEM-CN-2021-REG-D2-C7-Q133,Eletroquímica,D,,2,"O quadro lista alguns dispositivos eletrônicos que estão presentes no dia a dia, bem como a faixa de força eletromotriz "
+quimica,2021,135,ENEM-CN-2021-REG-D2-C7-Q135,Química Orgânica,D,,0,O Prêmio Nobel de Química de 2000 deveu-se à descoberta e ao desenvolvimento de polímeros condutores. Esses materiais tê
+quimica,2022,91,ENEM-CN-2022-REG-D2-C7-Q91,Equilíbrio Químico e pH,A,,1,"A figura ilustra esquematicamente um processo de remediação de solos contaminados com tricloroeteno (TCE), um agente des"
+quimica,2022,97,ENEM-CN-2022-REG-D2-C7-Q97,Química Geral e Ambiental,B,,0,"O urânio é empregado como fonte de energia em reatores nucleares. Para tanto, o seu mineral deve ser refinado, convertid"
+quimica,2022,101,ENEM-CN-2022-REG-D2-C7-Q101,Química Orgânica,C,,2,O etanol é um combustível produzido a partir da fermentação da sacarose presente no caldo de cana-de-açúcar. Um dos fato
+quimica,2022,107,ENEM-CN-2022-REG-D2-C7-Q107,Equilíbrio Químico e pH,C,,1,"A biomassa celulósica pode ser utilizada para a produção de etanol de segunda geração. Entretanto, é necessário que os p"
+quimica,2022,113,ENEM-CN-2022-REG-D2-C7-Q113,Eletroquímica,D,,1,"A nanotecnologia é responsável pelo aprimoramento de diversos materiais, incluindo os que são impactados com a presença "
+quimica,2022,117,ENEM-CN-2022-REG-D2-C7-Q117,Equilíbrio Químico e pH,C,,1,"Um grupo de alunos realizou um experimento para observar algumas propriedades dos ácidos, adicionando um pedaço de mármo"
+quimica,2022,124,ENEM-CN-2022-REG-D2-C7-Q124,Equilíbrio Químico e pH,B,,0,"Durante o ano de 2020, impulsionado pela necessidade de respostas rápidas e eficientes para desinfectar ambientes de pos"
+quimica,2022,126,ENEM-CN-2022-REG-D2-C7-Q126,Química Geral e Ambiental,B,,0,"A água bruta coletada de mananciais apresenta alto índice de sólidos suspensos, o que a deixa com um aspecto turvo. Para"
+quimica,2022,131,ENEM-CN-2022-REG-D2-C7-Q131,Química Orgânica,C,,1,"De modo geral, a palavra “aromático” invoca associações agradáveis, como cheiro de café fresco ou de um pão doce de cane"
+quimica,2023,92,ENEM-CN-2023-REG-D2-C7-Q92,Química Geral e Ambiental,B,,0,Os mais antigos cozinhavam o feijão na panela de ferro a fim de acabar com a palidez de seus filhos. Alguns chegavam até
+quimica,2023,94,ENEM-CN-2023-REG-D2-C7-Q94,Química Geral e Ambiental,A,,1,"Em uma indústria, o controle da dureza da água é importante quando ela é utilizada em caldeiras, uma vez que sais pouco "
+quimica,2023,96,ENEM-CN-2023-REG-D2-C7-Q96,Estequiometria e Cálculos,D,,0,Existe no comércio um produto antimofo constituído por uma embalagem com tampa perfurada contendo cloreto de cálcio anid
+quimica,2023,102,ENEM-CN-2023-REG-D2-C7-Q102,Equilíbrio Químico e pH,C,,0,As cetonas fazem parte de famílias olfativas encontradas em muitos alimentos. A molécula de hexan-3-ona é um exemplo des
+quimica,2023,104,ENEM-CN-2023-REG-D2-C7-Q104,Soluções e Concentração,B,,0,"O vidro contendo alumínio em sua composição é um excelente material para acondicionar medicamentos e suplementos, porque"
+quimica,2023,118,ENEM-CN-2023-REG-D2-C7-Q118,Química Orgânica,C,,1,"A gasolina é uma mistura de hidrocarbonetos de cadeias saturadas contendo de 8 a 12 átomos de carbono. Além disso, a gas"
+quimica,2023,121,ENEM-CN-2023-REG-D2-C7-Q121,Química Orgânica,A,,2,"Os solos amazônicos, ricos em silicato, não são apropriados para o cultivo por serem incapazes de reter nutrientes. Cont"
+quimica,2023,123,ENEM-CN-2023-REG-D2-C7-Q123,Química Orgânica,E,,2,"Entre os medicamentos mais comuns consumidos para o alívio da dor está o ibuprofeno, um composto quiral com ação anti-in"
+quimica,2023,126,ENEM-CN-2023-REG-D2-C7-Q126,Equilíbrio Químico e pH,C,,1,"Para que uma molécula dê origem a um medicamento de administração oral, além de apresentar atividade farmacológica, deve"
+quimica,2023,133,ENEM-CN-2023-REG-D2-C7-Q133,Química Orgânica,E,,1,O descarte de detergentes comuns nos esgotos domésticos ocasiona a formação de uma camada de espuma que impede a entrada
+quimica,2024,93,ENEM-CN-2024-REG-D2-C7-Q93,Química Orgânica,E,sim,0,"No senso comum, considera-se, ainda hoje, que compostos orgânicos são substâncias presentes nos seres vivos. Na Química,"
+quimica,2024,97,ENEM-CN-2024-REG-D2-C7-Q97,Estequiometria e Cálculos,D,sim,0,"O soro caseiro serve para combater a desidratação por meio da reposição da água e sais minerais perdidos, por exemplo, p"
+quimica,2024,116,ENEM-CN-2024-REG-D2-C7-Q116,Química Geral e Ambiental,A,sim,0,O magnésio metálico utilizado em ligas leves é produzido em um processo que envolve várias etapas e utiliza água do mar 
+quimica,2025,100,ENEM-CN-2025-REG-D2-C7-Q100,Soluções e Concentração,D,sim,0,Existe um processo de purificação de água em que são removidos os sais dissolvidos. A água que passa por esse processo é
+quimica,2025,117,ENEM-CN-2025-REG-D2-C7-Q117,Estequiometria e Cálculos,D,sim,0,"Para a produção de titânio metálico ou dióxido de titânio puros, é necessário fazer a cloração do minério que contém dió"
+quimica,2025,121,ENEM-CN-2025-REG-D2-C7-Q121,Química Geral e Ambiental,B,sim,0,"A dimetilamina é uma substância de elevada toxidez que entra em ebulição a 7 °C. Na madrugada de um dia frio, essa subst"
+quimica,2025,125,ENEM-CN-2025-REG-D2-C7-Q125,Estequiometria e Cálculos,B,sim,0,"Apaixonada por culinária e química, uma chefe de cozinha calculou que, para promover o crescimento adequado da massa dur"
+quimica,2025,131,ENEM-CN-2025-REG-D2-C7-Q131,Estequiometria e Cálculos,E,sim,0,"O Brasil é o maior produtor mundial de nióbio (massa molar = 93 g mol−1), metal utilizado na fabricação de vários tipos "
+geografia,2009,55,ENEM-CH-2009-REG-D1-C1-Q55,Geopolítica e Conflitos,A,,0,"O fim da Guerra Fria e da bipolaridade, entre as décadas de 1980 e 1990, gerou expectativas de que seria instaurada uma "
+geografia,2009,68,ENEM-CH-2009-REG-D1-C1-Q68,"Indústria, Economia e Globalização",C,,0,"Até o século XVII, as paisagens rurais eram marcadas por atividades rudimentares e de baixa produtividade. A partir da R"
+geografia,2009,71,ENEM-CH-2009-REG-D1-C1-Q71,Urbanização e População,D,,0,"Além dos inúmeros eletrodomésticos e bens eletrônicos, o automóvel produzido pela indústria fordista promoveu, a partir "
+geografia,2009,72,ENEM-CH-2009-REG-D1-C1-Q72,Urbanização e População,A,,0,"Populações inteiras, nas cidades e na zona rural, dispõem da parafernália digital global como fonte de educação e de for"
+geografia,2009,73,ENEM-CH-2009-REG-D1-C1-Q73,"Indústria, Economia e Globalização",D,,1,"[[FIG 0]]  A partir do mapa apresentado, é possível inferir que nas últimas décadas do século XX, registraram-se process"
+geografia,2009,75,ENEM-CH-2009-REG-D1-C1-Q75,Urbanização e População,C,,0,"O movimento migratório no Brasil é significativo, principalmente em função do volume de pessoas que saem de uma região c"
+geografia,2009,76,ENEM-CH-2009-REG-D1-C1-Q76,Espaço Agrário,C,,0,"Apesar do aumento da produção no campo e da integração entre a indústria e a agricultura, parte da população da América "
+geografia,2009,77,ENEM-CH-2009-REG-D1-C1-Q77,Espaço Agrário,B,,1,"A luta pela terra no Brasil é marcada por diversos aspectos que chamam a atenção. Entre os aspectos positivos, destaca-s"
+geografia,2009,78,ENEM-CH-2009-REG-D1-C1-Q78,Espaço Agrário,A,,1,"O gráfico mostra o percentual de áreas ocupadas, segundo o tipo de propriedade rural no Brasil, no ano de 2006.  [[FIG 0"
+geografia,2009,80,ENEM-CH-2009-REG-D1-C1-Q80,Meio Ambiente e Recursos,B,,0,"O homem construiu sua história por meio do constante processo de ocupação e transformação do espaço natural. Na verdade,"
+geografia,2009,81,ENEM-CH-2009-REG-D1-C1-Q81,Meio Ambiente e Recursos,E,,0,"No presente, observa-se crescente atenção aos efeitos da atividade humana, em diferentes áreas, sobre o meio ambiente, s"
+geografia,2009,83,ENEM-CH-2009-REG-D1-C1-Q83,"Indústria, Economia e Globalização",E,,1,"No mundo contemporâneo, as reservas energéticas tornam-se estratégicas para muitos países no cenário internacional. Os g"
+geografia,2009,85,ENEM-CH-2009-REG-D1-C1-Q85,Clima e Hidrografia,D,,0,"O clima é um dos elementos fundamentais não só na caracterização das paisagens naturais, mas também no histórico de ocup"
+geografia,2009,87,ENEM-CH-2009-REG-D1-C1-Q87,Clima e Hidrografia,B,,1,"Na figura, observa-se uma classificação de regiões da América do Sul segundo o grau de aridez verificado.  [[FIG 0]]  Di"
+geografia,2009,88,ENEM-CH-2009-REG-D1-C1-Q88,Clima e Hidrografia,E,,0,"À medida que a demanda por água aumenta, as reservas desse recurso vão se tornando imprevisíveis. Modelos matemáticos qu"
+geografia,2009,90,ENEM-CH-2009-REG-D1-C1-Q90,"Relevo, Solos e Geologia",D,,0,"As áreas do planalto do cerrado – como a chapada dos Guimarães, a serra de Tapirapuã e a serra dos Parecis, no Mato Gros"
+geografia,2011,4,ENEM-CH-2011-REG-D1-C1-Q4,"Indústria, Economia e Globalização",B,,0,"A Floresta Amazônica, com toda a sua imensidão, não vai estar aí para sempre. Foi preciso alcançar toda essa taxa de des"
+geografia,2011,5,ENEM-CH-2011-REG-D1-C1-Q5,"Indústria, Economia e Globalização",C,,0,"O Centro-Oeste apresentou-se como extremamente receptivo aos novos fenômenos da urbanização, já que era praticamente vir"
+geografia,2011,7,ENEM-CH-2011-REG-D1-C1-Q7,Clima e Hidrografia,A,,0,Uma empresa norte-americana de bioenergia está expandindo suas operações para o Brasil para explorar o mercado de pinhão
+geografia,2011,8,ENEM-CH-2011-REG-D1-C1-Q8,"Relevo, Solos e Geologia",E,,0,Um dos principais objetivos de se dar continuidade às pesquisas em erosão dos solos é o de procurar resolver os problema
+geografia,2011,9,ENEM-CH-2011-REG-D1-C1-Q9,Urbanização e População,D,,0,O fenômeno de ilha de calor é o exemplo mais marcante da modificação das condições iniciais do clima pelo processo de ur
+geografia,2011,10,ENEM-CH-2011-REG-D1-C1-Q10,Urbanização e População,B,,0,"O professor Paulo Saldiva pedala 6 km em 22 minutos de casa para o trabalho, todos os dias. Nunca foi atingido por um ca"
+geografia,2011,11,ENEM-CH-2011-REG-D1-C1-Q11,Meio Ambiente e Recursos,D,,1,"[[FIG 0]]  Disponível em: http://www.ra-bugio.org.br. Acesso em: 28 jul. 2010.  A imagem retrata a araucária, árvore que"
+geografia,2011,12,ENEM-CH-2011-REG-D1-C1-Q12,Clima e Hidrografia,A,,0,"SOBRADINHO O homem chega, já desfaz a natureza Tira gente, põe represa, diz que tudo vai mudar O São Francisco lá pra ci"
+geografia,2011,13,ENEM-CH-2011-REG-D1-C1-Q13,Meio Ambiente e Recursos,A,,0,"Como os combustíveis energéticos, as tecnologias da informação são, hoje em dia, indispensáveis em todos os setores econ"
+geografia,2011,14,ENEM-CH-2011-REG-D1-C1-Q14,"Indústria, Economia e Globalização",C,,1,"[[FIG 0]]  O espaço mundial sob a “nova des-ordem” é um emaranhado de zonas, redes e “aglomerados”, espaços hegemônicos "
+geografia,2011,15,ENEM-CH-2011-REG-D1-C1-Q15,Clima e Hidrografia,A,,0,"Em 1872, Robert Angus Smith criou o termo “chuva ácida”, descrevendo precipitações ácidas em Manchester após a Revolução"
+geografia,2011,24,ENEM-CH-2011-REG-D1-C1-Q24,"Indústria, Economia e Globalização",C,,0,A introdução de novas tecnologias desencadeou uma série de efeitos sociais que afetaram os trabalhadores e sua organizaç
+geografia,2011,28,ENEM-CH-2011-REG-D1-C1-Q28,Urbanização e População,D,,0,"Subindo morros, margeando córregos ou penduradas em palafitas, as favelas fazem parte da paisagem de um terço dos municí"
+geografia,2011,37,ENEM-CH-2011-REG-D1-C1-Q37,Meio Ambiente e Recursos,B,,0,"No Estado de São Paulo, a mecanização da colheita da cana-de-açúcar tem sido induzida também pela legislação ambiental, "
+geografia,2011,39,ENEM-CH-2011-REG-D1-C1-Q39,"Indústria, Economia e Globalização",D,,0,Os chineses não atrelam nenhuma condição para efetuar investimentos nos países africanos. Outro ponto interessante é a v
+geografia,2011,44,ENEM-CH-2011-REG-D1-C1-Q44,Espaço Agrário,B,,1,"[[FIG 0]]  SILVA, E. S. O. Circuito espacial de produção e comercialização da produção familiar de tomate no município d"
+geografia,2011,45,ENEM-CH-2011-REG-D1-C1-Q45,Geopolítica e Conflitos,A,,0,"As migrações transnacionais, intensificadas e generalizadas nas últimas décadas do século XX, expressam aspectos particu"
+geografia,2012,14,ENEM-CH-2012-REG-D1-C1-Q14,"Indústria, Economia e Globalização",C,,0,"A soma do tempo gasto por todos os navios de carga na espera para atracar no porto de Santos é igual a 11 anos — isso, c"
+geografia,2012,18,ENEM-CH-2012-REG-D1-C1-Q18,Espaço Agrário,E,,0,"Portadora de memória, a paisagem ajuda a construir os sentimentos de pertencimento; ela cria uma atmosfera que convém ao"
+geografia,2012,20,ENEM-CH-2012-REG-D1-C1-Q20,Espaço Agrário,E,,0,A singularidade da questão da terra na África Colonial é a expropriação por parte do colonizador e as desigualdades raci
+geografia,2012,24,ENEM-CH-2012-REG-D1-C1-Q24,Urbanização e População,A,,1,[[FIG 0]]  A interpretação e a correlação das figuras sobre a dinâmica demográfica brasileira demonstram um(a)
+geografia,2012,26,ENEM-CH-2012-REG-D1-C1-Q26,Meio Ambiente e Recursos,C,,0,A maior parte dos veículos de transporte atualmente é movida por motores a combustão que utilizam derivados de petróleo.
+geografia,2012,27,ENEM-CH-2012-REG-D1-C1-Q27,Urbanização e População,E,,0,"As mulheres quebradeiras de coco-babaçu dos Estados do Maranhão, Piauí, Pará e Tocantins, na sua grande maioria, vivem n"
+geografia,2012,29,ENEM-CH-2012-REG-D1-C1-Q29,"Relevo, Solos e Geologia",A,,0,"De repente, sente-se uma vibração que aumenta rapidamente; lustres balançam, objetos se movem sozinhos e somos invadidos"
+geografia,2012,32,ENEM-CH-2012-REG-D1-C1-Q32,Clima e Hidrografia,A,,0,A interface clima/sociedade pode ser considerada em termos de ajustamento à extensão e aos modos como as sociedades func
+geografia,2012,33,ENEM-CH-2012-REG-D1-C1-Q33,"Indústria, Economia e Globalização",B,,0,"Uma mesma empresa pode ter sua sede administrativa onde os impostos são menores, as unidades de produção onde os salário"
+geografia,2012,34,ENEM-CH-2012-REG-D1-C1-Q34,Meio Ambiente e Recursos,E,,0,A moderna “conquista da Amazônia” inverteu o eixo geográfico da colonização da região. Desde a época colonial até meados
+geografia,2012,36,ENEM-CH-2012-REG-D1-C1-Q36,"Indústria, Economia e Globalização",E,,0,"A partir dos anos 70, impõe-se um movimento de desconcentração da produção industrial, uma das manifestações do desdobra"
+geografia,2012,37,ENEM-CH-2012-REG-D1-C1-Q37,"Relevo, Solos e Geologia",A,,0,As plataformas ou crátons correspondem aos terrenos mais antigos e arrasados por muitas fases de erosão. Apresentam uma 
+geografia,2012,38,ENEM-CH-2012-REG-D1-C1-Q38,Espaço Agrário,E,,0,"A irrigação da agricultura é responsável pelo consumo de mais de 2/3 de toda a água retirada dos rios, lagos e lençóis f"
+geografia,2012,39,ENEM-CH-2012-REG-D1-C1-Q39,Espaço Agrário,E,,0,"**Texto I**  Ao se emanciparem da tutela senhorial, muitos camponeses foram desligados legalmente da antiga terra. Dever"
+geografia,2012,42,ENEM-CH-2012-REG-D1-C1-Q42,Meio Ambiente e Recursos,A,,0,"O uso da água aumenta de acordo com as necessidades da população no mundo. Porém, diferentemente do que se possa imagina"
+geografia,2012,43,ENEM-CH-2012-REG-D1-C1-Q43,Urbanização e População,C,,0,Minha vida é andar  Por esse país  Pra ver se um dia  Descanso feliz  Guardando as recordações  Das terras onde passei  
+geografia,2012,45,ENEM-CH-2012-REG-D1-C1-Q45,Espaço Agrário,A,,1,[[FIG 0]]  Na charge faz-se referência a uma modificação produtiva ocorrida na agricultura. Uma contradição presente no 
+geografia,2013,3,ENEM-CH-2013-REG-D1-C1-Q3,Urbanização e População,E,,0,"No dia 1º de julho de 2012, a cidade do Rio de Janeiro tornou-se a primeira do mundo a receber o título da Unesco de Pat"
+geografia,2013,9,ENEM-CH-2013-REG-D1-C1-Q9,"Indústria, Economia e Globalização",B,,0,"De todas as transformações impostas pelo meio técnico-científico-informacional à logística de transportes, interessa-nos"
+geografia,2013,14,ENEM-CH-2013-REG-D1-C1-Q14,"Relevo, Solos e Geologia",A,,0,"Então, a travessia das veredas sertanejas é mais exaustiva que a de uma estepe nua. Nesta, ao menos, o viajante tem o de"
+geografia,2013,21,ENEM-CH-2013-REG-D1-C1-Q21,Geopolítica e Conflitos,D,,0,"Um gigante da indústria da internet, em gesto simbólico, mudou o tratamento que conferia à sua página palestina. O site "
+geografia,2013,28,ENEM-CH-2013-REG-D1-C1-Q28,"Relevo, Solos e Geologia",A,,1,"[[FIG 0]]  Na imagem, visualiza-se um método de cultivo e as transformações provocadas no espaço geográfico. O objetivo "
+geografia,2013,30,ENEM-CH-2013-REG-D1-C1-Q30,Espaço Agrário,E,,0,"**TEXTO I**  A nossa luta é pela democratização da propriedade da terra, cada vez mais concentrada em nosso país. Cerca "
+geografia,2013,34,ENEM-CH-2013-REG-D1-C1-Q34,Urbanização e População,C,,0,"Embora haja dados comuns que dão unidade ao fenômeno da urbanização na África, na Ásia e na América Latina, os impactos "
+geografia,2013,37,ENEM-CH-2013-REG-D1-C1-Q37,Clima e Hidrografia,C,,0,"Nos últimos decênios, o território conhece grandes mudanças em função de acréscimos técnicos que renovam a sua materiali"
+geografia,2013,42,ENEM-CH-2013-REG-D1-C1-Q42,"Relevo, Solos e Geologia",A,,1,"[[FIG 0]]  No esquema, o problema atmosférico relacionado ao ciclo da água acentuou-se após as revoluções industriais. U"
+geografia,2013,43,ENEM-CH-2013-REG-D1-C1-Q43,"Indústria, Economia e Globalização",C,,0,"Empresa vai fornecer 230 turbinas para o segundo complexo de energia à base de ventos, no sudeste da Bahia. O Complexo E"
+geografia,2014,3,ENEM-CH-2014-REG-D1-C1-Q3,Espaço Agrário,B,,0,"Os dois principais rios que alimentavam o Mar de Aral, Amurdarya e Sydarya, mantiveram o nível e o volume do mar por mui"
+geografia,2014,7,ENEM-CH-2014-REG-D1-C1-Q7,Espaço Agrário,A,,0,"Mas plantar pra dividir  Não faço mais isso, não.  Eu sou um pobre caboclo,  Ganho a vida na enxada.  O que eu colho é d"
+geografia,2014,9,ENEM-CH-2014-REG-D1-C1-Q9,"Indústria, Economia e Globalização",E,,1,"[[FIG 0]]  **TEXTO II**  A Índia deu um passo alto no setor de teleatendimento para países mais desenvolvidos, como os E"
+geografia,2014,13,ENEM-CH-2014-REG-D1-C1-Q13,Clima e Hidrografia,B,,0,"Quando é meio-dia nos Estados Unidos, o Sol, todo mundo sabe, está se deitando na França. Bastaria ir à França num minut"
+geografia,2014,20,ENEM-CH-2014-REG-D1-C1-Q20,Geopolítica e Conflitos,E,,0,"Antes de o sol começar a esquentar as terras da faixa ao sul do Saara conhecida como Sahel, duas dezenas de mulheres da "
+geografia,2014,22,ENEM-CH-2014-REG-D1-C1-Q22,Urbanização e População,D,,0,"No século XIX, o preço mais alto dos terrenos situados no centro das cidades é causa da especialização dos bairros e de "
+geografia,2014,34,ENEM-CH-2014-REG-D1-C1-Q34,"Indústria, Economia e Globalização",C,,1,"[[FIG 0]]  A imagem indica pontos com ativo uso de tecnologia, correspondentes a que processo de intervenção no espaço?"
+geografia,2014,35,ENEM-CH-2014-REG-D1-C1-Q35,Clima e Hidrografia,E,,0,"A convecção na Região Amazônica é um importante mecanismo da atmosfera tropical e sua variação, em termos de intensidade"
+geografia,2015,1,ENEM-CH-2015-REG-D1-C1-Q1,Meio Ambiente e Recursos,A,,1,"[[FIG 0]]  No mapa estão representados os biomas brasileiros que, em função de suas características físicas e do modo de"
+geografia,2015,8,ENEM-CH-2015-REG-D1-C1-Q8,"Indústria, Economia e Globalização",C,,0,"Até o fim de 2007, quase 2 milhões de pessoas perderam suas casas e outros 4 milhões corriam o risco de ser despejadas. "
+geografia,2015,15,ENEM-CH-2015-REG-D1-C1-Q15,Cartografia e Geotecnologias,D,,0,"O Projeto Nova Cartografia Social da Amazônia ensina indígenas, quilombolas e outros grupos tradicionais a empregar o GP"
+geografia,2015,27,ENEM-CH-2015-REG-D1-C1-Q27,Clima e Hidrografia,D,,1,"[[FIG 0]]  De acordo com as figuras, a intensidade de intemperismo de grau muito fraco é característica de qual tipo cli"
+geografia,2015,30,ENEM-CH-2015-REG-D1-C1-Q30,"Relevo, Solos e Geologia",B,,0,Os movimentos de massa constituem-se no deslocamento de material (solo e rocha) vertente abaixo pela influência da gravi
+geografia,2015,31,ENEM-CH-2015-REG-D1-C1-Q31,"Relevo, Solos e Geologia",C,,1,"[[FIG 0]]  A imagem representa o resultado da erosão que ocorre em rochas nos leitos dos rios, que decorre do processo n"
+geografia,2015,32,ENEM-CH-2015-REG-D1-C1-Q32,Meio Ambiente e Recursos,E,,0,"Algumas regiões do Brasil passam por uma crise de água por causa da seca. Mas, uma região de Minas Gerais está enfrentan"
+geografia,2015,33,ENEM-CH-2015-REG-D1-C1-Q33,Clima e Hidrografia,A,,0,"Tanto potencial poderia ter ficado pelo caminho, se não fosse o reforço em tecnologia que um gaúcho buscou. Há pouco mai"
+geografia,2015,45,ENEM-CH-2015-REG-D1-C1-Q45,Meio Ambiente e Recursos,D,,0,"A questão ambiental, uma das principais pautas contemporâneas, possibilitou o surgimento de concepções políticas diversa"
+geografia,2016,3,ENEM-CH-2016-REG-D1-C1-Q3,Urbanização e População,B,,1,"[[FIG 0]]  Os moradores de Andalsnes, na Noruega, poderiam se dar ao luxo de morar perto do trabalho nos dias úteis e de"
+geografia,2016,4,ENEM-CH-2016-REG-D1-C1-Q4,Urbanização e População,C,,0,"O Rio de Janeiro tem projeção imediata no próprio estado e no Espírito Santo, e parcela do Sul do estado da Bahia, e na "
+geografia,2016,12,ENEM-CH-2016-REG-D1-C1-Q12,"Indústria, Economia e Globalização",D,,0,"No início de maio de 2014, a instalação da plataforma petrolífera de perfuração HYSY-981 nas águas contestadas do Mar da"
+geografia,2016,18,ENEM-CH-2016-REG-D1-C1-Q18,"Indústria, Economia e Globalização",D,,0,"Segundo a Conferência de Quioto, os países centrais industrializados, responsáveis históricos pela poluição, deveriam al"
+geografia,2016,19,ENEM-CH-2016-REG-D1-C1-Q19,"Indústria, Economia e Globalização",B,,0,Dados recentes mostram que muitos são os países periféricos que dependem dos recursos enviados pelos imigrantes que estã
+geografia,2016,29,ENEM-CH-2016-REG-D1-C1-Q29,Urbanização e População,A,,0,"O conceito de função social da cidade incorpora a organização do espaço físico como fruto da regulação social, isto é, a"
+geografia,2016,30,ENEM-CH-2016-REG-D1-C1-Q30,Meio Ambiente e Recursos,E,,0,O bioma Cerrado foi considerado recentemente um dos 25 hotspots de biodiversidade do mundo segundo uma análise em escala
+geografia,2016,31,ENEM-CH-2016-REG-D1-C1-Q31,Urbanização e População,E,,0,**TEXTO I**  Mais de 50 mil refugiados entraram no território húngaro apenas no primeiro semestre de 2015. Budapeste lan
+geografia,2016,39,ENEM-CH-2016-REG-D1-C1-Q39,"Indústria, Economia e Globalização",A,,0,**Pesca industrial provoca destruição na África**  O súbito desaparecimento do bacalhau dos grandes cardumes da Terra No
+geografia,2016,40,ENEM-CH-2016-REG-D1-C1-Q40,"Indústria, Economia e Globalização",C,,0,"A mundialização introduz o aumento da produtividade do trabalho sem acumulação de capital, justamente pelo caráter divis"
+geografia,2016,44,ENEM-CH-2016-REG-D1-C1-Q44,Espaço Agrário,B,,0,"Participei de uma entrevista com o músico Renato Teixeira. Certa hora, alguém pediu para listar as diferenças entre a mú"
+geografia,2017,52,ENEM-CH-2017-REG-D1-C1-Q52,Urbanização e População,D,,0,A configuração do espaço urbano da região do Entorno do Distrito Federal assemelha-se às demais aglomerações urbanas e r
+geografia,2017,53,ENEM-CH-2017-REG-D1-C1-Q53,"Indústria, Economia e Globalização",B,,0,"México, Colômbia, Peru e Chile decidiram seguir um caminho mais curto para a integração regional. Os quatro países, em m"
+geografia,2017,55,ENEM-CH-2017-REG-D1-C1-Q55,"Relevo, Solos e Geologia",A,,0,"O desgaste acelerado sempre existirá se o agricultor não tiver o devido cuidado de combater as causas, relacionadas a vá"
+geografia,2017,56,ENEM-CH-2017-REG-D1-C1-Q56,"Indústria, Economia e Globalização",B,,0,"Os maiores consumidores da infraestrutura logística para exportação no Brasil são os produtos a granel, dentre os quais "
+geografia,2017,57,ENEM-CH-2017-REG-D1-C1-Q57,"Indústria, Economia e Globalização",D,,0,A diversidade de atividades relacionadas ao setor terciário reforça a tendência mais geral de desindustrialização de mui
+geografia,2017,59,ENEM-CH-2017-REG-D1-C1-Q59,Clima e Hidrografia,E,,2,[[FIG 0]]  [[FIG 1]]  As temperaturas médias mensais e as taxas de pluviosidade expressas no climograma apresentam o cli
+geografia,2017,61,ENEM-CH-2017-REG-D1-C1-Q61,Geopolítica e Conflitos,A,,0,"A primeira Guerra do Golfo, genuinamente apoiada pelas Nações Unidas e pela comunidade internacional, assim como a reaçã"
+geografia,2017,68,ENEM-CH-2017-REG-D1-C1-Q68,Clima e Hidrografia,A,,0,"Ao destruir uma paisagem de árvores de troncos retorcidos, folhas e arbustos ásperos sobre os solos ácidos, não raro lat"
+geografia,2017,69,ENEM-CH-2017-REG-D1-C1-Q69,"Indústria, Economia e Globalização",E,,0,"A instalação de uma refinaria obedece a diversos fatores técnicos. Um dos mais importantes é a localização, que deve ser"
+geografia,2017,71,ENEM-CH-2017-REG-D1-C1-Q71,"Relevo, Solos e Geologia",A,,1,"[[FIG 0]]  Comparando os dados das hidrelétricas, uma característica territorial positiva de Belo Monte é o(a)"
+geografia,2017,73,ENEM-CH-2017-REG-D1-C1-Q73,Urbanização e População,D,,0,"O fenômeno da mobilidade populacional vem, desde as últimas décadas do século XX, apresentando transformações significat"
+geografia,2017,75,ENEM-CH-2017-REG-D1-C1-Q75,Geopolítica e Conflitos,D,,0,"Palestinos se agruparam em frente a aparelhos de televisão e telas montadas ao ar livre em Ramalah, na Cisjordânia, para"
+geografia,2017,86,ENEM-CH-2017-REG-D1-C1-Q86,"Relevo, Solos e Geologia",C,,0,"O terremoto de 8,8 na escala Richter que atingiu a costa oeste do Chile, em fevereiro, provocou mudanças significativas "
+geografia,2017,87,ENEM-CH-2017-REG-D1-C1-Q87,Clima e Hidrografia,C,,2,[[FIG 0]]  Disponível em: http://img0.cptec.inpe.br. Acesso em: 25 ago. 2014 (adaptado).  [[FIG 1]]  Disponível em: http
+geografia,2018,53,ENEM-CH-2018-REG-D1-C1-Q53,Urbanização e População,D,,0,"Foi-se o tempo em que era possível mostrar um mundo econômico organizado em camadas bem definidas, onde grandes centros "
+geografia,2018,60,ENEM-CH-2018-REG-D1-C1-Q60,Urbanização e População,E,,0,"Em Beirute, no Líbano, quando perguntado sobre onde se encontram os refugiados sírios, a resposta do homem é imediata: “"
+geografia,2018,65,ENEM-CH-2018-REG-D1-C1-Q65,"Indústria, Economia e Globalização",A,,0,"Os portos sempre foram respostas ao comércio praticado em grande volume, que se dá via marítima, lacustre e fluvial, e s"
+geografia,2018,67,ENEM-CH-2018-REG-D1-C1-Q67,Clima e Hidrografia,E,,1,[[FIG 0]]  A dinâmica hidrológica expressa no gráfico demonstra que o processo de urbanização promove a
+geografia,2018,72,ENEM-CH-2018-REG-D1-C1-Q72,Meio Ambiente e Recursos,B,,0,"Uma pesquisa realizada por Carolina Levis, especialista em ecologia do Instituto Nacional de Pesquisas da Amazônia, e pu"
+geografia,2018,73,ENEM-CH-2018-REG-D1-C1-Q73,"Relevo, Solos e Geologia",E,,0,"**TEXTO I** Quando um exército atravessa montanhas, florestas, zonas de precipícios, ou marcha ao longo de desfiladeiros"
+geografia,2018,77,ENEM-CH-2018-REG-D1-C1-Q77,Clima e Hidrografia,D,,0,A presunção de que a superfície das chapadas e chapadões representa uma velha peneplanície é corroborada pelo fato de qu
+geografia,2018,86,ENEM-CH-2018-REG-D1-C1-Q86,Espaço Agrário,A,,0,A agricultura ecológica e a produção orgânica de alimentos estão ganhando relevância em diferentes partes do mundo. No c
+geografia,2018,88,ENEM-CH-2018-REG-D1-C1-Q88,Meio Ambiente e Recursos,C,,1,"[[FIG 0]]  Considerando as diferenças entre extrativismo vegetal e silvicultura, a variação das curvas do gráfico foi in"
+geografia,2018,89,ENEM-CH-2018-REG-D1-C1-Q89,Meio Ambiente e Recursos,D,,0,"No início da década de 1990, dois biólogos importantes, Redford e Robinson, produziram um modelo largamente aceito de “p"
+geografia,2019,46,ENEM-CH-2019-REG-D1-C1-Q46,"Relevo, Solos e Geologia",B,,0,A pegada ecológica gigante que estamos a deixar no planeta está a transformá-to de tal forma que os especialistas consid
+geografia,2019,47,ENEM-CH-2019-REG-D1-C1-Q47,Espaço Agrário,A,,1,[[FIG 0]]  Disponível em: www.ibge.gov.br.  Acesso em: 11 dez. 2018 (adaptado).  A geração de imagens por meio da tecnol
+geografia,2019,49,ENEM-CH-2019-REG-D1-C1-Q49,Espaço Agrário,C,,0,O Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama) está investigando o extermínio de abe
+geografia,2019,53,ENEM-CH-2019-REG-D1-C1-Q53,Geopolítica e Conflitos,B,,0,"Brasil, Alemanha, Japão e Índia pedem reforma do Conselho de Segurança      Os representantes do G4 (Brasil, Alemanha, Í"
+geografia,2019,56,ENEM-CH-2019-REG-D1-C1-Q56,"Indústria, Economia e Globalização",D,,0,"A reestruturação global da indústria, condicionada pelas estratégias de gestão global da cadeia de valor dos grandes gru"
+geografia,2019,61,ENEM-CH-2019-REG-D1-C1-Q61,Clima e Hidrografia,E,,0,"**TEXTO I**  Ouve o barulho do rio, meu filho Deixa esse som te embalar As folhas que caem no rio, meu filho Terminam na"
+geografia,2019,68,ENEM-CH-2019-REG-D1-C1-Q68,Cartografia e Geotecnologias,C,,0,"A comunidade de Mumbuca, em Minas Gerais, tem uma organização coletiva de tal forma expressiva que coopera para o abaste"
+geografia,2019,69,ENEM-CH-2019-REG-D1-C1-Q69,Espaço Agrário,E,,0,"Localizado a 160 km da cidade de Porto Velho (capital do estado de Rondônia), nos limites da Reserva Extrativista Jaci-P"
+geografia,2019,83,ENEM-CH-2019-REG-D1-C1-Q83,"Indústria, Economia e Globalização",D,,0,"Saudado por centenas de militantes de movimentos sociais de 40 países, o Papa Francisco encerrou no dia 09/07/2018 o 2.º"
+geografia,2019,88,ENEM-CH-2019-REG-D1-C1-Q88,Urbanização e População,C,,0,"O bônus demográfico é caracterizado pelo período em que, por causa da redução do número de filhos por mulher, a estrutur"
+geografia,2019,89,ENEM-CH-2019-REG-D1-C1-Q89,Cartografia e Geotecnologias,D,,0,**Os moradores de Utqiagvik passaram dois meses quase totalmente na escuridão**  Os habitantes desta pequena cidade no A
+geografia,2019,90,ENEM-CH-2019-REG-D1-C1-Q90,Cartografia e Geotecnologias,B,,0,"A fome não é um problema técnico, pois ela não se deve à falta de alimentos, isso porque a fome convive hoje com as cond"
+geografia,2020,46,ENEM-CH-2020-REG-D1-C1-Q46,"Indústria, Economia e Globalização",D,,0,"Embora inegáveis os benefícios que ambas as economias têm auferido do intercâmbio comercial, o Brasil tem reiterado seu "
+geografia,2020,47,ENEM-CH-2020-REG-D1-C1-Q47,Urbanização e População,A,,0,As estatísticas mais recentes do Brasil rural revelam um paradoxo que interessa a toda sociedade: o emprego de natureza 
+geografia,2020,49,ENEM-CH-2020-REG-D1-C1-Q49,Espaço Agrário,C,sim,0,"A propriedade compreende, em seu conteúdo e alcance, além do tradicional direito de uso, gozo e disposição por parte de "
+geografia,2020,50,ENEM-CH-2020-REG-D1-C1-Q50,Urbanização e População,B,,0,A expansão das cidades e a formação das aglomerações urbanas no Brasil foram marcadas pela produção industrial e pela co
+geografia,2020,51,ENEM-CH-2020-REG-D1-C1-Q51,Espaço Agrário,D,,1,"**Zona de pastoreio e cultura do algodão e cereais do agreste (1963)**  [[FIG 0]]  ANDRADE, M. C. **A terra e o homem no"
+geografia,2020,53,ENEM-CH-2020-REG-D1-C1-Q53,Cartografia e Geotecnologias,D,,0,"“Devo estar chegando perto do centro da Terra. Deixe ver: deve ter sido mais de seis mil quilômetros, por aí…” (como se "
+geografia,2020,56,ENEM-CH-2020-REG-D1-C1-Q56,Espaço Agrário,D,,0,"A demanda mundial para a produção de alimentos aumenta progressivamente a taxas muito altas. Atualmente, na maioria dos "
+geografia,2020,57,ENEM-CH-2020-REG-D1-C1-Q57,Geopolítica e Conflitos,B,,0,"No caso do Departamento de Defesa dos Estados Unidos, a ênfase está posta no traçado de uma estratégia geral de desartic"
+geografia,2020,58,ENEM-CH-2020-REG-D1-C1-Q58,Urbanização e População,E,,0,O planejamento deixou de controlar o crescimento urbano e passou a encorajá-lo por todos os meios possíveis e imaginávei
+geografia,2020,59,ENEM-CH-2020-REG-D1-C1-Q59,"Relevo, Solos e Geologia",C,,0,Escudos antigos ou maciços cristalinos são blocos imensos de rochas antigas. Estes escudos são constituídos por rochas c
+geografia,2020,65,ENEM-CH-2020-REG-D1-C1-Q65,Cartografia e Geotecnologias,D,,1,[[FIG 0]]  O conjunto representado pelo agronegócio demanda condições específicas que passam a ser exigidas dos territór
+geografia,2020,67,ENEM-CH-2020-REG-D1-C1-Q67,"Relevo, Solos e Geologia",B,,1,[[FIG 0]]  Disponível em: https://noticias.uol.com.br. Acesso em: l3 jun. 2018 (adaptado).  Os aspectos físicos apresent
+geografia,2020,71,ENEM-CH-2020-REG-D1-C1-Q71,Espaço Agrário,C,,0,"**O cântico da terra**  Eu sou a terra, eu sou a vida. A ti, ó lavrador, tudo quanto é meu. Teu arado, tua foice, teu ma"
+geografia,2020,75,ENEM-CH-2020-REG-D1-C1-Q75,Cartografia e Geotecnologias,C,,0,Afirmar que a cartografia da época moderna integrou o processo de invenção da América por parte dos europeus significa q
+geografia,2020,80,ENEM-CH-2020-REG-D1-C1-Q80,Espaço Agrário,C,,0,Os seringueiros amazônicos eram invisíveis no cenário nacional nos anos 1970. Começaram a se articular como um movimento
+geografia,2020,82,ENEM-CH-2020-REG-D1-C1-Q82,Urbanização e População,A,,0,"As cidades de Puebla, no México, e Legazpi, nas Filipinas, não têm quase nada em comum. Estão muito longe uma da outra e"
+geografia,2020,84,ENEM-CH-2020-REG-D1-C1-Q84,"Relevo, Solos e Geologia",E,,0,"A colisão entre uma placa continental e uma oceânica provocará a subducção desta última sob a placa continental, que, a "
+geografia,2020,88,ENEM-CH-2020-REG-D1-C1-Q88,Clima e Hidrografia,C,,1,"**TEXTO I**  [[FIG 0]]  Rio Tietê, São Paulo (SP). Foto: Delfim Martins/Pulsar.  **TEXTO II**  O Rio Tietê está morto. A"
+geografia,2020,90,ENEM-CH-2020-REG-D1-C1-Q90,Urbanização e População,D,,0,"**TEXTO I**  O aumento de casos suspeitos de febre amarela em Minas pode estar relacionado à tragédia de Mariana, em 201"
+geografia,2021,48,ENEM-CH-2021-REG-D1-C1-Q48,"Indústria, Economia e Globalização",D,,0,"Atualmente, o Programa de Melhoramento “Uvas do Brasil” utiliza métodos clássicos de melhoramento, como seleção massal, "
+geografia,2021,50,ENEM-CH-2021-REG-D1-C1-Q50,"Indústria, Economia e Globalização",B,,0,"**TEXTO I**  Em 2016, foram gerados 44,7 milhões de toneladas de resíduos eletrônicos, um aumento de 8% na comparação co"
+geografia,2021,51,ENEM-CH-2021-REG-D1-C1-Q51,Meio Ambiente e Recursos,A,,0,"Preços justos e autorizações de uso da água devem garantir de forma adequada que a retirada de água, bem como o retorno "
+geografia,2021,58,ENEM-CH-2021-REG-D1-C1-Q58,Urbanização e População,E,,0,"A vida das pessoas se modifica com a mesma rapidez com que se reproduz a cidade. O lugar da festa, do encontro quase des"
+geografia,2021,59,ENEM-CH-2021-REG-D1-C1-Q59,Clima e Hidrografia,B,,0,"No semiárido brasileiro, o sertanejo desenvolveu uma acuidade detalhada para a observação dos fenômenos, a longo dos tem"
+geografia,2021,61,ENEM-CH-2021-REG-D1-C1-Q61,Urbanização e População,A,,0,"Desde 2009, a área portuária carioca vem sofrendo grandes transformações realizadas no escopo da operação urbana consorc"
+geografia,2021,62,ENEM-CH-2021-REG-D1-C1-Q62,"Indústria, Economia e Globalização",D,,0,"Constatou-se uma ínfima inserção da indústria brasileira nas novas tecnologias ancoradas na microeletrônica, capazes de "
+geografia,2021,70,ENEM-CH-2021-REG-D1-C1-Q70,Meio Ambiente e Recursos,C,,0,Foram esses cientistas Xavante que esclareceram os mistérios da germinação de cada uma das sementes. Eles tinham o conhe
+geografia,2021,71,ENEM-CH-2021-REG-D1-C1-Q71,"Relevo, Solos e Geologia",A,,0,"Desde os primórdios da formação da crosta terrestre até os dias de hoje, as rochas formadas vêm sendo continuamente dest"
+geografia,2021,72,ENEM-CH-2021-REG-D1-C1-Q72,Urbanização e População,E,,0,A participação social no planejamento e na gestão urbanos ganhou impulso a partir do Estatuto da Cidade (Lei n. 10.257/2
+geografia,2021,79,ENEM-CH-2021-REG-D1-C1-Q79,"Indústria, Economia e Globalização",E,,0,"As grandes empresas seriam, certamente, representação de um exercício de poder, ante o grau de autonomia de ação de que "
+geografia,2022,46,ENEM-CH-2022-REG-D1-C1-Q46,Clima e Hidrografia,D,,0,"Espera, resignado, o dia 13 daquele mês porque, em tal data, usança avoenga lhe faculta sondar o futuro, interrogando a "
+geografia,2022,49,ENEM-CH-2022-REG-D1-C1-Q49,"Relevo, Solos e Geologia",B,,1,"[[FIG 0]]  **PAZ, A. D. Disponível em: www.ct.ufpb.br. Acesso em: 15 out. 2021. (adaptado.)**  A intensificação da ocupa"
+geografia,2022,50,ENEM-CH-2022-REG-D1-C1-Q50,"Indústria, Economia e Globalização",E,,0,"Na construção da ferrovia Madeira-Marmoré, o que dizer dos doentes, eternos moribundos a vagar entre delírios fabris, do"
+geografia,2022,51,ENEM-CH-2022-REG-D1-C1-Q51,Cartografia e Geotecnologias,E,,0,"Uma nova economia surgiu em escala global no último quartel do século XX. Chamo-a de informacional, para identificar sua"
+geografia,2022,52,ENEM-CH-2022-REG-D1-C1-Q52,Urbanização e População,D,,0,Olhar O Brasil e não ver o sertão É como negar o queijo com a faca na mão Esse gigante em movimento Movido a tijolo e ci
+geografia,2022,55,ENEM-CH-2022-REG-D1-C1-Q55,"Relevo, Solos e Geologia",B,,0,Solos salinos ou alomórficos apresentam como característica comum uma concentração muito alta de sais solúveis e/ou de s
+geografia,2022,59,ENEM-CH-2022-REG-D1-C1-Q59,Espaço Agrário,C,,0,"Em 2003, teve início o Programa de Aquisição de Alimentos e, com ele, várias mudanças na perspectiva dos mercados instit"
+geografia,2022,62,ENEM-CH-2022-REG-D1-C1-Q62,Geopolítica e Conflitos,C,,0,Brasil e Argentina chegaram a um acordo para a redução em 10% da Tarifa Externa Comum (TEC) do Mercosul. O consenso foi 
+geografia,2022,64,ENEM-CH-2022-REG-D1-C1-Q64,"Relevo, Solos e Geologia",A,,0,"As forças tectônicas dentro da litosfera, controladas pelo calor interno das profundezas, geram terremotos, erupções e s"
+geografia,2022,69,ENEM-CH-2022-REG-D1-C1-Q69,Geopolítica e Conflitos,A,,0,"Colegas, na mente e no coração do povo, a Crimeia sempre foi uma porção inseparável da Rússia. Essa firme convicção se b"
+geografia,2022,72,ENEM-CH-2022-REG-D1-C1-Q72,"Indústria, Economia e Globalização",D,,0,**Brasileiros levam mais tempo de casa para o trabalho**  Pesquisa do IBGE aponta que a situação é maio grave no Sudeste
+geografia,2022,74,ENEM-CH-2022-REG-D1-C1-Q74,Meio Ambiente e Recursos,C,,1,"[[FIG 0]]  **PEREIRA, E. B. et al. Atlas brasileiro de energia solar. São José dos Campos: Inpe, 2006**  Uma característ"
+geografia,2022,75,ENEM-CH-2022-REG-D1-C1-Q75,Clima e Hidrografia,E,,0,O povo Kambeba é o povo da águas. Os mais velhos costumam contar que o povo nasceu de uma gota-d’água que caiu do céu em
+geografia,2022,87,ENEM-CH-2022-REG-D1-C1-Q87,Urbanização e População,B,,0,Macrocefalia urbana pode ser entendida como a massiva concentração das atividades econômicas em algumas metrópoles que p
+geografia,2023,46,ENEM-CH-2023-REG-D1-C1-Q46,Geopolítica e Conflitos,C,,1,[[FIG 0]]  Fotografia da avó bordada SCARELI. G. A máquina de costura e os fios da memória Revista Brasileira de Pesquis
+geografia,2023,48,ENEM-CH-2023-REG-D1-C1-Q48,"Indústria, Economia e Globalização",A,,0,"No Cerrado, o conhecimento local está sendo cada vez mais subordinado à lógica do agronegócio. De um lado, o capital imp"
+geografia,2023,49,ENEM-CH-2023-REG-D1-C1-Q49,Urbanização e População,E,,0,"TEXTO I Com uma população de 25 milhões de habitantes (cerca de 60% de minorias muçulmanas, principalmente da etnia Uigu"
+geografia,2023,53,ENEM-CH-2023-REG-D1-C1-Q53,"Relevo, Solos e Geologia",B,,0,"A cordilheira do Himalaia tem mais de 50 milhões de anos., sendo classificada como a maior cordilheira do planeta. Origi"
+geografia,2023,62,ENEM-CH-2023-REG-D1-C1-Q62,Geopolítica e Conflitos,C,,0,Enormes alto-falantes sul-coreanos instalados na fronteira com o Norte costumavam transmitir desde canções em estilo K-p
+geografia,2023,64,ENEM-CH-2023-REG-D1-C1-Q64,Clima e Hidrografia,D,,0,"**Txai Suruí, liderança da Juventude Indígena, profere seu discurso na abertura da COP-26**  “O clima está esquentando, "
+geografia,2023,66,ENEM-CH-2023-REG-D1-C1-Q66,Urbanização e População,A,,0,**ТЕХТО I**  Como é horrível ver um filho comer e perguntar: “Tem mais?” Esta palavra “tem mais” fica oscilando dentro d
+geografia,2023,67,ENEM-CH-2023-REG-D1-C1-Q67,Espaço Agrário,B,,0,"No sul da Bahia, desde o século XVIII, tem-se registros de um tipo de sistema agroflorestal. Até hoje, esse sistema é ca"
+geografia,2023,68,ENEM-CH-2023-REG-D1-C1-Q68,Urbanização e População,C,,0,"O masseiro, a mulher, e quatro filhos, dormindo numa tapera de quatro paredes de caixão, coberta de zinco. A água do man"
+geografia,2023,71,ENEM-CH-2023-REG-D1-C1-Q71,Meio Ambiente e Recursos,A,,0,Alternativas logísticas estão servindo de instrumentos que ativam os mercados especuladores de terras nas diferentes reg
+geografia,2023,78,ENEM-CH-2023-REG-D1-C1-Q78,Urbanização e População,A,,0,"Os movimentos da agricultura urbana no Rio de Janeiro vêm crescendo nos últimos vinte anos, tanto por meio de reproduçõe"
+geografia,2023,83,ENEM-CH-2023-REG-D1-C1-Q83,"Relevo, Solos e Geologia",C,,0,"Diversos são os fatores causadores da degradação do solo, atuando de forma direta ou indireta, mas quase sempre a grande"
+geografia,2023,85,ENEM-CH-2023-REG-D1-C1-Q85,Geopolítica e Conflitos,D,,0,"Produtores rurais europeus são antigos opositores de um grande acordo com o Mercosul. Na visão deles, existe um nítido r"
+geografia,2024,46,ENEM-CH-2024-REG-D1-C1-Q46,Urbanização e População,C,sim,0,"TEXTO I Um terremoto de magnitude 5,9 atingiu a cidade de Valparaíso, na costa chilena. O terremoto ocorreu a uma profun"
+geografia,2024,48,ENEM-CH-2024-REG-D1-C1-Q48,Clima e Hidrografia,C,sim,0,O rompimento da barragem de Fundão levou muito consigo. A lama soterrou sonhos e modificou de forma permanente centenas 
+geografia,2024,60,ENEM-CH-2024-REG-D1-C1-Q60,"Indústria, Economia e Globalização",B,sim,0,"Há experiências de lutas sociais de reapropriação cultural da natureza que são movimentos emblemáticos, como a dos serin"
+geografia,2024,67,ENEM-CH-2024-REG-D1-C1-Q67,"Indústria, Economia e Globalização",A,sim,0,"A internet fortalece o engajamento e a visibilidade de populações tradicionais e indígenas por meio de redes sociais, rá"
+geografia,2024,68,ENEM-CH-2024-REG-D1-C1-Q68,Meio Ambiente e Recursos,E,sim,0,TEXTO I Uma única árvore joga entre 300 e 1 000 litros de água por dia para a atmosfera. Considerando a demanda mínima q
+geografia,2024,70,ENEM-CH-2024-REG-D1-C1-Q70,"Indústria, Economia e Globalização",E,sim,0,"Cada objeto é, em si mesmo, um sistema funcionando sistemicamente. Um grande supermercado ou shopping center seria incap"
+geografia,2024,71,ENEM-CH-2024-REG-D1-C1-Q71,"Indústria, Economia e Globalização",D,sim,0,A 26ª Conferência do Clima das Nações Unidas foi realizada com a perspectiva de que os países tornassem ainda mais ambic
+geografia,2024,83,ENEM-CH-2024-REG-D1-C1-Q83,Cartografia e Geotecnologias,E,sim,0,"A finalidade mais marcante em toda a história dos mapas, desde o seu início, teria sido a de estarem sempre voltados à p"
+geografia,2024,88,ENEM-CH-2024-REG-D1-C1-Q88,Urbanização e População,C,sim,0,"A mudança do clima nas cidades brasileiras é um desafio de adaptação e equidade. Inundações, alagamentos e ondas de calo"
+geografia,2024,89,ENEM-CH-2024-REG-D1-C1-Q89,Geopolítica e Conflitos,B,sim,0,"O Conselho de Segurança da Organização das Nações Unidas (ONU) é, junto com a Assembleia-Geral, um dos principais órgãos"
+geografia,2025,54,ENEM-CH-2025-REG-D1-C1-Q54,Urbanização e População,E,sim,0,A ideia de êxodo urbano assume ares caricaturais. Pega a mais reduzida parte da pirâmide social e projeta para todos seu
+geografia,2025,56,ENEM-CH-2025-REG-D1-C1-Q56,Clima e Hidrografia,C,sim,0,"Por séculos, o Rio Reno tem sido uma rota de navegação confiável, ajudando a criar gigantes fabris ao longo de suas marg"
+geografia,2025,59,ENEM-CH-2025-REG-D1-C1-Q59,Meio Ambiente e Recursos,B,sim,0,"Pela falta de chuvas, a geração de energia eólica, solar e térmica atingiu níveis recordes em agosto de 2021, quando as "
+geografia,2025,67,ENEM-CH-2025-REG-D1-C1-Q67,Espaço Agrário,D,sim,0,"Do ponto de vista administrativo e judicial, a desapropriação da fazenda Cabaceiras, localizada na região sul do estado "
+geografia,2025,70,ENEM-CH-2025-REG-D1-C1-Q70,"Relevo, Solos e Geologia",B,sim,0,"Nos Estados Unidos, um hotel perto de um parque foi engolido por uma enorme cratera. E não é a primeira vez que esse tip"
+geografia,2025,75,ENEM-CH-2025-REG-D1-C1-Q75,Espaço Agrário,B,sim,0,"A partir do século XIX e, principalmente, no século XX, iniciou-se o uso de produtos sintéticos na agricultura. No Brasi"
+geografia,2025,80,ENEM-CH-2025-REG-D1-C1-Q80,Urbanização e População,C,sim,0,Cidade sustentável é o assentamento humano constituído por uma sociedade com consciência de seu papel de agente transfor
+geografia,2025,84,ENEM-CH-2025-REG-D1-C1-Q84,Meio Ambiente e Recursos,D,sim,0,"Com o objetivo de auxiliar a prevenção e o combate a incêndios no Cerrado, o Centro de Sensoriamento Remoto da Universid"
+geografia,2025,86,ENEM-CH-2025-REG-D1-C1-Q86,Meio Ambiente e Recursos,C,sim,0,"Pesquisa pioneira no Brasil propõe o uso de energia do solo para climatizar edifícios Pela primeira vez na história, o B"

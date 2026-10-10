@@ -1,0 +1,203 @@
+@ENEM-CN-2009-REG-D1-C1-Q3
+K: vacina = antígeno que ensina o sistema imune a produzir anticorpos e células de memória
+Uma vacina expõe o organismo a antígenos do vírus (inativado, atenuado ou partes dele), induzindo a imunidade ativa: produção de anticorpos e células de memória que protegem contra uma futura contaminação. A alternativa C erra ao dizer que a vacina "produz antígenos que se ligam ao vírus": quem se liga ao vírus são os anticorpos, produzidos pelo próprio corpo. O HIV não é transmitido por saliva nem por animais, o que descarta D e E. **Resposta: A**
+
+@ENEM-CN-2009-REG-D1-C1-Q4
+K: fenótipo = genótipo + influência do ambiente
+Clones têm o mesmo material genético, então os dois grupos têm genótipos idênticos. A diferença de cor (verde × amarelada) foi causada pelo ambiente: sem luz a planta não produz clorofila normalmente. Logo, o fenótipo mudou sem mudar o genótipo. A alternativa A é tentadora, mas ignora que a cor das folhas (fenótipo) ficou diferente. **Resposta: B**
+
+@ENEM-CN-2009-REG-D1-C1-Q6
+K: queimar combustível fóssil devolve à atmosfera carbono que estava estocado no subsolo
+Petróleo, carvão e gás guardam carbono retirado da atmosfera há milhões de anos. Ao queimá-los, esse carbono volta ao ar como CO₂, aumentando sua quantidade na atmosfera. A queima não reduz a fotossíntese (B) nem aumenta o carbono "na Terra" (A); ao contrário, transfere carbono do solo para o ar. **Resposta: D**
+
+@ENEM-CN-2009-REG-D1-C1-Q7
+K: DNA recombinante: bactéria recebe o gene humano e passa a fabricar a proteína
+Com o gene da insulina inserido na E. coli, a bactéria produz insulina em grande quantidade, mais rápido e com menor custo, o que melhora o acesso ao tratamento dos diabéticos. O método dispensa a extração do pâncreas de animais (A) e não é síntese química (C); também não cria animais transgênicos (E), e sim bactérias modificadas. **Resposta: D**
+
+@ENEM-CN-2009-REG-D1-C1-Q8
+K: barragens alagam grandes áreas e destroem habitats
+Para formar o reservatório, a hidrelétrica inunda a mata em volta dos rios, destruindo o habitat de animais terrestres. A usina não polui a água com metais (A), não "consome" a água que passa pelas turbinas (D) e não libera tanto CO₂ quanto uma termelétrica (C). Além disso, a represa retém sedimentos antes da barragem, o contrário do que diz E. **Resposta: B**
+
+@ENEM-CN-2009-REG-D1-C1-Q9
+K: em períodos glaciais o clima ficou mais seco e a vegetação adaptada à aridez se expandiu
+O texto diz que nos períodos glaciais (áridos) houve expansão dos habitats não florestais e retração das florestas úmidas. Logo, plantas adaptadas à seca (com estruturas que reduzem a perda de água) ocupavam áreas maiores. A alternativa E inverte a ideia: as florestas pluviais é que ficaram restritas a refúgios nessas épocas. **Resposta: D**
+
+@ENEM-CN-2009-REG-D1-C1-Q10
+K: a fotossíntese é a porta de entrada da energia solar nos seres vivos
+A fotossíntese converte energia solar em energia química dos carboidratos, que alimenta todos os seres vivos e também deu origem à biomassa e aos combustíveis fósseis. Portanto, a vida na Terra depende, em última análise, do Sol. A alternativa B é tentadora, mas quem converte a energia é o processo de fotossíntese, não os carboidratos (que apenas armazenam a energia). CO₂ e água são moléculas pobres em energia (A). **Resposta: C**
+
+@ENEM-CN-2009-REG-D1-C1-Q11
+K: termorregulação: hipotálamo e sudorese
+O controle da temperatura é feito pelo sistema nervoso (hipotálamo), que, no calor, estimula a sudorese; a evaporação do suor retira calor da pele. As outras alternativas misturam funções: anticorpos são do sistema imunológico, não do endócrino (E), e a digestão não regula temperatura (A). **Resposta: C**
+
+@ENEM-CN-2009-REG-D1-C1-Q13
+K: desenvolvimento sustentável: avaliar necessidade e mitigar impactos
+A alternativa que concilia progresso e conservação é permitir a obra somente quando necessária e após estudos de impacto ambiental que mostrem como contornar ou compensar os danos. Proibir as estradas (A, B) ignora o direito das populações isoladas, e dizer que os impactos são temporários e facilmente revertidos (E) é falso. **Resposta: D**
+
+@ENEM-CN-2009-REG-D1-C1-Q16
+K: um mesmo RNA pode originar proteínas diferentes (ex.: splicing alternativo)
+O modelo mostra que, a partir de um mesmo produto de transcrição, surgem três formas proteicas (a, b e c). Isso indica que um único RNA pode gerar variantes de proteína, como ocorre no processamento alternativo. A alternativa A é falsa porque RNAs também participam da síntese de proteínas, e C erra ao dizer que as proteínas são a fonte de informação na transcrição. **Resposta: D**
+
+@ENEM-CN-2009-REG-D1-C1-Q22
+K: aplicar o remédio direto no local reduz efeitos em outros órgãos
+Pelo texto, a iontoforese leva o fármaco direto ao local desejado, sem passar pelo estômago e sem se espalhar à toa pelo corpo. Isso diminui os efeitos colaterais em relação à via oral. A técnica é indolor e não invasiva (descarta A e B) e funciona também com moléculas neutras, por eletrosmose (descarta E). **Resposta: D**
+
+@ENEM-CN-2009-REG-D1-C1-Q25
+K: sensibilidade = acerto entre infectados; especificidade = acerto entre não infectados
+Sensibilidade é a proporção de infectados que o teste classifica como positivos; pelos dados do quadro, ela é de 90%, ou seja, 90 positivos a cada 100 infectados. A alternativa C confunde os conceitos: entre não infectados o teste deveria dar negativo. Profilaxia é prevenção, não tratamento (D), e teste mais sensível gera menos falsos negativos, não mais (E). **Resposta: B**
+
+@ENEM-CN-2009-REG-D1-C1-Q28
+K: espécies pioneiras toleram sol pleno e iniciam a sucessão ecológica
+Uma área desmatada recebe muita luz, então o reflorestamento deve começar com espécies pioneiras, que se desenvolvem bem a pleno sol; pelo quadro, são as espécies 2, 3 e 5. A alternativa E é tentadora, mas a mata já está desmatada: o dossel fechado não existe mais, e plantas de sombra cresceriam mal. Espécies exóticas (C) não são necessárias nem recomendadas. **Resposta: B**
+
+@ENEM-CN-2009-REG-D1-C1-Q33
+K: camuflagem: o ambiente seleciona os indivíduos mais parecidos com o solo
+Ratos com pelagem parecida com o solo são menos vistos por predadores e sobrevivem e se reproduzem mais. Ao longo das gerações, cada população passa a ter a cor do seu substrato: é a seleção natural. A alternativa D erra porque o ambiente não "provoca" mais mutações; ele seleciona as variações existentes. E descreve a ideia de Lamarck (herança de caracteres adquiridos). **Resposta: C**
+
+@ENEM-CN-2009-REG-D1-C1-Q40
+K: partículas nanométricas atravessam barreiras biológicas
+Por serem extremamente pequenas, as nanopartículas podem atravessar poros e canais das células, com efeitos ainda pouco conhecidos sobre seres vivos e ecossistemas; por isso exigem mais estudos. Tamanho pequeno não torna uma partícula radiativa (A), e bactérias são muito maiores que um bilionésimo de metro (E). **Resposta: D**
+
+@ENEM-CN-2009-REG-D1-C1-Q41
+K: DNA mitocondrial: muitas cópias por célula e herança materna
+Cada célula tem centenas de mitocôndrias, cada uma com várias cópias de DNA, o que aumenta a chance de encontrar moléculas intactas após o calor. Como o DNAmt é herdado da mãe, permite comparar a vítima com a suposta mãe. Os cromossomos nucleares (B, C, E) têm no máximo duas cópias por célula, e o cromossomo Y não existe em mulheres (D). **Resposta: A**
+
+@ENEM-CN-2009-REG-D1-C1-Q42
+K: partículas em suspensão turvam a água e reduzem a fotossíntese
+Os efluentes têm sólidos em suspensão que deixam a água turva e impedem a passagem de luz. Sem luz, o fitoplâncton faz menos fotossíntese e a produtividade primária cai. A alternativa C erra a ordem da nitrificação: o nitrito é o intermediário e o nitrato é o produto final. **Resposta: E**
+
+@ENEM-CN-2010-REG-D1-C1-Q46
+K: vacina previne (imunidade ativa); soro trata (anticorpos prontos); antibiótico mata bactérias
+Febre amarela é causada por vírus e é prevenida com vacina. Picada de cobra exige soro antiofídico, que traz anticorpos prontos contra o veneno. Leptospirose é causada por uma bactéria (Leptospira), tratada com antibiótico. Antibiótico não age contra vírus, o que elimina A e D. **Resposta: B**
+
+@ENEM-CN-2010-REG-D1-C1-Q49
+K: bactérias da placa transformam açúcar em ácido que corrói o esmalte
+Pelo texto, as bactérias da placa fermentam o açúcar dos restos de alimento e produzem ácidos que corroem o dente. Logo, açúcar em excesso e escovação mal feita favorecem a cárie. Flúor, cálcio e xilitol ajudam a inibir o processo (A, B, D não se sustentam). **Resposta: E**
+
+@ENEM-CN-2010-REG-D1-C1-Q51
+K: decomposição da matéria orgânica devolve carbono e nutrientes ao ambiente
+O ngaura é a camada de folhas mortas (serrapilheira) decomposta por fungos, minhocas e microrganismos. Essa matéria orgânica, rica em carbono, é decomposta e enriquece o solo, alimentando novas plantas: um retrato do ciclo do carbono. Embora a decomposição também libere nitrogênio (E), o texto enfatiza a matéria orgânica (folhas) reciclada, típica do ciclo do carbono. **Resposta: D**
+
+@ENEM-CN-2010-REG-D1-C1-Q57
+K: eutrofização: excesso de nutrientes → proliferação de microrganismos → falta de O₂
+O problema começa com o excesso de nutrientes (como nitrogênio e fósforo) do esgoto. Retirando esses nutrientes antes do lançamento, o crescimento exagerado de bactérias e algas diminui, e o oxigênio não se esgota. Aquecer a água (A) reduz a solubilidade do O₂, e deixar os nutrientes mais acessíveis (D, E) piora a eutrofização. **Resposta: B**
+
+@ENEM-CN-2010-REG-D1-C1-Q60
+K: osmose: a água vai do meio menos concentrado para o mais concentrado
+Quando o solo fica mais salgado que o interior das células da raiz, a água deixa de entrar na planta (pode até sair dela). Mesmo com água no solo, a planta "sente" seca: é a seca fisiológica. A alternativa B é tentadora, mas o problema não é falta de água no solo, e sim a concentração de sais. **Resposta: A**
+
+@ENEM-CN-2010-REG-D1-C1-Q61
+K: cadeia alimentar: o dano a um nível afeta todos os outros
+O óleo prejudicou a fotossíntese das algas (base da cadeia), intoxicou árvores e animais e afetou a pesca. Isso mostra como as formas de vida dependem umas das outras e do ambiente. A alternativa B fala do efeito estufa, que não é o tema do texto, e D e E contradizem os danos descritos. **Resposta: C**
+
+@ENEM-CN-2010-REG-D1-C1-Q62
+K: dobras aumentam a área de contato
+O papel dobrado absorveu mais água (12 mL) que o liso (8 mL) no mesmo tempo, porque tem mais área em contato com a água. As microvilosidades fazem o mesmo no intestino: aumentam a superfície de absorção de nutrientes. A alternativa D é tentadora, mas o tempo foi igual (5 s) nos dois casos. **Resposta: B**
+
+@ENEM-CN-2010-REG-D1-C1-Q64
+K: Lamarck: lei do uso e desuso e herança dos caracteres adquiridos
+Para Lamarck, órgãos pouco usados se atrofiam (lei do uso e desuso) e essas mudanças passam aos descendentes. Assim, ele explicaria a falta de olhos pelo desuso. A alternativa A (seleção natural) e a E (mutação + seleção) são ideias de Darwin e do neodarwinismo. D cita "patrimônio genético", conceito que Lamarck não tinha. **Resposta: B**
+
+@ENEM-CN-2010-REG-D1-C1-Q66
+K: respiração anaeróbia usa outro aceptor final de elétrons no lugar do O₂
+Na respiração celular, o O₂ é o aceptor final de elétrons. Sem oxigênio, alguns organismos usam substâncias oxidantes no lugar dele, como o enxofre (S) e o nitrato (NO₃⁻), como fazem bactérias anaeróbias. H₂, CH₄ e CO₂ não fazem esse papel de aceptor (H₂ e CH₄ são doadores de elétrons), o que elimina as outras opções. **Resposta: B**
+
+@ENEM-CN-2010-REG-D1-C1-Q71
+K: bactérias se reproduzem rápido por divisão binária e têm metabolismo variado
+Bactérias se reproduzem muito rápido por divisão binária, originando clones idênticos, e muitas conseguem obter energia tanto em presença quanto em ausência de oxigênio. Isso explica a instalação na córnea pouco oxigenada. A alternativa D erra ao falar em variabilidade genética na reprodução (divisão binária gera cópias) e em "única forma" de nutrição. **Resposta: E**
+
+@ENEM-CN-2010-REG-D1-C1-Q75
+K: araucária (gralha-azul), cerrado (troncos tortuosos), cocais (palmeiras), caatinga (espinhos)
+I: pinheiros e gralha-azul indicam Mata de Araucárias. II: árvores tortuosas de casca grossa são típicas do Cerrado. III: palmeiras de valor econômico (babaçu, carnaúba) caracterizam a Zona dos Cocais. IV: aridez e plantas espinhosas indicam a Caatinga. A alternativa A troca o primeiro bioma: a Caatinga não tem pinheiros. **Resposta: B**
+
+@ENEM-CN-2010-REG-D1-C1-Q76
+K: só as fêmeas picam e transmitem a dengue
+Os machos transgênicos cruzam com fêmeas selvagens e passam o gene dominante às filhas, que nascem sem conseguir voar. Assim, menos fêmeas picam pessoas e se reproduzem, reduzindo a população do vetor e a transmissão. O gene não afeta os machos (A, E) nem o vírus em si (D). **Resposta: C**
+
+@ENEM-CN-2010-REG-D1-C1-Q87
+K: leguminosas + bactérias fixam o N₂ do ar no solo
+Soja, amendoim e feijão têm bactérias nas raízes que fixam o nitrogênio do ar, incorporando-o ao solo e reduzindo gastos com adubo; além disso, os grãos são vendidos. Esse benefício duplo é descrito em E. A alternativa A é tentadora, mas o texto destaca a fixação de nitrogênio, não a cobertura morta. **Resposta: E**
+
+@ENEM-CN-2010-REG-D1-C1-Q88
+K: o ritmo circadiano é sincronizado pela luz do dia
+Sem a alternância claro-escuro, o relógio biológico perdeu sua referência: a pessoa passou a dormir em horários diferentes e perdeu a noção dos dias. Isso mostra que o ritmo circadiano é ajustado pela presença ou ausência do sol. A alternativa B minimiza a mudança, que foi grande. **Resposta: D**
+
+@ENEM-CN-2011-REG-D1-C1-Q47
+K: nível trófico: produtor → consumidor primário → secundário → terciário
+O homem comeu frutas e grãos (produtores), sendo consumidor primário. O tigre, ao comer o homem, é consumidor secundário. Os abutres, ao comer o tigre, são consumidores terciários. A alternativa E inverte a posição dos abutres. **Resposta: C**
+
+@ENEM-CN-2011-REG-D1-C1-Q48
+K: hemácias transportam oxigênio (hemoglobina)
+As hemácias contêm hemoglobina, que leva o oxigênio dos pulmões aos tecidos. Com poucas hemácias, o animal teria anemia e problemas no transporte de O₂. Imunidade (B) depende dos leucócitos, não das hemácias. **Resposta: E**
+
+@ENEM-CN-2011-REG-D1-C1-Q49
+K: plaquetas atuam na coagulação
+O hemograma mostra plaquetas abaixo do normal; como elas participam da coagulação, a falta delas explica o sangramento nasal. As demais alternativas trocam funções: glóbulos brancos fazem defesa, e o transporte de oxigênio é feito pelas hemácias. **Resposta: A**
+
+@ENEM-CN-2011-REG-D1-C1-Q51
+K: biodigestor: resíduos orgânicos viram biogás
+O biodigestor transforma restos orgânicos (cascas de mandioca, esterco) em biogás, um combustível barato e produzido na própria região, sem desmatar. O plantio de árvores (B) não resolve a curto prazo, pois elas levam anos para crescer. As opções C e E continuam degradando a mata. **Resposta: D**
+
+@ENEM-CN-2011-REG-D1-C1-Q52
+K: cloro desinfeta a água matando microrganismos
+O problema descrito são doenças causadas por microrganismos. A cloração elimina bactérias e outros patógenos. Filtração (A) e decantação (E) removem partículas, mas não garantem a eliminação dos micróbios; fluoretação (D) previne cáries. **Resposta: B**
+
+@ENEM-CN-2011-REG-D1-C1-Q53
+K: imunidade ativa gera células de memória
+A vacina estimula a produção de células de memória. Em um contato futuro com o HPV, elas promovem uma resposta secundária rápida e intensa. A alternativa B é tentadora, mas os anticorpos da vacinação caem com o tempo; a proteção duradoura vem da memória imunológica. **Resposta: E**
+
+@ENEM-CN-2011-REG-D1-C1-Q57
+K: controle biológico usa inimigos naturais da praga
+A microvespa coloca ovos dentro dos ovos da borboleta e seus embriões consomem o conteúdo, impedindo que a lagarta nasça: é uma relação de parasitismo usada como controle biológico. Não há competição por recursos (C) nem uso de inseticidas ou genes letais (B, E). **Resposta: A**
+
+@ENEM-CN-2011-REG-D1-C1-Q59
+K: osmose: o meio mais concentrado "puxa" água
+A cal forma um meio muito concentrado na superfície do tronco, que retira água das células dos microrganismos por osmose, desidratando-os. A alternativa A fala em difusão da cal para dentro dos seres, mas o efeito principal é a perda de água. A luz do sol não "ativa" a cal (C, D). **Resposta: B**
+
+@ENEM-CN-2011-REG-D1-C1-Q64
+K: endemia = doença presente de forma constante numa região delimitada
+O mapa mostra a malária concentrada em uma área definida da América do Sul (região amazônica), onde ocorre de forma constante: isso é endemia. Epidemia (C) é aumento repentino de casos, e pandemia (E) é a disseminação por vários continentes. **Resposta: A**
+
+@ENEM-CN-2011-REG-D1-C1-Q65
+K: epigenética altera a expressão dos genes sem mudar a sequência do DNA
+Mudanças epigenéticas, como a metilação de bases do DNA, desligam (silenciam) genes sem mudar a sequência de nucleotídeos. Alguns cânceres surgem quando genes protetores são inativados dessa forma. As outras alternativas descrevem alterações no número de cromossomos (A, B) ou mutações na sequência (C, D), que não são epigenéticas. **Resposta: E**
+
+@ENEM-CN-2011-REG-D1-C1-Q68
+K: genoma sintético permite programar organismos
+Se é possível montar um cromossomo inteiro e fazê-lo comandar uma célula, abre-se caminho para programar microrganismos para fabricar medicamentos, vacinas e combustíveis. A alternativa B erra porque o genoma é feito de nucleotídeos, não de carboidratos e lipídios. **Resposta: D**
+
+@ENEM-CN-2011-REG-D1-C1-Q69
+K: vacina estimula o corpo a produzir os próprios anticorpos
+A vacina contém o antígeno (vírus inativado ou partes dele), que estimula o organismo a produzir anticorpos e células de memória. A alternativa A descreve o soro, que já traz anticorpos prontos. A vacina não contém linfócitos (D). **Resposta: E**
+
+@ENEM-CN-2011-REG-D1-C1-Q76
+K: lagartas especialistas: preferem certos grupos de plantas
+O texto mostra que essas lagartas não comem "de tudo": consomem principalmente solanáceas, abundantes nesses biomas. Isso revela especificidade alimentar, contrariando o senso comum de voracidade generalizada (A, C, D). A família Apocinaceae era a dos ancestrais, não a atual (B). **Resposta: E**
+
+@ENEM-CN-2011-REG-D1-C1-Q79
+K: metano é produzido por bactérias na decomposição sem oxigênio
+Em lixões, a matéria orgânica fica enterrada sem oxigênio e é decomposta por bactérias anaeróbias (metanogênicas), que liberam metano. A respiração aeróbia (A) libera CO₂, não metano. **Resposta: B**
+
+@ENEM-CN-2011-REG-D1-C1-Q80
+K: hidrelétricas liberam metano pela decomposição da vegetação alagada
+O texto informa que o metano emitido pelas hidrelétricas pode equivaler ao CO₂ das termelétricas. Como as hidrelétricas são 80% da matriz, elas contribuem bastante para o efeito estufa. A alternativa A é tentadora porque a hidrelétrica é vista como "limpa", mas o texto contradiz essa ideia. **Resposta: D**
+
+@ENEM-CN-2011-REG-D1-C1-Q82
+K: predatismo: um animal mata e come outro
+A fêmea de Photuris atrai o macho de outro gênero e o devora; uma espécie mata e se alimenta de outra, o que caracteriza predação. O mimetismo luminoso é apenas a estratégia de caça. Comensalismo, inquilinismo, cooperação e mutualismo não envolvem a morte de um parceiro. **Resposta: D**
+
+@ENEM-CN-2011-REG-D1-C1-Q87
+K: o reino Animalia reúne todos os animais
+Mosca, mosquito, besouro, barata, borboleta e grilo são insetos (artrópodes), e o ser humano é cordado (mamífero). A única categoria que inclui todos é o reino Animalia. O filo (A) já separa artrópodes de cordados. **Resposta: B**
+
+@ENEM-CN-2011-REG-D1-C1-Q88
+K: algas absorvem nutrientes e liberam O₂ na fotossíntese
+As algas absorvem os resíduos nitrogenados dos animais como nutrientes e, na fotossíntese, produzem compostos orgânicos e liberam O₂, que os animais usam. A alternativa C erra porque a fotossíntese consome CO₂ em vez de liberá-lo, e E fala em quimiossíntese, que não é o processo das algas. **Resposta: D**
+
+@ENEM-CN-2011-REG-D1-C1-Q89
+K: as larvas do Aedes se desenvolvem em água parada
+O Aedes aegypti põe ovos em recipientes com água parada, onde as larvas se desenvolvem. Eliminar esses recipientes interrompe o ciclo. Telas (A) evitam picadas, mas não a reprodução, e o mosquito prefere água limpa, não contaminada (E). **Resposta: C**
+
+@ENEM-CN-2009-REG-D1-C1-Q21
+!
+R: alternativas são imagens (esquemas de ciclo de vida) não descritas no texto; conferir com a figura

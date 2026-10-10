@@ -1,0 +1,183 @@
+@ENEM-CN-2017-REG-D2-C7-Q95
+K: na eletrólise da salmoura, a água se reduz no cátodo
+Na eletrólise da solução de NaCl, o Cl⁻ se oxida a Cl₂ no ânodo. No cátodo, quem se reduz é a água, formando H₂ e OH⁻, que fica com o Na⁺ como NaOH. Os produtos principais são Cl₂ e NaOH, e o secundário é o H₂. O oxigênio (B) não se forma, porque o cloreto se oxida antes da água. **Resposta: D**
+
+@ENEM-CN-2017-REG-D2-C7-Q97
+K: teste de chama: o sódio emite luz amarela
+O calor da chama excita os elétrons do sódio, que, ao voltarem para níveis de menor energia, emitem fótons de luz amarela (teste de chama). Não há liberação de cloro (A), e carboidratos e proteínas não produzem essa cor (C, E). **Resposta: B**
+
+@ENEM-CN-2017-REG-D2-C7-Q102
+K: sal iônico + molécula polar de água
+Os núcleos de condensação são sais de amônio (NH₄X), formados por íons. A água é uma molécula polar (um dipolo), e a atração entre íons e a água é do tipo íon-dipolo. Ligações iônicas (A) existem dentro do sal, mas não entre o sal e a água. **Resposta: D**
+
+@ENEM-CN-2017-REG-D2-C7-Q106
+K: óleos essenciais são voláteis
+Óleos essenciais são substâncias voláteis. Com o calor do sol ao longo do dia, eles evaporam, então de madrugada a planta ainda os guarda em maior quantidade. Não há polimerização nem oxidação pela luz envolvidas no fenômeno (B, D). **Resposta: A**
+
+@ENEM-CN-2017-REG-D2-C7-Q114
+K: transesterificação produz ésteres
+Na transesterificação, o triglicerídeo (um éster) reage com metanol ou etanol e forma ésteres metílicos ou etílicos de ácidos graxos, que são o biodiesel, além da glicerina. O álcool (C) é reagente, e a glicerina é o subproduto. **Resposta: B**
+
+@ENEM-CN-2017-REG-D2-C7-Q119
+K: um ácido fraco se dissolve em água quando vira sal (em meio básico)
+O lapachol é um ácido fraco (pKa = 6). Em meio básico, com Na₂CO₃, ele perde H⁺ e forma um sal iônico solúvel em água, que é separado da serragem. Em meio ácido (B, E), ele permanece na forma neutra, pouco solúvel. **Resposta: A**
+
+@ENEM-CN-2017-REG-D2-C7-Q122
+K: proporção 1 : 1 e rendimento de 50%
+São 900 000 comprimidos × 0,5 g = 450 kg de AAS. Pela proporção 1 : 1, 450 × 138/180 = 345 kg de ácido salicílico seriam suficientes com 100% de rendimento. Como o rendimento é de 50%, é preciso o dobro: 690 kg. A alternativa B (345) esquece o rendimento. **Resposta: D**
+
+@ENEM-CN-2017-REG-D2-C7-Q126
+K: o flúor é o elemento mais eletronegativo
+O flúor é o elemento mais eletronegativo, isto é, o que mais atrai elétrons. Só um elemento tão "ávido" consegue arrancar elétrons do xenônio, que é muito estável. Densidade ou ponto de ebulição (A, E) não explicam a reatividade. **Resposta: C**
+
+@ENEM-CN-2017-REG-D2-C7-Q130
+K: mais polar → interage mais com a água do papel → migra devagar
+A fase estacionária é a água (polar), e a fase móvel é quase só hexano (apolar). As substâncias mais polares ficam mais retidas e migram mais devagar. A capsorubina tem grupos –OH e C=O nas duas pontas, por isso é a mais polar. O licopeno e os carotenos (A, B, C) são hidrocarbonetos apolares e migram rápido. **Resposta: D**
+
+@ENEM-CN-2017-REG-D2-C7-Q132
+K: meio hipertônico retira água das células
+O sal deixa o meio externo muito concentrado (hipertônico). Por osmose, a água sai das células do alimento e dos micróbios, e sem água os micróbios não se multiplicam. A concentração interna aumenta, e não diminui (A). **Resposta: E**
+
+@ENEM-CN-2017-REG-D2-C7-Q134
+K: quebre a dupla e coloque =O em cada carbono
+O 1-fenil-2-metilprop-1-eno é C₆H₅–CH=C(CH₃)₂. Ao quebrar a dupla, o carbono ligado ao fenil e a um H vira um aldeído (benzaldeído, C₆H₅CHO), e o carbono com duas metilas vira uma cetona (propanona). A alternativa E erra ao formar etanal no lado dissubstituído. **Resposta: A**
+
+@ENEM-CN-2018-REG-D2-C7-Q91
+K: azobenzeno muda de trans para cis com a luz
+A luz converte as ligações N=N do azobenzeno da forma trans (alongada) para a cis (dobrada e mais compacta), e a reação pode ser revertida. Essa mudança de tamanho das unidades curva a lâmina. Não é tautomerismo nem ressonância (C, D), e a alternativa E fala só de área, sem a isomerização cis-trans. **Resposta: B**
+
+@ENEM-CN-2018-REG-D2-C7-Q93
+K: o cátodo é o eletrodo de maior potencial de redução
+Entre os metais da pilha, o cobre tem o maior potencial de redução (+0,34 V) e o ferro, o menor (−0,44 V). O ferro se oxida (ânodo, por isso aparece corroído), e os elétrons vão para o tubo de cobre, onde ocorre a redução: ele é o cátodo. A barra de ferro (C) é o ânodo. **Resposta: D**
+
+@ENEM-CN-2018-REG-D2-C7-Q99
+K: 2 = gás, 6 = tóxico, 8 = corrosivo
+Precisamos de um gás tóxico e corrosivo. A amônia (NH₃) é um gás tóxico e, em contato com a umidade, forma uma solução básica corrosiva. Eteno e propano (A, D) são inflamáveis, mas não corrosivos, e N₂ e CO₂ (B, E) não são tóxicos nem corrosivos nesse sentido. **Resposta: C**
+
+@ENEM-CN-2018-REG-D2-C7-Q102
+K: catalisador acelera sem ser consumido
+O texto diz que o cloreto catalisa a reação. Um catalisador acelera a reação porque oferece um caminho com menor energia de ativação, e ele não é consumido. Ele não desloca o equilíbrio (B) nem é o agente oxidante (A). **Resposta: C**
+
+@ENEM-CN-2018-REG-D2-C7-Q114
+K: energia por grama × 40%
+A combustão de 1 mol de glicose (180 g) libera cerca de 2 800 kJ. Para 1 g: 2 800/180 ≈ 15,6 kJ, e 40% disso dá ≈ 6,2 kJ. A alternativa B (15,6) esquece os 40%. **Resposta: A**
+
+@ENEM-CN-2018-REG-D2-C7-Q121
+K: calcário neutraliza a acidez do solo
+O calcário (CaCO₃) reage com a acidez do solo e eleva o pH. Em pH mais alto, o alumínio precipita como Al(OH)₃ e fica menos disponível (menos tóxico). A alternativa A inverte o efeito, e não se forma alumínio metálico nem liga (C, D). **Resposta: E**
+
+@ENEM-CN-2018-REG-D2-C7-Q130
+K: carbono com três ligações σ em um plano
+No grafeno, cada carbono está ligado a três outros, em um plano, com ângulos de 120° (hexágonos). Isso corresponde à hibridação sp² com geometria trigonal planar. A hibridação sp (A) seria linear, com dois ligantes. **Resposta: B**
+
+@ENEM-CN-2018-REG-D2-C7-Q132
+K: mesma fórmula molecular, posição do OH diferente
+Os dois ácidos têm 10 carbonos, uma dupla em C2, um grupo –COOH e um –OH, então têm a mesma fórmula molecular (C₁₀H₁₈O₃). A diferença está na posição do OH (carbono 9 ou 10), isto é, na fórmula estrutural. São isômeros de posição. **Resposta: A**
+
+@ENEM-CN-2018-REG-D2-C7-Q135
+K: os alimentos (e o nitrogênio) saem do campo e não voltam
+Segundo Haber, a era industrial levou os produtos do campo para serem consumidos em lugares distantes, e o nitrogênio não voltava à terra. Esse fluxo para as cidades rompeu o balanço. O esgotamento do salitre (A) seria uma consequência futura, e não a causa do desequilíbrio. **Resposta: D**
+
+@ENEM-CN-2019-REG-D2-C7-Q91
+K: só reduz a água quem tem potencial menor que −0,83 V
+Para liberar H₂ da água em meio básico, é preciso uma espécie que se oxide com facilidade, isto é, com potencial de redução bem menor que −0,83 V. O alumínio (−2,33 V) reage com a água e o NaOH, liberando H₂ e calor. Co e Pb (B, E) têm potenciais maiores que −0,83 V, e Cu(OH)₂ e Fe(OH)₂ (C, D) já estão oxidados. **Resposta: A**
+
+@ENEM-CN-2019-REG-D2-C7-Q95
+K: compare a glicose com 2 ácidos láticos
+A combustão completa da glicose libera cerca de 2 800 kJ/mol. Cada ácido lático, ao queimar, libera 1 344 kJ, ou seja, 2 × 1 344 = 2 688 kJ ficam "presos" nos 2 ácidos láticos. Assim, a fermentação libera apenas 2 800 − 2 688 = 112 kJ por mol de glicose. A alternativa C confunde a energia que sobra no ácido lático com a liberada. **Resposta: A**
+
+@ENEM-CN-2019-REG-D2-C7-Q99
+K: matéria orgânica devolve C e N ao solo
+O resíduo contém açúcares e pectina (fontes de carbono) e alcaloides aminados (fontes de nitrogênio). Ao se decompor no solo, ele recicla esses elementos para as plantas. Não há base para afirmar que ele eleva o pH ou desloca o alumínio (B, D). **Resposta: A**
+
+@ENEM-CN-2019-REG-D2-C7-Q103
+K: houve troca de elétrons?
+Na reação 1, a glicose é oxidada a ácido glucônico e o O₂ é reduzido a H₂O₂. Na reação 2, o H₂O₂ oxida o iodeto (I⁻) a iodo. Nas duas há transferência de elétrons, ou seja, oxirredução. Não são reações ácido-base (E). **Resposta: C**
+
+@ENEM-CN-2019-REG-D2-C7-Q104
+K: o problema é que as estações atuais não removem fármacos
+Os fármacos atravessam o tratamento convencional e chegam aos rios. Para reduzir sua permanência, é preciso desenvolver novos processos nas estações de tratamento capazes de degradá-los. Ampliar a coleta de esgoto (B) só leva os fármacos até estações que ainda não os removem. **Resposta: D**
+
+@ENEM-CN-2019-REG-D2-C7-Q105
+K: emissão = elétron voltando para nível de menor energia
+A chama excita os elétrons para níveis mais energéticos. Ao voltarem para níveis mais internos, eles emitem a diferença de energia como luz de cor característica. A alternativa E descreve a absorção (excitação), e não a emissão. **Resposta: D**
+
+@ENEM-CN-2019-REG-D2-C7-Q108
+K: Xe tem 8 elétrons e compartilha 2 pares com o F
+O xenônio tem 8 elétrons de valência. No XeF₂, ele forma duas ligações covalentes (cada uma com um elétron do F), ficando com 3 pares não ligantes e 2 pares ligantes: 6 + 4 = 10 elétrons. Por isso o composto "viola" a regra do octeto (B). **Resposta: C**
+
+@ENEM-CN-2019-REG-D2-C7-Q115
+K: o concreto reciclado substitui o material graúdo
+O texto diz que o concreto reciclado moído substitui o "particulado rochoso graúdo", que é a brita. Logo, reduz-se a extração de brita. A areia (B) é miúda e continua sendo usada. **Resposta: A**
+
+@ENEM-CN-2019-REG-D2-C7-Q120
+K: cor vem de muitas duplas alternadas
+Moléculas com muitas ligações simples e duplas alternadas (cadeia conjugada) absorvem luz visível e por isso são coloridas. Esse é o ponto comum dos três corantes. Ramificações ou carbonos sp³ (B, E) não produzem cor. **Resposta: A**
+
+@ENEM-CN-2019-REG-D2-C7-Q122
+K: participa da reação e sai inalterado
+O "sabonete" não se desgasta, ou seja, não é consumido, mas acelera a transformação da alicina. Isso é característico de um catalisador. Um redutor (B) seria consumido ao doar elétrons. **Resposta: E**
+
+@ENEM-CN-2019-REG-D2-C7-Q124
+K: transesterificação de PET com álcool
+Para formar tereftalato de metila (um éster metílico), o PET reage com um álcool que fornece o grupo metil: o metanol. O etanodiol é liberado como o outro produto. O metano (A) não tem o grupo –OH necessário para a reação. **Resposta: B**
+
+@ENEM-CN-2019-REG-D2-C7-Q129
+K: ácido triprótico: 1 mol de ácido consome 3 mol de NaOH
+NaOH consumido: 0,01 × 0,024 = 2,4 × 10⁻⁴ mol, então o ácido cítrico é 2,4 × 10⁻⁴/3 = 8 × 10⁻⁵ mol × 192 = 0,0154 g em 2,2 g de polpa. Em 100 g, isso dá ≈ 0,70 g. Esse valor atende ao mínimo do caju (0,3) e da graviola (0,6), mas não ao da acerola (0,8). **Resposta: C**
+
+@ENEM-CN-2019-REG-D2-C7-Q130
+K: o soluto vai do mais concentrado para o menos concentrado
+O caldo estava mais salgado que a batata. O sal passou para a batata por difusão, a favor do gradiente de concentração. A osmose (A) é o movimento da água, e não do sal. **Resposta: E**
+
+@ENEM-CN-2019-REG-D2-C7-Q134
+K: líquido subindo em canais finos
+O etanol sobe pelo papel por capilaridade: os poros finos formam canais em que a adesão às fibras puxa o líquido para cima, contra a gravidade. A evaporação (A) faria o líquido diminuir, e não há reação química (C). **Resposta: D**
+
+@ENEM-CN-2020-REG-D2-C7-Q94
+K: várias duplas + OH em carbono da ponta
+Procure uma cadeia com várias ligações duplas e um –OH em carbono terminal (álcool primário). A estrutura 1 (do tipo geraniol) cumpre os dois critérios. As outras são cíclicas ou têm o OH ou a função oxigenada em posição diferente. **Resposta: A**
+
+@ENEM-CN-2020-REG-D2-C7-Q96
+K: meia-vida constante de 100 min
+Concentração inicial: 171/342 = 0,5 mol em 0,5 L, ou seja, 1,0 mol/L. Em 400 min passam 4 meias-vidas: 1,0/2⁴ = 0,0625 = 6,25 × 10⁻² mol/L. Calcular com apenas 3 meias-vidas leva a 1,25 × 10⁻¹ (C). **Resposta: B**
+
+@ENEM-CN-2020-REG-D2-C7-Q97
+K: petróleo é carbono que estava armazenado no subsolo
+O petróleo do pré-sal guarda carbono retirado do ciclo há milhões de anos. Ao queimá-lo, esse carbono volta à atmosfera como CO₂, desequilibrando o ciclo do carbono. A alternativa C fala em carbonatos, que não vêm da queima do petróleo. **Resposta: D**
+
+@ENEM-CN-2020-REG-D2-C7-Q102
+K: o solvente dissolve o óleo pela semelhança de polaridade
+Na extração, um solvente apolar (como o hexano) dissolve o óleo, que também é apolar, separando-o do restante. Essa etapa depende apenas da polaridade. A destilação (E) separa pelo ponto de ebulição, e a prensagem (C) é mecânica. **Resposta: D**
+
+@ENEM-CN-2020-REG-D2-C7-Q108
+K: o revestimento só se dissolve em pH próximo do neutro
+O estômago é muito ácido, e o revestimento não se dissolve ali. Assim, o fármaco atravessa o estômago protegido do suco gástrico e só é liberado no intestino, de pH próximo do neutro. As alternativas A e B dizem o contrário. **Resposta: C**
+
+@ENEM-CN-2020-REG-D2-C7-Q110
+K: nanopartículas expõem muita superfície
+Em escala nanométrica, a área de superfície por massa é enorme, e mais superfície de contato aumenta a velocidade da reação. Catalisadores diminuem a energia de ativação, e não a aumentam (E). O texto também fala em consumir menos energia, o que descarta alta temperatura (B). **Resposta: D**
+
+@ENEM-CN-2020-REG-D2-C7-Q112
+K: hidratação exotérmica → calor desloca para a forma azul
+A forma rosa é o sal hidratado, formado por uma reação exotérmica (ΔH < 0). Aquecer favorece o sentido endotérmico, que remove a água e devolve a cor azul. Resfriar (A) ou borrifar água (B) favorecem a forma rosa. **Resposta: D**
+
+@ENEM-CN-2020-REG-D2-C7-Q120
+K: diferença de CO₂ → mols de etanol (1 etanol : 2 CO₂)
+Em 1 000 km, a diferença é de (2,6 − 0,45) × 1 000 = 2 150 mol de CO₂. Como cada mol de etanol gera 2 mol de CO₂, são 1 075 mol de etanol × 46 g ≈ 49,5 kg, ou seja, cerca de 50 kg. Esquecer a proporção 1 : 2 leva a cerca de 99 kg (D). **Resposta: A**
+
+@ENEM-CN-2020-REG-D2-C7-Q123
+K: líquidos imiscíveis se separam em funil de decantação
+O acetato de etila e a água não se misturam e formam duas fases. Para separá-las, usa-se o funil de separação (decantação). A filtração (B) separa sólido de líquido, e a destilação (C) gastaria energia à toa. **Resposta: E**
+
+@ENEM-CN-2020-REG-D2-C7-Q124
+K: o óleo flutua e forma uma película
+O petróleo é apolar (hidrofóbico) e menos denso que a água, então forma uma camada na superfície que impede a troca de gases (O₂) entre a água e o ar. Ele não se dissolve na água (C) e não acidifica o mar (B). **Resposta: D**
+
+@ENEM-CN-2020-REG-D2-C7-Q132
+K: metais pesados e gases tóxicos poluem o ar
+Os resíduos citados incluem metais pesados (chumbo, cromo, bário, antimônio) e gases como NO₂ e SO₂, que poluem o ar e são tóxicos. Os resíduos já queimados não são explosivos (B), e sódio e potássio (C) não são os principais tóxicos. **Resposta: D**
+
+@ENEM-CN-2018-REG-D2-C7-Q109
+!
+R: Depende da comparação de estruturas (moléculas 1–5) e do fator 10⁶ das figuras; o raciocínio sobre a nucleofilicidade do N/O e o impedimento estérico não leva, de forma inequívoca, à molécula 4 do gabarito oficial (a 5 também seria candidata). Mostrar só o gabarito.

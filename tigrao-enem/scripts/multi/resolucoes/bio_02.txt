@@ -1,0 +1,211 @@
+@ENEM-CN-2009-REG-D1-C1-Q21
+K: no ser humano o adulto é diploide e só os gametas são haploides (meiose gamética)
+Nos seres humanos o indivíduo adulto é diploide (2n). A meiose ocorre na formação dos gametas, que são haploides (n), e a fecundação une dois gametas, formando o zigoto 2n, que se desenvolve por mitoses. O esquema correto é o que mostra esse ciclo com meiose gamética, sem fase adulta haploide. Esquemas com adulto haploide ou com meiose logo após a formação do zigoto representam ciclos de plantas, algas ou fungos. **Resposta: C**
+
+@ENEM-CN-2012-REG-D1-C1-Q48
+K: gene → RNA mensageiro → proteína
+O gene transferido é transcrito em RNA mensageiro, que é traduzido nos ribossomos na proteína responsável pela nova característica. A alternativa B erra ao citar o RNA transportador, que apenas leva aminoácidos; quem carrega a "receita" da proteína é o RNA mensageiro. **Resposta: E**
+
+@ENEM-CN-2012-REG-D1-C1-Q51
+K: biorremediação: microrganismos degradam poluentes
+Na biorremediação, o microrganismo usa o poluente no seu metabolismo e o transforma em substâncias menos tóxicas ou inofensivas. Apenas absorver o contaminante sem alterá-lo (B) ou transferi-lo para a água (A) não resolve o problema. **Resposta: E**
+
+@ENEM-CN-2012-REG-D1-C1-Q52
+K: leptospirose: bactéria eliminada na urina de ratos, comum em enchentes
+O contato com água de enchente, sem esgoto e com lixo acumulado (atrai ratos), associado a febre, dor de cabeça e dores musculares, indica leptospirose. Ela é causada pela bactéria Leptospira, presente na urina de ratos. Difteria, tuberculose e meningite são transmitidas pelo ar, e botulismo vem de alimentos contaminados. **Resposta: D**
+
+@ENEM-CN-2012-REG-D1-C1-Q56
+K: o onívoro (P3) se alimenta das plantas (P1) e do herbívoro (P2)
+P3 é um onívoro: come tanto plantas (P1) quanto herbívoros (P2). A interação I que afeta P3 representa, portanto, a proporção de P1 ou P2 usada como alimento por P3. A alternativa A é tentadora, mas a herbivoria (P2 comendo P1) não explica o efeito sobre P3. **Resposta: D**
+
+@ENEM-CN-2012-REG-D1-C1-Q57
+K: adaptações ao fogo e à seca no cerrado
+No cerrado, as gemas (brotos) protegidas por pelos densos resistem ao calor das queimadas e à perda de água, permitindo que a planta rebrote. As plantas do cerrado têm cascas grossas (não finas, A), caules tortuosos (não retilíneos, B), folhas coriáceas (não membranosas, C) e raízes profundas (não superficiais, E). **Resposta: D**
+
+@ENEM-CN-2012-REG-D1-C1-Q62
+K: híbridos férteis podem cruzar com a espécie nativa e diluir seus genes
+Se escaparem e se reproduzirem com as espécies nativas, os híbridos misturam os genes das populações naturais e podem substituí-las geneticamente ao longo das gerações. Um peixe não ocupa o primeiro nível trófico, que é dos produtores (C), e a hibridação não altera o código genético (E). **Resposta: B**
+
+@ENEM-CN-2012-REG-D1-C1-Q63
+K: fermentação alcoólica produz álcool e CO₂
+As leveduras fazem fermentação alcoólica: transformam açúcar em álcool e gás carbônico. As bolhas de CO₂ ficam presas na massa e a fazem crescer. O ácido lático (B) é produto de outra fermentação, feita por bactérias e por músculos. **Resposta: A**
+
+@ENEM-CN-2012-REG-D1-C1-Q65
+K: as células regulam quais genes estão ligados em cada momento
+O DNA de um indivíduo é o mesmo ao longo da vida. O que muda é quais genes são transcritos (expressos) em cada época e situação. As alternativas B, C e D dizem que o material genético muda ou cria genes, o que não acontece para responder ao ambiente. **Resposta: E**
+
+@ENEM-CN-2012-REG-D1-C1-Q68
+K: nicho = modo de vida da espécie; hábitat = endereço
+O texto descreve hábitos (noturno, solitário), alimentação, reprodução e comportamento territorial do tamanduá, ou seja, o seu modo de vida: o nicho ecológico. Hábitat (A) seria apenas o lugar onde ele vive. **Resposta: D**
+
+@ENEM-CN-2012-REG-D1-C1-Q75
+K: biogênese: todo ser vivo vem de outro ser vivo
+Redi mostrou que larvas de moscas só surgem na carne se moscas puderem pôr ovos nela, e Pasteur mostrou que microrganismos não surgem em caldo estéril protegido do ar contaminado. Assim, ficou estabelecido que seres vivos se originam de outros seres vivos (biogênese). A alternativa E descreve justamente a ideia refutada (geração espontânea). **Resposta: C**
+
+@ENEM-CN-2012-REG-D1-C1-Q79
+K: vitaminas hidrossolúveis têm muitos grupos polares (–OH) e não ficam armazenadas
+Precisa de mais reposição diária a vitamina hidrossolúvel, pois ela não é armazenada e é eliminada na urina. Na figura, a estrutura III (vitamina C) tem vários grupos –OH, polares, que a tornam solúvel em água. As estruturas I, II, IV e V têm longas cadeias de carbono, apolares, típicas das vitaminas lipossolúveis (A, K, D e E), que ficam armazenadas na gordura. **Resposta: C**
+
+@ENEM-CN-2012-REG-D1-C1-Q81
+K: menos luz → menos fotossíntese → colapso das cadeias alimentares
+A nuvem de poeira bloqueou a luz solar, a fotossíntese caiu e os produtores morreram. Com a base das cadeias alimentares comprometida, o fluxo de energia nas teias tróficas foi interrompido e muitos animais, como os dinossauros, foram extintos. Poeira não altera o código genético (A) nem se bioacumula (C). **Resposta: B**
+
+@ENEM-CN-2012-REG-D1-C1-Q85
+K: polinização cruzada mistura genes de plantas diferentes
+O grão de pólen leva o gameta masculino de uma planta até outra, permitindo a fecundação cruzada e a mistura de genes, o que aumenta a diversidade genética. Sementes aladas e frutos (A, D) ajudam na dispersão, e os vasos condutores (E) transportam seiva, sem relação direta com a variabilidade. **Resposta: C**
+
+@ENEM-CN-2012-REG-D1-C1-Q87
+K: o barbeiro vive no ambiente silvestre e se alimenta de sangue de animais
+O desmatamento elimina ou expulsa os animais silvestres de que o barbeiro se alimenta. Sem essas fontes, o inseto procura moradias humanas, especialmente casas de barro e pau a pique, aumentando a transmissão. A doença não é transmitida pela água ou pela falta de esgoto (C). **Resposta: E**
+
+@ENEM-CN-2013-REG-D1-C1-Q50
+K: Jenner e a primeira vacina
+Jenner mostrou que a exposição a um vírus parecido e mais brando (varíola bovina) protegia contra a varíola humana. Essa foi a base das vacinas, que hoje previnem diversas doenças infectocontagiosas no mundo. A alternativa C é tentadora, mas vacina é prevenção, não tratamento. **Resposta: A**
+
+@ENEM-CN-2013-REG-D1-C1-Q53
+K: vilosidades aumentam a superfície de absorção
+As vilosidades formam dobras na parede do intestino que aumentam muito a área de contato com o alimento, e a irrigação sanguínea leva rapidamente os nutrientes absorvidos. Assim, a serpente aproveita ao máximo cada presa. As vilosidades não aumentam o comprimento do intestino (A) nem secretam enzimas no estômago (D). **Resposta: B**
+
+@ENEM-CN-2013-REG-D1-C1-Q55
+K: a pílula mantém os hormônios em nível constante e impede a ovulação
+Tomando a pílula todos os dias, sem pausa, a mulher mantém estrogênio e progesterona em níveis altos e estáveis no sangue, sem as variações do ciclo menstrual. Isso inibe a hipófise e bloqueia a ovulação. O gráfico correto é o que mostra as duas concentrações praticamente constantes durante os seis meses; gráficos com picos cíclicos representam um ciclo natural. **Resposta: A**
+
+@ENEM-CN-2013-REG-D1-C1-Q56
+K: válvulas das veias impedem o refluxo do sangue
+Ao esvaziar um trecho da veia e pressionar a ponta, Harvey viu que o sangue não voltava: as válvulas venosas só deixam o sangue correr em direção ao coração. Esse experimento mostra a relação entre a circulação e as válvulas das veias, não a pressão arterial (A), que é das artérias. **Resposta: B**
+
+@ENEM-CN-2013-REG-D1-C1-Q59
+K: decompositores consomem O₂ ao respirar
+A árvore caída é decomposta por fungos e bactérias, que respiram consumindo O₂. Por isso, perto do solo, a concentração de O₂ diminui. A alternativa E é tentadora, mas a árvore madura já tinha produção e consumo de O₂ equilibrados; o fator novo é a decomposição. **Resposta: A**
+
+@ENEM-CN-2013-REG-D1-C1-Q60
+K: sucesso reprodutivo é medido pelos genes passados à prole
+Ao ser comido, o macho já fecundou a fêmea; ela ganha nutrientes e produz mais ovos, que carregam genes dos dois. Assim, o comportamento aumenta o número de descendentes do casal, favorecendo ambos do ponto de vista evolutivo. A alternativa C é falsa: os genes do macho chegam à prole, pois a cópula ocorre antes da predação. **Resposta: B**
+
+@ENEM-CN-2013-REG-D1-C1-Q62
+K: mitocôndrias e cloroplastos têm DNA próprio
+O transgene foi inserido no cloroplasto porque ele tem DNA e ribossomos próprios. Nas leveduras, que não têm cloroplasto, a organela equivalente com DNA próprio é a mitocôndria. Lisossomos, peroxissomos, Golgi e retículo não têm material genético. **Resposta: B**
+
+@ENEM-CN-2013-REG-D1-C1-Q63
+K: espécies com nichos semelhantes competem pelos mesmos recursos
+Os peixes exóticos têm nicho parecido com o dos cascudos e passaram a disputar os mesmos recursos: competição entre espécies diferentes (interespecífica). Os cascudos perderam a disputa e desapareceram. Competição intraespecífica (B) ocorre dentro da mesma espécie. **Resposta: C**
+
+@ENEM-CN-2013-REG-D1-C1-Q70
+K: cada banda do filho veio do pai ou da mãe
+O filho herda metade do DNA de cada genitor; assim, toda banda do bebê deve aparecer no suposto pai ou na suposta mãe. Comparando os padrões da figura, só o casal 3 explica todas as bandas do bebê. Nos outros casais, há bandas do bebê que não aparecem em nenhum dos dois. **Resposta: C**
+
+@ENEM-CN-2013-REG-D1-C1-Q78
+K: homens vacinados interrompem a cadeia de transmissão
+Homens não vacinados podem se infectar e transmitir o vírus às gestantes. Vaciná-los reduz a circulação do vírus e protege as grávidas e os bebês. Eles não passam o vírus diretamente para o feto (C) e não transferem imunidade às parceiras (D). **Resposta: B**
+
+@ENEM-CN-2013-REG-D1-C1-Q80
+K: produtores fazem a produção primária
+A produção primária é feita pelos organismos fotossintetizantes, que transformam energia luminosa em matéria orgânica. Entre os seres citados, apenas as algas são produtoras. Caranguejos (E) ajudam na reciclagem, mas não produzem matéria orgânica a partir da luz. **Resposta: B**
+
+@ENEM-CN-2013-REG-D1-C1-Q88
+K: DNA mitocondrial é herdado só da mãe
+O rapaz recebeu o DNA mitocondrial da mãe, que o recebeu da avó materna. Por isso, o DNAmt dele deve ser igual ao da avó materna. Pai, avô materno e filhos do rapaz têm DNAmt de outras mulheres (os filhos recebem o da mãe deles). **Resposta: D**
+
+@ENEM-CN-2014-REG-D1-C1-Q47
+K: aminoácidos essenciais precisam vir da dieta
+Sem carne, a dieta precisa fornecer proteínas que contenham os aminoácidos essenciais, aqueles que o corpo não produz. A combinação arroz + feijão fornece esses aminoácidos. Vitaminas, açúcares e gorduras (A, B, E) não substituem as proteínas. **Resposta: D**
+
+@ENEM-CN-2014-REG-D1-C1-Q53
+K: evolução = mudança ao longo do tempo, sem "melhoria" nem objetivo
+Para os cientistas, evolução é a modificação das características das populações ao longo das gerações, sem direção para um "ápice". As demais alternativas trazem ideias de progresso (maior tamanho, mais complexidade, melhoria, finalidade), que não fazem parte do conceito. **Resposta: A**
+
+@ENEM-CN-2014-REG-D1-C1-Q60
+K: competição = disputa pelo mesmo recurso
+As bactérias e o fungo disputam o ferro do meio. Ao consumir o ferro, as bactérias o deixam indisponível para o fungo, o que é competição. A alternativa D descreve a produção de substâncias inibidoras (amensalismo/antibiose), e as demais são interações positivas com o tomateiro. **Resposta: C**
+
+@ENEM-CN-2014-REG-D1-C1-Q61
+K: no cerrado: raízes profundas (lençol fundo) e folhas que reduzem a perda de água
+Com lençol freático profundo e seca marcada, a árvore precisa de raízes profundas e de folhas protegidas contra a perda de água. Pelo quadro, a árvore 2 tem raízes de alta profundidade e folhas cobertas por cera. A árvore 5 também tem raiz profunda, mas folhas com espinhos; a cera é a adaptação descrita para reduzir a transpiração sob alta insolação. **Resposta: B**
+
+@ENEM-CN-2014-REG-D1-C1-Q63
+K: desnitrificação: nitrato volta a N₂
+A forma mais oxidada do nitrogênio é o nitrato (NO₃⁻). Na desnitrificação, bactérias reduzem o nitrato a N₂, que volta para a atmosfera. No esquema, essa é a etapa V (NO₃⁻ → N₂). A etapa I é a fixação (N₂ → NH₃), e III e IV são a nitrificação. **Resposta: E**
+
+@ENEM-CN-2014-REG-D1-C1-Q69
+K: transgênico recebe gene de outra espécie
+A planta recebeu um gene vindo de uma bactéria, isto é, de outra espécie, por técnica de DNA recombinante; por isso é transgênica. Clone (A) seria uma cópia genética, e híbrido (B) resulta do cruzamento entre variedades ou espécies. **Resposta: E**
+
+@ENEM-CN-2014-REG-D1-C1-Q73
+K: endossimbiose: mitocôndria lembra uma bactéria
+A mitocôndria tem DNA circular próprio, parecido com o bacteriano, ribossomos próprios e se divide sozinha, como uma bactéria. Isso apoia a ideia de que ela era um procarionte incorporado. Produzir ATP (A) e ter enzimas aeróbias (E) não provam essa origem; mitocôndrias não têm parede celular (B). **Resposta: D**
+
+@ENEM-CN-2014-REG-D1-C1-Q74
+K: dominante ligado ao X: pai afetado passa o X para todas as filhas
+No heredograma, todas as filhas de homens afetados são afetadas, e os filhos homens desses pais são normais. Isso ocorre porque o pai passa seu X para todas as filhas e o Y para os filhos. Esse é o padrão da herança dominante ligada ao X. A alternativa A não explica por que nenhum filho homem de pai afetado tem a doença. **Resposta: D**
+
+@ENEM-CN-2014-REG-D1-C1-Q75
+K: protease gástrica: digere proteína em meio ácido
+Se a enzima for uma protease do estômago, ela deve digerir proteína em pH ácido. O único tubo com proteína em pH ácido é o da carne em pH 5. Clara de ovo (C) é proteína, mas está em pH básico, e batata, macarrão e manteiga não são fontes principais de proteína. **Resposta: B**
+
+@ENEM-CN-2014-REG-D1-C1-Q79
+K: sangue A aglutina com anti-A e não com anti-B
+O sangue tipo A tem antígeno A: aglutina com soro anti-A e não aglutina com anti-B. No quadro, só o lote II (25 L) tem esse resultado. O lote III aglutinou com os dois soros (tipo AB), o IV com nenhum (tipo O) e os lotes I e V só com anti-B (tipo B). **Resposta: B**
+
+@ENEM-CN-2014-REG-D1-C1-Q81
+K: quem come um herbívoro é consumidor secundário
+A larva do parasitoide se alimenta dos tecidos da lagarta, que é herbívora (consumidora primária). Logo, a larva é consumidora secundária. A alternativa A confunde o nível: atacar um herbívoro torna o organismo consumidor secundário, não primário. **Resposta: B**
+
+@ENEM-CN-2014-REG-D1-C1-Q85
+K: vacina e produção de soro usam antígenos para estimular anticorpos
+O imunobiológico I é uma vacina aplicada em pessoas; o II é o antígeno aplicado no cavalo para produzir soro. Nos dois casos, o organismo que recebe produz seus próprios anticorpos (imunidade ativa). A alternativa A é tentadora, mas imunidade passiva é a do soro já pronto (III), aplicado no paciente. **Resposta: D**
+
+@ENEM-CN-2014-REG-D1-C1-Q89
+K: células-tronco podem originar vários tipos de células
+As células do cordão umbilical são células-tronco, capazes de se diferenciar em diferentes células especializadas e, assim, regenerar tecidos. Multiplicação lenta (A) ou adesão (C) não explicam seu valor terapêutico. **Resposta: D**
+
+@ENEM-CN-2015-REG-D1-C1-Q46
+K: na altitude o ar é rarefeito: menor pressão parcial de O₂
+Em grandes altitudes, a pressão atmosférica é menor e, com ela, a pressão parcial de O₂. Com menos O₂ disponível, o equilíbrio Hb + O₂ ⇌ HbO₂ se desloca para a esquerda e a hemoglobina oxigenada diminui. A alternativa C é tentadora (faz frio na altitude), mas o fator que altera o equilíbrio é a quantidade de O₂. **Resposta: D**
+
+@ENEM-CN-2015-REG-D1-C1-Q47
+K: água escura deixa passar menos luz
+O corante escurece a água e bloqueia a luz, prejudicando de imediato a fotossíntese das algas e plantas aquáticas. Eutrofização e proliferação de algas (A, B) dependem de excesso de nutrientes e de luz, o que não é o caso. **Resposta: C**
+
+@ENEM-CN-2015-REG-D1-C1-Q48
+K: proteína de secreção: RER → Golgi → vesículas → fora da célula
+As proteínas de secreção são produzidas no retículo endoplasmático rugoso, seguem para o complexo golgiense e depois para vesículas de secreção, que as liberam. No experimento, a radioatividade aparece primeiro no RER, depois no Golgi e por último nas vesículas, e o gráfico correto mostra esses picos nessa ordem. **Resposta: C**
+
+@ENEM-CN-2015-REG-D1-C1-Q54
+K: a ideia clássica é que todo o corpo vem de um único zigoto
+A ideia clássica é que todas as células do corpo vêm de um único zigoto e, portanto, têm o mesmo genoma. O microquimerismo mostra que a mãe pode ter células vindas do filho, com outro DNA. As alternativas A, B, C e D tratam de outros princípios, que não são contestados pela descoberta. **Resposta: E**
+
+@ENEM-CN-2015-REG-D1-C1-Q56
+K: especiação exige interrupção do fluxo gênico
+Mesmo que raças de tamanhos muito diferentes não cruzem diretamente, elas trocam genes por meio de raças intermediárias. Com esse fluxo gênico mantido, não surge uma nova espécie. O isolamento geográfico (C) não existe entre as raças de cães. **Resposta: E**
+
+@ENEM-CN-2015-REG-D1-C1-Q61
+K: animais obtêm nitrogênio comendo matéria orgânica
+Os animais não usam o N₂ do ar (A). Eles obtêm nitrogênio ao comer proteínas e outros compostos nitrogenados de plantas ou de outros animais, transferidos ao longo das cadeias alimentares. Carboidratos (B) não contêm nitrogênio. **Resposta: D**
+
+@ENEM-CN-2015-REG-D1-C1-Q66
+K: aneuploidia = cromossomo a mais ou a menos
+O cariótipo 47, XY, +18 tem um cromossomo 18 a mais (trissomia, síndrome de Edwards). Alterar o número de um só cromossomo é uma aneuploidia. Euploidia e poliploidia (B, C) envolvem conjuntos inteiros de cromossomos. **Resposta: E**
+
+@ENEM-CN-2015-REG-D1-C1-Q72
+K: vários sorotipos dificultam uma vacina única
+O vírus da dengue tem quatro sorotipos, com antígenos diferentes; uma vacina eficaz precisa proteger contra todos. Essa alta variabilidade antigênica dificulta o desenvolvimento. A alternativa A inverte a situação, e vírus não têm dois tipos de ácido nucleico (D). **Resposta: B**
+
+@ENEM-CN-2015-REG-D1-C1-Q74
+K: a bactéria precisa do gene (DNA) para produzir a proteína
+Para produzir insulina continuamente, a bactéria precisa receber o gene, ou seja, a sequência de DNA que codifica a insulina. A partir dele, ela fabrica o RNAm e a proteína. Receber a proteína pronta (B) ou o RNAm (D) não permite produção contínua. **Resposta: A**
+
+@ENEM-CN-2015-REG-D1-C1-Q78
+K: queimadura com bolha: resfriar, proteger e não romper
+O correto é manter a bolha íntegra e úmida, cobrindo-a com gaze molhada para evitar desidratação e contaminação. Gelo (A) pode lesar ainda mais o tecido, manteiga e creme dental (B, C) contaminam, e furar a bolha (D) abre porta para infecções. **Resposta: E**
+
+@ENEM-CN-2015-REG-D1-C1-Q83
+K: pele fina e úmida perde água facilmente
+Os anfíbios têm pele fina, permeável e úmida (usada até na respiração), por isso perdem água com facilidade e dependem de ambientes úmidos. Além disso, a maioria se reproduz na água. Respiração pulmonar (B) e membros desenvolvidos (E) são adaptações ao ambiente terrestre, não limitações. **Resposta: D**
+
+@ENEM-CN-2015-REG-D1-C1-Q87
+K: todas as células têm os mesmos genes, mas ligam genes diferentes
+As células de um organismo vêm do mesmo zigoto e têm o mesmo DNA. A diferenciação ocorre porque cada tipo celular expressa (ativa) partes diferentes do genoma. A alternativa C erra ao dizer que os genes são diferentes. **Resposta: D**
+
+@ENEM-CN-2015-REG-D1-C1-Q89
+K: o hospedeiro intermediário do esquistossomo é um caramujo
+O látex é moluscicida, ou seja, mata moluscos. O caramujo (Biomphalaria) é o hospedeiro intermediário do Schistosoma mansoni; controlando o caramujo, combate-se a esquistossomose. Dengue, malária e elefantíase são transmitidas por mosquitos, e a ascaridíase não tem hospedeiro intermediário. **Resposta: E**

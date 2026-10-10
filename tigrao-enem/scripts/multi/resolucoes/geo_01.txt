@@ -1,0 +1,131 @@
+@ENEM-CH-2009-REG-D1-C1-Q55
+K: o fim da bipolaridade não trouxe paz
+Com o fim da Guerra Fria, os conflitos entre blocos deram lugar a conflitos internos (étnicos, religiosos, nacionalistas) e a novas ameaças, como o terrorismo e o crime organizado transnacional. Os gastos militares das potências não acabaram (B), e os EUA agiram várias vezes sem aval da ONU (E). **Resposta: A**
+
+@ENEM-CH-2009-REG-D1-C1-Q68
+K: industrialização intensifica o uso de recursos
+A modernização agrícola e industrial aumentou a produção, mas também a demanda por recursos naturais, sobretudo energia (petróleo, carvão, eletricidade). A fome não foi erradicada (A), e a mecanização reduziu os empregos no campo (E). **Resposta: C**
+
+@ENEM-CH-2009-REG-D1-C1-Q71
+K: cidades globais são nós da economia mundializada
+Cidades globais (como Nova York, Londres e Tóquio) concentram sedes de empresas, bolsas e serviços avançados, e surgiram com a internacionalização da economia a partir dos anos 1970. Elas não têm todas a mesma influência (A) e convivem com forte desigualdade e segregação (C). **Resposta: D**
+
+@ENEM-CH-2009-REG-D1-C1-Q72
+K: o texto defende uma "alfabetização eletrônica"
+O texto mostra que as tecnologias de informação colocam culturas diferentes em contato, no campo e na cidade, e defende criar novas estratégias de educação. A alternativa C exagera ao dizer que a educação tradicional rural ficou obsoleta, ideia que o texto não apresenta. **Resposta: A**
+
+@ENEM-CH-2009-REG-D1-C1-Q73
+K: a fronteira econômica avançou para o Norte e o Centro-Oeste
+O mapa mostra o crescimento do PIB per capita em áreas do Norte e do Centro-Oeste, ligado à expansão da fronteira agropecuária, à mineração, às indústrias e aos serviços. As desigualdades regionais não desapareceram (A), e o Sudeste continua com o maior PIB industrial (C). **Resposta: D**
+
+@ENEM-CH-2009-REG-D1-C1-Q75
+K: migrantes pouco qualificados nas metrópoles
+O texto mostra a chegada contínua de migrantes, a maioria em trabalhos manuais pouco qualificados. Esse crescimento rápido, sem a infraestrutura correspondente, alimenta o inchaço urbano (favelas, subemprego). O texto não fala de ações de governo nem de qualificação pelos estados (A, B). **Resposta: C**
+
+@ENEM-CH-2009-REG-D1-C1-Q76
+K: concentração fundiária e terras ociosas
+A subalimentação convive com o aumento da produção, porque o problema é o acesso à terra e à renda. Latifúndios improdutivos concentram terras que poderiam produzir alimentos, o que também gera conflitos agrários. A agricultura sul-americana é bem inserida no comércio mundial (A), e falta de mão de obra (B) não é o caso. **Resposta: C**
+
+@ENEM-CH-2009-REG-D1-C1-Q77
+K: leia no mapa onde se concentram conflitos e mortes
+O mapa destaca o Bico do Papagaio (encontro de Pará, Maranhão e Tocantins) com os maiores números de conflitos e mortes no período. É uma área de fronteira agrícola marcada pela grilagem de terras. As outras regiões citadas aparecem com números menores. **Resposta: B**
+
+@ENEM-CH-2009-REG-D1-C1-Q78
+K: compare as barras: improdutivos × produtivos × minifúndios
+O gráfico mostra que os imóveis improdutivos ocupam a maior parte da área (63,8% no Brasil) e predominam na maioria das regiões. Esse índice reflete a concentração fundiária, e não a baixa fertilidade do solo (B). **Resposta: A**
+
+@ENEM-CH-2009-REG-D1-C1-Q80
+K: mais exploração, mais riscos ambientais
+A tecnologia permitiu explorar os recursos em escala maior, o que também aumentou o risco de grandes desastres, como vazamentos de petróleo. As desigualdades não foram eliminadas (C), e o crescimento vegetativo é baixo nos países desenvolvidos (E). **Resposta: B**
+
+@ENEM-CH-2009-REG-D1-C1-Q81
+K: definição clássica de desenvolvimento sustentável
+Sustentabilidade é atender às necessidades do presente sem comprometer as das gerações futuras, equilibrando as dimensões econômica, social e ambiental (Relatório Brundtland). A alternativa D trata só da biodiversidade, um aspecto parcial, e A e B negam a possibilidade de conciliar economia e ambiente. **Resposta: E**
+
+@ENEM-CH-2009-REG-D1-C1-Q83
+K: grandes reservas de petróleo e de gás
+A Venezuela aparece entre os maiores detentores tanto de petróleo quanto de gás natural, o que faz dela uma grande potência energética. Suas reservas são exploradas, e não inexploradas (B), e a explicação não tem relação com o MERCOSUL (A). **Resposta: E**
+
+@ENEM-CH-2009-REG-D1-C1-Q85
+K: técnica para superar a falta de chuva
+A restrição climática mais evidente é a aridez. A irrigação por aspersão (pivôs centrais) no deserto da Arábia Saudita é uma tecnologia que permite produzir apesar da falta de chuva. O parque eólico (E) usa o vento para gerar energia, e não para contornar uma limitação à produção agrícola. **Resposta: D**
+
+@ENEM-CH-2009-REG-D1-C1-Q87
+K: irrigação moderna no semiárido
+Em áreas semiáridas, como o Vale do São Francisco, a irrigação moderna permitiu a fruticultura de exportação. A aridez tem origem principalmente natural (climática), e não só humana (A), e essas áreas são habitadas há muito tempo (C). **Resposta: B**
+
+@ENEM-CH-2009-REG-D1-C1-Q88
+K: temperatura e ação humana alteram as chuvas
+A formação de chuvas depende da temperatura do ar e da umidade, e as atividades humanas (aquecimento global, desmatamento, ilhas de calor) interferem nelas em escala local e global. Mais calor aumenta a evaporação, não "elimina nuvens" (A), e a aridez não aumentará em todo o planeta (C). **Resposta: E**
+
+@ENEM-CH-2009-REG-D1-C1-Q90
+K: as nascentes no planalto abastecem o Pantanal
+O nível das águas do Pantanal depende dos rios que nascem no planalto. O desmatamento e a erosão nas cabeceiras assoreiam e reduzem esses rios, por isso controlar esses processos nas nascentes é a medida mais eficaz. Barragens (E) alterariam o pulso natural de cheias. **Resposta: D**
+
+@ENEM-CH-2011-REG-D1-C1-Q4
+K: avanço do agronegócio sobre a floresta
+Na atualidade, a expansão da soja (e do gado), com monoculturas mecanizadas, é um dos principais vetores do desmatamento da Amazônia. A Transamazônica (C) é uma obra antiga, dos anos 1970, e as reservas extrativistas (D) ajudam a conservar a floresta. **Resposta: B**
+
+@ENEM-CH-2011-REG-D1-C1-Q5
+K: modernização agrícola do Cerrado
+O Centro-Oeste foi ocupado de forma moderna principalmente pela expansão da fronteira agropecuária (soja, gado), com nova infraestrutura e com a degradação de grande parte do Cerrado. A borracha (B) é da Amazônia, e a indústria de base (A) não foi o motor dessa ocupação. **Resposta: C**
+
+@ENEM-CH-2011-REG-D1-C1-Q7
+K: sementes melhoradas se adaptam a mais lugares
+O melhoramento genético das sementes permite cultivar o pinhão-manso em diferentes condições de clima e solo, ampliando as áreas produtoras. O texto não fala de venda direta por pequenos produtores (B), e abandonar o petróleo (C) é um exagero. **Resposta: A**
+
+@ENEM-CH-2011-REG-D1-C1-Q8
+K: retirar a vegetação expõe o solo à erosão
+Sem vegetação, o solo das encostas fica exposto à chuva, o que aumenta o escoamento, a erosão e os deslizamentos. O terraceamento e o pousio (B, C) são práticas de conservação do solo, o contrário do que se pede. **Resposta: E**
+
+@ENEM-CH-2011-REG-D1-C1-Q9
+K: asfalto e concreto aquecem a cidade
+Impermeabilizar o solo com asfalto e concreto reduz a umidade e a evaporação e aumenta a absorção de calor, intensificando a ilha de calor. Áreas verdes, rios recuperados e telhados refletores (A, B, C) reduzem o fenômeno. **Resposta: D**
+
+@ENEM-CH-2011-REG-D1-C1-Q10
+K: poluição do ar causa doenças respiratórias
+A exposição constante à poluição causa doenças respiratórias e cardiovasculares, reduzindo a expectativa de vida da população. Fecundidade e proporção de idosos (A, D) não são efeitos diretos da poluição. **Resposta: B**
+
+@ENEM-CH-2011-REG-D1-C1-Q11
+K: Mata de Araucárias é típica do Sul
+A araucária é típica da Mata de Araucárias, no Sul do Brasil. Sua madeira foi intensamente explorada, inclusive pela indústria de papel e celulose, o que reduziu muito esse bioma. Cana no Nordeste e grãos no Centro-Oeste (C, B) afetaram outros biomas. **Resposta: D**
+
+@ENEM-CH-2011-REG-D1-C1-Q12
+K: represas alagam cidades e terras ribeirinhas
+A barragem de Sobradinho formou um lago enorme que inundou cidades e terras ribeirinhas, obrigando milhares de pessoas a se mudar. Essa migração forçada é a consequência socioespacial cantada na música. A obra permitiu ampliar a irrigação, e não reduzi-la (E). **Resposta: A**
+
+@ENEM-CH-2011-REG-D1-C1-Q13
+K: lixo mal descartado contamina o solo e a água
+A deposição incorreta (lixões) gera chorume, que contamina o solo e o lençol freático, e o problema cresce com o consumismo. Os lixões não são solução (C), e os decompositores não "resolvem" os resíduos tecnológicos (B). **Resposta: A**
+
+@ENEM-CH-2011-REG-D1-C1-Q14
+K: regionalização pela força das potências econômicas
+O mapa organiza o mundo pós-Guerra Fria segundo as áreas de influência das grandes potências econômicas (EUA, União Europeia, Japão/China). A lógica deixa de ser ideológica e passa a ser econômica. Não houve dissolução dos blocos regionais (D), que, ao contrário, se fortaleceram. **Resposta: C**
+
+@ENEM-CH-2011-REG-D1-C1-Q15
+K: a chuva ácida corrói e acidifica
+A chuva ácida corrói metais e monumentos, danifica a vegetação e acidifica lagos e solos. Ela não reduz o aquecimento global (B) e não está ligada a enchentes ou ao semiárido (D, E). **Resposta: A**
+
+@ENEM-CH-2011-REG-D1-C1-Q24
+K: produção flexível exige trabalhador qualificado
+No modelo flexível (toyotismo), a automação reduz o trabalho repetitivo e exige trabalhadores polivalentes, qualificados com a participação das empresas e dos próprios trabalhadores. Estoques grandes e funções repetitivas (E, D) são características do fordismo. **Resposta: C**
+
+@ENEM-CH-2011-REG-D1-C1-Q28
+K: as favelas ocupam áreas de risco
+Sem planejamento nem acesso à moradia formal, as favelas ocupam encostas, margens de córregos e várzeas, áreas sujeitas a deslizamentos e enchentes. A falta de planejamento e de infraestrutura é justamente o problema, o que exclui a alternativa A. **Resposta: D**
+
+@ENEM-CH-2011-REG-D1-C1-Q37
+K: mecanização aumenta a produtividade
+A mecanização da colheita, induzida pela proibição das queimadas, traz mais eficiência e produtividade. Por outro lado, ela reduz os empregos de cortadores de cana, o que torna C falsa. As máquinas também compactam mais o solo, e não menos (D). **Resposta: B**
+
+@ENEM-CH-2011-REG-D1-C1-Q39
+K: investimentos sem condições em países instáveis
+O texto mostra a China comprando terras e investindo diretamente na África, sem exigir contrapartidas, em países de governos frágeis. Isso pode ameaçar a soberania africana, a ponto de se temer que se tornem "protetorados". O texto não fala de FMI, ONGs ou parceria com o Ocidente (A, B, C). **Resposta: D**
+
+@ENEM-CH-2011-REG-D1-C1-Q44
+K: o setor financeiro conecta toda a cadeia
+No organograma, bancos e agentes financeiros aparecem ligados a vários elos da cadeia (produção, indústria, comércio), financiando e articulando o processo. O setor primário não é autônomo (A), e a cadeia mostra o campo integrado à cidade, e não distante dela (C). **Resposta: B**
+
+@ENEM-CH-2011-REG-D1-C1-Q45
+K: migram para trabalhar; os ricos fecham as portas
+A principal motivação das migrações recentes é a busca de trabalho e de melhores condições de vida. Os países desenvolvidos, por sua vez, têm endurecido as barreiras contra a imigração. A alternativa B erra ao falar em abertura de fronteiras. **Resposta: A**

@@ -1,0 +1,255 @@
+@ENEM-CN-2020-REG-D2-C7-Q95
+K: ligar fragmentos isolados permite o trânsito de animais
+Corredores ecológicos ligam as "ilhas" de mata e permitem que os animais circulem, encontrem alimento e se reproduzam com indivíduos de outras áreas, mantendo o fluxo gênico. Ampliar o efeito de borda (B) piora a situação, e introduzir novas espécies (E) pode gerar invasões. **Resposta: C**
+
+@ENEM-CN-2020-REG-D2-C7-Q103
+K: CO₂ dissolvido na água forma ácido carbônico
+O texto diz que o CO₂ se dissolve facilmente na água, onde forma ácido carbônico e libera H⁺. Com mais CO₂ no ar, a água fica mais ácida, ou seja, o pH (potencial hidrogeniônico) diminui, o que prejudica corais, moluscos e outros organismos. A alternativa C erra porque mais CO₂ não reduz a fotossíntese, já que ele é matéria-prima dela. **Resposta: A**
+
+@ENEM-CN-2020-REG-D2-C7-Q115
+K: inserir gene de outra espécie = transgenia
+A soja recebeu um gene de outro organismo para produzir a cianovirina-N, por isso é um organismo transgênico. O melhoramento genético (E) tradicional seleciona e cruza variedades, sem transferir genes entre espécies. A terapia gênica (D) trata células de um paciente. **Resposta: B**
+
+@ENEM-CN-2020-REG-D2-C7-Q117
+K: luz (foto) + anticorpos (imuno)
+A técnica usa anticorpos, que são parte do sistema imune, para levar a molécula até o tumor, e luz infravermelha para ativá-la, daí o nome fotoimunoterapia. Não é radioterapia (A), que usa radiação ionizante, nem quimioterapia (C), em que o remédio age sozinho. **Resposta: D**
+
+@ENEM-CN-2020-REG-D2-C7-Q118
+K: viver em terra firme exige evitar perda de água
+O exoesqueleto de quitina recobre o corpo e reduz a perda de água por evaporação, o que foi essencial para a conquista do ambiente terrestre. A excreção de ácido úrico (B) também economiza água, mas a alternativa justifica errado ao falar em estabilidade do pH. **Resposta: C**
+
+@ENEM-CN-2020-REG-D2-C7-Q121
+K: bactérias aeróbias se juntam onde há mais O₂
+As bactérias aeróbias se concentram onde a alga libera mais oxigênio, isto é, onde a fotossíntese é mais intensa. No esquema, a maior aglomeração fica na faixa do vermelho (há outra no azul/violeta). A clorofila absorve pouco a luz verde (B), que é refletida, e por isso ali quase não há bactérias. **Resposta: E**
+
+@ENEM-CN-2020-REG-D2-C7-Q125
+K: grupo B pode receber de B e de O
+O grupo O é ii, então r² = 0,25 e r = 0,5. A homozigoto é IᴬIᴬ, então p² = 0,16 e p = 0,4; assim, q = 1 − 0,4 − 0,5 = 0,1. Doadores para quem é do grupo B são os dos grupos B e O: q² + 2qr + r² = 0,01 + 0,10 + 0,25 = 0,36, ou seja, 36%. **Resposta: D**
+
+@ENEM-CN-2020-REG-D2-C7-Q127
+K: plantas pioneiras cobrem e protegem o solo exposto
+Ao cobrir rapidamente o solo nu, as pioneiras fazem sombra e acumulam matéria orgânica, o que reduz a evaporação e mantém a umidade estável. Isso prepara o ambiente para outras espécies. Elas diminuem, e não aumentam, a luz e a temperatura no solo (A, D). **Resposta: C**
+
+@ENEM-CN-2021-REG-D2-C7-Q93
+K: seleção natural preserva características vantajosas
+Polvos que imitavam animais perigosos ou pouco atrativos escapavam mais dos predadores e deixaram mais descendentes. Assim, a seleção natural manteve esse comportamento. Não houve aprendizado por observação (C), e convergência (D) seria a semelhança entre espécies que surge por adaptação a ambientes parecidos, e não a imitação de um modelo. **Resposta: E**
+
+@ENEM-CN-2021-REG-D2-C7-Q96
+K: menor proteína = códon de parada mais cedo
+Trocar C por U no códon 4 transforma CAA em UAA, um códon de parada. A tradução para depois de apenas 3 aminoácidos. Apagar os dois primeiros nucleotídeos do códon 5 (E) cria UAG, mas só no 5º códon. Já a deleção no códon 3 (A) desloca a leitura sem gerar parada antes. **Resposta: B**
+
+@ENEM-CN-2021-REG-D2-C7-Q98
+K: no feto, o sangue quase não passa pelos pulmões
+No feto, o oxigênio vem da placenta e os pulmões não funcionam, então o sangue não precisa da pequena circulação. O forame oval faz o sangue passar uma única vez pelo coração, como na circulação simples dos peixes. Aves (A) têm circulação dupla, o oposto disso. **Resposta: D**
+
+@ENEM-CN-2021-REG-D2-C7-Q104
+K: poluentes se acumulam ao longo da cadeia alimentar
+Metais tóxicos não são eliminados e se acumulam a cada nível trófico (biomagnificação). Os golfinhos, predadores no topo da cadeia, acumulam as maiores concentrações. O fitoplâncton (C), produtor na base da cadeia, tem as menores. **Resposta: B**
+
+@ENEM-CN-2021-REG-D2-C7-Q110
+K: fermentação gera subprodutos ainda energéticos
+A fermentação degrada a matéria orgânica de forma incompleta, com menor rendimento energético, e gera subprodutos ricos em energia, como etanol e metano, que servem de combustível. A respiração aeróbica (D) degrada tudo até CO₂ e água, que não são combustíveis. **Resposta: B**
+
+@ENEM-CN-2021-REG-D2-C7-Q112
+K: conhecer os genes dos animais antes de cruzá-los
+Para separar os animais e evitar cruzamentos que gerem doenças, é preciso identificar quem carrega alelos indesejados e o grau de parentesco. Isso se faz com o mapeamento genético. Transgenia e terapia gênica (A, B) alteram genes, mas não orientam os cruzamentos. **Resposta: E**
+
+@ENEM-CN-2021-REG-D2-C7-Q114
+K: reflexos simples são integrados fora do encéfalo
+O reflexo patelar é um arco-reflexo: o estímulo chega pela medula espinal, que envia a resposta direto ao músculo, sem passar pelo encéfalo. O cerebelo (C) coordena equilíbrio e movimentos voluntários, e não esse reflexo. **Resposta: B**
+
+@ENEM-CN-2021-REG-D2-C7-Q119
+K: cerne é madeira morta, densa e resistente à degradação
+Para construção, interessa uma madeira com muito cerne, que é denso e resistente a fungos e cupins, e com bom suporte mecânico. No quadro, a espécie 1 tem cerne em grande quantidade (+++) e esclerênquima na periderme. A espécie 5 tem muito esclerênquima, mas pouco cerne, então resiste menos à degradação. **Resposta: A**
+
+@ENEM-CN-2021-REG-D2-C7-Q121
+K: parasita "eficiente" não mata o hospedeiro
+Pela coevolução, patógenos antigos tendem a ser menos letais, porque manter o hospedeiro vivo favorece a sua própria propagação. A baixa letalidade da dengue indica uma convivência mais longa com os humanos. A alternativa C erra, porque alta letalidade não indica eficiência do parasita. **Resposta: E**
+
+@ENEM-CN-2021-REG-D2-C7-Q127
+K: animais que comem frutos espalham sementes
+As preguiças-gigantes comiam frutos e espalhavam as sementes pelas fezes em outros lugares. Com a extinção delas, a dispersão diminuiu e as plantas ficaram menos abundantes e restritas a certas áreas. Produção de flores e tamanho das plantas (A, B) não dependiam diretamente desses animais. **Resposta: C**
+
+@ENEM-CN-2021-REG-D2-C7-Q129
+K: o endosperma (3n) nutre o embrião
+A dupla fecundação forma o endosperma triploide, um tecido de reserva que alimenta o embrião durante a germinação. O fruto (A) vem do ovário, e o revestimento da semente vem dos tegumentos do óvulo (C). **Resposta: B**
+
+@ENEM-CN-2021-REG-D2-C7-Q132
+K: pais normais portadores, 1/4 de filhos afetados
+Pais não afetados que têm um filho doente são heterozigotos (Aa). O cruzamento Aa × Aa produz 1/4 de filhos aa, que é exatamente a chance citada. Isso caracteriza herança recessiva (autossômica, gene no cromossomo 10). Se fosse dominante (B), os pais portadores também seriam doentes. **Resposta: A**
+
+@ENEM-CN-2022-REG-D2-C7-Q92
+K: as duas doenças são transmitidas por insetos
+A filariose é transmitida por mosquitos (Culex) e a leishmaniose, pelo mosquito-palha. A medida comum às duas é controlar esses vetores. Vermífugos (C) não previnem a leishmaniose, causada por um protozoário. **Resposta: D**
+
+@ENEM-CN-2022-REG-D2-C7-Q98
+K: o vírus entrega um gene normal para a célula usar
+O vírus serve de vetor e leva a cópia normal do gene RPE65 às células da retina, que passam a expressá-lo e produzir a enzima normal. O código genético (A) é universal e não é corrigido, e o produto não libera a proteína pronta (D). **Resposta: E**
+
+@ENEM-CN-2022-REG-D2-C7-Q99
+K: espécies exóticas invasoras competem com as nativas
+A jaqueira se adaptou muito bem e ocupa o espaço da vegetação nativa, substituindo parte da flora original e reduzindo a biodiversidade. Aumentar as relações entre os seres vivos (C) seria um efeito positivo, oposto ao problema descrito. **Resposta: A**
+
+@ENEM-CN-2022-REG-D2-C7-Q102
+K: a PCR copia DNA, não RNA
+O SARS-CoV-2 tem RNA, mas a polimerase da PCR só copia DNA. Por isso, antes da PCR, a transcriptase reversa transforma o RNA viral em DNA complementar (cDNA). Purificar os ácidos nucleicos (D) é útil, mas não resolve o problema de o vírus ter RNA. **Resposta: E**
+
+@ENEM-CN-2022-REG-D2-C7-Q104
+K: eritropoietina estimula a produção de hemácias
+A eritropoietina aumenta a produção de hemácias (eritropoiese). Com mais hemácias, o sangue transporta mais oxigênio aos músculos, o que melhora a resistência. Ela não aumenta a massa muscular (C) nem a capacidade dos pulmões (B). **Resposta: E**
+
+@ENEM-CN-2022-REG-D2-C7-Q110
+K: estratégias diferentes, mesmo objetivo: deixar descendentes
+Algumas espécies produzem muitos gametas sem cuidado parental, e outras produzem poucos com muito cuidado. Todas conseguem se reproduzir com sucesso, por caminhos diferentes. A espécie 1 mostra que o cuidado parental não é obrigatório (B), e não existe "grau de evolução" (C). **Resposta: D**
+
+@ENEM-CN-2022-REG-D2-C7-Q114
+K: meio hipotônico: água entra na célula
+Em meio hipotônico, a água entra por osmose, e o vacúolo aumenta de volume, diluindo o pigmento (a cor fica mais clara). A parede celular impede que a célula vegetal estoure (B, D). Murchar (E) aconteceria em meio hipertônico. **Resposta: C**
+
+@ENEM-CN-2022-REG-D2-C7-Q120
+K: temperatura alta desnatura enzimas
+A atividade sobe até cerca de 15 °C e depois cai. Acima da temperatura ótima, a enzima perde sua forma tridimensional (desnatura) e catalisa menos. Enzimas não são consumidas na reação (C), e o pH era o mesmo em todos os ensaios (A). **Resposta: E**
+
+@ENEM-CN-2022-REG-D2-C7-Q122
+K: molécula que modula a coagulação pode evitar coágulos
+Se a molécula derivada do veneno controla a coagulação, ela pode evitar a formação de trombos (coágulos que entopem vasos), como os que causam alguns AVCs. Anemia por perda de sangue (B) exigiria repor sangue, não modular a coagulação. **Resposta: A**
+
+@ENEM-CN-2022-REG-D2-C7-Q125
+K: a proporção de células com cada X ativo varia de mulher para mulher
+Como a inativação do X é aleatória, cada mulher heterozigota tem uma proporção diferente de células com o alelo normal ativo. Por isso, os sintomas podem ir de ausentes a intensos: é a expressividade variável. Não há nova mutação (B), apenas qual X fica ativo em cada célula. **Resposta: E**
+
+@ENEM-CN-2022-REG-D2-C7-Q127
+K: a ATP sintase usa o fluxo de prótons
+A termogenina deixa os prótons voltarem à matriz sem passar pela ATP sintase, então a energia vira calor em vez de ATP. Essa etapa é a fosforilação oxidativa. Glicólise e ciclo de Krebs (A, C) não dependem do gradiente de prótons. **Resposta: E**
+
+@ENEM-CN-2022-REG-D2-C7-Q133
+K: o sistema imune passa a reconhecer a molécula tumoral
+O protozoário modificado apresenta ao sistema imune uma molécula do tumor como antígeno. As defesas aprendem a reconhecer esse antígeno específico e atacam as células tumorais que o possuem. Não é autoimunidade (A), porque o alvo é um tumor, e a resposta inata (C) não é específica. **Resposta: D**
+
+@ENEM-CN-2023-REG-D2-C7-Q91
+K: abelhas se alimentam de néctar e pólen das flores
+As bombas de sementes fazem crescer plantas nativas que florescem e oferecem néctar e pólen, alimento das abelhas. O método não altera pesticidas, predadores ou abrigos (A, B, C). **Resposta: D**
+
+@ENEM-CN-2023-REG-D2-C7-Q95
+K: músculo vermelho: muitas mitocôndrias e muito O₂
+Músculos vermelhos são muito irrigados e ricos em mioglobina e mitocôndrias. Eles fazem respiração aeróbica intensa, mantendo um metabolismo elevado e resistente à fadiga em voos longos. Velocidade e manobras rápidas (D, A) dependem mais de fibras brancas. **Resposta: B**
+
+@ENEM-CN-2023-REG-D2-C7-Q97
+K: hormônio gasoso do amadurecimento
+Os frutos liberam etileno, um hormônio gasoso que acelera o amadurecimento. No recipiente fechado, o gás se acumula e o efeito fica mais forte. Na fruteira aberta, o etileno se dispersa no ar. Falta de luz ou de O₂ (D, E) não acelera o amadurecimento. **Resposta: A**
+
+@ENEM-CN-2023-REG-D2-C7-Q98
+K: cloroplasto faz fotossíntese
+Os cloroplastos realizam fotossíntese e produzem açúcares, isto é, carboidratos. Assim, a lesma obtém alimento a partir da luz. Proteínas e lipídios (C, E) não são o produto principal da fotossíntese. **Resposta: B**
+
+@ENEM-CN-2023-REG-D2-C7-Q99
+K: o vetor da leishmaniose se alimenta de sangue
+A leishmaniose é transmitida pela picada do mosquito-palha, que se infecta ao sugar o sangue de um cão contaminado. Por isso, o protozoário no sangue do cão representa risco de transmissão. Urina, fezes ou saliva (A, B, C) não participam desse ciclo. **Resposta: D**
+
+@ENEM-CN-2023-REG-D2-C7-Q101
+K: o corpo lúteo produz progesterona e estrógeno
+Após a ovulação, o corpo lúteo produz estrógeno e progesterona. Se não há gravidez, ele regride no fim do ciclo, e os níveis desses hormônios caem, o que antecede a menstruação. A ovulação (C) ocorre no meio do ciclo, e não nos dias antes da menstruação. **Resposta: A**
+
+@ENEM-CN-2023-REG-D2-C7-Q103
+K: fecundação sem água: o gameta é levado até a oosfera
+O tubo polínico leva o gameta masculino até a oosfera, sem precisar de água para ele nadar. Isso tornou a fecundação independente da água. A semente (C) é importante para a dispersão, mas não para a fecundação. **Resposta: D**
+
+@ENEM-CN-2023-REG-D2-C7-Q105
+K: o floema leva a seiva elaborada das folhas às raízes
+A casca contém o floema, que leva os açúcares produzidos nas folhas até as raízes. Ao retirar um anel completo (anel de Malpighi), as raízes deixam de receber alimento e morrem, levando a árvore à morte. A fotossíntese (A) continua nas folhas, já que o xilema, que leva a água, não é retirado. **Resposta: E**
+
+@ENEM-CN-2023-REG-D2-C7-Q106
+K: a célula fabrica a proteína viral a partir do RNAm
+Nos ribossomos, o RNAm da vacina é traduzido em proteína viral. Essa proteína funciona como antígeno e estimula a produção de anticorpos e células de memória. O RNAm não se incorpora ao genoma (E), e a capa lipídica só protege o RNAm (A). **Resposta: C**
+
+@ENEM-CN-2023-REG-D2-C7-Q107
+K: enzimas do acrossomo abrem caminho até o ovócito
+As enzimas do acrossomo digerem a corona radiata e a zona pelúcida, permitindo que o espermatozoide alcance o ovócito. Com essas enzimas inibidas, o espermatozoide não consegue passar e não há fecundação. As etapas A, B, C e E vêm depois dessa passagem. **Resposta: D**
+
+@ENEM-CN-2023-REG-D2-C7-Q115
+K: metais não são digeridos nem servem de energia
+Metais tóxicos são elementos e não podem ser degradados. A planta os absorve e acumula em seus tecidos (fitorremediação), retirando-os da água. Eles não são digeridos nem usados como fonte de energia (A, E). **Resposta: B**
+
+@ENEM-CN-2023-REG-D2-C7-Q116
+K: decompositores transformam detritos em amônia
+Os decompositores transformam a matéria orgânica (detritos) em amônia, a amonificação, que é a etapa 2 da figura. As etapas 3 e 4 são de bactérias nitrificantes, a 1 é a fixação e a 5 é a desnitrificação. **Resposta: B**
+
+@ENEM-CN-2023-REG-D2-C7-Q125
+K: cada portador forma gametas com um ou dois cromossomos 21
+Cada pai trissômico forma gametas com um ou com dois cromossomos 21. As combinações possíveis são 1 + 1 (normal), 1 + 2 (trissômico) e 2 + 2 (tetrassômico). A alternativa C esquece a combinação 1 + 2, que é a mais provável. **Resposta: E**
+
+@ENEM-CN-2023-REG-D2-C7-Q127
+K: com a cadeia bloqueada, o NADH não é oxidado
+O cianeto trava a cadeia respiratória, então o NADH não consegue entregar seus elétrons e não volta a NAD⁺, acumulando-se. O ATP e a água (A, B) diminuem, porque dependem da cadeia funcionando. **Resposta: C**
+
+@ENEM-CN-2023-REG-D2-C7-Q134
+K: micronúcleo contém DNA
+O texto diz que os micronúcleos são fragmentos de DNA vindos do fuso durante a divisão. São pedaços de cromossomos (ou cromossomos inteiros) que ficaram para trás. Nucléolos e ribossomos (A, C) não se separam pelo fuso. **Resposta: E**
+
+@ENEM-CN-2024-REG-D2-C7-Q95
+K: RT-PCR parte do RNAm, que só existe quando o gene é expresso
+A RT-PCR parte do RNA mensageiro. O RNAm só existe se o gene estiver sendo transcrito, ou seja, se estiver expresso. Assim, a técnica mostra quais genes estão ativos. Dominância ou localização (D, E) não são detectadas por esse método. **Resposta: A**
+
+@ENEM-CN-2024-REG-D2-C7-Q102
+K: calor desnatura as enzimas
+A conversão de glicose em amido depende de enzimas. A fervura desnatura essas enzimas, e a glicose permanece, mantendo o sabor doce. A água gelada só interrompe o cozimento; ela não converte nutrientes (B). **Resposta: A**
+
+@ENEM-CN-2024-REG-D2-C7-Q105
+K: poluentes apolares se dissolvem em gordura
+Poluentes apolares e lipossolúveis se acumulam em tecidos ricos em lipídios, como o tecido adiposo. Sangue e ossos (E, A) são pobres em gordura. O tecido nervoso (B) tem lipídios, mas o principal reservatório de gordura do corpo é o adiposo. **Resposta: D**
+
+@ENEM-CN-2024-REG-D2-C7-Q107
+K: onde há ácido clorídrico no corpo?
+O ácido clorídrico é produzido no estômago. É ali que o nitrito da carne reage e forma ácido nitroso e, depois, compostos nitrosos. O intestino (C) tem meio básico, sem HCl. **Resposta: E**
+
+@ENEM-CN-2024-REG-D2-C7-Q108
+K: mudanças graduais nas comunidades até maior diversidade
+A substituição gradual de espécies, aumentando a complexidade e a diversidade da comunidade ao longo do tempo, é a sucessão ecológica. Rotação de culturas (A) é alternar plantios em uma área, sem esse desenvolvimento da comunidade. **Resposta: B**
+
+@ENEM-CN-2024-REG-D2-C7-Q109
+K: fibras brancas: força rápida e de curta duração
+Fibras brancas têm poucas mitocôndrias e trabalham de forma anaeróbica: são ótimas para esforços curtos e explosivos, como um salto. Provas longas (triatlo, maratona, marcha, ciclismo de estrada) exigem fibras vermelhas, resistentes. **Resposta: B**
+
+@ENEM-CN-2024-REG-D2-C7-Q111
+K: artrópodes crescem por mudas (ecdise)
+O exoesqueleto duro não cresce. O animal o troca periodicamente (muda ou ecdise), cresce enquanto o novo ainda está mole e depois ele endurece. Ele não é remodelado continuamente (C), e diminuir os sais (E) tiraria a proteção. **Resposta: D**
+
+@ENEM-CN-2024-REG-D2-C7-Q126
+K: vacina apresenta antígeno, e o corpo produz anticorpos
+A espícula funciona como antígeno: o sistema imune a reconhece e produz anticorpos específicos e memória contra o vírus. Isso é imunidade ativa, e não passiva (B), que seria receber anticorpos prontos. A proteína não neutraliza o vírus diretamente (D). **Resposta: A**
+
+@ENEM-CN-2025-REG-D2-C7-Q92
+K: o transgênico mantém seus genes e ganha os inseridos
+A E. coli continua com todos os seus genes, inclusive os do metabolismo, e recebe os genes do relógio circadiano da cianobactéria. A E. coli não é circadiana, portanto não tem genes de ciclo circadiano próprios (B, C, E). **Resposta: D**
+
+@ENEM-CN-2025-REG-D2-C7-Q93
+K: aves aquáticas impermeabilizam as penas com óleo
+A glândula uropigial produz um óleo que a ave espalha nas penas com o bico, tornando-as impermeáveis. Se essa secreção diminui, as penas encharcam e a ave perde a flutuação. A membrana natatória (D) ajuda a nadar, mas não impede o encharcamento. **Resposta: C**
+
+@ENEM-CN-2025-REG-D2-C7-Q96
+K: a toxina vem da dieta
+O texto diz que o veneno vem das formigas e cupins que os sapos comem. Em cativeiro, sem essa alimentação natural, eles não obtêm a toxina. Não há mudança genética (E), pois os mesmos animais deixam de ser tóxicos. **Resposta: B**
+
+@ENEM-CN-2025-REG-D2-C7-Q98
+K: espécie invasora agressiva compete com as nativas
+O capim-gordura se espalha e compete fortemente por espaço, luz e nutrientes, ocupando o lugar das plantas nativas. A longo prazo, isso diminui as espécies nativas do Cerrado. O capim, que seca e acumula biomassa, tende a aumentar as queimadas, e não reduzi-las (E). **Resposta: D**
+
+@ENEM-CN-2025-REG-D2-C7-Q99
+K: adaptação à falta de alimento em ambiente seco
+O monstro de gila vive em um deserto, com escassez de alimento e água. O ambiente brasileiro mais parecido é a Caatinga, semiárido com longas secas. O Cerrado (A) tem estação seca, mas não é tão árido. **Resposta: C**
+
+@ENEM-CN-2025-REG-D2-C7-Q102
+K: a toxina é termoestável e fica nas vísceras
+Como a tetrodotoxina resiste ao calor, cozinhar ou fritar (C) não adianta. Ela fica nas gônadas e vísceras, então o preparo deve retirar esses órgãos sem rompê-los para não contaminar a carne. A higiene (D) evita micróbios, mas não toxinas do próprio peixe. **Resposta: E**
+
+@ENEM-CN-2025-REG-D2-C7-Q103
+K: lipases ácidas atuam na digestão intracelular
+Enzimas digestivas que atuam em meio ácido, como a lipase ácida, ficam nos lisossomos, que fazem a digestão intracelular. Se elas faltam, lipídios e colesterol se acumulam. O REL (E) produz lipídios, mas não os degrada. **Resposta: A**
+
+@ENEM-CN-2025-REG-D2-C7-Q112
+K: vitamina A é essencial para a visão no escuro
+O betacaroteno é convertido em vitamina A, cuja falta causa cegueira noturna. Escorbuto (B) é falta de vitamina C, e raquitismo (C), de vitamina D. **Resposta: D**
+
+@ENEM-CN-2025-REG-D2-C7-Q116
+K: ambientes extremos e restritos selecionam espécies exclusivas
+As condições muito especiais das cangas (solo ácido, raso, muito ferro, calor extremo) selecionam espécies adaptadas que só ocorrem ali: espécies endêmicas. O próprio texto fala em distribuição restrita, o oposto de generalistas (E) ou exóticas (A). **Resposta: C**

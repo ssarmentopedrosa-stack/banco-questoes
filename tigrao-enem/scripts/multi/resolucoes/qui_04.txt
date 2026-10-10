@@ -1,0 +1,155 @@
+@ENEM-CN-2021-REG-D2-C7-Q91
+K: a solução está ácida demais (pH 4,3); precisa de uma base que não prejudique
+A solução preparada tem pH 4,3, abaixo da faixa ideal (5,5–6,5), então é preciso adicionar uma base. O KOH eleva o pH e ainda fornece potássio, um nutriente que está abaixo da referência (3,5 contra 6,0). O ácido fosfórico (A) baixaria mais o pH, e o FeCl₂ (D) acrescentaria cloreto e ferro, que já estão acima do recomendado. **Resposta: E**
+
+@ENEM-CN-2021-REG-D2-C7-Q95
+K: 35 anos = 7 meias-vidas
+Em 35 anos passam 35/5 = 7 meias-vidas. A massa restante é 500/2⁷ = 500/128 ≈ 3,9 g. Dividir 500 por 7 ou contar menos meias-vidas leva às outras alternativas. **Resposta: A**
+
+@ENEM-CN-2021-REG-D2-C7-Q97
+K: óleo + base forte → sabão
+A reação de um óleo (triglicerídeo, que é um éster) com soda cáustica (NaOH) forma sabão e glicerina: é a saponificação, uma hidrólise básica de ésteres. Esterificação (D) é o processo inverso, que forma ésteres. **Resposta: E**
+
+@ENEM-CN-2021-REG-D2-C7-Q103
+K: qual teste mede a quantidade do ácido?
+O AAS é um ácido. A titulação com NaOH mede quantos mols de ácido há no comprimido, o que permite concluir que só havia 40% do esperado. O papel indicador (3) só mostra que o meio é ácido, sem medir a quantidade. **Resposta: E**
+
+@ENEM-CN-2021-REG-D2-C7-Q111
+K: falta dar destino aos recicláveis recolhidos
+O plano já cobre sensibilização, capacitação e coletores. Falta garantir que os materiais separados sejam recolhidos e destinados à reciclagem, por meio de uma parceria com a prefeitura ou uma cooperativa de catadores. As outras opções ampliam a divulgação, mas não completam o ciclo. **Resposta: B**
+
+@ENEM-CN-2021-REG-D2-C7-Q113
+K: redução do cobre = Cu²⁺ voltando a Cu metálico
+Nas etapas I a IV, o cobre permanece como Cu²⁺ (nitrato, hidróxido, óxido e sulfato). Na etapa V, o zinco reduz o Cu²⁺ do CuSO₄ a cobre metálico. A etapa I é a oxidação do Cu pelo HNO₃. **Resposta: E**
+
+@ENEM-CN-2021-REG-D2-C7-Q116
+K: NaOH reage com um H ácido (como o de um fenol)
+Para reagir com uma base (Brönsted-Lowry), o pesticida precisa ter um hidrogênio ácido. O composto III tem dois grupos –OH ligados a anéis aromáticos (fenóis), que são ácidos e reagem com NaOH. Os demais não têm um H ácido o suficiente. **Resposta: C**
+
+@ENEM-CN-2021-REG-D2-C7-Q117
+K: dejetos em biodigestor geram gás
+Os dejetos suínos são decompostos por bactérias anaeróbias em biodigestores e produzem biogás, rico em metano. Etanol e biodiesel (A, E) vêm de açúcares e óleos, e não de dejetos. **Resposta: B**
+
+@ENEM-CN-2021-REG-D2-C7-Q124
+K: baixa temperatura + membrana polimérica + meio ácido
+No quadro, a PEM opera a 60–100 °C, usa um eletrólito polimérico sólido e tem semirreações com H⁺ (meio ácido). A AFC (A) também opera em baixa temperatura, mas em meio básico (KOH), e a PAFC (D) usa ácido líquido a temperatura mais alta. **Resposta: C**
+
+@ENEM-CN-2021-REG-D2-C7-Q130
+K: "acetato de ..." vem do ácido etanoico
+Os ésteres do ácido etanoico (acético) se chamam acetatos. No quadro, há acetato de isoamila (banana) e acetato de benzila (pêssego). O de benzila tem anel aromático (cadeia insaturada), então o saturado é o acetato de isoamila. **Resposta: B**
+
+@ENEM-CN-2021-REG-D2-C7-Q133
+K: fem = E(cátodo) − E(ânodo); em série as tensões se somam
+Cada pilha fornece 0,54 − (−3,05) = 3,59 V. Três em série dão 3 × 3,59 ≈ 10,8 V, dentro da faixa do carrinho de controle remoto (10,5–10,9 V), o dispositivo IV. **Resposta: D**
+
+@ENEM-CN-2021-REG-D2-C7-Q135
+K: duplas e simples alternadas ao longo da cadeia principal
+O polímero condutor precisa de ligações duplas conjugadas (alternadas com simples) por toda a cadeia principal. A estrutura D, do tipo poliacetileno (–CH=CH–)ₙ, cumpre isso. Nas outras, as duplas estão isoladas, fora da cadeia principal (em anel lateral ou carbonila) ou ausentes. **Resposta: D**
+
+@ENEM-CN-2022-REG-D2-C7-Q91
+K: o radical sulfato oxida o TCE
+O persulfato gera o radical •SO₄⁻, um oxidante forte que oxida o TCE a produtos como CO₂ e Cl⁻, enquanto ele próprio é reduzido. Também o Fe(III) participa trocando elétrons. São, portanto, reações de oxirredução, e não neutralização ou precipitação (E, C). **Resposta: A**
+
+@ENEM-CN-2022-REG-D2-C7-Q97
+K: separar por diferença de massa → girar rápido
+A centrifugação separa componentes de massas diferentes: as moléculas mais pesadas (²³⁸UF₆) tendem a ir para a periferia. As ultracentrífugas são, de fato, usadas no enriquecimento de urânio. Peneiração e separação magnética (A, E) não distinguem isótopos. **Resposta: B**
+
+@ENEM-CN-2022-REG-D2-C7-Q101
+K: perda de sacarose proporcional aos microrganismos (50% por 1,0 mg/L)
+Calcule a sacarose restante em cada amostra. RB72: 13 × 0,65 ≈ 8,5; RB84: 18 × 0,60 = 10,8; RB92: 16 × 0,70 = 11,2; SP79: 14 × 0,75 = 10,5; SP80: 17 × 0,55 ≈ 9,4. A RB92 termina com mais sacarose. A RB84 começa com mais, mas perde mais. **Resposta: C**
+
+@ENEM-CN-2022-REG-D2-C7-Q107
+K: H⁺ atua como catalisador
+O H⁺ catalisa a hidrólise das ligações entre os açúcares: acelera a reação sem ser consumido. Catalisadores não deslocam o equilíbrio nem mudam a constante de equilíbrio (B, D). **Resposta: C**
+
+@ENEM-CN-2022-REG-D2-C7-Q113
+K: o filme isola o metal do O₂ e da água
+O filme cerâmico de ZrO₂ e Al₂O₃ cobre a superfície e impede o contato do ferro com o oxigênio e a umidade: é um efeito de barreira. Não há metal de sacrifício (B), e o filme não é feito de óxido do próprio ferro (C). **Resposta: D**
+
+@ENEM-CN-2022-REG-D2-C7-Q117
+K: carbonato + ácido → sal + água + CO₂
+CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂. O gás que borbulha é o gás carbônico. H₂ (A) se forma quando ácidos reagem com metais, e não com carbonatos. **Resposta: C**
+
+@ENEM-CN-2022-REG-D2-C7-Q124
+K: ozônio é um oxidante forte
+O ozônio é um oxidante forte e reage com as moléculas biológicas (lipídios, proteínas), danificando tecidos como os do pulmão. Isso o torna eficaz como sanitizante, mas tóxico para as pessoas. Ele não é ácido nem base (D, E). **Resposta: B**
+
+@ENEM-CN-2022-REG-D2-C7-Q126
+K: sólidos pesados vão para o fundo
+Na coagulação, as partículas se agregam em flocos, e na decantação os flocos se depositam no fundo: é nessa etapa que sai a maior parte dos sólidos. A filtração (C) só retira as partículas finas que sobraram. **Resposta: B**
+
+@ENEM-CN-2022-REG-D2-C7-Q131
+K: o que define os compostos aromáticos
+Os compostos aromáticos, como os da figura, têm em comum o anel benzênico, com elétrons π deslocalizados. Insaturações (B) existem em muitos compostos não aromáticos, e átomos de oxigênio (D) não definem essa família. **Resposta: C**
+
+@ENEM-CN-2023-REG-D2-C7-Q92
+K: ferro previne a anemia
+O ferro liberado da panela ou do prego entra no alimento e é usado na produção de hemoglobina. Sua falta causa anemia, que deixa a pessoa pálida. O raquitismo (D) é ligado à vitamina D e ao cálcio. **Resposta: B**
+
+@ENEM-CN-2023-REG-D2-C7-Q94
+K: dureza da água = cálcio (e magnésio)
+A água dura contém íons Ca²⁺ (e Mg²⁺), que formam carbonatos e sulfatos pouco solúveis que entopem as tubulações. O teste que controla isso é o de cálcio (teste 1). Turbidez e sólidos sedimentáveis (3, 5) não medem a dureza. **Resposta: A**
+
+@ENEM-CN-2023-REG-D2-C7-Q96
+K: ganho = massa de 2 H₂O ÷ massa do anidro
+Cada CaCl₂ (111 g) absorve 2 H₂O (36 g). O ganho percentual é 36/111 ≈ 0,32, isto é, 32%. Dividir por 147 g (a massa do hidratado) dá 24% (C), que é a porcentagem de água no hidrato, e não o ganho. **Resposta: D**
+
+@ENEM-CN-2023-REG-D2-C7-Q102
+K: oxidar um álcool secundário dá cetona
+A hexan-3-ona tem C=O no carbono 3. Ela se forma pela oxidação de um álcool secundário com o OH no mesmo carbono: o hexan-3-ol. Hexan-1-ol e hexanal (B, A) dariam aldeído e ácido carboxílico. **Resposta: C**
+
+@ENEM-CN-2023-REG-D2-C7-Q104
+K: retirar o Al³⁺ da solução desloca o equilíbrio
+O gluconato se liga ao íon alumínio em solução e "puxa" o equilíbrio no sentido da dissolução do alumínio do vidro. Quanto mais gluconato, maior esse deslocamento e maior a contaminação. Espessura e transparência do vidro (A, C) não alteram o equilíbrio. **Resposta: B**
+
+@ENEM-CN-2023-REG-D2-C7-Q118
+K: saturado, ramificado, de 8 a 12 carbonos
+O 2,2,4-trimetilpentano (isoctano) tem 8 carbonos, é saturado e muito ramificado, o padrão de alta octanagem. O n-decano e o n-heptano (I, II) não têm ramificações, o IV é um alceno (insaturado) e o V é um álcool. **Resposta: C**
+
+@ENEM-CN-2023-REG-D2-C7-Q121
+K: maior diferença de eletronegatividade = mais iônico
+O oxigênio tem eletronegatividade 3,44. Quanto menor a do metal, maior a diferença e mais iônica é a ligação. O potássio tem a menor (0,82). O ferro (E) tem a maior (1,83) e formaria a ligação menos iônica. **Resposta: A**
+
+@ENEM-CN-2023-REG-D2-C7-Q123
+K: isomeria óptica: carbono quiral
+O ibuprofeno tem um carbono quiral (ligado a CH₃, H, COOH e ao anel), por isso apresenta isomeria óptica. Entre as opções, a escopolamina tem carbonos quirais e o mesmo tipo de isomeria. Paracetamol, fenacetina, dipirona e diclofenaco não têm carbono quiral. **Resposta: E**
+
+@ENEM-CN-2023-REG-D2-C7-Q126
+K: sal (cloridrato) é iônico e dissolve no plasma
+Ao reagir com HCl, o grupo amino vira um sal de amônio (cloridrato), que é iônico e muito mais solúvel em água, circulando melhor no plasma. Isso diminui a lipofilicidade (B), em vez de aumentá-la. **Resposta: C**
+
+@ENEM-CN-2023-REG-D2-C7-Q133
+K: microrganismos só degradam cadeias normais
+O texto diz que os microrganismos não quebram moléculas ramificadas. Trocar a cadeia ramificada por uma cadeia normal (linear) torna o detergente biodegradável. Retirar a parte polar (A) faria a molécula deixar de ser detergente. **Resposta: E**
+
+@ENEM-CN-2024-REG-D2-C7-Q93
+K: orgânico = compostos de carbono
+Hoje, compostos orgânicos são definidos como compostos de carbono, sejam naturais ou sintéticos, e não mais pela origem em seres vivos. "Benéfico" ou "sem agrotóxicos" (A, D) são usos do senso comum, e não definições químicas. **Resposta: E**
+
+@ENEM-CN-2024-REG-D2-C7-Q97
+K: massa de Na no soro → massa de NaCl → divida por 2 colheres
+Em 2 L há 1,4 mg/mL × 2 000 mL = 2,8 g de Na. Isso corresponde a 2,8 × 58,5/23 ≈ 7,1 g de NaCl, distribuídos em 2 colheres: ≈ 3,6 g por colher. A alternativa E (7,0) esquece de dividir por 2. **Resposta: D**
+
+@ENEM-CN-2024-REG-D2-C7-Q116
+K: sólido pouco solúvel em líquido → filtrar
+O Mg(OH)₂ é um sólido pouco solúvel, enquanto o Ca²⁺ fica dissolvido. Para separar um sólido de um líquido, usa-se a filtração. Destilação e evaporação (C, E) recuperariam o líquido ou o soluto dissolvido, e não o precipitado. **Resposta: A**
+
+@ENEM-CN-2025-REG-D2-C7-Q100
+K: água sem sais dissolvidos
+A destilação separa a água dos sais, que ficam no frasco. A água destilada não tem íons, por isso não é indicada para beber. Água dura (A) é justamente rica em sais de cálcio e magnésio. **Resposta: D**
+
+@ENEM-CN-2025-REG-D2-C7-Q117
+K: aumentar um reagente desloca o equilíbrio para os produtos
+Aumentar a pressão parcial de Cl₂ (reagente) desloca o equilíbrio para formar TiCl₄ (Le Chatelier). A pressão total (A) não muda nada, porque há 2 mols de gás de cada lado. Como a reação é endotérmica, diminuir a temperatura (B) a desfavorece, e o TiO₂ sólido (E) não altera o equilíbrio. **Resposta: D**
+
+@ENEM-CN-2025-REG-D2-C7-Q121
+K: amina é base, e ácido a transforma em sal não volátil
+A dimetilamina é uma base. O vinagre (ácido acético) a neutraliza formando um sal iônico, não volátil, que não evapora com o calor. A água (A) apenas dilui, e o bicarbonato (E) é básico e não reage com ela. **Resposta: B**
+
+@ENEM-CN-2025-REG-D2-C7-Q125
+K: n = PV/RT; cada mol de sal gera 3 mol de gás
+n(gases) = 1,00 × 4,00/(0,082 × 453) ≈ 0,108 mol. Como cada NH₄HCO₃ gera 3 mol de gás, são necessários 0,036 mol, e com rendimento de 80% isso vira 0,036/0,8 ≈ 0,045 mol × 79 ≈ 3,5 g. Quem esquece os 3 gases obtém cerca de 10 g. **Resposta: B**
+
+@ENEM-CN-2025-REG-D2-C7-Q131
+K: proporção 10 Al : 6 Nb, mais 10% de excesso
+9,3 kg de Nb = 9 300/93 = 100 mol. Pela equação, Al = 100 × 10/6 ≈ 166,7 mol × 27 g = 4,5 kg. Com 10% de excesso: 4,5 × 1,1 ≈ 5,0 kg. A alternativa D (4,5) esquece o excesso. **Resposta: E**

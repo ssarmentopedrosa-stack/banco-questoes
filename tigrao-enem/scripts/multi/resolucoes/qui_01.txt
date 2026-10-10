@@ -1,0 +1,147 @@
+@ENEM-CN-2009-REG-D1-C1-Q1
+K: as plantas retiram CO₂ do ar pela fotossíntese
+O texto aponta o desmatamento como fator de aumento do CO₂. Mantendo a vegetação, ela continua absorvendo CO₂ na fotossíntese, o que ajuda a reduzir o efeito estufa. Queimar biomassa (B) libera ainda mais gases, e aumentar o vapor de água (D) intensificaria o efeito estufa. **Resposta: C**
+
+@ENEM-CN-2009-REG-D1-C1-Q2
+K: leia os eixos: dose de álcool × tempo
+O gráfico relaciona quantidades diferentes de álcool ingerido com o tempo até a concentração no sangue voltar a zero, ou seja, o tempo para o organismo metabolizar cada dose. Ele não mostra horários do dia nem frequência de ingestão (A, B, E). **Resposta: D**
+
+@ENEM-CN-2009-REG-D1-C1-Q12
+K: OH⁻ em excesso desloca o equilíbrio para a esquerda
+O sabão perde eficiência quando o equilíbrio se desloca para a direita, formando o ácido carboxílico. Em pH básico há muito OH⁻, que é produto da reação, então o equilíbrio vai para a esquerda e o ânion do sabão é preservado. Em pH ácido (B), o H⁺ consome OH⁻ e favorece a formação do ácido. **Resposta: A**
+
+@ENEM-CN-2009-REG-D1-C1-Q23
+K: acabar "definitivamente" = eliminar a causa
+Coleta e devolução (C, D) reduzem o problema, mas os metais continuam existindo e podem vazar. Para acabar definitivamente com a poluição, é preciso substituir esses metais tóxicos por substâncias não nocivas e não bioacumulativas. Deixar de usar aparelhos (A) é inviável. **Resposta: E**
+
+@ENEM-CN-2009-REG-D1-C1-Q26
+K: ácidos fortes ionizam mais
+Com a mesma concentração, os ácidos fortes, que ionizam quase totalmente, liberam mais H⁺. Entre os citados, H₂SO₄ e HNO₃ são ácidos fortes. HNO₂, H₂SO₃ e H₂CO₃ são moderados ou fracos, então as alternativas que incluem algum deles estão erradas. **Resposta: D**
+
+@ENEM-CN-2009-REG-D1-C1-Q34
+K: microrganismos decompositores precisam de água
+A compostagem é feita por microrganismos, que precisam de umidade para viver e decompor a matéria orgânica. Sem água, a decomposição praticamente para. O mau cheiro (A) ocorre quando falta oxigênio, não quando falta água. **Resposta: C**
+
+@ENEM-CN-2009-REG-D1-C1-Q36
+K: anel aromático conjugado com C=O + cadeia apolar longa
+A molécula ideal precisa de um anel aromático conjugado (ligações simples e duplas alternadas) com uma carbonila, além de uma cauda apolar longa. A alternativa E tem anel, dupla C=C e C=O conjugados, e uma longa cadeia de éster. A molécula A também é conjugada, mas termina em COOH, um grupo polar sem cauda apolar, e D perde a conjugação, pois a ligação entre o anel e a carbonila é saturada. **Resposta: E**
+
+@ENEM-CN-2009-REG-D1-C1-Q44
+K: conservação da massa de etanol
+Antes da destilação havia 0,20 × 800 = 160 kg de etanol. O álcool hidratado leva 0,96 × 100 = 96 kg, então sobram 64 kg de etanol em 700 kg de resíduo. A concentração do resíduo é 64/700 ≈ 9,1%. **Resposta: D**
+
+@ENEM-CN-2010-REG-D1-C1-Q53
+K: reciclar o fósforo devolve-o ao solo
+O problema é que o fósforo sai do solo, com a colheita e o lixo, e não volta. Reciclar resíduos biológicos (dejetos e restos de culturas) como adubo devolve o fósforo ao solo e reduz a extração das minas. Não existe "íon sintético de fósforo" (B), e nenhum outro elemento substitui o fósforo (D). **Resposta: A**
+
+@ENEM-CN-2010-REG-D1-C1-Q55
+K: identifique cada operação: ímã, esmagamento, filtros
+Na etapa 1, o eletroímã retira metais (separação magnética). Na etapa 2, a cana é esmagada para retirar o caldo (extração). Na etapa 3, o caldo passa por filtros (filtração). A combustão (B, D) não separa materiais, pois é uma transformação química. **Resposta: C**
+
+@ENEM-CN-2010-REG-D1-C1-Q65
+K: ionização (ácido), dissociação (sal), formação do ácido, liberação do gás
+A ionização do ácido cítrico (H₃A → H⁺) é a etapa IV, e a dissociação do sal NaHCO₃ é a etapa I. A formação do ácido carbônico (HCO₃⁻ + H⁺ → H₂CO₃) é a III, e a liberação do CO₂ é a II. A ordem fica IV, I, III e II. A alternativa A troca III e II. **Resposta: E**
+
+@ENEM-CN-2010-REG-D1-C1-Q67
+K: reação endotérmica armazena energia; os produtos são combustíveis
+A reação direta absorve calor ("+ calor" nos reagentes), armazenando a energia solar. Os produtos CO e H₂ são combustíveis que, ao serem queimados depois, liberam essa energia. A alternativa E erra ao dizer que a reação direta libera calor, e C erra porque o CO é combustível. **Resposta: D**
+
+@ENEM-CN-2010-REG-D1-C1-Q72
+K: CH₂O + O₂ → CO₂ + H₂O (1 : 1 em mol)
+10 mg de CH₂O correspondem a 10/30 ≈ 0,333 mmol. Cada mol de CH₂O consome 1 mol de O₂ (32 g/mol), então são necessários 0,333 × 32 ≈ 10,7 mg de O₂ por litro. **Resposta: E**
+
+@ENEM-CN-2010-REG-D1-C1-Q74
+K: carga Q = i·t; o Cu²⁺ precisa de 2 elétrons
+Q = 10 A × 3 × 3 600 s = 108 000 C. Como Cu²⁺ + 2e⁻ → Cu, cada mol de Cu exige 2 × 96 500 = 193 000 C. Assim, m = 108 000/193 000 × 63,5 ≈ 35,5 g. Se esquecer o fator 2, chega-se a 71,0 g (E). **Resposta: D**
+
+@ENEM-CN-2010-REG-D1-C1-Q79
+K: balanceie C₈H₁₈ + O₂ → CO₂ + H₂O
+C₈H₁₈ + 25/2 O₂ → 8 CO₂ + 9 H₂O. Para cada octano há consumo de 12,5 O₂, formação de 8 CO₂ e de 9 H₂O. As alternativas B e E trocam os coeficientes da água (9) e do gás carbônico (8). **Resposta: D**
+
+@ENEM-CN-2010-REG-D1-C1-Q80
+K: Tipo B: P=S, com os demais ligantes de oxigênio; etoxi = –OCH₂CH₃
+O Tipo B tem enxofre no lugar do oxigênio da dupla ligação (P=S) e os outros ligantes por oxigênio. A estrutura E tem P=S e dois grupos –OCH₂CH₃ (etoxi). A estrutura B também é do Tipo B, mas tem grupos metoxi (–OCH₃), e não etoxi. **Resposta: E**
+
+@ENEM-CN-2010-REG-D1-C1-Q82
+K: M²⁺ + 2 HR → MR₂ + 2 H⁺
+Pela equação, cada molécula HR libera seu H⁺ e se liga ao cátion metálico M²⁺, levando-o para a fase orgânica. Trocar H⁺ por cátion caracteriza um extrator catiônico. A alternativa B erra a classificação (aniônico), e C e D citam um íon PO₂²⁻ que não é trocado. **Resposta: A**
+
+@ENEM-CN-2010-REG-D1-C1-Q83
+K: mol/L = mol de soluto ÷ litros de solução
+3,42 g ÷ 342 g/mol = 0,01 mol de sacarose. Em 50 mL = 0,05 L, a concentração é 0,01 ÷ 0,05 = 0,2 mol/L. Quem usa 50 em vez de 0,05 L chega a 0,0002, e quem esquece a conversão erra a ordem de grandeza. **Resposta: B**
+
+@ENEM-CN-2010-REG-D1-C1-Q85
+K: cálcio corrige a acidez do solo
+O alumínio é tóxico principalmente em solo ácido, onde fica solúvel (Al³⁺). A mistura rica em cálcio (como a cal) eleva o pH e torna o alumínio insolúvel, menos tóxico. Assim, plantas invasoras sem adaptação ao alumínio conseguem crescer. As alternativas que falam em reduzir o pH (B, D, E) invertem o efeito. **Resposta: A**
+
+@ENEM-CN-2010-REG-D1-C1-Q90
+K: aterro: cobrir o lixo e tratar o chorume
+Os problemas citados são o chorume e as condições do local. No aterro sanitário, o lixo é coberto com terra e o chorume é coletado por drenos e tratado. A incineração (A) não caracteriza um aterro, e separar o lixo orgânico (D) não impede totalmente a formação de chorume. **Resposta: C**
+
+@ENEM-CN-2011-REG-D1-C1-Q50
+K: compare mols de CO₂ por kJ liberado
+Dados (Atkins): benzeno −3 268, etanol −1 368, glicose −2 808, metano −890 e octano −5 471 kJ/mol. Dividindo os mols de CO₂ pela energia: glicose 6/2 808 ≈ 2,14 × 10⁻³, benzeno 6/3 268 ≈ 1,84 × 10⁻³, etanol 2/1 368 ≈ 1,46 × 10⁻³, octano 8/5 471 ≈ 1,46 × 10⁻³ e metano 1/890 ≈ 1,12 × 10⁻³. A glicose emite mais CO₂ por energia. O octano (D) libera mais CO₂ por mol, mas também muito mais energia. **Resposta: C**
+
+@ENEM-CN-2011-REG-D1-C1-Q54
+K: densidade da liga como média ponderada
+Considere d = 7,3·x + 11,3·(1 − x), em que x é a fração de estanho. Para d entre 8,74 e 8,82 g/mL, x fica entre 62% e 64% de Sn. No quadro, apenas as amostras II (62%) e IV (63%) estão nessa faixa. A amostra III (65%) já tem densidade abaixo do mínimo. **Resposta: C**
+
+@ENEM-CN-2011-REG-D1-C1-Q55
+K: semelhante dissolve semelhante
+O óleo é apolar e dissolve substâncias apolares (lipofílicas). Se os compostos tóxicos não se dissolvem no óleo, é porque são polares, isto é, hidrofílicos (têm afinidade pela água). A lipofilia (A) é o contrário: faria com que se dissolvessem no óleo. **Resposta: B**
+
+@ENEM-CN-2011-REG-D1-C1-Q58
+K: O–H interage com a água por ligações de hidrogênio
+A glicerina e o polietilenoglicol têm grupos hidroxila (–OH). O H ligado ao O, muito eletronegativo, forma ligações de hidrogênio com as moléculas de água, retendo a umidade. Forças dipolo-dipolo (D) existem, mas a interação característica do O–H com a água é a ligação de hidrogênio. **Resposta: E**
+
+@ENEM-CN-2011-REG-D1-C1-Q75
+K: H⁺ consome OH⁻ e "puxa" a dissolução da hidroxiapatita
+A desmineralização é Ca₁₀(PO₄)₆(OH)₂ ⇌ 10 Ca²⁺ + 6 PO₄³⁻ + 2 OH⁻. O refrigerante aumenta a concentração de H⁺, que reage com OH⁻ formando água. Com menos OH⁻, o equilíbrio se desloca para a direita e o esmalte se dissolve. A alternativa D erra o sentido do deslocamento. **Resposta: B**
+
+@ENEM-CN-2011-REG-D1-C1-Q83
+K: nitrato e amônio são muito solúveis
+Os fertilizantes nitrogenados geram íons NO₃⁻ e NH₄⁺, muito solúveis em água. A chuva os arrasta para rios e lagos, contaminando-os (e causando eutrofização). Esses íons não formam sais insolúveis (A), e o NH₃ deixa o meio básico, não ácido (D). **Resposta: C**
+
+@ENEM-CN-2011-REG-D1-C1-Q85
+K: a desvantagem destacada é a poluição do ar
+O texto destaca como desvantagem a emissão de poluentes na atmosfera. Filtros nas chaminés retêm parte desses poluentes. Aumentar o volume de lixo queimado (A, C, D) aumentaria a emissão. **Resposta: B**
+
+@ENEM-CN-2011-REG-D1-C1-Q90
+K: a digestão dos ruminantes produz gás
+Na digestão dos ruminantes, a fermentação por microrganismos produz metano (CH₄), um gás de efeito estufa muito potente, liberado principalmente por arrotos. O óxido nitroso (B, D) vem mais de fertilizantes e dejetos, e não da ruminação ou respiração. **Resposta: A**
+
+@ENEM-CN-2012-REG-D1-C1-Q46
+K: reciclar = transformar o material em matéria-prima de novo
+Na reciclagem, o material é reprocessado. As latas de alumínio são derretidas e viram lingotes, a matéria-prima para novos produtos. Garrafas retornáveis e sacos usados para lixo (A, C, D) são reutilização. **Resposta: B**
+
+@ENEM-CN-2012-REG-D1-C1-Q53
+K: propelente que não destrói ozônio
+O CFC libera cloro, que destrói o ozônio, e por isso foi substituído. Isobutano, butano e propano servem como propelentes do aerossol e não reagem com o ozônio. Eles não capturam nem destroem o CFC já existente (B, E). **Resposta: A**
+
+@ENEM-CN-2012-REG-D1-C1-Q58
+K: éster R–COO–R′: o lado do C=O vem do ácido, o do O, do álcool
+No C₆H₅CO₂CH₂CH₃, o lado C₆H₅CO– vem do ácido benzoico e o lado –OCH₂CH₃, do etanol. Na esterificação, ácido + álcool → éster + água. A alternativa E inverte os lados: ácido acético e álcool benzílico formariam outro éster. **Resposta: A**
+
+@ENEM-CN-2012-REG-D1-C1-Q59
+K: C₄H₁₀ → 4 CO₂
+Cada mol de butano (58 g) gera 4 mol de CO₂ (4 × 44 = 176 g). Para evitar 1 kg de CO₂, basta deixar de queimar 1 × 58/176 ≈ 0,33 kg de butano. Se esquecer o fator 4, encontra-se 1,3 kg (D). **Resposta: B**
+
+@ENEM-CN-2012-REG-D1-C1-Q70
+K: tensoativo tem parte polar e parte apolar
+O dodecilbenzenossulfonato de sódio é um detergente: a cauda apolar envolve o hidrocarboneto e a cabeça polar interage com a água, formando micelas. Assim, o hidrocarboneto é disperso ou "solubilizado" na água. Não ocorre reação química nem combustão (A, C). **Resposta: D**
+
+@ENEM-CN-2012-REG-D1-C1-Q76
+K: neutralizar HCl com uma base
+O HCl é um ácido. A água de cal, solução de Ca(OH)₂, é básica e o neutraliza: 2 HCl + Ca(OH)₂ → CaCl₂ + 2 H₂O. Água destilada ou desmineralizada (D, E) apenas dissolvem o gás, sem neutralizá-lo. **Resposta: B**
+
+@ENEM-CN-2012-REG-D1-C1-Q86
+K: solução hipertônica retira água da célula
+A solução de 0,20 mol/L é mais concentrada que o meio celular (equivalente a 0,15 mol/L), portanto é hipertônica. Por osmose, a água sai da célula para a solução. Na osmose quem atravessa é a água, não os íons Na⁺ (B, D). **Resposta: E**
+
+@ENEM-CN-2012-REG-D1-C1-Q89
+K: cabeça polar + caudas apolares
+Os fosfolipídios têm uma cabeça polar (hidrofílica) e caudas apolares (hidrofóbicas). Na água, as caudas se escondem no interior e as cabeças ficam voltadas para a água, formando a bicamada. Isso é ser anfifílico. Anfotérico (C) é o que age como ácido e como base, outro conceito. **Resposta: E**
+
+@ENEM-CN-2012-REG-D1-C1-Q90
+K: massa máxima = IDA × massa corporal; depois converta para mol
+A dose máxima é 40 mg/kg × 70 kg = 2 800 mg = 2,8 g por dia. Em mols: 2,8 ÷ 294 ≈ 9,5 × 10⁻³ mol. Atenção à conversão de mg para g, pois sem ela o resultado fica mil vezes maior. **Resposta: B**

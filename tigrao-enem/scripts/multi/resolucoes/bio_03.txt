@@ -1,0 +1,191 @@
+@ENEM-CN-2016-REG-D1-C1-Q56
+K: o ciclo de Krebs acontece na matriz mitocondrial
+O ciclo de Krebs ocorre dentro da mitocôndria. Para bloquear esse ciclo, a proteína precisa ter um peptídeo sinal que a envie para a mitocôndria; caso contrário, não alcançaria o local de ação. Núcleo, peroxissomo, Golgi e retículo não realizam o ciclo de Krebs. **Resposta: B**
+
+@ENEM-CN-2016-REG-D1-C1-Q62
+K: produtores transformam carbono inorgânico (CO₂) em matéria orgânica
+A passagem do carbono da forma inorgânica (CO₂) para a orgânica acontece na fotossíntese. Na cadeia citada, quem faz fotossíntese é o fitoplâncton. Zooplâncton, moluscos, crustáceos e peixes apenas recebem carbono já orgânico pela alimentação. **Resposta: A**
+
+@ENEM-CN-2016-REG-D1-C1-Q65
+K: animais que sugam sangue precisam impedir a coagulação
+Mosquitos hematófagos se alimentam de sangue e, por isso, produzem substâncias anticoagulantes na saliva, que mantêm o sangue fluido enquanto sugam. Os outros animais citados comem plantas, matéria em decomposição, carne ou frutos e não precisam dessa adaptação. **Resposta: E**
+
+@ENEM-CN-2016-REG-D1-C1-Q69
+K: nitrogênio é necessário para fabricar aminoácidos e proteínas
+O nitrato é a principal fonte de nitrogênio das plantas, usado para produzir aminoácidos e proteínas. Com menos nitrato absorvido, o grão terá menos proteína. Amido, frutose, lipídios e celulose (A–D) não contêm nitrogênio. **Resposta: E**
+
+@ENEM-CN-2016-REG-D1-C1-Q70
+K: datação por C-14: compara a proporção C-14/C-12 com a da atmosfera
+Enquanto vivo, o organismo mantém a mesma proporção de C-14/C-12 da atmosfera, conhecida. Após a morte, o C-14 decai e essa proporção diminui de forma previsível, permitindo calcular a idade. O C-12 é estável e não decai nem se transforma em C-14 (B, D, E). **Resposta: A**
+
+@ENEM-CN-2016-REG-D1-C1-Q71
+K: manguezal: solo lamacento, pouco oxigênio e água salgada
+Solo lamacento, pouco oxigenado, e excesso de sal são características do manguezal. Por isso, as plantas desse bioma têm raízes de escora, raízes respiratórias (pneumatóforos) e glândulas de sal. O Pantanal (C) também é alagável, mas sua água é doce. **Resposta: D**
+
+@ENEM-CN-2016-REG-D1-C1-Q73
+K: agrofloresta aumenta a matéria orgânica e a vida no solo
+Combinar árvores e cultivos aumenta a quantidade de folhas e restos orgânicos no solo, o que favorece fungos, bactérias e pequenos animais. Isso melhora a fertilidade e acelera a recuperação, mantendo a produção. A alternativa A é falsa porque as culturas continuam, e B cita biocidas, que reduzem a vida no solo. **Resposta: C**
+
+@ENEM-CN-2016-REG-D1-C1-Q79
+K: vacina = estímulo para produzir anticorpos (imunoglobulinas)
+A vacina atenuada estimula o sistema imune a produzir anticorpos. Na figura, o mecanismo 4 mostra os probióticos estimulando a produção de imunoglobulinas (anticorpos), efeito parecido com o da vacina. Os mecanismos 1, 2, 3 e 5 atuam por competição, substâncias antimicrobianas e proteção do epitélio, sem ativar anticorpos. **Resposta: B**
+
+@ENEM-CN-2016-REG-D1-C1-Q80
+K: adaptação lida com os efeitos; mitigação ataca as causas
+Diques de contenção protegem o litoral contra a subida do nível do mar, um efeito das mudanças climáticas, então são adaptação. Usinas eólicas, tratamento de resíduos, veículos eficientes e agricultura de baixo carbono reduzem a emissão de gases, ou seja, são mitigação. **Resposta: E**
+
+@ENEM-CN-2016-REG-D1-C1-Q83
+K: crossing-over mistura genes na meiose
+A permutação (crossing-over) troca segmentos entre cromossomos homólogos durante a meiose, gerando novas combinações de alelos nos gametas: a recombinação genética. Ela não muda o número de cromossomos (E) e não transmite características adquiridas (B). **Resposta: C**
+
+@ENEM-CN-2016-REG-D1-C1-Q87
+K: ADH faz os rins reabsorverem água
+O ADH faz os túbulos renais reabsorverem água. Sem ADH funcionando, a pessoa elimina muita urina diluída e se desidrata (com muita sede). A glicose alta no sangue (A) é sintoma do diabetes mellitus, o outro tipo. **Resposta: E**
+
+@ENEM-CN-2016-REG-D1-C1-Q90
+K: todos os seres vivos usam o mesmo código genético para fabricar proteínas
+Todos os seres vivos, de bactérias a humanos, fabricam proteínas a partir do DNA/RNA com o mesmo código genético e ribossomos. Isso é forte evidência de origem comum. Desenvolvimento embrionário, reprodução sexuada, respiração aeróbica e excreção urinária não ocorrem em todos os seres. **Resposta: E**
+
+@ENEM-CN-2017-REG-D2-C7-Q91
+K: compare a dose ingerida (mg/kg) com a DL50
+Cada rato comeu 100 g × 3 mg/g = 300 mg de pesticida. Como pesa 0,2 kg, a dose foi de 300 ÷ 0,2 = 1 500 mg/kg. Essa dose supera a DL50 do diazinon (70) e do malation (1 000), então ao menos metade de cada um desses grupos (10 ratos) deve morrer. Para a atrazina (DL50 = 3 100), a dose fica abaixo. **Resposta: D**
+
+@ENEM-CN-2017-REG-D2-C7-Q92
+K: antibióticos atacam estruturas exclusivas das bactérias
+Antibióticos agem danificando estruturas ou processos próprios da célula bacteriana, como a parede celular ou os ribossomos bacterianos, sem afetar tanto as células humanas. Eles não ativam o sistema imune (A) nem atacam as células do hospedeiro (D). **Resposta: E**
+
+@ENEM-CN-2017-REG-D2-C7-Q98
+K: a classificação moderna se baseia em parentesco evolutivo
+Woese comparou sequências do RNA ribossômico para descobrir quais grupos têm ancestrais comuns mais próximos, ou seja, relações filogenéticas. Já a classificação de Whittaker usava tipo de célula e nutrição (A, D). **Resposta: C**
+
+@ENEM-CN-2017-REG-D2-C7-Q100
+K: hemofilia: o sangue não coagula direito
+Na hemofilia falta um fator de coagulação, e a pessoa sangra muito em pequenas lesões. Uma plaqueta artificial que acelera a coagulação ajudaria esses pacientes. Aterosclerose (C) é o acúmulo de placas nas artérias, e mais coagulação até pioraria o risco. **Resposta: B**
+
+@ENEM-CN-2017-REG-D2-C7-Q109
+K: barragens bloqueiam a subida dos peixes no rio
+Na piracema, os peixes sobem o rio para se reproduzir. A barragem interrompe esse caminho e encurta o percurso de migração, prejudicando os estímulos para a reprodução. O período da migração (D) continua o mesmo, mas o trajeto fica bloqueado. **Resposta: A**
+
+@ENEM-CN-2017-REG-D2-C7-Q111
+K: biomagnificação: poluentes se concentram ao subir na cadeia alimentar
+O mercúrio não é eliminado facilmente e se acumula a cada nível trófico. Os botos, predadores no topo da cadeia, recebem a carga acumulada de todas as presas e vivem muitos anos no mesmo local. Ser de grande porte (C) não é a causa principal. **Resposta: E**
+
+@ENEM-CN-2017-REG-D2-C7-Q116
+K: modelo do mosaico fluido: proteínas se movem na membrana
+Na etapa 3, as proteínas de camundongo e humanas estão separadas; após 40 minutos (etapa 4), estão misturadas por toda a membrana. Isso mostra que as proteínas se deslocam lateralmente na bicamada, que é fluida. A alternativa D é tentadora, mas os anticorpos só marcam as proteínas, sem causar o movimento. **Resposta: A**
+
+@ENEM-CN-2017-REG-D2-C7-Q117
+K: inativação do X nas mulheres ocorre ao acaso em cada célula
+Nas mulheres, um dos cromossomos X de cada célula é desligado ao acaso no início do desenvolvimento. Se isso ocorreu depois de separar os embriões, cada gêmea pode ter desligado majoritariamente um X diferente: uma ficou com o X normal ativo na maioria das células musculares e a outra com o X mutante. As gêmeas monozigóticas têm o mesmo DNA, o que descarta E. **Resposta: D**
+
+@ENEM-CN-2017-REG-D2-C7-Q118
+K: piso vazado com grama deixa a água da chuva infiltrar
+O concregrama mantém áreas com solo e grama, permitindo que a água da chuva infiltre no solo. Assim evita a impermeabilização causada pelo concreto contínuo, que aumenta enxurradas e enchentes. As demais alternativas não se relacionam ao uso desse piso. **Resposta: A**
+
+@ENEM-CN-2017-REG-D2-C7-Q123
+K: bromélias armazenam água entre as folhas (tanque)
+As bromélias epífitas não retiram água das árvores. Suas folhas formam um "tanque" que acumula água da chuva, da qual elas absorvem água e nutrientes. Retirar seiva da hospedeira (D) seria parasitismo, o que não é o caso. **Resposta: C**
+
+@ENEM-CN-2017-REG-D2-C7-Q125
+K: A–T têm 2 ligações de hidrogênio; G–C têm 3
+O segmento com mais pares A–T (2 ligações) e menos G–C (3 ligações) se separa com menos energia. O segmento AATTCCTA/TTAAGGAT tem só 2 pares G–C, o menor número entre as opções, então desnatura primeiro. Os segmentos A e B têm muitos pares G–C e exigem temperatura maior. **Resposta: C**
+
+@ENEM-CN-2017-REG-D2-C7-Q135
+K: células do sangue transfundidas são "células novas" introduzidas no corpo
+Na transfusão, células sanguíneas (hemácias, plaquetas) de um doador são introduzidas no paciente: uma terapia celular praticada há muito tempo nos hospitais. Vacinas introduzem antígenos, não células para tratar tecidos, e a hemodiálise filtra o sangue sem introduzir células. **Resposta: E**
+
+@ENEM-CN-2018-REG-D2-C7-Q94
+K: glucagon libera glicose a partir do glicogênio
+Na hipoglicemia, o glucagon estimula o fígado a quebrar glicogênio (glicogenólise), liberando glicose no sangue. A alternativa D descreve o contrário (armazenar energia), papel da insulina. **Resposta: E**
+
+@ENEM-CN-2018-REG-D2-C7-Q96
+K: bile emulsifica gorduras como um detergente
+Os sais biliares têm uma parte polar e outra apolar e funcionam como detergente: quebram as gotas de gordura em gotículas menores, aumentando a superfície para as lipases. Eles não hidrolisam os lipídios (A); quem faz isso são as lipases. **Resposta: B**
+
+@ENEM-CN-2018-REG-D2-C7-Q98
+K: corredores ligam fragmentos e permitem cruzamentos entre populações
+Ligando fragmentos de mata, os corredores permitem que animais circulem e se reproduzam com indivíduos de outras áreas, o que mantém o fluxo gênico e a variabilidade genética. Formar "ilhas" isoladas (E) é justamente o problema que os corredores tentam resolver. **Resposta: A**
+
+@ENEM-CN-2018-REG-D2-C7-Q100
+K: p53 é o "guardião do genoma"
+A p53 interrompe o ciclo para reparar o DNA ou leva a célula danificada à morte. Sem ela, células com mutações continuam se dividindo descontroladamente, o que pode formar um tumor. A alternativa D é o contrário: sem p53 a estabilidade genética diminui. **Resposta: E**
+
+@ENEM-CN-2018-REG-D2-C7-Q101
+K: no deserto é preciso economizar água
+Roedores, aves, répteis e artrópodes do deserto eliminam excretas nitrogenadas concentradas (urina concentrada ou ácido úrico), perdendo pouca água. Glândulas sudoríparas (A) fariam perder água e não existem em aves, répteis e artrópodes. O ovo com casca (C) não ocorre em roedores, que são mamíferos. **Resposta: B**
+
+@ENEM-CN-2018-REG-D2-C7-Q110
+K: código genético = correspondência códon → aminoácido
+O código genético é a "tabela" que relaciona cada trinca de nucleotídeos (códon) a um aminoácido, e é praticamente universal. Já o conjunto de todas as sequências de um organismo (E) é o genoma, não o código genético. **Resposta: A**
+
+@ENEM-CN-2018-REG-D2-C7-Q111
+K: polinização pelo vento depende de muito pólen
+O vento leva o pólen ao acaso, e a maior parte se perde. Por isso, plantas polinizadas pelo vento produzem grande quantidade de pólen, com muitos estames. Néctar e pétalas coloridas (C, D) atraem animais e não ajudam na polinização pelo vento. **Resposta: E**
+
+@ENEM-CN-2018-REG-D2-C7-Q113
+K: enzimas degradam o peróxido em substâncias inofensivas
+As peroxidases produzidas pelas leveduras degradam os peróxidos que sobram do clareamento, reduzindo resíduos tóxicos na água descartada. Elas não aumentam o clareamento (C), pois destroem o agente clareador, e não eliminam o tratamento da água consumida (B). **Resposta: A**
+
+@ENEM-CN-2018-REG-D2-C7-Q117
+K: célula que produz muita proteína tem RER abundante, eucromatina e nucléolo grande
+Muita síntese de proteínas exige RNA (eucromatina descondensada e nucléolo grande, que forma ribossomos), muitos ribossomos/RER e mitocôndrias para a energia. Na figura, a linhagem IV tem a maior quantidade desses componentes. As outras linhagens têm mais heterocromatina ou menos retículo e mitocôndrias. **Resposta: D**
+
+@ENEM-CN-2018-REG-D2-C7-Q119
+K: leishmaniose é transmitida por um inseto (mosquito-palha)
+A leishmaniose é transmitida pelo mosquito-palha (flebotomíneo); combater o inseto reduz a doença. A esquistossomose depende de caramujos, a leptospirose de ratos, e a hanseníase e a AIDS não têm insetos vetores. **Resposta: C**
+
+@ENEM-CN-2018-REG-D2-C7-Q123
+K: a fotossíntese transforma luz em energia química
+Os combustíveis do ciclo do carbono (glicose e outras moléculas orgânicas) são produzidos na fotossíntese, que transforma a energia luminosa (eletromagnética) em energia química. Química em térmica (B) descreve a queima ou a respiração, que consomem os combustíveis. **Resposta: E**
+
+@ENEM-CN-2018-REG-D2-C7-Q127
+K: a semente tem um alelo de cada locus vindo do pai (pólen)
+Em cada locus, a semente S1 recebeu um alelo da matriz M e outro do doador de pólen. Os alelos de S1 que não estão em M devem estar no doador, e no gel apenas DP5 possui esses alelos nos dois locos. Os demais doadores não possuem os alelos paternos de S1 nos dois locos ao mesmo tempo. **Resposta: E**
+
+@ENEM-CN-2018-REG-D2-C7-Q133
+K: na holometabolia, larva e adulto vivem e comem de formas diferentes
+Na metamorfose completa, larva e adulto ocupam nichos diferentes (por exemplo, a lagarta come folhas e a borboleta suga néctar), sem competir entre si. Isso permitiu explorar muitos ambientes e originar muitas espécies. A alternativa E é o oposto: as fases não usam o mesmo alimento. **Resposta: C**
+
+@ENEM-CN-2019-REG-D2-C7-Q96
+K: espécies pioneiras (estratégia r) colonizam rápido áreas perturbadas
+Uma área desmatada é instável e precisa ser ocupada rapidamente. A estratégia 1 tem alto potencial biótico, reprodução precoce e muitos descendentes, ideal para recolonizar. A alternativa D erra: área desmatada não é um ambiente estável. **Resposta: C**
+
+@ENEM-CN-2019-REG-D2-C7-Q97
+K: competição: disputa pelo mesmo recurso
+As cutias disputam as mesmas sementes guardadas, um recurso limitado. A "ladroagem" entre indivíduos da mesma espécie é um caso de competição (intraespecífica). Não há morte da vítima (B) nem dependência de um hospedeiro (C). **Resposta: D**
+
+@ENEM-CN-2019-REG-D2-C7-Q101
+K: mais hemácias → mais oxigênio para os músculos
+A EPO aumenta a produção de hemácias, que transportam oxigênio. Com mais O₂ nos músculos, a respiração celular produz mais ATP, melhorando a resistência. EPO não age no transporte de proteínas, lipídios ou vitaminas (A, D, E). **Resposta: C**
+
+@ENEM-CN-2019-REG-D2-C7-Q107
+K: tropismo/taxia em direção à luz
+As larvas sobem em direção à lâmpada, isto é, se movem na direção da luz. Esse comportamento é chamado, na questão, de fototropismo positivo (para animais, o termo mais preciso seria fototaxia positiva). Os outros estímulos (gravidade, água, temperatura, substâncias) não são os que atraem as artêmias. **Resposta: B**
+
+@ENEM-CN-2019-REG-D2-C7-Q110
+K: genes ligados: próximos no mesmo cromossomo
+A 2ª lei de Mendel vale para genes em cromossomos diferentes. Genes próximos no mesmo cromossomo tendem a ir juntos para o gameta (ligação gênica), e só se separam se houver crossing-over. Erros de segregação (C, E) são exceções raras, não a explicação geral. **Resposta: D**
+
+@ENEM-CN-2019-REG-D2-C7-Q114
+K: retrovírus como o HIV são tratados com antirretrovirais
+Retrovírus como o HIV, que infectam só humanos, são tratados com antirretrovirais, medicamentos que inibem enzimas virais (como a transcriptase reversa) e dificultam a reprodução do vírus. Esses vírus não têm vetores (A), e não há vacina eficaz contra o HIV (D). **Resposta: E**
+
+@ENEM-CN-2019-REG-D2-C7-Q116
+K: caudas curtas e insaturadas interagem menos → membrana mais fluida
+Caudas mais curtas e com mais insaturações (dobras) interagem menos entre si, o que aumenta a fluidez. Na figura, a bicamada II reúne caudas curtas com insaturações. Caudas longas e retas (saturadas) se empacotam melhor e reduzem a fluidez. **Resposta: B**
+
+@ENEM-CN-2019-REG-D2-C7-Q127
+K: sem o gradiente de prótons, a ATP sintase produz menos ATP
+O DNP devolve os prótons à matriz sem passar pela ATP sintase, então a produção de ATP cai. Para compensar, a célula queima mais nutrientes (gordura e glicose), o que emagrece e libera calor. A cadeia respiratória continua funcionando, então não há obstrução (A). **Resposta: E**
+
+@ENEM-CN-2019-REG-D2-C7-Q133
+K: rim filtra o sangue e elimina ureia
+A principal função substituída pela hemodiálise é a filtração do sangue para remover resíduos nitrogenados, como a ureia. O rim biônico fará isso diretamente. Vasopressina e aldosterona (C, E) não são fabricadas pelo rim. **Resposta: A**
+
+@ENEM-CN-2018-REG-D2-C7-Q116
+K: na célula solar, o corante oxidado precisa voltar à forma original
+Na reação 2, o corante excitado perde um elétron para o TiO₂ e fica oxidado (S⁺). Na reação 3, o iodeto (I⁻) devolve elétrons ao corante, regenerando-o (S) para absorver luz novamente; o iodeto se oxida a I₃⁻. Sem essa etapa, o corante se esgotaria e a célula pararia. A alternativa A inverte o processo: na reação 3 o I⁻ é oxidado, não reduzido. **Resposta: B**
+
+@ENEM-CN-2017-REG-D2-C7-Q113
+K: solvente orgânico extrai óleo; destilação separa o solvente
+O éter, que é apolar, dissolve o óleo e as substâncias lipossolúveis da farinha, formando o extrato etéreo. Na destilação desse extrato, o éter (volátil) sai como destilado 1, e o óleo, pouco volátil, fica no resíduo 4. Os resíduos 2 e 3 e o destilado 2 vêm da parte aquosa, que não contém o óleo. **Resposta: E**

@@ -1,0 +1,227 @@
+@ENEM-CH-2021-REG-D1-C1-Q48
+K: melhoramento adapta a uva a cada região
+O programa desenvolve uvas adaptadas a condições bem diferentes: o semiárido nordestino, as regiões tropicais e a Serra Gaúcha. Ou seja, adapta o cultivo a clima e solo específicos de cada lugar. As uvas não são espécies nativas ameaçadas (A). **Resposta: D**
+
+@ENEM-CH-2021-REG-D1-C1-Q50
+K: países ricos exportam o lixo; pobres arcam com os danos
+Países industrializados mandam o lixo eletrônico para países pobres como Gana, onde ele é desmontado de forma precária e poluente. Essa relação desigual entre centro e periferia é a divisão internacional do trabalho. Não há nada de sustentável nisso (D). **Resposta: B**
+
+@ENEM-CH-2021-REG-D1-C1-Q51
+K: água para todos os usuários, grandes e pequenos
+O texto pede preços justos e autorizações que atendam tanto à indústria e à irrigação em larga escala quanto à agricultura de subsistência, ou seja, uma distribuição equitativa da água. Não fala em racionar rios (C) nem apenas no abastecimento urbano (B). **Resposta: A**
+
+@ENEM-CH-2021-REG-D1-C1-Q58
+K: a cidade muda rápido e perde referências
+O texto descreve praças viradas concreto, árvores derrubadas, guindastes e britadeiras: a paisagem urbana transformada o tempo todo. As alternativas A e B dizem o contrário (manutenção, preservação). **Resposta: E**
+
+@ENEM-CH-2021-REG-D1-C1-Q59
+K: saber construído pela observação
+O sertanejo prevê chuva ou seca observando a lua, as estrelas e as nuvens ao longo do tempo. É um conhecimento baseado na experiência e na percepção, e não em método científico (A). Ele valoriza a tradição, e não a nega (C). **Resposta: B**
+
+@ENEM-CH-2021-REG-D1-C1-Q61
+K: cidade-vitrine para a competição global
+O Porto Maravilha quis transformar o Rio num polo de serviços internacional, com torres comerciais, como os waterfronts de outras cidades globais. Isso busca inserir a cidade na competição global. A operação valoriza os imóveis, em vez de conter a especulação (B). **Resposta: A**
+
+@ENEM-CH-2021-REG-D1-C1-Q62
+K: pouca inovação → dependência externa
+Sem inserção nas novas tecnologias e dependendo de commodities e de indústria antiga, o Brasil importa tecnologia e fica subordinado aos fluxos econômicos globais. O texto não indica estatização nem modernização (B, E). **Resposta: D**
+
+@ENEM-CH-2021-REG-D1-C1-Q70
+K: conhecimento indígena recuperou o Cerrado
+Os Xavante sabiam como quebrar a dormência das sementes (fogo, animais), e esse saber permitiu recuperar a área do Cerrado. É o saber tradicional a serviço da conservação. Não se trata de reflorestamento comercial (E). **Resposta: C**
+
+@ENEM-CH-2021-REG-D1-C1-Q71
+K: rochas → sedimentos → novas rochas
+Rochas são desgastadas, os fragmentos são transportados pela água, pelo vento e pelo gelo, depositados em áreas baixas e formam novos pacotes rochosos. Esse é o ciclo sedimentar. O intemperismo biológico (C) é só uma parte do desgaste. **Resposta: A**
+
+@ENEM-CH-2021-REG-D1-C1-Q72
+K: participação popular organizada
+Para incluir os interesses das camadas menos favorecidas no planejamento urbano, é preciso fortalecer formas de organização popular, como as associações de bairro. Privatizar espaços e valorizar condomínios fechados (B, D) aumentaria a exclusão. **Resposta: E**
+
+@ENEM-CH-2021-REG-D1-C1-Q79
+K: enclave: pouca relação com o entorno
+Um enclave industrial se relaciona pouco com a região onde está instalado. Um exemplo é trazer de fora a mão de obra qualificada, em vez de empregar e formar a população local. Vilas operárias e eventos comunitários (A, B) criariam laços com o entorno. **Resposta: E**
+
+@ENEM-CH-2022-REG-D1-C1-Q46
+K: leitura do ambiente pela experiência
+A experiência de Santa Luzia mostra que o sertanejo interpreta sinais do ambiente (umidade do ar dissolvendo o sal) para prever as chuvas. É a intimidade com a Caatinga. Ele não apenas aceita o destino (A): ele tenta antecipá-lo. **Resposta: D**
+
+@ENEM-CH-2022-REG-D1-C1-Q49
+K: impermeabilização altera infiltração e escoamento
+A ocupação urbana mostrada na figura cobre o solo com asfalto e concreto. Logo de imediato, a água infiltra menos e escorre mais, alterando o ciclo hidrológico local. Relevo, rochas e tectônica (A, D, E) não mudam de imediato com a urbanização. **Resposta: B**
+
+@ENEM-CH-2022-REG-D1-C1-Q50
+K: progresso construído sobre vidas de trabalhadores
+O texto mostra a ferrovia como símbolo do progresso, mas os trabalhadores doentes morreram esquecidos, "cobaias sem consolo". A crítica é a contradição entre desenvolvimento e respeito a quem trabalhou. O foco não é fauna nem fitoterapia (A, D). **Resposta: E**
+
+@ENEM-CH-2022-REG-D1-C1-Q51
+K: produção espalhada pelo globo em rede
+Numa economia informacional, global e em rede, as etapas da produção são distribuídas por vários países e conectadas por informação: a produção se desterritorializa. Fabricação em série e padronização (A, D) são marcas do modelo fordista anterior. **Resposta: E**
+
+@ENEM-CH-2022-REG-D1-C1-Q52
+K: o campo põe comida na mesa da cidade
+A canção diz que o "gigante" urbano precisa de arroz com feijão e agradece aos agricultores que plantam cacau e milho. Destaca, assim, o campo como produtor de alimentos. Mão de obra qualificada e inovação (A, B) não aparecem. **Resposta: D**
+
+@ENEM-CH-2022-REG-D1-C1-Q55
+K: irrigação sem drenagem salga o solo
+No semiárido, a água evapora rápido e deixa os sais na superfície. Irrigar sem drenagem adequada repete esse processo e acelera a salinização. O assoreamento (D) é outro problema e não explica o acúmulo de sais. **Resposta: B**
+
+@ENEM-CH-2022-REG-D1-C1-Q59
+K: o governo compra a produção familiar
+O PAA é um programa de compras públicas que adquire alimentos da agricultura familiar, garantindo mercado para esses produtores. Ele não redistribui terras (B), apenas assegura a venda. **Resposta: C**
+
+@ENEM-CH-2022-REG-D1-C1-Q62
+K: TEC comum exige acordo entre os sócios
+O Mercosul é uma união aduaneira: os membros adotam uma Tarifa Externa Comum. Por isso, mudar a TEC exige negociar com todos os sócios. O bloco não tem moeda nem política monetária comum (B). **Resposta: C**
+
+@ENEM-CH-2022-REG-D1-C1-Q64
+K: vulcanismo + intemperismo = solo fértil
+As forças internas geram vulcanismo, e as externas (chuva, calor) decompõem as rochas vulcânicas, formando solos muito férteis que atraem a ocupação humana. Relevos escarpados e dorsais oceânicas (C, B) dificultam ou não permitem a ocupação. **Resposta: A**
+
+@ENEM-CH-2022-REG-D1-C1-Q69
+K: nacionalismo étnico-linguístico
+Putin apresenta a Crimeia como parte "inseparável" da Rússia no coração do povo. É o argumento de que populações de mesma língua e cultura (russófonas) devem pertencer ao mesmo Estado. O discurso não fala em integração regional (D). **Resposta: A**
+
+@ENEM-CH-2022-REG-D1-C1-Q72
+K: ida e volta diária casa–trabalho
+O deslocamento diário de casa para o trabalho e de volta, em outra parte da metrópole, é o movimento pendular. Não é migração interna (B), pois as pessoas não mudam de residência. **Resposta: D**
+
+@ENEM-CH-2022-REG-D1-C1-Q74
+K: céu limpo, mais sol
+O mapa mostra o maior potencial solar no interior do Nordeste, região semiárida com poucas nuvens durante grande parte do ano. A baixa nebulosidade deixa passar mais radiação. A irregularidade das chuvas (D) existe, mas o que importa para a energia solar é haver poucas nuvens. **Resposta: C**
+
+@ENEM-CH-2022-REG-D1-C1-Q75
+K: o rio como identidade e afeto
+Para os Kambeba, o rio está na origem do povo, no aprendizado com o pai e na memória familiar: é patrimônio cultural e afetivo. Embora haja uma narrativa de origem, o texto não o trata como objeto sagrado de culto (B), e sim como parte da vida. **Resposta: E**
+
+@ENEM-CH-2022-REG-D1-C1-Q87
+K: êxodo rural inchou as metrópoles
+A concentração de pessoas e atividades em poucas metrópoles foi impulsionada pelo êxodo rural: milhões saíram do campo em busca de emprego nas cidades. O risco habitacional (C) é uma consequência, e não a causa. **Resposta: B**
+
+@ENEM-CH-2023-REG-D1-C1-Q46
+K: sertão como lugar vivido
+O bordado da avó define o Sertão por lembranças, afetos e caminhos da vida da família, ou seja, como espaço vivido. Não o trata como roteiro turístico nem como limite territorial oficial (A, D). **Resposta: C**
+
+@ENEM-CH-2023-REG-D1-C1-Q48
+K: agronegócio expropria o camponês
+O texto mostra a terra, a água e as sementes virando propriedade privada, além de veneno e violência contra as pessoas. Isso cerca os camponeses e inviabiliza seu modo de vida. Os latifundiários e o empresariado (B, E) são os favorecidos, e não as vítimas. **Resposta: A**
+
+@ENEM-CH-2023-REG-D1-C1-Q49
+K: povoar com Han para controlar a fronteira
+Xinjiang é estratégica (fronteiras, Cinturão e Rota, energia) e tem uma maioria de etnia uigur. Estimular a migração Han reforça o controle de Pequim e evita movimentos separatistas, assegurando a integridade territorial. Isso vai contra a pluralidade cultural (D). **Resposta: E**
+
+@ENEM-CH-2023-REG-D1-C1-Q53
+K: Himalaia: choque de placas
+O Himalaia se formou, e continua subindo, pela colisão entre a placa Indiana e a Eurasiática. Isso explica o crescimento do Everest a cada ano. Vulcanismo e erosão (A, C) não erguem cordilheiras desse tipo. **Resposta: B**
+
+@ENEM-CH-2023-REG-D1-C1-Q62
+K: Coreias divididas pela Guerra Fria
+A disputa entre as Coreias vem da divisão na Guerra Fria: um Norte comunista e um Sul capitalista. As "provocações" com alto-falantes e mastros expressam essa divergência político-ideológica entre Estados. Não é um conflito étnico (B), pois são o mesmo povo. **Resposta: C**
+
+@ENEM-CH-2023-REG-D1-C1-Q64
+K: o planeta sofre com a exploração excessiva
+Aquecimento, extinção de animais e rios morrendo são consequências da exploração predatória dos recursos naturais. O manejo tradicional (A) é justamente o modo de vida que os indígenas defendem. **Resposta: D**
+
+@ENEM-CH-2023-REG-D1-C1-Q66
+K: a fome persiste por décadas
+Carolina (anos 1950) e a moradora de 2021 vivem a mesma angústia de não ter comida para os filhos, o que mostra que a miséria se repete no Brasil. Os textos não mostram superação nem romantização (C, E). **Resposta: A**
+
+@ENEM-CH-2023-REG-D1-C1-Q67
+K: cacau sob a floresta preserva a biodiversidade
+Na cabruca, o cacau cresce à sombra da mata nativa, conservando a biodiversidade enquanto produz: é o uso sustentável dos recursos. O cacau é cultura permanente, e não temporária (A). **Resposta: B**
+
+@ENEM-CH-2023-REG-D1-C1-Q68
+K: ocupação precária altera o mangue
+Os mocambos sobre o mangue, o curtume poluindo e os peixes envenenados mostram a ocupação urbana modificando e degradando o meio, isto é, interferindo no espaço geográfico. Não há equilíbrio ambiental nem controle dos animais (D, E). **Resposta: C**
+
+@ENEM-CH-2023-REG-D1-C1-Q71
+K: grilagem: o tripé do desmatamento
+O autor diz que o desmatamento é puxado por grileiros, madeireiros e pecuaristas. A grilagem é a apropriação ilegal de terras públicas (devolutas). A flexibilização de leis (E) não é citada como causa central. **Resposta: A**
+
+@ENEM-CH-2023-REG-D1-C1-Q78
+K: hortas em terrenos vazios
+A agricultura urbana aproveita terrenos e espaços ociosos para plantar, aproximando a produção do consumidor. Ela não usa mecanização nem prioriza insumos químicos (E, D). **Resposta: A**
+
+@ENEM-CH-2023-REG-D1-C1-Q83
+K: solo degradado perde nutrientes
+Desmatamento, queimadas e erosão retiram a camada fértil e os nutrientes, então o solo perde fertilidade e fica difícil de recuperar. A salinização (B) aumenta com a irrigação excessiva, e não diminui. **Resposta: C**
+
+@ENEM-CH-2023-REG-D1-C1-Q85
+K: agricultores querem proteção; indústria quer livre comércio
+Os produtores rurais europeus querem manter as regras rígidas (barreiras fitossanitárias) que os protegem da carne brasileira. Já a indústria quer a redução de tarifas para vender mais ao Mercosul. A alternativa E inverte o primeiro grupo. **Resposta: D**
+
+@ENEM-CH-2024-REG-D1-C1-Q46
+K: perto ou longe da subducção da placa de Nazca
+Valparaíso fica junto à zona de subducção da placa de Nazca e tem tremores fortes. Atalaia do Norte sente reflexos dessa mesma placa, e o interior paulista, longe dela, tem só abalos fracos. A distância à zona de subducção explica a diferença. **Resposta: C**
+
+@ENEM-CH-2024-REG-D1-C1-Q48
+K: desastre rompe os laços com o lugar
+A lama destruiu casas e comunidades, e as famílias perderam os lugares onde viviam e as suas memórias. Isso fragiliza os vínculos afetivos com o espaço vivido. Não houve consolidação de identidades (B), e sim ruptura. **Resposta: C**
+
+@ENEM-CH-2024-REG-D1-C1-Q60
+K: gestão territorial a partir das comunidades
+Os seringueiros criaram a reserva extrativista a partir da sua própria luta e realidade, ou seja, por decisões locais ligadas a valores e saberes do território. As alternativas D e E falam em determinações globais, o oposto. **Resposta: B**
+
+@ENEM-CH-2024-REG-D1-C1-Q67
+K: internet conecta o produtor local ao mercado
+A internet dá visibilidade e liga pequenos produtores e comunidades florestais a mercados maiores, valorizando e tornando mais rentável a economia local. Não se trata de criar regras comerciais (C). **Resposta: A**
+
+@ENEM-CH-2024-REG-D1-C1-Q68
+K: menos árvores → menos umidade → menos chuva
+As árvores lançam muita água na atmosfera (evapotranspiração), que forma as chuvas convectivas na Amazônia. Com o desmatamento, essa umidade e essas chuvas diminuem. A refletividade (D) aumentaria com o solo exposto, e não reduziria. **Resposta: E**
+
+@ENEM-CH-2024-REG-D1-C1-Q70
+K: objetos técnicos aceleram a circulação
+Vias, portos, ferrovias e armazéns existem para fazer pessoas, mercadorias e informações circularem mais rápido: dinamizam os fluxos. Não visam distribuir renda (D). **Resposta: E**
+
+@ENEM-CH-2024-REG-D1-C1-Q71
+K: ONU (COP) + empresas pressionaram
+A meta brasileira saiu da COP-26, uma conferência da ONU (organismo supranacional), com pressão de empresários e instituições privadas (sociedade civil). Universidades e militares (C, B) não aparecem no texto. **Resposta: D**
+
+@ENEM-CH-2024-REG-D1-C1-Q83
+K: mapas servem a quem domina
+O texto diz que os mapas sempre serviram à dominação e aos interesses de uma minoria, sustentando o poder sobre territórios. As alternativas B, C e D falam em emancipação, o contrário. **Resposta: E**
+
+@ENEM-CH-2024-REG-D1-C1-Q88
+K: soluções baseadas na natureza
+Parques públicos com vegetação absorvem a água da chuva (menos alagamento) e reduzem o calor: são soluções baseadas na natureza. Verticalizar e construir estacionamentos (D, E) impermeabilizam e aquecem ainda mais a cidade. **Resposta: C**
+
+@ENEM-CH-2024-REG-D1-C1-Q89
+K: poder de veto desigual
+Só cinco membros permanentes podem vetar resoluções, o que mostra que os países não têm o mesmo peso nas decisões: há assimetria política. Isso contradiz a ideia de soberania compartilhada (E). **Resposta: B**
+
+@ENEM-CH-2025-REG-D1-C1-Q54
+K: "êxodo urbano" só para quem tem renda
+O autor mostra que só uma pequena elite, com renda alta e emprego estável, consegue deixar a metrópole. Portanto o deslocamento é seletivo, e não geral. Não há volta às tradições rurais (A), pois essas pessoas recriam a vida urbana no interior. **Resposta: E**
+
+@ENEM-CH-2025-REG-D1-C1-Q56
+K: rio raso, transporte mais caro
+Com o nível baixo do Reno, a navegação fica impossível ou limitada, e as indústrias precisam usar transportes mais caros ou levar menos carga. A logística encarece. Isso afeta a indústria, mas não a sucateia (E). **Resposta: C**
+
+@ENEM-CH-2025-REG-D1-C1-Q59
+K: desmatar a Amazônia reduz a água das hidrelétricas
+O professor liga a queda da energia hidrelétrica à redução da Floresta Amazônica, que manda umidade para o resto do país. É a mudança da paisagem num local estratégico que afeta as chuvas. A geologia (E) não muda. **Resposta: B**
+
+@ENEM-CH-2025-REG-D1-C1-Q67
+K: função social da terra
+A desapropriação puniu o trabalho escravo e os crimes ambientais, aplicando a função social da propriedade. A justiça aparece como forma de corrigir desigualdades. Não legitima a propriedade nem mantém a ordem (A, B): ela a contesta. **Resposta: D**
+
+@ENEM-CH-2025-REG-D1-C1-Q70
+K: calcário dissolvido pela água
+A água da chuva, levemente ácida, dissolve o calcário do subsolo (intemperismo químico) e abre cavidades que desabam formando as crateras (dolinas). A impermeabilização (E) não é a origem do fenômeno, que é natural. **Resposta: B**
+
+@ENEM-CH-2025-REG-D1-C1-Q75
+K: inseticidas matam polinizadores
+Os inseticidas atingem também insetos úteis, como abelhas, reduzindo a diversidade de polinizadores. A contaminação dos lençóis freáticos (C) aumentou, e não diminuiu. **Resposta: B**
+
+@ENEM-CH-2025-REG-D1-C1-Q80
+K: canalizar rios contraria a cidade sustentável
+Canalizar os cursos d'água impermeabiliza as margens, elimina a vegetação e agrava enchentes, contrariando a prudência ecológica. Coleta seletiva, reúso da chuva e arborização (A, B, D) estão de acordo com o modelo. **Resposta: C**
+
+@ENEM-CH-2025-REG-D1-C1-Q84
+K: ciência a serviço do combate ao fogo
+A UFMG e o Inpe usam satélites e modelos computacionais para prever incêndios, mostrando a importância da pesquisa acadêmica para proteger o Cerrado. Não há interesse estrangeiro nem cosmologia nativa no texto (E, C). **Resposta: D**
+
+@ENEM-CH-2025-REG-D1-C1-Q86
+K: menos demanda elétrica para climatizar
+Usar o calor do solo para climatizar prédios reduz o consumo de energia elétrica com ar-condicionado. Isso alivia a demanda sobre as hidrelétricas, a base da matriz brasileira. Não elimina a necessidade de energias renováveis (E). **Resposta: C**

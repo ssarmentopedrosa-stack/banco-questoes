@@ -1,0 +1,143 @@
+@ENEM-CN-2013-REG-D1-C1-Q46
+K: o eletrólito conduz íons, não elétrons
+A camada central de eletrólito contém íons que se movem quando se aplica a diferença de potencial. Os ânions entram no filme que oxida e saem do que reduz, fechando o circuito. Dentro do eletrólito quem se move são os íons, e não elétrons livres (D). O movimento também não é causado por efeito térmico (C). **Resposta: B**
+
+@ENEM-CN-2013-REG-D1-C1-Q47
+K: necessidade = dobro de 500 mg
+A recomendação é o dobro de 500 mg, ou seja, 1 000 mg = 1 g de cálcio por dia. Isso dá 1/40 = 0,025 mol, e 0,025 × 6 × 10²³ = 1,5 × 10²² átomos. Quem usa 500 mg chega a 7,5 × 10²¹ (A). **Resposta: B**
+
+@ENEM-CN-2013-REG-D1-C1-Q49
+K: cada meia-vida reduz a massa à metade
+Depois de 5 meias-vidas, sobra 1/2⁵ = 1/32 da massa inicial: 1 000 mg ÷ 32 ≈ 31,3 mg. Atenção à unidade: a resposta é pedida em miligramas, e 1,00 g = 1 000 mg. **Resposta: D**
+
+@ENEM-CN-2013-REG-D1-C1-Q51
+K: qual fonte queima combustíveis?
+As termelétricas queimam combustíveis (carvão, óleo, gás) e liberam CO₂, óxidos de enxofre e de nitrogênio e partículas no ar. Hidrelétricas, solar e eólica (A, D, E) têm outros impactos, mas praticamente não poluem o ar durante a operação. **Resposta: B**
+
+@ENEM-CN-2013-REG-D1-C1-Q58
+K: trans; duplas nos carbonos 2 e 6; metilas em 3 e 7; aldeído no C1
+O citral é um aldeído de 8 carbonos com duplas em C2 e C6 e metilas em C3 e C7, e o isômero mais cheiroso é o trans. A estrutura A cumpre tudo isso. Em C, a dupla C2=C3 é cis, e em D e E as duplas e as metilas estão em posições erradas. **Resposta: A**
+
+@ENEM-CN-2013-REG-D1-C1-Q67
+K: matéria orgânica do solo guarda carbono
+Aumentar a matéria orgânica do solo (com palhada e plantio direto, por exemplo) mantém o carbono preso no solo, em vez de liberá-lo como CO₂. Queimar ou retirar resíduos (D, E) e liberar CO₂ (B) fazem o contrário. **Resposta: C**
+
+@ENEM-CN-2013-REG-D1-C1-Q69
+K: neutralizar ácido com uma base barata e insolúvel
+A drenagem forma H₂SO₄, um ácido. O carbonato de cálcio (CaCO₃, calcário) neutraliza o ácido e eleva o pH. Dióxido de enxofre e cloreto de amônio (C, B) acidificam ainda mais o meio, e o CO₂ (D) também é ácido. **Resposta: E**
+
+@ENEM-CN-2013-REG-D1-C1-Q74
+K: decompor um composto com corrente elétrica = eletrólise
+O texto descreve uma eletrólise. Na indústria, o alumínio é obtido por eletrólise da alumina (Al₂O₃) extraída da bauxita. O ferro (D) é obtido por redução com carvão no alto-forno, e a amônia (E) é obtida por síntese, não por eletrólise. **Resposta: C**
+
+@ENEM-CN-2013-REG-D1-C1-Q77
+K: carbono removido = 3,3% − 0,3%
+O teor de carbono cai de 3,3% para 0,3%, então se removem 3% de 2 500 kg, ou seja, 75 kg de C. Pela reação C + O₂ → CO₂, 12 g de C geram 44 g de CO₂: 75 × 44/12 = 275 kg. A alternativa B (75) é a massa de carbono, não a de CO₂. **Resposta: D**
+
+@ENEM-CN-2013-REG-D1-C1-Q81
+K: partículas leves sobem com bolhas e ficam na superfície
+No tratamento de água, os flocos com as impurezas podem ser separados por flotação, em que bolhas de ar levam as partículas para a superfície, de onde são removidas. Levigação e ventilação (B, C) servem para sólidos secos, e peneiração (D) não retém flocos tão finos. **Resposta: A**
+
+@ENEM-CN-2014-REG-D1-C1-Q49
+K: decomposição anaeróbica do lixo gera biogás
+Nos aterros, bactérias anaeróbias decompõem a matéria orgânica e produzem biogás, rico em metano, que pode ser queimado para gerar energia. Etanol, óleo de xisto e GLP (A, C, E) não são produzidos nos aterros. **Resposta: D**
+
+@ENEM-CN-2014-REG-D1-C1-Q52
+K: enantiômeros têm "mãos" diferentes
+Enantiômeros têm as mesmas propriedades físicas, mas, por serem imagens especulares, se encaixam de forma diferente em receptores e enzimas do organismo, que também são quirais. Por isso, um deles é seguro e o outro causa malformação. Eles têm os mesmos grupos funcionais (E). **Resposta: D**
+
+@ENEM-CN-2014-REG-D1-C1-Q56
+K: redução percentual = (inicial − final) ÷ inicial
+O teor de enxofre caiu de 13 000 ppm para 50 ppm. A redução foi de (13 000 − 50)/13 000 ≈ 0,996, isto é, 99,6%. Como o SO₃ vem do enxofre, a emissão cai na mesma proporção. **Resposta: D**
+
+@ENEM-CN-2014-REG-D1-C1-Q58
+K: sabão: cadeia longa apolar + ponta iônica
+Para formar micelas, a molécula precisa de uma cadeia carbônica longa (apolar) e de uma extremidade iônica (polar). O C₁₇H₃₃COONa é um sabão típico. O CH₃CH₂COONa (C) tem a ponta iônica, mas a cadeia é curta demais, e o C₁₈H₃₆ (A) é totalmente apolar. **Resposta: B**
+
+@ENEM-CN-2014-REG-D1-C1-Q70
+K: [OH⁻] = 10⁻¹⁰ → pH 4 (ácido demais)
+Se [OH⁻] = 10⁻¹⁰ mol/L, então pOH = 10 e pH = 4, abaixo do mínimo de 5. É preciso uma substância básica: o K₂CO₃, sal de base forte e ácido fraco, que se hidrolisa formando OH⁻. CH₃COOH e NH₄Cl (A, E) acidificariam ainda mais. **Resposta: D**
+
+@ENEM-CN-2014-REG-D1-C1-Q77
+K: quiral, insaturada, heterogênea e ramificada
+Em B, "(CH)₂" indica a dupla CH=CH (insaturada), o N entre carbonos torna a cadeia heterogênea e o CH(CH₃) é uma ramificação e também um carbono quiral, ligado a 4 grupos diferentes. Em C o NH₂ é terminal, então a cadeia não é heterogênea, e D é saturada. **Resposta: B**
+
+@ENEM-CN-2014-REG-D1-C1-Q78
+K: amido é biodegradável
+O amido é um carboidrato que microrganismos decompositores digerem. Quando o amido é consumido, a resina fica cheia de "buracos" e se fragmenta com mais facilidade. Ele não se decompõe sozinho em contato com água e CO₂ (E). **Resposta: D**
+
+@ENEM-CN-2014-REG-D1-C1-Q86
+K: piridina é uma base
+A piridina (C₅H₅N) tem caráter básico, por causa do par de elétrons do nitrogênio. O ácido acético reage com ela em uma neutralização, formando um sal sem cheiro e solúvel, que sai no enxágue. A alternativa B erra ao dizer que a piridina é ácida. **Resposta: E**
+
+@ENEM-CN-2014-REG-D1-C1-Q88
+K: 1 mol de SO₂ → 1 mol de CaSO₄
+Pelas equações, cada mol de SO₂ retido forma 1 mol de CaSO₃ e depois 1 mol de CaSO₄ (gesso). A massa molar do CaSO₄ é 40 + 32 + 64 = 136 g/mol, e com 90% de rendimento obtém-se 0,9 × 136 ≈ 122 g. A alternativa D (136) esquece o rendimento. **Resposta: C**
+
+@ENEM-CN-2015-REG-D1-C1-Q51
+K: formar agregados + ímã
+As moléculas do LCC se juntam ao petróleo formando agregados (floculação). Depois, as nanopartículas magnéticas permitem retirar esses agregados com um ímã (separação magnética). Não há destilação nem decantação (A, D). **Resposta: C**
+
+@ENEM-CN-2015-REG-D1-C1-Q52
+K: NaOH é higroscópico
+O hidróxido de sódio é higroscópico: absorve a umidade do ar e se dissolve nela, parecendo "derreter". Não é fusão (B), porque seu ponto de fusão é muito acima da temperatura ambiente, e ele não reage com o N₂ (E). **Resposta: A**
+
+@ENEM-CN-2015-REG-D1-C1-Q55
+K: cada Ca(NO₃)₂ fornece 2 NO₃⁻
+São necessários 0,009 × 5 000 = 45 mol de NO₃⁻, ou seja, 22,5 mol de Ca(NO₃)₂ (massa molar 164 g/mol). Isso dá 22,5 × 164 ≈ 3 690 g, e 3 690 ÷ 90 g/L ≈ 41 L. Quem esquece que cada fórmula tem 2 nitratos chega a 82 L (E). **Resposta: B**
+
+@ENEM-CN-2015-REG-D1-C1-Q58
+K: o estanho protege o ferro como barreira
+O estanho cobre o aço e o protege da corrosão. Se a lata amassa, a camada pode romper, expondo o ferro, que enferruja e pode alterar o alimento. A alternativa D erra ao chamar o estanho de metal tóxico, já que o problema é a corrosão do ferro. **Resposta: B**
+
+@ENEM-CN-2015-REG-D1-C1-Q62
+K: fenolftaleína fica rosa em meio básico
+A cor rosa indica meio básico (bicarbonato). A queima do fósforo libera óxidos ácidos (como SO₂ e CO₂), que se dissolvem na água ao agitar e baixam o pH, e a cor some. O pH diminui, e não aumenta (E). **Resposta: A**
+
+@ENEM-CN-2015-REG-D1-C1-Q67
+K: com pouca água, os rins economizam água
+Desidratado, o corpo libera mais ADH, e os rins reabsorvem mais água. A urina sai em menor volume e mais concentrada em sais e ureia. Produzir mais urina (B) seria perder ainda mais água. **Resposta: D**
+
+@ENEM-CN-2015-REG-D1-C1-Q71
+K: some equações → multiplique as constantes; inverta → use 1/K
+A reação I é igual a IV + III − II: somando IV e III e invertendo II, cancelam-se H⁺ e CO₃²⁻. Então K = K₃ × K₂ ÷ K₁ = (2,5 × 10⁻⁷ × 6,0 × 10⁻⁹) ÷ 3,0 × 10⁻¹¹ = 5,0 × 10⁻⁵. Multiplicar as três constantes daria 4,5 × 10⁻²⁶ (A). **Resposta: B**
+
+@ENEM-CN-2015-REG-D1-C1-Q76
+K: pureza e rendimento multiplicam
+100 kg de minério × 75% = 75 kg de ZnS. Como 97 g de ZnS dão 65 g de Zn, 75 kg geram 75 × 65/97 ≈ 50 kg. Com rendimento de 80%, obtêm-se 0,8 × 50 ≈ 40 kg. A alternativa D (50) esquece o rendimento. **Resposta: C**
+
+@ENEM-CN-2015-REG-D1-C1-Q80
+K: o que se acumula em gordura é apolar
+Os organoclorados se acumulam nos tecidos lipídicos porque são pouco polares e, assim, se dissolvem em gordura. A presença de halogênios (C) não explica isso por si só, e hidroxilas (E) aumentariam a polaridade. **Resposta: A**
+
+@ENEM-CN-2016-REG-D1-C1-Q46
+K: capsaicina é oleosa (apolar)
+A capsaicina está em uma oleorresina, que é pouco polar, e se dissolve muito pouco em água. Por isso, a água não consegue removê-la. Não há reação perigosa entre etanol e água (A), e o óleo não se dissolve na água (D). **Resposta: B**
+
+@ENEM-CN-2016-REG-D1-C1-Q51
+K: Ba²⁺ + SO₄²⁻ → BaSO₄ (sólido branco)
+O HCl dissolve o carbonato de bário, liberando Ba²⁺, enquanto o BaSO₄ original fica retido no filtro. Ao adicionar H₂SO₄ ao filtrado, se houver Ba²⁺ forma-se BaSO₄, um precipitado branco. Não há gás hidrogênio nem cloro (D, E). **Resposta: C**
+
+@ENEM-CN-2016-REG-D1-C1-Q58
+K: o rendimento usa o reagente limitante
+CH₃Br: 142,5/95 = 1,5 mol. NaOH: 80/40 = 2 mol (em excesso). Como a proporção é 1 : 1, o limitante é o CH₃Br. O metanol obtido é 32/32 = 1 mol, então R = 1/1,5 ≈ 67%. Usar o NaOH daria 50% (C). **Resposta: D**
+
+@ENEM-CN-2016-REG-D1-C1-Q60
+K: carvão e benzeno são apolares
+O carvão e o benzeno são apolares, e a interação entre moléculas apolares é do tipo dipolo induzido – dipolo induzido (forças de London). A adsorção é física, sem formar ligações covalentes (B), e o benzeno não faz ligações de hidrogênio (C). **Resposta: D**
+
+@ENEM-CN-2016-REG-D1-C1-Q64
+K: ddp da célula = E(cátodo) − E(ânodo)
+Cada biocélula fornece 0,8 − (−0,3) = 1,1 V. Ligadas em série, as tensões se somam: 4,4 ÷ 1,1 = 4 biocélulas. Quem calcula 0,8 − 0,3 = 0,5 V, esquecendo o sinal negativo, chega a 9 células (D). **Resposta: B**
+
+@ENEM-CN-2016-REG-D1-C1-Q67
+K: mudança de estado não muda as moléculas
+Nas mudanças de estado físico, as moléculas continuam as mesmas, e só muda a forma como se organizam e se afastam umas das outras. Trocar átomos (A) seria uma reação química, e as alternativas B, C e E envolvem mudanças nucleares, o que não ocorre. **Resposta: D**
+
+@ENEM-CN-2016-REG-D1-C1-Q68
+K: volume de vinhaça × concentração de P
+27 000 L de etanol geram 27 000 × 18 = 486 000 L de vinhaça. Com 60 mg/L de P, isso dá 29 160 000 mg ≈ 29 kg de fósforo. A alternativa C (60) confunde a concentração com a massa total. **Resposta: B**
+
+@ENEM-CN-2016-REG-D1-C1-Q72
+K: o vapor carrega os óleos voláteis das folhas
+O vapor passa pelas folhas e arrasta os óleos essenciais voláteis, que perfumam a sauna. Essa é a extração por arraste a vapor. Não há condensação para recolher um destilado (B), nem filtração (A). **Resposta: C**

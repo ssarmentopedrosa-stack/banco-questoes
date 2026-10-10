@@ -1,0 +1,172 @@
+[
+ {
+  "year": "2017",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+  "capture": "20171118002443",
+  "digest": "I6C33PRWN2B6Q63XEQDFQW7AYTPHBG2Q",
+  "sha1_ok": true,
+  "size": 197114,
+  "sha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863"
+ },
+ {
+  "year": "2018",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2018/GAB_ENEM_2018_DIA_1_AZUL.pdf",
+  "capture": "20181123100120",
+  "digest": "MQDF5SC3FSEVJ6J77QNDBIDLWP7NG7SR",
+  "sha1_ok": true,
+  "size": 152963,
+  "sha256": "8962d77f20412f17adfebdda624b1487a91de808b9b8ef00561316bd9b9a7041"
+ },
+ {
+  "year": "2019",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+  "capture": "20191126122614",
+  "digest": "ET7VB6I64X6RVIIHUVNPWTDGLGRNMN7K",
+  "sha1_ok": true,
+  "size": 165462,
+  "sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc"
+ },
+ {
+  "year": "2020",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+  "capture": "20210204075116",
+  "digest": "FHEQ3Q4DQXTQUGLD3KFNGGWR3DHCTSYS",
+  "sha1_ok": true,
+  "size": 129591,
+  "sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb"
+ },
+ {
+  "year": "2020",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+  "capture": "20210128163702",
+  "digest": "WCIIJ5YOMIL2EUYSE72JGPRWL5HYBOMG",
+  "sha1_ok": true,
+  "size": 129835,
+  "sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0"
+ },
+ {
+  "year": "2021",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
+  "capture": "20211201183304",
+  "digest": "5V3DVAQNXEDMIYLDZ2VI6WWVUVQOQCM6",
+  "sha1_ok": true,
+  "size": 224151,
+  "sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4"
+ },
+ {
+  "year": "2021",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
+  "capture": "20211201183615",
+  "digest": "YSOLIX2AELI77FEFYX55QMXSFOCTOQD6",
+  "sha1_ok": true,
+  "size": 224392,
+  "sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7"
+ },
+ {
+  "year": "2022",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D1_CD1.pdf",
+  "capture": "20221209113542",
+  "digest": "3PVPDGX4RFGIUFO4ECGWCY4HESEWFIP4",
+  "sha1_ok": true,
+  "size": 211180,
+  "sha256": "023dda43b3b4e7b275d7155d9d856451dc14d607f891601c65f9a0fcc3c8ed7e"
+ },
+ {
+  "year": "2022",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+  "capture": "20221209114428",
+  "digest": "EVY6WM7V2Y4JNQFJMUMXYEFVGW3BTAFC",
+  "sha1_ok": true,
+  "size": 210705,
+  "sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118"
+ },
+ {
+  "year": "2023",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+  "capture": "20231115005633",
+  "digest": "4LLQILC4X3JYM72HHXTRJESPUZAGMBTB",
+  "sha1_ok": true,
+  "size": 592479,
+  "sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1"
+ },
+ {
+  "year": "2023",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+  "capture": "20231204055957",
+  "digest": "3NJ3GDH6FHGKUZXVBMKP3B77QN2BDEIQ",
+  "sha1_ok": true,
+  "size": 592375,
+  "sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410"
+ },
+ {
+  "year": "2024",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D1_CD1.pdf",
+  "capture": "20241114205449",
+  "digest": "ZU6UOFENCYB2D7UIUWRBB2WGIKUNXGP2",
+  "sha1_ok": true,
+  "size": 118234,
+  "sha256": "673d3d060156d6ad610ecf96c3dd0b8c61f361e16c57860c4ca5b5fecc8be050"
+ },
+ {
+  "year": "2024",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D2_CD7.pdf",
+  "capture": "20241114130018",
+  "digest": "EWAL4GRGIJX67XEHZNGV6JSWSVPJDJJJ",
+  "sha1_ok": true,
+  "size": 120684,
+  "sha256": "8d27b5a447061e9a1c181d00a916d10f45e1c6c1da68d628b3ae8bdfedbf5c92"
+ },
+ {
+  "year": "2025",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D1_CD1.pdf",
+  "capture": "20251113191029",
+  "digest": "OJ23WII23OBQD6EC55KPSMLKDXF4X3BP",
+  "sha1_ok": true,
+  "size": 132331,
+  "sha256": "583ac1950cd1927c42c971c270f96c0e33816844084fd5866a13bf94d8e08a81"
+ },
+ {
+  "year": "2025",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD7.pdf",
+  "capture": "20251121155126",
+  "digest": "VW5KTPAAGIHKJNNXOTSL655YDIT52WPV",
+  "sha1_ok": true,
+  "size": 293450,
+  "sha256": "9e2d470af35378df532173414ec7077c3ce4df38c084a5f1258579fdf9270aef"
+ },
+ {
+  "year": "2024",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D1_CD1.pdf",
+  "capture": "20260927025104",
+  "digest": "KTFQR5RPTFBQZBH4BTWPE2DP6JVKBL5D",
+  "sha1_ok": true,
+  "size": 4808950,
+  "sha256": "b0adc1dc79a002aba36f725f1ef792cf53e47ff75ee012638ef34a4e6fbb18f5"
+ },
+ {
+  "year": "2025",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D1_CD1.pdf",
+  "capture": "20260722214154",
+  "digest": "XLUHO4QQ26KVL2T6VJSU4EHTDWH2DZRM",
+  "sha1_ok": true,
+  "size": 3343529,
+  "sha256": "a0f19f878d4ef3ba94c3e0f5ef9e57c13fb046d4bb362f72651898b473ddb7c8"
+ }
+]
