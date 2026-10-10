@@ -1,4 +1,266 @@
 {
- "contagem": {},
- "log": []
+ "contagem": {
+  "fórmulas/íons/potências (sub/sobrescrito)": 143,
+  "NFC (acentos decompostos)": 34,
+  "quebra de linha no meio da frase": 49,
+  "palavras sem acento (conferidas com o PDF oficial)": 12,
+  "alternativa padronizada com inicial maiúscula": 190,
+  "correções da auditoria/pontuais": 30,
+  "ℓ → l/L": 3,
+  "NFC Física": 5
+ },
+ "log": [
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q66",
+   "acento",
+   [
+    [
+     "loriciferos,",
+     "loricíferos,"
+    ]
+   ]
+  ],
+  [
+   "ENEM-CN-2023-REG-D2-C7-Q98",
+   "acento",
+   [
+    [
+     "impar:",
+     "ímpar:"
+    ]
+   ]
+  ],
+  [
+   "ENEM-CN-2023-REG-D2-C7-Q106",
+   "acento",
+   [
+    [
+     "especifica",
+     "específica"
+    ]
+   ]
+  ],
+  [
+   "ENEM-CN-2023-REG-D2-C7-Q106",
+   "genoma do hospedeiro. gerando",
+   "genoma do hospedeiro, gerando"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q53",
+   "PO4−3",
+   "PO₄³⁻"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q65",
+   "I – NaHCO3 → NA+ + HCO3\n",
+   "I – NaHCO₃ → Na⁺ + HCO₃⁻\n"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q65",
+   "III – HCO3 + H+",
+   "III – HCO₃⁻ + H⁺"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q65",
+   "↔H2O",
+   "↔ H₂O"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q65",
+   "IV – H3A ↔ 3H+ + A−",
+   "IV – H₃A ↔ 3 H⁺ + A⁻"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q72",
+   "miligramas necessárias",
+   "miligramas necessária"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q72",
+   "massa molar a 30",
+   "massa molar igual a 30"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q72",
+   "**BAIRD, C. **Química Ambiental**. Ed. B",
+   "BAIRD, C. **Química Ambiental**. Ed. Boo"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q72",
+   "9,0 mg/l a 20",
+   "9,0 mg/L a 20"
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q82",
+   "M2+ =",
+   "M²⁺ ="
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q82",
+   "acento",
+   [
+    [
+     "ions",
+     "íons"
+    ],
+    [
+     "ions",
+     "íons"
+    ]
+   ]
+  ],
+  [
+   "ENEM-CN-2010-REG-D1-C1-Q82",
+   "acento",
+   [
+    [
+     "ions",
+     "íons"
+    ]
+   ]
+  ],
+  [
+   "ENEM-CN-2015-REG-D1-C1-Q55",
+   "NO3 −)",
+   "NO₃⁻)"
+  ],
+  [
+   "ENEM-CN-2015-REG-D1-C1-Q62",
+   "**Química na cabeç**a.",
+   "**Química na cabeça**."
+  ],
+  [
+   "ENEM-CN-2015-REG-D1-C1-Q71",
+   "(I) CaCO3 (s) + CO2 (g) + H2O (l) Ca2+ (",
+   "(I) CaCO₃ (s) + CO₂ (g) + H₂O (l) ⇌ Ca²⁺"
+  ],
+  [
+   "ENEM-CN-2015-REG-D1-C1-Q71",
+   "0,2×105",
+   "0,2×10⁵"
+  ],
+  [
+   "ENEM-CN-2016-REG-D1-C1-Q58",
+   "definido como nproduto R = × 100 nreagen",
+   "definido como R = (n produto ÷ n reagent"
+  ],
+  [
+   "ENEM-CN-2017-REG-D2-C7-Q102",
+   "F**atores ambientais",
+   "**Fatores ambientais"
+  ],
+  [
+   "ENEM-CN-2017-REG-D2-C7-Q102",
+   "(NH4X , de acordo",
+   "(NH₄X), de acordo"
+  ],
+  [
+   "ENEM-CN-2017-REG-D2-C7-Q102",
+   "(g) –> NH4X (s)",
+   "(g) → NH₄X (s)"
+  ],
+  [
+   "ENEM-CN-2019-REG-D2-C7-Q99",
+   "D eleva o pH",
+   "Eleva o pH"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q91",
+   "(S2\nO8\n2−)",
+   "(S₂O₈²⁻)"
+  ],
+  [
+   "ENEM-CN-2022-REG-D2-C7-Q91",
+   "•SO4\n−",
+   "•SO₄⁻"
+  ],
+  [
+   "ENEM-CN-2024-REG-D2-C7-Q116",
+   "Ca²⁺ (aq) O método",
+   "Ca²⁺ (aq)\n\nO método"
+  ],
+  [
+   "ENEM-CN-2025-REG-D2-C7-Q117",
+   "Cl₂ (g) TiCl₄ (g)",
+   "Cl₂ (g) → TiCl₄ (g)"
+  ],
+  [
+   "ENEM-CH-2012-REG-D1-C1-Q32",
+   "I**ntrodução a climatologia para os tróp",
+   "**Introdução à climatologia para os tróp"
+  ],
+  [
+   "ENEM-CH-2015-REG-D1-C1-Q32",
+   "Acesso em: 1 nov. 2014\n",
+   "Acesso em: 1 nov. 2014.\n"
+  ],
+  [
+   "ENEM-CH-2016-REG-D1-C1-Q44",
+   "acento",
+   [
+    [
+     "politica",
+     "política"
+    ],
+    [
+     "subsidios",
+     "subsídios"
+    ],
+    [
+     "agricolas",
+     "agrícolas"
+    ]
+   ]
+  ],
+  [
+   "ENEM-CH-2022-REG-D1-C1-Q50",
+   "acento",
+   [
+    [
+     "vitimas,",
+     "vítimas,"
+    ]
+   ]
+  ],
+  [
+   "ENEM-CH-2022-REG-D1-C1-Q72",
+   "acento",
+   [
+    [
+     "**Disponivel",
+     "**Disponível"
+    ]
+   ]
+  ],
+  [
+   "ENEM-CH-2022-REG-D1-C1-Q87",
+   "acento",
+   [
+    [
+     "numero",
+     "número"
+    ]
+   ]
+  ],
+  [
+   "ENEM-CH-2023-REG-D1-C1-Q67",
+   "SCHIAVETTI, A. MORAES M. E. B.",
+   "SCHIAVETTI, A.; MORAES, M. E. B."
+  ],
+  [
+   "ENEM-CH-2023-REG-D1-C1-Q67",
+   "2014 (adaptado)\n",
+   "2014 (adaptado).\n\n"
+  ],
+  [
+   "ENEM-CH-2023-REG-D1-C1-Q67",
+   "pastagens.\nSOLLBERG",
+   "pastagens.\n\nSOLLBERG"
+  ],
+  [
+   "ENEM-CN-2009-REG-D1-C1-Q12",
+   "COO⁻ + H₂O CH₃",
+   "COO⁻ + H₂O ⇌ CH₃"
+  ]
+ ]
 }

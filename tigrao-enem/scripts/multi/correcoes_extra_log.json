@@ -1,6 +1,6 @@
 {
  "contagem": {
-  "correções pontuais (2ª rodada)": 106,
+  "correções pontuais (2ª rodada)": 102,
   "figuras de texto convertidas em texto": 2,
   "alternativas-imagem convertidas em texto": 5,
   "\"x\" → \"×\" em potências de 10": 5
@@ -222,16 +222,6 @@
    "são, respectivamente"
   ],
   [
-   "ENEM-CN-2014-REG-D1-C1-Q56",
-   "S₁₈₀₀",
-   "S1800"
-  ],
-  [
-   "ENEM-CN-2014-REG-D1-C1-Q56",
-   "S₅₀₀",
-   "S500"
-  ],
-  [
    "ENEM-CN-2014-REG-D1-C1-Q88",
    "2CaSO4(s)",
    "2 CaSO₄(s)"
@@ -370,16 +360,6 @@
    "ENEM-CN-2019-REG-D2-C7-Q108",
    "2s22p5",
    "2s² 2p⁵"
-  ],
-  [
-   "ENEM-CN-2022-REG-D2-C7-Q101",
-   "SP₇₉",
-   "SP79"
-  ],
-  [
-   "ENEM-CN-2022-REG-D2-C7-Q101",
-   "SP₈₀",
-   "SP80"
   ],
   [
    "ENEM-CN-2023-REG-D2-C7-Q96",
