@@ -30,3 +30,14 @@ original): `segment.py` → `ocr.py` → `build.py`.
 ## Resoluções
 Nenhuma resolução foi gerada para as matérias novas (`explanation: null`): o app mostra só o gabarito oficial.
 Se forem escritas por IA, ficam com `reviewed: false` (selo "aguardando revisão") até o Prof. Silas revisar.
+
+
+## Correções de texto e resoluções (out/2026)
+Depois de `build.py`, rodar nesta ordem (todos idempotentes):
+1. `corrige_textos.py` — NFC em todas as matérias (inclusive Física), fórmulas/íons, quebras de linha, `**` quebrados,
+   acentos conferidos com o PDF oficial, correções da auditoria. Contagem em `correcoes_log.json`.
+2. `corrige_extra.py` — 2ª rodada de correções pontuais, figuras que eram só texto viram texto, remanejamentos
+   (2018 Q116 e 2017 Q113 → Química; 2015 Q67 → Biologia). Log em `correcoes_extra_log.json`.
+3. `aplica_resolucoes.py` — lê `resolucoes/*.txt` (resoluções geradas por IA, **não revisadas pelo professor**),
+   confere a letra final com o gabarito oficial e grava `explanation` (`author: "IA"`, `reviewed: false`).
+   Questões em que o raciocínio não chegou com segurança ao gabarito ficam em `resolucoes_sinalizadas.json` (só gabarito).

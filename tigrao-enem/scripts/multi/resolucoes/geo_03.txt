@@ -1,0 +1,135 @@
+@ENEM-CH-2015-REG-D1-C1-Q1
+K: semiárido + uso inadequado do solo
+O mapa destaca áreas do semiárido nordestino (Caatinga), onde o clima seco, somado a desmatamento, sobrepastoreio e manejo inadequado do solo, provoca desertificação. A contaminação de águas subterrâneas e as matas ciliares (E, D) não são o foco dessa regionalização. **Resposta: A**
+
+@ENEM-CH-2015-REG-D1-C1-Q8
+K: crise do subprime: economias interligadas
+A crise imobiliária dos EUA (2007–2008) se espalhou porque bancos e investidores do mundo todo tinham títulos ligados a essas hipotecas, já que o sistema financeiro é interdependente. Não foi uma crise de superprodução (A) nem começou na Ásia (B). **Resposta: C**
+
+@ENEM-CH-2015-REG-D1-C1-Q15
+K: mapear o próprio território fortalece a identidade
+Ao mapear suas terras, indígenas e quilombolas registram seus usos, limites e saberes, fortalecendo a identidade coletiva e a defesa dos territórios. A cartografia social serve para proteger esses grupos, e não para removê-los ou expandir a fronteira agrícola (A, B). **Resposta: D**
+
+@ENEM-CH-2015-REG-D1-C1-Q27
+K: intemperismo químico precisa de água e calor
+O intemperismo é mais intenso em climas quentes e úmidos. Onde chove pouco, como no semiárido, ele é muito fraco, e os solos são rasos e pouco alterados. Os climas equatorial e tropical (C, A) têm intemperismo forte. **Resposta: D**
+
+@ENEM-CH-2015-REG-D1-C1-Q30
+K: água acumulada no solo favorece deslizamentos
+Drenagem eficiente evita que a água encharque e pese no solo da encosta, reduzindo os deslizamentos. Solo exposto e chuva abundante (A, E) aumentam o risco. **Resposta: B**
+
+@ENEM-CH-2015-REG-D1-C1-Q31
+K: marmitas (caldeirões) no leito rochoso
+Os buracos arredondados no leito rochoso (marmitas) se formam quando a água turbilhonar gira seixos e areia, que desgastam a rocha como uma broca. Fraturas internas e assoreamento (A, E) não produzem essas formas circulares. **Resposta: C**
+
+@ENEM-CH-2015-REG-D1-C1-Q32
+K: veredas funcionam como "caixa-d'água"
+As veredas são áreas úmidas que armazenam a água da chuva e a liberam aos poucos para nascentes e rios, funcionando como um sistema represador. A vegetação delas é hidrófila (de buritis), e não xerófila (A). **Resposta: E**
+
+@ENEM-CH-2015-REG-D1-C1-Q33
+K: sensores e dados orientam a irrigação
+A estação meteorológica e o sistema online permitem acompanhar a umidade e a necessidade de água das plantas, ou seja, monitorar a produção. A tecnologia não corrige o clima (C), apenas ajusta a irrigação a ele. **Resposta: A**
+
+@ENEM-CH-2015-REG-D1-C1-Q45
+K: preservacionismo: natureza intocável
+O texto descreve o preservacionismo, que defende a intocabilidade da natureza e proíbe qualquer exploração econômica. O uso sustentável (A) corresponde ao conservacionismo, uma concepção diferente. **Resposta: D**
+
+@ENEM-CH-2016-REG-D1-C1-Q3
+K: casa móvel: menos deslocamento casa–trabalho
+O movimento pendular é o ir e vir diário entre a casa e o trabalho. Uma casa que se desloca para perto do trabalho nos dias úteis reduziria essa viagem diária. O deslocamento sazonal (D) é o de temporadas, e não o diário. **Resposta: B**
+
+@ENEM-CH-2016-REG-D1-C1-Q4
+K: o Rio comanda uma rede de cidades
+O Rio de Janeiro exerce influência sobre várias cidades de outros estados, que dependem dele para serviços. Essa área é uma região polarizada pelo Rio. Conurbação (D) seria a junção física de manchas urbanas, o que não ocorre com Vitória ou Juiz de Fora. **Resposta: C**
+
+@ENEM-CH-2016-REG-D1-C1-Q12
+K: disputa por águas contestadas
+A plataforma chinesa foi colocada em águas reivindicadas também por Vietnã e Filipinas, um conflito sobre quem tem soberania sobre aquele espaço marítimo e seus recursos. Não se trata de inovações tecnológicas ou embargos (B, E). **Resposta: D**
+
+@ENEM-CH-2016-REG-D1-C1-Q18
+K: quem pode pagar continua poluindo
+Os críticos dizem que o mercado de créditos permite que os países ricos comprem o "direito de poluir", enquanto a redução fica para outros. Assim, os impactos ambientais são distribuídos de forma desigual. As críticas não se baseiam na queda do consumo ou do crescimento (A, E). **Resposta: D**
+
+@ENEM-CH-2016-REG-D1-C1-Q19
+K: transferências de dinheiro rápidas e baratas
+O avanço das comunicações e dos sistemas bancários eletrônicos facilitou o envio de remessas pelos imigrantes e o contato com as famílias. A quebra de barreiras alfandegárias (C) afeta mercadorias, e não o envio de dinheiro. **Resposta: B**
+
+@ENEM-CH-2016-REG-D1-C1-Q29
+K: a cidade deve atender também aos excluídos
+A função social da cidade exige que todos tenham acesso a serviços e infraestrutura, inclusive nas periferias. Qualificar os serviços públicos nos bairros periféricos vai nessa direção. Investir em áreas turísticas ou desregulamentar o setor imobiliário (D, E) beneficia outros grupos. **Resposta: A**
+
+@ENEM-CH-2016-REG-D1-C1-Q30
+K: soja e gado avançam sobre o Cerrado
+O Cerrado é um hotspot porque é muito rico em espécies e foi muito desmatado, principalmente pela expansão da fronteira agrícola (soja, milho, algodão, pastagens). Parques ecológicos (B) são uma forma de proteção, e não uma ameaça. **Resposta: E**
+
+@ENEM-CH-2016-REG-D1-C1-Q31
+K: governo incentivando a xenofobia
+O ACNUR critica o governo húngaro por estimular a xenofobia com muros e cartazes, o que fortalece práticas de discriminação contra imigrantes e refugiados. A crítica não é sobre mudança de regime nem sobre liberdade de expressão (A, D). **Resposta: E**
+
+@ENEM-CH-2016-REG-D1-C1-Q39
+K: pescar mais do que o estoque repõe
+A sobrepesca esgotou o bacalhau e agora avança para outros mares, mostrando um modelo de produção e consumo que retira recursos mais rápido do que a natureza repõe: insustentável. A alternativa D erra, porque a causa é humana, e não natural. **Resposta: A**
+
+@ENEM-CH-2016-REG-D1-C1-Q40
+K: tecnologia nova convivendo com trabalho precário
+O texto mostra que a tecnologia (just in time, digitalização) aumenta a produtividade, mas convive com o trabalho informal e precário, como o dos vendedores ambulantes. Isso decorre de mudanças na estrutura produtiva. Não há regularização do trabalho formal (B). **Resposta: C**
+
+@ENEM-CH-2016-REG-D1-C1-Q44
+K: campo conectado, globalizado e com novas atividades
+O texto descreve um interior conectado e rico, com atividades que vão além da agricultura tradicional (agroindústria, serviços, turismo rural): são as novas ruralidades. Trabalho compulsório (C) não se relaciona com o texto. **Resposta: B**
+
+@ENEM-CH-2017-REG-D1-C1-Q52
+K: centro rico, periferia pobre
+O texto descreve um centro com empregos e serviços e uma periferia pobre e mal servida: é a segregação socioespacial. Expansão vertical (A) é a construção de prédios altos, o que não explica essa divisão. **Resposta: D**
+
+@ENEM-CH-2017-REG-D1-C1-Q53
+K: menos tarifas = mais competitividade
+Ao eliminar tarifas entre si, os países da Aliança do Pacífico ampliam o comércio e ganham escala, tornando-se mais competitivos no mercado externo (como o asiático). O acordo não trata de livre circulação de trabalhadores (A). **Resposta: B**
+
+@ENEM-CH-2017-REG-D1-C1-Q55
+K: lixiviação + alumínio = solo ácido
+A lavagem dos nutrientes básicos (cálcio, magnésio, potássio) e a sua substituição pelo alumínio tornam o solo mais ácido. Salinização (B) ocorre em clima seco, e voçorocas (C) são uma forma de erosão, que não é o processo descrito. **Resposta: A**
+
+@ENEM-CH-2017-REG-D1-C1-Q56
+K: o gargalo é a estrutura portuária
+O texto aponta filas de navios, caminhões e trens por falta de infraestrutura. Construir novos terminais de atracação aumenta a capacidade de embarque e reduz as filas. Isenção de impostos (A) não resolve a falta de estrutura. **Resposta: B**
+
+@ENEM-CH-2017-REG-D1-C1-Q57
+K: países ricos mantêm o comando via tecnologia e serviços
+Ao transferir fábricas, os países desenvolvidos se concentram em serviços avançados, pesquisa e inovação, consolidando o domínio tecnológico que mantém seu comando da economia. A alternativa A não se sustenta, porque a indústria se deslocou para outros países, sem se saturar. **Resposta: D**
+
+@ENEM-CH-2017-REG-D1-C1-Q59
+K: invernos muito frios e grande amplitude térmica
+O climograma mostra temperaturas negativas no inverno e grande variação ao longo do ano, típicas de alta latitude e continentalidade, como em Moscou. A Cidade do Cabo (A) tem amplitude pequena, e Mumbai (C) tem chuvas de monção concentradas no verão. **Resposta: E**
+
+@ENEM-CH-2017-REG-D1-C1-Q61
+K: hegemonia militar global
+Após o fim da URSS, os EUA tornaram-se a única superpotência militar, com bases espalhadas pelo mundo que permitiram reagir rapidamente na Guerra do Golfo e após o 11 de Setembro. A Rússia não se alinhou aos EUA (B), e o Irã não é aliado deles (D). **Resposta: A**
+
+@ENEM-CH-2017-REG-D1-C1-Q68
+K: troncos retorcidos e cupinzeiros = Cerrado
+O texto descreve o Cerrado: árvores de troncos retorcidos, solos ácidos e cupinzeiros, sob clima tropical com estações seca e chuvosa. Sua vegetação é tropófila (adaptada a essa alternância). A xerófila do semiárido (B) é a da Caatinga. **Resposta: A**
+
+@ENEM-CH-2017-REG-D1-C1-Q69
+K: perto do consumo e da produção = bem conectada
+Se a refinaria deve ficar próxima dos centros de consumo e das áreas de produção, ela precisa estar em locais com boa infraestrutura de circulação (portos, dutos, rodovias), para receber o petróleo e distribuir os derivados. Os outros fatores não são citados no texto. **Resposta: E**
+
+@ENEM-CH-2017-REG-D1-C1-Q71
+K: compare área alagada e energia gerada
+Pelos dados, Belo Monte inunda uma área relativamente pequena para a energia que produz (usina a fio d'água), comparada a hidrelétricas como Balbina ou Tucuruí. O relevo da Amazônia é pouco acidentado, o que descarta B. **Resposta: A**
+
+@ENEM-CH-2017-REG-D1-C1-Q73
+K: indústrias saindo das metrópoles
+Com a desconcentração industrial, fábricas foram para cidades médias e para o interior, o que redirecionou os migrantes para esses centros e reduziu a atração das metrópoles. A economia informal (B) não explica a mudança de destino dos fluxos. **Resposta: D**
+
+@ENEM-CH-2017-REG-D1-C1-Q75
+K: aprovação por ampla maioria na Assembleia-Geral
+A votação (138 de 193 países) mostrou o apoio da comunidade internacional à demanda palestina por um Estado. A Palestina passou a observador, e não a membro pleno igual aos demais (E). As fronteiras e a paz com Israel não foram definidas (A, C). **Resposta: D**
+
+@ENEM-CH-2017-REG-D1-C1-Q86
+K: terremotos se concentram nos limites de placas
+O Chile fica no encontro da placa de Nazca com a Sul-Americana, uma faixa de grande atividade sísmica junto aos dobramentos modernos (Andes). As áreas centrais das placas e os escudos antigos (D, E) são estáveis. **Resposta: C**
+
+@ENEM-CH-2017-REG-D1-C1-Q87
+K: massas de ar úmidas trazem chuva
+Os dados mostram umidade alta no Sul e baixa no Nordeste naquele dia. O fator determinante é a atuação das massas de ar, que trazem ou não umidade e chuva (como uma frente fria no Sul). Altitude e vegetação (A, B) não mudam de um dia para o outro. **Resposta: C**

@@ -1,0 +1,139 @@
+@ENEM-CH-2012-REG-D1-C1-Q14
+K: porto congestionado = gargalo logístico
+Com navios esperando muito tempo para atracar, fica mais difícil e caro escoar a produção, especialmente as commodities agrícolas, que dependem dos portos. O modal aéreo (A) é caro demais para grãos, e o problema não leva ao comércio só com os vizinhos (D). **Resposta: C**
+
+@ENEM-CH-2012-REG-D1-C1-Q18
+K: memória, pertencimento, sentimentos
+O texto fala em memória, pertencimento e sentimentos ligados à paisagem: é a sua dimensão simbólica, a relação subjetiva das pessoas com o lugar. As dimensões natural, econômica ou política (D, B, A) não aparecem no trecho. **Resposta: E**
+
+@ENEM-CH-2012-REG-D1-C1-Q20
+K: as melhores terras ficaram com a minoria exportadora
+Na África colonial, as melhores terras foram concentradas na agricultura de exportação controlada pela minoria branca, mesmo após a independência. A população pobre foi empurrada para terras marginais, menos férteis. As alternativas B e D descrevem efeitos opostos ao do texto. **Resposta: E**
+
+@ENEM-CH-2012-REG-D1-C1-Q24
+K: compare as pirâmides urbana e rural
+As figuras mostram que a base da pirâmide urbana é mais estreita que a da rural, ou seja, há proporcionalmente menos crianças nas cidades e a fecundidade urbana é menor. Isso se deve ao custo de criar filhos, ao acesso a métodos contraceptivos e ao trabalho feminino. **Resposta: A**
+
+@ENEM-CH-2012-REG-D1-C1-Q26
+K: combustíveis fósseis → aquecimento; transporte coletivo → menos carros
+A queima de derivados de petróleo emite CO₂, que intensifica o aquecimento global (derretimento das calotas). Incentivar transportes de massa reduz o uso de veículos individuais. As outras medidas são inviáveis ou não reduzem o uso do petróleo (B, D, E). **Resposta: C**
+
+@ENEM-CH-2012-REG-D1-C1-Q27
+K: babaçuais cercados dentro de fazendas
+As quebradeiras se organizaram porque fazendeiros e posseiros cercaram os babaçuais e impediram o acesso ao coco. Daí a luta pelo "babaçu livre". O texto destaca justamente a identidade coletiva delas, o que descarta B. **Resposta: E**
+
+@ENEM-CH-2012-REG-D1-C1-Q29
+K: terremotos liberam tensões entre placas
+Terremotos ocorrem onde as tensões acumuladas nas rochas, sobretudo nos limites entre placas tectônicas, são liberadas de repente. Erosão, intemperismo e sedimentação (B, C, E) são processos lentos e superficiais. **Resposta: A**
+
+@ENEM-CH-2012-REG-D1-C1-Q32
+K: o setor primário depende do tempo
+A agropecuária e o extrativismo dependem diretamente de chuva e temperatura, então uma sociedade concentrada no setor primário sofre mais com secas e enchentes. Estoques, transportes, energia diversificada e tecnologia (B a E) reduzem a vulnerabilidade. **Resposta: A**
+
+@ENEM-CH-2012-REG-D1-C1-Q33
+K: empresas se espalham, e trabalhadores também se deslocam
+Ao dispersar suas etapas pelo mundo, as empresas transferem empregos entre lugares e exigem que trabalhadores e executivos mudem de função, de cidade ou de país, aumentando a mobilidade ocupacional. A competitividade aumenta, e não diminui (C). **Resposta: B**
+
+@ENEM-CH-2012-REG-D1-C1-Q34
+K: na Amazônia antiga, os rios eram as estradas
+Na colonização, a ocupação seguiu de leste para oeste ao longo dos grandes rios (como o Amazonas), formando povoados ligados pela navegação. As faixas ao longo das estradas (D) correspondem à ocupação recente, de sentido sul-norte. **Resposta: E**
+
+@ENEM-CH-2012-REG-D1-C1-Q36
+K: comunicação permite separar a gestão da produção
+Com telecomunicações e redes de informação, a sede pode ficar em São Paulo e as fábricas em outras regiões, o que viabiliza a desconcentração industrial. Na prática, houve uso de incentivos fiscais (guerra fiscal), o que contradiz C. **Resposta: E**
+
+@ENEM-CH-2012-REG-D1-C1-Q37
+K: escudos cristalinos antigos guardam minérios
+Os crátons das Guianas e Sul-Amazônico são escudos cristalinos antigos, com intrusões graníticas e jazidas de minerais metálicos, como o ferro e o manganês de Carajás e do Amapá. Petróleo (D) ocorre em bacias sedimentares, e esses terrenos são do Pré-Cambriano, e não do Cenozoico (B). **Resposta: A**
+
+@ENEM-CH-2012-REG-D1-C1-Q38
+K: barragens e canais desviam rios para irrigar
+A irrigação exige captar água com barragens, canais e transposições, que mudam o curso natural dos rios e geram conflitos pelo uso da água. Reduzir custos (A) não é um impacto socioambiental, e a irrigação não acelera a fertilização natural (D). **Resposta: E**
+
+@ENEM-CH-2012-REG-D1-C1-Q39
+K: modernização no campo expulsa o camponês
+Nos dois contextos, as mudanças técnicas e a concentração da terra desorganizaram a vida camponesa, empurrando as pessoas para as cidades ou para outros países, muitas vezes em condições precárias. A alternativa D descreve a produtividade, sem falar do efeito sobre as populações. **Resposta: E**
+
+@ENEM-CH-2012-REG-D1-C1-Q42
+K: usar a mesma água mais de uma vez
+Se o consumo cresce mais rápido que a população, é preciso usar a água de forma mais eficiente. Sistemas de reúso (água de chuva, efluentes tratados) reduzem a captação. A irrigação por aspersão (B) perde muita água por evaporação. **Resposta: A**
+
+@ENEM-CH-2012-REG-D1-C1-Q43
+K: "minha vida é andar"
+A letra fala de alguém que vive andando "por esse país", guardando lembranças das terras por onde passou e dos amigos que deixou: é a experiência do migrante. A canção não denuncia a seca (B) nem a discriminação (E). **Resposta: C**
+
+@ENEM-CH-2012-REG-D1-C1-Q45
+K: mais terra cultivada, mesma desigualdade
+A charge critica a modernização agrícola, que amplia as áreas plantadas e a produção sem reduzir as desigualdades no campo (concentração de terra e renda). A alternativa C inverte o processo, que foi de valorização da produção comercial. **Resposta: A**
+
+@ENEM-CH-2013-REG-D1-C1-Q3
+K: paisagem cultural = sociedade + natureza
+O título premiou a interação singular entre a cidade e a natureza (mar, morros e floresta) com a ocupação humana e a cultura. Prédios históricos (C) ou a imagem internacional (B) sozinhos não definem uma "paisagem cultural". **Resposta: E**
+
+@ENEM-CH-2013-REG-D1-C1-Q9
+K: país grande precisa combinar modais baratos
+Em um país de dimensões continentais, integrar rodovias, ferrovias e hidrovias permite usar o modal mais barato em cada trecho, reduzindo os custos de transporte. A geologia não impede o uso de um único modal (C), e as áreas agrícolas ficam longe dos portos (D). **Resposta: B**
+
+@ENEM-CH-2013-REG-D1-C1-Q14
+K: árvores sem folhas, galhos secos e espinhos
+A descrição de Euclides da Cunha (vegetação espinhosa, árvores sem folhas na seca, galhos retorcidos) é a da Caatinga, uma vegetação xerófila, adaptada à falta de água. Floresta latifoliada e cobertura perenifólia (B, E) são o oposto. **Resposta: A**
+
+@ENEM-CH-2013-REG-D1-C1-Q21
+K: chamar de "Palestina" = reconhecer um Estado
+Trocar "territórios palestinos" por "Palestina" sinaliza o reconhecimento da Autoridade Palestina como entidade jurídica, com status de Estado (na época, a ONU havia elevado a Palestina a Estado observador). O gesto não estabelece fronteiras (E), que continuam em disputa. **Resposta: D**
+
+@ENEM-CH-2013-REG-D1-C1-Q28
+K: terraços e curvas de nível seguram a água na encosta
+O cultivo em terraços (ou em curvas de nível) reduz a velocidade da água que escorre pela encosta e evita que ela arraste a camada superficial do solo: controla a erosão laminar. A técnica não tem relação com transgênicos ou com mecanização (D, E). **Resposta: A**
+
+@ENEM-CH-2013-REG-D1-C1-Q30
+K: justiça social × eficiência do agronegócio
+O texto I vê a reforma agrária como a correção da concentração histórica de terras. O texto II a considera prejudicial às empresas produtivas, isto é, ao agronegócio. As outras alternativas não correspondem aos argumentos dos textos. **Resposta: E**
+
+@ENEM-CH-2013-REG-D1-C1-Q34
+K: o que é comum: grandes cidades + êxodo rural
+Nos três continentes, o ponto comum é demográfico: crescimento de grandes aglomerações urbanas alimentado pelo fluxo contínuo do campo para a cidade. O próprio texto diz que os impactos econômicos e espaciais variam (A, E). **Resposta: C**
+
+@ENEM-CH-2013-REG-D1-C1-Q37
+K: grandes obras na Amazônia Legal
+Na última década, as usinas hidrelétricas de Belo Monte (Xingu), Jirau e Santo Antônio (Madeira) e as do Tocantins mudaram o território e afetaram comunidades indígenas e ribeirinhas. Aeroportos e estádios (A, B) não se concentraram na Amazônia. **Resposta: C**
+
+@ENEM-CH-2013-REG-D1-C1-Q42
+K: chuva ácida danifica a vegetação
+O esquema mostra poluentes industriais (óxidos de enxofre e de nitrogênio) que se dissolvem na água da chuva e formam a chuva ácida. Uma consequência direta é a destruição de folhas e a acidificação do solo, que reduzem a flora. A elevação das marés (B) está ligada ao aquecimento global. **Resposta: A**
+
+@ENEM-CH-2013-REG-D1-C1-Q43
+K: vento é fonte renovável
+A energia eólica é renovável. Os parques eólicos na Bahia ampliam a participação de fontes renováveis na matriz elétrica. Eles aumentam a oferta, sem reduzir o uso de eletricidade (A), e não são bioenergia nem geotermia (B, E). **Resposta: C**
+
+@ENEM-CH-2014-REG-D1-C1-Q3
+K: irrigação excessiva deixa sal no solo
+Com o desvio dos rios para irrigar o algodão, o Mar de Aral secou e expôs um fundo salgado, e a irrigação em clima seco acumula sais no solo. Essa salinização transformou a área em deserto. Laterização (C) é típica de climas úmidos. **Resposta: B**
+
+@ENEM-CH-2014-REG-D1-C1-Q7
+K: "o que eu colho é dividido com quem não planta"
+O caboclo reclama de dividir a colheita com quem não trabalha, provavelmente o dono da terra (parceria ou meação), ou seja, da distribuição desigual da produção. A canção diz que está chovendo, então a seca (D) não é o problema. **Resposta: A**
+
+@ENEM-CH-2014-REG-D1-C1-Q9
+K: empresas buscam mão de obra barata
+Empresas dos países ricos transferem o teleatendimento para a Índia, onde há trabalhadores que falam inglês e salários muito mais baixos. O fator decisivo é o custo da mão de obra. A posição geográfica (B) importa pouco em serviços por telefone. **Resposta: E**
+
+@ENEM-CH-2014-REG-D1-C1-Q13
+K: rotação da Terra = fusos horários
+Como a Terra gira em torno do próprio eixo, cada lugar recebe luz solar em momentos diferentes, o que cria os fusos horários. A inclinação do eixo (E) explica as estações do ano, e não a diferença de horário. **Resposta: B**
+
+@ENEM-CH-2014-REG-D1-C1-Q20
+K: barreira verde contra o avanço do deserto
+A "Grande Muralha Verde" planta árvores ao sul do Saara para conter a desertificação no Sahel, protegendo o solo e a produção local. Ela aumenta a biodiversidade, e não a restringe (C), e não resolve conflitos fundiários (B). **Resposta: E**
+
+@ENEM-CH-2014-REG-D1-C1-Q22
+K: os pobres vão para longe do centro
+Com a terra cara no centro, a população pobre é empurrada para a periferia, o que aumenta o tempo dos deslocamentos diários até o trabalho. A ocupação de áreas sem infraestrutura aumenta, e não é contida (E). **Resposta: D**
+
+@ENEM-CH-2014-REG-D1-C1-Q34
+K: que grandes obras ficam no Pará, em Rondônia e no litoral do RJ?
+Os pontos do mapa coincidem com grandes projetos de energia: Belo Monte (PA), as usinas do rio Madeira (RO) e Angra 3 (RJ). Eles ampliam a geração de eletricidade, mas alteram os ecossistemas locais (alagamentos, riscos). Não são áreas de expansão agrícola nem urbana (A, D). **Resposta: C**
+
+@ENEM-CH-2014-REG-D1-C1-Q35
+K: ar quente e úmido sobe onde os ventos se encontram
+A convecção amazônica está ligada à convergência dos ventos alísios dos dois hemisférios (Zona de Convergência Intertropical). O ar quente e úmido sobe, forma nuvens e gera chuvas intensas. A amplitude térmica (B) na Amazônia é pequena e não explica o mecanismo. **Resposta: E**

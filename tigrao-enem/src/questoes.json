@@ -357,7 +357,7 @@
    "area": "Termologia",
    "content": "CALORIMETRIA",
    "demand": "HIGH",
-   "statement": "É possível, com 1 litro de gasolina, usando todo o calor produzido por sua combustão direta, aquecer 200 litros de água de 20 °C a 55 °C. Pode-se efetuar esse mesmo aquecimento por um gerador de eletricidade, que consome 1 litro de gasolina por hora e fornece 110 V a um resistor de 11 Ω, imerso na água, durante um certo intervalo de tempo. Todo o calor liberado pelo resistor é transferido à água.\nConsiderando que o calor específico da água é igual a 4,19 J g⁻¹ °C⁻¹ , aproximadamente qual a quantidade de gasolina consumida para o aquecimento de água obtido pelo gerador, quando comparado ao obtido a partir da combustão?",
+   "statement": "É possível, com 1 litro de gasolina, usando todo o calor produzido por sua combustão direta, aquecer 200 litros de água de 20 °C a 55 °C. Pode-se efetuar esse mesmo aquecimento por um gerador de eletricidade, que consome 1 litro de gasolina por hora e fornece 110 V a um resistor de 11 Ω, imerso na água, durante um certo intervalo de tempo. Todo o calor liberado pelo resistor é transferido à água.\nConsiderando que o calor específico da água é igual a 4,19 J g⁻¹ °C⁻¹ , aproximadamente qual a quantidade de gasolina consumida para o aquecimento de água obtido pelo gerador, quando comparado ao obtido a partir da combustão?",
    "options": [
     {
      "letter": "A",
@@ -2212,7 +2212,7 @@
    "area": "Eletricidade e Magnetismo",
    "content": "CIRCUITOS",
    "demand": "HIGH",
-   "statement": "Medir temperatura é fundamental em muitas aplicações, e apresentar a leitura em mostradores digitais é bastante prático. O seu funcionamento é baseado na correspondência entre valores de temperatura e de diferença de potencial elétrico. Por exemplo, podemos usar o circuito elétrico apresentado, no qual o elemento sensor de temperatura ocupa um dos braços do circuito (R ) e a dependência da s resistência com a temperatura é conhecida.\n470 Ω 470 Ω 10 V\n+\nVoltímetro\nR = 100 Ω 120 Ω\nS\nPara um valor de temperatura em que R = 100 Ω , a\nS leitura apresentada pelo voltímetro será de",
+   "statement": "Medir temperatura é fundamental em muitas aplicações, e apresentar a leitura em mostradores digitais é bastante prático. O seu funcionamento é baseado na correspondência entre valores de temperatura e de diferença de potencial elétrico. Por exemplo, podemos usar o circuito elétrico apresentado, no qual o elemento sensor de temperatura ocupa um dos braços do circuito (R ) e a dependência da s resistência com a temperatura é conhecida.\n470 Ω 470 Ω 10 V\n+\nVoltímetro\nR = 100 Ω 120 Ω\nS\nPara um valor de temperatura em que R = 100 Ω , a\nS leitura apresentada pelo voltímetro será de",
    "options": [
     {
      "letter": "A",
@@ -3791,7 +3791,7 @@
    "area": "Eletricidade e Magnetismo",
    "content": "CIRCUITOS",
    "demand": "HIGH",
-   "statement": "Fusível é um dispositivo de proteção contra sobrecorrente em circuitos. Quando a corrente que passa por esse componente elétrico é maior que sua máxima corrente nominal, o fusível queima. Dessa forma, evita que a corrente elevada danifique os aparelhos do circuito.\nSuponha que o circuito elétrico mostrado seja alimentado por uma fonte de tensão U e que o fusível suporte uma corrente nominal de 500 mA.\nΩ 60 60 Ω\nΩ 30 120 Ω\nFusível 60\nΩ Ω 40\nU\nQual é o máximo valor da tensão U para que o fusível não queime?",
+   "statement": "Fusível é um dispositivo de proteção contra sobrecorrente em circuitos. Quando a corrente que passa por esse componente elétrico é maior que sua máxima corrente nominal, o fusível queima. Dessa forma, evita que a corrente elevada danifique os aparelhos do circuito.\nSuponha que o circuito elétrico mostrado seja alimentado por uma fonte de tensão U e que o fusível suporte uma corrente nominal de 500 mA.\nΩ 60 60 Ω\nΩ 30 120 Ω\nFusível 60\nΩ Ω 40\nU\nQual é o máximo valor da tensão U para que o fusível não queime?",
    "options": [
     {
      "letter": "A",
@@ -3891,7 +3891,7 @@
    "area": "Eletricidade e Magnetismo",
    "content": "CIRCUITOS",
    "demand": "MODERATE",
-   "statement": "Em algumas residências, cercas eletrificadas são utilizadas com o objetivo de afastar possíveis invasores. Uma cerca eletrificada funciona com uma diferença de potencial elétrico de aproximadamente 10 000 V. Para que não seja letal, a corrente que pode ser transmitida através de uma pessoa não deve ser maior do que 0,01 A. Já a resistência elétrica corporal entre as mãos e os pés de uma pessoa é da ordem de 1 000 Ω .\nPara que a corrente não seja letal a uma pessoa que toca a cerca eletrificada, o gerador de tensão deve possuir uma resistência interna que, em relação à do corpo humano, é",
+   "statement": "Em algumas residências, cercas eletrificadas são utilizadas com o objetivo de afastar possíveis invasores. Uma cerca eletrificada funciona com uma diferença de potencial elétrico de aproximadamente 10 000 V. Para que não seja letal, a corrente que pode ser transmitida através de uma pessoa não deve ser maior do que 0,01 A. Já a resistência elétrica corporal entre as mãos e os pés de uma pessoa é da ordem de 1 000 Ω .\nPara que a corrente não seja letal a uma pessoa que toca a cerca eletrificada, o gerador de tensão deve possuir uma resistência interna que, em relação à do corpo humano, é",
    "options": [
     {
      "letter": "A",
@@ -4719,7 +4719,7 @@
    "area": "Eletricidade e Magnetismo",
    "content": "CIRCUITOS",
    "demand": "HIGH",
-   "statement": "Uma casa tem um cabo elétrico mal dimensionado, de resistência igual a 10 Ω, que a conecta à rede elétrica de 120 V. Nessa casa, cinco lâmpadas, de resistência igual a 200 Ω, estão conectadas ao mesmo circuito que uma televisão de resistência igual a 50 Ω, conforme ilustrado no esquema. A televisão funciona apenas com tensão entre 90 V e 130 V.\n10 Ω 120 V\nΩ 50\nΩ Ω Ω Ω Ω 200 200 200 200 200\nO número máximo de lâmpadas que podem ser ligadas sem que a televisão pare de funcionar é:",
+   "statement": "Uma casa tem um cabo elétrico mal dimensionado, de resistência igual a 10 Ω, que a conecta à rede elétrica de 120 V. Nessa casa, cinco lâmpadas, de resistência igual a 200 Ω, estão conectadas ao mesmo circuito que uma televisão de resistência igual a 50 Ω, conforme ilustrado no esquema. A televisão funciona apenas com tensão entre 90 V e 130 V.\n10 Ω 120 V\nΩ 50\nΩ Ω Ω Ω Ω 200 200 200 200 200\nO número máximo de lâmpadas que podem ser ligadas sem que a televisão pare de funcionar é:",
    "options": [
     {
      "letter": "A",

@@ -1,0 +1,163 @@
+@ENEM-CH-2018-REG-D1-C1-Q53
+K: redes ligam o local ao global
+O texto diz que as escalas (local, regional, global) se misturam: as cidades estão conectadas por redes de comércio, finanças e informação em várias escalas ao mesmo tempo. Expandir áreas metropolitanas ou criar municípios (A, B) não explica essa complexidade. **Resposta: D**
+
+@ENEM-CH-2018-REG-D1-C1-Q60
+K: refugiados de guerra
+Os refugiados sírios fugiram da guerra civil e perderam seus territórios de vida, ou seja, sofreram uma desterritorialização forçada causada por conflito armado. Não foi uma catástrofe natural (A) nem uma peregrinação religiosa (D). **Resposta: E**
+
+@ENEM-CH-2018-REG-D1-C1-Q65
+K: contêiner padroniza e agiliza a carga
+O contêiner padronizou as cargas e permitiu carregar e descarregar navios muito mais rápido, integrando navios, trens e caminhões. Burocratizar a alfândega (C) e reduzir a profundidade dos atracadouros (D) iriam contra a agilidade descrita. **Resposta: A**
+
+@ENEM-CH-2018-REG-D1-C1-Q67
+K: solo impermeável faz a água escorrer
+Com asfalto e concreto, a água da chuva infiltra menos e escorre mais pela superfície, chegando rápido aos rios (picos de cheia maiores). O lençol freático é menos recarregado, e não expandido (B), e a urbanização não reduz as chuvas (C). **Resposta: E**
+
+@ENEM-CH-2018-REG-D1-C1-Q72
+K: a floresta "natural" foi moldada por povos antigos
+A pesquisa mostra que povos pré-colombianos domesticaram e espalharam plantas na Amazônia, quebrando a ideia de uma floresta intocada, sem ação humana (antrópica). O texto valoriza os saberes locais, e não rompe com eles (A). **Resposta: B**
+
+@ENEM-CH-2018-REG-D1-C1-Q73
+K: conhecer bem o terreno é vantagem estratégica
+Nos dois textos, quem conhece o relevo (montanhas, cavernas, desfiladeiros) tem vantagem militar, mesmo diante de um inimigo maior. Isso mostra a importância do domínio cognitivo do espaço, ou seja, conhecê-lo bem. Armamentos sofisticados (C) não superaram essa vantagem no Afeganistão. **Resposta: E**
+
+@ENEM-CH-2018-REG-D1-C1-Q77
+K: crosta laterítica: estação chuvosa + estação seca
+Crostas lateríticas (canga) se formam pela alternância de estações chuvosas, que lixiviam o solo, e secas, que concentram e endurecem o ferro. Isso é típico do clima tropical com sazonalidade. Clima árido ou frio (A, C) não altera tanto o solo. **Resposta: D**
+
+@ENEM-CH-2018-REG-D1-C1-Q86
+K: a agricultura orgânica é sobretudo familiar
+A produção orgânica e ecológica vem principalmente de pequenos agricultores familiares. Subsidiar esses cultivos reduz a sua marginalização na política agrícola. Favorecer a fertilização química (B) iria contra a produção orgânica. **Resposta: A**
+
+@ENEM-CH-2018-REG-D1-C1-Q88
+K: silvicultura = madeira plantada
+O gráfico mostra a queda do extrativismo vegetal e o crescimento da silvicultura (eucalipto, pinus). A tendência é usar madeira de reflorestamento em vez de cortar a mata nativa. Isso não indica estagnação do setor primário (B). **Resposta: C**
+
+@ENEM-CH-2018-REG-D1-C1-Q89
+K: o saber dos seringueiros corrigiu a ciência
+O modelo científico foi revisto depois do confronto com o conhecimento prático (empírico) dos seringueiros sobre as áreas de refúgio, um saber construído pela experiência cotidiana. Não se trata de preconceito moral nem de religiosidade (B, C). **Resposta: D**
+
+@ENEM-CH-2019-REG-D1-C1-Q46
+K: o ser humano atua sobre a superfície
+O Antropoceno reconhece o ser humano como agente geológico capaz de alterar processos externos (exógenos) da superfície: erosão, sedimentação, clima, ciclos da água. Vulcanismo, tectônica e magmatismo (A, C, D) são processos internos, fora do controle humano. **Resposta: B**
+
+@ENEM-CH-2019-REG-D1-C1-Q47
+K: sensores captam a energia refletida pelos objetos
+Os satélites de sensoriamento remoto registram a radiação refletida pelas superfícies. Cada alvo (água, floresta, solo, cidade) reflete de um jeito, e a fração refletida é o albedo. O magnetismo e a translação (C, E) não geram essas imagens. **Resposta: A**
+
+@ENEM-CH-2019-REG-D1-C1-Q49
+K: inimigos naturais no lugar dos inseticidas
+O controle biológico usa predadores e parasitas naturais das pragas, reduzindo os inseticidas que matam as abelhas sem prejudicar a produtividade. A monocultura (D) agrava o problema, e a adubação química (B) não substitui o inseticida. **Resposta: C**
+
+@ENEM-CH-2019-REG-D1-C1-Q53
+K: potências regionais querem assento permanente
+Brasil, Índia, Alemanha e Japão são grandes potências nas suas regiões (América do Sul, Ásia, Europa) e usam esse protagonismo para pleitear um assento permanente. Alemanha e Japão não têm armas nucleares, então D não é a característica comum. **Resposta: B**
+
+@ENEM-CH-2019-REG-D1-C1-Q56
+K: fábricas se espalham, o comando se concentra
+As fábricas se dispersam pelo mundo, mas o controle, os lucros e o crescimento ficam concentrados em poucos grupos e regiões (como o leste asiático). Essa é a complementaridade entre dispersão e concentração econômica. Não há compartilhamento de lucros (E). **Resposta: D**
+
+@ENEM-CH-2019-REG-D1-C1-Q61
+K: a canção idealiza; o turismo transforma em produto
+No texto I, o rio é visto de forma poética e idealizada, como "oração". No texto II, a natureza vira espetáculo vendido aos ecoturistas, isto é, mercadoria. A alternativa B exagera ao falar em profanação, que não aparece no texto II. **Resposta: E**
+
+@ENEM-CH-2019-REG-D1-C1-Q68
+K: feira e artesanato ligam o quilombo à região
+As comunidades vendem alimentos na feira da cidade e artesanato e refeições aos turistas, inserindo-se na economia regional. Não há menção a dívidas, protecionismo ou benefícios assistenciais (A, D, E). **Resposta: C**
+
+@ENEM-CH-2019-REG-D1-C1-Q69
+K: ocupação espontânea avançando sobre a floresta
+O povoado surgiu de invasões de camponeses, madeireiros, pecuaristas e grileiros sobre áreas florestais, sem planejamento do governo: uma frente pioneira. Não houve colonização dirigida nem reforma agrária (B, C), que dependem da ação do Estado. **Resposta: E**
+
+@ENEM-CH-2019-REG-D1-C1-Q83
+K: globalização da exclusão
+O papa critica a "globalização da exclusão e da indiferença", isto é, a desigualdade econômica que deixa os pobres de fora dos benefícios. A crítica não é à liberdade política ou à mobilidade (A, B). **Resposta: D**
+
+@ENEM-CH-2019-REG-D1-C1-Q88
+K: muitos em idade de trabalhar → precisam ser produtivos
+No bônus demográfico, a população em idade ativa é grande. Para aproveitá-lo, o Estado deve investir na educação e na qualificação dessa mão de obra, aumentando a produtividade. Ampliar aposentadorias ou impostos (E, B) não aproveita esse momento. **Resposta: C**
+
+@ENEM-CH-2019-REG-D1-C1-Q89
+K: noite polar em altas latitudes
+Utqiagvik fica acima do Círculo Polar Ártico. Por causa da alta latitude e da inclinação do eixo da Terra, no inverno o Sol não nasce por semanas (noite polar). A longitude (C) define os fusos horários, e não a duração do dia. **Resposta: D**
+
+@ENEM-CH-2019-REG-D1-C1-Q90
+K: há comida, mas falta renda para comprá-la
+Se existem alimentos suficientes e mesmo assim há fome, o problema é de acesso, isto é, de distribuição da renda, uma questão política. Crescimento populacional e produtividade (D, A) seriam explicações técnicas, que o texto descarta. **Resposta: B**
+
+@ENEM-CH-2020-REG-D1-C1-Q46
+K: exportar produtos de maior valor agregado
+O Brasil exporta matérias-primas e importa industrializados de alto valor. Para mudar isso a longo prazo, é preciso investir em ciência e tecnologia, produzindo bens de maior valor agregado. Expandir o extrativismo ou a agricultura (A, B) aprofundaria a assimetria. **Resposta: D**
+
+@ENEM-CH-2020-REG-D1-C1-Q47
+K: o campo não vive só da agricultura
+A população rural cresce mesmo com menos empregos agrícolas, por causa do trabalho não agrícola, das aposentadorias e de outras rendas. Isso mostra um modo de vida rural diversificado (heterogêneo). O texto não indica redução do fluxo para as cidades (B). **Resposta: A**
+
+@ENEM-CH-2020-REG-D1-C1-Q49
+K: propriedade deve cumprir função social
+Se a propriedade deve cumprir uma função social e usar a terra de forma racional, as terras improdutivas podem ser desapropriadas para a reforma agrária. Os movimentos não propõem impedir a exportação ou acabar com as agroindústrias (D, E). **Resposta: C**
+
+@ENEM-CH-2020-REG-D1-C1-Q50
+K: metrópoles se espalharam pelas bordas
+A expansão contínua das metrópoles ocorreu sobretudo pela ocupação das periferias, muitas vezes precárias, formando grandes regiões urbanizadas. O transporte ferroviário não se adensou nesse período (C), pois prevaleceu o rodoviário. **Resposta: B**
+
+@ENEM-CH-2020-REG-D1-C1-Q51
+K: produzir conforme o calendário das chuvas
+No agreste, pastoreio, algodão e cereais se alternam conforme o período de chuvas e de seca, aproveitando o "tempo da natureza". Não há priorização de tecnologia moderna (C), e o esquema é de 1963, típico de uma produção tradicional. **Resposta: D**
+
+@ENEM-CH-2020-REG-D1-C1-Q53
+K: latitude e longitude localizam pontos na superfície
+Latitude e longitude são coordenadas para localizar pontos na superfície da Terra. Alice, perto do centro do planeta, confunde-se sobre esses referenciais de posição. O trecho não trata de projeções nem de fusos (A, B). **Resposta: D**
+
+@ENEM-CH-2020-REG-D1-C1-Q56
+K: irrigação consome a maior parte da água
+Como a agricultura consome cerca de 70% da água, melhorar a eficiência da irrigação (por gotejamento, por exemplo) reduz o desperdício. Fertilizantes e colheitadeiras mais rápidas (A, E) não economizam água. **Resposta: D**
+
+@ENEM-CH-2020-REG-D1-C1-Q57
+K: inimigos difusos, organizados em rede
+A estratégia precisa enfrentar "inimigos difusos" em todas as regiões, como grupos terroristas e criminosos organizados em redes transnacionais. Os conflitos não foram erradicados (A), e é justamente por existirem que a estratégia é tão ampla. **Resposta: B**
+
+@ENEM-CH-2020-REG-D1-C1-Q58
+K: cidade como "máquina de produzir riqueza"
+O planejamento passou a estimular o crescimento para gerar lucros, tratando a cidade como empresa e ampliando a participação e os interesses empresariais. A gestão popular e o bem-estar social (A, C) não aparecem nesse modelo. **Resposta: E**
+
+@ENEM-CH-2020-REG-D1-C1-Q59
+K: rochas cristalinas antigas → minérios
+Os escudos cristalinos concentram jazidas de minerais metálicos (ferro, manganês, ouro), como no Quadrilátero Ferrífero e em Carajás. Combustíveis fósseis e sal-gema (E, B) ocorrem em bacias sedimentares. **Resposta: C**
+
+@ENEM-CH-2020-REG-D1-C1-Q65
+K: estradas para escoar a produção agrícola
+O mapa e o texto mostram as rodovias sendo ampliadas para atender ao agronegócio: elas levam os grãos das áreas produtoras aos portos e mercados. A matriz econômica não mudou (A), e as hidrovias não foram substituídas (B). **Resposta: D**
+
+@ENEM-CH-2020-REG-D1-C1-Q67
+K: placas se afastando abrem vales (rift)
+As feições da figura (vales profundos e falhas, como no Grande Vale do Rift africano) se formam quando a crosta se estira e se rompe, com as placas se afastando: o rifteamento. A colisão e a subducção (A, C) formam montanhas, e não vales de afastamento. **Resposta: B**
+
+@ENEM-CH-2020-REG-D1-C1-Q71
+K: o lavrador e a terra que o sustenta
+O poema valoriza a relação do camponês com a terra: ela fornece o pão, a roupa e o berço, e o lavrador a cultiva. Grileiros e latifundiários (A, E) não aparecem, e o texto não trata especificamente de indígenas (D). **Resposta: C**
+
+@ENEM-CH-2020-REG-D1-C1-Q75
+K: mapas como instrumento de poder
+O texto diz que a cartografia europeia ignorou os saberes indígenas e os privou de representar o próprio território, uma forma de dominação. A alternativa A é o oposto disso, e não se trata de exatidão das regiões (D). **Resposta: C**
+
+@ENEM-CH-2020-REG-D1-C1-Q80
+K: terra para quem preserva a floresta
+Os seringueiros ganharam visibilidade ao unir a luta pela terra à defesa da floresta em pé, com as reservas extrativistas. Não foi a modernização do plantio nem o incentivo do governo (E, D) que lhes deu destaque, e sim a sua mobilização. **Resposta: C**
+
+@ENEM-CH-2020-REG-D1-C1-Q82
+K: cinzas vulcânicas formam solos férteis
+Apesar do risco, as pessoas vivem perto de vulcões porque as cinzas e as rochas vulcânicas geram solos muito férteis, bons para a agricultura. Encostas íngremes (B) dificultam a ocupação, e não a atraem. **Resposta: A**
+
+@ENEM-CH-2020-REG-D1-C1-Q84
+K: subducção ergue cordilheiras
+A subducção de uma placa oceânica sob uma continental, com vulcanismo, deformação e metamorfismo, forma dobramentos modernos, como os Andes. Bacias sedimentares e planaltos cristalinos (D, B) se formam por outros processos. **Resposta: E**
+
+@ENEM-CH-2020-REG-D1-C1-Q88
+K: esgoto consome o oxigênio da água
+O trecho morto do Tietê atravessa a Grande São Paulo e recebe enorme quantidade de esgoto doméstico e industrial. A decomposição dessa matéria orgânica consome o oxigênio da água. Os defensivos agrícolas (E) não são a principal causa na área urbana. **Resposta: C**
+
+@ENEM-CH-2020-REG-D1-C1-Q90
+K: os textos discordam sobre a ligação Mariana–febre amarela
+O texto I sugere que a tragédia de Mariana pode ter favorecido o surto de febre amarela, e o texto II considera essa relação remota. A divergência é sobre o aparecimento da doença. Ambos aceitam que os rios foram poluídos (A). **Resposta: D**

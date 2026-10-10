@@ -65,7 +65,13 @@ for (const m of ["biologia", "quimica", "geografia", "natureza"]) {
     const q = await atual(m);
     if (!fotoFig && q.figures.length) { await wait(500); await page.screenshot({ path: OUT + `${m}_2_figura.png`, fullPage: true }); fotoFig = true; }
     await letra(k % 2 ? "A" : q.answer); await wait(250);
-    if (k === 0) { await page.screenshot({ path: OUT + `${m}_3_corrigida.png`, fullPage: true }); check((await page.getByText("Revisada pelo Prof").count()) === 0, `${m}: sem selo de revisada`); }
+    if (k === 0) { await page.screenshot({ path: OUT + `${m}_3_corrigida.png`, fullPage: true }); check((await page.getByText(/Revisada pelo Prof/).count()) === 0, `${m}: sem selo de revisada`); }
+    if (k === 1 && q.explanation && q.answer !== "A") {
+      await page.screenshot({ path: OUT + `${m}_3b_errou_resolucao.png`, fullPage: true });
+      check(await page.getByText("Resolução ainda não revisada pelo professor").isVisible(), `${m}: errou → resolução com aviso de não revisada`);
+      const corpo = await page.locator("body").innerText();
+      check(!corpo.includes("**") && !corpo.includes("Revisada pelo Prof"), `${m}: resolução formatada (sem "**") e sem selo de revisada`);
+    }
     await page.getByText("Próxima questão").click(); await wait(350);
   }
   await page.getByRole("button", { name: "Sair" }).click(); await wait(200);

@@ -420,8 +420,8 @@ function notaResolucoes() {
   return MATERIA.id === "fisica"
     ? "Gabarito oficial do Inep em todas as questões. As resoluções foram escritas por IA (Chico) e aguardam revisão do professor Silas."
     : MATERIA.id === "natureza"
-      ? "Gabarito oficial do Inep em todas as questões. As resoluções de Física foram escritas por IA (Chico) e aguardam revisão; Biologia e Química ainda não têm resolução comentada."
-      : "Gabarito oficial do Inep em todas as questões. As resoluções comentadas desta matéria ainda não foram escritas (e, quando forem, ficam marcadas como não revisadas até o Prof. Silas revisar).";
+      ? "Gabarito oficial do Inep em todas as questões. As resoluções comentadas foram escritas por IA e ainda não foram revisadas pelo professor Silas."
+      : "Gabarito oficial do Inep em todas as questões. As resoluções comentadas desta matéria foram geradas por IA e ainda não foram revisadas pelo professor Silas.";
 }
 
 /** Enunciado com **negrito** e figuras no lugar certo ([[FIG n]] = n-ésima figura). As que não aparecem no texto vão no fim. */
@@ -669,7 +669,7 @@ function QuizView(p: Quiz & {
                   Mais uma dica (acerto vale {XP.acertoComDica[Math.min(nDicas + 1, 2)]} XP)
                 </button>
               )}
-              <p className="text-[0.625rem] leading-3 text-tinta/70">Trecho da resolução escrita por IA (Chico), aguardando revisão do professor.</p>
+              <p className="text-[0.625rem] leading-3 text-tinta/70">{q.explanation?.author === "IA" ? "Trecho da resolução gerada por IA, ainda não revisada pelo professor." : "Trecho da resolução escrita por IA (Chico), aguardando revisão do professor."}</p>
             </div>
           )}
         </div>
@@ -767,6 +767,8 @@ function Markdown({ text }: { text: string }) {
 
 function SeloResolucao({ q }: { q: Question }) {
   const ex = q.explanation!;
+  if (ex.author === "IA")
+    return <div data-testid="selo" className="mb-2 rounded-2xl bg-laranja-claro px-3 py-2 text-[0.6875rem] font-bold leading-4 text-laranja-escuro">🤖 Resolução gerada por IA · Resolução ainda não revisada pelo professor</div>;
   if (ex.reviewed)
     return <div data-testid="selo" className="mb-2 rounded-2xl bg-teal-claro px-3 py-2 text-[0.6875rem] font-bold leading-4 text-teal">✅ Revisada pelo Prof. Silas</div>;
   return (
