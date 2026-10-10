@@ -9,7 +9,8 @@
     "preview": "vite preview --host 0.0.0.0 --port 4175",
     "typecheck": "tsc --noEmit",
     "sync": "python3 scripts/sync_questoes.py",
-    "prints": "node scripts/prints.mjs"
+    "prints": "node scripts/prints.mjs",
+    "test:materias": "node scripts/materias.mjs"
   },
   "dependencies": {
     "@fontsource-variable/nunito": "^5.3.0",

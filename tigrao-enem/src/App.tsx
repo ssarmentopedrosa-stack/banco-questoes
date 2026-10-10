@@ -3,7 +3,7 @@ import {
   ArrowLeft, BookOpen, Brain, CalendarCheck, Check, ChevronRight, Clock, Download, ExternalLink, Flame, Gauge, Lightbulb, RotateCcw,
   Settings, Sparkles, Target, Timer, Trophy, Upload, X, ZoomIn,
 } from "lucide-react";
-import { LETTERS, QUESTIONS, TOPICS, dicas, figuraAlt, optionText, plural, topicInfo, type Question } from "./data";
+import { LETTERS, MATERIA, QUESTIONS, TOPICS, dicas, figuraAlt, optionText, plural, topicInfo, type Option, type Question } from "./data";
 import {
   ALL_BADGES, DOMINIO, LEVELS, META_DIARIA, SIMULADOS, XP, badgeLabel, dominioSub, dominioTema, dueReviews, levelOf, load, missoes,
   practiceSet, registerAnswer, registerSimulado, reviewSet, save, scheduledReviews, simuladoDisponivel, simuladoSet, smartSet, subtemas,
@@ -28,11 +28,11 @@ const T = "./tigrao/";
 const INEP = "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos";
 const AVISO = "Questões oficiais do ENEM (Inep). App independente, sem vínculo com o Inep/MEC.";
 const pick = <T,>(arr: T[]) => arr[Math.floor(Math.random() * arr.length)];
-const FRASES_ACERTO = ["Au-au! Acertou em cheio! 🎉", "Isso! Física de quem vai passar!", "Tá em órbita, hein? 🚀", "Gabaritou essa! Bora pra próxima!"];
+const frasesAcerto = () => ["Au-au! Acertou em cheio! 🎉", MATERIA.fraseAcerto, "Tá em órbita, hein? 🚀", "Gabaritou essa! Bora pra próxima!"];
 const FRASES_ERRO = ["Opa! Essa pegou… bora entender?", "Errar aqui é treino. Lê a resolução comigo!", "Pegadinha clássica do ENEM. Na prova você acerta!", "Calma! Vou farejar onde foi o deslize."];
 const FONTES = ["100%", "112.5%", "125%"];
 
-export default function App() {
+export default function App({ onTrocar }: { onTrocar?: () => void }) {
   const [state, setState] = useState<State>(() => load());
   const [screen, setScreen] = useState<Screen>({ name: "home" });
   useEffect(() => {
@@ -63,7 +63,7 @@ export default function App() {
       {screen.name === "home" && (
         <Home state={state} onTemas={() => setScreen({ name: "temas" })} onSimulado={startSimulado} onRevisao={startRevisao} onMix={() => startPratica(null)}
           onInteligente={startInteligente} onConquistas={() => setScreen({ name: "conquistas" })} onDominio={() => setScreen({ name: "dominio" })}
-          onAjustes={() => setScreen({ name: "ajustes" })} />
+          onAjustes={() => setScreen({ name: "ajustes" })} onTrocar={onTrocar} />
       )}
       {screen.name === "temas" && <Temas state={state} onBack={home} onPick={startPratica} />}
       {screen.name === "dominio" && <Dominio state={state} onBack={home} onPick={startPratica} />}
@@ -164,7 +164,7 @@ function falaHome(state: State, due: number) {
   const feitoHoje = state.daily.count;
   const hoje = new Date().toLocaleDateString("sv-SE");
   const simHoje = state.simulados.some((r) => new Date(r.date).toLocaleDateString("sv-SE") === hoje);
-  if (respondidas === 0) return "Au-au! Eu sou o Tigrão, cão astronauta do lab. Bora treinar Física do ENEM com questões oficiais?";
+  if (respondidas === 0) return `Au-au! Eu sou o Tigrão, cão astronauta do lab. Bora treinar ${MATERIA.nome} do ENEM com questões oficiais?`;
   if (feitoHoje >= META_DIARIA) {
     if (due > 0) return `Meta do dia batida! 🎯 Tem ${plural(due, "erro", "erros")} esperando revisão. Bora?`;
     if (!simHoje) return "Meta do dia batida! 🎯 Que tal um mini-simulado pra fechar com chave de ouro?";
@@ -177,7 +177,7 @@ function falaHome(state: State, due: number) {
 
 function Home(p: {
   state: State; onTemas: () => void; onSimulado: (k: SimKind) => void; onRevisao: () => void; onMix: () => void; onInteligente: () => void;
-  onConquistas: () => void; onDominio: () => void; onAjustes: () => void;
+  onConquistas: () => void; onDominio: () => void; onAjustes: () => void; onTrocar?: () => void;
 }) {
   const { state } = p;
   const respondidas = Object.keys(state.answers).length;
@@ -197,7 +197,12 @@ function Home(p: {
           <TigraoAnimado clip="anim_abertura" poster="acena.webp" alt="Tigrão, o cão astronauta, acenando" className="h-36 w-36 shrink-0 rounded-3xl object-cover ring-4 ring-white/70" imgClassName="anim-float" />
           <div className="pb-1">
             <div className="font-titulo text-[1.625rem] font-extrabold leading-7">Tigrão ENEM</div>
-            <div className="text-xs font-semibold text-white/85">Física, questões oficiais</div>
+            <div className="text-xs font-semibold text-white/85">{MATERIA.emoji} {MATERIA.subtitulo}</div>
+            {p.onTrocar && (
+              <button onClick={p.onTrocar} data-testid="trocar-materia" className="mt-1.5 rounded-full bg-white/15 px-2.5 py-1 text-[0.6875rem] font-bold text-white ring-1 ring-white/40 active:scale-95">
+                🔄 Trocar matéria
+              </button>
+            )}
             <Balao className="mt-2">{falaHome(state, due)}</Balao>
           </div>
         </div>
@@ -270,7 +275,7 @@ function Home(p: {
         </button>
       </div>
       <p className="px-2 text-center text-[0.6875rem] leading-4 text-tinta/70">
-        Gabarito oficial do Inep em todas as questões. As resoluções foram escritas por IA (Chico) e aguardam revisão do professor Silas.
+        {notaResolucoes()}
       </p>
     </div>
   );
@@ -411,9 +416,40 @@ function fmt(s: number) {
   return h ? `${h}:${String(m).padStart(2, "0")}:${String(r).padStart(2, "0")}` : `${m}:${String(r).padStart(2, "0")}`;
 }
 
-function Figuras({ q, only }: { q: Question; only?: "alternativas" | "enunciado" }) {
+function notaResolucoes() {
+  return MATERIA.id === "fisica"
+    ? "Gabarito oficial do Inep em todas as questões. As resoluções foram escritas por IA (Chico) e aguardam revisão do professor Silas."
+    : MATERIA.id === "natureza"
+      ? "Gabarito oficial do Inep em todas as questões. As resoluções de Física foram escritas por IA (Chico) e aguardam revisão; Biologia e Química ainda não têm resolução comentada."
+      : "Gabarito oficial do Inep em todas as questões. As resoluções comentadas desta matéria ainda não foram escritas (e, quando forem, ficam marcadas como não revisadas até o Prof. Silas revisar).";
+}
+
+/** Enunciado com **negrito** e figuras no lugar certo ([[FIG n]] = n-ésima figura). As que não aparecem no texto vão no fim. */
+function Enunciado({ q, className }: { q: Question; className: string }) {
+  const partes = q.statement.split(/\[\[FIG (\d+)\]\]/g);
+  const usadas = new Set<number>();
+  const nodes: React.ReactNode[] = [];
+  partes.forEach((parte, k) => {
+    if (k % 2 === 1) {
+      const n = Number(parte);
+      usadas.add(n);
+      nodes.push(<Figuras key={"f" + k} q={q} indices={[n]} />);
+    } else if (parte.trim()) {
+      nodes.push(<p key={"t" + k} className={"whitespace-pre-line " + className + (k ? " mt-3" : "")}>{inline(parte.replace(/^\n+|\n+$/g, ""))}</p>);
+    }
+  });
+  return (
+    <>
+      {nodes}
+      <Figuras q={q} only="enunciado" pular={usadas} />
+    </>
+  );
+}
+
+function Figuras({ q, only, indices, pular }: { q: Question; only?: "alternativas" | "enunciado"; indices?: number[]; pular?: Set<number> }) {
   const [zoom, setZoom] = useState<{ src: string; alt: string } | null>(null);
-  const list = q.figures.map((f, i) => ({ f, alt: figuraAlt(q, f, i) }))
+  const list = q.figures.map((f, i) => ({ f, i, alt: figuraAlt(q, f, i) }))
+    .filter(({ i }) => (indices ? indices.includes(i) : !pular?.has(i)))
     .filter(({ f }) => (only === "alternativas" ? f.kind === "alternativas" : only === "enunciado" ? f.kind !== "alternativas" : true));
   if (!list.length) return null;
   return (
@@ -452,7 +488,7 @@ function Confirmar(p: { titulo: string; texto: string; ok: string; cancelar?: st
   );
 }
 
-const fonteQuestao = (q: Question) => `Fonte: ENEM ${q.year} (Inep) · caderno ${q.booklet} · questão ${q.number}`;
+const fonteQuestao = (q: Question) => `Fonte: ENEM ${q.year} (Inep) · caderno ${q.booklet} · questão ${q.number}${q.textoDoPdf ? " · texto transcrito da prova oficial" : ""}`;
 
 function QuizView(p: Quiz & {
   state: State; setState: (s: State) => void; onExit: () => void;
@@ -473,7 +509,7 @@ function QuizView(p: Quiz & {
   const start = useRef(Date.now());
   const finished = useRef(false);
   const feedbackRef = useRef<HTMLDivElement>(null);
-  const frase = useMemo(() => ({ ok: pick(FRASES_ACERTO), erro: pick(FRASES_ERRO) }), [i]);
+  const frase = useMemo(() => ({ ok: pick(frasesAcerto()), erro: pick(FRASES_ERRO) }), [i]);
   const q = questions[i];
   const ultima = i === questions.length - 1;
   const emAndamento = items.length > 0 || chosen !== null;
@@ -576,7 +612,7 @@ function QuizView(p: Quiz & {
   const correct = chosen === q.answer;
   const t = topicInfo(q.area);
   const titulo = sim ? SIMULADOS[mode].nome : mode === "revisao" ? "Revisão de erros" : mode === "inteligente" ? "Treino inteligente" : p.topic ?? "Mistão do dia";
-  const letras = q.options ?? LETTERS.map((l) => ({ letter: l, text: "" }));
+  const letras: Option[] = q.options ?? LETTERS.map((l) => ({ letter: l, text: "" }));
   const ds = sim ? [] : dicas(q);
 
   return (
@@ -607,8 +643,7 @@ function QuizView(p: Quiz & {
           <span className="rounded-full bg-ceu px-2 py-0.5 text-tinta/85">ENEM {q.year} · Q{q.number}</span>
           {(mode === "revisao" || ehRevisao(q.id)) && <span className="rounded-full bg-laranja-claro px-2 py-0.5 text-laranja-escuro">🔁 revisão</span>}
         </div>
-        <p className="whitespace-pre-line text-[0.9375rem] leading-6">{q.statement}</p>
-        <Figuras q={q} only="enunciado" />
+        <Enunciado q={q} className="text-[0.9375rem] leading-6" />
         <div className="mt-2 text-[0.6875rem] text-tinta/70" data-testid="fonte-questao">{fonteQuestao(q)}</div>
       </div>
 
@@ -656,7 +691,12 @@ function QuizView(p: Quiz & {
               <span className={`grid h-8 w-8 shrink-0 place-items-center rounded-xl font-black ${revealed && isAns ? "bg-teal text-white" : revealed && isChosen ? "bg-vermelho text-white" : isChosen ? "bg-azul text-white" : "bg-ceu text-noite"}`}>
                 {revealed && isAns ? <Check className="h-5 w-5" /> : revealed && isChosen ? <X className="h-5 w-5" /> : o.letter}
               </span>
-              {o.text && <span className="pt-1 text-[0.875rem] leading-5">{o.text}</span>}
+              {(o.text || o.img) && (
+                <span className="pt-1 text-[0.875rem] leading-5">
+                  {o.text}
+                  {o.img && <img src={o.img.src} alt={`Alternativa ${o.letter}`} width={o.img.width} height={o.img.height} loading="lazy" className="mt-1 block h-auto max-h-40 w-auto max-w-full rounded-lg bg-white" />}
+                </span>
+              )}
             </button>
           );
         })}
@@ -788,7 +828,7 @@ function Resultado(p: {
   const baixo = pct < 40;
   const [aberta, setAberta] = useState<string | null>(null);
   const msg = pct === 100 ? "GABARITOU! Que sessão, hein? 💯"
-    : otimo ? "Mandou muito bem! Física de quem vai longe no ENEM! 🚀"
+    : otimo ? MATERIA.fraseOtimo
       : !baixo ? "Tá no caminho! Revisa as resoluções e volta mais forte."
         : "Calma, todo astronauta começa no chão. Os erros já foram pra sua revisão — bora juntos! 🐾";
   const porTema = TOPICS.map((t) => {
@@ -861,15 +901,15 @@ function Resultado(p: {
                 {open && (
                   <div className="mt-2 space-y-2">
                     <div className="rounded-2xl bg-papel p-3">
-                      <p className="whitespace-pre-line text-[0.8125rem] leading-5">{it.q.statement}</p>
-                      <Figuras q={it.q} />
+                      <Enunciado q={it.q} className="text-[0.8125rem] leading-5" />
+                      <Figuras q={it.q} only="alternativas" />
                       {it.q.options && (
                         <ul className="mt-2 space-y-1">
                           {it.q.options.map((o) => {
                             const ans = o.letter === it.q.answer, mine = o.letter === it.chosen;
                             return (
                               <li key={o.letter} className={`rounded-xl px-2 py-1 text-[0.8125rem] ${ans ? "bg-teal-claro font-bold" : mine ? "bg-vermelho-claro" : ""}`}>
-                                <b>{o.letter})</b> {o.text} {ans && "✅"} {mine && !ans && "❌ (sua)"}
+                                <b>{o.letter})</b> {o.text} {o.img && <img src={o.img.src} alt={`Alternativa ${o.letter}`} width={o.img.width} height={o.img.height} loading="lazy" className="my-1 inline-block h-auto max-h-28 w-auto max-w-full rounded bg-white align-middle" />} {ans && "✅"} {mine && !ans && "❌ (sua)"}
                               </li>
                             );
                           })}
@@ -1024,7 +1064,8 @@ function Ajustes({ state, setState, onBack }: { state: State; setState: (s: Stat
       <div className="rounded-3xl bg-papel p-4 shadow-sm ring-1 ring-borda text-[0.75rem] leading-5 text-tinta/85">
         <div className="mb-1 font-titulo text-lg font-extrabold text-noite">Sobre</div>
         <p><b>{AVISO}</b></p>
-        <p className="mt-1">{QUESTIONS.length} questões de Física com gabarito oficial. As resoluções foram geradas por IA (Chico) e mostram o selo "Aguardando revisão do professor" até o Prof. Silas revisar.</p>
+        <p className="mt-1">{QUESTIONS.length} questões de {MATERIA.nome} com gabarito oficial. {notaResolucoes()}</p>
+        {MATERIA.id !== "fisica" && <p className="mt-1">Questões de {MATERIA.nome} separadas do caderno de {MATERIA.area} por classificação automática (revisão do professor pendente). Algumas foram transcritas do PDF oficial do Inep; questões com texto incompleto ou figura não recuperada ficaram de fora.</p>}
         <p className="mt-1">Provas originais: <a className="font-bold text-azul underline" href={INEP} target="_blank" rel="noreferrer">gov.br/inep</a>.</p>
       </div>
     </div>

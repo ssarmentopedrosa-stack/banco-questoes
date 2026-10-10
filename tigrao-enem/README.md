@@ -1,4 +1,21 @@
-# Tigrão ENEM · Física, questões oficiais
+# Tigrão ENEM · Física, Biologia, Química e Geografia (questões oficiais)
+
+## Matérias (out/2026)
+- Tela inicial de **escolha de matéria**: Física (163), Biologia (215), Química (158), Geografia (200) e
+  **Ciências da Natureza** (Física + Biologia + Química juntas, simulado misto 5/5/5 e 15/15/15).
+- Cada matéria tem **progresso próprio** (XP, domínio, revisões, medalhas, simulados) em chaves separadas do
+  `localStorage`. A de Física continua `tigrao-enem-fisica-v1` (quem já jogava não perde nada e cai direto na Física).
+  Biologia/Química/Geografia/Natureza: `tigrao-enem-<matéria>-v1`. Matéria escolhida: `tigrao-enem-materia`.
+- Biologia/Química/Geografia: `src/materias/*.json` + `public/figuras/<matéria>/`, gerados pelo pipeline em
+  `scripts/multi/` (ver o README de lá). Gabarito oficial do Inep em todas; **sem resolução comentada ainda**;
+  classificação de matéria/tema automática + manual, **a revisar pelo professor** (`scripts/multi/revisao_professor.csv`).
+- Simulados das matérias novas: mesmo formato (15 q/45 min e 45 q/2h30), pesos proporcionais ao banco de cada tema.
+- Backup: o código guarda a matéria; códigos antigos valem para Física; código de outra matéria é recusado.
+- Testes: `node scripts/prints.mjs` (Física) e `node scripts/materias.mjs` (matérias novas + preservação da Física).
+
+---
+
+# Física
 
 App gamificado (celular, sem login) com as questões oficiais de Física do ENEM deste repositório,
 no mesmo formato do Banco Arretado, com o **Tigrão** como mascote.

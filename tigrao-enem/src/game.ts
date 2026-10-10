@@ -1,7 +1,7 @@
-import { QUESTIONS, TOPICS, byTopic, subtemaNome, type Question } from "./data";
+import { MATERIA, QUESTIONS, TOPICS, byTopic, subtemaNome, type Question } from "./data";
 
 /** Níveis medem dedicação no app (XP), não nota do ENEM. */
-export const LEVELS = [
+export let LEVELS = [
   { title: "Calouro", min: 0, emoji: "🎒" },
   { title: "Vestibulando", min: 100, emoji: "📖" },
   { title: "Cientista da Natureza", min: 300, emoji: "🔬" },
@@ -16,11 +16,32 @@ export const META_DIARIA = 10;
 export const BADGE_MIN_ACERTOS = 5;
 export const INTERVALOS = [1, 3, 7]; // dias da revisão espaçada
 export type SimKind = "mini" | "completo";
-export const SIMULADOS: Record<SimKind, { nome: string; n: number; segundos: number; peso: Record<string, number> }> = {
-  mini: { nome: "Mini-simulado", n: 15, segundos: 45 * 60, peso: { "Mecânica": 4, "Eletricidade e Magnetismo": 3, "Ondulatória": 3, "Termologia": 3, "Óptica": 1, "Física Moderna": 1 } },
-  completo: { nome: "Simulado ENEM", n: 45, segundos: 150 * 60, peso: { "Mecânica": 13, "Eletricidade e Magnetismo": 10, "Ondulatória": 8, "Termologia": 8, "Óptica": 4, "Física Moderna": 2 } },
-};
-
+type SimCfg = { nome: string; n: number; segundos: number; peso: Record<string, number> };
+/** Divide n questões entre os temas proporcionalmente ao banco (maiores restos; pelo menos 1 por tema quando cabe). */
+function proporcional(n: number): Record<string, number> {
+  const cont = TOPICS.map((t) => ({ t: t.name, c: byTopic(t.name).length })).filter((x) => x.c > 0);
+  const tot = cont.reduce((a, x) => a + x.c, 0) || 1;
+  const base = cont.map((x) => ({ ...x, k: Math.max(n >= cont.length ? 1 : 0, Math.floor((n * x.c) / tot)), r: (n * x.c) / tot - Math.floor((n * x.c) / tot) }));
+  let soma = base.reduce((a, x) => a + x.k, 0);
+  for (const x of [...base].sort((a, b) => b.r - a.r)) { if (soma >= n) break; if (x.k < x.c) { x.k += 1; soma += 1; } }
+  for (const x of [...base].sort((a, b) => b.k - a.k)) { if (soma <= n) break; if (x.k > 1) { x.k -= 1; soma -= 1; } }
+  return Object.fromEntries(base.map((x) => [x.t, Math.min(x.k, x.c)]));
+}
+export let SIMULADOS: Record<SimKind, SimCfg> = { mini: { nome: "Mini-simulado", n: 15, segundos: 45 * 60, peso: {} }, completo: { nome: "Simulado ENEM", n: 45, segundos: 150 * 60, peso: {} } };
+export let KEY = MATERIA.key;
+let qById = new Map<string, Question>();
+/** Reconfigura o jogo para a matéria ativa (chamar depois de setMateria). */
+export function configurarJogo() {
+  KEY = MATERIA.key;
+  qById = new Map(QUESTIONS.map((q) => [q.id, q]));
+  LEVELS = LEVELS.map((l, i) => (i === 2 ? { ...l, title: MATERIA.nivel3 } : l));
+  SIMULADOS = {
+    mini: { nome: "Mini-simulado", n: 15, segundos: 45 * 60, peso: MATERIA.peso?.mini ?? proporcional(15) },
+    completo: { nome: MATERIA.id === "natureza" ? "Simulado Ciências da Natureza" : "Simulado ENEM", n: 45, segundos: 150 * 60, peso: MATERIA.peso?.completo ?? proporcional(45) },
+  };
+  const ex = SPECIAL_BADGES.find((b) => b.id === "explorador");
+  if (ex) ex.nome = MATERIA.id === "fisica" ? "Explorador da Física" : `Explorador: ${MATERIA.nome}`;
+}
 export type Answer = { correct: boolean; attempts: number; everCorrect: boolean; lastAt: string; hist: boolean[] };
 export type ReviewItem = { box: number; due: string };
 export type SimuladoResult = { date: string; score: number; total: number; seconds: number; kind: SimKind };
@@ -42,7 +63,6 @@ export type State = {
   prefs: { fonte: 0 | 1 | 2 };
 };
 
-export const KEY = "tigrao-enem-fisica-v1";
 const iso = (d: Date) => d.toLocaleDateString("sv-SE"); // AAAA-MM-DD no fuso do aparelho
 export const today = () => iso(new Date());
 export const addDays = (n: number, base = new Date()) => {
@@ -56,7 +76,6 @@ export const weekId = (d = new Date()) => {
   x.setDate(x.getDate() - ((x.getDay() + 6) % 7)); // segunda-feira
   return iso(x);
 };
-const qById = new Map(QUESTIONS.map((q) => [q.id, q]));
 
 export const emptyState = (): State => ({
   schema: 2,
@@ -383,3 +402,5 @@ export function simuladoSet(s: State, kind: SimKind): Question[] {
 }
 export const simuladoDisponivel = (kind: SimKind) =>
   Object.entries(SIMULADOS[kind].peso).every(([area, n]) => byTopic(area).length >= n) && QUESTIONS.length >= SIMULADOS[kind].n;
+
+configurarJogo();

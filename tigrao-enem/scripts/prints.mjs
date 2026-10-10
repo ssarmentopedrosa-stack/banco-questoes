@@ -29,6 +29,8 @@ const atual = async () => {
 const clicaLetra = (l) => page.getByRole("button", { name: `Alternativa ${l}`, exact: true }).click();
 
 await page.goto("http://127.0.0.1:4189/"); await wait(1200);
+check(await page.getByTestId("materia-fisica").isVisible(), "1º acesso mostra a escolha de matéria");
+await page.getByTestId("materia-fisica").click(); await wait(1200);
 check(await page.getByText("Tigrão ENEM", { exact: true }).isVisible(), "home abre com o Tigrão");
 const vHome = page.locator('video[data-clip="anim_abertura"]');
 check((await vHome.count()) === 1, "home usa o clipe de abertura");
@@ -154,6 +156,7 @@ const codigo = await page.getByTestId("codigo-export").inputValue();
 check(/^TGR[01]\./.test(codigo), `código de backup gerado (${codigo.length} caracteres)`);
 await page.screenshot({ path: OUT + "25_ajustes_backup.png" });
 await page.evaluate(() => localStorage.clear()); await page.reload(); await wait(800);
+await page.getByTestId("materia-fisica").click(); await wait(1000);
 check(((await state())?.xp ?? 0) === 0, "progresso apagado (simula celular novo)");
 await page.getByText("Ajustes", { exact: true }).click(); await wait(300);
 await page.getByTestId("codigo-import").fill("lixo"); await page.getByRole("button", { name: "Importar código" }).click(); await wait(300);

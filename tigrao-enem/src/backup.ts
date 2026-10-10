@@ -1,4 +1,5 @@
 import { normalize, type State } from "./game";
+import { MATERIA, materiaInfo } from "./data";
 
 /** Código de backup do progresso: "TGR1." + base64url(deflate(JSON)) (ou "TGR0." sem compressão). */
 const b64url = (bytes: Uint8Array) => {
@@ -14,7 +15,7 @@ const pipe = async (bytes: Uint8Array, t: CompressionStream | DecompressionStrea
   new Uint8Array(await new Response(new Blob([bytes as BlobPart]).stream().pipeThrough(t)).arrayBuffer());
 
 export async function exportCode(s: State): Promise<string> {
-  const json = new TextEncoder().encode(JSON.stringify({ app: "tigrao-enem", v: 2, s }));
+  const json = new TextEncoder().encode(JSON.stringify({ app: "tigrao-enem", v: 3, materia: MATERIA.id, s }));
   if (typeof CompressionStream !== "undefined") return "TGR1." + b64url(await pipe(json, new CompressionStream("deflate-raw")));
   return "TGR0." + b64url(json);
 }
@@ -30,6 +31,8 @@ export async function importCode(texto: string): Promise<State> {
   else throw new Error("Código inválido.");
   const obj = JSON.parse(json);
   const s = obj?.app === "tigrao-enem" ? obj.s : obj;
+  const materia = obj?.app === "tigrao-enem" && typeof obj.materia === "string" ? obj.materia : "fisica"; // códigos antigos = Física
+  if (materia !== MATERIA.id) throw new Error(`Esse código é do progresso de ${materiaInfo(materia).nome}. Troque para essa matéria antes de importar.`);
   if (!s || typeof s.xp !== "number" || typeof s.answers !== "object") throw new Error("Esse código não é um progresso do Tigrão ENEM.");
   return normalize(s);
 }

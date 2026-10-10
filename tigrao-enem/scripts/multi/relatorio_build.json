@@ -1,0 +1,1688 @@
+{
+ "resumo": {
+  "biologia": {
+   "materia": "biologia",
+   "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), caderno azul; texto conferido com o PDF oficial do Inep",
+   "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2010 CN: leitura do gabarito oficial (círculos verdes) feita no pipeline de Física",
+   "porAno": {
+    "2009": 18,
+    "2010": 14,
+    "2011": 19,
+    "2012": 14,
+    "2013": 12,
+    "2014": 13,
+    "2015": 13,
+    "2016": 12,
+    "2017": 13,
+    "2018": 14,
+    "2019": 9,
+    "2020": 8,
+    "2021": 12,
+    "2022": 12,
+    "2023": 15,
+    "2024": 8,
+    "2025": 9
+   },
+   "foraPorAno": {
+    "2010": 1,
+    "2011": 1,
+    "2012": 1,
+    "2013": 2,
+    "2014": 1,
+    "2015": 1,
+    "2016": 2,
+    "2017": 2,
+    "2018": 2,
+    "2019": 3,
+    "2020": 4,
+    "2021": 2,
+    "2022": 3
+   },
+   "total": 215,
+   "fora": {
+    "texto incompleto em relação à prova oficial": 24,
+    "anulada pelo Inep": 1
+   },
+   "porArea": {
+    "Corpo Humano e Saúde": 55,
+    "Botânica e Zoologia": 49,
+    "Citologia e Bioquímica": 39,
+    "Ecologia e Meio Ambiente": 35,
+    "Genética e Biotecnologia": 33,
+    "Evolução": 4
+   },
+   "doPdfOficial": 26,
+   "comExplicacao": 0,
+   "revisadas": 0,
+   "classificacao": "automática (palavras-chave) + revisão manual dos casos ambíguos pelo agente; a conferir pelo professor"
+  },
+  "quimica": {
+   "materia": "quimica",
+   "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), caderno azul; texto conferido com o PDF oficial do Inep",
+   "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2010 CN: leitura do gabarito oficial (círculos verdes) feita no pipeline de Física",
+   "porAno": {
+    "2009": 8,
+    "2010": 12,
+    "2011": 8,
+    "2012": 9,
+    "2013": 10,
+    "2014": 9,
+    "2015": 9,
+    "2016": 8,
+    "2017": 11,
+    "2018": 10,
+    "2019": 14,
+    "2020": 11,
+    "2021": 12,
+    "2022": 9,
+    "2023": 10,
+    "2024": 3,
+    "2025": 5
+   },
+   "foraPorAno": {
+    "2009": 2,
+    "2010": 4,
+    "2011": 4,
+    "2012": 4,
+    "2013": 6,
+    "2014": 7,
+    "2015": 6,
+    "2016": 8,
+    "2017": 5,
+    "2018": 4,
+    "2019": 2,
+    "2020": 4,
+    "2021": 3,
+    "2022": 4,
+    "2023": 3
+   },
+   "total": 158,
+   "fora": {
+    "texto incompleto em relação à prova oficial": 62,
+    "gabarito do dataset diverge do oficial": 1,
+    "alternativas incompletas": 1,
+    "texto não conferível com a prova oficial e curto": 1,
+    "figura ausente": 1
+   },
+   "porArea": {
+    "Química Geral e Ambiental": 46,
+    "Química Orgânica": 32,
+    "Equilíbrio Químico e pH": 27,
+    "Estequiometria e Cálculos": 21,
+    "Soluções e Concentração": 18,
+    "Eletroquímica": 10,
+    "Termoquímica e Cinética": 4
+   },
+   "doPdfOficial": 25,
+   "comExplicacao": 0,
+   "revisadas": 0,
+   "classificacao": "automática (palavras-chave) + revisão manual dos casos ambíguos pelo agente; a conferir pelo professor"
+  },
+  "geografia": {
+   "materia": "geografia",
+   "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), caderno azul; texto conferido com o PDF oficial do Inep",
+   "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2010 CN: leitura do gabarito oficial (círculos verdes) feita no pipeline de Física",
+   "porAno": {
+    "2009": 16,
+    "2011": 17,
+    "2012": 17,
+    "2013": 10,
+    "2014": 8,
+    "2015": 9,
+    "2016": 11,
+    "2017": 14,
+    "2018": 10,
+    "2019": 12,
+    "2020": 19,
+    "2021": 11,
+    "2022": 14,
+    "2023": 13,
+    "2024": 10,
+    "2025": 9
+   },
+   "foraPorAno": {},
+   "total": 200,
+   "fora": {},
+   "porArea": {
+    "Indústria, Economia e Globalização": 40,
+    "Urbanização e População": 39,
+    "Espaço Agrário": 26,
+    "Clima e Hidrografia": 25,
+    "Relevo, Solos e Geologia": 24,
+    "Meio Ambiente e Recursos": 23,
+    "Geopolítica e Conflitos": 14,
+    "Cartografia e Geotecnologias": 9
+   },
+   "doPdfOficial": 20,
+   "comExplicacao": 0,
+   "revisadas": 0,
+   "classificacao": "automática (palavras-chave) + revisão manual dos casos ambíguos pelo agente; a conferir pelo professor"
+  },
+  "CN-2024-2025-nao-extraida": {
+   "fora": {
+    "tem figura/tabela (não extraída nesta rodada)": 26,
+    "texto do PDF com palavras ilegíveis": 1,
+    "anulada pelo Inep": 3,
+    "alternativas não reconhecidas no PDF": 1
+   },
+   "foraPorAno": {
+    "2024": 17,
+    "2025": 14
+   }
+  },
+  "CH-nao-classificada": {
+   "fora": {
+    "tem figura/tabela (não extraída nesta rodada)": 11,
+    "enunciado curto demais": 6,
+    "texto incompleto em relação à prova oficial": 58,
+    "sem gabarito oficial disponível": 45,
+    "texto não conferível com a prova oficial e curto": 2,
+    "gabarito do dataset diverge do oficial": 1,
+    "figura ausente": 2
+   },
+   "foraPorAno": {
+    "2009": 3,
+    "2010": 45,
+    "2011": 4,
+    "2012": 1,
+    "2013": 7,
+    "2014": 7,
+    "2015": 5,
+    "2016": 7,
+    "2017": 4,
+    "2018": 6,
+    "2019": 2,
+    "2020": 2,
+    "2021": 3,
+    "2022": 5,
+    "2023": 7,
+    "2024": 7,
+    "2025": 10
+   }
+  }
+ },
+ "fora": [
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2024,
+   "questao": 52,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2024,
+   "questao": 53,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2024,
+   "questao": 76,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2024,
+   "questao": 77,
+   "motivo": "enunciado curto demais"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2024,
+   "questao": 78,
+   "motivo": "enunciado curto demais"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2024,
+   "questao": 79,
+   "motivo": "enunciado curto demais"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2024,
+   "questao": 86,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 92,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 94,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 98,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 104,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 110,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 112,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 113,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 114,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 115,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 118,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 120,
+   "motivo": "texto do PDF com palavras ilegíveis"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 123,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 124,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 129,
+   "motivo": "anulada pelo Inep"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 130,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 133,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2024,
+   "questao": 134,
+   "motivo": "alternativas não reconhecidas no PDF"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2025,
+   "questao": 46,
+   "motivo": "enunciado curto demais"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2025,
+   "questao": 47,
+   "motivo": "enunciado curto demais"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2025,
+   "questao": 48,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2025,
+   "questao": 49,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2025,
+   "questao": 61,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2025,
+   "questao": 62,
+   "motivo": "enunciado curto demais"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2025,
+   "questao": 63,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2025,
+   "questao": 64,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2025,
+   "questao": 68,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2025,
+   "questao": 77,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 104,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 105,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 106,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 107,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 109,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 111,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 115,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 120,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 123,
+   "motivo": "anulada pelo Inep"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 127,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 129,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 132,
+   "motivo": "anulada pelo Inep"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 133,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "CN-2024-2025-nao-extraida",
+   "ano": 2025,
+   "questao": 134,
+   "motivo": "tem figura/tabela (não extraída nesta rodada)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2009,
+   "questao": 15,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 17%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2009,
+   "questao": 43,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 69%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2009,
+   "questao": 47,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 39%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2009,
+   "questao": 82,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 89%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2009,
+   "questao": 86,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 46%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 1,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 10,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 11,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 12,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 13,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 14,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 15,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 16,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 17,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 18,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 19,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 2,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 20,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 21,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 22,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 23,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 24,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 25,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 26,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 27,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 28,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 29,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 3,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 30,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 31,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 32,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 33,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 34,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 35,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 36,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 37,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 38,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 39,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 4,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 40,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 41,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 42,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 43,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 44,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 45,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 5,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 6,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2010,
+   "questao": 63,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 69%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2010,
+   "questao": 69,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 47%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 7,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2010,
+   "questao": 73,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 28%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2010,
+   "questao": 77,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 40%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 8,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2010,
+   "questao": 86,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 89%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2010,
+   "questao": 9,
+   "motivo": "sem gabarito oficial disponível"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2011,
+   "questao": 22,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 78%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2011,
+   "questao": 3,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 26%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2011,
+   "questao": 30,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 78%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2011,
+   "questao": 6,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 53%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2011,
+   "questao": 61,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 67%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2011,
+   "questao": 62,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 53%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2011,
+   "questao": 71,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2011,
+   "questao": 72,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 39%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2011,
+   "questao": 81,
+   "motivo": "gabarito do dataset diverge do oficial"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2012,
+   "questao": 19,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 87%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2012,
+   "questao": 49,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 81%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2012,
+   "questao": 66,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 80%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2012,
+   "questao": 69,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 38%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2012,
+   "questao": 80,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 45%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2012,
+   "questao": 82,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 50%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2013,
+   "questao": 1,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2013,
+   "questao": 13,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 78%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2013,
+   "questao": 17,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 79%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2013,
+   "questao": 2,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 49%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2013,
+   "questao": 25,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 80%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2013,
+   "questao": 39,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 87%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2013,
+   "questao": 54,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 30%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2013,
+   "questao": 64,
+   "motivo": "alternativas incompletas"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2013,
+   "questao": 68,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 26%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2013,
+   "questao": 7,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 73%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2013,
+   "questao": 71,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 20%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2013,
+   "questao": 73,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 38%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2013,
+   "questao": 84,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 63%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2013,
+   "questao": 86,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 17%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2013,
+   "questao": 90,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 30%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2014,
+   "questao": 15,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 63%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2014,
+   "questao": 16,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 88%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2014,
+   "questao": 25,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 41%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2014,
+   "questao": 26,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 61%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2014,
+   "questao": 27,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 53%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2014,
+   "questao": 36,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 43%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2014,
+   "questao": 38,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 90%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2014,
+   "questao": 48,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 56%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2014,
+   "questao": 51,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 40%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2014,
+   "questao": 54,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 72%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2014,
+   "questao": 59,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 6%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2014,
+   "questao": 65,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 30%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2014,
+   "questao": 71,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 84%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2014,
+   "questao": 80,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 41%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2014,
+   "questao": 83,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 17%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2015,
+   "questao": 10,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 61%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2015,
+   "questao": 12,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2015,
+   "questao": 26,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 81%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2015,
+   "questao": 35,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 57%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2015,
+   "questao": 37,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 79%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2015,
+   "questao": 59,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 41%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2015,
+   "questao": 60,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 42%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2015,
+   "questao": 69,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 53%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2015,
+   "questao": 77,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 42%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2015,
+   "questao": 81,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 17%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2015,
+   "questao": 84,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 27%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2015,
+   "questao": 90,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 70%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2016,
+   "questao": 14,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 57%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2016,
+   "questao": 16,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 45%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2016,
+   "questao": 17,
+   "motivo": "texto não conferível com a prova oficial e curto"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2016,
+   "questao": 34,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 54%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2016,
+   "questao": 36,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 44%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2016,
+   "questao": 43,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 49%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2016,
+   "questao": 45,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 73%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2016,
+   "questao": 48,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 35%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2016,
+   "questao": 50,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 3%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2016,
+   "questao": 52,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 77%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2016,
+   "questao": 53,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 73%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2016,
+   "questao": 61,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 51%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2016,
+   "questao": 75,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 81%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2016,
+   "questao": 76,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 8%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2016,
+   "questao": 78,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 17%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2016,
+   "questao": 81,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 41%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2016,
+   "questao": 85,
+   "motivo": "texto não conferível com a prova oficial e curto"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2017,
+   "questao": 105,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 71%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2017,
+   "questao": 120,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 55%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2017,
+   "questao": 121,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 8%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2017,
+   "questao": 124,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 75%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2017,
+   "questao": 128,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 39%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2017,
+   "questao": 51,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 87%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2017,
+   "questao": 54,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 73%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2017,
+   "questao": 70,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 67%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2017,
+   "questao": 72,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 56%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2017,
+   "questao": 94,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 53%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2017,
+   "questao": 96,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 50%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2018,
+   "questao": 105,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 53%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2018,
+   "questao": 106,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 75%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2018,
+   "questao": 107,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 83%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2018,
+   "questao": 124,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 35%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2018,
+   "questao": 126,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 2%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2018,
+   "questao": 56,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 62%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2018,
+   "questao": 81,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 53%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2018,
+   "questao": 82,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 88%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2018,
+   "questao": 83,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 69%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2018,
+   "questao": 87,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 35%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2018,
+   "questao": 90,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 50%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2018,
+   "questao": 92,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 58%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2019,
+   "questao": 112,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 82%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2019,
+   "questao": 118,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 36%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2019,
+   "questao": 123,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 61%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2019,
+   "questao": 125,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 13%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2019,
+   "questao": 57,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2019,
+   "questao": 58,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 51%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2019,
+   "questao": 93,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 38%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2020,
+   "questao": 100,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 82%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2020,
+   "questao": 101,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 28%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2020,
+   "questao": 104,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 52%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2020,
+   "questao": 119,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 77%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2020,
+   "questao": 129,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 25%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2020,
+   "questao": 131,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 59%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2020,
+   "questao": 135,
+   "motivo": "anulada pelo Inep"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2020,
+   "questao": 64,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 54%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2020,
+   "questao": 66,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 71%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2020,
+   "questao": 92,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 22%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2021,
+   "questao": 101,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 70%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2021,
+   "questao": 106,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 80%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2021,
+   "questao": 118,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 52%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2021,
+   "questao": 122,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 77%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2021,
+   "questao": 123,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 2%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2021,
+   "questao": 53,
+   "motivo": "gabarito do dataset diverge do oficial"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2021,
+   "questao": 89,
+   "motivo": "texto não conferível com a prova oficial e curto"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2021,
+   "questao": 90,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 60%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2022,
+   "questao": 106,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 48%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2022,
+   "questao": 108,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 80%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2022,
+   "questao": 118,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 43%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2022,
+   "questao": 121,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 89%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2022,
+   "questao": 129,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 67%)"
+  },
+  {
+   "materia": "biologia",
+   "ano": 2022,
+   "questao": 132,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 71%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2022,
+   "questao": 48,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 87%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2022,
+   "questao": 67,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 88%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2022,
+   "questao": 68,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 89%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2022,
+   "questao": 78,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 89%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2022,
+   "questao": 82,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 58%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2022,
+   "questao": 94,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 68%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2023,
+   "questao": 110,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 11%)"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2023,
+   "questao": 129,
+   "motivo": "figura ausente"
+  },
+  {
+   "materia": "quimica",
+   "ano": 2023,
+   "questao": 131,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 61%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2023,
+   "questao": 54,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 49%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2023,
+   "questao": 56,
+   "motivo": "figura ausente"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2023,
+   "questao": 57,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 76%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2023,
+   "questao": 65,
+   "motivo": "figura ausente"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2023,
+   "questao": 88,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 58%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2023,
+   "questao": 89,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%)"
+  },
+  {
+   "materia": "CH-nao-classificada",
+   "ano": 2023,
+   "questao": 90,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 70%)"
+  }
+ ]
+}
