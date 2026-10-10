@@ -12,7 +12,13 @@ const browser = await chromium.launch({ executablePath: "/usr/bin/google-chrome"
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true, locale: "pt-BR" });
 await ctx.grantPermissions(["clipboard-read", "clipboard-write"], { origin: "http://127.0.0.1:4189" });
 // sorteio determinístico: sem bônus surpresa, a não ser quando o teste força (window.__tigraoSorte = () => 0)
-await ctx.addInitScript(() => { window.__tigraoSorte = () => 1; });
+await ctx.addInitScript(() => {
+  window.__tigraoSorte = () => 1;
+  window.__vibra = [];
+  Object.defineProperty(navigator, "vibrate", { configurable: true, value: (p) => { window.__vibra.push(p); return true; } });
+});
+const sons = () => page.evaluate(() => window.__tigraoSons ?? []);
+const somSalvo = () => page.evaluate(() => JSON.parse(localStorage.getItem("tigrao-enem-som") || "null"));
 const V3 = "/workspace/enem_tigrao/screens_v3/";
 mkdirSync(V3, { recursive: true });
 const page = await ctx.newPage();
@@ -36,6 +42,8 @@ await page.goto("http://127.0.0.1:4189/"); await wait(1200);
 check(await page.getByTestId("materia-fisica").isVisible(), "1º acesso mostra a escolha de matéria");
 await page.getByTestId("materia-fisica").click(); await wait(1200);
 check(await page.getByText("Tigrão ENEM", { exact: true }).isVisible(), "home abre com o Tigrão");
+check((await sons()).includes("abertura"), "rugido/jingle de abertura só depois do 1º toque: " + (await sons()).join(","));
+check((await page.getByTestId("botao-som").getAttribute("aria-pressed")) === "false" && (await somSalvo()) === null, "som ligado por padrão (sem preferência salva)");
 check(await page.getByTestId("treino-rapido").isVisible() && /Treino rápido de 5/.test(await page.getByTestId("treino-rapido").innerText()), "home: botão principal Treino rápido de 5");
 {
   const [br, bi] = await Promise.all([page.getByTestId("treino-rapido").boundingBox(), page.getByText("Treino inteligente").first().boundingBox()]);
@@ -362,10 +370,90 @@ await page.getByRole("button", { name: "Meu domínio por tema" }).click(); await
 check(/Dominando/.test(await page.getByTestId("nivel-Mecânica").innerText()), "domínio: Mecânica em Dominando");
 await page.screenshot({ path: V3 + "04_dominio_por_tema.png" });
 await page.screenshot({ path: OUT + "27_dominio_niveis.png", fullPage: true });
+// ---------- som e vibração ----------
+await page.goto("http://127.0.0.1:4189/"); await wait(700);
+const xpSom = (await state()).xp;
+const progSom = await page.evaluate(() => localStorage.getItem("tigrao-enem-fisica-v1"));
+await page.getByText("Ajustes", { exact: true }).click(); await wait(400);
+check((await page.getByTestId("chave-som").getAttribute("aria-checked")) === "true" && (await page.getByTestId("volume-valor").innerText()) === "40%", "padrão: som ligado em 40%");
+check((await page.getByTestId("chave-vibrar").getAttribute("aria-checked")) === "true", "padrão: vibração ligada");
+await page.getByTestId("volume").fill("70"); await wait(200);
+check((await somSalvo())?.volume === 0.7, "volume salvo no localStorage (70%)");
+await page.getByTestId("chave-vibrar").click(); await wait(200);
+check((await somSalvo())?.vibrar === false, "vibração desligada é salva");
+await page.screenshot({ path: OUT + "28_ajustes_som.png" });
+await page.screenshot({ path: V3 + "08_ajustes_som.png" });
+await page.reload(); await wait(700);
+await page.getByText("Ajustes", { exact: true }).click(); await wait(400);
+check((await page.getByTestId("volume-valor").innerText()) === "70%" && (await page.getByTestId("chave-vibrar").getAttribute("aria-checked")) === "false", "volume e vibração persistem depois de recarregar");
+await page.getByTestId("chave-vibrar").click(); await wait(150);
+await page.getByTestId("chave-som").click(); await wait(150);
+check((await somSalvo())?.ligado === false && (await page.getByTestId("volume").isDisabled()), "som desligado em Ajustes (modo silencioso), volume trava");
+await page.getByTestId("chave-som").click(); await wait(150);
+check((await somSalvo())?.ligado === true && (await somSalvo())?.volume === 0.7, "religar mantém o volume escolhido");
+check((await state()).xp === xpSom && (await page.evaluate(() => localStorage.getItem("tigrao-enem-fisica-v1"))) === progSom, "ajustes de som não mexem no progresso salvo");
+await page.getByRole("button", { name: "Voltar" }).click(); await wait(300);
+// botão rápido no topo
+await page.getByTestId("botao-som").click(); await wait(200);
+check((await page.getByTestId("botao-som").getAttribute("aria-pressed")) === "true" && (await somSalvo())?.ligado === false, "botão do topo silencia");
+await page.reload(); await wait(700);
+check((await page.getByTestId("botao-som").getAttribute("aria-pressed")) === "true", "silêncio persiste depois de recarregar");
+await page.evaluate(() => { window.__tigraoSons = []; window.__vibra = []; });
+await page.getByText("Praticar por tema").click(); await wait(300);
+await page.getByText("Mecânica", { exact: true }).click(); await wait(400);
+q = await atual();
+await clicaLetra(q.answer); await wait(500);
+check((await sons()).length === 0, "silenciado: nenhum som ao responder");
+check((await page.evaluate(() => window.__vibra)).length === 1, "silenciado: vibração continua (tem chave própria)");
+await page.getByTestId("botao-som").click(); await wait(200);
+check((await somSalvo())?.ligado === true && (await page.getByTestId("botao-som").getAttribute("aria-pressed")) === "false", "botão de som também no topo do quiz");
+await page.evaluate(() => { window.__tigraoSons = []; window.__vibra = []; });
+await page.getByText("Próxima questão").click(); await wait(400);
+q = await atual();
+await clicaLetra(["A", "B", "C", "D", "E"].find((l) => l !== q.answer)); await wait(500);
+let ls = await sons();
+check(ls.includes("erro") && !ls.includes("acerto"), "erro toca o som gentil de erro: " + ls.join(","));
+check(JSON.stringify(await page.evaluate(() => window.__vibra)) === "[[50,70,50]]", "erro vibra de leve");
+await page.evaluate(() => { window.__tigraoSons = []; window.__vibra = []; });
+await page.getByText("Próxima questão").click(); await wait(400);
+check((await sons()).join() === "toque", "botão comum faz só um toque curto");
+await page.evaluate(() => { window.__tigraoSons = []; });
+q = await atual();
+await clicaLetra(q.answer); await wait(500);
+ls = await sons();
+check(ls.some((x) => ["acerto", "combo", "surpresa", "recuperou", "meta"].includes(x)) && !ls.includes("toque") && !ls.includes("erro"), "acerto toca o som de acerto (sem toque junto): " + ls.join(","));
+check(JSON.stringify(await page.evaluate(() => window.__vibra)) === "[35]", "acerto vibra curtinho");
+await page.getByRole("button", { name: "Sair" }).click(); await wait(200);
+await page.getByRole("dialog").getByRole("button", { name: "Sair" }).click(); await wait(400);
+await page.getByText("Início").click(); await wait(500);
+// simulado: só início e fim
+await page.evaluate(() => { window.__tigraoSons = []; window.__vibra = []; });
+await page.getByText("Mini-simulado").first().click(); await wait(700);
+check((await sons()).includes("simInicio"), "simulado toca a largada");
+await page.evaluate(() => { window.__tigraoSons = []; });
+for (let k = 0; k < 15; k++) {
+  q = await atual();
+  await clicaLetra(k % 2 ? q.answer : ["A", "B", "C", "D", "E"].find((l) => l !== q.answer)); await wait(120);
+  if (k === 14) { ls = await sons(); check(ls.length === 0 && (await page.evaluate(() => window.__vibra)).length === 0, "simulado: nenhum som/vibração nas questões (" + (ls.join(",") || "silêncio") + ")"); }
+  await page.getByText(k === 14 ? "Ver resultado" : "Confirmar e seguir").click(); await wait(200);
+}
+await wait(600);
+ls = await sons();
+check(ls.includes("simFim") && !ls.some((x) => ["acerto", "erro", "combo", "meta"].includes(x)), "fim do simulado toca o encerramento: " + ls.join(","));
+await page.evaluate(() => { window.__tigraoSons = []; });
+await page.getByText("Início").click(); await wait(400);
+check((await sons()).join() === "toque", "depois do simulado os sons voltam");
+
 const rm = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, reducedMotion: "reduce" });
+await rm.addInitScript(() => { window.__vibra = []; Object.defineProperty(navigator, "vibrate", { configurable: true, value: (p) => { window.__vibra.push(p); return true; } }); });
 const p2 = await rm.newPage();
 await p2.goto("http://127.0.0.1:4189/"); await p2.waitForTimeout(800);
 check((await p2.locator("video").count()) === 0 && (await p2.locator('img[src*="tigrao/acena"]').count()) === 1, "prefers-reduced-motion: sem vídeo, imagem estática");
+await p2.getByTestId("materia-fisica").click(); await p2.waitForTimeout(800);
+await p2.getByText("Praticar por tema").click(); await p2.waitForTimeout(300);
+await p2.getByText("Mecânica", { exact: true }).click(); await p2.waitForTimeout(400);
+await p2.getByRole("button", { name: "Alternativa A", exact: true }).click(); await p2.waitForTimeout(400);
+check((await p2.evaluate(() => window.__vibra.length)) === 0 && (await p2.evaluate(() => (window.__tigraoSons ?? []).some((x) => x === "acerto" || x === "erro"))), "reduced motion: toca som, mas não vibra");
 await rm.close();
 check(erros.length === 0, "sem erros no console " + erros.join(" | "));
 await browser.close();

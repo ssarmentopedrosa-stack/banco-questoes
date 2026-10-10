@@ -4,6 +4,9 @@ import "./index.css";
 import App from "./App";
 import { FISICA_RAW, MATERIAS, juntarNatureza, materiaInfo, setMateria, type MateriaId, type Raw } from "./data";
 import { configurarJogo } from "./game";
+import { instalarSom } from "./som";
+
+instalarSom();
 import contagem from "./materias/contagem.json";
 
 const ESCOLHA = "tigrao-enem-materia";

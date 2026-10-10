@@ -66,6 +66,13 @@ node scripts/checa_resolucoes.mjs           # resoluções em tópicos: sem perd
 - **Dica do Tigrão**: só trechos da resolução existente (conceito-chave e "Ideia central"). Sem resolução, sem dica.
 - **Selo da resolução**: "Aguardando revisão do professor" para as de IA; "Revisada pelo Prof. Silas" quando o
   gabarito trouxer `reviewedByProfessor: true` (ou status `revisada_professor`).
+- **Som e vibração** (`src/som.ts`): efeitos sintetizados com a Web Audio API, sem arquivos de áudio: toque, acerto,
+  erro (gentil), sequência/combo (1ª questão do dia com sequência ≥2 ou 3/6/9 acertos seguidos), bônus surpresa, erro
+  recuperado, meta do dia, subiu de nível/domínio, início e fim de simulado e um "rrrau" + plim do Tigrão na abertura (só
+  depois do 1º toque, 1 vez por sessão). O AudioContext é criado/retomado no 1º toque (Chrome Android/iOS Safari) e ao
+  voltar pro app. Em simulado só tocam início e fim. Preferências do aparelho (valem pra todas as matérias, separadas do
+  progresso) em `tigrao-enem-som`: som ligado (padrão), volume 40%, vibração ligada (`navigator.vibrate`, nunca com
+  `prefers-reduced-motion` nem em simulado). Botão de som no topo da home e do quiz.
 - **Ajustes**: tamanho da letra (Normal/Grande/Maior), backup do progresso por código (`TGR1.` + deflate/base64url) ou
   arquivo, e importação com confirmação. Progresso antigo (v1) é migrado automaticamente e guardado em
   `tigrao-enem-fisica-v1-backup-v1`.

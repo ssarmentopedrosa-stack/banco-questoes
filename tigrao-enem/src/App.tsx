@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft, BookOpen, Brain, CalendarCheck, Check, ChevronRight, Clock, Download, ExternalLink, Flame, Gauge, Lightbulb, RotateCcw,
-  ArrowDown, Settings, Sparkles, Target, Timer, Trophy, Upload, X, Zap, ZoomIn,
+  ArrowDown, Settings, Sparkles, Target, Timer, Trophy, Upload, Vibrate, Volume1, Volume2, VolumeX, X, Zap, ZoomIn,
 } from "lucide-react";
+import { SOM_PADRAO, setModoProva, setSomPrefs, tocar, useSom, vibracaoSuportada, vibrar, type Som } from "./som";
 import { LETTERS, MATERIA, QUESTIONS, TOPICS, dicas, figuraAlt, optionText, plural, topicInfo, type Option, type Question } from "./data";
 import {
   ALL_BADGES, CHANCE_SURPRESA, DOMINIO, LEVELS, META_DIARIA, NIVEIS_DOMINIO, SIMULADOS, XP, badgeLabel, dominioSub, dominioTema, dueReviews, folgaDisponivel,
@@ -141,6 +142,7 @@ function TopBar({ state }: { state: State }) {
         <Flame className="h-5 w-5" fill="currentColor" />
         <span className="text-sm font-black leading-none">{state.streak.count}</span>
       </div>
+      <BotaoSom />
     </div>
   );
 }
@@ -152,6 +154,19 @@ function Header({ title, onBack, right }: { title: string; onBack: () => void; r
       <h1 className="flex-1 font-titulo text-2xl font-extrabold text-noite">{title}</h1>
       {right}
     </div>
+  );
+}
+
+/** Botão rápido de som (liga/desliga), no topo da home e do quiz. */
+function BotaoSom({ className = "" }: { className?: string }) {
+  const som = useSom();
+  const ligado = som.ligado && som.volume > 0;
+  return (
+    <button data-testid="botao-som" data-som="off" aria-pressed={!ligado} aria-label={ligado ? "Desligar som" : "Ligar som"} title={ligado ? "Som ligado" : "Som desligado"}
+      onClick={() => { setSomPrefs(ligado ? { ligado: false } : { ligado: true, volume: som.volume > 0 ? som.volume : SOM_PADRAO.volume }); if (!ligado) setTimeout(() => tocar("toque"), 0); }}
+      className={`grid shrink-0 place-items-center rounded-full bg-papel p-2 text-noite shadow-sm ring-1 ring-borda ${className}`}>
+      {ligado ? (som.volume < 0.5 ? <Volume1 className="h-5 w-5" /> : <Volume2 className="h-5 w-5" />) : <VolumeX className="h-5 w-5 text-vermelho" />}
+    </button>
   );
 }
 
@@ -602,7 +617,7 @@ function QuizView(p: Quiz & {
   const [gain, setGain] = useState<Gain | null>(null);
   const [nDicas, setNDicas] = useState(0);
   const [sair, setSair] = useState(false);
-  const acc = useRef({ xp: 0, badges: [] as string[], levelUp: null as string | null, missoes: [] as string[], dominioUps: [] as string[], state: p.state });
+  const acc = useRef({ xp: 0, badges: [] as string[], levelUp: null as string | null, missoes: [] as string[], dominioUps: [] as string[], state: p.state, combo: 0 });
   const altsRef = useRef<HTMLDivElement>(null);
   const [altsVisiveis, setAltsVisiveis] = useState(true);
   const [left, setLeft] = useState(total);
@@ -624,6 +639,15 @@ function QuizView(p: Quiz & {
       return l;
     });
     return () => links.forEach((l) => l.remove());
+  }, []);
+
+  // simulado: só som de largada e de fim; nada de som/vibração por questão (não entrega o gabarito)
+  useEffect(() => {
+    if (!sim) return;
+    setModoProva(true);
+    tocar("simInicio");
+    return () => setModoProva(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -658,6 +682,8 @@ function QuizView(p: Quiz & {
       const [ns, g] = registerSimulado(s, mode, score, all.length, seconds);
       s = ns; absorb(g);
       p.setState(s);
+      setModoProva(false);
+      tocar("simFim");
     }
     p.onFinish({ items: all, xp: acc.current.xp, badges: acc.current.badges, levelUp: acc.current.levelUp, missoes: acc.current.missoes, seconds, dominioUps: acc.current.dominioUps });
   };
@@ -703,6 +729,14 @@ function QuizView(p: Quiz & {
       p.setState(ns);
       setGain(g);
       setRevealed(true);
+      const ok = letter === q.answer;
+      acc.current.combo = ok ? acc.current.combo + 1 : 0;
+      const somDe: Record<Reacao, Som> = { acerto: "acerto", erro: "erro", sequencia: "combo", recuperou: "recuperou", meta: "meta", surpresa: "surpresa" };
+      let s1 = somDe[tipoReacao(ok, g)];
+      if (s1 === "acerto" && acc.current.combo >= 3 && acc.current.combo % 3 === 0) s1 = "combo"; // 3, 6, 9 acertos seguidos na sessão
+      tocar(s1);
+      if (g.dominioUp || g.levelUp) setTimeout(() => tocar("nivel"), s1 === "meta" ? 900 : 520);
+      vibrar(ok ? 35 : [50, 70, 50]);
     }
   };
   const avancar = (resp: string | null) => {
@@ -741,6 +775,7 @@ function QuizView(p: Quiz & {
             <div className="h-full rounded-full bg-azul transition-all" style={{ width: `${((i + (revealed ? 1 : 0)) / questions.length) * 100}%` }} />
           </div>
         </div>
+        <BotaoSom />
         {sim && (
           <div data-testid="cronometro" className={`flex items-center gap-1 rounded-full px-3 py-1.5 text-sm font-black ${left < 300 ? "bg-vermelho text-white" : "bg-papel text-vermelho ring-1 ring-borda"}`}>
             <Clock className="h-4 w-4" /> {fmt(Math.max(0, left))}
@@ -1206,6 +1241,56 @@ function Conquistas({ state, onBack }: { state: State; onBack: () => void }) {
 }
 
 /* ---------- AJUSTES ---------- */
+function Chave({ ligado, onChange, rotulo, testid, disabled }: { ligado: boolean; onChange: (v: boolean) => void; rotulo: string; testid: string; disabled?: boolean }) {
+  return (
+    <button role="switch" aria-checked={ligado} aria-label={rotulo} data-testid={testid} disabled={disabled} onClick={() => onChange(!ligado)}
+      className={`relative h-7 w-12 shrink-0 rounded-full transition disabled:opacity-40 ${ligado ? "bg-teal" : "bg-desligado"}`}>
+      <span className={`absolute top-0.5 h-6 w-6 rounded-full bg-white shadow transition-all ${ligado ? "left-[1.375rem]" : "left-0.5"}`} />
+    </button>
+  );
+}
+function AjustesSom() {
+  const som = useSom();
+  const reduced = useReducedMotion();
+  const vibraOk = vibracaoSuportada();
+  const amostras: { s: Som; n: string }[] = [{ s: "acerto", n: "Acerto" }, { s: "erro", n: "Erro" }, { s: "combo", n: "Sequência" }, { s: "meta", n: "Meta" }, { s: "nivel", n: "Nível" }, { s: "abertura", n: "Tigrão" }];
+  return (
+    <div className="rounded-3xl bg-papel p-4 shadow-sm ring-1 ring-borda" data-testid="ajustes-som">
+      <div className="mb-2 font-titulo text-lg font-extrabold text-noite">Som e vibração</div>
+      <div className="flex items-center gap-3">
+        {som.ligado ? <Volume2 className="h-5 w-5 text-azul" /> : <VolumeX className="h-5 w-5 text-vermelho" />}
+        <div className="flex-1 text-sm font-bold">Efeitos sonoros<div className="text-[0.6875rem] font-semibold text-tinta/75">{som.ligado ? "Ligados" : "Desligados (modo silencioso)"}</div></div>
+        <Chave ligado={som.ligado} rotulo="Som" testid="chave-som" onChange={(v) => { setSomPrefs({ ligado: v, volume: v && som.volume === 0 ? SOM_PADRAO.volume : som.volume }); if (v) setTimeout(() => tocar("acerto"), 0); }} />
+      </div>
+      <label className={`mt-3 flex items-center gap-3 ${som.ligado ? "" : "opacity-50"}`}>
+        <Volume1 className="h-5 w-5 shrink-0 text-azul" />
+        <span className="sr-only">Volume</span>
+        <input type="range" min={0} max={100} step={5} value={Math.round(som.volume * 100)} disabled={!som.ligado} aria-label="Volume" data-testid="volume"
+          onChange={(e) => setSomPrefs({ volume: +e.target.value / 100 })} onPointerUp={() => tocar("acerto")} onKeyUp={() => tocar("toque")}
+          className="h-2 flex-1 accent-laranja" />
+        <span className="w-10 text-right text-sm font-black" data-testid="volume-valor">{Math.round(som.volume * 100)}%</span>
+      </label>
+      {som.ligado && (
+        <div className="mt-3 flex flex-wrap gap-1.5" data-som="off">
+          {amostras.map((a) => (
+            <button key={a.s} onClick={() => tocar(a.s)} className="rounded-full bg-ceu px-2.5 py-1 text-[0.75rem] font-bold text-noite">▶ {a.n}</button>
+          ))}
+        </div>
+      )}
+      <div className="mt-4 flex items-center gap-3 border-t border-borda pt-3">
+        <Vibrate className="h-5 w-5 text-azul" />
+        <div className="flex-1 text-sm font-bold">Vibrar no acerto e no erro
+          <div className="text-[0.6875rem] font-semibold text-tinta/75">
+            {!vibraOk ? "Este aparelho/navegador não vibra (ex.: iPhone)." : reduced ? "Desligada enquanto o sistema pede menos movimento." : som.vibrar ? "Ligada" : "Desligada"}
+          </div>
+        </div>
+        <Chave ligado={som.vibrar} rotulo="Vibração" testid="chave-vibrar" onChange={(v) => { setSomPrefs({ vibrar: v }); if (v) vibrar(35); }} />
+      </div>
+      <p className="mt-3 text-[0.6875rem] leading-4 text-tinta/75">Sons gerados no próprio aparelho, sem baixar nada. Nos simulados só tocam o início e o fim, pra não entregar o gabarito. Vale para todas as matérias.</p>
+    </div>
+  );
+}
+
 function Ajustes({ state, setState, onBack }: { state: State; setState: (s: State) => void; onBack: () => void }) {
   const [codigo, setCodigo] = useState("");
   const [colado, setColado] = useState("");
@@ -1234,6 +1319,8 @@ function Ajustes({ state, setState, onBack }: { state: State; setState: (s: Stat
           onCancel={() => setPendente(null)}
           onOk={() => { setState(pendente); setPendente(null); setColado(""); setMsg({ ok: true, t: `Progresso importado: ${pendente.xp} XP. Bora continuar!` }); }} />
       )}
+
+      <AjustesSom />
 
       <div className="rounded-3xl bg-papel p-4 shadow-sm ring-1 ring-borda">
         <div className="mb-2 font-titulo text-lg font-extrabold text-noite">Tamanho da letra</div>

@@ -139,6 +139,20 @@ for (const m of ["biologia", "quimica", "geografia", "natureza"]) {
 }
 
 
+// 3) som é preferência do aparelho: vale para todas as matérias e não mexe no progresso
+{
+  const antes = await page.evaluate(() => Object.fromEntries(Object.keys(localStorage).filter((k) => /-v1$/.test(k)).map((k) => { const o = JSON.parse(localStorage.getItem(k)); return [k, { xp: o.xp, answers: o.answers, simulados: o.simulados?.length }]; })));
+  await page.getByTestId("botao-som").click(); await wait(200);
+  await page.getByTestId("trocar-materia").click(); await wait(400);
+  await page.getByTestId("materia-biologia").click(); await wait(1200);
+  check((await page.getByTestId("botao-som").getAttribute("aria-pressed")) === "true", "silêncio vale em todas as matérias");
+  await page.getByTestId("botao-som").click(); await wait(200);
+  const depois = await page.evaluate(() => Object.fromEntries(Object.keys(localStorage).filter((k) => /-v1$/.test(k)).map((k) => { const o = JSON.parse(localStorage.getItem(k)); return [k, { xp: o.xp, answers: o.answers, simulados: o.simulados?.length }]; })));
+  const dif = Object.keys({ ...antes, ...depois }).filter((k) => JSON.stringify(antes[k]) !== JSON.stringify(depois[k]));
+  check(dif.length === 0, "preferência de som não altera o progresso das matérias" + (dif.length ? " — muda: " + dif.map((k) => k + " " + JSON.stringify(antes[k])?.slice(0, 80) + " → " + JSON.stringify(depois[k])?.slice(0, 80)).join(" | ") : ""));
+  check(JSON.parse(await page.evaluate(() => localStorage.getItem("tigrao-enem-som"))).ligado === true, "som religado e salvo");
+}
+
 // 4) Física continua intacta e o backup recusa matéria errada
 await page.getByTestId("trocar-materia").click(); await wait(400);
 await page.getByTestId("materia-fisica").click(); await wait(1200);
