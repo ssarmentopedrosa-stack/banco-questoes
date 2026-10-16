@@ -16,5 +16,59 @@
   "materia": "portugues",
   "gabaritoOficial": "C",
   "motivo": "Gabarito oficial C (frases feitas de situações amorosas estereotipadas). A leitura da IA favorecia D (quebra de expectativa: o \"ele\" que abandona o narrador é o celular). Não fechou com segurança; conferir."
+ },
+ {
+  "id": "ENEM-LC-2009-REG-D2-C7-Q91",
+  "materia": "arte",
+  "gabaritoOficial": "A",
+  "motivo": "As alternativas são só imagens; a resolução depende de analisar as obras. Conferir com a prova."
+ },
+ {
+  "id": "ENEM-LC-2010-REG-D2-C7-Q110",
+  "materia": "educacao_fisica",
+  "gabaritoOficial": "C",
+  "motivo": "A capacidade física se identifica pela imagem (movimento de grande amplitude articular). Gabarito oficial C (flexibilidade); conferir com a figura."
+ },
+ {
+  "id": "ENEM-LC-2010-REG-D2-C7-Q120",
+  "materia": "educacao_fisica",
+  "gabaritoOficial": "A",
+  "motivo": "A sequência de movimentos do vôlei só se identifica pelas imagens. Gabarito oficial A; conferir com a figura."
+ },
+ {
+  "id": "ENEM-LC-2012-REG-D2-C7-Q94-INGLES",
+  "materia": "ingles",
+  "gabaritoOficial": "B",
+  "motivo": "Cartum só em imagem; a resolução depende das falas desenhadas. Gabarito oficial B; conferir com a figura."
+ },
+ {
+  "id": "ENEM-LC-2013-REG-D2-C7-Q95-INGLES",
+  "materia": "ingles",
+  "gabaritoOficial": "C",
+  "motivo": "Tirinha do Calvin só em imagem; a resolução depende dos quadrinhos. Gabarito oficial C; conferir com a figura."
+ },
+ {
+  "id": "ENEM-LC-2017-REG-D1-C1-Q3-INGLES",
+  "materia": "ingles",
+  "gabaritoOficial": "C",
+  "motivo": "Anúncio só em imagem; a relação entre anyplace, regret e a figura depende do visual. Gabarito oficial C; conferir com a figura."
+ },
+ {
+  "id": "ENEM-LC-2020-REG-D1-C1-Q1-INGLES",
+  "materia": "ingles",
+  "gabaritoOficial": "A",
+  "motivo": "Pôster de campanha só em imagem; a resolução depende dos elementos visuais. Gabarito oficial A; conferir com a figura."
+ },
+ {
+  "id": "ENEM-LC-2020-REG-D1-C1-Q2-INGLES",
+  "materia": "ingles",
+  "gabaritoOficial": "A",
+  "motivo": "Pôster de campanha só em imagem; a resolução depende dos elementos visuais. Gabarito oficial A; conferir com a figura."
+ },
+ {
+  "id": "ENEM-LC-2013-REG-D2-C7-Q91-ESPANHOL",
+  "materia": "espanhol",
+  "gabaritoOficial": "C",
+  "motivo": "Charge só em imagem; o humor depende do desenho. Gabarito oficial C; conferir com a figura."
  }
 ]

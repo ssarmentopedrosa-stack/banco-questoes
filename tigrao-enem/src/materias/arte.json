@@ -1,0 +1,2380 @@
+{
+ "meta": {
+  "materia": "arte",
+  "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), caderno azul; texto conferido com o PDF oficial do Inep",
+  "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2009–2016 LC: PDFs do 2º dia (gab/gab_lc_2009_2016.json); 2017+: gab/gabaritos.json",
+  "porAno": {
+   "2009": 5,
+   "2010": 3,
+   "2011": 4,
+   "2012": 3,
+   "2013": 2,
+   "2014": 5,
+   "2015": 4,
+   "2016": 4,
+   "2017": 3,
+   "2018": 1,
+   "2019": 2,
+   "2020": 4,
+   "2021": 3,
+   "2022": 2,
+   "2023": 5
+  },
+  "total": 50,
+  "fora": {},
+  "porArea": {
+   "Artes Visuais": 30,
+   "Música": 12,
+   "Teatro e Dança": 8
+  },
+  "doPdfOficial": 0,
+  "comExplicacao": 49,
+  "revisadas": 0,
+  "classificacao": "manual pelo agente (pt/arte/ef e tema), a conferir pelo professor (linguagens/res/)"
+ },
+ "questions": [
+  {
+   "id": "ENEM-LC-2009-REG-D2-C7-Q91",
+   "year": 2009,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "Os melhores críticos da cultura brasileira trataram-na sempre no plural, isto é, enfatizando a coexistência no Brasil de diversas culturas. Arthur Ramos distingue as culturas não europeias (indígenas, negras) das europeias (portuguesa, italiana, alemã etc.), e Darcy Ribeiro fala de diversos Brasis: crioulo, caboclo, sertanejo, caipira e de Brasis sulinos, a cada um deles correspondendo uma cultura específica.\n\nMORAIS, F. O Brasil na visão do artista: o país e sua cultura.\nSão Paulo: Sudameris, 2003.\n\nConsiderando a hipótese de Darcy Ribeiro de que há vários Brasis, a opção em que a obra mostrada representa a arte brasileira de origem negro-africana é:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "",
+     "image": "./figuras/arte/2009/ENEM-LC-2009-REG-D2-C7-Q91-altA.webp"
+    },
+    {
+     "letter": "B",
+     "text": "",
+     "image": "./figuras/arte/2009/ENEM-LC-2009-REG-D2-C7-Q91-altB.webp"
+    },
+    {
+     "letter": "C",
+     "text": "",
+     "image": "./figuras/arte/2009/ENEM-LC-2009-REG-D2-C7-Q91-altC.webp"
+    },
+    {
+     "letter": "D",
+     "text": "",
+     "image": "./figuras/arte/2009/ENEM-LC-2009-REG-D2-C7-Q91-altD.webp"
+    },
+    {
+     "letter": "E",
+     "text": "",
+     "image": "./figuras/arte/2009/ENEM-LC-2009-REG-D2-C7-Q91-altE.webp"
+    }
+   ],
+   "figures": [],
+   "number": 91,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": null
+  },
+  {
+   "id": "ENEM-LC-2009-REG-D2-C7-Q94",
+   "year": 2009,
+   "area": "Música",
+   "content": null,
+   "demand": null,
+   "statement": "A música pode ser definida como a combinação de sons ao longo do tempo. Cada produto final oriundo da infinidade de combinações possíveis será diferente, dependendo da escolha das notas, de suas durações, dos instrumentos utilizados, do estilo de música, da nacionalidade do compositor e do período em que as obras foram compostas.\n\n[[FIG 0]]\n\n[[FIG 1]]\n\nFigura 1 – http://images.quebarato.com.br/photos/big/2/D/15A12D_2.jpg.\nFigura 2 – http://ourinhos.prefeituramunicipal.net/dados/fotos/2009/07/07/normal.\nFigura 3 – http://www.edmontonculturalcapital.com/gallery/edjazzfestival/JazzQuartet.jpg\nFigura 4 – http://www.filmica.com/jacintaescudos/archivos/Led-Zeppelin.jpg.\n\nDas figuras que apresentam grupos musicais em ação, pode-se concluir que o(os) grupo(s) mostrado(s) na(s) figura(s)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "1 executa um gênero característico da música brasileira, conhecido como chorinho."
+    },
+    {
+     "letter": "B",
+     "text": "2 executa um gênero característico da música clássica, cujo compositor mais conhecido é Tom Jobim."
+    },
+    {
+     "letter": "C",
+     "text": "3 executa um gênero característico da música europeia, que tem como representantes Beethoven e Mozart."
+    },
+    {
+     "letter": "D",
+     "text": "4 executa um tipo de música caracterizada pelos instrumentos acústicos, cuja intensidade e nível de ruído permanecem na faixa dos 30 aos 40 decibéis."
+    },
+    {
+     "letter": "E",
+     "text": "1 a 4 apresentam um produto final bastante semelhante, uma vez que as possibilidades de combinações sonoras ao longo do tempo são limitadas."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2009/ENEM-LC-2009-REG-D2-C7-Q94-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 620,
+     "height": 313
+    },
+    {
+     "src": "./figuras/arte/2009/ENEM-LC-2009-REG-D2-C7-Q94-2.webp",
+     "kind": "enunciado",
+     "label": "Figura 2",
+     "width": 620,
+     "height": 295
+    }
+   ],
+   "number": 94,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "A figura 1 mostra um conjunto regional (cavaquinho, violão, pandeiro), típico do choro, gênero brasileiro. Tom Jobim não é compositor clássico, e Beethoven não é jazz. **Resposta: A**",
+    "keyConcept": "chorinho",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2009-REG-D2-C7-Q95",
+   "year": 2009,
+   "area": "Teatro e Dança",
+   "content": null,
+   "demand": null,
+   "statement": "No programa do balé Parade, apresentado em 18 de maio de 1917, foi empregada publicamente, pela primeira vez, a palavra sur-realisme. Pablo Picasso desenhou o cenário e a indumentária, cujo efeito foi tão surpreendente que se sobrepôs à coreografia. A música de Erik Satie era uma mistura de jazz, música popular e sons reais tais como tiros de pistola, combinados com as imagens do balé de Charlie Chaplin, caubóis e vilões, mágica chinesa e Ragtime. Os tempos não eram propícios para receber a nova mensagem cênica demasiado provocativa devido ao repicar da máquina de escrever, aos zumbidos de sirene e dínamo e aos rumores de aeroplano previstos por Cocteau para a partitura de Satie. Já a ação coreográfica confirmava a tendência marcadamente teatral da gestualidade cênica, dada pela justaposição, colagem de ações isoladas seguindo um estímulo musical.\n\nSILVA, S. M. O surrealismo e a dança. GUINSBURG, J.; LEIRNER (Org.). O surrealismo. São Paulo: Perspectiva, 2008 (adaptado).\n\nAs manifestações corporais na história das artes da cena muitas vezes demonstram as condições cotidianas de um determinado grupo social, como se pode observar na descrição acima do balé Parade, o qual reflete",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A falta de diversidade cultural na sua proposta estética."
+    },
+    {
+     "letter": "B",
+     "text": "A alienação dos artistas em relação às tensões da Segunda Guerra Mundial."
+    },
+    {
+     "letter": "C",
+     "text": "Uma disputa cênica entre as linguagens das artes visuais, do figurino e da música."
+    },
+    {
+     "letter": "D",
+     "text": "As inovações tecnológicas nas partes cênicas, musicais, coreográficas e de figurino."
+    },
+    {
+     "letter": "E",
+     "text": "Uma narrativa com encadeamentos claramente lógicos e lineares."
+    }
+   ],
+   "figures": [],
+   "number": 95,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Parade reuniu a música de Satie, o cenário e figurino cubistas de Picasso e a gestualidade fragmentada. O balé reflete inovações em todas as partes cênicas. **Resposta: D**",
+    "keyConcept": "Parade e vanguarda",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2009-REG-D2-C7-Q102",
+   "year": 2009,
+   "area": "Teatro e Dança",
+   "content": null,
+   "demand": null,
+   "statement": "Gênero dramático é aquele em que o artista usa como intermediária entre si e o público a representação. A palavra vem do grego drao (fazer) e quer dizer ação. A peça teatral é, pois, uma composição literária destinada à apresentação por atores em um palco, atuando e dialogando entre si. O texto dramático é complementado pela atuação dos atores no espetáculo teatral e possui uma estrutura específica, caracterizada: 1) pela presença de personagens que devem estar ligados com lógica uns aos outros e à ação; 2) pela ação dramática (trama, enredo), que é o conjunto de atos dramáticos, maneiras de ser e de agir das personagens encadeadas à unidade do efeito e segundo uma ordem composta de exposição, conflito, complicação, clímax e desfecho; 3) pela situação ou ambiente, que é o conjunto de circunstâncias físicas, sociais, espirituais em que se situa a ação; 4) pelo tema, ou seja, a ideia que o autor (dramaturgo) deseja expor, ou sua interpretação real por meio da representação.\n\nCOUTINHO, A. Notas de teoria literária. Rio de Janeiro:\nCivilização Brasileira, 1973 (adaptado).\n\nConsiderando o texto e analisando os elementos que constituem um espetáculo teatral, conclui-se que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A criação do espetáculo teatral apresenta-se como um fenômeno de ordem individual, pois não é possível sua concepção de forma coletiva."
+    },
+    {
+     "letter": "B",
+     "text": "O cenário onde se desenrola a ação cênica é concebido e construído pelo cenógrafo de modo autônomo e independente do tema da peça e do trabalho interpretativo dos atores."
+    },
+    {
+     "letter": "C",
+     "text": "O texto cênico pode originar-se dos mais variados gêneros textuais, como contos, lendas, romances, poesias, crônicas, notícias, imagens e fragmentos textuais, entre outros."
+    },
+    {
+     "letter": "D",
+     "text": "O corpo do ator na cena tem pouca importância na comunicação teatral, visto que o mais importante é a expressão verbal, base da comunicação cênica em toda a trajetória do teatro até os dias atuais."
+    },
+    {
+     "letter": "E",
+     "text": "A iluminação e o som de um espetáculo cênico independem do processo de produção/recepção do espetáculo teatral, já que se trata de linguagens artísticas diferentes, agregadas posteriormente à cena teatral."
+    }
+   ],
+   "figures": [],
+   "number": 102,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O espetáculo é coletivo e integra texto, cenário, luz e corpo. O texto cênico pode vir de contos, lendas, romances e outros gêneros. **Resposta: C**",
+    "keyConcept": "texto cênico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2009-REG-D2-C7-Q118",
+   "year": 2009,
+   "area": "Teatro e Dança",
+   "content": null,
+   "demand": null,
+   "statement": "Teatro do Oprimido é um método teatral que sistematiza exercícios, jogos e técnicas teatrais elaboradas pelo teatrólogo brasileiro Augusto Boal, recentemente falecido, que visa à desmecanização física e intelectual de seus praticantes. Partindo do princípio de que a linguagem teatral não deve ser diferenciada da que é usada cotidianamente pelo cidadão comum (oprimido), ele propõe condições práticas para que o oprimido se aproprie dos meios do fazer teatral e, assim, amplie suas possibilidades de expressão. Nesse sentido, todos podem desenvolver essa linguagem e, consequentemente, fazer teatro. Trata-se de um teatro em que o espectador é convidado a substituir o protagonista e mudar a condução ou mesmo o fim da história, conforme o olhar interpretativo e contextualizado do receptor.\n\nCompanhia Teatro do Oprimido. Disponível em: www.ctorio.org.br.\nAcesso em: 1 jul. 2009 (adaptado).\n\nConsiderando-se as características do Teatro do Oprimido apresentadas, conclui-se que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Esse modelo teatral é um método tradicional de fazer teatro que usa, nas suas ações cênicas, a linguagem rebuscada e hermética falada normalmente pelo cidadão comum."
+    },
+    {
+     "letter": "B",
+     "text": "A forma de recepção desse modelo teatral se destaca pela separação entre atores e público, na qual os atores representam seus personagens e a plateia assiste passivamente ao espetáculo."
+    },
+    {
+     "letter": "C",
+     "text": "Sua linguagem teatral pode ser democratizada e apropriada pelo cidadão comum, no sentido de proporcionar-lhe autonomia crítica para compreensão e interpretação do mundo em que vive."
+    },
+    {
+     "letter": "D",
+     "text": "O convite ao espectador para substituir o protagonista e mudar o fim da história evidencia que a proposta de Boal se aproxima das regras do teatro tradicional para a preparação de atores."
+    },
+    {
+     "letter": "E",
+     "text": "A metodologia teatral do Teatro do Oprimido segue a concepção do teatro clássico aristotélico, que visa à desautomação física e intelectual de seus praticantes."
+    }
+   ],
+   "figures": [],
+   "number": 118,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Boal transforma o espectador em \"espect-ator\" que muda a cena. A linguagem teatral se democratiza e vira instrumento do cidadão comum. **Resposta: C**",
+    "keyConcept": "Teatro do Oprimido",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2010-REG-D2-C7-Q105",
+   "year": 2010,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nEm busca de maior naturalismo em suas obras e fundamentando-se em novo conceito estético, Monet, Degas, Renoir e outros artistas passaram a explorar novas formas de composição artística, que resultaram no estilo denominado Impressionismo. Observadores atentos da natureza, esses artistas passaram a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Retratar, em suas obras, as cores que idealizavam de acordo com o reflexo da luz solar nos objetos."
+    },
+    {
+     "letter": "B",
+     "text": "Usar mais a cor preta, fazendo contornos nítidos, que melhor definiam as imagens e as cores do objeto representado."
+    },
+    {
+     "letter": "C",
+     "text": "Retratar paisagens em diferentes horas do dia, recriando, em suas telas, as imagens por eles idealizadas."
+    },
+    {
+     "letter": "D",
+     "text": "Usar pinceladas rápidas de cores puras e dissociadas diretamente na tela, sem misturá-las antes na paleta."
+    },
+    {
+     "letter": "E",
+     "text": "Usar as sombras em tons de cinza e preto e com efeitos esfumaçados, tal como eram realizadas no Renascimento."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2010/ENEM-LC-2010-REG-D2-C7-Q105-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 324,
+     "height": 487
+    }
+   ],
+   "number": 105,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Os impressionistas pintavam ao ar livre, com pinceladas rápidas de cores puras justapostas na tela, deixando o olho fazer a mistura. **Resposta: D**",
+    "keyConcept": "Impressionismo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2010-REG-D2-C7-Q123",
+   "year": 2010,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "“Todas as manhãs quando acordo, experimento um prazer supremo: o de ser Salvador Dalí.”\n\nNÉRET, G. Salvador Dalí. Taschen, 1996.\n\nAssim escreveu o pintor dos “relógios moles” e das “girafas em chamas” em 1931. Esse artista excêntrico deu apoio ao general Franco durante a Guerra Civil Espanhola e, por esse motivo, foi afastado do movimento surrealista por seu líder, André Breton. Dessa forma, Dalí criou seu próprio estilo, baseado na interpretação dos sonhos e nos estudos de Sigmund Freud, denominado “método de interpretação paranoico”. Esse método era constituído por textos visuais que demonstram imagens",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Do fantástico, impregnado de civismo pelo governo espanhol, em que a busca pela emoção e pela dramaticidade desenvolveram um estilo incomparável."
+    },
+    {
+     "letter": "B",
+     "text": "Do onírico, que misturava sonho com realidade e inconsciente como um universo único ou pessoal."
+    },
+    {
+     "letter": "C",
+     "text": "Da linha inflexível da razão, dando vazão a uma forma de produção despojada no traço, na temática e nas formas vinculadas ao real."
+    },
+    {
+     "letter": "D",
+     "text": "Do reflexo que, apesar do termo \"paranoico\", possui sobriedade e elegância advindas de uma técnica de cores discretas e desenhos precisos."
+    },
+    {
+     "letter": "E",
+     "text": "Da expressão e intensidade entre o consciente e a liberdade, declarando o amor pela forma de conduzir o enredo histórico dos personagens retratados."
+    }
+   ],
+   "figures": [],
+   "number": 123,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O método paranoico-crítico mistura sonho, realidade e inconsciente, com base em Freud: imagens oníricas. **Resposta: B**",
+    "keyConcept": "Surrealismo de Dalí",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2010-REG-D2-C7-Q131",
+   "year": 2010,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "Após estudar na Europa, Anita Malfatti retornou ao Brasil com uma mostra que abalou a cultura nacional do início do século XX. Elogiada por seus mestres na Europa, Anita se considerava pronta para mostrar seu trabalho no Brasil, mas enfrentou as duras críticas de Monteiro Lobato. Com a intenção de criar uma arte que valorizasse a cultura brasileira, Anita Malfatti e outros artistas modernistas",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Buscaram libertar a arte brasileira das normas acadêmicas europeias, valorizando as cores, a originalidade e os temas nacionais."
+    },
+    {
+     "letter": "B",
+     "text": "Defenderam a liberdade limitada de uso da cor, até então utilizada de forma irrestrita, afetando a criação artística nacional."
+    },
+    {
+     "letter": "C",
+     "text": "Representaram a ideia de que a arte deveria copiar fielmente a natureza, tendo como finalidade a prática educativa."
+    },
+    {
+     "letter": "D",
+     "text": "Mantiveram de forma fiel a realidade nas figuras retratadas, defendendo uma liberdade artística ligada a tradição acadêmica."
+    },
+    {
+     "letter": "E",
+     "text": "Buscaram a liberdade na composição de suas figuras, respeitando limites de temas abordados."
+    }
+   ],
+   "figures": [],
+   "number": 131,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Anita e os modernistas romperam com as normas acadêmicas europeias e valorizaram cor e temas nacionais com liberdade. **Resposta: A**",
+    "keyConcept": "Modernismo brasileiro",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2011-REG-D2-C7-Q107",
+   "year": 2011,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nBrasília 50 anos. Veja. N° 2 138, nov. 2009.\n\nUtilizadas desde a Antiguidade, as colunas, elementos verticais de sustentação, foram sofrendo modificações e incorporando novos materiais com ampliação de possibilidades. Ainda que as clássicas colunas gregas sejam retomadas, notáveis inovações são percebidas, por exemplo, nas obras de Oscar Niemeyer, arquiteto brasileiro nascido no Rio de Janeiro em 1907. No desenho de Niemeyer, das colunas do Palácio da Alvorada, observa-se",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A presença de um capitel muito simples, reforçando a sustentação."
+    },
+    {
+     "letter": "B",
+     "text": "O traçado simples de amplas linhas curvas opostas, resultando em formas marcantes."
+    },
+    {
+     "letter": "C",
+     "text": "A disposição simétrica das curvas, conferindo saliência e distorção à base."
+    },
+    {
+     "letter": "D",
+     "text": "A oposição de curvas em concreto, configurando certo peso e rebuscamento."
+    },
+    {
+     "letter": "E",
+     "text": "O excesso de linhas curvas, levando a um exagero na ornamentação."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2011/ENEM-LC-2011-REG-D2-C7-Q107-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 467,
+     "height": 382
+    }
+   ],
+   "number": 107,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "As colunas do Alvorada têm linhas curvas amplas e opostas, simples e marcantes, sem ornamento. **Resposta: B**",
+    "keyConcept": "Niemeyer",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2011-REG-D2-C7-Q110",
+   "year": 2011,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nLEIRNER, N. Tronco com cadeira (detalhe), 1964.\nDisponível em: http://www.itaucultural.org.br. Acesso em: 27 jul. 2010.\n\nNessa estranha dignidade e nesse abandono, o objeto foi exaltado de maneira ilimitada e ganhou um significado que se pode considerar mágico. Daí sua “vida inquietante e absurda”. Tornou-se ídolo e, ao mesmo tempo, objeto de zombaria. Sua realidade intrínseca foi anulada.\n\nJAFFÉ, A. O simbolismo nas artes plásticas. In: JUNG, C.G. (org.). O homem e os seus símbolos. Rio de Janeiro: Nova Fronteira, 2008.\n\nA relação observada entre a imagem e o texto apresentados permite o entendimento da intenção de um artista contemporâneo. Neste caso, a obra apresenta características",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Funcionais e de sofisticação decorativa."
+    },
+    {
+     "letter": "B",
+     "text": "Futuristas e do abstrato geométrico."
+    },
+    {
+     "letter": "C",
+     "text": "Construtivistas e de estruturas modulares."
+    },
+    {
+     "letter": "D",
+     "text": "Abstracionistas e de releitura do objeto."
+    },
+    {
+     "letter": "E",
+     "text": "Figurativas e de representação do cotidiano."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2011/ENEM-LC-2011-REG-D2-C7-Q110-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 331,
+     "height": 399
+    }
+   ],
+   "number": 110,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Leirner desloca a cadeira de sua função, e o objeto ganha significado simbólico: abstração e releitura do objeto. **Resposta: D**",
+    "keyConcept": "releitura do objeto",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2011-REG-D2-C7-Q112",
+   "year": 2011,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\n\n[[FIG 0]]\n\nToca do Salitre – Piauí\nDisponível em: http://www.fumdham.org.br. Acesso em: 27 jul. 2010.\n\nTEXTO II\n\n[[FIG 1]]\n\nArte Urbana. Foto: Diego Singh\nDisponível em: http://www.diaadia.pr.gov.br. Acesso em: 27 jul. 2010.\n\nO grafite contemporâneo, considerado em alguns momentos como uma arte marginal, tem sido comparado às pinturas murais de várias épocas e às escritas pré-históricas. Observando as imagens apresentadas, é possível reconhecer elementos comuns entre os tipos de pinturas murais, tais como",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A preferência por tintas naturais, em razão de seu efeito estético."
+    },
+    {
+     "letter": "B",
+     "text": "A inovação na técnica de pintura, rompendo com modelos estabelecidos."
+    },
+    {
+     "letter": "C",
+     "text": "O registro do pensamento e das crenças das sociedades em várias épocas."
+    },
+    {
+     "letter": "D",
+     "text": "A repetição dos temas e a restrição de uso pelas classes dominantes."
+    },
+    {
+     "letter": "E",
+     "text": "O uso exclusivista da arte para atender aos interesses da elite."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2011/ENEM-LC-2011-REG-D2-C7-Q112-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 481,
+     "height": 248
+    },
+    {
+     "src": "./figuras/arte/2011/ENEM-LC-2011-REG-D2-C7-Q112-2.webp",
+     "kind": "enunciado",
+     "label": "Figura 2",
+     "width": 483,
+     "height": 268
+    }
+   ],
+   "number": 112,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Pinturas rupestres e grafite registram o pensamento e as crenças de suas sociedades. **Resposta: C**",
+    "keyConcept": "grafite e pintura rupestre",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2011-REG-D2-C7-Q114",
+   "year": 2011,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nPICASSO, P. Guernica. Óleo sobre tela. 349 X 777 cm. Museu Reina Sofia, Espanha, 1937.\nDisponível em: http://www.fddreis.files.wordpress.com. Acesso em: 26 jul. 2010.\n\nO pintor espanhol Pablo Picasso (1881-1973), um dos mais valorizados no mundo artístico, tanto em termos financeiros quanto históricos, criou a obra Guernica em protesto ao ataque aéreo à pequena cidade basca de mesmo nome. A obra, feita para integrar o Salão Internacional de Artes Plásticas de Paris, percorreu toda a Europa, chegando aos EUA e instalando-se no MoMA, de onde sairia apenas em 1981. Essa obra cubista apresenta elementos plásticos identificados pelo",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Painel ideográfico, monocromático, que enfoca várias dimensões de um evento, renunciando à realidade, colocando-se em plano frontal ao espectador."
+    },
+    {
+     "letter": "B",
+     "text": "Horror da guerra de forma fotográfica, com o uso da perspectiva clássica, envolvendo o espectador nesse exemplo brutal de crueldade do ser humano."
+    },
+    {
+     "letter": "C",
+     "text": "Uso das formas geométricas no mesmo plano, sem emoção e expressão, despreocupado com o volume, a perspectiva e a sensação escultórica."
+    },
+    {
+     "letter": "D",
+     "text": "Esfacelamento dos objetos abordados na mesma narrativa, minimizando a dor humana a serviço da objetividade, observada pelo uso do claro-escuro."
+    },
+    {
+     "letter": "E",
+     "text": "Uso de vários ícones que representam personagens fragmentados bidimensionalmente, de forma fotográfica livre de sentimentalismo."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2011/ENEM-LC-2011-REG-D2-C7-Q114-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 482,
+     "height": 299
+    }
+   ],
+   "number": 114,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Guernica é um painel monocromático (cinza, preto e branco) que mostra várias dimensões do bombardeio de forma fragmentada, sem realismo fotográfico. **Resposta: A**",
+    "keyConcept": "Guernica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q121",
+   "year": 2012,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nPicasso, P. Les Demoiselles d’Avignon. Nova York, 1907.\nARGAN, G. C. Arte moderna: do Iluminismo aos movimentos contemporâneos.\nSão Paulo: Companhia das Letras, 1992.\n\nO quadro Les Demoiselles d’Avignon (1907), de Pablo Picasso, representa o rompimento com a estética clássica e a revolução da arte no início do século XX. Essa nova tendência se caracteriza pela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pintura de modelos em planos irregulares."
+    },
+    {
+     "letter": "B",
+     "text": "Mulher como temática central da obra."
+    },
+    {
+     "letter": "C",
+     "text": "Cena representada por vários modelos."
+    },
+    {
+     "letter": "D",
+     "text": "Oposição entre tons claros e escuros."
+    },
+    {
+     "letter": "E",
+     "text": "Nudez explorada como objeto de arte."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2012/ENEM-LC-2012-REG-D2-C7-Q121-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 323,
+     "height": 341
+    }
+   ],
+   "number": 121,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Les Demoiselles inaugura o Cubismo: figuras decompostas em planos irregulares, sem a perspectiva clássica. **Resposta: A**",
+    "keyConcept": "Cubismo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q122",
+   "year": 2012,
+   "area": "Música",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nCapa do LP Os Mutantes, 1968.\nDisponível em: http://mutantes.com. Acesso em: 28 fev. 2012.\n\nA capa do LP Os Mutantes, de 1968, ilustra o movimento da contracultura. O desafio à tradição nessa criação musical é caracterizado por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Letras e melodias com características amargas e depressivas."
+    },
+    {
+     "letter": "B",
+     "text": "Arranjos baseados em ritmos e melodias nordestinos."
+    },
+    {
+     "letter": "C",
+     "text": "Sonoridades experimentais e confluência de elementos populares e eruditos."
+    },
+    {
+     "letter": "D",
+     "text": "Temas que refletem situações domésticas ligadas à tradição popular."
+    },
+    {
+     "letter": "E",
+     "text": "Ritmos contidos e reservados em oposição aos modelos estrangeiros."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2012/ENEM-LC-2012-REG-D2-C7-Q122-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 327,
+     "height": 326
+    }
+   ],
+   "number": 122,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Os Mutantes misturaram experimentação sonora (guitarras, efeitos) com elementos populares e eruditos, desafiando a tradição. **Resposta: C**",
+    "keyConcept": "Tropicália",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q131",
+   "year": 2012,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nBARDI, P. M. Em torno da escultura no Brasil. São Paulo: Banco Sudameris Brasil, 1989.\n\nCom contornos assimétricos, riqueza de detalhes nas vestes e nas feições, a escultura barroca no Brasil tem forte influência do rococó europeu e está representada aqui por um dos profetas do pátio do Santuário do Bom Jesus de Matosinho, em Congonhas (MG), esculpido em pedra-sabão por Aleijadinho. Profundamente religiosa, sua obra revela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Liberdade, representando a vida de mineiros à procura da salvação."
+    },
+    {
+     "letter": "B",
+     "text": "Credibilidade, atendendo a encomendas dos nobres de Minas Gerais."
+    },
+    {
+     "letter": "C",
+     "text": "Simplicidade, demonstrando compromisso com a contemplação do divino."
+    },
+    {
+     "letter": "D",
+     "text": "Personalidade, modelando uma imagem sacra com feições populares."
+    },
+    {
+     "letter": "E",
+     "text": "Singularidade, esculpindo personalidades do reinado nas obras divinas."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2012/ENEM-LC-2012-REG-D2-C7-Q131-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 297,
+     "height": 455
+    }
+   ],
+   "number": 131,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Os profetas de Aleijadinho têm traços próprios e feições populares mestiças em imagens sacras. Revelam a personalidade do artista. **Resposta: D**",
+    "keyConcept": "Aleijadinho",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q109",
+   "year": 2013,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nKUCZYNSKIEGO, P. Ilustração, 2008. Disponível em: http://capu.pl. Acesso em 3 ago. 2012. (Foto: Reprodução)\n\nO artista gráfico polonês Pawla Kuczynskiego nasceu em 1976 e recebeu diversos prêmios por suas ilustrações.\n\nNessa obra, ao abordar o trabalho infantil, Kuczynskiego usa sua arte para",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Difundir a origem de marcantes diferenças sociais."
+    },
+    {
+     "letter": "B",
+     "text": "Estabelecer uma postura proativa da sociedade."
+    },
+    {
+     "letter": "C",
+     "text": "Provocar a reflexão sobre essa realidade."
+    },
+    {
+     "letter": "D",
+     "text": "Propor alternativas para solucionar esse problema."
+    },
+    {
+     "letter": "E",
+     "text": "Retratar como a questão é enfrentada em vários países do mundo."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2013/ENEM-LC-2013-REG-D2-C7-Q109-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 391,
+     "height": 261
+    }
+   ],
+   "number": 109,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "A ilustração mostra a criança trabalhando de forma impactante, sem propor solução: provoca reflexão. **Resposta: C**",
+    "keyConcept": "arte e crítica social",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q117",
+   "year": 2013,
+   "area": "Música",
+   "content": null,
+   "demand": null,
+   "statement": "Mesmo tendo a trajetória do movimento interrompida com a prisão de seus dois líderes, o tropicalismo não deixou de cumprir seu papel de vanguarda na música popular brasileira. A partir da década de 70 do século passado, em lugar do produto musical de exportação de nível internacional prometido pelos baianos com a “retomada da linha evolutória”, instituiu-se nos meios de comunicação e na indústria do lazer uma nova era musical.\n\nTINHORÃO, J. R. Pequena história da música popular: da modinha ao tropicalismo. São Paulo: Art, 1986 (adaptado).\n\nA nova era musical mencionada no texto evidencia um gênero que incorporou a cultura de massa e se adequou à realidade brasileira. Esse gênero está representado pela obra cujo trecho da letra é:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A estrela d'alva / No céu desponta / E a lua anda tonta / Com tamanho esplendor. (As pastorinhas, Noel Rosa e João de Barro)"
+    },
+    {
+     "letter": "B",
+     "text": "Hoje / Eu quero a rosa mais linda que houver / Quero a primeira estrela que vier / Para enfeitar a noite do meu bem. (A noite do meu bem, Dolores Duran)"
+    },
+    {
+     "letter": "C",
+     "text": "No rancho fundo / Bem pra lá do fim do mundo / Onde a dor e a saudade / Contam coisas da cidade. (No rancho fundo, Ary Barroso e Lamartine Babo)"
+    },
+    {
+     "letter": "D",
+     "text": "Baby Baby / Não adianta chamar / Quando alguém está perdido / Procurando se encontrar. (Ovelha negra, Rita Lee)"
+    },
+    {
+     "letter": "E",
+     "text": "Pois há menos peixinhos a nadar no mar / Do que os beijinhos que eu darei / Na sua boca. (Chega de saudade, Tom Jobim e Vinicius de Moraes)"
+    }
+   ],
+   "figures": [],
+   "number": 117,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "\"Ovelha negra\", de Rita Lee, é rock pop da indústria de massa dos anos 70. Os outros trechos são marchinhas, samba-canção e bossa nova. **Resposta: D**",
+    "keyConcept": "Jovem Guarda e cultura de massa",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q102",
+   "year": 2014,
+   "area": "Música",
+   "content": null,
+   "demand": null,
+   "statement": "Era um dos meus primeiros dias na sala de música. A fim de descobrirmos o que deveríamos estar fazendo ali, propus à classe um problema. Inocentemente perguntei: — O que é música?\n\nPassamos dois dias inteiros tateando em busca de uma definição. Descobrimos que tínhamos de rejeitar todas as definições costumeiras porque elas não eram suficientemente abrangentes.\n\nO simples fato é que, à medida que a crescente margem a que chamamos de vanguarda continua suas explorações pelas fronteiras do som, qualquer definição se torna difícil. Quando John Cage abre a porta da sala de concerto e encoraja os ruídos da rua a atravessar suas composições, ele ventila a arte da música com conceitos novos e aparentemente sem forma.\n\nSCHAFER, R. M. O ouvido pensante. São Paulo: Unesp, 1991 (adaptado)\n\nA frase “Quando John Cage abre a porta da sala de concerto e encoraja os ruídos da rua a atravessar suas composições”, na proposta de Schafer de formular uma nova conceituação de música, representa a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acessibilidade à sala de concerto como metáfora, num momento em que a arte deixou de ser elitizada."
+    },
+    {
+     "letter": "B",
+     "text": "Abertura da sala de concerto, que permitiu que a música fosse ouvida do lado de fora do teatro."
+    },
+    {
+     "letter": "C",
+     "text": "Postura inversa à música moderna, que desejava se enquadrar em uma concepção conformista."
+    },
+    {
+     "letter": "D",
+     "text": "Intenção do compositor de que os sons extramusicais sejam parte integrante da música."
+    },
+    {
+     "letter": "E",
+     "text": "Necessidade do artista contemporâneo de atrair maior público para o teatro."
+    }
+   ],
+   "figures": [],
+   "number": 102,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Cage deixa os ruídos da rua entrarem nas composições: sons extramusicais passam a integrar a música. **Resposta: D**",
+    "keyConcept": "John Cage",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q122",
+   "year": 2014,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nCLARK, L. Bicho de bolso. Placas de metal, 1966.\n\nO objeto escultórico produzido por Lygia Clark, representante do Neoconcretismo, exemplifica o início de uma vertente importante na arte contemporânea, que amplia as funções da arte. Tendo como referência a obra Bicho de bolso, identifica-se essa vertente pelo(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Participação efetiva do espectador na obra, o que determina a proximidade entre arte e vida."
+    },
+    {
+     "letter": "B",
+     "text": "Percepção do uso de objetos cotidianos para a confecção da obra de arte, aproximando arte e realidade."
+    },
+    {
+     "letter": "C",
+     "text": "Reconhecimento do uso de técnicas artesanais na arte, o que determina a consolidação de valores culturais."
+    },
+    {
+     "letter": "D",
+     "text": "Reflexão sobre a captação artística de imagens com meios óticos, revelando o desenvolvimento de uma linguagem própria."
+    },
+    {
+     "letter": "E",
+     "text": "Entendimento sobre o uso de métodos de produção em série para a confecção da obra de arte, o que atualiza as linguagens artísticas."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2014/ENEM-LC-2014-REG-D2-C7-Q122-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 425,
+     "height": 498
+    }
+   ],
+   "number": 122,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O Bicho de bolso tem dobradiças e precisa ser manipulado: a participação do espectador aproxima arte e vida. **Resposta: A**",
+    "keyConcept": "Neoconcretismo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q123",
+   "year": 2014,
+   "area": "Música",
+   "content": null,
+   "demand": null,
+   "statement": "Por onde houve colonização portuguesa, a música popular se desenvolveu basicamente com o mesmo instrumental. Podemos ver cavaquinho e violão atuarem juntos aqui, em Cabo Verde, em Jacarta, na Indonésia, ou em Goa. O caráter nostálgico, sentimental, é outro ponto comum da música das colônias portuguesas em todo o mundo. O kronjong, a música típica de Jacarta, é uma espécie de lundu mais lento, tocado comumente com flauta, cavaquinho e violão. Em Goa não é muito diferente.\n\nDe acordo com o texto de Henrique Cazes, grande parte da música popular desenvolvida nos países colonizados por Portugal compartilham um instrumental, destacando-se o cavaquinho e o violão. No Brasil, são exemplos de música popular que empregam esses mesmos instrumentos:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Maracatu e ciranda."
+    },
+    {
+     "letter": "B",
+     "text": "Carimbó e baião."
+    },
+    {
+     "letter": "C",
+     "text": "Choro e samba."
+    },
+    {
+     "letter": "D",
+     "text": "Chula e siriri."
+    },
+    {
+     "letter": "E",
+     "text": "Xote e frevo."
+    }
+   ],
+   "figures": [],
+   "number": 123,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Choro e samba usam tradicionalmente cavaquinho e violão. **Resposta: C**",
+    "keyConcept": "cavaquinho e violão",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q126",
+   "year": 2014,
+   "area": "Teatro e Dança",
+   "content": null,
+   "demand": null,
+   "statement": "FABIANA, arrepelando-se de raiva — Hum! Ora, eis aí está para que se casou meu filho, e trouxe a mulher para minha casa. É isto constantemente. Não sabe o senhor meu filho que quem casa quer casa…. Já não posso, não posso, não posso! (Batendo com o pé). Um dia arrebento, e então veremos!\n\nPENA, M. Quem casa quer casa. www.dominiopublico.gov.br. Acesso em: 7 dez. 2012.\n\nAs rubricas em itálico, como as trazidas no trecho de Martins Pena, em uma atuação teatral, constituem",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Necessidade, porque as encenações precisam ser fiéis às diretrizes do autor."
+    },
+    {
+     "letter": "B",
+     "text": "Possibilidade, porque o texto pode ser mudado, assim como outros elementos."
+    },
+    {
+     "letter": "C",
+     "text": "Preciosismo, porque são irrelevantes para o texto ou para a encenação."
+    },
+    {
+     "letter": "D",
+     "text": "Exigência, porque elas determinam as características do texto teatral."
+    },
+    {
+     "letter": "E",
+     "text": "Imposição, porque elas anulam a autonomia do diretor."
+    }
+   ],
+   "figures": [],
+   "number": 126,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A rubrica orienta a cena, mas a encenação pode recriar texto e demais elementos. É uma possibilidade, não uma imposição. **Resposta: B**",
+    "keyConcept": "rubrica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q133",
+   "year": 2014,
+   "area": "Música",
+   "content": null,
+   "demand": null,
+   "statement": "No Brasil, a origem do funk e do hip-hop remonta aos anos 1970, quando da proliferação dos chamados “bailes black” nas periferias dos grandes centros urbanos. Embalados pela black music americana, milhares de jovens encontravam nos bailes de final de semana uma alternativa de lazer antes inexistente. Em cidades como o Rio de Janeiro ou São Paulo, formavam-se equipes de som que promoviam bailes onde foi se disseminando um estilo que buscava a valorização da cultura negra, tanto na música como nas roupas e nos penteados. No Rio de Janeiro ficou conhecido como “Black Rio”. A indústria fonográfica descobriu o filão e, lançando discos de “equipe” com as músicas de sucesso nos bailes, difundia a moda pelo restante do país.\n\nDAYRELL, J. A música entra em cena: o rap e o funk na socialização da juventude.Belo Horizonte: UFMG, 2005.\n\nA presença da cultura hip-hop no Brasil caracteriza-se como uma forma de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lazer gerada pela diversidade de práticas artísticas nas periferias urbanas."
+    },
+    {
+     "letter": "B",
+     "text": "Entretenimento inventada pela indústria fonográfica nacional."
+    },
+    {
+     "letter": "C",
+     "text": "Subversão de sua proposta original já nos primeiros bailes."
+    },
+    {
+     "letter": "D",
+     "text": "Afirmação de identidade dos jovens que a praticam."
+    },
+    {
+     "letter": "E",
+     "text": "Reprodução da cultura musical norte-americana."
+    }
+   ],
+   "figures": [],
+   "number": 133,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Nos bailes black os jovens da periferia se reconheciam; o hip-hop é afirmação de identidade. **Resposta: D**",
+    "keyConcept": "hip-hop e identidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q110",
+   "year": 2015,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nMáscara senufo, Mati. Madeira e fibra vegetal. Acervo do MAE/USP.\n\nAs formas plásticas nas produções africanas conduziram artistas modernos do início do século XX, como Pablo Picasso, a algumas proposições artísticas denominadas vanguardas.\n\nA máscara remete à",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Preservação da proporção."
+    },
+    {
+     "letter": "B",
+     "text": "Idealização do movimento."
+    },
+    {
+     "letter": "C",
+     "text": "Estruturação assimétrica."
+    },
+    {
+     "letter": "D",
+     "text": "Sintetização das formas."
+    },
+    {
+     "letter": "E",
+     "text": "Valorização estética."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2015/ENEM-LC-2015-REG-D2-C7-Q110-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 203,
+     "height": 228
+    }
+   ],
+   "number": 110,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A máscara senufo reduz o rosto a formas geométricas simples, a síntese que inspirou o Cubismo. **Resposta: D**",
+    "keyConcept": "máscara africana",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q111",
+   "year": 2015,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "Ao se apossarem do novo território, os europeus ignoraram um universo de antiga sabedoria, povoado por homens e bens unidos por um sistema integrado. A recusa em se inteirar dos valores culturais dos primeiros habitantes levou-os a uma descrição simplista desses grupos e à sua sucessiva destruição.\n\nNa verdade, não existe uma distinção entre a nossa arte e aquela produzida por povos tecnicamente menos desenvolvidos. As duas manifestações devem ser encaradas como expressões diferentes dos modos de sentir e pensar das várias sociedades, mas também como equivalentes, por resultarem de impulsos humanos comuns.\n\nSCATAMACHIA, M. C. M. In: AGUILAR, N. (Org.). Mostra do redescobrimento: arqueologia. São Paulo: Fundação Bienal de São Paulo – Associação Brasil 500 anos artes visuais, 2000.\n\nDe acordo com o texto, inexiste distinção entre as artes produzidas pelos colonizadores e pelos colonizados, pois ambas compartilham o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Suporte artístico."
+    },
+    {
+     "letter": "B",
+     "text": "Nível tecnológico."
+    },
+    {
+     "letter": "C",
+     "text": "Base antropológica."
+    },
+    {
+     "letter": "D",
+     "text": "Concepção estética."
+    },
+    {
+     "letter": "E",
+     "text": "Referencial temático."
+    }
+   ],
+   "figures": [],
+   "number": 111,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O texto diz que as artes de colonizadores e colonizados são equivalentes por resultarem de impulsos humanos comuns: base antropológica. **Resposta: C**",
+    "keyConcept": "base antropológica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q112",
+   "year": 2015,
+   "area": "Teatro e Dança",
+   "content": null,
+   "demand": null,
+   "statement": "Na exposição “A Artista Está Presente”, no MoMA, em Nova Iorque, a performer Marina Abramovic fez uma retrospectiva de sua carreira. No meio desta, protagonizou uma performance marcante. Em 2010, de 14 de março a 31 de maio, seis dias por semana, num total de 736 horas, ela repetia a mesma postura. Sentada numa sala, recebia os visitantes, um a um, e trocava com cada um deles um longo olhar sem palavras. Ao redor, o público assistia a essas cenas recorrentes.\n\nZANIN, L. Marina Abramovic, ou a força do olhar. Disponível em: http://blogs.estadao.com.br. Acesso em: 4 nov. 2013.\n\nO texto apresenta uma obra da artista Marina Abramovic, cuja performance se alinha a tendências contemporâneas e se caracteriza pela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inovação de uma proposta de arte relacional que adentra um museu."
+    },
+    {
+     "letter": "B",
+     "text": "Abordagem educacional estabelecida na relação da artista com o público."
+    },
+    {
+     "letter": "C",
+     "text": "Redistribuição do espaço do museu, que integra diversas linguagens artísticas."
+    },
+    {
+     "letter": "D",
+     "text": "Negociação colaborativa de sentidos entre a artista e a pessoa com quem interage."
+    },
+    {
+     "letter": "E",
+     "text": "Aproximação entre artista e público, o que rompe com a elitização dessa forma de arte."
+    }
+   ],
+   "figures": [],
+   "number": 112,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Na performance, o sentido nasce do olhar trocado com cada visitante: negociação colaborativa de sentidos. **Resposta: D**",
+    "keyConcept": "performance relacional",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q131",
+   "year": 2015,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nTEXTO II\n\nLucian Freud é, como ele próprio gosta de relembrar às pessoas, um biólogo. Mais propriamente, tem querido registrar verdades muito específicas sobre como é tomar posse deste determinado corpo nesta situação particular, neste específico espaço de tempo.\n\nSMEE, S. Freud. Köln: Taschen, 2010.\n\nConsiderando a intencionalidade do artista, mencionada no Texto II, e a ruptura da arte no século XX com o parâmetro acadêmico, a obra apresentada trata do(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Exaltação da figura masculina."
+    },
+    {
+     "letter": "B",
+     "text": "Descrição precisa e idealizada da forma."
+    },
+    {
+     "letter": "C",
+     "text": "Arranjo simétrico e proporcional dos elementos."
+    },
+    {
+     "letter": "D",
+     "text": "Representação do padrão do belo contemporâneo."
+    },
+    {
+     "letter": "E",
+     "text": "Fidelidade à forma realista isenta do ideal de perfeição."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2015/ENEM-LC-2015-REG-D2-C7-Q131-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 341,
+     "height": 343
+    }
+   ],
+   "number": 131,
+   "booklet": 7,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Freud registra o corpo como ele é, com precisão \"de biólogo\" e sem idealização. **Resposta: E**",
+    "keyConcept": "Lucian Freud",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q98",
+   "year": 2016,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nTOZZI, C. Colcha de retalhos. Mosaico figurativo. Estação de Metrô Sé. Disponível em: www.arteforadomuseu.com.br. Acesso em 8 mar. 2013.\n\nColcha de retalhos representa a essência do mural e convida o público a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Apreciar a estética do cotidiano."
+    },
+    {
+     "letter": "B",
+     "text": "Interagir com os elementos da composição."
+    },
+    {
+     "letter": "C",
+     "text": "Refletir sobre elementos do inconsciente do artista."
+    },
+    {
+     "letter": "D",
+     "text": "Reconhecer a estética clássica das formas."
+    },
+    {
+     "letter": "E",
+     "text": "Contemplar a obra por meio da movimentação física."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2016/ENEM-LC-2016-REG-D2-C7-Q98-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 536,
+     "height": 452
+    }
+   ],
+   "number": 98,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O mosaico de retalhos no metrô traz o cotidiano para a arte e convida a apreciá-lo. **Resposta: A**",
+    "keyConcept": "arte pública",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q114",
+   "year": 2016,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nA origem da obra de arte (2002) é uma instalação seminal na obra de Marilá Dardot. Apresentada originalmente em sua primeira exposição individual, no Museu de Arte da Pampulha, em Belo Horizonte, a obra constitui um convite para a interação do espectador, instigado a compor palavras e sentenças e a distribuí-las pelo campo. Cada letra tem o feitio de um vaso de cerâmica (ou será o contrário?) e, à disposição do espectador, encontram-se utensílios de plantio, terra e sementes. Para abrigar a obra e servir de ponto de partida para a criação dos textos, foi construído um pequeno galpão, evocando uma estufa ou um ateliê de jardinagem. As 1500 letras-vaso foram produzidas pela cerâmica que funciona no Instituto Inhotim, em Minas Gerais, num processo que durou vários meses e contou com a participação de dezenas de mulheres das comunidades do entorno. Plantar palavras, semear ideias é o que nos propõe o trabalho. No contexto de Inhotim, onde natureza e arte dialogam de maneira privilegiada, esta proposição se torna, de certa maneira, mais perto da possibilidade.\n\nDisponível em: www.inhotim.org.br. Acesso em: 22 maio 2013 (adaptado).\n\nA função da obra de arte como possibilidade de experimentação e de construção pode ser constatada no trabalho de Marilá Dardot porque",
+   "options": [
+    {
+     "letter": "A",
+     "text": "O projeto artístico acontece ao ar livre."
+    },
+    {
+     "letter": "B",
+     "text": "O observador da obra atua como seu criador."
+    },
+    {
+     "letter": "C",
+     "text": "A obra integra-se ao espaço artístico e botânico."
+    },
+    {
+     "letter": "D",
+     "text": "As letras-vaso são utilizadas para o plantio de mudas."
+    },
+    {
+     "letter": "E",
+     "text": "As mulheres da comunidade participam na confecção das peças."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2016/ENEM-LC-2016-REG-D2-C7-Q114-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 390,
+     "height": 221
+    }
+   ],
+   "number": 114,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Em A origem da obra de arte, o visitante escolhe letras-vaso e compõe palavras: atua como criador. **Resposta: B**",
+    "keyConcept": "arte participativa",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q126",
+   "year": 2016,
+   "area": "Teatro e Dança",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nEspetáculo Romeu e Julieta, Grupo Galpão.\n\nGUTO MUNIZ. Disponível em: www.focoincena.com.br. Acesso em: 30 maio 2016.\n\nA principal razão pela qual se infere que o espetáculo retratado na fotografia é uma manifestação do teatro de rua é o fato de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dispensar o edifício teatral para a sua realização."
+    },
+    {
+     "letter": "B",
+     "text": "Utilizar figurinos com adereços cômicos."
+    },
+    {
+     "letter": "C",
+     "text": "Empregar elementos circenses na atuação."
+    },
+    {
+     "letter": "D",
+     "text": "Excluir o uso de cenário na ambientação."
+    },
+    {
+     "letter": "E",
+     "text": "Negar o uso de iluminação artificial."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2016/ENEM-LC-2016-REG-D2-C7-Q126-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 429,
+     "height": 269
+    }
+   ],
+   "number": 126,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O Galpão encena na rua, fora do edifício teatral. Isso define o teatro de rua. **Resposta: A**",
+    "keyConcept": "teatro de rua",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q132",
+   "year": 2016,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\n\n[[FIG 0]]\n\nBACON, F. Três estudos para um autorretrato. Óleo sobre tela, 37,5 x 31,8 cm (cada), 1974.\nDisponível em: www.metmuseum.org. Acesso em: 30 maio 2016.\n\nTEXTO II\nTenho um rosto lacerado por rugas secas e profundas, sulcos na pele. Não é um rosto desfeito, como acontece com pessoas de traços delicados, o contorno é o mesmo mas a matéria foi destruída. Tenho um rosto destruído.\n\nDURAS, M. O amante. Rio de Janeiro: Nova Fronteira, 1985.\n\nNa imagem e no texto do romance de Marguerite Duras, os dois autorretratos apontam para o modo de representação da subjetividade moderna. Na pintura e na literatura modernas, o rosto humano deforma-se, destrói-se ou fragmenta-se em razão",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Da adesão à estética do grotesco, herdada do romantismo europeu, que trouxe novas possibilidades de representação."
+    },
+    {
+     "letter": "B",
+     "text": "Das catástrofes que assolaram o século XX e da descoberta de uma realidade psíquica pela psicanálise."
+    },
+    {
+     "letter": "C",
+     "text": "Da opção em demonstrarem oposição aos limites estéticos da revolução permanente trazida pela arte moderna."
+    },
+    {
+     "letter": "D",
+     "text": "Do posicionamento do artista do século XX contra a negação do passado, que se torna prática dominante na sociedade burguesa."
+    },
+    {
+     "letter": "E",
+     "text": "Da intenção de garantir uma forma de criar obras de arte independentes da matéria presente em sua história pessoal."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2016/ENEM-LC-2016-REG-D2-C7-Q132-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 423,
+     "height": 238
+    }
+   ],
+   "number": 132,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "As guerras do século XX e a psicanálise revelaram o sujeito dividido; daí o rosto deformado na arte moderna. **Resposta: B**",
+    "keyConcept": "rosto fragmentado",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q36",
+   "year": 2017,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nA obra de Rubem Valentim apresenta emblemas que, baseando-se em signos de religiões afro-brasileiras, se transformam em produção artística. A obra Emblema 78 relaciona-se com o Modernismo em virtude da",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Simplificação de formas da paisagem brasileira."
+    },
+    {
+     "letter": "B",
+     "text": "Valorização de símbolos do processo de urbanização."
+    },
+    {
+     "letter": "C",
+     "text": "Fusão de elementos da cultura brasileira com a arte europeia."
+    },
+    {
+     "letter": "D",
+     "text": "Alusão aos símbolos cívicos presentes na bandeira nacional"
+    },
+    {
+     "letter": "E",
+     "text": "Composição simétrica de elementos relativos à miscigenação racial."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2017/ENEM-LC-2017-REG-D1-C1-Q36-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 279,
+     "height": 308
+    }
+   ],
+   "number": 36,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Valentim une signos afro-brasileiros à geometria construtiva da arte europeia moderna. **Resposta: C**",
+    "keyConcept": "Rubem Valentim",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q37",
+   "year": 2017,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nA instalação Dengo transformou a sala do MAM-SP em um ambiente singular, explorando como principal característica artística a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Participação do público na interação lúdica com a obra."
+    },
+    {
+     "letter": "B",
+     "text": "Distribuição de obstáculos no espaço da exposição."
+    },
+    {
+     "letter": "C",
+     "text": "Representação simbólica de objetos oníricos."
+    },
+    {
+     "letter": "D",
+     "text": "Interpretação subjetiva da lei da gravidade"
+    },
+    {
+     "letter": "E",
+     "text": "Valorização de técnicas de artesanato."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2017/ENEM-LC-2017-REG-D1-C1-Q37-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 322,
+     "height": 238
+    }
+   ],
+   "number": 37,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Dengo, de Ernesto Neto, é um ambiente para o público entrar, tocar e brincar: interação lúdica. **Resposta: A**",
+    "keyConcept": "instalação Dengo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q43",
+   "year": 2017,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nTEXTO II\nSpeto\nPaulo César Silva, mais conhecido como Speto, é um grafiteiro paulista envolvido com o skate e a música. O fortalecimento de sua arte ocorreu, em 1999, pela oportunidade de ver de perto as referências que trazia há tempos, ao passar por diversas cidades do Norte do Brasil em uma turnê com a banda O Rappa\n\nRevista Zupi, n. 19, 2010\n\nO grafite do artista paulista Speto, exposto no Museu Afro Brasil, revela elementos da cultura brasileira reconhecidos",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Na influência da expressão abstrata."
+    },
+    {
+     "letter": "B",
+     "text": "Na representação de lendas nacionais."
+    },
+    {
+     "letter": "C",
+     "text": "Na inspiração das composições musicais."
+    },
+    {
+     "letter": "D",
+     "text": "Nos traços marcados pela xilogravura nordestina."
+    },
+    {
+     "letter": "E",
+     "text": "Nos usos característicos de grafismos dos skates."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2017/ENEM-LC-2017-REG-D1-C1-Q43-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 419,
+     "height": 283
+    }
+   ],
+   "number": 43,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Os traços e contrastes do grafite de Speto lembram a xilogravura do cordel nordestino, que ele viu na turnê pelo Norte e Nordeste. **Resposta: D**",
+    "keyConcept": "xilogravura",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2018-REG-D1-C1-Q32",
+   "year": 2018,
+   "area": "Música",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nFotografia: LUCAS HALLEL. Disponível em: www.fiickr.com. Acesso em: 16 abr. 2018 (adaptado)\n\nO grupo O Teatro Mágico apresenta composições autorais que têm referências estéticas do rock, do pop e da música folclórica brasileira. A originalidade dos seus shows tem relação com a ópera europeia do século XIX a partir da",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Disposição cênica dos artistas no espaço teatral."
+    },
+    {
+     "letter": "B",
+     "text": "Integração de diversas linguagens artísticas."
+    },
+    {
+     "letter": "C",
+     "text": "Sobreposição entre música e texto literário."
+    },
+    {
+     "letter": "D",
+     "text": "Manutenção de um diálogo com o público."
+    },
+    {
+     "letter": "E",
+     "text": "Adoção de um enredo como fio condutor."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2018/ENEM-LC-2018-REG-D1-C1-Q32-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 328,
+     "height": 497
+    }
+   ],
+   "number": 32,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Como a ópera, o Teatro Mágico integra música, teatro, circo e poesia: várias linguagens. **Resposta: B**",
+    "keyConcept": "espetáculo integrado",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q25",
+   "year": 2019,
+   "area": "Música",
+   "content": null,
+   "demand": null,
+   "statement": "Com o enredo que homenageou o centenário do Rei do Baião, Luiz Gonzaga, a Unidos da Tijuca foi coroada no Carnaval 2012.\nA penúltima escola a entrar na Sapucaí, na segunda noite de desfiles, mergulhou no universo do cantor e compositor brasileiro e trouxe a cultura nordestina com criatividade para a Avenida, com o enredo O dia em que toda a realeza desembarcou na Avenida para coroar o Rei Luiz do Sertão.\n\nDisponível em: www.cultura.rj.gov.br.\nAcesso em: 15 maio 2012 (adaptado).\n\nA notícia relata um evento cultural que marca a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Primazia do samba sobre a música nordestina."
+    },
+    {
+     "letter": "B",
+     "text": "Inter-relação entre dois gêneros musicais brasileiros."
+    },
+    {
+     "letter": "C",
+     "text": "Valorização das origens oligárquicas da cultura nordestina."
+    },
+    {
+     "letter": "D",
+     "text": "Proposta de resgate de antigos gêneros musicais brasileiros."
+    },
+    {
+     "letter": "E",
+     "text": "Criatividade em compor um samba-enredo em homenagem a uma pessoa."
+    }
+   ],
+   "figures": [],
+   "number": 25,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O samba-enredo da Tijuca homenageia Luiz Gonzaga e une samba e música nordestina. **Resposta: B**",
+    "keyConcept": "samba e baião",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q36",
+   "year": 2019,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nFotografia de Jackson Pollock pintando em seu ateliê, realizada por Hans Namuth em 1951.\n\nCHIPP, H. Teorias da arte moderna. São Paulo: Martins Fontes, 1988.\n\n[[FIG 1]]\n\nMUNIZ, V. Action Photo (segundo Hans Namuth em Pictures in Chocolate). Impressão fotográfica. The Museum of Modern Art, Nova Iorque, 1977.\n\n_NEVES, A_. História da Arte 4. Vitória: Ufes – Nead, 2011.\n\nUtilizando chocolate derretido como matéria-prima, essa obra de Vick Muniz reproduz a célebre fotografia do processo de criação de Jackson Pollock. A originalidade dessa releitura reside na",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Apropriação parodística das técnicas e materiais utilizados."
+    },
+    {
+     "letter": "B",
+     "text": "Reflexão acerca dos sistemas de circulação da arte."
+    },
+    {
+     "letter": "C",
+     "text": "Simplificação dos traços da composição pictórica."
+    },
+    {
+     "letter": "D",
+     "text": "Contraposição de linguagens artísticas distintas."
+    },
+    {
+     "letter": "E",
+     "text": "Crítica ao advento do abstracionismo."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2019/ENEM-LC-2019-REG-D1-C1-Q36-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 402,
+     "height": 481
+    },
+    {
+     "src": "./figuras/arte/2019/ENEM-LC-2019-REG-D1-C1-Q36-2.webp",
+     "kind": "enunciado",
+     "label": "Figura 2",
+     "width": 402,
+     "height": 531
+    }
+   ],
+   "number": 36,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Muniz reproduz a famosa foto com chocolate, parodiando o gesto e o material do dripping de Pollock. **Resposta: A**",
+    "keyConcept": "Vik Muniz",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q14",
+   "year": 2020,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nHIRST, O. Mother and Child. Bezerro dividido em duas partes: 1029 x 1689 x 625mm, 1993(detalhe). Vidro, aço pintado, silicone, acrílico, monofilamento, aço inoxidável, bezerro e solução de formaldeído.\n\nTEXTO II\nO grupo Jovens Artistas Britânicos (YABs), que surgiu no final da década de 1980, possui obras diversificadas que incluem fotografias, instalações, pinturas e carcaças desmembradas. O trabalho desses artistas chamou a atenção no final do período da recessão, por utilizar materiais incomuns, como esterco de elefantes, sangue e legumes, o que expressava os detritos da vida e uma\natmosfera de niilismo, temperada por um humor mordaz.\n\nDisponível em: http://damienhirsti.com:Acesso em: 15 jul. 2015. FARTHING, S. Tudo sobre arte. Rio de Janeiro: Sextante, 2011 (adaptado).\n\nA provocação desse grupo gera um debate em torno da obra de arte pelo(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Recusa a crenças, convicções, valores morais, estéticos e políticos na história moderna."
+    },
+    {
+     "letter": "B",
+     "text": "Frutífero arsenal de materiais e formas que se relacionam com os objetos construídos."
+    },
+    {
+     "letter": "C",
+     "text": "Economia e problemas financeiros gerados pela recessão que tiveram grande impacto no mercado."
+    },
+    {
+     "letter": "D",
+     "text": "Influência desse grupo junto aos estilos pós-modernos que surgiram nos anos 1990."
+    },
+    {
+     "letter": "E",
+     "text": "Interesse em produtos indesejáveis que revela uma consciência sustentável no mercado."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2020/ENEM-LC-2020-REG-D1-C1-Q14-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 316,
+     "height": 394
+    }
+   ],
+   "number": 14,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Hirst usa animais reais em formol, vidro e aço. A provocação está no arsenal de materiais e formas incomuns. **Resposta: B**",
+    "keyConcept": "Damien Hirst",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q21",
+   "year": 2020,
+   "area": "Música",
+   "content": null,
+   "demand": null,
+   "statement": "Sou o coração do folclore nordestino\nEu sou Mateus e Bastião do Boi-bumbá\nSou o boneco de Mestre Vitalino\nDançando uma ciranda em Itamaracá\nEu sou um verso de Carlos Pena Filho\nNum frevo de Capiba\nAo som da Orquestra Armorial\nSou Capibaribe\nNum livro de João Cabral\nSou mamulengo de São Bento do Una\nVindo no baque solto de maracatu\nEu sou um auto de Ariano Suassuna\nNo meio da Feira de Caruaru\nSou Frei Caneca do Pastoril do Faceta\nLevando a flor da lira\nPra Nova Jerusalém\nSou Luiz Gonzaga\nE sou do mangue também\nEu sou mameluco, sou de Casa Forte\nSou de Pernambuco, sou o Leão do Norte\n\nLENINE; PINHEIRO, P.C. Leão do Norte. In: LENINE; SUZANO, M. Olho de peixe. São Paulo: Vetas. 1993 (fragmento).\n\nO fragmento faz parte da canção brasileira contemporânea e celebra a cultura popular nordestina. Nele, o artista exalta as diferentes manifestações culturais pela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Valorização do teatro, música, artesanato, literatura, dança, personagens históricos e artistas populares, compondo um tecido diversificado e enriquecedor da cultura popular como patrimônio regional e nacional."
+    },
+    {
+     "letter": "B",
+     "text": "Identificação dos lugares pernambucanos, manifestações culturais, como o bumba meu boi, as cirandas, os bonecos mamulengos e heróis locais, fazendo com que essa canção se apresente como uma referência à cultura popular nordestina."
+    },
+    {
+     "letter": "C",
+     "text": "Exaltação das raízes populares, como a poesia, a literatura de cordel e o frevo, misturadas ao erudito, como a Orquestra Armorial, compondo um rico tecido cultural, que transforma o popular em erudito."
+    },
+    {
+     "letter": "D",
+     "text": "Caracterização das festas populares como identidade cultural localizada e como representantes de uma cultura que reflete valores históricos e sociais próprios da população local."
+    },
+    {
+     "letter": "E",
+     "text": "Apresentação do Pastoril do Faceta, do maracatu, do bumba meu boi e dos autos como representação da musicalidade e do teatro popular religioso, bastante comum ao folclore brasileiro."
+    }
+   ],
+   "figures": [],
+   "number": 21,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A letra lista lugares de Pernambuco (Itamaracá, Casa Forte), manifestações (boi, ciranda, frevo) e artistas (Vitalino, Capiba). **Resposta: B**",
+    "keyConcept": "Leão do Norte",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q25",
+   "year": 2020,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nA obra de Joseph Kosuth data de 1965 e se constitui por uma fotografia de cadeira, uma cadeira exposta e um quadro com o verbete “Cadeira”. Trata-se de um exemplo de arte conceitual que revela o paradoxo entre verdade e imitação, já que a arte\n\nKOSUTH J. One and Three Chairs. Museu Reina Sofia, Espanha, 1965.\nDisponível em: www.museoreinasofia.es. Acesso em: 4 jun. 2018\n(adaptado).\n\nA obra de Joseph Kosuth data de 1965 e se constitui por uma fotografia de cadeira, uma cadeira exposta e um quadro com o verbete “Cadeira”. Trata-se de um exemplo\nde arte conceitual que revela o paradoxo entre verdade e imitação, já que a arte",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Não é a realidade, mas uma representação dela."
+    },
+    {
+     "letter": "B",
+     "text": "Fundamenta-se na repetição, construindo variações."
+    },
+    {
+     "letter": "C",
+     "text": "Não se define, pois depende da interpretação do fruidor."
+    },
+    {
+     "letter": "D",
+     "text": "Resiste ao tempo, beneficiada por múltiplas formas de registro."
+    },
+    {
+     "letter": "E",
+     "text": "Redesenha a verdade, aproximando-se das definições lexicais."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2020/ENEM-LC-2020-REG-D1-C1-Q25-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 616,
+     "height": 409
+    }
+   ],
+   "number": 25,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Cadeira real, foto e verbete mostram que a obra não é a coisa, mas uma representação dela. **Resposta: A**",
+    "keyConcept": "arte conceitual",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q28",
+   "year": 2020,
+   "area": "Música",
+   "content": null,
+   "demand": null,
+   "statement": "Leandro Aparecido Ferreira, o MC Fioti, compôs em 2017 a música Bum bum tam tam, que gerou, em nove meses, 480 milhões de visualizações no Youtube. É o funk brasileiro mais ouvido na história do site.\n\nA partir de uma gravação da flauta que achou na internet, MC Fioti fez tudo sozinho: compôs, cantou e produziu em uma noite só, “Comecei a pesquisar alguns tipos de flauta, coisas antigas. E nisso eu achei a “flautinha do Sebantian Bach”, conta. A descoberta foi por acaso: Fioti não sabia quem era o música alemão e não sabe tocar o instrumento.\n\nA “flauta envolvente” da música é um trecho da Partida em lá menor, escrita pelo alemão Johann Sebastian Bach por volta de 1723.\n\nDisponível em: https//g1.globo.com. Acesso em: 8 jun. 2018. [adaptado]\n\nA incorporação de um trecho da obra para a flauta solo de Johann Sebastian Bach na música do MC Fioti demonstra:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Influência permanente da cultura eurocêntrica nas produções musicais brasileiras"
+    },
+    {
+     "letter": "B",
+     "text": "Homenagem aos referenciais estéticos que deram origem às produções da música popular"
+    },
+    {
+     "letter": "C",
+     "text": "Necessidade de divulgar a música de concerto nos meios populares nas periferias das grandes cidades"
+    },
+    {
+     "letter": "D",
+     "text": "Utilização desintencional de uma música excessivamente distante da realidade cultural dos jovens brasileiros"
+    },
+    {
+     "letter": "E",
+     "text": "Inter-relação de elementos culturais vindos de realidades distintas na construção de uma nova proposta musical\", dizia a questão."
+    }
+   ],
+   "figures": [],
+   "number": 28,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O funk usa um trecho de Bach achado na internet. Elementos de realidades distintas formam algo novo. **Resposta: E**",
+    "keyConcept": "funk e Bach",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2021-REG-D1-C1-Q14",
+   "year": 2021,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "A crise dos refugiados imortalizada para sempre no fundo do mar\n\n[[FIG 0]]\n\nTAYLOR, J. C. A balsa de Lampedusa. Instalação. Museu Atlântico, Lanzarote, Canárias, 2016 (detalhe)\n\nA balsa de Lampedusa, nome da obra do artista britânicos Jason de Caires Taylor, é uma das instalações criadas por ele para compor o acervo do primeiro museu submarino da Europa, o Museu Atlântico, localizado em Lanzarote, uma das ilhas do arquipélago das Canárias.\n\nLampedusa é o nome da ilha italiana onde a grande maioria dos refugiados que saem da África ou de países como Síria, Líbano e Iraque tenta chegar para conseguir asilo no continente europeu.\n\nAs esculturas do Museu Atlântico icam a 14 metros de profundidade nas águas cristalinas de Lanzarote.\n\nNa balsa, estão dez pessoas. Todas têm no rosto a expressão do abandono. Entre elas, há algumas crianças. Uma delas, uma menina debruçada sobre a beira do bote, olha sem esperança o horizonte. A imagem é tão forte que dispensa qualquer palavra. Exatamente o papel da arte.\n\nDisponível em: http://conexaoplaneta.com.br. Acesso em: 22 jun. 2019 (adaptado).\n\nAlém de apresentar ao público a obra A balsa de Lampedusa, essa reportagem cumpre, paralelamente, a função de chamar a atenção para",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A ilha de Lanzarote, localizada no arquipélago das Canárias, com vocação para o turismo."
+    },
+    {
+     "letter": "B",
+     "text": "As muitas vidas perdidas nas travessias marítimas em embarcações precárias ao longo dos séculos."
+    },
+    {
+     "letter": "C",
+     "text": "A inovação relativa à construção de um museu no fundo do mar, que só pode ser visitado por mergulhadores."
+    },
+    {
+     "letter": "D",
+     "text": "A construção do museu submarino como um memorial para as centenas de imigrantes mortos nas travessias pelo mar."
+    },
+    {
+     "letter": "E",
+     "text": "A arte como perpetuadora de episódios marcantes da humanidade de que têm de ser relembrados para que não tomem a acontecer."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2021/ENEM-LC-2021-REG-D1-C1-Q14-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 396,
+     "height": 229
+    }
+   ],
+   "number": 14,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Para a reportagem, a escultura submersa faz a arte perpetuar episódios que precisam ser lembrados. **Resposta: E**",
+    "keyConcept": "arte e memória",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2021-REG-D1-C1-Q20",
+   "year": 2021,
+   "area": "Teatro e Dança",
+   "content": null,
+   "demand": null,
+   "statement": "O coreógrafo e bailarino Didier Mulleras se destaca como um dos criadores que descobriram a dança de outro ponto de vista. Mini@tures é uma experiência emblemática entre movimento, computador, internet e vídeo. Com os recursos da computação gráfica, a dança das miniaturas pode caber na palma da mão. Pelo fato de usar a internet como palco, o processo de criação das miniaturas de dança levou em consideração os limites de tempo de download e o tamanho do arquivo, para que um número maios de “espectadores” pudesse assistir. A graça das miniaturas está justamente na contaminação entre mídias: corpo/dança/computação gráfica/internet. De fato, é a rede que faz a maior diferença nesse grupo. Mini@tures explora uma nova dimensão que descobre o espaço-tempo da web e conquista um novo território para a dança contemporânea. A qualquer hora, dança on-line.\n\nSPANGHERO, M. A dança dos encéfalos acesos.\nSão Paulo: Itaú Cultural, 2003 (adaptado).\n\nConsiderado o primeiro projeto de dança contemporânea concebido para a rede, esse trabalho é apresentado como inovador por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adotar uma perspectiva conceitual como contraposição à tradição de grandes espetáculos."
+    },
+    {
+     "letter": "B",
+     "text": "Criar novas formas de financiamento ao utilizar a internet para divulgação das apresentações"
+    },
+    {
+     "letter": "C",
+     "text": "Privilegiar movimentos gerados por computação gráfica, com a substituição do palco pela tela."
+    },
+    {
+     "letter": "D",
+     "text": "Produzir uma arte multimodal, com o intuito de ampliar as possibilidades de expressão estética"
+    },
+    {
+     "letter": "E",
+     "text": "Redefinir a extensão e o propósito do espetáculo para adaptá-lo ao perfil de diferentes usuários"
+    }
+   ],
+   "figures": [],
+   "number": 20,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Mini@tures une dança, computação, vídeo e internet: arte multimodal que amplia a expressão. **Resposta: D**",
+    "keyConcept": "dança na web",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2021-REG-D1-C1-Q36",
+   "year": 2021,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\n\n[[FIG 0]]\n\nTEXTO II\n\nAs máscarqas não foram feitas para serem usadas; elas se concentram apenas nas possibilidades antropomórficas dos recepientes plásticos descartados e, ao mesmo tempo, chamam a atenção para a quantidade de lixo que se acumula em quase todas as cidades ou aldeias africanas.\n\nFARTHINGS, S. Tudo sobre arte\n\nRomuald Hazoumé costuma dizer que sua obra apenas manda de volta ao oeste o refugode uma sociedade de consumo cada vez mais invasiva. A obra desse artista africano que vive no Benin denota o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Empobrecimento do valor artístico pela combinação de diferentes matérias-primas."
+    },
+    {
+     "letter": "B",
+     "text": "Reposicionamento estético de objetos por meio da mudança de função."
+    },
+    {
+     "letter": "C",
+     "text": "Convite aos espectadores para interagir e completar obras inacabadas."
+    },
+    {
+     "letter": "D",
+     "text": "Militância com temas da ecologia que marcam o continente africano."
+    },
+    {
+     "letter": "E",
+     "text": "Realidade precária de suas condições de produção artística."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2021/ENEM-LC-2021-REG-D1-C1-Q36-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 412,
+     "height": 215
+    }
+   ],
+   "number": 36,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Hazoumé transforma galões plásticos descartados em máscaras: muda a função e reposiciona o objeto esteticamente. **Resposta: B**",
+    "keyConcept": "ressignificação de objetos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q10",
+   "year": 2022,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "Ciente de que, no campo da criação, as inovações tecnológicas abrem amplo leque de possibilidades – ao permitir, e mesmo estimular, que o artista explore a fundo, em seu processo criativo, questões como a aleatoriedade, o acaso, a não linearidade e a hipermídia –, Leo Cunha comenta que, no que tange ao campo da divulgação, as alternativas são ainda mais evidentes: “Afinal, é imensa a capacidade de reprodução, multiplicação e compartilhamento das obras artísticas/culturais. Ao mesmo tempo, ganham dimensão os dilemas envolvidos com a questão da autoria, dos direitos autorais, da reprodução e intervenção não autorizadas, entre outras questões”. Já segundo a professora Yacy-Ara Froner, o uso de ferramentas tecnológicas não pode ser visto como um fim em si mesmo. Isso porque computadores, samplers, programas de imersão, internet e intranet, vídeo, televisão, rádio, GPD etc. são apenas suportes com os quais os artistas exercem sua imaginação.\n\nSILVA JR., M. G. Movidas pela dúvida. Minas faz Ciências, n. 52, dez-fev. 2013 (adaptado).\n\nSegundo os autores citados no texto, a expansão de possibilidades no campo das manifestações artísticas promovida pela internet pode pôr em risco o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sucesso dos artistas."
+    },
+    {
+     "letter": "B",
+     "text": "Valorização dos suportes."
+    },
+    {
+     "letter": "C",
+     "text": "Proteção da produção estética."
+    },
+    {
+     "letter": "D",
+     "text": "Modo de distribuição de obras."
+    },
+    {
+     "letter": "E",
+     "text": "Compartilhamento das obras artísticas."
+    }
+   ],
+   "figures": [],
+   "number": 10,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Os autores temem que a difusão sem controle na rede ameace a proteção da produção estética, como os direitos autorais. **Resposta: C**",
+    "keyConcept": "arte e internet",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q38",
+   "year": 2022,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\n\n[[FIG 0]]\n\nEL GRECO. Laocoonte. Óleo sobre tela, 1,37cm x 1,72cm.\n\nNational Gallery of Art, Washington, Estados Unidos, circa 1610-\n1614. Disponível em: https://images.nga.gov. Acesso em: 28 jun\n2019 (adaptado).\n\nTEXTO II\n\nEssa impressionante obra apresenta o sacerdote Laocoonte sendo punido pelos deuses por tentar alertar os troianos da ameaça do Cavalo de Troia, que escondia um grupo de soldados gregos. Enviadas pelos deuses, serpentes marinhas são vistas matando Laocoonte e seus dois filhos como forma de punição.\n\nKAY, A. In: FARTHING, S. (Org.). Tudo sobre arte.\nRio de Janeiro: Sextante, 2011 (adaptado).\n\nProduzida no início do século XVII, a obra maneirista distingue-se pela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Representação da nudez masculina."
+    },
+    {
+     "letter": "B",
+     "text": "Distorção ao representar a figura humana."
+    },
+    {
+     "letter": "C",
+     "text": "Evocação de um fato da cultura clássica grega."
+    },
+    {
+     "letter": "D",
+     "text": "Presença do tema da morte como punição da família."
+    },
+    {
+     "letter": "E",
+     "text": "Utilização da perspectiva para integrar os diferentes planos."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2022/ENEM-LC-2022-REG-D1-C1-Q38-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 546,
+     "height": 435
+    }
+   ],
+   "number": 38,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O Laocoonte de El Greco tem corpos alongados e torcidos: distorção maneirista da figura humana. **Resposta: B**",
+    "keyConcept": "Maneirismo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q32",
+   "year": 2023,
+   "area": "Música",
+   "content": null,
+   "demand": null,
+   "statement": "O sol começa a descer por trás da vegetação da Ilha da Restinga, na outra margem do rio Paraíba, colorindo o céu de amarelo, laranja e lilás. Então se ouvem as primeiras notas do Bolero, do compositor francês Maurice Ravel, executadas pelo saxofonista Jurandy. É assim o pôr do sol da praia do Jacaré, em Cabedelo (Grande João Pessoa). Depois do Bolero, Jurandy toca Asa branca, de Luiz Gonzaga, e Meu sublime torrão, de Genival Macedo, espécie de hino não oficial da Paraíba.\nPINHEIRO, A. Sol se põe embaiado pelo Bolero de Ravel. Disponível em: http://tools.folha.com.br. Acesso em: 16 set. 20212 (adaptado).\nA interpretação musical de Jurandy do Sax, codinome de José Jurandy Félix, apresenta caracterizado pela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inter-relação de referenciais estéticos aparentemente distanciados."
+    },
+    {
+     "letter": "B",
+     "text": "Valorização de músicas que revelam mensagens de serenidade."
+    },
+    {
+     "letter": "C",
+     "text": "Consagração do repertório erudito como cultura dominante."
+    },
+    {
+     "letter": "D",
+     "text": "Iniciativa de estímulo à vocação turística da cidade."
+    },
+    {
+     "letter": "E",
+     "text": "Divisão hierárquica entre gêneros e estilos musicais."
+    }
+   ],
+   "figures": [],
+   "number": 32,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Jurandy toca Ravel e depois Luiz Gonzaga: inter-relação de referências estéticas distantes. **Resposta: A**",
+    "keyConcept": "Ravel e Gonzaga",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q33",
+   "year": 2023,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "Texto I\n\n[[FIG 0]]\n\nSEGALL, L. Eternos caminhantes. Óleo sobre tela, 138 x 184 cm. Museu Lasar Segall. IbramMinc. São Paulo, 1919.\n\nTexto II\n\nEm 1933, a obra Eternos caminhantes ingressou em uma das primeiras edições das exposições de Arte Degenerada, promovida por membros do partido nazista alemão. Nos anos seguintes, ela voltaria a ser exibida na mostra denominada Exposição da Vergonha, promovida por pequenos grupos abastados. Em 1937, essa obra foi confiscada pelo Ministério da Propaganda daquele país, na grande ação nacional-socialista contra a “Arte Degenerada”.\n\nSCHWARTZ, J. Perseguição à Arte Moderna em tempos de amarra São Paulo: Museu Lasar Segall, 2018 (adaptado)\n\nQuase cinquenta obras de Lasar Segall foram confiscadas pelo regime totalitário alemão na primeira metade do século XX, entre elas a obra Eternos caminhantes, considerada degenerada por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Representar uma estética tida como inconveniente para o ideário político vigente."
+    },
+    {
+     "letter": "B",
+     "text": "Manifestar um posicionamento político-cultural concebido por grupos de oposição."
+    },
+    {
+     "letter": "C",
+     "text": "Expressar a cultura artística por meio da representação parcial do corpo humano."
+    },
+    {
+     "letter": "D",
+     "text": "Apresentar uma composição que antecipa o imaginário artístico germânico."
+    },
+    {
+     "letter": "E",
+     "text": "Estimular discussões sobre o papel da arte na construção coletiva de cultura."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/arte/2023/ENEM-LC-2023-REG-D1-C1-Q33-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 384,
+     "height": 279
+    }
+   ],
+   "number": 33,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O nazismo condenou a arte moderna expressionista de Segall por contrariar seu ideário político e estético. **Resposta: A**",
+    "keyConcept": "arte degenerada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q36",
+   "year": 2023,
+   "area": "Teatro e Dança",
+   "content": null,
+   "demand": null,
+   "statement": "Marabaixo é uma expressão artistico-cultural formada nas tradições e na identificação cultural entre as comunidades negras do Amapá. O nome remonta às mortes de escravizados em navios negreiros que eram jogados na água. Em sua homenagem, hinos de lamento eram cantados mar abaixo, mar acima. Posteriormente, o Marabaixo se integrou à vivência das comunidades negras em um ciclo de danças, cantorias com tambores e festas religiosas, recebendo, em 2018, o título de Patrimônio Cultural do Brasil.\n\nDisponível em: http://portal.iphan.gov.br. Acesso em: 15 nov. 2021 (adaptado).\n\nA manifestação do Marabaixo se constituiu em expressão de arte e cultura, exercendo função de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ressignificar episódios dramáticos em novas práticas culturais."
+    },
+    {
+     "letter": "B",
+     "text": "Adaptar coreografias como imitação dos movimentos do mar."
+    },
+    {
+     "letter": "C",
+     "text": "Lembrar dos mortos no passado escravista como forma de lamento."
+    },
+    {
+     "letter": "D",
+     "text": "Perpetuar uma narrativa de apagamento dos fatos históricos traumáticos."
+    },
+    {
+     "letter": "E",
+     "text": "Ritualizar a passagem de atos fúnebres nas produções coletivas com espírito festivo."
+    }
+   ],
+   "figures": [],
+   "number": 36,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O lamento pelos escravizados virou ciclo de dança, canto e festa: ressignificação do trauma em prática cultural. **Resposta: A**",
+    "keyConcept": "Marabaixo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q37",
+   "year": 2023,
+   "area": "Artes Visuais",
+   "content": null,
+   "demand": null,
+   "statement": "O uso das redes sociais como forma de ampliar universos foi uma descoberta recente para o artista Wolney Fernandes, que começou a criar quando o ambiente em Goiás era mais árido em relação às artes visuais. “Hoje, ser diferente é uma potência e quem sabe o que quer com a própria arte encontra espaço”, diz. As colagens artísticas do goiano aparecem em capas de obras literárias pelo Brasil e exterior.\n\nDisponível em: https://opopular.com.br. Acesso em: 15 nov. 2021 (adaptado).\n\nO artista goiano Wolney Fernandes busca expor seu trabalho por meio de plataformas virtuais com o objetivo de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dar suporte à técnica de colagem em Artes Visuais, contornando dificuldades práticas."
+    },
+    {
+     "letter": "B",
+     "text": "Aproximar-se da estética visual própria da editoração de obras artísticas, como capas de livros."
+    },
+    {
+     "letter": "C",
+     "text": "Oferecer uma vitrine internacional para sua produção artística, a fim de dar mais visibilidade a suas obras."
+    },
+    {
+     "letter": "D",
+     "text": "Enfatizar o caráter original e inovador de suas criações artísticas, diferenciando-se das artes tradicionais."
+    },
+    {
+     "letter": "E",
+     "text": "Trazer um sentido tecnológico às suas colagens, uma vez que as imagens artísticas são recorrentes nas redes sociais."
+    }
+   ],
+   "figures": [],
+   "number": 37,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Wolney usa as redes para ampliar universos; suas colagens chegam a capas no Brasil e no exterior. É uma vitrine para dar visibilidade. **Resposta: C**",
+    "keyConcept": "redes sociais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q38",
+   "year": 2023,
+   "area": "Música",
+   "content": null,
+   "demand": null,
+   "statement": "O mais antigo grupo de rap indígena do país, Brô MCs, surgiu em 2009, na aldeia Jaguapiru, em Dourados, Mato Grosso do Sul. Os integrantes conheceram o rap pelo rádio, ouvindo um programa que apresentava cantores e grupos brasileiros desse gênero musical. O Brô MCs conseguiu influenciar outros a fazerem rap e a lutarem pelas causas indígenas. Um dos nomes do movimento, Kunumi MC, é um jovem de 16 anos, da aldeia Krukutu, em São Paulo.\nO adolescente enxerga o rap como uma cultura da defesa e começou a fazer rimas quando percebeu que a poesia, pela qual sempre se interessou, podia virar música.\nNas letras que cria, inspiradas tanto pelo rap quanto pelos ritmos indígenas, tenta incluir sempre assuntos aos quais acha importante dar voz, principalmente, a questão da demarcação de terras.\nDisponível em: www.correiobraziliense.com.br. Acesso em: 13 nov. 2021 (adaptado).\nO movimento rap dos povos originários do Brasil revela o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fusão de manifestações artísticas urbanas contemporâneas com a cultura indígena."
+    },
+    {
+     "letter": "B",
+     "text": "Contraposição das temáticas socioambientais indigenas as questões urbanas."
+    },
+    {
+     "letter": "C",
+     "text": "Rejeição da indústria radiofônica às músicas indígenas."
+    },
+    {
+     "letter": "D",
+     "text": "Distanciamento da realidade social indígena."
+    },
+    {
+     "letter": "E",
+     "text": "E estímulo ao estudo da poesia indígena."
+    }
+   ],
+   "figures": [],
+   "number": 38,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Os grupos unem o rap, cultura urbana, a ritmos e causas indígenas. **Resposta: A**",
+    "keyConcept": "rap indígena",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  }
+ ]
+}

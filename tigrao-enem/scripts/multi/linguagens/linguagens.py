@@ -6,8 +6,12 @@ matéria/tema/resolução: res/R_*.txt (M: pt|arte|ef). Gera também resolucoes/
 import json, os, re, glob, unicodedata, collections
 from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__)); M = os.path.dirname(HERE); APP = os.path.dirname(os.path.dirname(M))
-BASE = '/workspace/tmp/enem-api/public'; MAT = 'portugues'
+import sys
+BASE = '/workspace/tmp/enem-api/public'; MAT = sys.argv[1] if len(sys.argv) > 1 else 'portugues'
+COD = {'portugues': 'pt', 'arte': 'arte', 'educacao_fisica': 'ef'}[MAT]; PREF = {'portugues': 'por', 'arte': 'art', 'educacao_fisica': 'edf'}[MAT]
 G = json.load(open(f'{M}/gab/gabaritos.json')); GL = json.load(open(f'{M}/gab/gab_lc_2009_2016.json'))
+TEMAS_AE = {'arte': {'V': 'Artes Visuais', 'U': 'Música', 'C': 'Teatro e Dança'},
+            'educacao_fisica': {'S': 'Saúde e Qualidade de Vida', 'E': 'Esporte e Sociedade', 'C': 'Corpo, Mídia e Padrões de Beleza', 'D': 'Danças, Lutas, Jogos e Brincadeiras'}}
 TEMAS = {'G': 'Interpretação e Gêneros Textuais', 'L': 'Literatura', 'N': 'Gramática e Norma-Padrão', 'V': 'Variação Linguística',
          'F': 'Funções da Linguagem e Figuras', 'M': 'Linguagem, Mídia e Tecnologia'}
 def gab(y, n): return GL[str(y)]['pt'][str(n)] if int(y) <= 2016 else G[str(y)][str(n)]
@@ -25,13 +29,20 @@ for f in sorted(glob.glob(f'{HERE}/res/R_*.txt')):
             if re.match(r'^[MT]: ', l): d[l[0]] = l[3:].strip()
             else: d['linhas'].append(l)
         B[h[1:].strip()] = d
+if MAT != 'portugues':
+    TEMAS = TEMAS_AE[MAT]
+    for l in open(f'{HERE}/res/' + ('arte' if MAT == 'arte' else 'ef') + '.txt', encoding='utf-8'):
+        k, g, t, kk, txt = l.rstrip('\n').split('|', 4)
+        assert B[k]['M'] == COD, k
+        B[k] = {'M': COD, 'T': t, 'g': g, 'linhas': ['!', f'R: {txt}'] if kk == '!' else [f'K: {kk}', txt]}
 def main():
     out, res, lab = [], [], {}
     for r in json.load(open(f'{HERE}/cand.json')):
         y, n = int(r['ano']), int(r['n']); k = f'{y}-{n}'
         if 'fora' in r: continue
         b = B[k]; lab[k] = b['M']
-        if b['M'] != 'pt': continue
+        if b['M'] != COD: continue
+        if 'g' in b: assert b['g'] == gab(y, n), k
         qdir = f'{BASE}/{y}/questions/{n}'; q = json.load(open(f'{qdir}/details.json'))
         of = gab(y, n); assert q['correctAlternative'] == of, k
         id_ = ident(y, n); figs = []
@@ -48,7 +59,7 @@ def main():
                 src = os.path.join(qdir, a['file'].rsplit('/', 1)[1]); rel = f'figuras/{MAT}/{y}/{id_}-alt{a["letter"]}.webp'
                 os.makedirs(os.path.dirname(f'{APP}/public/{rel}'), exist_ok=True)
                 im = Image.open(src); im = im if im.mode in ('RGB', 'RGBA', 'L') else im.convert('RGBA'); im.save(f'{APP}/public/{rel}', 'WEBP', quality=90, method=6); o['image'] = './' + rel
-        out.append({'id': id_, 'year': y, 'area': TEMAS[b.get('T', 'G')], 'content': None, 'demand': None, 'statement': st, 'options': opts,
+        out.append({'id': id_, 'year': y, 'area': TEMAS[b['T']], 'content': None, 'demand': None, 'statement': st, 'options': opts,
                     'figures': figs, 'number': n, 'booklet': 7 if y <= 2016 else 1, 'answer': of, 'explanation': None})
         res.append(f'@{id_}\n' + '\n'.join(b['linhas']).strip())
     out.sort(key=lambda x: (x['year'], x['number']))
@@ -56,9 +67,9 @@ def main():
             'fonteGabarito': 'Gabaritos oficiais do Inep (caderno azul); 2009–2016 LC: PDFs do 2º dia (gab/gab_lc_2009_2016.json); 2017+: gab/gabaritos.json',
             'porAno': dict(sorted(collections.Counter(str(x['year']) for x in out).items())), 'total': len(out), 'fora': {},
             'porArea': dict(collections.Counter(x['area'] for x in out).most_common()), 'doPdfOficial': 0, 'comExplicacao': 0, 'revisadas': 0,
-            'classificacao': 'manual pelo agente (pt/arte/ef e tema), a conferir pelo professor (linguagens/res/R_*.txt)'}
+            'classificacao': 'manual pelo agente (pt/arte/ef e tema), a conferir pelo professor (linguagens/res/)'}
     json.dump({'meta': meta, 'questions': out}, open(f'{APP}/src/materias/{MAT}.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    open(f'{M}/resolucoes/por_01.txt', 'w', encoding='utf-8').write('\n\n'.join(res) + '\n')
-    json.dump(lab, open(f'{HERE}/materia_lc.json', 'w'), indent=1)
+    open(f'{M}/resolucoes/{PREF}_01.txt', 'w', encoding='utf-8').write('\n\n'.join(res) + '\n')
+    if MAT == 'portugues': json.dump(lab, open(f'{HERE}/materia_lc.json', 'w'), indent=1)
     print(len(out), meta['porAno'], meta['porArea'], collections.Counter(lab.values()))
 if __name__ == '__main__': main()

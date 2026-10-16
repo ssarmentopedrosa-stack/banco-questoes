@@ -534,7 +534,7 @@ function Enunciado({ q, className }: { q: Question; className: string }) {
       usadas.add(n);
       nodes.push(<Figuras key={"f" + k} q={q} indices={[n]} />);
     } else if (parte.trim()) {
-      nodes.push(<p key={"t" + k} className={"whitespace-pre-line " + className + (k ? " mt-3" : "")}>{inline(parte.replace(/^\n+|\n+$/g, ""))}</p>);
+      nodes.push(<p key={"t" + k} className={"whitespace-pre-line [overflow-wrap:anywhere] " + className + (k ? " mt-3" : "")}>{inline(parte.replace(/^\n+|\n+$/g, ""))}</p>);
     }
   });
   return (

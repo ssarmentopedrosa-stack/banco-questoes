@@ -1,0 +1,2130 @@
+{
+ "meta": {
+  "materia": "educacao_fisica",
+  "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), caderno azul; texto conferido com o PDF oficial do Inep",
+  "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2009–2016 LC: PDFs do 2º dia (gab/gab_lc_2009_2016.json); 2017+: gab/gabaritos.json",
+  "porAno": {
+   "2009": 2,
+   "2010": 3,
+   "2011": 4,
+   "2012": 3,
+   "2013": 3,
+   "2014": 2,
+   "2015": 3,
+   "2016": 3,
+   "2017": 4,
+   "2018": 2,
+   "2019": 5,
+   "2020": 4,
+   "2021": 2,
+   "2022": 4,
+   "2023": 5
+  },
+  "total": 49,
+  "fora": {},
+  "porArea": {
+   "Esporte e Sociedade": 19,
+   "Saúde e Qualidade de Vida": 13,
+   "Danças, Lutas, Jogos e Brincadeiras": 9,
+   "Corpo, Mídia e Padrões de Beleza": 8
+  },
+  "doPdfOficial": 0,
+  "comExplicacao": 47,
+  "revisadas": 0,
+  "classificacao": "manual pelo agente (pt/arte/ef e tema), a conferir pelo professor (linguagens/res/)"
+ },
+ "questions": [
+  {
+   "id": "ENEM-LC-2009-REG-D2-C7-Q103",
+   "year": 2009,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "Saúde, no modelo atual de qualidade de vida, é o resultado das condições de alimentação, habitação, educação, renda, trabalho, transporte, lazer, serviços médicos e acesso à atividade física regular. Quanto ao acesso à atividade física, um dos elementos essenciais é a aptidão física, entendida como a capacidade de a pessoa utilizar seu corpo — incluindo músculos, esqueleto, coração, enfim, todas as partes —, de forma eficiente em suas atividades cotidianas; logo, quando se avalia a saúde de uma pessoa, a aptidão física deve ser levada em conta.\n\nA partir desse contexto, considera-se que uma pessoa tem boa aptidão física quando",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Apresenta uma postura regular."
+    },
+    {
+     "letter": "B",
+     "text": "Pode se exercitar por períodos curtos de tempo."
+    },
+    {
+     "letter": "C",
+     "text": "Pode desenvolver as atividades físicas do dia-a-dia, independentemente de sua idade."
+    },
+    {
+     "letter": "D",
+     "text": "Pode executar suas atividades do dia a dia com vigor, atenção e uma fadiga de moderada a intensa."
+    },
+    {
+     "letter": "E",
+     "text": "Pode exercer atividades físicas no final do dia, mas suas reservas de energia são insuficientes para atividades intelectuais."
+    }
+   ],
+   "figures": [],
+   "number": 103,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Aptidão física é usar o corpo com eficiência nas atividades cotidianas, em qualquer idade. **Resposta: C**",
+    "keyConcept": "aptidão física",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2009-REG-D2-C7-Q134",
+   "year": 2009,
+   "area": "Corpo, Mídia e Padrões de Beleza",
+   "content": null,
+   "demand": null,
+   "statement": "Nunca se falou e se preocupou tanto com o corpo como nos dias atuais. É comum ouvirmos anúncios de uma nova academia de ginástica, de uma nova forma de dieta, de uma nova técnica de autoconhecimento e outras práticas de saúde alternativa, em síntese, vivemos nos últimos anos a redescoberta do prazer, voltando nossas atenções ao nosso próprio corpo. Essa valorização do prazer individualizante se estrutura em um verdadeiro culto ao corpo, em analogia a uma religião, assistimos hoje ao surgimento de novo universo: a corpolatria.\n\nCODO, W.; SENNE, W. O que é corpo(latria). Coleção\nPrimeiros Passos. Brasiliense, 1985 (adaptado).\n\nSobre esse fenômeno do homem contemporâneo presente nas classes sociais brasileiras, principalmente, na classe média, a corpolatria",
+   "options": [
+    {
+     "letter": "A",
+     "text": "É uma religião pelo avesso, por isso outra religião; inverteram-se os sinais, a busca da felicidade eterna antes carregava em si a destruição do prazer, hoje implica o seu culto."
+    },
+    {
+     "letter": "B",
+     "text": "Criou outro ópio do povo, levando as pessoas a buscarem cada vez mais grupos igualitários de integração social."
+    },
+    {
+     "letter": "C",
+     "text": "É uma tradução dos valores das sociedades subdesenvolvidas, mas em países considerados do primeiro mundo ela não consegue se manifestar porque a população tem melhor educação e senso crítico."
+    },
+    {
+     "letter": "D",
+     "text": "Tem como um de seus dogmas o narcisismo, significando o “amar o próximo como se ama a si mesmo”."
+    },
+    {
+     "letter": "E",
+     "text": "Existe desde a Idade Média, entretanto esse acontecimento se intensificou a partir da Revolução Industrial no século XIX e se estendeu até os nossos dias."
+    }
+   ],
+   "figures": [],
+   "number": 134,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O texto compara o culto ao corpo a uma religião: inverteram-se os sinais, e a salvação é buscada no corpo. **Resposta: A**",
+    "keyConcept": "corpolatria",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2010-REG-D2-C7-Q106",
+   "year": 2010,
+   "area": "Danças, Lutas, Jogos e Brincadeiras",
+   "content": null,
+   "demand": null,
+   "statement": "O folclore é o retrato da cultura de um povo. A dança popular e folclórica é uma forma de representar a cultura regional, pois retrata seus valores, crenças, trabalho conhecê-la, é de alguma forma se apropriar dela, é enriquecer a própria cultura.\n\nBREGOLATO, R. A. Cultura Corporal da Dança. São Paulo: Ícone, 2007.\n\nAs manifestações folclóricas perpetuam uma tradição cultural, é obra de um povo que a cria, recria e a perpetua. Sob essa abordagem deixa-se de identificar como dança folclórica brasileira",
+   "options": [
+    {
+     "letter": "A",
+     "text": "O Bumba-meu-boi, que é uma dança teatral onde personagens contam uma história envolvendo crítica social, morte e ressurreição."
+    },
+    {
+     "letter": "B",
+     "text": "A Quadrilha das festas juninas, que associam festejos religiosos a celebrações de origens pagãs envolvendo as colheitas e a fogueira."
+    },
+    {
+     "letter": "C",
+     "text": "O Congado, que é uma representação de um reinado africano onde se homenageia santos através de música, cantos e dança."
+    },
+    {
+     "letter": "D",
+     "text": "O Balé, em que se utilizam músicos, bailarinos e vários outros profissionais para contar uma história em forma de espetáculo."
+    },
+    {
+     "letter": "E",
+     "text": "O Carnaval, em que o samba derivado do batuque africano é utilizado com o objetivo de contar ou recriar uma história nos desfiles."
+    }
+   ],
+   "figures": [],
+   "number": 106,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O balé é dança cênica erudita de origem europeia, não manifestação folclórica brasileira. **Resposta: D**",
+    "keyConcept": "dança folclórica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2010-REG-D2-C7-Q110",
+   "year": 2010,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nO desenvolvimento das capacidades físicas (qualidades motoras passíveis de treinamento) ajuda na tomada de decisões em relação à melhor execução do movimento. A capacidade física predominante no movimento representado na imagem é",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A velocidade, que permite ao músculo executar uma sucessão rápida de gestos em movimentação de intensidade máxima."
+    },
+    {
+     "letter": "B",
+     "text": "A resistência, que admite a realização de movimentos durante considerável período de tempo, sem perda da qualidade da execução."
+    },
+    {
+     "letter": "C",
+     "text": "A flexibilidade, que permite a amplitude máxima de um movimento, em uma ou mais articulações, sem causar lesões."
+    },
+    {
+     "letter": "D",
+     "text": "A agilidade, que possibilita a execução de movimentos rápidos e ligeiros com mudanças de direção."
+    },
+    {
+     "letter": "E",
+     "text": "O equilíbrio, que permite a realização dos mais variados movimentos, com o objetivo de sustentar o corpo sobre uma base."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/educacao_fisica/2010/ENEM-LC-2010-REG-D2-C7-Q110-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 378,
+     "height": 604
+    }
+   ],
+   "number": 110,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": null
+  },
+  {
+   "id": "ENEM-LC-2010-REG-D2-C7-Q120",
+   "year": 2010,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nO voleibol é um dos esportes mais praticados na atualidade. Está presente nas competições esportivas, nos jogos escolares e na recreação. Nesse esporte, os praticantes utilizam alguns movimentos específicos como: saque, manchete, bloqueio, levantamento, toque, entre outros. Na sequência de imagens, identificam-se os movimentos de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sacar e colocar a bola em jogo, defender a bola e realizar a cortada como forma de ataque."
+    },
+    {
+     "letter": "B",
+     "text": "Arremessar a bola, tocar para passar a bola ao levantador e bloquear como forma de ataque."
+    },
+    {
+     "letter": "C",
+     "text": "Tocar e colocar a bola em jogo, cortar para defender e levantar a bola para atacar."
+    },
+    {
+     "letter": "D",
+     "text": "Passar a bola e iniciar a partida, lançar a bola ao levantador e realizar a manchete para defender."
+    },
+    {
+     "letter": "E",
+     "text": "Cortar como forma de ataque, passar a bola para defender e bloquear como forma de ataque."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/educacao_fisica/2010/ENEM-LC-2010-REG-D2-C7-Q120-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 418,
+     "height": 166
+    }
+   ],
+   "number": 120,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": null
+  },
+  {
+   "id": "ENEM-LC-2011-REG-D2-C7-Q96",
+   "year": 2011,
+   "area": "Corpo, Mídia e Padrões de Beleza",
+   "content": null,
+   "demand": null,
+   "statement": "Na modernidade, o corpo foi descoberto, despido e modelado pelos exercícios físicos da moda. Novos espaços e práticas esportivas e de ginástica passaram a convocar as pessoas a modelarem seus corpos. Multiplicaram-se as academias de ginástica, as salas de musculação e o número de pessoas correndo pelas ruas.\n\nSECRETARIA DA EDUCAÇÃO. Caderno do professor: educação física. São Paulo, 2008.\n\nDiante do exposto, é possível perceber que houve um aumento da procura por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Exercícios físicos aquáticos (natação/hidroginástica), que são exercícios de baixo impacto, evitando o atrito (não prejudicando as articulações), e que previnem o envelhecimento precoce e melhoram a qualidade de vida."
+    },
+    {
+     "letter": "B",
+     "text": "Mecanismos que permitem combinar alimentação e exercício físico, que permitem a aquisição e manutenção de níveis adequados de saúde, sem a preocupação com padrões de beleza instituídos socialmente."
+    },
+    {
+     "letter": "C",
+     "text": "Programas saudáveis de emagrecimento, que evitam os prejuízos causados na regulação metabólica, função imunológica, integridade óssea e manutenção da capacidade funcional ao longo do envelhecimento."
+    },
+    {
+     "letter": "D",
+     "text": "Exercícios de relaxamento, reeducação postural e alongamentos, que permitem um melhor funcionamento do organismo como um todo, bem como uma dieta alimentar e hábitos saudáveis com base em produtos naturais."
+    },
+    {
+     "letter": "E",
+     "text": "Dietas que preconizam a ingestão excessiva ou restrita de um ou mais macronutrientes (carboidratos, gorduras ou proteínas), bem como exercícios que permitem um aumento de massa muscular e/ou modelar o corpo."
+    }
+   ],
+   "figures": [],
+   "number": 96,
+   "booklet": 7,
+   "answer": "E",
+   "explanation": {
+    "markdown": "A busca por modelar o corpo levou também a dietas que exageram ou restringem macronutrientes, procuradas pelo apelo estético. **Resposta: E**",
+    "keyConcept": "culto ao corpo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2011-REG-D2-C7-Q105",
+   "year": 2011,
+   "area": "Danças, Lutas, Jogos e Brincadeiras",
+   "content": null,
+   "demand": null,
+   "statement": "A dança é um importante componente cultural da humanidade. O folclore brasileiro é rico em danças que representam as tradições e a cultura de várias regiões do país. Estão ligadas aos aspectos religiosos, festas, lendas, fatos históricos, acontecimentos do cotidiano e brincadeiras e caracterizam-se pelas músicas animadas (com letras simples e populares), figurinos e cenários representativos.\n\nSECRETARIA DA EDUCAÇÃO. Proposta Curricular do Estado de São Paulo: Educação Física. São Paulo: 2009 (adaptado).\n\nA dança, como manifestação e representação da cultura rítmica, envolve a expressão corporal própria de um povo. Considerando-a como elemento folclórico, a dança revela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Manifestações afetivas, históricas, ideológicas, intelectuais e espirituais de um povo, refletindo seu modo de expressar-se no mundo."
+    },
+    {
+     "letter": "B",
+     "text": "Aspectos eminentemente afetivos, espirituais e de entretenimento de um povo, desconsiderando fatos históricos."
+    },
+    {
+     "letter": "C",
+     "text": "Acontecimentos do cotidiano, sob influência mitológica e religiosa de cada região, sobrepondo aspectos políticos."
+    },
+    {
+     "letter": "D",
+     "text": "Tradições culturais de cada região, cujas manifestações rítmicas são classificadas em um ranking das mais originais."
+    },
+    {
+     "letter": "E",
+     "text": "Lendas, que se sustentam em inverdades históricas, uma vez que são inventadas, e servem apenas para a vivência lúdica de um povo."
+    }
+   ],
+   "figures": [],
+   "number": 105,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "A dança folclórica expressa aspectos afetivos, históricos, ideológicos e espirituais de um povo. **Resposta: A**",
+    "keyConcept": "dança e cultura",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2011-REG-D2-C7-Q108",
+   "year": 2011,
+   "area": "Danças, Lutas, Jogos e Brincadeiras",
+   "content": null,
+   "demand": null,
+   "statement": "Conceitos e importância das lutas\n\nAntes de se tornarem esporte, as lutas ou as artes marciais tiveram duas conotações principais: eram praticadas com o objetivo guerreiro ou tinham um apelo filosófico como concepção de vida bastante significativo.\n\nAtualmente, nos deparamos com a grande expansão das artes marciais em nível mundial. As raízes orientais foram se disseminando, ora pela necessidade de luta pela sobrevivência ou para a “defesa pessoal”, ora pela possibilidade de ter as artes marciais como própria filosofia de vida.\n\nCARREIRO, E. A. Educação Física na escola: Implicações para a prática pedagógica. Rio de Janeiro: Guanabara Koogan, 2008 (fragmento).\n\nUm dos problemas da violência que está presente principalmente nos grandes centros urbanos são as brigas e os enfrentamentos de torcidas organizadas, além da formação de gangues, que se apropriam de gestos das lutas, resultando, muitas vezes, em fatalidades. Portanto, o verdadeiro objetivo da aprendizagem desses movimentos foi mal compreendido, afinal as lutas",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Se tornaram um esporte, mas eram praticadas com o objetivo guerreiro a fim de garantir a sobrevivência."
+    },
+    {
+     "letter": "B",
+     "text": "Apresentam a possibilidade de desenvolver o autocontrole, o respeito ao outro e a formação do caráter."
+    },
+    {
+     "letter": "C",
+     "text": "Possuem como objetivo principal a “defesa pessoal” por meio de golpes agressivos sobre o adversário."
+    },
+    {
+     "letter": "D",
+     "text": "Sofreram transformações em seus princípios filosóficos em razão de sua disseminação pelo mundo."
+    },
+    {
+     "letter": "E",
+     "text": "Se disseminaram pela necessidade de luta pela sobrevivência ou como filosofia pessoal de vida."
+    }
+   ],
+   "figures": [],
+   "number": 108,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "As lutas ensinam autocontrole, respeito ao outro e formação do caráter, o contrário da violência das gangues. **Resposta: B**",
+    "keyConcept": "lutas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2011-REG-D2-C7-Q133",
+   "year": 2011,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nDisponível em: http://www.wordinfo.info. Acesso em: 27 abr. 2010.\n\nO homem evoluiu. Independentemente de teoria, essa evolução ocorreu de várias formas. No que concerne à evolução digital, o homem percorreu longo trajeto da pedra lascada ao mundo virtual. Tal fato culminou em um problema físico habitual, ilustrado na imagem, que propicia uma piora na qualidade de vida do usuário, uma vez que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A evolução ocorreu e com ela evoluíram as dores de cabeça, o estresse e a falta de atenção à família."
+    },
+    {
+     "letter": "B",
+     "text": "A vida sem o computador tornou-se quase inviável, mas se tem diminuído problemas de visão cansada."
+    },
+    {
+     "letter": "C",
+     "text": "A utilização demasiada do computador tem proporcionado o surgimento de cientistas que apresentam lesão por esforço repetitivo."
+    },
+    {
+     "letter": "D",
+     "text": "O homem criou o computador, que evoluiu, e hoje opera várias ações antes feitas pelas pessoas, tornando-as sedentárias ou obesas."
+    },
+    {
+     "letter": "E",
+     "text": "O uso contínuo do computador de forma inadequada tem ocasionado má postura corporal."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/educacao_fisica/2011/ENEM-LC-2011-REG-D2-C7-Q133-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 775,
+     "height": 248
+    }
+   ],
+   "number": 133,
+   "booklet": 7,
+   "answer": "E",
+   "explanation": {
+    "markdown": "A imagem da \"evolução\" termina no homem curvado ao computador: o uso inadequado gera má postura. **Resposta: E**",
+    "keyConcept": "postura e computador",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q96",
+   "year": 2012,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nNIEMAN, D. Exercício e saúde. São Paulo: Manole, 1999 (adaptado).\n\nA partir dos efeitos fisiológicos do exercício físico no organismo, apresentados na figura, são adaptações benéficas à saúde de um indivíduo:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diminuição da frequência cardíaca em repouso e aumento da oxigenação do sangue."
+    },
+    {
+     "letter": "B",
+     "text": "Diminuição da oxigenação do sangue e aumento da frequência cardíaca em repouso."
+    },
+    {
+     "letter": "C",
+     "text": "Diminuição da frequência cardíaca em repouso e aumento da gordura corporal."
+    },
+    {
+     "letter": "D",
+     "text": "Diminuição do tônus muscular e aumento do percentual de gordura corporal."
+    },
+    {
+     "letter": "E",
+     "text": "Diminuição da gordura corporal e aumento da frequência cardíaca em repouso."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/educacao_fisica/2012/ENEM-LC-2012-REG-D2-C7-Q96-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 564,
+     "height": 385
+    }
+   ],
+   "number": 96,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O treino reduz a frequência cardíaca de repouso e melhora a oxigenação do sangue. **Resposta: A**",
+    "keyConcept": "efeitos do exercício",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q100",
+   "year": 2012,
+   "area": "Corpo, Mídia e Padrões de Beleza",
+   "content": null,
+   "demand": null,
+   "statement": "Verbo ser\n\nQUE VAI SER quando crescer? Vivem perguntando em redor. Que é ser? É ter um corpo, um jeito, um nome? Tenho os três. E sou? Tenho de mudar quando crescer? Usar outro nome, corpo e jeito? Ou a gente só principia a ser quando cresce? É terrível, ser? Dói? É bom? É triste? Ser: pronunciado tão depressa, e cabe tantas coisas? Repito: ser, ser, ser. Er. R. Que vou ser quando crescer? Sou obrigado a? Posso escolher? Não dá para entender. Não vou ser. Não quero ser. Vou crescer assim mesmo. Sem ser. Esquecer.\n\nANDRADE, C. D. Poesia e prosa. Rio de Janeiro: Nova Aguilar, 1992.\n\nA inquietação existencial do autor com a autoimagem corporal e a sua corporeidade se desdobra em questões existenciais que têm origem",
+   "options": [
+    {
+     "letter": "A",
+     "text": "No conflito do padrão corporal imposto contra as convicções de ser autêntico e singular."
+    },
+    {
+     "letter": "B",
+     "text": "Na aceitação das imposições da sociedade seguindo a influência de outros."
+    },
+    {
+     "letter": "C",
+     "text": "Na confiança no futuro, ofuscada pelas tradições e culturas familiares."
+    },
+    {
+     "letter": "D",
+     "text": "No anseio de divulgar hábitos enraizados, negligenciados por seus antepassados."
+    },
+    {
+     "letter": "E",
+     "text": "Na certeza da exclusão, revelada pela indiferença de seus pares."
+    }
+   ],
+   "figures": [],
+   "number": 100,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O poema questiona o \"ser\" imposto (\"tenho de mudar?\"). É o conflito entre o padrão imposto e o desejo de autenticidade. **Resposta: A**",
+    "keyConcept": "corporeidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q115",
+   "year": 2012,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Aqui é o país do futebol\n\nBrasil está vazio na tarde de domingo, né?\nOlha o sambão, aqui é o país do futebol\n[…]\nNo fundo desse país\nAo longo das avenidas\nNos campos de terra e grama\nBrasil só é futebol\nNesses noventa minutos\nDe emoção e alegria\nEsqueço a casa e o trabalho\nA vida fica lá fora\nDinheiro fica lá fora\nA cama fica lá fora\nA mesa fica lá fora\nSalário fica lá fora\nA fome fica lá fora\nA comida fica lá fora\nA vida fica lá fora\nE tudo fica lá fora\n\nSIMONAL, W. Aqui é o país do futebol. Disponível em: www.vagalume.com.br. Acesso em: 27 out. 2011 (fragmento).\n\nNa letra da canção Aqui é o país do futebol, de Wilson Simonal, o futebol, como elemento da cultura corporal de movimento e expressão da tradição nacional, é apresentado de forma crítica e emancipada devido ao fato de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reforçar a relação entre o esporte futebol e o samba."
+    },
+    {
+     "letter": "B",
+     "text": "Ser apresentado como uma atividade de lazer."
+    },
+    {
+     "letter": "C",
+     "text": "Ser identificado com a alegria da população brasileira."
+    },
+    {
+     "letter": "D",
+     "text": "Promover a reflexão sobre a alienação provocada pelo futebol."
+    },
+    {
+     "letter": "E",
+     "text": "Ser associado ao desenvolvimento do país."
+    }
+   ],
+   "figures": [],
+   "number": 115,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Em \"a fome fica lá fora\", a canção mostra o futebol fazendo esquecer os problemas: crítica à alienação. **Resposta: D**",
+    "keyConcept": "futebol e alienação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q97",
+   "year": 2013,
+   "area": "Danças, Lutas, Jogos e Brincadeiras",
+   "content": null,
+   "demand": null,
+   "statement": "O jogo é uma atividade ou ocupação voluntária, exercida dentro de certos e determinados limites de tempo e de espaço, segundo regras livremente consentidas, mas absolutamente obrigatórias, dotado de um fim em si mesmo, acompanhado de um sentimento de tensão e de alegria e de uma consciência de ser diferente da “vida quotidiana”.\n\nHUIZINGA, J. Homo ludens: o jogo como elemento da cultura. São Paulo: Perspectiva, 2004.\n\nSegundo o texto, o jogo comporta a possibilidade de fruição. Do ponto de vista das práticas corporais, essa fruição se estabelece por meio do(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fixação de táticas, que define a padronização para maior alcance popular."
+    },
+    {
+     "letter": "B",
+     "text": "Competitividade, que impulsiona o interesse pelo sucesso."
+    },
+    {
+     "letter": "C",
+     "text": "Refinamento técnico, que gera resultados satisfatórios."
+    },
+    {
+     "letter": "D",
+     "text": "Caráter lúdico, que permite experiências inusitadas."
+    },
+    {
+     "letter": "E",
+     "text": "Uso tecnológico, que amplia as opções de lazer."
+    }
+   ],
+   "figures": [],
+   "number": 97,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Para Huizinga o jogo é livre, tenso e alegre, diferente da vida cotidiana: a fruição vem do caráter lúdico. **Resposta: D**",
+    "keyConcept": "jogo lúdico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q108",
+   "year": 2013,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "Adolescentes: mais altos, gordos e preguiçosos\n\nA oferta de produtos industrializados e a falta de tempo têm sua parcela de responsabilidade no aumento da silhueta dos jovens. “Os nossos hábitos alimentares, de modo geral, mudaram muito”, observa Vivian Ellinger, presidente da Sociedade Brasileira de Endocrinologia e Metabologia (SBEM), no Rio de Janeiro. Pesquisas mostram que, aqui no Brasil, estamos exagerando no sal e no açúcar, além de tomar pouco leite e comer menos frutas e feijão.\n\nOutro pecado, velho conhecido de quem exibe excesso de gordura por causa da gula, surge como marca da nova geração: a preguiça, “Cem por cento das meninas que participam do Programa não praticavam nenhum esporte”, revela a psicóloga Cristina Freire, que monitora o desenvolvimento emocional das voluntárias.\n\nVocê provavelmente já sabe quais são as consequências de uma rotina sedentária e cheia de gordura. “E não é novidade que os obesos têm uma sobrevida menor”, acredita Claudia Cozer, endocrinologista da Associação Brasileira para o Estudo da Obesidade e da Síndrome Metabólica. Mas, se há cinco anos os estudos projetavam um futuro sombrio para os jovens, no cenário atual as doenças que viriam na velhice já são parte da rotina deles. “Os adolescentes já estão sofrendo com hipertensão e diabete”, exemplifica Claudia.\n\nDESGUALDO, P. Revista Saúde. Disponível em: http://saude.abril.com.br.\nAcesso em: 28 jul. 2012 (adaptado).\n\nSobre a relação entre os hábitos da população adolescente e as suas condições de saúde, as informações apresentadas no texto indicam que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A falta de atividade física somada a uma alimentação nutricionalmente desequilibrada constituem fatores relacionados ao aparecimento de doenças crônicas entre os adolescentes."
+    },
+    {
+     "letter": "B",
+     "text": "A diminuição do consumo de alimentos fontes de carboidratos combinada com um maior consumo de alimentos ricos em proteínas contribuíram para o aumento da obesidade entre os adolescentes."
+    },
+    {
+     "letter": "C",
+     "text": "A maior participação dos alimentos industrializados e gordurosos na dieta da população adolescente tem tornado escasso o consumo de sais e açúcares, o que prejudica o equilíbrio metabólico."
+    },
+    {
+     "letter": "D",
+     "text": "A ocorrência de casos de hipertensão e diabetes entre os adolescentes advém das condições de alimentação, enquanto que na população adulta os fatores hereditários são preponderantes."
+    },
+    {
+     "letter": "E",
+     "text": "A prática regular de atividade física é um importante fator de controle da diabetes entre a população adolescente, por provocar um constante aumento da pressão arterial sistólica."
+    }
+   ],
+   "figures": [],
+   "number": 108,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Sedentarismo e alimentação desequilibrada levam a obesidade, hipertensão e diabetes nos jovens. **Resposta: A**",
+    "keyConcept": "hábitos e saúde",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q111",
+   "year": 2013,
+   "area": "Danças, Lutas, Jogos e Brincadeiras",
+   "content": null,
+   "demand": null,
+   "statement": "Própria dos festejos juninos, a quadrilha nasceu como dança aristocrática, oriunda dos salões franceses, depois difundida por toda a Europa.\n\nNo Brasil, foi introduzida como dança de salão e, por sua vez, apropriada e adaptada pelo gosto popular. Para sua ocorrência, é importante a presença de um mestre “marcante” ou “marcador”, pois é quem determina as figurações diversas que os dançadores desenvolvem. Observa-se a constância das seguintes marcações: “Tour”, “En avant”, “Chez des dames”, “Chez des chevaliê”, “Cestinha de flor”, “Balancê”, “Caminho da roça”, “Olha a chuva”, “Garranchê”, “Passeio”, “Coroa de flores”, “Coroa de espinhos” etc.\n\nNo Rio de Janeiro, em contexto urbano, apresenta transformações: surgem novas figurações, o francês aportuguesado inexiste, o uso de gravações substitui a música ao vivo, além do aspecto de competição, que sustenta os festivais de quadrilha, promovidos por órgãos de turismo.\n\nCASCUDO, L. C. Dicionário do folclore brasileiro. Rio de Janeiro: Melhoramentos, 1976.\n\nAs diversas formas de dança são demonstrações da diversidade cultural do nosso país. Entre elas, a quadrilha é considerada uma dança folclórica por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Possuir como característica principal os atributos divinos e religiosos e, por isso, identificar uma nação ou região."
+    },
+    {
+     "letter": "B",
+     "text": "Abordar as tradições e costumes de determinados povos ou regiões distintas de uma mesma nação."
+    },
+    {
+     "letter": "C",
+     "text": "Apresentar cunho artístico e técnicas apuradas, sendo, também, considerada dança-espetáculo."
+    },
+    {
+     "letter": "D",
+     "text": "Necessitar de vestuário específico para a sua prática, o qual define seu país de origem."
+    },
+    {
+     "letter": "E",
+     "text": "Acontecer em salões e festas e ser influenciada por diversos gêneros musicais."
+    }
+   ],
+   "figures": [],
+   "number": 111,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A quadrilha foi apropriada pelo gosto popular e expressa costumes de regiões do país, o que a torna folclórica. **Resposta: B**",
+    "keyConcept": "quadrilha",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q97",
+   "year": 2014,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "O boxe está perdendo cada vez mais espaço para um fenômeno relativamente recente do esporte, o MMA. E o maior evento de Artes Marciais Mistas do planeta é o Ultimate Fighting Championship, ou simplesmente UFC. O ringue, com oito cantos, foi desenhado para deixar os lutadores com mais espaço para as lutas. Os atletas podem usar as mãos e aplicar golpes de jiu-jitsu. Muitos podem falar que a modalidade é uma espécie de vale-tudo, mas isso já ficou no passado: agora, a modalidade tem regras e acompanhamento médico obrigatório para que o esporte apague o estigma negativo.\n\nCORREIA, D. UFC: saiba como o MMA nocauteou o boxe em oito golpes. Veja, 10 jun. 2011 (fragmento)\n\nO processo de modificação das regras do MMA retrata a tendência de redimensionamento de algumas práticas corporais, visando enquadrá-las em um determinado formato.\n\nQual o sentido atribuído a essas transformações incorporadas historicamente ao MMA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A modificação das regras busca associar valores lúdicos ao MMA, possibilitando a participação de diferentes populações como atividade de lazer."
+    },
+    {
+     "letter": "B",
+     "text": "As transformações do MMA aumentam o grau de violência das lutas, favorecendo a busca de emoções mais fortes tanto aos competidores como ao público."
+    },
+    {
+     "letter": "C",
+     "text": "As mudanças de regras do MMA atendem à necessidade de tornar a modalidade menos violenta, visando sua introdução nas academias de ginástica na dimensão da saúde."
+    },
+    {
+     "letter": "D",
+     "text": "As modificações incorporadas ao MMA têm por finalidade aprimorar as técnicas das diferentes artes marciais, favorecendo o desenvolvimento da modalidade enquanto defesa pessoal."
+    },
+    {
+     "letter": "E",
+     "text": "As transformações do MMA visam delimitar a violência das lutas, preservando a integridade dos atletas e enquadrando a modalidade no formato do esporte de espetáculo."
+    }
+   ],
+   "figures": [],
+   "number": 97,
+   "booklet": 7,
+   "answer": "E",
+   "explanation": {
+    "markdown": "As novas regras (luvas, rounds, golpes proibidos) delimitam a violência e preservam a integridade dos atletas. **Resposta: E**",
+    "keyConcept": "regras do MMA",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q98",
+   "year": 2014,
+   "area": "Corpo, Mídia e Padrões de Beleza",
+   "content": null,
+   "demand": null,
+   "statement": "Uso de suplementos alimentares por adolescentes\n\nEvidências médicas sugerem que a suplementação alimentar pode ser benéfica para um pequeno grupo de pessoas, aí incluídos atletas competitivos, cuja dieta não seja balanceada. Tem-se observado que adolescentes envolvidos em atividade física ou atlética estão usando cada vez mais tais suplementos. A prevalência desse uso varia entre os tipos de esportes, aspectos culturais, faixas etárias (mais comum em adolescentes) e sexo (maior prevalência em homens). Poucos estudos se referem a frequência, tipo e quantidade de suplementos usados, mas parece ser comum que as doses recomendadas sejam excedidas.\n\nA mídia é um dos importantes estímulos ao uso de suplementos alimentares ao veicular, por exemplo, o mito do corpo ideal. Em 2001, a indústria de suplementos alimentares investiu globalmente US$ 46 bilhões em propaganda, como meio de persuadir potenciais consumidores a adquirir seus produtos. Na adolescência, período de autoafirmação, muitos deles não medem esforços para atingir tal objetivo.\n\nALVES, C.; LIMA, R. J. Pediatr. v.85, n.4, 2009 (fragmento).\n\nSobre a associação entre a prática de atividades físicas e o uso de suplementos alimentares, o texto informa que a ingestão desses suplementos",
+   "options": [
+    {
+     "letter": "A",
+     "text": "É indispensável para as pessoas que fazem atividades físicas regularmente."
+    },
+    {
+     "letter": "B",
+     "text": "É estimulada pela indústria voltada para adolescentes que buscam um corpo ideal."
+    },
+    {
+     "letter": "C",
+     "text": "É indicada para atividades físicas como a musculação com fins de promoção da saúde."
+    },
+    {
+     "letter": "D",
+     "text": "Direciona-se para adolescentes com distúrbios metabólicos e que praticam atividades físicas."
+    },
+    {
+     "letter": "E",
+     "text": "Melhora a saúde do indivíduo que não tem uma dieta balanceada e nem pratica atividades físicas."
+    }
+   ],
+   "figures": [],
+   "number": 98,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A indústria investe em propaganda para adolescentes que buscam um corpo ideal. **Resposta: B**",
+    "keyConcept": "suplementos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q97",
+   "year": 2015,
+   "area": "Danças, Lutas, Jogos e Brincadeiras",
+   "content": null,
+   "demand": null,
+   "statement": "O rap, palavra formada pelas iniciais de rhythm and poetry (ritmo e poesia), junto com as linguagens da dança (o break dancing) e das artes plásticas (o grafite), seria difundido, para além dos guetos, com o nome de cultura hip hop. O break dancing surge como uma dança de rua. O grafite nasce de assinaturas inscritas pelos jovens com sprays nos muros, trens e estações de metrô de Nova York. As linguagens do rap, do break dancing e do grafite se tornaram os pilares da cultura hip hop.\n\nDAYRELL, J. A música entra em cena: o rap e o funk na socialização da juventude. Belo Horizonte: UFMG, 2005 (adaptado).\n\nEntre as manifestações da cultura hip hop apontadas no texto, o break se caracteriza como um tipo de dança que representa aspectos contemporâneos por meio de movimentos",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Retilíneos, como crítica aos indivíduos alienados."
+    },
+    {
+     "letter": "B",
+     "text": "Improvisados, como expressão da dinâmica da vida urbana."
+    },
+    {
+     "letter": "C",
+     "text": "Suaves, como sinônimo da rotina dos espaços públicos."
+    },
+    {
+     "letter": "D",
+     "text": "Ritmados pela sola dos sapatos, como símbolo de protesto."
+    },
+    {
+     "letter": "E",
+     "text": "Cadenciados, como contestação às rápidas mudanças culturais."
+    }
+   ],
+   "figures": [],
+   "number": 97,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O break nasceu nas ruas e no metrô de Nova York, com movimentos improvisados que expressam a vida urbana. **Resposta: B**",
+    "keyConcept": "break",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q124",
+   "year": 2015,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "Obesidade causa doença\n\nA obesidade tornou-se uma epidemia global, segundo a Organização Mundial da Saúde, ligada à Organização das Nações Unidas. O problema vem atingindo um número cada vez maior de pessoas em todo o mundo, e entre as principais causas desse crescimento estão o modo de vida sedentário e a má alimentação. Segundo um médico especialista em cirurgia de redução de estômago, a taxa de mortalidade entre homens obesos de 25 a 40 anos é 12 vezes maior quando comparada à taxa de mortalidade entre indivíduos de peso normal. O excesso de peso e de gordura no corpo desencadeia e piora problemas de saúde que poderiam ser evitados. Em alguns casos, a boa notícia é que a perda de peso leva à cura, como no caso da asma, mas em outros, como o infarto, não há solução.\n\nFERREIRA, T. Disponível em: http://revistaepoca.globo.com. Acesso em: 2 ago. 2012 (adaptado).\n\nO texto apresenta uma reflexão sobre saúde e aponta o excesso de peso e de gordura corporal dos indivíduos como um problema, relacionando-o ao:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Padrão estético, pois o modelo de beleza dominante na sociedade requer corpos magros."
+    },
+    {
+     "letter": "B",
+     "text": "Equilíbrio psíquico da população, pois esse quadro interfere na autoestima das pessoas."
+    },
+    {
+     "letter": "C",
+     "text": "Quadro clínico da população, pois a obesidade é um fator de risco para o surgimento de diversas doenças crônicas."
+    },
+    {
+     "letter": "D",
+     "text": "Preconceito contra a pessoa obesa, pois ela sofre discriminação em diversos espaços sociais."
+    },
+    {
+     "letter": "E",
+     "text": "Desempenho na realização das atividades cotidianas, pois a obesidade interfere na performance."
+    }
+   ],
+   "figures": [],
+   "number": 124,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O texto liga a obesidade a doenças (diabetes, infarto, asma): fator de risco no quadro clínico. **Resposta: C**",
+    "keyConcept": "obesidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q133",
+   "year": 2015,
+   "area": "Danças, Lutas, Jogos e Brincadeiras",
+   "content": null,
+   "demand": null,
+   "statement": "Riscar o chão para sair pulando é uma brincadeira que vem dos tempos do Império Romano. A amarelinha original tinha mais de cem metros e era usada como treinamento militar imitações reduzidas do campo utilizado pelos soldados e acrescentaram numeração nos quadrados que deveriam ser pulados. Hoje as amarelinhas variam nos formatos geométricos e na quantidade de casas. As palavras “céu” e “inferno” podem ser escritas no começo e no final do desenho, que é marcado no chão com giz, tinta ou graveto.\n\nDisponível em: www.biblioteca.ajes.edu.br. Acesso em: 20 maio 2015 (adaptado).\n\nCom base em fatos históricos, o texto retrata o processo de adaptação pelo qual passou um tipo de brincadeira. Nesse sentido, conclui-se que as brincadeiras comportam o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Caráter competitivo que se assemelha às suas origens."
+    },
+    {
+     "letter": "B",
+     "text": "Delimitação de regras que se perpetuam com o tempo."
+    },
+    {
+     "letter": "C",
+     "text": "Definição antecipada do número de grupos participantes."
+    },
+    {
+     "letter": "D",
+     "text": "Objetivo de aperfeiçoamento físico daqueles que a praticam."
+    },
+    {
+     "letter": "E",
+     "text": "Possibilidade de reinvenção no contexto em que é realizada."
+    }
+   ],
+   "figures": [],
+   "number": 133,
+   "booklet": 7,
+   "answer": "E",
+   "explanation": {
+    "markdown": "A amarelinha mudou de treino militar a brincadeira de formas variadas: brincadeiras se reinventam no contexto. **Resposta: E**",
+    "keyConcept": "brincadeiras",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q128",
+   "year": 2016,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "O filme Menina de ouro conta a história de Maggie Fitzgerald, uma garçonete de 31 anos que vive sozinha em condições humildes e sonha em se tornar uma boxeadora profissional treinada por Frankie Dunn.\nEm uma cena, assim que o treinador atravessa a porta do corredor onde ela se encontra, Maggie o aborda e, a caminho da saída, pergunta a ele se está interessado em treiná-la. Frankie responde: “Eu não treino garotas”. Após essa fala, ele vira as costas e vai embora. Aqui, percebemos, em Frankie, um comportamento ancorado na representação de que boxe é esporte de homem e, em Maggie, a superação da concepção de que os ringues são tradicionalmente masculinos.\nHistoricamente construída, a feminilidade dominante atribui a submissão, a fragilidade e a passividade a uma “natureza feminina”. Numa concepção hegemônica dos gêneros, feminilidades e masculinidades encontram-se em extremidades opostas.\nNo entanto, algumas mulheres, indiferentes às convenções sociais, sentem-se seduzidas e desafiadas a aderirem à prática das modalidades consideradas masculinas. É o que observamos em Maggie, que se mostra determinada e insiste em seu objetivo de ser treinada por Frankie.\n\nFERNANDES, V.; MOURÃO, L. Menina de ouro e a representação de feminilidades plurais.\nMovimento, n. 4, out.-dez. 2014 (adaptado).\n\nA inserção da personagem Maggie na prática corporal do boxe indica a possibilidade da construção de uma feminilidade marcada pela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adequação da mulher a uma modalidade esportiva alinhada a seu gênero."
+    },
+    {
+     "letter": "B",
+     "text": "Valorização de comportamentos e atitudes normalmente associados à mulher."
+    },
+    {
+     "letter": "C",
+     "text": "Transposição de limites impostos à mulher num espaço de predomínio masculino."
+    },
+    {
+     "letter": "D",
+     "text": "Aceitação de padrões sociais acerca da participação da mulher nas lutas corporais."
+    },
+    {
+     "letter": "E",
+     "text": "Naturalização de barreiras socioculturais responsáveis pela exclusão da mulher no boxe."
+    }
+   ],
+   "figures": [],
+   "number": 128,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Maggie insiste em treinar boxe, espaço masculino, e ultrapassa os limites impostos à mulher. **Resposta: C**",
+    "keyConcept": "mulher no boxe",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q129",
+   "year": 2016,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "Entrevista com Terezinha Guilhermina\n\nTerezinha Guilhermina é uma das atletas mais premiadas da história paraolímpica do Brasil e um dos principais nomes do atletismo mundial. Está no Guinness Book de 2013/2014 como a “cega” mais rápida do mundo.\n\nObservatório: Quais os desafios você teve que superar para se consagrar como atleta profissional?\nTerezinha Guilhermina: Considero a ausência de recursos financeiros, nos três primeiros anos da minha carreira, como meu principal desafio. A falta de um atleta-guia, para me auxiliar nos treinamentos, me obrigava a treinar sozinha e, por não enxergar bem, acabava sofrendo alguns acidentes como trombadas e quedas.\n\nObservatório: Como está a preparação para os Jogos Paraolímpicos de 2016?\nTerezinha Guilhermina: Estou trabalhando intensamente, com vistas a chegar lá bem melhor do que estive em Londres. E, por isso, posso me dedicar a treinos diários, trabalhos preventivos de lesões e acompanhamento psicológico e nutricional da melhor qualidade.\n\nRevista do Observatório Brasil de Igualdade de Gênero, n. 6, dez. 2014 (adaptado).\n\nO texto permite relacionar uma prática corporal com uma visão ampliada de saúde. O fator que possibilita identificar essa perspectiva é o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Aspecto nutricional."
+    },
+    {
+     "letter": "B",
+     "text": "Condição financeira."
+    },
+    {
+     "letter": "C",
+     "text": "Prevenção de lesões."
+    },
+    {
+     "letter": "D",
+     "text": "Treinamento esportivo."
+    },
+    {
+     "letter": "E",
+     "text": "Acompanhamento psicológico."
+    }
+   ],
+   "figures": [],
+   "number": 129,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Terezinha diz que, com patrocínio, passou a ter treino, prevenção e apoio psicológico e nutricional. A condição financeira é o que viabiliza tudo isso. **Resposta: B**",
+    "keyConcept": "visão ampliada de saúde",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q130",
+   "year": 2016,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "É possível considerar as modalidades esportivas coletivas dentro de uma mesma lógica, pois possuem uma estrutura comum: seis princípios operacionais divididos em dois grupos, o ataque e a defesa. Os três princípios operacionais de ataque são: conservação individual e coletiva da bola, progressão da equipe com a posse da bola em direção ao alvo adversário e finalização da jogada, visando a obtenção de ponto. Os três princípios operacionais da defesa são: recuperação da bola, impedimento do avanço da equipe contrária com a posse da bola e proteção do alvo para impedir a finalização da equipe adversária.\n\nDAOLIO, J. Jogos esportivos coletivos: dos princípios operacionais aos gestos técnicos –\nmodelo pendular a partir das ideias de Claude Bayer. Revista Brasileira de Ciência e Movimento,\nout. 2002 (adaptado).\n\nConsiderando os princípios expostos no texto, o drible no handebol caracteriza o princípio de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Recuperação da bola."
+    },
+    {
+     "letter": "B",
+     "text": "Progressão da equipe."
+    },
+    {
+     "letter": "C",
+     "text": "Finalização da jogada."
+    },
+    {
+     "letter": "D",
+     "text": "Proteção do próprio alvo."
+    },
+    {
+     "letter": "E",
+     "text": "Impedimento do avanço adversário."
+    }
+   ],
+   "figures": [],
+   "number": 130,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Driblar conserva a bola e avança rumo ao gol: princípio de progressão da equipe. **Resposta: B**",
+    "keyConcept": "princípios do jogo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q19",
+   "year": 2017,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "A ascensão social por meio do esporte mexe com o imaginário das pessoas, pois em poucos anos um adolescente pode se tornar milionário caso tenha um bom desempenho esportivo. Muitos meninos de famílias pobres jogam com o objetivo de conseguir dinheiro para oferecer uma boa qualidade de vida à família. Isso aproximou mais ainda o futebol das camadas mais pobres da sociedade, tornando-o cada vez mais popular.\n\nAcontece que esses jovens sonham com fama e dinheiro, enxergando no futebol o único caminho possível para o sucesso. No entanto, eles não sabem da grande dificuldade que existe no início dessa jornada em que a minoria alcança a carreira profissional. Esses garotos abandonam a escola pela ilusão de vencer no futebol, à qual a maioria sucumbe.\n\nO caminho até o profissionalismo acontece por meio de um longo processo seletivo que os jovens têm de percorrer. Caso não seja selecionado, esse atleta poderá ter que abandonar a carreira involuntariamente por falta de uma equipe que o acolha. Alguns podem acabar em subempregos, à margem da sociedade, ou até mesmo em vícios de correntes dese fracasso e dessa desilusão. Isso acontece porque no auge da sua formação escolar e na Condição juvenil de desenvolvimento, eles não se preparam e não são devidamente orientados para buscar alternativas de experiências mais amplas de ocupação fora e além do futebol.\n\nBALZANO, O N MORAIS, J. S. A formação do jogador de futebol e sua relação Com a escola EFDeportes, n. 172, set 2012 (adaptado)\n\nAo abordar o fato de, no Brasil, muitos jovens depositarem suas esperanças de futuro no futebol, o texto critica o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Despreparo dos jogadores de futebol para ajudarem suas famílias a superar a miséria."
+    },
+    {
+     "letter": "B",
+     "text": "Garantia de ascensão social dos jovens pela carreira de jogador de futebol."
+    },
+    {
+     "letter": "C",
+     "text": "Falta de investimento dos clubes para que os atletas possam atuar profissionalmente e viver do futebol."
+    },
+    {
+     "letter": "D",
+     "text": "Investimento reduzido dos atletas profissionais em sua formação escolar, gerando frustração e desilusão profissional no esporte."
+    },
+    {
+     "letter": "E",
+     "text": "Despreocupação dos sujeitos com uma formação paralela à esportiva, para habilitá-los a atuar em Outros setores da vida."
+    }
+   ],
+   "figures": [],
+   "number": 19,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O texto critica jovens que apostam só no futebol e não buscam outra formação para atuar fora dele. **Resposta: E**",
+    "keyConcept": "futebol e escola",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q26",
+   "year": 2017,
+   "area": "Corpo, Mídia e Padrões de Beleza",
+   "content": null,
+   "demand": null,
+   "statement": "Apesar de muitas crianças e adolescentes terem a Barbie como um exemplo de beleza, um infográfico feito pelo site Rehabs.com comprovou que, caso uma mulher tivesse as medidas da boneca de plástico, ela nem estaria viva.\n\nNão é exatamente uma novidade que as proporções da boneca mais famosa do mundo são absurdas para o mundo real. Ativistas que lutam pela construção de uma autoimagem mais saudável, pesquisadores de distúrbios alimentares e pessoas que se preocupam com o impacto da indústria cultural na psique humana apontam, há anos, a influência de modelos como a Barbie na distorção do corpo feminino.\n\nPescoço\nCom um pescoço duas vezes mais longo e 15 centímetros mais fino do que o de uma mulher, a Barbie seria incapaz de manter sua cabeça levantada.\n\nCintura\nCom uma cintura de 40 centímetros (menor do que a sua cabeça), a Barbie da vida real só teria espaço em seu corpo para acomodar metade de um rim e alguns centímetros de intestino.\n\nQuadril\nO índice que mede a relação entre a cintura e o quadril da Barbie é de 0,56, o que significa que a medida da sua cintura representa 56% da circunferência de seu quadril. Esse mesmo índice, em uma mulher americana média, é de 0,8.\n\nDisponivel em: http://oglobo.globo.com. Acesso em: 2 maio 2015.\n\nAo abordar as possíveis influências da indústria de brinquedos sobre a representação do corpo feminino, o texto analisa a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Noção de beleza globalizada veiculada pela indústria cultural."
+    },
+    {
+     "letter": "B",
+     "text": "Influência da mídia para a adoção de um estilo de vida salutar pelas mulheres."
+    },
+    {
+     "letter": "C",
+     "text": "Relação entre a alimentação saudável e o padrão de corpo instituído pela boneca."
+    },
+    {
+     "letter": "D",
+     "text": "Proporcionalidade entre a representação do corpo da boneca e a do corpo humano."
+    },
+    {
+     "letter": "E",
+     "text": "Influência mercadológica na construção de uma auto imagem positiva do corpo feminino"
+    }
+   ],
+   "figures": [],
+   "number": 26,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O infográfico compara as medidas da boneca às de uma mulher real: proporcionalidade entre os corpos. **Resposta: D**",
+    "keyConcept": "Barbie",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q31",
+   "year": 2017,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "No esporte-participação ou esporte popular, a manifestação ocorre no princípio do prazer lúdico, que tem como finalidade o bem-estar social dos seus praticantes. Está associado intimamente com o lazer e o tempo livre e ocorre em espaços não comprometidos com o tempo e fora das obrigações da vida diária. Tem como propósitos a descontração, a diversão, o desenvolvimento pessoal e o relacionamento com as pessoas. Pode-se afirmar que o esporte-participação, por ser a dimensão social do esporte mais inter-relacionada com os caminhos democráticos, equilibra o quadro de desigualdades de oportunidades esportivas encontrado na dimensão esporte-performance. Enquanto o esporte-performance só permite sucesso aos talentos ou àqueles que tiveram condições, o esporte-participação favorece o prazer a todos que dele desejarem tomar parte.\n\nGODTSFRIEDT, J. Esporte e sua relação com a sociedade: uma síntese bibliográfica. EFDeportes, n. 142, mar. 2010.\n\nO sentido de esporte-participação construído no texto está fundamentalmente presente",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Nos Jogos Olímpicos, uma vez que reúnem diversos países na disputa de diferentes modalidades esportivas."
+    },
+    {
+     "letter": "B",
+     "text": "Nas competições de esportes individuais, uma vez que o sucesso de um indivíduo incentiva a participação dos demais."
+    },
+    {
+     "letter": "C",
+     "text": "Nos campeonatos oficiais de futebol, regionais e nacionais, por se tratar de uma modalidade esportiva muito popular no país."
+    },
+    {
+     "letter": "D",
+     "text": "Nas competições promovidas pelas federações e confederações, cujo objetivo é a formação e a descoberta de talentos."
+    },
+    {
+     "letter": "E",
+     "text": "Nas modalidades esportivas adaptadas, cujo objetivo é o maior engajamento dos cidadãos."
+    }
+   ],
+   "figures": [],
+   "number": 31,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O esporte-participação é lúdico e aberto a todos. Nas alternativas, isso se vê nas modalidades adaptadas, que visam ao engajamento dos cidadãos. **Resposta: E**",
+    "keyConcept": "esporte-participação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q42",
+   "year": 2017,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Fim de semana no parque\nOlha o meu povo nas favelas e vai perceber\nDaqui eu vejo uma caranga do ano\nToda equipada e o tiozinho guiando\nCom seus filhos ao lado estão indo ao parque\nEufóricos brinquedos eletrônicos\nAutomaticamente eu imagino\nA molecada lá da área como é que tá\nProvavelmente correndo pra lá e pra cá\nJogando bola descalços nas ruas de terra\nÉ, brincam do jeito que dá\n[…]\nOlha só aquele clube, que da hora\nOlha aquela quadra, olha aquele campo, olha\nOlha quanta gente\nTem sorveteria, cinema, piscina quente\n\n[…]\nAqui não vejo nenhum clube poliesportivo\nPra molecada frequentar nenhum incentivo\nO investimento no lazer é muito escasso\nO centro comunitário é um fracasso\n\nRACIONAIS MCs. Racionais MCs. São Paulo: Zimbabwue, 1994 (fragmento)\n\nA letra da canção apresenta uma realidade social quanto à distribuição distinta dos espaços de lazer que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Retrata a ausência de opções de lazer para a população de baixa renda, por falta de espaço adequado."
+    },
+    {
+     "letter": "B",
+     "text": "Ressalta a irrelevância das opções de lazer para diferentes classes sociais, que o acessam à sua maneira."
+    },
+    {
+     "letter": "C",
+     "text": "Expressa o desinteresse das classes sociais menos favorecidas economicamente pelas atividades de lazer."
+    },
+    {
+     "letter": "D",
+     "text": "Implica condições desiguais de acesso ao lazer, pela falta de infraestrutura e investimentos em equipamentos."
+    },
+    {
+     "letter": "E",
+     "text": "Aponta para o predomínio do lazer contemplativo, nas classes favorecidas economicamente; e do prático, nas menos favorecidas."
+    }
+   ],
+   "figures": [],
+   "number": 42,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A letra contrasta parque e clube dos ricos com a falta de espaços na favela: acesso desigual por falta de investimento. **Resposta: D**",
+    "keyConcept": "lazer e desigualdade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2018-REG-D1-C1-Q13",
+   "year": 2018,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I \n\n[[FIG 0]]\n\nDisponível em: http://revistaiiqb.usac.edu.gt. Acesso em: 25 abr. 2018 (adaptado).\n\nTEXTO II\nImaginemos um cidadão, residente na periferia de um grande centro urbano, que diariamente acorda às 5h para trabalhar, enfrenta em média 2 horas de transporte público, em geral lotado, para chegar às 8h ao trabalho.\nTermina o expediente às 17h e chega em casa às 19h para, aí sim, cuidar dos afazeres domésticos, dos filhos etc. Como dizer a essa pessoa que ela deve praticar exercícios, pois é importante para sua saúde? Como ela irá entender a mensagem da importância do exercício físico? A probabilidade de essa pessoa praticar exercícios regularmente é significativamente menor que a de pessoas da classe média/alta que vivem outra realidade. Nesse caso, a abordagem individual do problema tende a fazer com que a pessoa se sinta impotente em não conseguir praticar exercícios e, consequentemente, culpada pelo fato de ser ou estar sedentária.\n\nFERREIRA, M. S. Aptidão física e saúde na educação física escolar: ampliando o enfoque. RBCE, n. 2,jan. 2001 (adaptado).\n\nO segundo texto, que propõe uma reflexão sobre o primeiro acerca do impacto de mudanças no estilo de vida na saúde, apresenta uma visão",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Medicalizada, que relaciona a prática de exercícios físicos por qualquer indivíduo à promoção da saúde."
+    },
+    {
+     "letter": "B",
+     "text": "Ampliada, que considera aspectos sociais intervenientes na prática de exercícios no cotidiano."
+    },
+    {
+     "letter": "C",
+     "text": "Crítica, que associa a interferência das tarefas da casa ao sedentarismo do indivíduo."
+    },
+    {
+     "letter": "D",
+     "text": "Focalizada, que atribui ao indivíduo a responsabilidade pela prevenção de doenças."
+    },
+    {
+     "letter": "E",
+     "text": "Geracional, que preconiza a representação do culto à jovialidade."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/educacao_fisica/2018/ENEM-LC-2018-REG-D1-C1-Q13-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 333,
+     "height": 332
+    }
+   ],
+   "number": 13,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O Texto II mostra que a rotina do trabalhador (transporte, jornada) impede o exercício: aspectos sociais interferem. **Resposta: B**",
+    "keyConcept": "visão ampliada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2018-REG-D1-C1-Q26",
+   "year": 2018,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Tanto os Jogos Olímpicos quanto os Paralímpicos são mais que uma corrida por recordes, medalhas e busca da excelência. Por trás deles está a filosofia do barão\nPierre de Coubertin, fundador do Movimento Olímpico. Como educador, ele viu nos Jogos a oportunidade para que os povos desenvolvessem valores, que poderiam ser aplicados não somente ao esporte, mas à educação e à sociedade. Existem atualmente sete valores associados aos Jogos. Os valores olímpicos são: a amizade, a excelência e o respeito, enquanto os valores paralímpicos são: a determinação, a coragem, a igualdade e a inspiração.\n\nMIRAGAYA, A. Valores para toda a vida. Disponível em: ww.esporteessencial.com.br. Acesso em: 9 ago. 2017 (adaptado).\n\nNo contexto das aulas de Educação Física escolar, os valores olímpicos e paralímpicos podem ser identificados\nquando o colega",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Procura entender o próximo, assumindo atitudes positivas como simpatia, empatia, honestidade, compaixão, confiança e solidariedade, o que caracteriza o valor da igualdade."
+    },
+    {
+     "letter": "B",
+     "text": "Faz com que todos possam ser iguais e receber o mesmo tratamento, assegurando imparcialidade, oportunidades e tratamentos iguais para todos, o que caracteriza o valor da amizade."
+    },
+    {
+     "letter": "C",
+     "text": "Dá o melhor de si na vivência das diversas atividades relacionadas ao esporte ou aos jogos, participando e progredindo de acordo com seus objetivos, o que caracteriza o valor da coragem."
+    },
+    {
+     "letter": "D",
+     "text": "Manifesta a habilidade de enfrentar a dor, o sofrimento, o medo, a incerteza e a intimidação nas atividades, agindo corretamente contra a vergonha, a desonra e o desânimo, o que caracteriza o valor da determinação."
+    },
+    {
+     "letter": "E",
+     "text": "Inclui em suas ações o fair play (jogo limpo), a honestidade, o sentimento positivo de consideração por outra pessoa, o conhecimento dos seus limites, a valorização de sua própria saúde e o combate ao doping, o que caracteriza o valor do respeito."
+    }
+   ],
+   "figures": [],
+   "number": 26,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Fair play, honestidade e respeito ao outro concretizam os valores olímpicos e paralímpicos na aula. **Resposta: E**",
+    "keyConcept": "valores olímpicos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q9",
+   "year": 2019,
+   "area": "Corpo, Mídia e Padrões de Beleza",
+   "content": null,
+   "demand": null,
+   "statement": "Mídias: aliadas ou inimigas da educação física escolar?\n\nNo caso do esporte, a mediação efetuada pela câmera de TV construiu uma nova modalidade de consumo: o esporte telespetáculo, realidade textual relativamente autônoma face à prática “real” do esporte, construída pela codificação e mediação dos eventos esportivos efetuados pelo enquadramento, edição das imagens e comentários, interpretando para o espectador o que ele está vendo. Esse fenômeno tende a valorizar a forma em relação ao conteúdo, e para tal faz uso privilegiado da linguagem audiovisual com ênfase na imagem cujas possibilidades são levadas cada vez mais adiante, em decorrência dos avanços tecnológicos. Por outro lado, a narração esportiva propõe uma concepção hegemônica de esporte: esporte é esforço máximo, busca da vitória, dinheiro… O preço que se paga por sua espetacularização é a fragmentação do fenômeno esportivo. A experiência global do ser-atleta é modificada: a sociabilização no confronto e a ludicidade não são vivências privilegiadas no enfoque das mídias, mas as eventuais manifestações de violência, em partidas de futebol, por exemplo, são exibidas e reexibidas em todo o mundo.\n\nBETTI, M. Motriz, n. 2, jul.-dez. 2001 (adaptado).\n\nA reflexão trazida pelo texto, que aborda o esporte telespetáculo, está fundamentada na",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Distorção da experiência do ser-atleta para os espectadores."
+    },
+    {
+     "letter": "B",
+     "text": "Interpretação dos espectadores sobre o conteúdo transmitido."
+    },
+    {
+     "letter": "C",
+     "text": "Utilização de equipamentos audiovisuais de última geração."
+    },
+    {
+     "letter": "D",
+     "text": "Valorização de uma visão ampliada do esporte."
+    },
+    {
+     "letter": "E",
+     "text": "Equiparação entre a forma e o conteúdo."
+    }
+   ],
+   "figures": [],
+   "number": 9,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "A TV cria uma realidade própria, com ênfase na violência, e distorce a experiência de ser atleta para quem assiste. **Resposta: A**",
+    "keyConcept": "esporte telespetáculo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q11",
+   "year": 2019,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Esporte e cultura: análise acerca da esportivização de práticas corporais nos jogos indígenas\n\nNos Jogos dos Povos Indígenas, observa-se que as práticas corporais realizadas envolvem elementos tradicionais (como as pinturas e adornos corporais) e modernos (como a regulamentação, a fiscalização e a padronização). O arco e flecha e a lança, por exemplo, são instrumentos tradicionalmente utilizados para a caça e a defesa da comunidade na aldeia. Na ocasião do evento, esses artefatos foram produzidos pela própria etnia, porém sua estruturação como “modalidade esportiva” promoveu uma semelhança entre as técnicas apresentadas, com o sentido único da competição.\n\nALMEIDA, A. J. M.; SUASSUNA, D. M. F. A. Pensar a prática, n. 1, jan.-abr. 2010 (adaptado)\n\nA relação entre os elementos tradicionais e modernos nos Jogos dos Povos Indígenas desencadeou a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Padronização de pinturas e adornos corporais."
+    },
+    {
+     "letter": "B",
+     "text": "Sobreposição de elementos tradicionais sobre os modernos."
+    },
+    {
+     "letter": "C",
+     "text": "Individuação das técnicas apresentadas em diferentes modalidades."
+    },
+    {
+     "letter": "D",
+     "text": "Legitimação das práticas corporais indígenas como modalidade esportiva."
+    },
+    {
+     "letter": "E",
+     "text": "Preservação dos significados próprios das práticas corporais em cada cultura."
+    }
+   ],
+   "figures": [],
+   "number": 11,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A estrutura de \"modalidade esportiva\" legitimou as práticas indígenas como esporte, com sentido competitivo. **Resposta: D**",
+    "keyConcept": "jogos indígenas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q27",
+   "year": 2019,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "Educação para a saúde mediante programas de educação física escolar\nA educação para a saúde deverá ser alcançada mediante interação de ações que possam envolver o próprio homem mediante suas atitudes frente às exigências ambientais representadas pelos hábitos alimentares, estado de estresse, opções de lazer, atividade física, agressões climáticas etc. Dessa forma, parece evidente que o estado de ser saudável não é algo estático. Pelo contrário, torna-se necessário adquirí-lo e construílo de forma indivi dua lizada constantemente ao longo de toda a vida, apontando para o fato de que saúde é educável e, portanto, deve ser tratada não apenas com base em referenciais de natureza biológica e higienista, mas sobretudo em um contexto didático-pedagógico.\nGUEDES, D. P. Motriz, n. 1, 1999.\nA educação para a saúde pressupõe a adoção de comportamentos com base na interação de fatores relacionados à",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A adesão a programas de lazer."
+    },
+    {
+     "letter": "B",
+     "text": "Opção por dietas balanceadas."
+    },
+    {
+     "letter": "C",
+     "text": "Constituição de hábitos saudáveis."
+    },
+    {
+     "letter": "D",
+     "text": "Evasão de ambientes estressores."
+    },
+    {
+     "letter": "E",
+     "text": "Realização de atividades físicas regulares."
+    }
+   ],
+   "figures": [],
+   "number": 27,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Saúde é educável: depende de construir hábitos saudáveis ao longo da vida. **Resposta: C**",
+    "keyConcept": "educação para a saúde",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q32",
+   "year": 2019,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "Emagrecer sem exercício?\n\nHormônio aumenta a esperança de perder gordura sem sair do sofá. A solução viria em cápsulas.\n\n     O sonho dos sedentários ganhou novo aliado. Um estudo publicado na revista científica Nature, em janeiro, sugere que é possivel modificar a gordura corporal sem fazer exercício. Pesquisadores do Dana-Farber Cancer Institute e da Escola de Medicina de Harvard, nos EUA, isolaram em laboratório a irisina, hormônio naturalmente produzido pelas células musculares durante os exercícios aeróbicos, como caminhada, corrida ou pedalada. A substância foi aplicada em ratos e agiu como se eles tivessem se exercitado, inclusive com efeito protetor contra o diabetes.\n\n     O segredo foi a conversão de gordura branca – aquela que estoca energia inerte e estraga nossa silhueta – em marrom. Mais comum em bebês, e praticamente inexistente em adultos, esse tipo de gordura serve para nos aquecer. E, nesse processo, gasta uma energia tremenda. Como efeito colateral, afinaria nossa silhueta.\n\n     A expectativa é que, se o hormônio funcionar da mesma forma em humanos, surja em breve um novo medicamento para emagrecer. Mas ele estaria longe de substituir por completo os benefícios da atividade física. “Possivelmente existem muitos outros hormônios musculares liberados durante o exercício e ainda não descobertos”, diz o fisiologista Paul Coen, professor assistente da Universidade de Pittsburgh, nos EUA. A irisina não fortalece os músculos, por exemplo. E para ficar com aquele tríceps de fazer inveja só o levantamento de controle remoto não daria conta.\n\nLIMA, F. Galileu. São Paulo, n. 248, mar. 2012\n\nPara convencer o leitor de que o exercício físico é importante, o autor usa a estratégia de divulgar que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A falta de exercício físico não emagrece e desenvolve doenças."
+    },
+    {
+     "letter": "B",
+     "text": "Se trata de uma forma de transformar a gordura branca em marrom e de emagrecer."
+    },
+    {
+     "letter": "C",
+     "text": "A irisina é um hormônio que apenas é produzido com o exercício físico."
+    },
+    {
+     "letter": "D",
+     "text": "O exercício é uma forma de afinar a silhueta por eliminar a gordura branca."
+    },
+    {
+     "letter": "E",
+     "text": "Se produzem outros hormônios e há outros benefícios com o exercício."
+    }
+   ],
+   "figures": [],
+   "number": 32,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O autor lembra que o exercício gera outros hormônios e benefícios, como músculos fortes, que a cápsula não traz. **Resposta: E**",
+    "keyConcept": "irisina",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q35",
+   "year": 2019,
+   "area": "Corpo, Mídia e Padrões de Beleza",
+   "content": null,
+   "demand": null,
+   "statement": "No Brasil, a disseminação de uma expectativa de corpo com base na estética da magreza é bastante grande e apresenta uma enorme repercussão, especialmente, se considerada do ponto de vista da realização pessoal. Em pesquisa feita na cidade de São Paulo, aparecem os percentuais de 90% entre as mulheres pesquisadas que se dizem preocupadas com seu peso corporal, sendo que 95% se sentem insatisfeitas com “seu próprio corpo”.\nSILVA, A. M. Corpo, ciência e mercado: reflexões acerca da\ngestação de um novo arquétipo da felicidade. Campinas: Autores\nAssociados; Florianópolis: UFSC, 2001\n\nA preocupação excessiva com o “peso” corporal pode provocar o desenvolvimento de distúrbios associados diretamente à imagem do corpo, tais como",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Anorexia e bulimia."
+    },
+    {
+     "letter": "B",
+     "text": "Ortorexia e vigorexia."
+    },
+    {
+     "letter": "C",
+     "text": "Ansiedade e depressão."
+    },
+    {
+     "letter": "D",
+     "text": "Sobrepeso e fobia social."
+    },
+    {
+     "letter": "E",
+     "text": "Sedentarismo e obesidade."
+    }
+   ],
+   "figures": [],
+   "number": 35,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "A obsessão com a magreza se liga a transtornos de imagem e alimentação como anorexia e bulimia. **Resposta: A**",
+    "keyConcept": "imagem corporal",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q15",
+   "year": 2020,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "O suor para estar em competições nacionais e internacionais de alto nível é o mesmo para homens e mulheres, mas não raramente as remunerações são menores para elas. Se no tênis, um dos esportes mais equânimes em termos de gênero, todos os principais torneiros oferecem prêmios idênticos nas disputas femininas e masculinas, no futebol a desigualdade atinge seu ápice. Neymar e Marta são dois expoentes dessa paixão nacional. Ela já foi eleita cinco vezes a melhor jogadora do mundo pela Fifa. Ele conquistou o terceiro lugar na última votação para melhor do mundo. Mas é na conta bancária que a diferença entre os dois se sobressai.\n\n[[FIG 0]]\n\nDisponível em: http://apublica.org. Acesso em: 9 ago. 2017 (adaptado).\n\nO esporte é uma manifestação cultural na qual se estabelecem relações sociais. Considerando o texto, o futebol é uma mobilidade que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Apresenta proximidades com o tênis, no que tange às relações de gênero entre homens e mulheres."
+    },
+    {
+     "letter": "B",
+     "text": "Se caracteriza por uma identidade masculina no Brasil, conferindo maior remuneração aos jogadores."
+    },
+    {
+     "letter": "C",
+     "text": "Traz remunerações, aos jogadores e jogadoras, proporcionais aos seus esforços no treinamento esportivo."
+    },
+    {
+     "letter": "D",
+     "text": "Resulta em melhor eficiência para as mulheres e, consequentemente, em remuneração mais alta às jogadoras."
+    },
+    {
+     "letter": "E",
+     "text": "Possui jogadores e jogadoras com a mesma visibilidade, apesar de haver expoentes feministas de destaque, como Marta."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/educacao_fisica/2020/ENEM-LC-2020-REG-D1-C1-Q15-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 610,
+     "height": 590
+    }
+   ],
+   "number": 15,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "No Brasil o futebol é visto como masculino, e os jogadores ganham muito mais que as jogadoras, como Marta. **Resposta: B**",
+    "keyConcept": "gênero e futebol",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q17",
+   "year": 2020,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "Uma das mais contundentes críticas ao discurso da aptidão física relacionada à saúde está no caráter eminentemente individual de suas propostas, o que serve\npara obscurecer outros determinantes da saúde. Ou seja, costuma-se apresentar o indivíduo como o problema e a mudança do estilo de vida como a solução. Argumenta-se ainda que o movimento da aptidão física relacionada à\nsaúde considera a existência de uma cultura homogênea na qual todos seriam livres para escolher seus estilos de vida, o que não condiz com a realidade. O fato é que vivemos numa sociedade dividida em classes sociais, na qual nem todas as pessoas têm condições econômicas para adotar um estilo de vida ativo e saudável. Há desigualdades estruturais com raízes políticas, econômicas e sociais que dificultam a adoção desses estilos de vida.\n\nFERREIRA. M. S. Aptidão física e saúde na educação física escolar; ampliando o enfoque. RBCE, n. 2. jan. 2001 (adaptado).\n\nCom base no texto, a relação entre saúde e estilos de vida",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Constrói a ideia de que a mudança individual de hábitos promove a saúde."
+    },
+    {
+     "letter": "B",
+     "text": "Considera a homogeneidade da escolha de hábitos saudáveis pelos indivíduos."
+    },
+    {
+     "letter": "C",
+     "text": "Reforça a necessidade de solucionar os problemas de saúde da sociedade com a prática de exercícios."
+    },
+    {
+     "letter": "D",
+     "text": "Problematiza a organização social e seu impacto na mudança de hábitos dos indivíduos."
+    },
+    {
+     "letter": "E",
+     "text": "Reproduz a noção de que a melhoria da aptidão física pela prática de exercícios promove a saúde."
+    }
+   ],
+   "figures": [],
+   "number": 17,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O texto critica o foco no indivíduo e mostra desigualdades estruturais que impedem mudar hábitos. **Resposta: D**",
+    "keyConcept": "aptidão e saúde",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q35",
+   "year": 2020,
+   "area": "Corpo, Mídia e Padrões de Beleza",
+   "content": null,
+   "demand": null,
+   "statement": "Em 2000 tivemos a primeira experiência do futebol feminino em um jogo de videogame, o Mia Hamm Soccer. Doze anos depois, uma petição on-line pedia que a EA Sports incluísse o futebol feminino no Fifa 13. Contudo, só em 2015, com uma nova petição on-line, que arrecadou milhares de assinaturas, tivemos o futebol feminino incluído no Fifa 16. Vendo um nicho de mercado inexplorado, a EA Sports produziu o jogo com 12 seleções femininas e o apresentou como inovação. A empresa sabe que mais de 40% dos praticantes de futebol nos EUA são meninas. Para elas, ver o futebol feminino representado em um jogo de videogame é extremamente importante. Ter o futebol feminino no Fifa 16 é um grande passo para a sua popularização na luta pela igualdade de gênero, num contexto machista, sexista, misógino e homofóbico.\n\nDisponível em: www.ludopedio.com.br. Acesso em: 5 jun. 2018 (adaptado).\n\nOs jogos eletrônicos presentes na cultura juvenil podem desempenhar uma relevante função na abordagem do futebol ao",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Disseminarem uma modalidade, promovendo a igualdade de gênero."
+    },
+    {
+     "letter": "B",
+     "text": "Superarem jogos malsucedidos no mercado, lançados anteriormente."
+    },
+    {
+     "letter": "C",
+     "text": "Inovarem a modalidade com novas ofertas de jogos ao mercado."
+    },
+    {
+     "letter": "D",
+     "text": "Explorarem nichos de mercado antes ignorados, produzindo mais lucro."
+    },
+    {
+     "letter": "E",
+     "text": "Reforçarem estereótipos de gênero masculino ou feminino nos esportes."
+    }
+   ],
+   "figures": [],
+   "number": 35,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Incluir o futebol feminino no FIFA ajuda a popularizá-lo e a promover a igualdade de gênero. **Resposta: A**",
+    "keyConcept": "videogame e futebol feminino",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q36",
+   "year": 2020,
+   "area": "Danças, Lutas, Jogos e Brincadeiras",
+   "content": null,
+   "demand": null,
+   "statement": "LUTA: prática corporal imprevisível, caracterizada por determinado estado de contato proposital, que possibilita a duas ou mais pessoas se enfrentarem numa constante troca de ações ofensivas e/ou defensivas, regidas por regras, com o objetivo mútuo sobre um alvo móvel personificado no oponente.\n\nGOMES, M. S. P. et al. Ensino das lutas: dos princípios condicionais aos grupos situacionais.\n\nMovimento, n. 2, abr.-jun. 2010 (adaptado).\n\nDe acordo com o texto, podemos identificar uma abordagem das lutas nas aulas de educação física quando o professor realiza uma proposta envolvendo",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Contato corporal intenso entre o aluno e seu oponente."
+    },
+    {
+     "letter": "B",
+     "text": "Contenda entre os alunos que se agridem fisicamente."
+    },
+    {
+     "letter": "C",
+     "text": "Confronto corporal em que os vencedores são previamente identificados."
+    },
+    {
+     "letter": "D",
+     "text": "Combate corporal intencional com ações regulamentadas entre os oponentes."
+    },
+    {
+     "letter": "E",
+     "text": "Conflito resolvido pelos alunos por meio de regras previamente estabelecidas."
+    }
+   ],
+   "figures": [],
+   "number": 36,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A definição pede contato intencional, trocas ofensivas e defensivas regidas por regras: combate regulamentado. **Resposta: D**",
+    "keyConcept": "lutas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2021-REG-D1-C1-Q19",
+   "year": 2021,
+   "area": "Danças, Lutas, Jogos e Brincadeiras",
+   "content": null,
+   "demand": null,
+   "statement": "Coincidindo com o Dia Internacional dos Direitos da Infância, foram apresentados diversos trabalhos que mostram as mudanças que afetam a vida das crianças. Um desses estudos compara o que sonham e brincam as crianças hoje em relação às dos anos de 1990. E o que se descobriu é que as crianças têm agora menos lazer e estão mais sobrecarregadas por deveres e atividades extracurriculares do que as de 25 anos atrás. As crianças de hoje não só dedicam menos tempo para brincar, como também, quando brincam, a maioria não o faz com outros crianças no parque, na rua ou na praça, mas em casa e muitas vezes sozinhas. E já não brincam tanto com brinquedos, mas com aparelhos eletrônicos, entre os quais predemonia o jogo individual com a máquina.\n\nOLIVIA, M. P. O direito da criança ao lazer… e a crescer sem carências.\nEl País, 20 nov. 2015 (adaptado).\n\nO texto indica que as transformações nas experiências lúdicas na infância",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fomentaram as relações sociais entre as crianças."
+    },
+    {
+     "letter": "B",
+     "text": "Tornaram o lazer uma prática difundida entre as crianças."
+    },
+    {
+     "letter": "C",
+     "text": "Incentivaram a criação de novos espaços para se divertir."
+    },
+    {
+     "letter": "D",
+     "text": "Promoveram uma vivência corporal menor ativa."
+    },
+    {
+     "letter": "E",
+     "text": "Contribuíram para o aumento do tempo dedicado para brincar."
+    }
+   ],
+   "figures": [],
+   "number": 19,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "As crianças brincam mais sozinhas e com eletrônicos: vivência corporal menos ativa. **Resposta: D**",
+    "keyConcept": "brincar hoje",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2021-REG-D1-C1-Q31",
+   "year": 2021,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "O skate apareceu como forma de vivência no lazer em períodos de baixa nas ondas e ficou conhecido como “surfinho”. No início foram utilizados eixos e rodinhas de patins pregados numa madeira qualquer, para sua composição, sendo as rodas de borracha ou ferro. O grande marco na história do skate ocorreu em 1974, quando o engenheiro químico chamado Frank Nasworthy descobriu o uretano, material mais flexível, que oferecia mais aderência às rodas. A dependência dos skatistas em relação a esse novo material igualmente alavancou o surgimento de novas manobras e possibilitou a um maior número de pessoas inexperientes começar a prática dessa modalidade. O resultado foi a criação de campeonatos, marcas, fábricas e lojas especializadas.\n\nARMBRUST, I; LAURD, G, A, A. O skate e suas possibilidades educacionais. Motriz, jul-set, 2010 (adaptado).\n\nDe acordo com o texto, diversos fatores ao longo do tempo",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Contribuíram para a democratização do skate."
+    },
+    {
+     "letter": "B",
+     "text": "Evidenciaram as demandas comerciais dos skatistas."
+    },
+    {
+     "letter": "C",
+     "text": "Definiram a carreira de skatista profissional."
+    },
+    {
+     "letter": "D",
+     "text": "Permitiram que a prática social do skate substituísse o surfe."
+    },
+    {
+     "letter": "E",
+     "text": "Indicaram a autonomia dos praticantes de skate."
+    }
+   ],
+   "figures": [],
+   "number": 31,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Melhores materiais, pistas e produtos facilitaram o acesso de iniciantes: democratização do skate. **Resposta: A**",
+    "keyConcept": "skate",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q19",
+   "year": 2022,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Pisoteamento, arrastão, empurra-empurra, agressões, vandalismo e até furto a um torcedor que estava caído no asfalto após ter sido atropelado nas imediações do estádio do Maracanã. As cenas de selvageria tiveram como estopim a invasão de milhares de torcedores sem ingresso, que furaram o bloqueio policial e transformaram o estádio em terra de ninguém. Um reflexo não só do quadro de insegurança que assola o Rio de Janeiro, mas também de como a violência social se embrenha pelo esporte mais popular do país. Em 2017, foram registrados 104 episódios de violência no futebol brasileiro, que resultaram em 11 mortes de torcedores. Desde 1995, quando 101 torcedores ficaram feridos e um morreu durante uma batalha campal no estádio do Pacaembu, autoridades brasileiras têm focado as ações de enfrentamento à violência no futebol em grupos uniformizados, alguns proibidos de frequentar estádios. Porém, a postura meramente repressiva contra torcidas organizadas é ineficaz em uma sociedade que registra mais de 61000 homicídios por ano. “É impossível dissociar a escalada de violência no futebol do panorama de desordem pública, social, econômica e política vivida pelo país”, de acordo com um doutor em sociologia do esporte.\n\nDisponível em: https://brasil.elpais.com. Acesso em: 22 jun. 2019 (adaptado).\n\nNesse texto, a violência no futebol está caracterizada como um(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Problema social localizado numa região do país."
+    },
+    {
+     "letter": "B",
+     "text": "Desafio para as torcidas organizadas dos clubes."
+    },
+    {
+     "letter": "C",
+     "text": "Reflexo da precariedade da organização social no país."
+    },
+    {
+     "letter": "D",
+     "text": "Inadequação de espaço nos estádios para receber o público."
+    },
+    {
+     "letter": "E",
+     "text": "Consequência da insatisfação dos clubes com a organização dos jogos."
+    }
+   ],
+   "figures": [],
+   "number": 19,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O sociólogo liga a violência no futebol à desordem social, econômica e política do país. **Resposta: C**",
+    "keyConcept": "violência no futebol",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q20",
+   "year": 2022,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "Seis em cada dez pessoas com 15 anos ou mais não praticam esporte ou atividade física. São mais de 100 milhões de sedentários. Esses são dados do estudo Práticas de esporte e atividade física, da Pnad 2015, realizado pelo IBGE. A falta de tempo e de interesse são os principais motivos apontados para o sedentarismo. Paralelamente, 73,3% das pessoas de 15 anos ou mais afirmaram que o poder público deveria investir em esporte ou atividades físicas. Observou-se uma relação direta entre escolaridade e renda na realização de esportes ou atividades físicas. Enquanto 17,3% das pessoas que não tinham instrução realizavam diversas práticas corporais, esse percentual chegava a 56,7% das pessoas com superior completo. Entre as pessoas que têm práticas de esporte e atividade física regulares, o percentual de praticantes ia de 31,1%, na classe sem rendimento, a 65,2%, na classe de cinco salários mínimos ou mais. A falta de tempo foi mais declarada pela população adulta, com destaque entre as pessoas de 25 a 39 anos. Entre os adolescentes de 15 a 17 anos, o principal motivo foi não gostarem ou não quererem. Já o principal motivo para praticar esporte, declarado por 11,2 milhões pessoas, foi relaxar ou se divertir, seguido de melhorar a qualidade de vida ou o bem-estar. A falta de instalação esportiva acessível ou nas proximidades foi um motivo pouco citado, demonstrando que a não prática estaria menos associada à infraestrutura disponível.\n\nDisponível em: www.esporte.gov.br. Acesso em: 9 ago. 2017 (adaptado).\n\nCom base na pesquisa e em uma visão ampliada de saúde, para a prática regular de exercícios ter influência significativa na saúde dos brasileiros, é necessário o desenvolvimento de estratégias que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Promovam a melhoria da aptidão da população, dedicando-se mais tempo aos esportes."
+    },
+    {
+     "letter": "B",
+     "text": "Combatam o sedentarismo presente em parcela significativa da população no território nacional."
+    },
+    {
+     "letter": "C",
+     "text": "Facilitem a adoção da prática de exercícios, com ações relacionadas à educação e à distribuição de renda."
+    },
+    {
+     "letter": "D",
+     "text": "Auxiliem na construção de mais instalações esportivas e espaços adequados para a prática de atividades físicas e esportes."
+    },
+    {
+     "letter": "E",
+     "text": "Estimulem o incentivo fiscal para a iniciativa privada destinar verbas aos programas nacionais de promoção da saúde pelo esporte."
+    }
+   ],
+   "figures": [],
+   "number": 20,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Falta de tempo e de interesse pesam mais que a infraestrutura; é preciso educar e distribuir melhor o tempo. **Resposta: C**",
+    "keyConcept": "estratégias de saúde",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q25",
+   "year": 2022,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "A conquista da medalha de prata por Rayssa Leal, no skate street nos Jogos Olímpicos, é exemplo da representatividade feminina no esporte, avalia a âncora do jornal da rede de televisão da CNN. A apresentadora, que também anda de skate, celebrou a vitória da brasileira, que entrou para a história como a atleta mais nova a subir num pódio defendendo o Brasil. “Essa representatividade do esporte nos Jogos faz pensarmos que não temos que ficar nos encaixando em nenhum lugar. Posso gostar de passar notícia e, mesmo assim, gostar de skate, subir montanha, mergulhar, andar de bike, fazer yoga”. Temos que parar de ficar enquadrando as pessoas dentro das regras. A gente vive num padrão no qual a menina ganha boneca, mas por que também não fazer um esporte de aventura? Por que o homem pode se machucar, cair de joelhos, e a menina tem que estar sempre lindinha dentro de um padrão? Acabamos limitando os talentos das pessoas”, afirmou a jornalista, sobre a prática do skate por mulheres.\n\nDisponível em: www.cnnbrasil.com.br. Acesso em: 31 out. 2021 (adaptado).\n\nO discurso da jornalista traz questionamentos sobre a relação da conquista da skatista com a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Conciliação do jornalismo com a prática do skate."
+    },
+    {
+     "letter": "B",
+     "text": "Inserção das mulheres na modalidade skate street."
+    },
+    {
+     "letter": "C",
+     "text": "Desconstrução da noção do skate como modalidade masculina."
+    },
+    {
+     "letter": "D",
+     "text": "Vanguarda de ser a atleta mais jovem a subir no pódio olímpico"
+    },
+    {
+     "letter": "E",
+     "text": "Conquista de medalha nos Jogos Olímpicos de Tóquio."
+    }
+   ],
+   "figures": [],
+   "number": 25,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "A jornalista questiona a ideia de que meninas não podem ralar o joelho: o skate deixa de ser \"coisa de menino\". **Resposta: C**",
+    "keyConcept": "skate feminino",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q34",
+   "year": 2022,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Criado há cerca de 20 anos na Califórnia, o mountainboard é um esporte de aventura que utiliza uma espécie de skate off-road para realizar manobras similares às das modalidades de snowboard, surf e do próprio skate. A atividade chegou ao Brasil em 1997 e hoje possui centenas de praticantes, um circuito nacional respeitável e mais de uma dezena de pistas espalhadas pelo país. Segundo consta na história oficial, o mountainboard foi criado por praticantes de snowboard que sentiam falta de praticar o esporte nos períodos sem neve. Para isso, eles desenvolveram um equipamento bem simples: uma prancha semelhante ao modelo utilizado na neve (menor e um pouco menos flexível), com dois eixos bem resistentes, alças para encaixar os pés e quatro pneus com câmaras de ar para regular a velocidade que pode ser alcançada em diferentes condições. Com essa configuração, o esporte se mostrou possível em diversos tipos de terreno: grama, terra, pedras, asfalto e areia. Além desses pisos, também é possível procurar pelas próprias trilhas para treinar as manobras.\n\nDisponível em: www.webventure.com.br. Acesso em: 19 jun. 2019.\n\nA história da prática do mountainboard representa uma das principais marcas das atividades de aventura, caracterizada pela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Competitividade entre seus praticantes."
+    },
+    {
+     "letter": "B",
+     "text": "Atividade com padrões técnicos definidos."
+    },
+    {
+     "letter": "C",
+     "text": "Modalidade com regras predeterminadas."
+    },
+    {
+     "letter": "D",
+     "text": "Criatividade para adaptações a novos espaços."
+    },
+    {
+     "letter": "E",
+     "text": "Necessidade de espaços definidos para a sua realização."
+    }
+   ],
+   "figures": [],
+   "number": 34,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O mountainboard adapta manobras a vários terrenos: criatividade para novos espaços. **Resposta: D**",
+    "keyConcept": "esporte de aventura",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q6",
+   "year": 2023,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "A sessão do Comitê Olímpico Internacional (COI) aprovou uma mudança histórica e inédita no lema olímpico, criado em 1894 pelo Barão Pierre de Coubertin para expressar os valores e a excelência do esporte. Mais de 120 anos depois, o lema tem sua primeira alteração para ressaltar a solidariedade e incluir a palavra “juntos” mais rápido, mais alto, mais forte – juntos. A mudança foi aprovada por unanimidade pelos membros do COI e celebrada pelo presidente da entidade.\nDisponível em: https://ge.globo.com Acesso em: 10 nov. 2021 (adaptado)\nDe acordo com o texto, a alteração do lema olímpico teve como objetivo a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Unificação do lema anterior ao atual."
+    },
+    {
+     "letter": "B",
+     "text": "Aproximação entre o lema olímpico e o COI."
+    },
+    {
+     "letter": "C",
+     "text": "Junção do lema olímpico com os princípios esportivos."
+    },
+    {
+     "letter": "D",
+     "text": "Associação entre o lema olímpico e a cooperatividade."
+    },
+    {
+     "letter": "E",
+     "text": "Vinculação entre o lema olímpico e os eventos atléticos."
+    }
+   ],
+   "figures": [],
+   "number": 6,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O \"juntos\" acrescentado ressalta a solidariedade, isto é, a cooperação. **Resposta: D**",
+    "keyConcept": "lema olímpico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q35",
+   "year": 2023,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "A indústria do esporte eletrônico é um mercado que está crescendo em um ritmo mais rápido do que a economia mundial. Sua popularidade cresceu muito e no Brasil não é diferente. De acordo com os dados de uma pesquisa, mais de 64% dos brasileiros que jogam videogame já ouviram falar de esporte eletrônico. No entanto, o que chama a atenção é o crescimento superior a 10% do público praticante comparado ao ano anterior, que subiu de 44,7% para 55,4%. Trata-se de um percentual expressivo, já que o Brasil está no top 3 dentre os países que têm maior número de espectadores de esporte eletrônico do mundo. Comparado ao ano anterior, em 2020, o Brasil teve um marco de crescimento de 20% na audiência. Mundo afora, a árdua dedicação de grandes gamers contribuiu para o reconhecimento do Comitê Olímpico Internacional, aliado a outras cinco federações esportivas e suas desenvolvedoras de jogos, que direcionaram um olhar mais atento ao assunto, permitindo dar o primeiro passo para concretizar, pela primeira vez na história dos jogos eletrônicos, um evento olímpico oficial.\n\nDisponível em: https://chicoterra.com. Acesso em: 15 nov. 2021 (adaptado).\n\nO contexto em que o esporte eletrônico é apresentado no texto demonstra o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Condição favorável à expansão dessa modalidade."
+    },
+    {
+     "letter": "B",
+     "text": "Promoção dessa prática por jogadores profissionais."
+    },
+    {
+     "letter": "C",
+     "text": "Impulsionamento de um processo de marketing."
+    },
+    {
+     "letter": "D",
+     "text": "Favorecimento de fabricantes dos jogos."
+    },
+    {
+     "letter": "E",
+     "text": "Modificação da audiência televisiva."
+    }
+   ],
+   "figures": [],
+   "number": 35,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O mercado cresce, o público é amplo e o COI se aproximou: condição favorável à expansão. **Resposta: A**",
+    "keyConcept": "e-sports",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q40",
+   "year": 2023,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "A neozelandesa Laurel Hubbard fez história nos Jogos Olimpicos. Apesar de ter ficado de fora da disputa por medalhas, a levantadora de peso deixou sua marca na edição de Tóquio por ser a primeira mulher abertamente transgênero a participar de uma competição olímpica. No início da carreira, na década de 1990, a neozelandesa participava de disputas na categoria masculina. Em 2001, aos 23 anos, ela se afastou da atividade. “A pressão de tentar me encaixar em um mundo que talvez não tenha sido feito para pessoas como eu se tornou um fardo muito grande para suportar.” Em 2012, Laurel começou sua transição de gênero por meio de terapias hormonais e, em 2013, declarou abertamente ser uma mulher trans. Para o Comitê Olímpico Internacional, a participação de mulheres trans nos Jogos é permitida caso o nível de testosterona, hormônio que aumenta a massa muscular, esteja abaixo de 10 nanomols por litro por pelo menos 12 meses.\n\nDisponivel em: https://revistagalileu.globo.com Acesso em: 18 nov. 2021 (adaptado).\n\nNo texto, os limites do potencial inclusivo do esporte são dados pela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dificuldade de conseguir bons resultados esportivos."
+    },
+    {
+     "letter": "B",
+     "text": "Dependência de características biológicas padronizadas."
+    },
+    {
+     "letter": "C",
+     "text": "Inexistência de uma categoria para pessoas transgênero"
+    },
+    {
+     "letter": "D",
+     "text": "Necessidade de afastamento temporário das competições"
+    },
+    {
+     "letter": "E",
+     "text": "Impossibilidade de uso controlado de substâncias"
+    }
+   ],
+   "figures": [],
+   "number": 40,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A participação depende do nível de testosterona: características biológicas padronizadas limitam a inclusão. **Resposta: B**",
+    "keyConcept": "atletas trans",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q41",
+   "year": 2023,
+   "area": "Esporte e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "“Ganhei 25 medalhas em mundiais, sete em Jogos Olímpicos, e sou uma sobrevivente de abuso sexual.” Foi assim que Simone Biles se apresentou ao comitê do Senado norte-americano que investiga as supostas falhas do FBI no caso Larry Nassar. Biles e outras três atletas, vítimas dos abusos do ex-médico da equipe de ginástica feminina dos EUA, exigiram que os agentes da investigação sejam processados por falta de ação prévia contra Nassar, agora preso. Biles esclareceu que culpa Larry Nassar e “todo o sistema que o permitiu e o perpetrou”, acusando a Federação de Ginástica e o Comitê Olímpico dos Estados Unidos de saberem “muito antes” que ela havia sofrido abusos. A melhor ginasta do mundo é um ícone. Nos Jogos Olímpicos de Tóquio, uma lesão psicológica a impediu de competir como previa. No entanto, ela chegou ao topo como uma líder no trabalho de acabar com o preconceito com os problemas de saúde mental. “Não quero que nenhum outro atleta olímpico sofra o horror que eu e outras centenas suportamos e continuamos suportando até hoje”, afirmou.\n\nDisponível em https://brasil.elpais.com Acesso em 31 out 2021 (adaptado).\n\nO fato relatado na notícia chama a atenção acerca da necessidade de reflexão sobre a relação entre o esporte e",
+   "options": [
+    {
+     "letter": "A",
+     "text": "O desempenho atlético internacional."
+    },
+    {
+     "letter": "B",
+     "text": "A dimensão emocional dos atletas."
+    },
+    {
+     "letter": "C",
+     "text": "Os comitês olímpicos nacionais."
+    },
+    {
+     "letter": "D",
+     "text": "As instituições de inteligência."
+    },
+    {
+     "letter": "E",
+     "text": "As federações esportivas."
+    }
+   ],
+   "figures": [],
+   "number": 41,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O relato de Biles chama atenção para abuso e saúde mental: a dimensão emocional dos atletas. **Resposta: B**",
+    "keyConcept": "saúde mental",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q42",
+   "year": 2023,
+   "area": "Saúde e Qualidade de Vida",
+   "content": null,
+   "demand": null,
+   "statement": "O acesso às Práticas Corporais/Atividades Físicas (PC/AF) é desigual no Brasil, à semelhança de outros indicadores sociais e de saúde. Em geral, PC/AF prazerosas, diversificadas, mais afeitas ao período de lazer estão concentradas nas populações mais abastadas. As atividades físicas de deslocamento, trajetos a pé ou de bicicleta para estudar ou trabalhar, por exemplo, são mais frequentes na classe social menos favorecida. Aqui, há uma relação inversa e perversa entre variáveis socioeconômicas de acesso às PC/AF. As maiores prevalências de inatividade física foram em mulheres, pessoas com 60 anos ou mais, negros, pessoas com autoavaliação de saúde ruim ou muito ruim, com renda familiar de até quatro salários mínimos por pessoa, pessoas que desconhecem programas públicos de PC/A e residentes em áreas sem locais públicos para a prática.\n\nKNUTH, A. G.; ANTUNES, P. C. Saúde e Sociedade, n. 2, 2021 (adaptado).\n\nO fator central que impacta a realização de práticas corporais/atividades fisicas no tempo de lazer no Brasil é a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diferença entre homens e mulheres."
+    },
+    {
+     "letter": "B",
+     "text": "Inexistência de políticas públicas."
+    },
+    {
+     "letter": "C",
+     "text": "Diversidade de faixa etária."
+    },
+    {
+     "letter": "D",
+     "text": "Variação de condição étnica."
+    },
+    {
+     "letter": "E",
+     "text": "Desigualdade entre classes sociais."
+    }
+   ],
+   "figures": [],
+   "number": 42,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O acesso às práticas cai com renda baixa e falta de espaços públicos: desigualdade entre classes. **Resposta: E**",
+    "keyConcept": "desigualdade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  }
+ ]
+}

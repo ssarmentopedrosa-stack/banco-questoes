@@ -12,7 +12,7 @@ const ler = (f) => JSON.parse(readFileSync(new URL("../src/" + f, import.meta.ur
 const norm = (s) => s.replace(/\*\*/g, "").replace(/^- /gm, "").replace(/[\s:]+/g, "");
 let falhas = 0, total = 0;
 const stats = {};
-for (const [m, f] of [["fisica", "questoes.json"], ["biologia", "materias/biologia.json"], ["quimica", "materias/quimica.json"], ["geografia", "materias/geografia.json"], ["portugues", "materias/portugues.json"]]) {
+for (const [m, f] of [["fisica", "questoes.json"], ["biologia", "materias/biologia.json"], ["quimica", "materias/quimica.json"], ["geografia", "materias/geografia.json"], ["portugues", "materias/portugues.json"], ["arte", "materias/arte.json"], ["educacao_fisica", "materias/educacao_fisica.json"], ["ingles", "materias/ingles.json"], ["espanhol", "materias/espanhol.json"]]) {
   stats[m] = { com: 0, comOutras: 0, passosMax: 0 };
   for (const q of ler(f)) {
     if (!q.explanation) continue;

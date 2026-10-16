@@ -1,0 +1,2103 @@
+{
+ "meta": {
+  "materia": "ingles",
+  "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), caderno azul; texto conferido com o PDF oficial do Inep",
+  "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2011–2016: gab/gab_lc_2009_2016.json; 2017–2023: gab/gab_le_2017_2023.json",
+  "porAno": {
+   "2012": 5,
+   "2013": 4,
+   "2014": 5,
+   "2015": 4,
+   "2016": 4,
+   "2017": 5,
+   "2018": 5,
+   "2019": 4,
+   "2020": 5,
+   "2022": 4,
+   "2023": 3
+  },
+  "total": 48,
+  "fora": {},
+  "porArea": {
+   "Interpretação e Gêneros Textuais": 20,
+   "Literatura e Canção": 14,
+   "Cultura e Sociedade": 8,
+   "Vocabulário e Expressões": 6
+  },
+  "doPdfOficial": 0,
+  "comExplicacao": 43,
+  "revisadas": 0,
+  "classificacao": "tema atribuído manualmente pelo agente, a conferir pelo professor (linguagens/le/)"
+ },
+ "questions": [
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q91-INGLES",
+   "year": 2012,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "I, too\n\nI, too, sing America.\n\nI am the darker brother.\nThey send me to eat in the kitchen\nWhen company comes,\nBut I laugh,\nAnd eat well,\nAnd grow strong.\n\nTomorrow,\nl’ll be at the table\nWhen company comes.\nNobody’ll dare\nSay to me,\n“Eat in the kitchen,”\nThen.\n\nBesides,\nThey’ll see how beautiful I am\nAnd be ashamed\n\nI, too, am America.\n\nHUGHES, L. In: RAMPERSAD, A.; ROESSEL, D. (Ed.) The collected poems of Langston\nHughes. New York: Knopf, 1994.\n\nLangston Hughes foi um poeta negro americano que viveu no século XX e escreveu I, too em 1932. No poema, a personagem descreve uma prática racista que provoca nela um sentimento de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Coragem, pela superação."
+    },
+    {
+     "letter": "B",
+     "text": "Vergonha, pelo retraimento."
+    },
+    {
+     "letter": "C",
+     "text": "Compreensão, pela aceitação."
+    },
+    {
+     "letter": "D",
+     "text": "Superioridade, pela arrogância."
+    },
+    {
+     "letter": "E",
+     "text": "Resignação, pela submissão."
+    }
+   ],
+   "figures": [],
+   "number": 91,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O eu lírico come na cozinha, mas \"ri, come bem e fica forte\" e anuncia que amanhã estará à mesa. É coragem que supera a discriminação. **Resposta: A**",
+    "keyConcept": "racismo e superação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q92-INGLES",
+   "year": 2012,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "J. K. Rowling to pen first novel for adults\n\n[[FIG 0]]\n\nAuthor J. K. Rowling has announced plans to publish her first novel for adults, which will be “very different” from the Harry Potter books she is famous for.\n\nThe book will be published worldwide although no date or title has yet been released. “The freedom to explore new territory is a gift that Harry’s sucess has brought me,” Rowling said.\n\nAll the Potter books were published by Bloomsbury, but Rowling has chosen a new publisher for her debut into adult fiction. “Although I’ve enjoyed writing it every bit as much, my next book will be very different to the Harry Potter series, which has been published so brilliantly by Bloomsbury and my other publishers around the world,” she said, in a statement. “I’m delighted to have a second publishing home in Little, Brown, and a publishing team that will be a great partner in this new phase of my writing life.”\n\nDisponível em: www.bbc.co.uk. Acesso em: 24 fev. 2012 (adaptado).\n\nJ. K. Rowling tornou-se famosa por seus livros sobre o bruxo Harry Potter e suas aventuras, adaptados para o cinema. Esse texto, que aborda a trajetória da escritora britânica, tem por objetivo",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Informar que a famosa série Harry Potter será adaptada para o público adulto."
+    },
+    {
+     "letter": "B",
+     "text": "Divulgar a publicação do romance por J. K. Rowling inteiramente para adultos."
+    },
+    {
+     "letter": "C",
+     "text": "Promover a nova editora que irá publicar os próximos livros de J. K. Rowling."
+    },
+    {
+     "letter": "D",
+     "text": "Informar que a autora de Harry Potter agora pretende escrever para adultos."
+    },
+    {
+     "letter": "E",
+     "text": "Anunciar um novo livro da série Harry Potter publicado por editora diferente."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/ingles/2012/ENEM-LC-2012-REG-D2-C7-Q92-INGLES-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 474,
+     "height": 278
+    }
+   ],
+   "number": 92,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A notícia informa que J. K. Rowling planeja seu primeiro romance para adultos, ainda sem título nem data. **Resposta: D**",
+    "keyConcept": "notícia",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q93-INGLES",
+   "year": 2012,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Quotes of the Day\nFriday, Sep. 02, 2011\n\n“There probably was a shortage of not just respect and boundaries but also love. But you do need, when they cross the line and break the law, to be very tough.”\n\nBritish Prime Minister DAVID CAMERON, arguing that those involved in the recent riots in England need “tough love” as he vows to “get to grips” with the country’s problem families.\n\nDisponível em: www.time.com. Acesso em: 5 nov. 2011 (adaptado).\n\nA respeito dos tumultos causados na Inglaterra em agosto de 2011, as palavras de alerta de David Cameron têm como foco principal",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enfatizar a discriminação contra os jovens britânicos e suas famílias."
+    },
+    {
+     "letter": "B",
+     "text": "Criticar as ações agressivas demonstradas nos tumultos pelos jovens."
+    },
+    {
+     "letter": "C",
+     "text": "Estabelecer relação entre a falta de limites dos jovens e o excesso de amor."
+    },
+    {
+     "letter": "D",
+     "text": "Reforçar a ideia de que os jovens precisam de amor, mas também de firmeza."
+    },
+    {
+     "letter": "E",
+     "text": "Descrever o tipo de amor que gera problemas às famílias de jovens britânicos."
+    }
+   ],
+   "figures": [],
+   "number": 93,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Cameron fala em falta de amor e de limites, mas pede firmeza (\"very tough\"): os jovens precisam de amor e de rigor. **Resposta: D**",
+    "keyConcept": "tough love",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q94-INGLES",
+   "year": 2012,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nDONAR. Disponível em: http://politicalgraffiti.wordpress.com. Acesso em: 17 ago. 2011.\n\nCartuns são produzidos com o intuito de satirizar comportamentos humanos e assim oportunizam a reflexão sobre nossos próprios comportamentos e atitudes. Nesse cartum, a linguagem utilizada pelos personagens em uma conversa em inglês evidencia a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Predominância do uso da linguagem informal sobre a língua padrão."
+    },
+    {
+     "letter": "B",
+     "text": "Dificuldade de reconhecer a existência de diferentes usos da linguagem."
+    },
+    {
+     "letter": "C",
+     "text": "Aceitação dos regionalismos utilizados por pessoas de diferentes lugares."
+    },
+    {
+     "letter": "D",
+     "text": "Necessidade de estudo da língua inglesa por parte dos personagens."
+    },
+    {
+     "letter": "E",
+     "text": "Facilidade de compreensão entre falantes com sotaques distintos."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/ingles/2012/ENEM-LC-2012-REG-D2-C7-Q94-INGLES-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 461,
+     "height": 337
+    }
+   ],
+   "number": 94,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": null
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q95-INGLES",
+   "year": 2012,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nAproveitando-se de seu status social e da possível influência sobre seus fãs, o famoso músico Jimi Hendrix associa, em seu texto, os termos love, power e peace para justificar sua opinião de que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A paz tem o poder de aumentar o amor entre os homens."
+    },
+    {
+     "letter": "B",
+     "text": "O amor pelo poder deve ser menor do que o poder do amor."
+    },
+    {
+     "letter": "C",
+     "text": "O poder deve ser compartilhado entre aqueles que se amam."
+    },
+    {
+     "letter": "D",
+     "text": "O amor pelo poder é capaz de desunir cada vez mais as pessoas."
+    },
+    {
+     "letter": "E",
+     "text": "A paz será alcançada quando a busca pelo poder deixar de existir."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/ingles/2012/ENEM-LC-2012-REG-D2-C7-Q95-INGLES-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 379,
+     "height": 363
+    }
+   ],
+   "number": 95,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A frase de Hendrix, \"quando o poder do amor superar o amor pelo poder, o mundo conhecerá a paz\", põe o amor ao poder abaixo do poder do amor. **Resposta: B**",
+    "keyConcept": "love and power",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q91-INGLES",
+   "year": 2013,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "After prison blaze kills hundreds in Honduras, UN warns on overcrowding\n\n       15 February 2012\n\n       A United Nations human rights official today called on Latin American countries to tackle the problem of prison overcrowding in the wake of an overnight fire at a jail in Honduras that killed hundreds of inmates. More than 300 prisoners are reported to have died in the blaze at the prison, located north of the capital, Tegucigalpa, with dozens of others still missing and presumed dead. Antonio Maldonado, human rights adviser for the UN system in Honduras, told UN Radio today that overcrowding may have contributed to the death toll. “But we have to wait until a thorough investigation is conducted so we can reach a precise cause,” he said. “But of course there is a problem of overcrowding in the prison system, not only in this country, but also in many other prisons in Latin America.”\n\nDisponível em: www.un.org. Acesso em: 22 fev. 2012 (adaptado).\n\nOs noticiários destacam acontecimentos diários, que são veiculados em jornal impresso, rádio, televisão e internet. Nesse texto, o acontecimento reportado é a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ocorrência de um incêndio em um presídio superlotado em Honduras."
+    },
+    {
+     "letter": "B",
+     "text": "Questão da superlotação nos presídios em Honduras e na América Latina."
+    },
+    {
+     "letter": "C",
+     "text": "Investigação da morte de um oficial das Nações Unidas em visita a um presídio."
+    },
+    {
+     "letter": "D",
+     "text": "Conclusão do relatório sobre a morte de mais de trezentos detentos em Honduras."
+    },
+    {
+     "letter": "E",
+     "text": "Causa da morte de doze detentos em um presídio superlotado ao norte de Honduras."
+    }
+   ],
+   "figures": [],
+   "number": 91,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "A notícia relata o incêndio que matou centenas de presos num presídio superlotado de Honduras; a superlotação é o alerta. **Resposta: A**",
+    "keyConcept": "fato noticiado",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q93-INGLES",
+   "year": 2013,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "Steve Jobs: A Life Remembered 1955-2011\n\nReadersdigest.ca takes a look back at Steve Jobs, and his contribution to our digital world.\n\nCEO. Tech-Guru. Artist. There are few corporate figures as famous and well-regarded as former-Apple CEO Steve Jobs. His list of achievements is staggering, and his contribution to modern technology, digital media, and indeed the world as a whole, cannot be downplayed.\nWith his passing on October 5, 2011, readersdigest.ca looks back at some of his greatest achievements, and pays our respects to a digital pioneer who helped pave the way for a generation of technology, and possibilities, few could have imagined.\n\nDisponível em: www.readersdigest.ca. Acesso em: 25 fev. 2012\n\nInformações sobre pessoas famosas são recorrentes na mídia, divulgadas de forma impressa ou virtualmente. Em relação a Steve Jobs, esse texto propõe",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Expor as maiores conquistas da sua empresa."
+    },
+    {
+     "letter": "B",
+     "text": "Descrever suas criações na área da tecnologia."
+    },
+    {
+     "letter": "C",
+     "text": "Enaltecer sua contribuição para o mundo digital."
+    },
+    {
+     "letter": "D",
+     "text": "Lamentar sua ausência na criação de novas tecnologias."
+    },
+    {
+     "letter": "E",
+     "text": "Discutir o impacto de seu trabalho para a geração digital."
+    }
+   ],
+   "figures": [],
+   "number": 93,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O texto chama Jobs de \"digital pioneer\" e \"pays our respects\": enaltece sua contribuição ao mundo digital. **Resposta: C**",
+    "keyConcept": "homenagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q94-INGLES",
+   "year": 2013,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Do one thing for diversity and inclusion\n\n   The United Nations Alliance of Civilizations (UNAOC) is launching a campaign aimed at engaging people around the world to Do One Thing to support Cultural Diversity and Inclusion. Every one of us can do ONE thing for diversity and inclusion; even one very little thing can become a global action if we all take part in it.\n\n   Simple things YOU can do to celebrate the World Day for Cultural Diversity for Dialogue and Development on May 21.\n\n1. Visit an art exhibit or a museum dedicated to other cultures.\n2. Read about the great thinkers of other cultures.\n3. Visit a place of worship different than yours and participate in the celebration.\n4. Spread your own culture around the world and learn about other cultures.\n5. Explore music of a different culture.\n\nThere are thousands of things that you can do, are you taking part in it?\n\nUNITED NATIONS ALLIANCE OF CIVILIZATIONS. Disponível em: www.unaoc.org. Acesso em: 16 fev. 2013 (adaptado).\n\nInternautas costumam manifestar suas opiniões sobre artigos on-line por meio da postagem de comentários. O comentário que exemplifica o engajamento proposto na quarta dica da campanha apresentada no texto é:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "“Lá na minha escola, aprendi a jogar capoeira para uma apresentação no Dia da Consciência Negra.”"
+    },
+    {
+     "letter": "B",
+     "text": "“Outro dia assisti na TV uma reportagem sobre respeito à diversidade. Gente de todos os tipos, várias tribos. Curti bastante.”"
+    },
+    {
+     "letter": "C",
+     "text": "“Eu me inscrevi no Programa Jovens Embaixadores para mostrar o que tem de bom em meu país e conhecer outras formas de ser.”"
+    },
+    {
+     "letter": "D",
+     "text": "“Curto muito bater papo na internet. Meus amigos estrangeiros me ajudam a aperfeiçoar minha proficiência em língua estrangeira.”"
+    },
+    {
+     "letter": "E",
+     "text": "“Pesquisei em sites de culinária e preparei uma festa árabe para uns amigos da escola. Eles adoraram, principalmente, os doces!”"
+    }
+   ],
+   "figures": [],
+   "number": 94,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "A quarta dica pede conhecer o mundo e outras culturas; o comentário do intercâmbio Jovens Embaixadores é o exemplo. **Resposta: C**",
+    "keyConcept": "diversidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q95-INGLES",
+   "year": 2013,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nA partir da leitura dessa tirinha, infere-se que o discurso de Calvin teve um efeito diferente do pretendido, uma vez que ele",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Decide tirar a neve do quintal para convencer seu pai sobre seu discurso."
+    },
+    {
+     "letter": "B",
+     "text": "Culpa o pai por exercer influência negativa na formação de sua personalidade."
+    },
+    {
+     "letter": "C",
+     "text": "Comenta que suas discussões com o pai não correspondem às suas expectativas."
+    },
+    {
+     "letter": "D",
+     "text": "Conclui que os acontecimentos ruins não fazem falta para a sociedade."
+    },
+    {
+     "letter": "E",
+     "text": "Reclama que é vítima de valores que o levam a atitudes inadequadas."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/ingles/2013/ENEM-LC-2013-REG-D2-C7-Q95-INGLES-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 678,
+     "height": 263
+    }
+   ],
+   "number": 95,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": null
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q91-INGLES",
+   "year": 2014,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "A Tall Order\n\nThe sky isn’t the limit for an architect building the world’s first invisible skyscraper\n\nCharles Wee, one of the world’s leading high-rise architects, has a confession to make: he’s bored with skyscrapers. After designing more than 30, most of which punctuate the skulines od rapidly expanding Asian cities, he has struck upon a novel concept: the firts invisible skyscraper.\n\nAs the tallest structure in South Korea, his Infinity Tower loom over Seoul until somebody pushes a button and it completely disappears.\n\nWhen he entered a 2004 competition to design a landmark tower, the Korean-American architect rejected the notion of competing with Dubai, Toronto, and Shanghai to reach the summit of man-made summits. “I thought, let’s not jump into this stupid race to build another ‘tallest’ tower,” he says in a phone conversation. “Let’s take an opposite approach — let’s make an anti-tower.”\n\nThe result will be a 150-story building that fades from view at the flick of a switch. The tower will effectively function as an enormous television screen, being able to project an exact replica of whatever is happening behind it onto its façade. To the human eye, the building will appear to have melted away.\n\nIt will be the most extraordinary achievement of Wee’s stellar architectural career. After graduating from UCLA, he worked under Anthony Lumsdenm, a prolific California architect who helped devise the modern technique of wrapping buildings inside smooth glass skins.\n\nHINES, N. Disponível em: (http://mag.newsweek.com). Acesso em: 13 out. 2013 (adaptado).\n\nNo título e no subtítulo desse texto, as expressões A Tall Order e The sky isn’t the limit são usadas para apresentar uma matéria cujo tema é",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inovações tecnológicas usadas para a construção de um novo arranha-céu em Seul."
+    },
+    {
+     "letter": "B",
+     "text": "Confissões de um arquiteto que busca se destacar na construção de arranha-céus."
+    },
+    {
+     "letter": "C",
+     "text": "Técnicas a serem estabelecidas para a construção de edifícios altos na Califórnia."
+    },
+    {
+     "letter": "D",
+     "text": "Competição entre arquitetos para a construção do edifício mais alto do mundo."
+    },
+    {
+     "letter": "E",
+     "text": "Construção de altas torres de apartamentos nas grandes metrópoles da Ásia."
+    }
+   ],
+   "figures": [],
+   "number": 91,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "\"A Tall Order\" e \"the sky isn't the limit\" anunciam o arranha-céu \"invisível\" que Charles Wee projeta em Seul, com tecnologia inovadora. **Resposta: A**",
+    "keyConcept": "título e tema",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q92-INGLES",
+   "year": 2014,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Masters of War\n\nCome you masters of war\nYou that build all the guns You that build the death planes\nYou that build the big bombs\nYou that hide behind walls\nYou that hide behind desks\nI just want you to know\nI can see through your masks\n\nYou that never done nothin’\nBut build to destroy\nYou play with my world\nLike it’s your little toy\nYou put a gun in my hand\nAnd you hide from my eyes\nAnd you turn and run farther\nWhen the fast bullets fly\n\nLike Judas of old\nYou lie and deceive\nA world war can be won\nYou want me to believe\nBut I see through your eyes\nAnd I see through your brain\nLike I see through the water\nThat runs down my drain.\n\nBOB DYLAN. The Freewheelin’ Bob Dylan. Nova York: Columbia Records, 1963 (fragmento).\n\nNa letra da canção Masters of War, há questionamentos e reflexões que aparecem na forma de protesto contra",
+   "options": [
+    {
+     "letter": "A",
+     "text": "O envio de jovens à guerra para promover a expansão territorial dos Estados Unidos."
+    },
+    {
+     "letter": "B",
+     "text": "O comportamento dos soldados norte-americanos nas guerras de que participaram."
+    },
+    {
+     "letter": "C",
+     "text": "O sistema que recruta soldados para guerras motivadas por interesses econômicos."
+    },
+    {
+     "letter": "D",
+     "text": "O desinteresse do governo pelas famílias dos soldados mortos em campos de batalha."
+    },
+    {
+     "letter": "E",
+     "text": "As Forças Armadas norte-americanas, que enviavam homens despreparados para as guerras."
+    }
+   ],
+   "figures": [],
+   "number": 92,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Dylan acusa os \"masters of war\" que constroem armas e lucram, escondidos atrás de mesas: guerras movidas por interesses econômicos. **Resposta: C**",
+    "keyConcept": "canção de protesto",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q93-INGLES",
+   "year": 2014,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "The Road Not Taken (by Robert Frost)\n\nTwo roads diverged in a wood, and I —\nI took the one less traveled by,\nAnd that has made all the difference.\n\nDisponível em: www.poetryfoundation.org. Acesso em: 29 nov. 2011 (fragmento).\n\nEstes são os versos finais do famoso poema The Road Not Taken, do poeta americano Robert Frost. Levando-se em consideração que a vida é comumente metaforizada como uma viagem, esses versos indicam que o autor",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Festeja o fato de ter sido ousado na escolha que fez em sua vida."
+    },
+    {
+     "letter": "B",
+     "text": "Lamenta por ter sido um viajante que encontrou muitas bifurcações."
+    },
+    {
+     "letter": "C",
+     "text": "Viaja muito pouco e que essa escolha fez toda a diferença em sua vida."
+    },
+    {
+     "letter": "D",
+     "text": "Reconhece que as dificuldades em sua vida foram todas superadas."
+    },
+    {
+     "letter": "E",
+     "text": "Percorre várias estradas durante as diferentes fases de sua vida."
+    }
+   ],
+   "figures": [],
+   "number": 93,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "\"I took the one less traveled by, and that has made all the difference\": o eu lírico celebra a escolha ousada. **Resposta: A**",
+    "keyConcept": "Robert Frost",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q94-INGLES",
+   "year": 2014,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nDisponível em: http://wefeedback.org. Acesso em: 30 jul. 2012.\n\nA internet tem servido a diferentes interesses, ampliando, muitas vezes, o contato entre pessoas e instituições. Um exemplo disso é o site WeFeedback, no qual a internauta Kate Watts",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Comprou comida em promoção."
+    },
+    {
+     "letter": "B",
+     "text": "Inscreveu-se em concurso."
+    },
+    {
+     "letter": "C",
+     "text": "Fez doação para caridade."
+    },
+    {
+     "letter": "D",
+     "text": "Participou de pesquisa de opinião."
+    },
+    {
+     "letter": "E",
+     "text": "Voluntariou-se para trabalho social."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/ingles/2014/ENEM-LC-2014-REG-D2-C7-Q94-INGLES-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 489,
+     "height": 443
+    }
+   ],
+   "number": 94,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "No WeFeedback, a internauta \"alimenta\" crianças com doações; o site serve à caridade. **Resposta: C**",
+    "keyConcept": "doação on-line",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q95-INGLES",
+   "year": 2014,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "If You Can’t Master English, Try Globish\n\nPARIS — It happens all the time: during an airport delay the man to the left, a Korean perhaps, starts talking to the man opposite, who might be Colombian, and soon they are chatting away in what seems to be English. But the native English speaker sitting between them cannot understand a word.\n\nThey don’t know it, but the Korean and the Colombian are speaking Globish, the latest addition to the 6,800 languages that are said to be spoken across the world. Not that its inventor, Jean-Paul Nerrière, considers it a proper language.\n\n“It is not a language, it is a tool,” he says. “A language is the vehicle of a culture. Globish doesn’t want to be that at all. It is a means of communication.”\n\nNerrière doesn’t see Globish in the same light as utopian efforts such as Kosmos, Volapuk, Novial or staunch Esperanto. Nor should it be confused with barbaric Algol (for Algorithmic language). It is a sort of English lite: a means of simplifying the language and giving it rules so it can be understood by all.\n\nBLUME, M. Disponível em: www.nytimes.com. Acesso em: 28 out. 2013 (fragmento)\n\nConsiderando as ideias apresentadas no texto, o Globish (Global English) é uma variedade da língua inglesa que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tem status de língua por refletir uma cultura global."
+    },
+    {
+     "letter": "B",
+     "text": "Facilita o entendimento entre o falante nativo e o não nativo."
+    },
+    {
+     "letter": "C",
+     "text": "Tem as mesmas características de projetos utópicos como o esperanto."
+    },
+    {
+     "letter": "D",
+     "text": "Altera a estrutura do idioma para possibilitar a comunicação internacional."
+    },
+    {
+     "letter": "E",
+     "text": "Apresenta padrões de fala idênticos aos da variedade usada pelos falantes nativos."
+    }
+   ],
+   "figures": [],
+   "number": 95,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O Globish simplifica o inglês e lhe dá regras para ser entendido por todos: altera a estrutura para a comunicação internacional. **Resposta: D**",
+    "keyConcept": "Globish",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q91-INGLES",
+   "year": 2015,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "My brother the star, my mother the earth\n\nmy father the sun, my sister the moon,\n\nto my life give beauty, to my\n\nbody give strength, to my corn give\n\ngoodness, to my house give peace, to\n\nmy spirit give truth, to my elders give\n\nwisdom.\n\nDisponível em: www.blackhawkproductions.com. Acesso em: 8 ago. 2012.\n\nProduções artístico-culturais revelam visões de mundo próprias de um grupo social. Esse poema demonstra a estreita relação entre a tradição oral da cultura indígena norte-americana e a:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Transmissão de hábitos alimentares entre gerações."
+    },
+    {
+     "letter": "B",
+     "text": "Dependência da sabedoria de seus ancestrais."
+    },
+    {
+     "letter": "C",
+     "text": "Representação do corpo em seus rituais."
+    },
+    {
+     "letter": "D",
+     "text": "Importância dos elementos da natureza."
+    },
+    {
+     "letter": "E",
+     "text": "Preservação da estrutura familiar."
+    }
+   ],
+   "figures": [],
+   "number": 91,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O eu lírico chama estrela, terra, sol e lua de família: a natureza é central na cultura indígena. **Resposta: D**",
+    "keyConcept": "poema indígena",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q92-INGLES",
+   "year": 2015,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nRIDGWAY, L. Disponível em: http://fborfw.com. Acesso em: 23 fev. 2012.\n\nNa tira da série For better or for worse, a comunicação entre as personagens fica comprometida em um determinado momento porque",
+   "options": [
+    {
+     "letter": "A",
+     "text": "As duas amigas divergem de opinião sobre futebol."
+    },
+    {
+     "letter": "B",
+     "text": "Uma das amigas desconsidera as preferências da outra."
+    },
+    {
+     "letter": "C",
+     "text": "Uma das amigas ignora que o outono é temporada de futebol."
+    },
+    {
+     "letter": "D",
+     "text": "Uma das amigas desconhece a razão pela qual a outra a maltrata."
+    },
+    {
+     "letter": "E",
+     "text": "As duas amigas atribuem sentidos diferentes à palavra season."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/ingles/2015/ENEM-LC-2015-REG-D2-C7-Q92-INGLES-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 343,
+     "height": 146
+    }
+   ],
+   "number": 92,
+   "booklet": 7,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Uma amiga entende \"season\" como estação do ano, e a outra como temporada de futebol: sentidos diferentes da palavra. **Resposta: E**",
+    "keyConcept": "ambiguidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q93-INGLES",
+   "year": 2015,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "Why am I compelled to write? Because the writing saves me from this complacency I fear. Because I have no choice. Because I must keep the spirit of my revolt and myself alive. Because the world I create in the writing compensates for what the real world does not give me. By writing I put order in the world, give it a handle so I can grasp it.\n\nANZALDÚA, G. E. Speaking in tongues: a letter to third world women writers. In: HERNANDEZ, J. B. (Ed.). Women writing resistance: essays on Latin America and the Caribbean. Boston: South End, 2003.\n\nGloria Evangelina Anzaldúa, falecida em 2004, foi uma escritora americana de origem mexicana que escreveu sobre questões culturais e raciais. Na citação, o intuito da autora é evidenciar as:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Razões pelas quais ela escreve."
+    },
+    {
+     "letter": "B",
+     "text": "Compensações advindas da escrita."
+    },
+    {
+     "letter": "C",
+     "text": "Possibilidades de mudar o mundo real."
+    },
+    {
+     "letter": "D",
+     "text": "Maneiras de ela lidar com seus medos."
+    },
+    {
+     "letter": "E",
+     "text": "Escolhas que ela faz para ordenar o mundo."
+    }
+   ],
+   "figures": [],
+   "number": 93,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "A autora responde a \"Why am I compelled to write?\" com uma série de \"Because…\": as razões pelas quais escreve. **Resposta: A**",
+    "keyConcept": "por que escrevo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q94-INGLES",
+   "year": 2015,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "How fake images change our memory and behaviour\n\nFor decades, researchers have been exploring just how unreliable our own memories are. Not only is memory fickle when we access it, but it’s also quite easily with subverted and rewritten. Combine this susceptibility with modern image-editing software at our fingertips like Photoshop, and it’s a recipe for disaster. In a world where we can witness news and world events as they unfold, fake images surround us, and our minds accept these pictures as real, and remember them later. These fake memories don’t just distort how we see our past, they affect our current and future behaviour too – from what we eat, to how we protest and vote. The problem is there’s virtually nothing we can do to stop it.\n\nOld memories seem to be the easiest to manipulate. In one study, subjects were showed images from their childhood. Along with real images, researchers snuck in manipulated photographs of the subject taking a hotair balloon ride with his or her family. After seeing those images, 50% of subjects recalled some part of that hot-air balloon ride – though the event was entirely made up.\n\nEVELETH, R. Disponível em: www.bbc.com. Acesso em: 16 jan. 2013 (adaptado).\n\nA reportagem apresenta consequências do uso de novas tecnologias para a mente humana. Nesse contexto, a memória das pessoas é influenciada pelo(a):",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Alteração de imagens."
+    },
+    {
+     "letter": "B",
+     "text": "Exposição ao mundo virtual."
+    },
+    {
+     "letter": "C",
+     "text": "Acesso a novas informações."
+    },
+    {
+     "letter": "D",
+     "text": "Fascínio por softwares inovadores."
+    },
+    {
+     "letter": "E",
+     "text": "Interferência dos meios de comunicação."
+    }
+   ],
+   "figures": [],
+   "number": 94,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Fotos manipuladas do passeio de balão fizeram 50% das pessoas \"lembrarem\" o evento: a alteração de imagens influencia a memória. **Resposta: A**",
+    "keyConcept": "imagens falsas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q91-INGLES",
+   "year": 2016,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "Frankentissue: printable cell technology\n\nIn November, researchers from the University of Wollongong in Australia announced a new bio-ink that is a step toward really printing living human tissue on an inkjet printer. It is like printing tissue dot-by-dot. A drop of bio-ink contains 10,000 to 30,000 cells. The focus of much of this research is the eventual production of tailored tissues suitable for surgery, like living Band-Aids, which could be printed on the inkjet.\n\nHowever, it is still nearly impossible to effectively replicate nature’s ingenious patterns on a home office accessory. Consider that the liver is a series of globules, the kidney a set of pyramids. Those kinds of structures demand 3D printers that can build them up, layer by layer. At the moment, skin and other flat tissues are most promising for the inkjet.\n\nDisponível em: http://discovermagazine.com. Acesso em 2 dez 2012\n\nO texto relata perspectivas no campo da tecnologia para cirurgias em geral, e a mais promissora para este momento enfoca o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Uso de um produto natural com milhares de células para reparar tecidos humanos."
+    },
+    {
+     "letter": "B",
+     "text": "Criação de uma impressora especial para traçar mapas cirúrgicos detalhados."
+    },
+    {
+     "letter": "C",
+     "text": "Desenvolvimento de uma tinta para produzir pele e tecidos humanos finos."
+    },
+    {
+     "letter": "D",
+     "text": "Reprodução de células em 3D para ajudar nas cirurgias de recuperação dos rins."
+    },
+    {
+     "letter": "E",
+     "text": "Extração de glóbulos do fígado para serem reproduzidos em laboratório."
+    }
+   ],
+   "figures": [],
+   "number": 91,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O texto diz que, no momento, pele e tecidos planos são o mais promissor para a impressão a jato com bio-tinta. **Resposta: C**",
+    "keyConcept": "bio-ink",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q92-INGLES",
+   "year": 2016,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nDisponível em: www.ct.gov. Acesso em: 30 jul. 2012 (adaptado).\n\nOrientações à população são encontradas também em sites oficiais. Ao clicar no endereço eletrônico mencionado no cartaz disponível na internet, o leitor tem acesso aos (às)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ações do governo local referentes a calamidades."
+    },
+    {
+     "letter": "B",
+     "text": "Relatos de sobreviventes em tragédias marcantes."
+    },
+    {
+     "letter": "C",
+     "text": "Tipos de desastres naturais possíveis de acontecer."
+    },
+    {
+     "letter": "D",
+     "text": "Informações sobre acidentes ocorridos em Connecticut."
+    },
+    {
+     "letter": "E",
+     "text": "Medidas de emergência a serem tomadas em catástrofes."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/ingles/2016/ENEM-LC-2016-REG-D2-C7-Q92-INGLES-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 406,
+     "height": 344
+    }
+   ],
+   "number": 92,
+   "booklet": 7,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O cartaz do governo de Connecticut leva a um site sobre como se preparar e agir em emergências. **Resposta: E**",
+    "keyConcept": "cartaz oficial",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q94-INGLES",
+   "year": 2016,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Ebony and ivory\n\nEbony and ivory live together in perfect harmony\nSide by side on my piano keyboard, oh Lord, why don’t we?\nWe all know that people are the same wherever we go\nThere is good and bad in ev’ryone,\nWe learn to live, we learn to give\nEach other what we need to survive together alive\n\nMcCARTNEY P. Disponível em: www.paulmccartney.com. Acesso em: 30 maio 2016.\n\nEm diferentes épocas e lugares, compositores têm utilizado seu espaço de produção musical para expressar e problematizar perspectivas de mundo. Paul McCartney, na letra dessa canção, defende",
+   "options": [
+    {
+     "letter": "A",
+     "text": "O aprendizado compartilhado."
+    },
+    {
+     "letter": "B",
+     "text": "A necessidade de donativos."
+    },
+    {
+     "letter": "C",
+     "text": "As manifestações culturais."
+    },
+    {
+     "letter": "D",
+     "text": "O bem em relação ao mal."
+    },
+    {
+     "letter": "E",
+     "text": "O respeito étnico."
+    }
+   ],
+   "figures": [],
+   "number": 94,
+   "booklet": 7,
+   "answer": "E",
+   "explanation": {
+    "markdown": "As teclas pretas e brancas convivem em harmonia: a canção defende o respeito entre etnias. **Resposta: E**",
+    "keyConcept": "Ebony and ivory",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q95-INGLES",
+   "year": 2016,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "BOGOF is used as a noun as in ‘There are some great bogofs on at the supermarket’ or an adjective, usually with a word such as ‘offer’ or ‘deal’ – ‘there are some great bogof offers in store’.\n\nWhen you combine the first letters of the words in a phrase or the name of an organisation, you have an acronym. Acronyms are spoken as a word so NATO (North Atlantic Treaty Organisation) is not pronounced N-A-T-O. We say NATO. Bogof, when said out loud, is quite comical for a native speaker, as it sounds like an insult, ‘Bog off!’ meaning go away, leave me alone, slightly childish and a little old-fashioned.\n\nBOGOF is the best-known of the supermarket marketing strategies. The concept was first imported from the USA during the 1970s recession, when food prices were very high. It came back into fashion in the late 1990s, led by big supermarket chains trying to gain a competitive advantage over each other. Consumers were attracted by the idea that they could get something for nothing. Who could possibly say ‘no’?\n\nDisponível em: www.bbc.co.uk. Acesso em 2 ago. 2012 (adaptado).\n\nConsiderando-se as informações do texto, a expressão “bogof” é usada para",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Anunciar mercadorias em promoção."
+    },
+    {
+     "letter": "B",
+     "text": "Pedir para uma pessoa se retirar."
+    },
+    {
+     "letter": "C",
+     "text": "Comprar produtos fora de moda."
+    },
+    {
+     "letter": "D",
+     "text": "Indicar recessão na economia."
+    },
+    {
+     "letter": "E",
+     "text": "Chamar alguém em voz alta."
+    }
+   ],
+   "figures": [],
+   "number": 95,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Bogof (buy one, get one free) nomeia ofertas de supermercado: anuncia produtos em promoção. **Resposta: A**",
+    "keyConcept": "acrônimo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q1-INGLES",
+   "year": 2017,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "One of the things that made an incredible impression on me in the film was Frida’s comfort in and celebration of her own unique beauty. She didn’t try to fit into conventional ideas or images about womanhood or what makes someone or something beautiful. Instead, she fully inhabited her own unique gifts, not particularly caring what other people thought. She was magnetic and beautiful in her own right. She painted for years, not to be a commercial success or to be discovered, but to express her own inner pain, joy, family, love and culture. She absolutely and resolutely was who she was. The trueness of her own unique vision and her ability to stand firmly in her own truth was what made her successful in the end.\n\nHUTZLER, L. Disponível em: www.etbscreenwriting.com. Acesso em: 6 maio 2013.\n\nA autora desse comentário sobre o filme Frida mostra-se impressionada com o fato de a pintora",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ter uma aparência exótica."
+    },
+    {
+     "letter": "B",
+     "text": "Vender bem a sua imagem."
+    },
+    {
+     "letter": "C",
+     "text": "Ter grande poder de sedução."
+    },
+    {
+     "letter": "D",
+     "text": "Assumir sua beleza singular."
+    },
+    {
+     "letter": "E",
+     "text": "Recriar-se por meio da pintura."
+    }
+   ],
+   "figures": [],
+   "number": 1,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A autora destaca o conforto de Frida com sua própria beleza única, fora dos padrões. **Resposta: D**",
+    "keyConcept": "beleza singular",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q2-INGLES",
+   "year": 2017,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "British Government to Recruit Teens as Next Generation of Spies\n\nIn the 50 years since the first James Bond movie created a lasting impression of a British secret agent, a completely different character is about to emerge. Britain’s intelligence agencies are to recruit their next generation of cyber spies by harnessing the talents of the “Xbox generation”.\nIn an expansion of a pilot program, Foreign Secretary William Hague announced Thursday that up to 100 18-year-olds will be given the chance to train for a career in Britain’s secret services. The move to recruit school-leavers marks a break with the past, when agencies mainly drew their staff from among university graduates.\n“Young people are the key to our country’s future success, just as they were during the War”, Hague said. “Today we are not at war, but I see evidence every day of deliberate, organized attacks against intellectual property and government networks in the United Kingdom.”\nThe new recruitment program, called the Single Intelligence Account apprenticeship scheme will enable students with suitable qualifications in science, technology or engineering, to spend two years learning about communications, security and engineering through formal education, technical training and work placements.\n\nJEARY, P. Disponível em: http://worldnews.nbcnews.com. Acesso em: 19 nov. 2012.\n\nSegundo informações veiculadas pela NBC News, a geração digital já tem seu espaço conquistado nas agências britânicas de inteligência. O governo britânico decidiu que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enfrentará a guerra vigente e deliberada contra a propriedade intelectual no Reino Unido."
+    },
+    {
+     "letter": "B",
+     "text": "Abandonará a política de contratação de universitários como agentes secretos."
+    },
+    {
+     "letter": "C",
+     "text": "Recrutará jovens jogadores de Xbox como ciberespiões das agências de inteligência."
+    },
+    {
+     "letter": "D",
+     "text": "Implantará um esquema de capacitação de adolescentes para atuarem como agentes secretos."
+    },
+    {
+     "letter": "E",
+     "text": "Anunciará os nomes dos jovens a serem contratados pelas agências de inteligência."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O governo britânico vai recrutar adolescentes e capacitá-los por dois anos em formação técnica para a espionagem. **Resposta: D**",
+    "keyConcept": "jovens espiões",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q3-INGLES",
+   "year": 2017,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nReader’s Digest, set. 1993.\n\nNesse texto publicitário são utilizados recursos verbais e não verbais para transmitir a mensagem. Ao associar os termos anyplace e regret à imagem do texto, constata-se que o tema da propaganda é a importância da",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Preservação do meio ambiente."
+    },
+    {
+     "letter": "B",
+     "text": "Manutenção do motor."
+    },
+    {
+     "letter": "C",
+     "text": "Escolha da empresa certa."
+    },
+    {
+     "letter": "D",
+     "text": "Consistência do produto."
+    },
+    {
+     "letter": "E",
+     "text": "Conservação do carro."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/ingles/2017/ENEM-LC-2017-REG-D1-C1-Q3-INGLES-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 389,
+     "height": 368
+    }
+   ],
+   "number": 3,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": null
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q4-INGLES",
+   "year": 2017,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "Letters\n\nChildren and Guns\nPublished: May 7, 2013\nTo the Editor: Re “Girl’s Death by Gunshot Is Rejected as Symbol” (news article, May 6):\nI find it abhorrent that the people of Burkesville, Ky., are not willing to learn a lesson from the tragic shooting of a 2-year-old girl by her 5-year-old brother. I am not judging their lifestyle of introducing guns to children at a young age, but I do feel that it’s irresponsible not to practice basic safety with anything potentially lethal — guns, knives, fire and so on. How can anyone justify leaving guns lying around, unlocked and possibly loaded, in a home with two young children? I wish the family of the victim comfort during this difficult time, but to dismiss this as a simple accident leaves open the potential for many more such “accidents” to occur. I hope this doesn’t have to happen several more times for legislators to realize that something needs to be changed.\nEMILY LOUBATON\nBrooklyn, May 6, 2013\n\nDisponível em: www.nytimes.com. Acesso em: 10 maio 2013.\n\nNo que diz respeito à tragédia ocorrida em Burkesville, a autora da carta enviada ao The New York Times busca",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reconhecer o acidente noticiado como um fato isolado."
+    },
+    {
+     "letter": "B",
+     "text": "Responsabilizar o irmão da vítima pelo incidente ocorrido."
+    },
+    {
+     "letter": "C",
+     "text": "Apresentar versão diferente da notícia publicada pelo jornal."
+    },
+    {
+     "letter": "D",
+     "text": "Expor sua indignação com a negligência de portadores de armas."
+    },
+    {
+     "letter": "E",
+     "text": "Reforçar a necessidade de proibição do uso de armas por crianças."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A leitora diz achar \"abhorrent\" tratar o tiro como simples acidente: indignação com a negligência de quem tem armas. **Resposta: D**",
+    "keyConcept": "carta ao editor",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q5-INGLES",
+   "year": 2017,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Israel Travel Guide\n\nIsrael has always been a standout destination. From the days of prophets to the modern day nomad this tiny slice of land on the eastern Mediteranean has long attracted visitors. While some arrive in the ‘Holy Land’ on a spiritual quest, many others are on cultural tours, beach holidays and eco-tourism trips. Weeding through Israel’s convoluted history is both exhilarating and exhausting. There are crumbling temples, ruined cities, abandoned forts and hundreds of places associated with the Bible. And while a sense of adventure is required, most sites are safe and easily accessible. Most of all, Israel is about its incredibly diverse population. Jews come from all over the world to live here, while about 20% of the population is Muslim. Politics are hard to get away from in Israel as everyone has an opinion on how to move the country forward — with a ready ear you’re sure to hear opinions from every side of the political spectrum.\n\nDisponível em: www.worldtravelguide.net. Acesso em: 15 jun. 2012.\n\nAntes de viajar, turistas geralmente buscam informações sobre o local para onde pretendem ir. O trecho do guia de viagens de Israel",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Descreve a história desse local para que turistas valorizem seus costumes milenares."
+    },
+    {
+     "letter": "B",
+     "text": "Informa hábitos religiosos para auxiliar turistas a entenderem as diferenças culturais."
+    },
+    {
+     "letter": "C",
+     "text": "Divulga os principais pontos turísticos para ajudar turistas a planejarem sua viagem."
+    },
+    {
+     "letter": "D",
+     "text": "Recomenda medidas de segurança para alertar turistas sobre possíveis riscos locais."
+    },
+    {
+     "letter": "E",
+     "text": "Apresenta aspectos gerais da cultura do país para continuar a atrair turistas estrangeiros."
+    }
+   ],
+   "figures": [],
+   "number": 5,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O trecho resume aspectos gerais do país (religiões, população, política) para atrair visitantes. **Resposta: E**",
+    "keyConcept": "guia de viagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2018-REG-D1-C1-Q1-INGLES",
+   "year": 2018,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "Lava Mae: Creating Showers on Wheels for the Homeless\n\nSan Francisco, according to recent city numbers, has 4,300 people living on the streets. Among the many problems the homeless face is little or no access to showers.  San Francisco only has about 16 to 20 shower stalls to accommodate them. But Doniece Sandoval has made it her mission to change that. The 51 -year-old former marketing executive started Lava Mae, a sort of showers on wheels, a new\nproject that aims to turn decommissioned city buses into shower stations for the homeless. Each bus will have two shower stations and Sandoval expects that they’ll be able to provide 2,000 showers a week.\n\nANDREANO, C. Disponível em: http://abcnews.go. Acesso em: 26 jun, 2018 (adaptado)\n\nA relação dos vocábulos shower, bus e homeless, no texto, refere-se a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Empregar moradores de rua em lava a jatos para ônibus."
+    },
+    {
+     "letter": "B",
+     "text": "Criar acesso a banhos gratuitos para moradores de rua."
+    },
+    {
+     "letter": "C",
+     "text": "Comissionar sem-teto para dirigir os ônibus da cidade."
+    },
+    {
+     "letter": "D",
+     "text": "Exigir das autoridades que os ônibus municipais tenham banheiros."
+    },
+    {
+     "letter": "E",
+     "text": "Abrigar dois mil moradores de rua em ônibus que foram adaptados."
+    }
+   ],
+   "figures": [],
+   "number": 1,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O projeto converte ônibus desativados em chuveiros para os moradores de rua: acesso a banhos. **Resposta: B**",
+    "keyConcept": "showers on wheels",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2018-REG-D1-C1-Q2-INGLES",
+   "year": 2018,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nGLASBERGEN, R. Disponível em: www.glasbergen.com. Acesso em: 3 jul. 2015 (adaptado).\n\nNo cartum, a crítica está no fato de a sociedade exigir do adolescente que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Se aposente prematuramente."
+    },
+    {
+     "letter": "B",
+     "text": "Amadureça precocemente."
+    },
+    {
+     "letter": "C",
+     "text": "Estude aplicadamente."
+    },
+    {
+     "letter": "D",
+     "text": "Se forme rapidamente."
+    },
+    {
+     "letter": "E",
+     "text": "Ouça atentamente."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/ingles/2018/ENEM-LC-2018-REG-D1-C1-Q2-INGLES-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 329,
+     "height": 235
+    }
+   ],
+   "number": 2,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O cartum critica a sociedade que exige do adolescente responsabilidades de adulto: amadurecer cedo demais. **Resposta: B**",
+    "keyConcept": "cartum",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2018-REG-D1-C1-Q3-INGLES",
+   "year": 2018,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "Don’t write in English, they said,\nEnglish is not your mother tongue…\n…The language I speak\nBecomes mine, its distortions, its queerness\nAll mine, mine alone, it is half English, half\nIndian, funny perhaps, but it is honest,\nIt is as human as I am human…\n…It voices my joys, my longings my\nHopes…\n(Kamala Das, 1965:10)\n\nGARGESH, R. South Asian Englishes. In: KACHRU, B. B.; KACHRU, Y.; NELSON, C. L.\n(Eds.). The Handbook of World Englishes. Singapore: Blackwell, 2006.\n\nA poetisa Kamala Das, como muitos escritores indianos, escreve suas obras em inglês, apesar de essa não ser sua primeira língua. Nesses versos, ela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Usa a língua inglesa com efeito humorístico."
+    },
+    {
+     "letter": "B",
+     "text": "Recorre a vozes de vários escritores ingleses."
+    },
+    {
+     "letter": "C",
+     "text": "Adverte sobre o uso distorcido da língua inglesa."
+    },
+    {
+     "letter": "D",
+     "text": "Demonstra consciência de sua identidade linguística."
+    },
+    {
+     "letter": "E",
+     "text": "Reconhece a incompreensão na sua maneira de falar inglês."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A poeta assume um inglês \"metade indiano\", seu e honesto: consciência da própria identidade linguística. **Resposta: D**",
+    "keyConcept": "World Englishes",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2018-REG-D1-C1-Q4-INGLES",
+   "year": 2018,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\n\nA Free World-class Education for Anyone Anywhere\n\nThe Khan Academy is an organization on a mission. We’re a not-for-profit with the goal of changing education for the better by providing a free world-class education to anyone anywhere. All of the site’s resources are available to anyone. The Khan Academy’s materials and resources are available to you completely free of charge.\n\nDisponível em: www.khanacademy.org. Acesso em: 24 fev. 2012 (adaptado).\n\nTEXTO II\n\nI didn’t have a problem with Khan Academy site until very recently. For me, the problem is the way Khan Academy is being promoted. The way the media sees it as “revolutionizing education”. The way people with power and money view education as simply “sit-and-get”. If your philosophy of education is “sit-and-get”, i.e., teaching is telling and learning is listening, then Khan Academy is way more efficient than classroom lecturing. Khan Academy does it better. But TRUE progressive educators, TRUE education visionaries and revolutionaries don’t want to do these things better. We want to DO BETTER THINGS.\n\nDisponível em: http://fnoschese.wordpress.com. Acesso em: 2 mar. 2012.\n\nCom o impacto das tecnologias e a ampliação das redes sociais, consumidores encontram na internet possibilidades de opinar sobre serviços oferecidos. Nesse sentido, o segundo texto, que é um comentário sobre o site divulgado no primeiro, apresenta a intenção do autor de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Elogiar o trabalho proposto para a educação nessa era tecnológica."
+    },
+    {
+     "letter": "B",
+     "text": "Reforçar como a mídia pode contribuir para revolucionar a educação."
+    },
+    {
+     "letter": "C",
+     "text": "Chamar a atenção das pessoas influentes para o significado da educação."
+    },
+    {
+     "letter": "D",
+     "text": "Destacar que o site tem melhores resultados do que a educação tradicional."
+    },
+    {
+     "letter": "E",
+     "text": "Criticar a concepção de educação em que se baseia a organização."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O comentário diz que os verdadeiros visionários não querem fazer melhor as mesmas coisas, mas fazer coisas melhores: critica a concepção da Khan Academy. **Resposta: E**",
+    "keyConcept": "comentário crítico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2018-REG-D1-C1-Q5-INGLES",
+   "year": 2018,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "‘Is it your opinion, Winston, that the past has real\nexistence?’ […] O’Brien smiled faintly. ‘I will put it more\nprecisely. Does the past exist concretely, in space? Is\nthere somewhere or other a place, a world of solid objects,\nwhere the past is still happening?’\n‘No.’\n‘Then where does the past exist, if at all?’\n‘In records. It is written down.’\n‘In records. And — —?’\n‘In the mind. In human memories.’\n‘In memory. Very well, then. We, the Party, control all\nrecords, and we control all memories. Then we control the\npast, do we not?’\n\nORWELL, G. Nineteen Eighty-Four. New York: Signet Classics, 1977.\n\nO romance 1984 descreve os perigos de um Estado totalitário. A ideia evidenciada nessa passagem é que o controle do Estado se dá por meio do(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Boicote a ideais libertários."
+    },
+    {
+     "letter": "B",
+     "text": "Veto ao culto das tradições."
+    },
+    {
+     "letter": "C",
+     "text": "Poder sobre memórias e registros"
+    },
+    {
+     "letter": "D",
+     "text": "Censura a produções orais e escritas."
+    },
+    {
+     "letter": "E",
+     "text": "Manipulação de pensamentos individuais."
+    }
+   ],
+   "figures": [],
+   "number": 5,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O'Brien: o Partido controla todos os registros e todas as memórias e, portanto, o passado. **Resposta: C**",
+    "keyConcept": "1984",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q1-INGLES",
+   "year": 2019,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "5 Ways Pets Can Improve Your Health\n\nA pet is certainly a great friend. After a difficult day, pet owners quite literally feel the love. In fact, for nearly 25 years, research has shown that living with pets provides certain health benefits. Pets help lower blood pressure and lessen anxiety. They boost our immunity. They can even help you get dates.\n\nAllergy Fighters: A growing number of studies have suggested that kids growing up in a home with “furred animals” will have less risk of allergies and asthma.\n\nDate Magnets: Dogs are great for making love connections. Forget Internet matchmaking — a dog is a natural conversation starter.\n\nDogs for the Aged: Walking a dog or just caring for a pet — for elderly people who are able — can provide exercise and companionship.\n\nGood for Mind and Soul: Like any enjoyable activity, playing with a dog can elevate levels of serotonin and dopamine — nerve transmitters that are known to have pleasurable and calming properties.\n\nGood for the Heart: Heart attack patients who have pets survive longer than those without, according to several studies.\n\nDAVIS, J. L. Disponível em: www.webmd.com. Acesso em: 21 abr. 2013 (adaptado).\n\nAo discutir sobre a influência de animais de estimação no bem-estar do ser humano, a autora, a fim de fortalecer\nseus argumentos, utiliza palavras e expressões como research, a growing number of research e several studies com o objetivo de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mostrar que animais de estimação ajudam na cura de doenças como alergias e asma."
+    },
+    {
+     "letter": "B",
+     "text": "Convencer sobre os benefícios da adoção de animais de estimação para a saúde."
+    },
+    {
+     "letter": "C",
+     "text": "Fornecer dados sobre os impactos de animais de estimação nas relações amorosas."
+    },
+    {
+     "letter": "D",
+     "text": "Explicar como o contato com animais de estimação pode prevenir ataques cardíacos."
+    },
+    {
+     "letter": "E",
+     "text": "Esclarecer sobre o modo como idosos devem se relacionar com animais de estimação."
+    }
+   ],
+   "figures": [],
+   "number": 1,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Expressões como \"research has shown\" dão base científica para convencer dos benefícios dos animais de estimação. **Resposta: B**",
+    "keyConcept": "argumento científico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q2-INGLES",
+   "year": 2019,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "LETTER TO THE EDITOR: Sugar fear-mongering unhelpful\n\nBy The Washington Times Tuesday, June 25, 2013\n\nIn his recent piece “Is obesity a disease?” (Web, June 19), Dr. Peter Lind refers to high-fructose corn syrup and other “manufactured sugars” as “poison” that will “guarantee storage of fat in the body.” Current scientific research strongly indicates that obesity results from excessive calorie intake combined with a sedentary lifestyle. The fact is Americans are consuming more total calories now than ever before. According to the U.S. Department of Agriculture, our total per-capita daily caloric intake increased by 22 percent from 2,076 calories per day in 1970 to 2,534 calories per day in 2010 — an additional 458 calories, only 34 of which come from increased added sugar intake. A vast majority of these calories come from increased fats and flour/ cereals. Surprisingly, the amount of caloric sweeteners (i.e. sugar, high-fructose, corn syrup, honey, etc.). Americans consume has actually decreased over the past decade. We need to continue to study the obesity epidemic to see what more can be done, but demonizing one specific ingredient accomplishes nothing and raises unnecessary fears that get in the way of real solutions.\n\nJAMES M. RIPPE Shrewsbury, Mass.\n\n<p style=”text-align: right;”><strong>Dispon&iacute;vel em:</strong> www.washingtontimes.com. Acesso em: 29 jul. 2013 (adaptado).</p>\n\nAo abordar o assunto “obesidade”, em uma seção de jornal, o autor",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Defende o consumo liberado de açúcar."
+    },
+    {
+     "letter": "B",
+     "text": "Aponta a gordura como o grande vilão da saúde."
+    },
+    {
+     "letter": "C",
+     "text": "Demonstra acreditar que a obesidade não é preocupante."
+    },
+    {
+     "letter": "D",
+     "text": "Indica a necessidade de mais pesquisas sobre o assunto."
+    },
+    {
+     "letter": "E",
+     "text": "Enfatiza a redução de ingestão de calorias pelos americanos."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O autor critica demonizar um só ingrediente e pede para continuar estudando a obesidade: mais pesquisas. **Resposta: D**",
+    "keyConcept": "carta ao editor",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q3-INGLES",
+   "year": 2019,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "In this life\n\nSitting on a park bench\n\nThinking about a friend of mine\n\nHe was only twenty-three\n\nGone before he had his time.\n\nIt came without a warning\n\nDidnꞌt want his friends to see him cry\n\nHe knew the day was dawning\n\nAnd I didnꞌt have a chance to say goodbye.\n\nMADONNA. Erotica. Estados Unidos: Maverick, 1992.\n\nA canção, muitas vezes, é uma forma de manifestar sentimentos e emoções da vida cotidiana. Por exemplo, o sofrimento retratado nessa canção foi causado",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pela morte precoce de um amigo jovem."
+    },
+    {
+     "letter": "B",
+     "text": "Pelo término de um relacionamento amoroso."
+    },
+    {
+     "letter": "C",
+     "text": "Pela mudança de um amigo para outro país."
+    },
+    {
+     "letter": "D",
+     "text": "Pelo fim de uma amizade de mais de vinte anos."
+    },
+    {
+     "letter": "E",
+     "text": "Pela traição por parte de pessoa próxima."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "\"He was only twenty-three, gone before he had his time\": a dor vem da morte precoce do amigo. **Resposta: A**",
+    "keyConcept": "canção",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q4-INGLES",
+   "year": 2019,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "If children live with criticism, they learn to condemn.\n\nIf children live with fear, they learn to be apprehensive.\n\nIf children live with pity, they learn to feel sorry for themselves.\n\nIf children live with ridicule, they learn to feel shy.\n\nIf children live with tolerance, they learn patience.\n\nIf children live with praise, they learn appreciation.\n\nIf children live with acceptance, they learn to love.\n\nIf children live with approval, they learn to like themselves.\n\nIf children live with recognition, they learn it is good to have a goal.\n\nIf children live with sharing, they learn generosity. If children live with fairness, they learn justice.\n\nIf children live with kindness and consideration, they learn respect.\n\nIf children live with friendliness, they learn the world is a nice place in which to live.\n\nNOLTE, D. L. Disponível em: www.americanfamilytraditions.com. Acesso em: 30 jul. 2012.\n\nValores culturais de um povo revelam sua forma de ser, agir e pensar. Na concepção da autora, as diferentes formas de educar crianças nos Estados Unidos confirmam que as crianças",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Temem quem as amedronta."
+    },
+    {
+     "letter": "B",
+     "text": "Aprendem com o que vivem."
+    },
+    {
+     "letter": "C",
+     "text": "Amam aqueles que as aceitam."
+    },
+    {
+     "letter": "D",
+     "text": "São gentis quando respeitadas."
+    },
+    {
+     "letter": "E",
+     "text": "Ridicularizam quem as intimida."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Cada verso diz \"if children live with X, they learn Y\": as crianças aprendem com o que vivem. **Resposta: B**",
+    "keyConcept": "crianças aprendem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q1-INGLES",
+   "year": 2020,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nOs reursos usados nesse pôster de divulgação de uma campanha levam o leitor a refletir sobre a necessidade de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Criticar o tipo de tratamento dado à mulher."
+    },
+    {
+     "letter": "B",
+     "text": "Rever o desempenho da mulher no trabalho."
+    },
+    {
+     "letter": "C",
+     "text": "Questionar a sobrecarga de atribuições da mulher."
+    },
+    {
+     "letter": "D",
+     "text": "Analisar as pesquisas acerca dos direitos da mulher."
+    },
+    {
+     "letter": "E",
+     "text": "Censurar a mulher pelo uso de determinadas palavras."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/ingles/2020/ENEM-LC-2020-REG-D1-C1-Q1-INGLES-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 299,
+     "height": 394
+    }
+   ],
+   "number": 1,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": null
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q2-INGLES",
+   "year": 2020,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nNesse pôster de divulgação de uma campanha que aborda a diversidade e a inclusão, a interação dos elementos verbais e não verbais faz referência ao ato de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Esteriotipar povos de certas culturas"
+    },
+    {
+     "letter": "B",
+     "text": "Discriminar hábitos de grupos minoritários"
+    },
+    {
+     "letter": "C",
+     "text": "Banir imigrantes de determinadas origens"
+    },
+    {
+     "letter": "D",
+     "text": "Julgar padrões de beleza de diversas etnias"
+    },
+    {
+     "letter": "E",
+     "text": "Desvalorizar costumes de algumas sociedades."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/ingles/2020/ENEM-LC-2020-REG-D1-C1-Q2-INGLES-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 233,
+     "height": 373
+    }
+   ],
+   "number": 2,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": null
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q3-INGLES",
+   "year": 2020,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "No Madonna and Child could touch\nHer tenderness for a son\nShe soon would have to forget. . . .\nThe air was heavy with odors of diarrhea,\nOf unwashed children with washed-out ribs\nAnd dried-up bottoms waddling in labored steps\nBehind blown-empty bellies. Other mothers there\nHad long ceased to care, but not this one:\nShe held a ghost-smile between her teeth,\nAnd in her eyes the memory\nOf a mother’s pride. . . . She had bathed him\nAnd rubbed him down with bare palms.\nShe took from their bundle of possessions\nA broken comb and combed\nThe rust-colored hair left on his skull\nAnd then—humming in her eyes—began carefully to part it.\nIn their former life this was perhaps\nA little daily act of no consequence\nBefore his breakfast and school; now she did it\nLike putting flowers on a tiny grave.\n\nACHEBE, C. Collected Poems. New Yorrk: Anchor Books, 2004.\n\nO escritor nigeriano Chinua Achebe traz uma reflexão sobre a situação dos refugiados em um cenário pós-guerra civil em seu páis. Essa reflexão é construída no poema por meio da representação de uma mãe, explorando a(s):",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Demonstração de orgulho por não precisar pedir doações."
+    },
+    {
+     "letter": "B",
+     "text": "Descrições artísticas detalhadas de uma obra conhecida."
+    },
+    {
+     "letter": "C",
+     "text": "Aceitação de um diagnóstico de doença terminal do filho."
+    },
+    {
+     "letter": "D",
+     "text": "Consternação ao visitar o túmulo do filho recém-falecido."
+    },
+    {
+     "letter": "E",
+     "text": "Impressões sensoriais experimentadas no ambiente."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O poema descreve odores de diarreia, costelas à mostra e barrigas inchadas: impressões sensoriais do campo de refugiados. **Resposta: E**",
+    "keyConcept": "Chinua Achebe",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q4-INGLES",
+   "year": 2020,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "A Minor Bird\n\nI have wished a bird would fly away,\nAnd not sing by my house all day;\n\nHave clapped my hands at him from the door\nWhen it seemed as if I could bear no more.\nThe fault must partly have been in me.\nThe bird was not to blame for his keys.\n\nAnd of course there must be something wrong\nIn waiting to silence any song.\n\nFROST, R. West-running Brook. New York: Henry Holt and Company, 1928.\n\nNo poema de Robert Frost, as palavras fault e blame revelam por parte do eu lírico uma",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Culpa por não poder cuidar do pássaro."
+    },
+    {
+     "letter": "B",
+     "text": "Atitude errada por querer matar o pássaro."
+    },
+    {
+     "letter": "C",
+     "text": "Necessidade de entender o silêncio do pássaro."
+    },
+    {
+     "letter": "D",
+     "text": "Sensibilização com relação à natureza do pássaro."
+    },
+    {
+     "letter": "E",
+     "text": "Irritação quanto à persistência do canto do pássaro."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "\"The fault must partly have been in me\", e o pássaro não tem culpa: o eu lírico passa a respeitar a natureza do pássaro. **Resposta: D**",
+    "keyConcept": "A Minor Bird",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q5-INGLES",
+   "year": 2020,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Finally, Aisha finished with her customer and asked what colour Ifemelu wanted for her hair attachments.\n“Colour four.”\n“Not good colour,” Aisha said promptly.\n“That’s what I use.”\n“It look dirty. You don’t want colour one?”\n“Colour one is too black, it looks fake,” Ifemelu said, loosening her headwrap. “Sometimes I use colour two, but colour four is closest to my natural colour.”\nAisha shrugged, a haughty shrug, as though it was not her problem if her customer did not have good taste. She reached into a cupboard, brought out two packets of attachments, checked to make sure they\nwere both the same colour.\nShe touched Ifemelu’s hair. “Why you don’t have relaxer?”\n“I like my hair the way God made it.”\n“But how you comb it? Hard to comb,” Aisha said.\nIfemelu had brought her own comb. She gently combed her hair, dense, soft and tightly coiled, until it framed her head like a halo. “It’s not hard to comb if you moisturize it properly,” she said, slipping into the coaxing tone of the proselytizer that she used whenever she was trying to convince other black women about the merits of wearing their hair natural. Aisha snorted; she clearly could not understand why anybody would choose to suffer through combing natural hair, instead of simply relaxing it. She sectioned out Ifemelu’s hair, plucked a little attachment from the pile on the table and began deftly to twist.\n\nADICHIE, C. Americanah: A novel. New York: Archor Books, 2013.\n\nA passagem do romance da escritora nigeriana traz um diálogo entre duas mulheres negras: a cabeleireira, Aisha, e a cliente, Ifemelu. O posicionamento da cliente é sustentado por argumentos que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reforçam um padrão de beleza."
+    },
+    {
+     "letter": "B",
+     "text": "Retratam um conflito de gerações."
+    },
+    {
+     "letter": "C",
+     "text": "Revelam uma atitude de resistência."
+    },
+    {
+     "letter": "D",
+     "text": "Demonstram uma postura de imaturidade."
+    },
+    {
+     "letter": "E",
+     "text": "Evidenciam uma mudança de comportamento."
+    }
+   ],
+   "figures": [],
+   "number": 5,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Ifemelu recusa a cor \"falsa\" e defende o cabelo natural contra o alisamento: atitude de resistência. **Resposta: C**",
+    "keyConcept": "Americanah",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q1-INGLES",
+   "year": 2022,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "As my official bio reads, I was made in Cuba, assembled in Spain, and imported to the United States – meaning my mother, seven months pregnant, and the rest of my family arrived as exiles from Cuba to Madrid, where I was born. Less than two months later, we emigrated once more and settled in New York City, then eventually in Miami, where I was raised and educated. Although technically we lived in the United States, the Cuban community was culturally insular in Miami during the 1970s, bonded together by the trauma of exile. What’s more, it seemed that practically everyone was Cuban: my teachers, my classmates, the mechanic, the bus driver. I didn’t grow up feeling different or treated as a minority. The few kids who got picked on in my grade school were the ones with freckles and funny last names like Dawson and O’Neil.\n\nBLANCO, R. Disponível em: http://edition.cnn.com. Acesso em: 9 dez. 2017 (adaptado).\n\nAo relatar suas vivências, o autor destaca o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Qualidade da educação formal em Miami."
+    },
+    {
+     "letter": "B",
+     "text": "Prestígio da cultura cubana nos Estados Unidos."
+    },
+    {
+     "letter": "C",
+     "text": "Oportunidade de qualificação profissional em Miami."
+    },
+    {
+     "letter": "D",
+     "text": "Cenário da integração de cubanos nos Estados Unidos."
+    },
+    {
+     "letter": "E",
+     "text": "Fortalecimento do elo familiar em comunidades estadunidenenses."
+    }
+   ],
+   "figures": [],
+   "number": 1,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O autor cresceu em Miami entre cubanos sem se sentir minoria: retrata a integração dos cubanos nos EUA. **Resposta: D**",
+    "keyConcept": "exílio cubano",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q2-INGLES",
+   "year": 2022,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Two hundred years ago, Jane Austen lived in a world where single men boasted vast estates; single ladies were expected to speak several languages, sing and play the piano. In both cases, it was, of course, advantageous if you looked good too. So, how much has – or hasn’t – changed? Dating apps opaquely outline the demands of today’s relationship market; users ruminate long and hard over their choice of pictures and what they write in their biographies to hook in potential lovers, and that’s just your own profile. What do you look for in a future partner’s profile – potential signifiers of a popular personality, a good job, a nice car? These apps are a poignant reminder of the ofter classist attitudes we still adopt, as well as the financial and aesthetic expectations we demand from potential partners.\n\nO texto aborda relações interpessoais com o objetivo de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Problematizar o papel de gênero em casamentos modernos."
+    },
+    {
+     "letter": "B",
+     "text": "Apontar a relevância da educação formal na escolha de parceiro."
+    },
+    {
+     "letter": "C",
+     "text": "Comparar a expectativa de parceiros amorosos em épocas distintas."
+    },
+    {
+     "letter": "D",
+     "text": "Discutir o uso de aplicativos para proporcionar encontros românticos."
+    },
+    {
+     "letter": "E",
+     "text": "Valorizar a importância da aparência física na seleção de pretendentes."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O texto compara as exigências da época de Austen com os perfis de aplicativos de hoje: expectativas em épocas distintas. **Resposta: C**",
+    "keyConcept": "Jane Austen e apps",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q4-INGLES",
+   "year": 2022,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "A Teen’s View of Social Media\n\nInstagram is by far my favorite. It is made up of all photos and videos, which is perfect for visual people like me. There is the home page that showcases the posts from people you follow, an explore tab which offers posts from accounts all over the world, and your own page, with a notification tab to show who likes and comments on your posts.\n\nIt has some downsides though.  It is known to make many people feel insecure or down about themselves because the platform showcases the highlights of everyone’s lives, while rarely showing the negatives. This can make one feel like their life is not going as well as others, contributing to the growing rates of anxiety or depression in many teens today. There is an underlying desire for acceptance through the number of likes or followers one has.\n\nDisponível em: https://cyberbullying.org/. Acesso em: 29 out. 2021.\n\nO termo “downsides” introduz a ideia de que o Instagram é responsável por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Oferecer recursos de fotografia."
+    },
+    {
+     "letter": "B",
+     "text": "Divulgar problemas dos usuários."
+    },
+    {
+     "letter": "C",
+     "text": "Estimular aceitação dos seguidores."
+    },
+    {
+     "letter": "D",
+     "text": "Provocar ansiedade nos adolescentes."
+    },
+    {
+     "letter": "E",
+     "text": "Aproximar pessoas ao redor do mundo."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Os \"downsides\" vêm depois: o Instagram mostra só os destaques da vida alheia e alimenta ansiedade e depressão nos jovens. **Resposta: D**",
+    "keyConcept": "downsides",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q5-INGLES",
+   "year": 2022,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "I tend the mobile now\nlike an injured bird\n\nWe text, text, text\nour significant words.\n\nI re-read your first,\nyour second, your third,\n\nLook for your small xx,\nfeeling absurd.\n\nThe codes we send\narrive with a broken chord.\n\nI try to picture your hands,\ntheir image is blurred.\n\nNothing my thumbs press\nwill ever be heard.\n\nDUFFY, C. Disponível em: www.independent.co.uk. Acesso em: 27 out. 2021.\n\nNesse poema, o eu lírico evidencia um sentimento de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Contentamento com a interação virtual."
+    },
+    {
+     "letter": "B",
+     "text": "Zelo com o envio de mensagens."
+    },
+    {
+     "letter": "C",
+     "text": "Preocupação com a composição de textos."
+    },
+    {
+     "letter": "D",
+     "text": "Mágoa com o comportamento de alguém."
+    },
+    {
+     "letter": "E",
+     "text": "Insatisfação com uma forma de comunicação."
+    }
+   ],
+   "figures": [],
+   "number": 5,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O eu lírico cuida do celular \"como um pássaro ferido\"; os códigos chegam \"quebrados\" e nada será ouvido: insatisfação com essa comunicação. **Resposta: E**",
+    "keyConcept": "Carol Ann Duffy",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q2-INGLES",
+   "year": 2023,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "No man is an island,\nEntire of itself;\nEvery man is a piece of the continent,\nA part of the main.\n[…]\nAny man’s death diminishes me,\nBecause I am involved in mankind.\n\nDONNE, J. The Works of John Donne. Londres: John W. Parker, 1839 (fragmento).\n\nNesse poema, a expressão “No man is an island” ressalta o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Medo da morte."
+    },
+    {
+     "letter": "B",
+     "text": "Ideia de conexão."
+    },
+    {
+     "letter": "C",
+     "text": "Conceito de solidão."
+    },
+    {
+     "letter": "D",
+     "text": "Risco de devastação."
+    },
+    {
+     "letter": "E",
+     "text": "Necessidade de empatia."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "\"No man is an island… a part of the main\": todos estão ligados à humanidade. **Resposta: B**",
+    "keyConcept": "John Donne",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q3-INGLES",
+   "year": 2023,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Things We Carry on the Sea\n\nWe carry tears in our eyes: good-bye father, good-bye mother\nWe carry soi in smal bags: may home never fade in our hearts\nWe carry carnage of mining. droughts, floods, genocides\nWe carry dust of our families and neighbors incinerated in mushroom clouds\nWe carry our islands sinking under the sea\nWe carry our hands, feet, bones, hearts and best minds for a new life\nWe carry diplomas: medicine, engineer, nurse, education, math, poetry, even if they mean nothing to the other shore\nWe carry railroads, plantations, laundromats. bodegas, taco trucks, farms, factories, nursing homes, hospitals, schools, temples… built on our ancestors’ backs\nWe carry old homes along the spine, new dreams in our chests\nWe carry yesterday, today and tomorrow\nWe’re orphans of the wars forced upon us\nWe’re refugees of the sea rising from industrial wastes\nAnd we carry our mother tongues\n[…]\nAs we drift… in our rubber boats… from shore… to shore…. to shore…\n\nPING. W. Disponivel em: https://poets.org. Acesso en 1 jun. 2023 (fragmento)\n\nAo retratar a trajetória de refugiados, o poema recorre à imagem de viagem marítima para destacar o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Risco de choques culturais."
+    },
+    {
+     "letter": "B",
+     "text": "Impacto do ensino de história."
+    },
+    {
+     "letter": "C",
+     "text": "Importância da luta ambiental."
+    },
+    {
+     "letter": "D",
+     "text": "Existência de experiências plurais."
+    },
+    {
+     "letter": "E",
+     "text": "Necessidade de capacitação profissional."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Os refugiados carregam lágrimas, terra, guerras, línguas maternas: experiências plurais. **Resposta: D**",
+    "keyConcept": "refugiados",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q4-INGLES",
+   "year": 2023,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "Spanglish\n\npues estoy creando Spanglish\nbi-cultural systems\nscientific lexicographical\ninter-textual integrations\ntwo expressions\nexistentially wired\ntwo dominant languages\ncontinentally abrazándose\nin colloquial combate\nimperio spanglish emerges\nsobre territorio bi-lingual\nlas novelas mexicanas\nmixing with radiorocknroll\nimmigrant/migrant\nnasal mispronouncements\nhip-hop, street salsa, spanish pop\nstandard english classroom\nwith computer technicalities\nspanglish is literally perfect\n\nLAVIERA T. Benedición. The Complete Poetry of Talo Laviera. Houston: Arte Público Press, 2014 (fragmento).\n\nNesse poema de Tato Laviera, o eu lírico destaca uma",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Convergência linguístico-cultural."
+    },
+    {
+     "letter": "B",
+     "text": "Características históricio-cultural."
+    },
+    {
+     "letter": "C",
+     "text": "Tendência estilístico-literária"
+    },
+    {
+     "letter": "D",
+     "text": "Discriminação cultural."
+    },
+    {
+     "letter": "E",
+     "text": "Censura musical."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O poema mistura inglês e espanhol, novela mexicana e rock: convergência linguístico-cultural. **Resposta: A**",
+    "keyConcept": "Spanglish",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  }
+ ]
+}

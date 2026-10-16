@@ -1,0 +1,1239 @@
+[
+{
+"ano": 2010,
+"n": 91,
+"lingua": "ingles",
+"fora": "sem gabarito oficial legível (2010: caderno com gabarito marcado não separa Inglês/Espanhol)"
+},
+{
+"ano": 2010,
+"n": 92,
+"lingua": "ingles",
+"fora": "sem gabarito oficial legível (2010: caderno com gabarito marcado não separa Inglês/Espanhol)"
+},
+{
+"ano": 2010,
+"n": 93,
+"lingua": "ingles",
+"fora": "sem gabarito oficial legível (2010: caderno com gabarito marcado não separa Inglês/Espanhol)"
+},
+{
+"ano": 2010,
+"n": 94,
+"lingua": "ingles",
+"fora": "sem gabarito oficial legível (2010: caderno com gabarito marcado não separa Inglês/Espanhol)"
+},
+{
+"ano": 2010,
+"n": 95,
+"lingua": "ingles",
+"fora": "sem gabarito oficial legível (2010: caderno com gabarito marcado não separa Inglês/Espanhol)"
+},
+{
+"ano": 2010,
+"n": 91,
+"lingua": "espanhol",
+"fora": "sem gabarito oficial legível (2010: caderno com gabarito marcado não separa Inglês/Espanhol)"
+},
+{
+"ano": 2010,
+"n": 92,
+"lingua": "espanhol",
+"fora": "sem gabarito oficial legível (2010: caderno com gabarito marcado não separa Inglês/Espanhol)"
+},
+{
+"ano": 2010,
+"n": 93,
+"lingua": "espanhol",
+"fora": "sem gabarito oficial legível (2010: caderno com gabarito marcado não separa Inglês/Espanhol)"
+},
+{
+"ano": 2010,
+"n": 94,
+"lingua": "espanhol",
+"fora": "sem gabarito oficial legível (2010: caderno com gabarito marcado não separa Inglês/Espanhol)"
+},
+{
+"ano": 2010,
+"n": 95,
+"lingua": "espanhol",
+"fora": "sem gabarito oficial legível (2010: caderno com gabarito marcado não separa Inglês/Espanhol)"
+},
+{
+"ano": 2011,
+"n": 91,
+"lingua": "ingles",
+"fora": "questão ausente no dataset"
+},
+{
+"ano": 2011,
+"n": 92,
+"lingua": "ingles",
+"fora": "questão ausente no dataset"
+},
+{
+"ano": 2011,
+"n": 93,
+"lingua": "ingles",
+"fora": "questão ausente no dataset"
+},
+{
+"ano": 2011,
+"n": 94,
+"lingua": "ingles",
+"fora": "questão ausente no dataset"
+},
+{
+"ano": 2011,
+"n": 95,
+"lingua": "ingles",
+"fora": "questão ausente no dataset"
+},
+{
+"ano": 2011,
+"n": 91,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2011,
+"n": 92,
+"lingua": "espanhol",
+"cob": 0.991,
+"falta": [
+"pacientes"
+]
+},
+{
+"ano": 2011,
+"n": 93,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2011,
+"n": 94,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2011,
+"n": 95,
+"lingua": "espanhol",
+"fora": "questão ausente no dataset"
+},
+{
+"ano": 2012,
+"n": 91,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2012,
+"n": 92,
+"lingua": "ingles",
+"cob": 0.982,
+"falta": [
+"february",
+"last"
+]
+},
+{
+"ano": 2012,
+"n": 93,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2012,
+"n": 94,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2012,
+"n": 95,
+"lingua": "ingles",
+"cob": 0.977,
+"falta": [
+"questoes"
+]
+},
+{
+"ano": 2012,
+"n": 91,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2012,
+"n": 92,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2012,
+"n": 93,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2012,
+"n": 94,
+"lingua": "espanhol",
+"fora": "questão ausente no dataset"
+},
+{
+"ano": 2012,
+"n": 95,
+"lingua": "espanhol",
+"cob": 0.923,
+"falta": [
+"cosa",
+"demas",
+"dreamers",
+"http",
+"mafalda",
+"mucama",
+"mujer",
+"mujerez",
+"otra",
+"poco",
+"quino",
+"status"
+]
+},
+{
+"ano": 2013,
+"n": 91,
+"lingua": "ingles",
+"cob": 0.971,
+"falta": [
+"antonio",
+"until",
+"with"
+]
+},
+{
+"ano": 2013,
+"n": 92,
+"lingua": "ingles",
+"cob": 0.888,
+"falta": [
+"descobriu",
+"estudante",
+"leading",
+"made",
+"making",
+"natural",
+"other",
+"plant",
+"science",
+"studies"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 89%)"
+},
+{
+"ano": 2013,
+"n": 93,
+"lingua": "ingles",
+"cob": 0.962,
+"falta": [
+"apple",
+"looks",
+"midia"
+]
+},
+{
+"ano": 2013,
+"n": 94,
+"lingua": "ingles",
+"cob": 0.992,
+"falta": [
+"todo"
+]
+},
+{
+"ano": 2013,
+"n": 95,
+"lingua": "ingles",
+"cob": 0.952,
+"falta": [
+"gocomics",
+"questoes"
+]
+},
+{
+"ano": 2013,
+"n": 91,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2013,
+"n": 92,
+"lingua": "espanhol",
+"cob": 0.942,
+"falta": [
+"fruta",
+"popular",
+"rica"
+]
+},
+{
+"ano": 2013,
+"n": 93,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2013,
+"n": 94,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2013,
+"n": 95,
+"lingua": "espanhol",
+"cob": 0.98,
+"falta": [
+"cidades",
+"pueblo",
+"questoes"
+]
+},
+{
+"ano": 2014,
+"n": 91,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2014,
+"n": 92,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2014,
+"n": 93,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2014,
+"n": 94,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2014,
+"n": 95,
+"lingua": "ingles",
+"cob": 0.975,
+"falta": [
+"http",
+"questoes",
+"wefeedback"
+]
+},
+{
+"ano": 2014,
+"n": 91,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2014,
+"n": 92,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2014,
+"n": 93,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2014,
+"n": 94,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2014,
+"n": 95,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2015,
+"n": 91,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2015,
+"n": 92,
+"lingua": "ingles",
+"cob": 0.97,
+"falta": [
+"serie"
+]
+},
+{
+"ano": 2015,
+"n": 93,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2015,
+"n": 94,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2015,
+"n": 95,
+"lingua": "ingles",
+"fora": "questão ausente no dataset"
+},
+{
+"ano": 2015,
+"n": 91,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2015,
+"n": 92,
+"lingua": "espanhol",
+"cob": 0.989,
+"falta": [
+"expressao"
+]
+},
+{
+"ano": 2015,
+"n": 93,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2015,
+"n": 94,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2015,
+"n": 95,
+"lingua": "espanhol",
+"cob": 0.99,
+"falta": [
+"questoes"
+]
+},
+{
+"ano": 2016,
+"n": 91,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2016,
+"n": 92,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2016,
+"n": 93,
+"lingua": "ingles",
+"fora": "questão ausente no dataset"
+},
+{
+"ano": 2016,
+"n": 94,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2016,
+"n": 95,
+"lingua": "ingles",
+"cob": 0.976,
+"falta": [
+"questoes",
+"with"
+]
+},
+{
+"ano": 2016,
+"n": 91,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2016,
+"n": 92,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2016,
+"n": 93,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2016,
+"n": 94,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2016,
+"n": 95,
+"lingua": "espanhol",
+"cob": 0.952,
+"falta": [
+"questoes"
+]
+},
+{
+"ano": 2017,
+"n": 1,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2017,
+"n": 2,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2017,
+"n": 3,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2017,
+"n": 4,
+"lingua": "ingles",
+"cob": 0.98,
+"falta": [
+"pero"
+]
+},
+{
+"ano": 2017,
+"n": 5,
+"lingua": "ingles",
+"cob": 0.984,
+"falta": [
+"questoes"
+]
+},
+{
+"ano": 2017,
+"n": 1,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2017,
+"n": 2,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2017,
+"n": 3,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2017,
+"n": 4,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2017,
+"n": 5,
+"lingua": "espanhol",
+"cob": 0.99,
+"falta": [
+"questoes"
+]
+},
+{
+"ano": 2018,
+"n": 1,
+"lingua": "ingles",
+"cob": 0.984,
+"falta": [
+"they"
+]
+},
+{
+"ano": 2018,
+"n": 2,
+"lingua": "ingles",
+"cob": 0.941,
+"falta": [
+"adolescente"
+]
+},
+{
+"ano": 2018,
+"n": 3,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2018,
+"n": 4,
+"lingua": "ingles",
+"cob": 0.906,
+"falta": [
+"divulgado",
+"does",
+"possibilidades",
+"redes",
+"segundo",
+"sociais",
+"these",
+"until"
+]
+},
+{
+"ano": 2018,
+"n": 5,
+"lingua": "ingles",
+"cob": 0.986,
+"falta": [
+"questoes"
+]
+},
+{
+"ano": 2018,
+"n": 1,
+"lingua": "espanhol",
+"cob": 0.958,
+"falta": [
+"aquel",
+"despertar",
+"esos",
+"remete"
+]
+},
+{
+"ano": 2018,
+"n": 2,
+"lingua": "espanhol",
+"cob": 0.828,
+"falta": [
+"bajo",
+"cambio",
+"circular",
+"climatico",
+"construido",
+"desse",
+"enfrenta",
+"estruturas",
+"expressao",
+"expressos",
+"grandes",
+"indica",
+"internacional",
+"mercado",
+"modular"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 83%)"
+},
+{
+"ano": 2018,
+"n": 3,
+"lingua": "espanhol",
+"cob": 0.906,
+"falta": [
+"activo",
+"desfavorecidos",
+"enfrentamento",
+"ocorre",
+"personas",
+"quando"
+]
+},
+{
+"ano": 2018,
+"n": 4,
+"lingua": "espanhol",
+"cob": 0.935,
+"falta": [
+"administrar",
+"demandas",
+"lengua",
+"objetivo",
+"outras",
+"trata"
+]
+},
+{
+"ano": 2018,
+"n": 5,
+"lingua": "espanhol",
+"cob": 0.947,
+"falta": [
+"calles",
+"casas",
+"indignados",
+"protestos",
+"questoes"
+]
+},
+{
+"ano": 2019,
+"n": 1,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2019,
+"n": 2,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2019,
+"n": 3,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2019,
+"n": 4,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2019,
+"n": 5,
+"lingua": "ingles",
+"fora": "questão ausente no dataset"
+},
+{
+"ano": 2019,
+"n": 1,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2019,
+"n": 2,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2019,
+"n": 3,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2019,
+"n": 4,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2019,
+"n": 5,
+"lingua": "espanhol",
+"cob": 0.993,
+"falta": [
+"questoes"
+]
+},
+{
+"ano": 2020,
+"n": 1,
+"lingua": "ingles",
+"cob": 0.906,
+"falta": [
+"https",
+"recursos",
+"sites"
+]
+},
+{
+"ano": 2020,
+"n": 2,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2020,
+"n": 3,
+"lingua": "ingles",
+"cob": 0.936,
+"falta": [
+"began",
+"broken",
+"comb",
+"eyes",
+"mother",
+"then",
+"took",
+"york"
+]
+},
+{
+"ano": 2020,
+"n": 4,
+"lingua": "ingles",
+"cob": 0.983,
+"falta": [
+"palavras"
+]
+},
+{
+"ano": 2020,
+"n": 5,
+"lingua": "ingles",
+"cob": 0.951,
+"falta": [
+"anchor",
+"instead",
+"little",
+"questoes",
+"their",
+"trying"
+]
+},
+{
+"ano": 2020,
+"n": 1,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2020,
+"n": 2,
+"lingua": "espanhol",
+"cob": 0.986,
+"falta": [
+"allende",
+"posicionamento"
+]
+},
+{
+"ano": 2020,
+"n": 3,
+"lingua": "espanhol",
+"cob": 0.993,
+"falta": [
+"marcar"
+]
+},
+{
+"ano": 2020,
+"n": 4,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2020,
+"n": 5,
+"lingua": "espanhol",
+"fora": "questão ausente no dataset"
+},
+{
+"ano": 2021,
+"n": 1,
+"lingua": "ingles",
+"cob": 0.0,
+"falta": [
+"aplicacao"
+],
+"fora": "texto não conferível com a prova oficial"
+},
+{
+"ano": 2021,
+"n": 2,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial"
+},
+{
+"ano": 2021,
+"n": 3,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial"
+},
+{
+"ano": 2021,
+"n": 4,
+"lingua": "ingles",
+"cob": 0.0,
+"falta": [
+"aplicacao"
+],
+"fora": "texto não conferível com a prova oficial"
+},
+{
+"ano": 2021,
+"n": 5,
+"lingua": "ingles",
+"cob": 0.857,
+"falta": [
+"questoes"
+],
+"fora": "texto não conferível com a prova oficial"
+},
+{
+"ano": 2021,
+"n": 1,
+"lingua": "espanhol",
+"cob": 0.968,
+"falta": [
+"aplicacao"
+]
+},
+{
+"ano": 2021,
+"n": 2,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2021,
+"n": 3,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2021,
+"n": 4,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial"
+},
+{
+"ano": 2021,
+"n": 5,
+"lingua": "espanhol",
+"cob": 0.1,
+"falta": [
+"crisis",
+"dios",
+"guerra",
+"lujo",
+"miseria",
+"nosotros",
+"pasado",
+"questoes",
+"violencia"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 10%)"
+},
+{
+"ano": 2022,
+"n": 1,
+"lingua": "ingles",
+"cob": 0.99,
+"falta": [
+"estadunidenses"
+]
+},
+{
+"ano": 2022,
+"n": 2,
+"lingua": "ingles",
+"cob": 0.982,
+"falta": [
+"aplicacao",
+"often"
+]
+},
+{
+"ano": 2022,
+"n": 3,
+"lingua": "ingles",
+"cob": 0.5,
+"falta": [
+"believe",
+"books",
+"cant",
+"dark",
+"dead",
+"here",
+"high",
+"into",
+"leave",
+"long",
+"many",
+"morning",
+"never",
+"read",
+"suppose"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 50%)"
+},
+{
+"ano": 2022,
+"n": 4,
+"lingua": "ingles",
+"cob": 0.989,
+"falta": [
+"some"
+]
+},
+{
+"ano": 2022,
+"n": 5,
+"lingua": "ingles",
+"cob": 0.966,
+"falta": [
+"aplicacao",
+"questoes"
+]
+},
+{
+"ano": 2022,
+"n": 1,
+"lingua": "espanhol",
+"cob": 0.579,
+"falta": [
+"contigo",
+"cultural",
+"difundir",
+"educacion",
+"gran",
+"gusto",
+"hablan",
+"indigenas",
+"instituto",
+"lenguas",
+"nacion",
+"nacional",
+"nuestra",
+"nuestro",
+"pais"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 58%)"
+},
+{
+"ano": 2022,
+"n": 2,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2022,
+"n": 3,
+"lingua": "espanhol",
+"cob": 0.985,
+"falta": [
+"aplicacao"
+]
+},
+{
+"ano": 2022,
+"n": 4,
+"lingua": "espanhol",
+"cob": 0.947,
+"falta": [
+"argentina",
+"descaso",
+"fragmento",
+"libre"
+]
+},
+{
+"ano": 2022,
+"n": 5,
+"lingua": "espanhol",
+"cob": 0.577,
+"falta": [
+"aplicacao",
+"condiciones",
+"covid",
+"esta",
+"estado",
+"estan",
+"este",
+"facil",
+"herramientas",
+"incremento",
+"lugar",
+"mejor",
+"mujeres",
+"nulas",
+"nunca"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 58%)"
+},
+{
+"ano": 2023,
+"n": 1,
+"lingua": "ingles",
+"cob": 0.571,
+"falta": [
+"american",
+"americas",
+"behance",
+"each",
+"earth",
+"food",
+"https",
+"keep",
+"making",
+"number",
+"year",
+"your"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 57%)"
+},
+{
+"ano": 2023,
+"n": 2,
+"lingua": "ingles",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2023,
+"n": 3,
+"lingua": "ingles",
+"cob": 0.982,
+"falta": [
+"small",
+"soil"
+]
+},
+{
+"ano": 2023,
+"n": 4,
+"lingua": "ingles",
+"cob": 0.971,
+"falta": [
+"caracteristica",
+"historico"
+]
+},
+{
+"ano": 2023,
+"n": 5,
+"lingua": "ingles",
+"fora": "figura ausente"
+},
+{
+"ano": 2023,
+"n": 1,
+"lingua": "espanhol",
+"fora": "figura ausente"
+},
+{
+"ano": 2023,
+"n": 2,
+"lingua": "espanhol",
+"cob": 0.981,
+"falta": [
+"espejo"
+]
+},
+{
+"ano": 2023,
+"n": 3,
+"lingua": "espanhol",
+"cob": 1.0,
+"falta": []
+},
+{
+"ano": 2023,
+"n": 4,
+"lingua": "espanhol",
+"cob": 0.982,
+"falta": [
+"resultado",
+"tecnicas"
+]
+},
+{
+"ano": 2023,
+"n": 5,
+"lingua": "espanhol",
+"cob": 0.991,
+"falta": [
+"questoes"
+]
+}
+]

@@ -15,6 +15,10 @@ const carregar: Record<Exclude<MateriaId, "fisica" | "natureza">, () => Promise<
   quimica: () => import("./materias/quimica.json").then((m) => m.default as unknown as Raw),
   geografia: () => import("./materias/geografia.json").then((m) => m.default as unknown as Raw),
   portugues: () => import("./materias/portugues.json").then((m) => m.default as unknown as Raw),
+  arte: () => import("./materias/arte.json").then((m) => m.default as unknown as Raw),
+  educacao_fisica: () => import("./materias/educacao_fisica.json").then((m) => m.default as unknown as Raw),
+  ingles: () => import("./materias/ingles.json").then((m) => m.default as unknown as Raw),
+  espanhol: () => import("./materias/espanhol.json").then((m) => m.default as unknown as Raw),
 };
 const CONTAGEM: Record<MateriaId, number> = { fisica: FISICA_RAW.questions.length, ...contagem, natureza: 0 };
 CONTAGEM.natureza = CONTAGEM.fisica + CONTAGEM.biologia + CONTAGEM.quimica;

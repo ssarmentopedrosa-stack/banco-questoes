@@ -21,7 +21,7 @@ export type Question = {
 
 export type Raw = { meta: { total: number; porAno: Record<string, number>; [k: string]: unknown }; questions: Question[] };
 export type TopicInfo = { name: string; emoji: string; badge: string; cor: string; corClara: string; texto: string };
-export type MateriaId = "fisica" | "biologia" | "quimica" | "geografia" | "portugues" | "natureza";
+export type MateriaId = "fisica" | "biologia" | "quimica" | "geografia" | "portugues" | "arte" | "educacao_fisica" | "ingles" | "espanhol" | "natureza";
 export type MateriaInfo = {
   id: MateriaId;
   nome: string;
@@ -115,6 +115,45 @@ export const MATERIAS: MateriaInfo[] = [
       t("Gramática e Norma-Padrão", "✏️", "Guardião da Norma", "noite"),
     ],
     fraseAcerto: "Isso! Português de quem vai passar!", fraseOtimo: "Mandou muito bem! Leitura afiada rumo ao ENEM! 📚", nivel3: "Mestre das Letras",
+  },
+  {
+    id: "arte", nome: "Arte", emoji: "🎨", key: "tigrao-enem-arte-v1", subtitulo: "Arte, questões oficiais", area: "Linguagens e Códigos",
+    topicos: [
+      t("Artes Visuais", "🖼️", "Olhar de Artista", "roxo"),
+      t("Música", "🎵", "Ouvido Absoluto", "laranja"),
+      t("Teatro e Dança", "🎭", "Estrela da Cena", "vermelho"),
+    ],
+    fraseAcerto: "Isso! Arte de quem vai passar!", fraseOtimo: "Mandou muito bem! Uma obra-prima rumo ao ENEM! 🎨", nivel3: "Mestre das Artes",
+  },
+  {
+    id: "educacao_fisica", nome: "Educação Física", emoji: "🏃", key: "tigrao-enem-educacao_fisica-v1", subtitulo: "Educação Física, questões oficiais", area: "Linguagens e Códigos",
+    topicos: [
+      t("Esporte e Sociedade", "⚽", "Craque da Sociedade", "azul"),
+      t("Saúde e Qualidade de Vida", "💪", "Corpo em Dia", "teal"),
+      t("Danças, Lutas, Jogos e Brincadeiras", "🥋", "Mestre do Movimento", "laranja"),
+      t("Corpo, Mídia e Padrões de Beleza", "🪞", "Olhar Crítico", "roxo"),
+    ],
+    fraseAcerto: "Isso! Educação Física de quem vai passar!", fraseOtimo: "Mandou muito bem! Fôlego de campeão rumo ao ENEM! 🏃", nivel3: "Atleta do ENEM",
+  },
+  {
+    id: "ingles", nome: "Inglês", emoji: "🇬🇧", key: "tigrao-enem-ingles-v1", subtitulo: "Inglês, questões oficiais", area: "Linguagens e Códigos",
+    topicos: [
+      t("Interpretação e Gêneros Textuais", "📰", "Reader Pro", "azul"),
+      t("Literatura e Canção", "🎤", "Poet Mode", "roxo"),
+      t("Cultura e Sociedade", "🌍", "Global Citizen", "teal"),
+      t("Vocabulário e Expressões", "🔤", "Word Hunter", "laranja"),
+    ],
+    fraseAcerto: "Nice! Inglês de quem vai passar!", fraseOtimo: "Awesome! Mandou muito bem rumo ao ENEM! 🇬🇧", nivel3: "Fluent Tiger",
+  },
+  {
+    id: "espanhol", nome: "Espanhol", emoji: "🇪🇸", key: "tigrao-enem-espanhol-v1", subtitulo: "Espanhol, questões oficiais", area: "Linguagens e Códigos",
+    topicos: [
+      t("Interpretação e Gêneros Textuais", "📰", "Lector Experto", "azul"),
+      t("Literatura e Canção", "🎸", "Alma Poética", "roxo"),
+      t("Cultura e Sociedade", "🌎", "Ciudadano del Mundo", "teal"),
+      t("Vocabulário e Expressões", "🔤", "Cazador de Palabras", "laranja"),
+    ],
+    fraseAcerto: "¡Eso! Espanhol de quem vai passar!", fraseOtimo: "¡Muy bien! Mandou muito bem rumo ao ENEM! 🇪🇸", nivel3: "Tigre Bilingüe",
   },
   {
     id: "natureza", nome: "Ciências da Natureza", emoji: "🔬", key: "tigrao-enem-natureza-v1", subtitulo: "Física + Biologia + Química, questões oficiais",

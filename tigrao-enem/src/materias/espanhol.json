@@ -1,0 +1,2413 @@
+{
+ "meta": {
+  "materia": "espanhol",
+  "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), caderno azul; texto conferido com o PDF oficial do Inep",
+  "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2011–2016: gab/gab_lc_2009_2016.json; 2017–2023: gab/gab_le_2017_2023.json",
+  "porAno": {
+   "2011": 4,
+   "2012": 4,
+   "2013": 5,
+   "2014": 5,
+   "2015": 5,
+   "2016": 5,
+   "2017": 5,
+   "2018": 4,
+   "2019": 5,
+   "2020": 4,
+   "2021": 3,
+   "2022": 3,
+   "2023": 4
+  },
+  "total": 56,
+  "fora": {},
+  "porArea": {
+   "Literatura e Canção": 17,
+   "Cultura e Sociedade": 16,
+   "Vocabulário e Expressões": 13,
+   "Interpretação e Gêneros Textuais": 10
+  },
+  "doPdfOficial": 0,
+  "comExplicacao": 55,
+  "revisadas": 0,
+  "classificacao": "tema atribuído manualmente pelo agente, a conferir pelo professor (linguagens/le/)"
+ },
+ "questions": [
+  {
+   "id": "ENEM-LC-2011-REG-D2-C7-Q91-ESPANHOL",
+   "year": 2011,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "‘Desmachupizar’ el turismo\n\nEs ya un lugar común escuchar aquello de que hay que desmachupizar el turismo en Perú y buscar visitantes en las demás atracciones (y son muchas) que tiene el país, naturales y arqueológicas, pero la ciudadela inca tiene un imán innegable. La Cámara Nacional de Turismo considera que Machu Picchu significa el 70% de los ingresos por turismo en Perú, ya que cada turista que tiene como primer destino la ciudadela inca visita entre tres y cinco lugares más (la ciudad de Cuzco, la de Arequipa, las líneas de Nazca, el Lago Titicaca y la selva) y deja en el país un promedio de 2 200 dólares (unos 1 538 euros).\n\nCarlos Canales, presidente de Canatur, señaló que la ciudadela tiene capacidad para recibir más visitantes que en la actualidad (un máximo de 3 000) con un sistema planificado de horarios y rutas, pero no quiso avanzar una cifra. Sin embargo, la Unesco ha advertido en varias ocasiones que el monumento se encuentra cercano al punto de saturación y el Gobierno no debe emprender ninguna política de captación de nuevos visitantes, algo con lo que coincide el viceministro Roca Rey.\n\nDisponivel em: http://www.elpais.com. Acesso em: 21 jun. 2011.\n\nA reportagem do jornal espanhol mostra a preocupação diante de um problema no Peru, que pode ser resumido pelo vocábulo “desmachupizar”, referindo-se",
+   "options": [
+    {
+     "letter": "A",
+     "text": "À escassez de turistas no país."
+    },
+    {
+     "letter": "B",
+     "text": "Ao difícil acesso ao lago Titicaca."
+    },
+    {
+     "letter": "C",
+     "text": "À destruição da arqueologia no país."
+    },
+    {
+     "letter": "D",
+     "text": "Ao excesso de turistas na terra dos incas."
+    },
+    {
+     "letter": "E",
+     "text": "À falta de atrativos turísticos em Arequipa."
+    }
+   ],
+   "figures": [],
+   "number": 91,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O verbo pede tirar o turismo de Machu Picchu, perto da saturação segundo a Unesco: excesso de turistas. **Resposta: D**",
+    "keyConcept": "desmachupizar",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2011-REG-D2-C7-Q92-ESPANHOL",
+   "year": 2011,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "Los fallos de software en aparatos médicos, como marcapasos, van a ser una creciente amenaza para la salud pública, según el informe de Software Freedom Law Center (SFLC) que ha sido presentado hoy en Portland (EEUU), en la Open Source Convention (OSCON).\n\nLa ponencia “Muerto por el código: transparencia de software en los dispositivos médicos implantables” aborda el riesgo potencialmente mortal de los defectos informáticos en los aparatos médicos implantados en las personas.\n\nSegún SFLC, millones de personas con condiciones crónicas del corazón, epilepsia, diabetes, obesidad e, incluso, la depresión dependen de implantes, pero el software permanece oculto a los pacientesy sus médicos.\n\nLa SFLC recuerda graves fallos informáticos ocurridos en otros campos, como en elecciones, en la fabricación de coches, en las líneas aéreas comerciales o en los mercados financieros.\n\nDisponível em: http://www.elpais.com. Acesso em: 24 jul. 2010 (adaptado).\n\nO título da palestra, citado no texto, antecipa o tema que será tratado e mostra que o autor tem a intenção de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Relatar novas experiências em tratamento de saúde."
+    },
+    {
+     "letter": "B",
+     "text": "Alertar sobre os riscos mortais de determinados softwares de uso médico para o ser humano."
+    },
+    {
+     "letter": "C",
+     "text": "Denunciar falhas médicas na implantação de softwares em seres humanos."
+    },
+    {
+     "letter": "D",
+     "text": "Divulgar novos softwares presentes em aparelhos médicos lançados no mercado."
+    },
+    {
+     "letter": "E",
+     "text": "Apresentar os defeitos mais comuns de softwares em aparelhos médicos."
+    }
+   ],
+   "figures": [],
+   "number": 92,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "\"Muerto por el código\" antecipa o alerta sobre falhas de software em aparelhos médicos que podem matar. **Resposta: B**",
+    "keyConcept": "título da palestra",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2011-REG-D2-C7-Q93-ESPANHOL",
+   "year": 2011,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Bienvenido a Brasília\n\nEl Gobierno de Brasil, por medio del Ministerio de la Cultura y del Instituto del Patrimonio Histórico y Artístico Nacional (IPHAN), da la bienvenida a los participantes de la 34a Sesión del Comité del Patrimonio Mundial, encuentro realizado poria Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO).\n\nRespaldado por la Convención del Patrimonio Mundial, de 1972, el Comité reúne en su 34a sesión más de 180 delegaciones nacionales para deliberar sobre las nuevas candidaturas y el estado de conservación y de riesgo de los bienes ya declarados Patrimonio Mundial, con base en los análisis del Consejo Internacional de Monumentos y Sitios (Icomos), del Centro Internacional para el Estudio de la Preservación y la Restauración del Patrimonio Cultural (ICCROM) y de la Union Internacional para la Conservación de la Naturaleza (IUCN).\n\nDisponivel em: http://www.34whc.brasilia2010.oig.br. Acesso em: 28 jul. 2010.\n\nO Comitê do Patrimônio Mundial reúne-se regularmente para deliberar sobre ações que visem à conservação e à preservação do patrimônio mundial. Entre as tarefas atribuídas às delegações nacionais que participaram da 34a Sessão do Comitê do Patrimônio Mundial, destaca-se a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Participação em reuniões do Conselho Internacional de Monumentos e Sítios."
+    },
+    {
+     "letter": "B",
+     "text": "Realização da cerimônia de recepção da Convenção do Patrimônio Mundial."
+    },
+    {
+     "letter": "C",
+     "text": "Organização das análises feitas pelo Ministério da Cultura brasileiro."
+    },
+    {
+     "letter": "D",
+     "text": "Discussão sobre o estado de conservação dos bens já declarados patrimônios mundiais."
+    },
+    {
+     "letter": "E",
+     "text": "Estruturação da próxima reunião do Comitê do Patrimônio Mundial."
+    }
+   ],
+   "figures": [],
+   "number": 93,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O Comitê analisa o estado de conservação dos bens já inscritos como patrimônio mundial. **Resposta: D**",
+    "keyConcept": "patrimônio mundial",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2011-REG-D2-C7-Q94-ESPANHOL",
+   "year": 2011,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "El tango\n\nYa sea como danza, música, poesía o cabal expresión de una filosofía de vida, el tango posee una larga y valiosa trayectoria, jalonada de encuentros y desencuentros, amores y odios, nacida desde lo más hondo de la historia argentina.\n\nEl nuevo ambiente es el cabaret, su nuevo cultor la clase media porteña, que ameniza sus momentos de diversión con nuevas composiciones, sustituyendo el carácter malevo del tango primitivo por una nueva poesía más acorde con las concepciones estéticas provenientes de Londres y París.\n\nYa en la década del ‘20 el tango se anima incluso a traspasar las fronteras del país, recalando en lujosos salones parisinos donde es aclamado por públicos selectos que adhieren entusiastas a la sensualidad del nuevo baile. Ya no es privativo de los bajos fondos porteños; ahora se escucha y se baila en salones elegantes, clubs y casas particulares.\n\nEl tango revive con juveniles fuerzas en ajironadas versiones de grupos rockeros, presentaciones en elegantes reductos de San Telmo, Barracas y La Boca y películas foráneas que lo divulgan por el mundo entero.\n\nDisponivel em: http://vww.elpdwrin.over-blog.es. Acesso em: 22 jun. 2011 (adaptado).\n\nSabendo-se que a produção cultural de um país pode influenciar, retratar ou, inclusive, ser reflexo de acontecimentos de sua história, o tango, dentro do contexto histórico argentino, é reconhecido por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Manter-se inalterado ao longo de sua história no país."
+    },
+    {
+     "letter": "B",
+     "text": "Influenciar os subúrbios, sem chegar a outras regiões."
+    },
+    {
+     "letter": "C",
+     "text": "Sobreviver e se difundir, ultrapassando as fronteiras do país."
+    },
+    {
+     "letter": "D",
+     "text": "Manifestar seu valor primitivo nas diferentes camadas sociais."
+    },
+    {
+     "letter": "E",
+     "text": "Ignorar a influência de países europeus, como Inglaterra e França."
+    }
+   ],
+   "figures": [],
+   "number": 94,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O tango resistiu às mudanças e se difundiu pelo mundo, até em filmes estrangeiros. **Resposta: C**",
+    "keyConcept": "tango",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q91-ESPANHOL",
+   "year": 2012,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Obituario*\n\nLo enterraron en el corazón de un bosque de pinos\ny sin embargo\nel ataúd de pino fue importado de Ohio;\nlo enterraron al borde de una mina de hierro\ny sin embargo\nlos clavos de su ataúd y el hierro de la pala\nfueron importados de Pittsburg;\nlo enterraron junto al mejor pasto de ovejas del mundo\ny sin embargo\nlas lanas de los festones del ataúd eran de California.\nLo enterraron con un traje de New York,\nun par de zapatos de Boston,\nuna camisa de Cincinatti\ny unos calcetines de Chicago.\nGuatemala no facilitó nada al funeral,\nexcepto el cadáver.\n\n* Paráfrasis de un famoso texto norteamericano.\n\nNOGUERAS, L. R. Las quince mil vidas del caminante. La Habana: Unea,1977.\n\nO texto de Luis Rogelio Nogueras faz uma crítica",
+   "options": [
+    {
+     "letter": "A",
+     "text": "À dependência de produtos estrangeiros por uma nação."
+    },
+    {
+     "letter": "B",
+     "text": "Ao comércio desigual entre Guatemala e Estados Unidos."
+    },
+    {
+     "letter": "C",
+     "text": "À má qualidade das mercadorias guatemaltecas."
+    },
+    {
+     "letter": "D",
+     "text": "Às dificuldades para a realização de um funeral."
+    },
+    {
+     "letter": "E",
+     "text": "À ausência de recursos naturais na Guatemala."
+    }
+   ],
+   "figures": [],
+   "number": 91,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Até o caixão e a roupa do morto foram importados; a Guatemala só entrou com o cadáver: crítica à dependência estrangeira. **Resposta: A**",
+    "keyConcept": "Obituario",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q92-ESPANHOL",
+   "year": 2012,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "Excavarán plaza ceremonial del frontis norte de\nhuaca de la Luna\n\nTrujillo, feb. 25 (ANDINA). Tras limpiar los escombros del saqueo colonial y de las excavaciones de los últimos años en huaca de la Luna, este año se intervendrá la plaza ceremonial del frontis norte, en donde se ubica la gran fachada del sitio arqueológico ubicado en Trujillo, La Libertad, informaron hoy fuentes culturales. Después de varias semanas de trabajo, el material fue sacado del sitio arqueológico para poder apreciar mejor la extensión y forma del patio que, según las investigaciones, sirvió hace unos 1 500 como escenario de extraños rituales.\n\nEl codirector del Proyecto Arqueológico Huacas del Sol y la Luna, Ricardo Morales Gamarra, sostuvo que con la zona limpia de escombros, los visitantes conocerán la verdadera proporción de la imponente fachada, tal y como la conocieron los moches. Por su parte, el arqueólogo Santiago Uceda, también codirector del proyecto, dijo que las excavaciones se iniciarán este año para determinar qué otros elementos componían dicha área. “Hace poco nos sorprendió encontrar un altar semicircular escalonado. Era algo que no esperábamos. Por lo tanto, es difícil saber qué es lo que aún está escondido en la zona que exploraremos”, señaló Uceda a la Agencia Andina.\n\nLa huaca de la Luna se localiza en el distrito trujillano de Moche. Es una pirámide de adobe adornada, en sus murales, con impresionantes imágenes mitológicas, muchas de ellas en alto relieve.\n\nDisponível em: www.andina.com.pe. Acesso em: 23 fev. 2012 (adaptado).\n\nO texto apresenta informações sobre um futuro trabalho de escavação de um sítio arqueológico peruano. Sua leitura permite inferir que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A pirâmide huaca de la Luna foi construída durante o período colonial peruano."
+    },
+    {
+     "letter": "B",
+     "text": "O sítio arqueológico contém um altar semicircular bastante deteriorado."
+    },
+    {
+     "letter": "C",
+     "text": "A pirâmide huaca de la Luna foi construída com cerâmica."
+    },
+    {
+     "letter": "D",
+     "text": "O sítio arqueológico possui um pátio que foi palco de rituais."
+    },
+    {
+     "letter": "E",
+     "text": "O sítio arqueológico mantém escombros deixados pela civilização moche."
+    }
+   ],
+   "figures": [],
+   "number": 92,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A escavação será na plaza ceremonial: um pátio usado para rituais. **Resposta: D**",
+    "keyConcept": "huaca de la Luna",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q93-ESPANHOL",
+   "year": 2012,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Nuestra comarca del mundo, que hoy llamamos América Latina perfeccionó sus funciones. Este ya no es el reino de las maravillas donde la realidad derrotaba a la fábula y la imaginación era humillada por los troféus de la conquista, los yacimientos de oro y las montañas de plata. Pero la región sigue trabajando de sirvienta. Es América Latina, la región de las venas abiertas. Desde el descubrimiento hasta nuestros días, todo se ha trasmutado siempre en capital europeo o, más tarde, norteamericano, y como tal se ha acumulado y se acumula en los lejanos centros del poder. Todo: la tierra, sus frutos y sus profundidades ricas en minerales, los hombres y su capacidad de trabajo y de consumo, los recursos naturales y los recursos humanos. El modo de producción y la estructura de clases de cada lugar han sido sucesivamente determinados, desde fuera, por su incorporación al engranaje universal del capitalismo. Nuestra derrota estuvo siempre implícita en la victoria ajena; nuestra riqueza ha generado siempre nuestra pobreza para alimentar la prosperidad de otros: los imperios y sus caporales nativos.\n\nGALEANO, E. Las venas abiertas de América Latina. Buenos Aires: Siglo Veintiuno Argentina, 2010 (adaptado).\n\nA partir da leitura do texto, infere-se que, ao longo da história da América Latina,",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Suas relações com as nações exploradoras sempre se caracterizaram por uma rede de dependências."
+    },
+    {
+     "letter": "B",
+     "text": "Seus países sempre foram explorados pelas mesmas nações desde o início do processo de colonização."
+    },
+    {
+     "letter": "C",
+     "text": "Sua sociedade sempre resistiu à aceitação do capitalismo imposto pelo capital estrangeiro."
+    },
+    {
+     "letter": "D",
+     "text": "Suas riquezas sempre foram acumuladas longe dos centros de poder."
+    },
+    {
+     "letter": "E",
+     "text": "Suas riquezas nunca serviram ao enriquecimento das elites locais."
+    }
+   ],
+   "figures": [],
+   "number": 93,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "\"Nuestra riqueza ha generado siempre nuestra pobreza\": a América Latina vive numa rede de dependência. **Resposta: A**",
+    "keyConcept": "Galeano",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2012-REG-D2-C7-Q95-ESPANHOL",
+   "year": 2012,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "Las Malvinas son nuestras\n\nSí, las islas son nuestras. Esta afirmación no se basa en sentimientos nacionalistas, sino en normas y princípios del derecho internacional que, si bien pueden suscitar interpretaciones en contrario por parte de los británicos, tienen la fuerza suficiente para imponerse.\n\nLos británicos optaron por sostener el derecho de autodeterminación de los habitantes de las islas, invocando la resolución 1514 de las Naciones Unidas, que acordó a los pueblos coloniales el derecho de independizarse de los Estados colonialistas. Pero esta tesitura es también indefendible. La citada resolución se aplica a los casos de pueblos sojuzgados por una potencia extranjera, que no es el caso de Malvinas, donde Gran Bretaña procedió a expulsar a los argentinos que residían en las islas, reemplazándolos por súbditos de la corona que pasaron a ser kelpers y luego ciudadanos británicos. Además, según surge de la misma resolución, el principio de autodeterminación no es de aplicación cuando afecta la integridad territorial de un país.\n\nFinalmente, en cuanto a qué haría la Argentina con los habitantes británicos de las islas en caso de ser recuperadas, la respuesta se encuentra en la cláusula transitória primera de la Constitución Nacional sancionada por la reforma de 1994, que impone respetar el modo de vida de los isleños, lo que además significa respetar sus intereses.\n\nMENEM, E. Disponível em: www.lanacion.com.ar. Acesso em: 18 fev. 2012 (adaptado).\n\nO texto apresenta uma opinião em relação à disputa entre e a Argentina e o Reino Unido pela soberania sobre as Ilhas Malvinas, ocupadas pelo Reino Unido em 1833. O autor dessa opinião apoia a reclamação argentina desse arquipélago, argumentando que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A descolonização das ilhas em disputa está contemplada na lei comum britânica."
+    },
+    {
+     "letter": "B",
+     "text": "As Nações Unidas estão desacreditadas devido à ambiguidade das suas resoluções."
+    },
+    {
+     "letter": "C",
+     "text": "O princípio de autodeterminação carece de aplicabilidade no caso das Ilhas Malvinas."
+    },
+    {
+     "letter": "D",
+     "text": "A população inglesa compreende a reivindicação nacionalista da administração argentina."
+    },
+    {
+     "letter": "E",
+     "text": "Os cidadãos de origem britânica assentados nas ilhas seriam repatriados para a Inglaterra."
+    }
+   ],
+   "figures": [],
+   "number": 95,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O autor argumenta que o princípio de autodeterminação não se aplica aos ilhéus britânicos das Malvinas. **Resposta: C**",
+    "keyConcept": "Malvinas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q91-ESPANHOL",
+   "year": 2013,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nTUTE. Tutelandia. Disponível em: www.gocomics.com. Acesso em: 20 fev. 2012\n\nA charge evoca uma situação de disputa. Seu efeito humorístico reside no(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Aceitação imediata da provocação."
+    },
+    {
+     "letter": "B",
+     "text": "Descaracterização do convite a um desafio."
+    },
+    {
+     "letter": "C",
+     "text": "Sugestão de armas não convencionais para um duelo."
+    },
+    {
+     "letter": "D",
+     "text": "Deslocamento temporal do comentário lateral."
+    },
+    {
+     "letter": "E",
+     "text": "Posicionamento relaxado dos personagens."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/espanhol/2013/ENEM-LC-2013-REG-D2-C7-Q91-ESPANHOL-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 300,
+     "height": 395
+    }
+   ],
+   "number": 91,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": null
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q92-ESPANHOL",
+   "year": 2013,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Duerme negrito\n\nDuerme, duerme, negrito,\nque tu mamá está en el campo,\nnegrito…\n\nTe va a traer\ncodornices para ti.\n\nTe va a traer\ncarne de cerdo para ti.\nTe va a traer\nmuchas cosas para ti […]\n\nDuerme, duerme, negrito,\nque tu mamá está en el campo,\nnegrito…\nTrabajando, trabajando duramente, trabajando sí.\nTrabajando y no le pagan,\ntrabajando sí.\n\nDisponível em: http://letras.mus.br. Acesso em: 26 jun. 2012 (fragmento).\n\nDuerme negrito é uma cantiga de ninar da cultura popula hispânica, cuja letra problematiza uma questão social, ao",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Destacar o orgulho da mulher como provedora do lar."
+    },
+    {
+     "letter": "B",
+     "text": "Evidenciar a ausência afetiva da mãe na criação do filho."
+    },
+    {
+     "letter": "C",
+     "text": "Retratar a precariedade das relações do trabalho no campo."
+    },
+    {
+     "letter": "D",
+     "text": "Ressaltar a inserção da mulher no mercado de trabalho rural."
+    },
+    {
+     "letter": "E",
+     "text": "Exaltar liricamente a voz materna na formação cidadã do filho."
+    }
+   ],
+   "figures": [],
+   "number": 92,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "A mãe trabalha duramente no campo \"y no le pagan\": precariedade do trabalho rural. **Resposta: C**",
+    "keyConcept": "Duerme negrito",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q93-ESPANHOL",
+   "year": 2013,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Pero un dia, le fue presentado a Cortés un tributo bien distinto: un obsequio de veinte esclavas llegó hasta el campamento español y entre ellas, Cortés escogió a una.\nDescrita por el cronista de la expedición, Bernal Días del Castillo, como mujer de “buen parecer y entremetida y desenvuelta”, el nombre indígena de esta mujer era Malintzin, indicativo de que había nacido bajo signos de contienda y desventura. Sus padres la vendieron como esclava; los españoles la llamaron doña Marina, pero su pueblo la llamó la Malinche, la mujer del conquistador, la traidora a los indios. Pero con cualquiera de estos nombres, la mujer conoció un extraordinario destino. Se convirtió en “mi lengua”, pues Cortés la hizo su intérprete y amante, la lengua que habría de guiarle a lo largo y alto del Imperio azteca, demonstrando que algo estaba podrido en el reino de Moctezuma, que en efecto existía gran descontento y que el Imperio tenía pies de barro.\n\nFUENTES, C. El espejo enterrado. Ciudad de México: FCE, 1992 (fragmento).\n\nMalinche, ou Malintzin, foi uma figura chave na história da conquista espanhola na América, ao atuar como",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Intérprete do conquistador, possibilitando-lhe conhecer as fragilidades do Império."
+    },
+    {
+     "letter": "B",
+     "text": "Escrava dos espanhóis, colocando-se a serviço dos objetivos da Coroa."
+    },
+    {
+     "letter": "C",
+     "text": "Amante do conquistador, dando origem à miscigenação étnica."
+    },
+    {
+     "letter": "D",
+     "text": "Voz do seu povo, defendendo os interesses políticos do Império asteca."
+    },
+    {
+     "letter": "E",
+     "text": "Maldição dos astecas, infundindo a corrupção no governo de Montezuma."
+    }
+   ],
+   "figures": [],
+   "number": 93,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Cortés fez de Malinche sua \"lengua\", a intérprete que lhe revelou o descontentamento e a fragilidade do Império asteca. **Resposta: A**",
+    "keyConcept": "Malinche",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q94-ESPANHOL",
+   "year": 2013,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "Cabra sola\n\nHay quien dice que soy como la cabra;\nLo dicen lo repiten, ya lo creo;\nPero soy una cabra muy extraña\nQue lleva una medalla y siete cuernos.\n¡Cabra! Em vez de mala leche yo doy llanto.\n¡Cabra! Por lo más peligroso me paseo.\n¡Cabra! Me llevo bien con alimañas todas,\n¡Cabra! Y escribo en los tebeos.\nVivo sola, cabra sola,\n— que no quise cabrito en compañía —\ncuando subo a lo alto de este valle\nsiempre encuentro un lirio de alegría.\nY vivo por mi cuenta, cabra sola;\nQue yo a ningún rebaño pertenezco.\nSi sufrir es estar como una cabra,\nEntonces sí lo estoy, no dudar de ello.\n\nFUERTES, G. Poeta de guardia. Barcelona; Lumen, 1990.\n\nNo poema, o eu lírico se compara à cabra e no quinto verso utiliza a expressão “mala leche” para se autorrepresentar como uma pessoa",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Influenciável pela opinião das demais."
+    },
+    {
+     "letter": "B",
+     "text": "Consciente de sua diferença perante as outras."
+    },
+    {
+     "letter": "C",
+     "text": "Conformada por não pertencer a nenhum grupo."
+    },
+    {
+     "letter": "D",
+     "text": "Corajosa diante de situações arriscadas."
+    },
+    {
+     "letter": "E",
+     "text": "Capaz de transformar mau humor em pranto."
+    }
+   ],
+   "figures": [],
+   "number": 94,
+   "booklet": 7,
+   "answer": "E",
+   "explanation": {
+    "markdown": "\"En vez de mala leche yo doy llanto\": em vez de mau humor, a cabra dá pranto. **Resposta: E**",
+    "keyConcept": "mala leche",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2013-REG-D2-C7-Q95-ESPANHOL",
+   "year": 2013,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "Pensar la lengua del siglo XXI \n\nAceptada la dicotomía entre “español general” académico y “español periférico” americano, la capacidad financiera de la Real Academia, apoyada por la corona y las grandes empresas transnacionales españolas, no promueve la conservación de la unidad, sino la unificación del español, dirigida e impuesta desde España (la Fundación Español Urgente: Fundeu). Unidad y unificación no son lo mismo: la unidad ha existido siempre y com ella la variedad de la lengua, riqueza suprema de nuestras culturas nacionales; la unificación lleva a la pérdida de las diferencias culturales, que nutren al ser humano y son tan importantes como la diversidad biológica de la Tierra.\nCulturas nacionales: desde que nacieron los primeros criollos, mestizos y mulatos en el continente hispanoamericano, las diferencias de colonización, las improntas que dejaron en las nacientes sociedades americanas los pueblos aborígenes, la explotación de las riquezas naturales, las redes comerciales coloniales fueron creando culturas propias, diferentes entre sí, aunque con el fondo común de la tradición española. Después de las independencias, cuando se instituyeron nuestras naciones, bajo diferentes influencias, ya francesas, ya inglesas; cuando los inmigrantes italianos, sobre todo, dieron su pauta a Argentina, Uruguay o Venezuela, esas culturas nacionales se consolidaron y con ellas su español, pues la lengua es, ante todo, constituyente. Así, el español actual de España no es sino una más de las lenguas nacionales del mundo hispánico. El español actual es el conjunto de veintidós españoles nacionales, que tienen sus propias características; ninguno vale más que otro. La lengua del siglo XXI es, por eso, una lengua pluricéntrica.\n\nLARA, L.F. Disponível em: www.revistaenie.clarin.com. Acesso em: 25 fev. 2013.\n\nO texto aborda a questão da língua espanhola no século XXI e tem como função apontar que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "As especificidades culturais rompem com a unidade hispânica."
+    },
+    {
+     "letter": "B",
+     "text": "As variedades do espanhol têm igual relevância linguística e cultural."
+    },
+    {
+     "letter": "C",
+     "text": "A unidade linguística do espanhol fortalece a identidade cultural hispânica."
+    },
+    {
+     "letter": "D",
+     "text": "A consolidação das diferenças da língua prejudica sua projeção mundial."
+    },
+    {
+     "letter": "E",
+     "text": "A unificação da língua enriquece a competência linguística dos falantes."
+    }
+   ],
+   "figures": [],
+   "number": 95,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Os 22 espanhóis nacionais têm igual valor (\"ninguno vale más que otro\"). **Resposta: B**",
+    "keyConcept": "língua pluricêntrica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q91-ESPANHOL",
+   "year": 2014,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nDisponível em: http://azaral-canarias.blogspot.com. Acesso em: 28 maio 2014 (adaptado)\n\nAs marcas de primeira pessoa do plural no texto da campanha de amamentação têm como finalidade",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Incluir o enunciador no discurso para expressar formalidade."
+    },
+    {
+     "letter": "B",
+     "text": "Agregar diversas vozes para impor valores às lactantes."
+    },
+    {
+     "letter": "C",
+     "text": "Forjar uma voz coletiva para garantir adesão à campanha."
+    },
+    {
+     "letter": "D",
+     "text": "Promover uma identificação entre o enunciador e o leitor para aproximá-los."
+    },
+    {
+     "letter": "E",
+     "text": "Remeter à voz institucional promotora da campanha para conferir-lhe credibilidade."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/espanhol/2014/ENEM-LC-2014-REG-D2-C7-Q91-ESPANHOL-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 331,
+     "height": 452
+    }
+   ],
+   "number": 91,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Na campanha, o \"nós\" põe o enunciador ao lado das mães leitoras e cria proximidade. **Resposta: D**",
+    "keyConcept": "1ª pessoa do plural",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q92-ESPANHOL",
+   "year": 2014,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Emigrantes\n\nEn todo emigrante existen dos posibles actitudes vitales: una la de considerar su experiencia como aventura pasajera, vivir mental y emocionalmente en la patria de origen, cultivando su nostalgia, y definir la realidad presente por comparación con el mundo que se ha dejado; la otra es vivir el presente tal como viene dado, proyectarlo en el futuro, cortar raíces y dominar nostalgias, sumergirse en la nueva cultura, aprenderla y asimilarla. El drama personal del emigrante reside en el hecho de que casi nunca es posible esa elección en términos absolutos y, al igual que el mestizo, se siente parte de dos mundos sin integrarse por completo en uno de ellos con exclusión del otro.\n\nDEL CASTILLO, G. C. América hispánica (1492-1892). In: DE LARA, M. T. Historia de España. Barcelona: Labor, 1985\n\nO texto apresenta uma reflexão sobre a condição do imigrante, o qual, para o autor, tem de lidar com o dilema da",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Constatação de sua existência no entrelugar."
+    },
+    {
+     "letter": "B",
+     "text": "Instabilidade da vida em outro país."
+    },
+    {
+     "letter": "C",
+     "text": "Ausência de referências do passado."
+    },
+    {
+     "letter": "D",
+     "text": "Apropriação dos valores do outro."
+    },
+    {
+     "letter": "E",
+     "text": "Ruptura com o país de origem."
+    }
+   ],
+   "figures": [],
+   "number": 92,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O emigrante se sente parte de dois mundos sem se integrar a nenhum: vive no entrelugar. **Resposta: A**",
+    "keyConcept": "emigrante",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q93-ESPANHOL",
+   "year": 2014,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "En un año de campaña paraguaya, he visto muchas cosas tristes…\n\nHe visto la tierra, con su fertilidad incoercible y salvaje, sofocar al hombre, que arroja una semilla y obtiene cien plantas diferentes y no sabe cuál es la suya. He visto los viejos caminos que abrió la tiranía devorados por la vegetación, desleídos por las innundaciones, borrados por el abandono.\n\nBARRET, R. Lo que he visto. Cuba: XX Feria Internacional del Libro de la Habana, 2011.\n\nRafael Barret nasceu na Espanha e, ainda jovem, foi viver no Paraguai.\n\nO fragmento do texto Lo que hai visto revela um pouco da percepção do escritor sobre a realidade paraguaia, marcada, em essência, pelo(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Desalento frente às adversidades naturais."
+    },
+    {
+     "letter": "B",
+     "text": "Amplo conhecimento da flora paraguaia."
+    },
+    {
+     "letter": "C",
+     "text": "Impossibilidade de cultivo da terra."
+    },
+    {
+     "letter": "D",
+     "text": "Necessidade de se construírem novos caminhos."
+    },
+    {
+     "letter": "E",
+     "text": "Despreparo do agricultor no trato com a terra."
+    }
+   ],
+   "figures": [],
+   "number": 93,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O autor diz ter visto \"cosas tristes\": a natureza selvagem sufoca o homem e apaga os caminhos. É desalento. **Resposta: A**",
+    "keyConcept": "Rafael Barret",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q94-ESPANHOL",
+   "year": 2014,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "Aunque me cuesta mucho trabajo y me hace sudar la gota gorda, y, como todo escritor, siento a veces la amenaza de la parálisis, de la sequía de la imaginación, nada me ha hecho gozar en la vida tanto como pasarme los meses y los años construyendo una historia, desde su incierto despuntar, esa imagen que la memoria almacenó de alguna experiencia vivida, que se volvió un desasosiego, un entusiasmo, un fantaseo que germinó luego en un proyecto y en la decisión de intentar convertir esa niebla agitada de fantasmas en una historia. “Escribir es una manera de vivir”, dijo Flaubert.\n\nDiscurso de Mario Vargas Llosa al recibir el Premio Nobel de Literatura 2010.\n\nDisponível em: www.nobelprize.org. Acesso em: 7 maio 2014 (fragmento)\n\nO trecho apresentado trata do fazer literário, a partir da perspectiva de Vargas Llosa.\n\nCom base no fragmento “me hace sudar la gota gorda”, infere-se que o artifício da escritura, para o escritor,",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ativa a memória e a fantasia."
+    },
+    {
+     "letter": "B",
+     "text": "Baseia-se na imaginação inspiradora."
+    },
+    {
+     "letter": "C",
+     "text": "Fundamenta-se nas experiências de vida."
+    },
+    {
+     "letter": "D",
+     "text": "Requer entusiasmo e motivação."
+    },
+    {
+     "letter": "E",
+     "text": "Demanda expressiva dedicação."
+    }
+   ],
+   "figures": [],
+   "number": 94,
+   "booklet": 7,
+   "answer": "E",
+   "explanation": {
+    "markdown": "\"Sudar la gota gorda\" é esforçar-se muito: escrever exige dedicação. **Resposta: E**",
+    "keyConcept": "sudar la gota gorda",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2014-REG-D2-C7-Q95-ESPANHOL",
+   "year": 2014,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "El robo\n\nPara los niños\nanchos espacios tiene el día\ny las horas\nson calles despejadas\nabiertas avenidas.\n\nA nosotros, se estrecha\nel tiempo de tal modo\nque todo está apretado y oprimido.\n\nSe atropellan los tiempos\nCasi no da lugar un día a otro.\nNo bien ha amanecido\ncae la luz a pique\nen veloz mediodía\ny apenas la contemplas\nhuye en atardeceres\nhacia pozos de sombra.\n\nDice una voz:\nentre vueltas y vueltas\nse me fue el día.\n\nAlgún ladrón\noculto roba mi vida.\n\nMAIA, C. Obra poética. Montevidéu: Rebecalinke, 2010.\n\nO poema El robo, de Circe Maia, poetisa uruguaia contemporânea, trata do(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Problema do abandono de crianças nas ruas."
+    },
+    {
+     "letter": "B",
+     "text": "Excesso de trabalho na sociedade atual."
+    },
+    {
+     "letter": "C",
+     "text": "Angústia provocada pela fugacidade do tempo."
+    },
+    {
+     "letter": "D",
+     "text": "Violência nos grandes centros urbanos."
+    },
+    {
+     "letter": "E",
+     "text": "Repressão dos sentimentos e da liberdade."
+    }
+   ],
+   "figures": [],
+   "number": 95,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para os adultos o dia foge (\"algún ladrón oculto roba mi vida\"): angústia com a fugacidade do tempo. **Resposta: C**",
+    "keyConcept": "El robo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q91-ESPANHOL",
+   "year": 2015,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Caña\n\nEl negro\njunto al cañaveral.\nEl yanqui sobre el cañaveral.\nLa tierra\nbajo el cañaveral.\n¡Sangre\nque se nos va!\n\nGUILLÉN, N. Sóngoro cosongo. Disponível em: www.cervantesvirtual.com. Acesso em: 28 fev. 2012 (fragmento).\n\nNesse poema de Nicolás Guillén, no qual o poeta reflete sobre o plantio da cana-de-açúcar na América Latina, as preposições junto, sobre e bajo são usadas para indicar metaforicamente:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Desordens na organização da lavoura de cana-de-açúcar."
+    },
+    {
+     "letter": "B",
+     "text": "Relações diplomáticas entre os países produtores de cana-de-açúcar."
+    },
+    {
+     "letter": "C",
+     "text": "Localidades da América Latina nas quais a cana-de-açúcar é cultivada."
+    },
+    {
+     "letter": "D",
+     "text": "Relações sociais dos indivíduos que vivem do plantio da cana-de-açúcar."
+    },
+    {
+     "letter": "E",
+     "text": "Funções particulares de cada profissional na lavoura da cana-de-açúcar."
+    }
+   ],
+   "figures": [],
+   "number": 91,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Negro junto ao canavial, ianque sobre ele, terra embaixo: as preposições mostram as relações sociais de exploração. **Resposta: D**",
+    "keyConcept": "Caña",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q92-ESPANHOL",
+   "year": 2015,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "En el día del amor, ¡no a la violencia contra la mujer!\n\nHoy es el día de la amistad y del amor. Pero, parece que este día es puro floro, porque en nustre país aún existen muchos casos de maltrato entre las parejas, sobre todo hacia las mujeres. Por eso, el Ministerio de la Mujer y Poblaciones Vulnerables (MIMP) lanza la segunda etapa de la campaña “Si te quieren, que te quieran bien”.\n\nEsta campaña busca detener de una vez el maltrato contra la mujer y para eso, concientizar sobre la importancia de denunciar estos casos. Y es que las cifras son preocupantes. Cada hora se denuncian 17 casos de violencia contra la mujer y en total los Centros de Emergencia de la Mujer (CEM) y el MIMP atendieron en un año a más de 36 mil denuncias de las cuales 7 mil eran de niñas y adolescentes menores de 17 años. Un abuso.\n\nSi eres testigo o víctima de algún tipo de violencia ya sea física, psicológica o sexual debes llamar gratuitamente a la línea 100 desde teléfono fijo o celular.\n\nDisponível em: http://napa.com.pe. Acesso em: 14 fev. 2012 (adaptado).\n\nPela expressão puro floro, infere-se que o autor considera a comemoração pelo dia do amor e da amizade, no Peru, como uma oportunidade para:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Proteger as populações mais vulneráveis."
+    },
+    {
+     "letter": "B",
+     "text": "Evidenciar as eficazes ações do governo."
+    },
+    {
+     "letter": "C",
+     "text": "Camuflar a violência de gênero existente no país."
+    },
+    {
+     "letter": "D",
+     "text": "Atenuar os maus-tratos cometidos por alguns homens."
+    },
+    {
+     "letter": "E",
+     "text": "Enaltecer o sucesso das campanhas de conscientização feminina."
+    }
+   ],
+   "figures": [],
+   "number": 92,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "\"Puro floro\" é conversa bonita: a festa do amor encobre a violência contra a mulher. **Resposta: C**",
+    "keyConcept": "puro floro",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q93-ESPANHOL",
+   "year": 2015,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nDisponível em: www.lacronicadeleon.es. Acesso em: 12 mar. 2012 (adaptado).\n\nA acessibilidade é um tema de relevância tanto na esfera pública quanto na esfera privada. No cartaz, a exploração desse tema destaca a importância de se",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Estimular os cadeirantes na superação de barreiras."
+    },
+    {
+     "letter": "B",
+     "text": "Respeitar o estacionamento destinado a cadeirantes."
+    },
+    {
+     "letter": "C",
+     "text": "Identificar as vagas reservadas aos cadeirantes."
+    },
+    {
+     "letter": "D",
+     "text": "Eliminar os obstáculos para o trânsito de cadeirantes."
+    },
+    {
+     "letter": "E",
+     "text": "Facilitar a locomoção de cadeirantes em estacionamentos."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/espanhol/2015/ENEM-LC-2015-REG-D2-C7-Q93-ESPANHOL-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 337,
+     "height": 422
+    }
+   ],
+   "number": 93,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O cartaz pede respeito às vagas de estacionamento reservadas a cadeirantes. **Resposta: B**",
+    "keyConcept": "acessibilidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q94-ESPANHOL",
+   "year": 2015,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Atitlán\n\nEl lago Atitlán está situado en el centro de América, en Guatemala. Su belleza es extraordinaria y tiene un gran interés social. En sus márgenes conviven tres culturas: la indígena, la española y la mestiza. Presididos por tres majestuosos volcanes (el Atitlán, el Tolimán y el San Pedro), trece pueblos bordean el lago. Los habitantes del lago son en su mayoría indígenas, aunque crece el porcentaje de ladinos (mestizos). Un buen número de extranjeros – misioneros o investigadores – comparte en los pueblitos la forma de vida de los nativos. A partir de los años setenta, numerosas colonias de hippies se asientan en Atitlán. Jóvenes de todo el mundo, atraídos por el paisaje, el clima semitropical y la sencillez de la vida de los indios, acampan cerca del lago. Además, muchos comerciantes guatemaltecos y extranjeros se han instalado en el pueblo de Panajachel para establecer diversos negocios hoteleros, deportivos y artesanales. A cada día el lago Atitlán atrae a sus costas a más turistas y científicos. Unos llegan buscando sossiego ante el espejismo del lago; otros van a mezclarse con los orgullosos y apacibles indígenas en iglesias y mercados; muchos atraviesan el lago para recorrer los diferentes pueblos y para recrearse en la variada indumentaria de sus habitantes; otros estudian las diferentes lenguas y dialectos que se hablan en la zona y muchos investigan con pasión la rica fauna del lago y de las tierras volcánicas. Realmente, es impresionante la convivencia de tantas etnías y culturas. En el corazón de América hay un lago y unos volcanes que son símbolo y reflejo de lo que es Hispanoamérica: un mosaico de culturas y un ejemplo de convivencia.\n\nSUÁREZ, M.; PICO DE COAÑA, M. Sobre iberoamérica. Madrid: Ediciones SM, 1998.\n\nDe acordo com o texto, a região do entorno do Lago Atitlán, na Guatemala, é de grande relevância social por representar o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Patrimônio histórico-geográfico que a área abriga."
+    },
+    {
+     "letter": "B",
+     "text": "Diversidade turística que atrai estrangeiros."
+    },
+    {
+     "letter": "C",
+     "text": "Prosperidade econômica que advém de diferentes segmentos comerciais."
+    },
+    {
+     "letter": "D",
+     "text": "Multiculturalidade característica da identidade hispano-americana."
+    },
+    {
+     "letter": "E",
+     "text": "Valorização da cultura indígena observada entre as comunidades locais."
+    }
+   ],
+   "figures": [],
+   "number": 94,
+   "booklet": 7,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O lago reúne culturas indígena, espanhola e mestiça: símbolo do mosaico hispano-americano. **Resposta: D**",
+    "keyConcept": "Atitlán",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2015-REG-D2-C7-Q95-ESPANHOL",
+   "year": 2015,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Los guionistas estadounidenses introducen cada vez más el español en sus diálogos\n\nEn los últimos años, la realidad cultural y la presencia creciente de migrantes de origen latinoamericano en EE UU ha propiciado que cada vez más estadounidenses alternen el inglés y el español en un mismo discurso.\nUn estudio publicado en la revista Vial-Vigo International Journal of Applied Linguistics se centra en las estrategias que usan los guionistas de la versión original para incluir el español en el guión o a personajes de origen latinoamericano.\nLos guionistas estadounidenses suelen usar subtítulos en inglés cuando el español que aparece en la serie o película es importante para el argumento. Si esto no ocurre, y sólo hay interjecciones, aparece sin subtítulos. En aquellas conversaciones que no tienen relevancia se añade en ocasiones el subtítulo Speaks Spanish (habla en español).\n“De esta forma, impiden al público conocer qué están diciendo los dos personajes que hablan español”, explica la autora del estudio y profesora e investigadora en la Universidad Pablo de Olavide (UPO) de Sevilla.\n\nDisponível em: www.agenciasinc.es. Acesso em: 23 ago. 2012 (adaptado).\n\nDe acordo com o texto, nos filmes norte-americanos, nem todas as falas em espanhol são legendadas em inglês. Esse fato revela a:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Assimetria no tratamento do espanhol como elemento da diversidade linguística nos Estados Unidos."
+    },
+    {
+     "letter": "B",
+     "text": "Escassez de personagens de origem hispânica nas séries e filmes produzidos nos Estados Unidos."
+    },
+    {
+     "letter": "C",
+     "text": "Desconsideração com o público hispânico que frequenta as salas de cinema norte-americanas."
+    },
+    {
+     "letter": "D",
+     "text": "Falta de uma formação linguística específica para os roteiristas e tradutores norte-americanos."
+    },
+    {
+     "letter": "E",
+     "text": "Carência de pesquisas científicas sobre a influência do espanhol na cultura norte-americana."
+    }
+   ],
+   "figures": [],
+   "number": 95,
+   "booklet": 7,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Nem todas as falas em espanhol são legendadas: o espanhol recebe tratamento assimétrico na diversidade dos EUA. **Resposta: A**",
+    "keyConcept": "legendas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q91-ESPANHOL",
+   "year": 2016,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "La Sala II de la Cámara de Casación Penal ordenó que Marcela y Felipe Noble Herrera, los hijos adoptivos de la duena de Clarín, se sometan “a la extracción directa, con o sin consentimiento, de mínimas muestras de sangre, saliva, piei, cabello u otras muestras biológicas” que les pertenezcan de “manera indubitable” para poder determinar si son hijos de desaparecidos. El tribunal, así, hizo lugar a un reclamo de las Abuelas de Plaza de Mayo y movió un casillero una causa judicial que ya lleva diez anos de indefinición. Sin embargo, simultáneamente, fijó un limite y sólo habilito la comparación de los perfiles genéticos de los jóvenes con el ADN de las familias de personas “detenidas o desaparecidas con certeza” hasta el 13 de mayo de 1976, en el caso de Marcela, y hasta el 7 de julio del mismo ano en el de Felipe. La obtención del material genético no será inmediata, ya que algunas de las partes apelarán y el tema inevitablemente desembocará a la Corte Suprema, que tendrá la palabra final sobre la discusión de fondo.\n“Es una de cal y otra de arena, es querer quedar bien con Dios y con el diablo”, resumió la presidenta de Abuelas, Estela Carlotto, su primera impresión de la resolución que firmaron Guillermo Yacobucci, Luis García y Raúl Madueño. Aun así la evaluó como “un paso importante” porque determina que “sí o sí la extracción de sangre o de elementos que\ncontengan ADN debe proceder”. “Lo que nos cayó mal”, acotó, es “la limitación” temporal que permitirá que la comparación se haga sólo con un grupo de familias. “Seguimos con la historia de que acá hay de primera y de segunda. Por qué todos los demás casos siempre se han comparado con el Banco (de Datos Genéticos) completo y en éste no?”, se preguntó.\n\nHAUSER, I. Disponível em: www.pagina12.com.ar. Acesso em: 30 maio 2016.\n\nNessa notícia, publicada no jornal argentino Página 12, citam-se comentários de Estela Carlotto, presidente da associação Abuelas de Plaza de Mayo, com relação a uma decisão do tribunal argentino. No contexto da fala, a expressão “una de cal y otra de arena” é utilizada para",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Referir-se ao fato de a decisão judicial não implicar a sua imediata aplicação."
+    },
+    {
+     "letter": "B",
+     "text": "Destacar a inevitável execução da sentença."
+    },
+    {
+     "letter": "C",
+     "text": "Ironizar a parcialidade da Justiça nessa ação"
+    },
+    {
+     "letter": "D",
+     "text": "Criticar a coleta compulsória do material genético."
+    },
+    {
+     "letter": "E",
+     "text": "Enfatizar a determinação judicial como algo consolidado."
+    }
+   ],
+   "figures": [],
+   "number": 91,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "A expressão indica uma decisão boa e outra ruim. Carlotto a usa para ironizar a parcialidade da Justiça no caso. **Resposta: C**",
+    "keyConcept": "una de cal y otra de arena",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q92-ESPANHOL",
+   "year": 2016,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Preámbulo a las instrucciones para dar cuerda al reloj\n\nPiensa en esto: cuando te regalan un reloj te regalan un pequeño infierno florido, una cadena de rosas, un calabozo de aire. No te dan solamente el reloj, que los cumplas muy felices y esperamos que te dure porque es de buena marca, suizo con áncora de rubíes; no te regalan solamente ese menudo picapedrero que te atarás a la muñeca y pasearás contigo. Te regalan -no lo saben, lo terrible es que no lo saben-, te regalan un nuevo pedazo frágil y precario de ti mismo, algo que es tuyo pero no es tu cuerpo, que hay que atar a tu cuerpo con su correa como un bracito desesperado colgándose de tu muñeca. Te regalan la necesidad de darle cuerda todos los días, la obligación de darle cuerda para que siga siendo un reloj; te regalan la obsesión de atender a la hora exacta en las vitrinas de las joyerías, en el anuncio por la radio, en el servicio telefónico. Te regalan el miedo de perderlo, de que te lo roben, de que se te caiga al suelo y se rompa. Te regalan su marca, y la seguridad de que es una marca mejor que las otras, te regalan la tendencia de comparar tu reloj con los demás relojes. No te regalan un reloj, tú eres el regalado, a ti te ofrecen para el cumpleaños del reloj.\n\nCORTÁZAR, J. Historias de cronopios y de famas. Buenos Aires: Sudamericana, 1963 (fragmento).\n\nNesse texto, Júlio Cortázar transforma pequenas ações cotidianas em criação literária,",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Denunciando a má qualidade dos relógios modernos em relação aos antigos."
+    },
+    {
+     "letter": "B",
+     "text": "Apresentando possibilidades de sermos presenteados com um relógio."
+    },
+    {
+     "letter": "C",
+     "text": "Convidando o leitor a refletir sobre a coisificação do ser humano."
+    },
+    {
+     "letter": "D",
+     "text": "Desafiando o leitor a pensar sobre a efemeridade do tempo."
+    },
+    {
+     "letter": "E",
+     "text": "Criticando o leitor por ignorar os malefícios do relógio."
+    }
+   ],
+   "figures": [],
+   "number": 92,
+   "booklet": 7,
+   "answer": "C",
+   "explanation": {
+    "markdown": "\"No te regalan un reloj, tú eres el regalado\": o homem vira objeto do objeto. **Resposta: C**",
+    "keyConcept": "Cortázar",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q93-ESPANHOL",
+   "year": 2016,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Agua\n\nal soñar que un cántaro\nen la cabeza acarreas,\nserá éxito y triunfo lo que tú veas.\nBañarse en un río\ndonde el agua escalda,\nes augurio de enemigos\ny de cuchillo en la espalda.\nBañarse en un río de agua puerca,\nes perder a alguien cerca.\n\nORTIZ, A.; FLORES FARFÁN, J. A. Sueños mexicanos. México: Artes de México, 2012\n\nO poema retoma elementos da cultura popular mexicana que refletem um dos aspectos que a constitui, caracterizado pela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Percepção dos perigos de banhar-se em rios de águas poluídas."
+    },
+    {
+     "letter": "B",
+     "text": "Crença na relevância dos sonhos como premonições ou conselhos."
+    },
+    {
+     "letter": "C",
+     "text": "Necessidade de resgate da tradição de carregar água em cântaros."
+    },
+    {
+     "letter": "D",
+     "text": "Exaltação da importância da preservação da água."
+    },
+    {
+     "letter": "E",
+     "text": "Cautela no trato com inimigos e pessoas traiçoeiras."
+    }
+   ],
+   "figures": [],
+   "number": 93,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Cada sonho com água prenuncia algo (êxito, inimigos, perdas): crença nos sonhos como premonição. **Resposta: B**",
+    "keyConcept": "sonhos mexicanos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q94-ESPANHOL",
+   "year": 2016,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "Inestabilidad estable\n\nLos que llevan toda la vida esforzándose por conseguir un pensamiento estable, con suficiente solidez como para evitar que la incertidumbre se apodere de sus habilidades, todas esas lecciones sobre cómo asegurarse el porvenir, aquellos que nos aconsejaban que nos dejáramos de bagatelas poéticas y encontráramos un trabajo fixo y etcétera, abuelos, padres, maestros, suegros, bancos y seguradoras, nos estaban dando gato por liebre.\n\nY el mundo, este mundo que nos han creado, que al tocarlo en la pantalla creemos estar transformando a medida de nuestro deseo, nos está modelando según coeficiente de rentabilidad, nos está licuando para integrarnos a su metabolismo reflejo.\n\nFÉRNANDEZ ROJANO, G. Disponível em: http://diariojaen.es Acesso em: 23 maio 2012.\n\nO título do texto antecipa a opinião do autor pelo uso de dois termos contraditórios que expressam o sentido de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Competitividade e busca do lucro, que caracterizam a sociedade contemporânea."
+    },
+    {
+     "letter": "B",
+     "text": "Busca de estabilidade financeira e emocional, que marca o mundo atual."
+    },
+    {
+     "letter": "C",
+     "text": "Negação dos valores defendidos pelas gerações anteriores em relação ao trabalho."
+    },
+    {
+     "letter": "D",
+     "text": "Necessidade de realização pessoal e profissional no sistema vigente."
+    },
+    {
+     "letter": "E",
+     "text": "Permanência da inconstância em uma sociedade marcada por contínuas mudanças."
+    }
+   ],
+   "figures": [],
+   "number": 94,
+   "booklet": 7,
+   "answer": "E",
+   "explanation": {
+    "markdown": "\"Inestabilidad estable\" junta opostos para dizer que a inconstância é permanente no mundo atual. **Resposta: E**",
+    "keyConcept": "título paradoxal",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2016-REG-D2-C7-Q95-ESPANHOL",
+   "year": 2016,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nACCIÓN POÉTICA LIMA. Disponível em: https://twitter.com. Acesso em: 30 maio 2016.\n\nNesse grafite, realizado por um grupo que faz intervenções artísticas na cidade de Lima, há um jogo de palavras como verbo “poner”. Na primeira ocorrência, o verbo equivale a “vestir uma roupa”, já na segunda, indica",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Início de ação."
+    },
+    {
+     "letter": "B",
+     "text": "Mudança de estado."
+    },
+    {
+     "letter": "C",
+     "text": "Conclusão de ideia."
+    },
+    {
+     "letter": "D",
+     "text": "Simultaneidade de fatos."
+    },
+    {
+     "letter": "E",
+     "text": "Continuidade de processo."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/espanhol/2016/ENEM-LC-2016-REG-D2-C7-Q95-ESPANHOL-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 728,
+     "height": 209
+    }
+   ],
+   "number": 95,
+   "booklet": 7,
+   "answer": "B",
+   "explanation": {
+    "markdown": "\"Ponerse\" seguido de adjetivo indica mudança de estado. **Resposta: B**",
+    "keyConcept": "ponerse",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q1-ESPANHOL",
+   "year": 2017,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "El carpintero\n\nOrlando Goicoechea reconoce las maderas por el olor, de qué árboles vienen, qué edad tienen, y oliéndolas sabe si fueron cortadas a tiempo o a destiempo y les adivina los posibles contratiempos.\n\nAl cabo de tantos años de trabajo, Orlando se ha dado el lujo de comprarse un video, y ve una película tras otra.\n\nNo sabía que eras loco por cine le dice el vecino.\n\nY Orlando le explica que no, que a él ni le va ni le viene, pero gracias al video puede detener las películas para estudiar los muebles.\n\nGALEANO, E. Disponivel em: http://elcajondesastre.blogcindarrio.com. Acesso em: 18 abr. 2012.\n\nNo conto de Galeano, a expressão ni le va ni le viene encerra uma opinião a respeito de cinema que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Desconstrói a ideia central do conto sobre a importância das atividades de lazer."
+    },
+    {
+     "letter": "B",
+     "text": "Contradiz a percepção que o narrador tem em relação à profissão exercida por Orlando."
+    },
+    {
+     "letter": "C",
+     "text": "Revela o descaso do narrador com relação ao ofício desempenhado por Orlando."
+    },
+    {
+     "letter": "D",
+     "text": "Reforça a impressão do vizinho de que Orlando gostava de filmes."
+    },
+    {
+     "letter": "E",
+     "text": "Evidencia a extrema devoção do carpinteiro ao seu ofício."
+    }
+   ],
+   "figures": [],
+   "number": 1,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Orlando não liga para cinema; usa o vídeo só para estudar os móveis: devoção ao ofício. **Resposta: E**",
+    "keyConcept": "ni le va ni le viene",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q2-ESPANHOL",
+   "year": 2017,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "El virus del papiloma humano (HPV) también es un problema de hombres\n\nPara algunos hombres, el virus del papiloma humano (HPV) es algo muy lejano. Se olvidan de que ellos también se infectan y de que, al contagiarnos, nos están regalando un pasaporte mágico para el cáncer cérvico-uterino — segunda causa de muerte entre las mujeres de México —; incluso me ha tocado escuchar en boca de algunos de ellos que “sólo se trata de una infeccioncita”. Pues bien, el HPV también es un problema de hombres, no sólo porque propaga la infección entre la población femenina, sino también porque este virus produce otros problemas de salud tanto en hombres como en mujeres, incluyendo verrugas genitales y cáncer de boca y garganta que, si bien no son tan conocidos o alarmantes por su cantidad, como otros tipos de cáncer, también constituyen un riesgo. Por lo anterior, la Academia Americana de Pediatría decidió enfrentarse al HPV mediante vacunas que se ponen tanto a mujeres como hombres. Los especialistas afirman que la vacuna es más efectiva si se administra antes de que el niño se vuelva sexualmente activo, y responde mejor en el organismo de varones entre 9 y 15 años.\n\nALBITER, K. Disponível em: http://vivirmexico.com. Acesso em: 10 jul. 2012 (adaptado).\n\nO texto aborda a temática do HPV. Ao discorrer sobre o contágio e a prevenção do papiloma humano, a autora informa aos leitores que esse vírus é",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Estudado pela Academia Americana de Pediatria por seus efeitos em crianças."
+    },
+    {
+     "letter": "B",
+     "text": "Responsável pelo aumento de casos de câncer na população jovem mexicana."
+    },
+    {
+     "letter": "C",
+     "text": "Ignorado pelos homens por se restringir à população feminina."
+    },
+    {
+     "letter": "D",
+     "text": "Combatido por vacinas que devem ser aplicadas tanto em mulheres quanto em homens."
+    },
+    {
+     "letter": "E",
+     "text": "Classificado como um problema superável pela facilidade com que se enfrenta a infecção."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O texto informa que o vírus atinge também os homens e se previne com vacinas para os dois sexos. **Resposta: D**",
+    "keyConcept": "HPV",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q3-ESPANHOL",
+   "year": 2017,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Aquí estoy establecido,\nEn los Estados Unidos,\nDiez años pasaron ya,\nEn que crucé de mojado,\nPapeles no he arreglado,\nSigo siendo un ilegal.\nTengo mi esposa y mis hijos,\nQue me los traje muy chicos,\nY se han olvidado ya,\nDe mi México querido,\nDel que yo nunca me olvido,\nY no puedo regresar.\n[…]\nMis hijos no hablan conmigo,\nOtro idioma han aprendido,\nY olvidado el español,\nPiensan como americanos,\nNiegan que son mexicanos,\nAunque tengan mi color.\n\nLOS TIGRES DEL NORTE. Jaula de oro. Woodland Hills, Califórnia: Fonovisa, 1986 (fragmento).\n\nA letra de canção coloca em cena um dilema por vezes vivenciado por imigrantes. Esse dilema se configura no sentimento do pai em relação ao(à)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diluição de sua identidade latino-americana, advinda do contato cotidiano com o outro."
+    },
+    {
+     "letter": "B",
+     "text": "Distanciamento dos filhos, gerado pela apropriação da língua e da cultura do outro."
+    },
+    {
+     "letter": "C",
+     "text": "Preconceito étnico-racial sofrido pelos imigrantes mexicanos no novo país."
+    },
+    {
+     "letter": "D",
+     "text": "Desejo de se integrar à nova cultura e de se comunicar na outra língua."
+    },
+    {
+     "letter": "E",
+     "text": "Vergonha perante os filhos de viver ilegalmente em outro país."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O pai sofre porque os filhos aprenderam outra língua e negam ser mexicanos: o distanciamento deles. **Resposta: B**",
+    "keyConcept": "Jaula de oro",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q4-ESPANHOL",
+   "year": 2017,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Emotivo encuentro en la universidad pública\n\nEl entonces mandatario uruguayo recibió el cariño de sus compatriotas residentes en Nueva York e informó sobre la evolución del país, las políticas de gobierno, los avances y cuentas pendientes. Como en ocasiones similares, se multiplicaron las muestras de respeto y emoción. “Una nación es un formidable sentimiento de un ‘nosotros’”, dijo.\n\nMujica comenzó su discurso relatando lo recogido de otras experiencias de comunidades en el exilio. “Muchos de ustedes echaron raíces, tienen hijos y no pueden cometer la agresión de descuajarle la vida. Tienen que cargar con esa nostalgia de ser de allá, pero estar acá”, dijo.\n\n“Estamos metidos en la lucha por mejorar las circunstancias, con el sueño de que las generaciones que vengan, puedan venir con más soltura, con más apoyo”, dijo el Presidente.\n\nMujica se refirió a algunas críticas que reciben algunas políticas sociales. “Nos acusan de que damos sin contrapartida. Nos dicen ‘a la gente no hay que darle pescado, sino enseñarle a pescar’. Sí — razonó el Presidente —, pero cuando le afanaste la caña, le afanaste el bote, ¿qué le vas a pedir? Para atrás no arreglamos, arreglamos para adelante.”\n\nDisponível em: www.republica.com.uy. Acesso em: 26 set. 2013 (adaptado).\n\nNo discurso dirigido aos compatriotas radicados em Nova York, o então presidente Mujica expressa o desejo de que os cidadãos que vivem no Uruguai",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Apoiem as políticas públicas afirmativas."
+    },
+    {
+     "letter": "B",
+     "text": "Integrem-se ao processo de globalização."
+    },
+    {
+     "letter": "C",
+     "text": "Cultivem o sentimento nacionalista."
+    },
+    {
+     "letter": "D",
+     "text": "Ofereçam uma contrapartida à nação."
+    },
+    {
+     "letter": "E",
+     "text": "Tenham melhores condições de vida."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Mujica fala em \"arreglar para adelante\": deseja que os uruguaios do país vivam melhor. **Resposta: E**",
+    "keyConcept": "Mujica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2017-REG-D1-C1-Q5-ESPANHOL",
+   "year": 2017,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "El eclipse\n\nCuando Fray Bartolomé Arrazola se sintió perdido aceptó que ya nada podría salvarlo. La selva poderosa de Guatemala lo había apresado, implacable y definitiva. Ante su ignorancia topográfica se sentó con tranquilidad a esperar la muerte. Al despertar se encontró rodeado por un grupo de indígenas de rostro impasible que se disponía a sacrificarlo ante un altar, un altar que a Bartolomé le pareció como el lecho en que descansaría, al fin, de sus temores, de su destino, de sí mismo. Tres años en el país le habían conferido un mediano dominio de las lenguas nativas. Intentó algo. Dijo algunas palabras que fueron comprendidas. Entonces floreció en él una idea que tuvo por digna de su talento y de su cultura universal y de su arduo conocimiento de Aristóteles. Recordó que para ese día se esperaba un eclipse total de sol. Y dispuso, en lo más íntimo, valerse de aquel conocimiento para engañar a sus opresores y salvar la vida. — Si me matáis — les dijo — puedo hacer que el sol se oscurezca en su altura. Los indígenas lo miraron fijamente y Bartolomé sorprendió la incredulidad en sus ojos. Vio que se produjo un pequeño consejo, y esperó confiado, no sin cierto desdén. Dos horas después el corazón de Fray Bartolomé Arrazola chorreaba su sangre vehemente sobre la piedra de los sacrificios (brillante bajo la opaca luz de un sol eclipsado), mientras uno de los indígenas recitaba sin ninguna inflexión de voz, sin prisa, una por una las infinitas fechas en que se producirían eclipses solares y lunares, que los astrónomos de la comunidad maya habían previsto y anotado en sus códices sin la valiosa ayuda de Aristóteles.\n\nMONTERROSO, A. Obras completas y otros cuentos. Bogotá: Norma, 1994 (adaptado).\n\nNo texto, confrontam-se duas visões de mundo: a da cultura ocidental, representada por Frei Bartolomé Arrazola, e a da mítica pré-hispânica, representada pela comunidade indígena maia. Segundo a narrativa,",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Os catequizadores espanhóis avalizam os saberes produzidos pelas comunidades indígenas hispano-americanas."
+    },
+    {
+     "letter": "B",
+     "text": "Os indígenas da comunidade maia mostram-se perplexos diante da superioridade do conhecimento aristotélico do frei espanhol."
+    },
+    {
+     "letter": "C",
+     "text": "O catequizador espanhol Arrazola apresenta-se adaptado às culturas autóctones, ao promover a interlocução entre os conhecimentos aristotélico e indígena."
+    },
+    {
+     "letter": "D",
+     "text": "O episódio representa, de forma neutra, o significado do conhecimento ancestral indígena, quando comparado ao conhecimento ocidental."
+    },
+    {
+     "letter": "E",
+     "text": "Os conhecimentos acadêmicos de Arrazola são insuficientes para salvá-lo da morte, ante a sabedoria astronômica da cultura maia."
+    }
+   ],
+   "figures": [],
+   "number": 5,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O frei tenta enganar os maias com o eclipse, mas eles já o tinham previsto: o saber acadêmico dele não o salva. **Resposta: E**",
+    "keyConcept": "El eclipse",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2018-REG-D1-C1-Q1-ESPANHOL",
+   "year": 2018,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "El día en que lo iban a matar, Santiago Nasar se levantó a las 5:30 de la mañana para esperar el buque en que llegaba el obispo. Había soñado que atravesaba un bosque de higuerones donde caía una llovizna tierna, y por un instante fue feliz en el sueño, pero al despertar se sintió por completo salpicado de cagada de pájaros. “Siempre soñaba con árboles”, me dijo Plácida Linero, su madre, evocando 27 años después los pormenores de aquel lunes ingrato. “La semana anterior había soñado que iba solo en un avión de papel de estaño que volaba sin tropezar por entre los almendros”, me dijo. Tenía una reputación muy bien ganada de intérprete certera de los sueños ajenos, siempre que se los contaran en ayunas, pero no había advertido ningún augurio aciago en esos dos sueños de su hijo, ni en los otros sueños con árboles que él le había contado en las mañanas que precedieron a su muerte.\n\nMARQUEZ, G. G. Crónica de una muerte anunciada. Disponível em: http://biblio3.url.edu.gt. Acesso em: 2 jan. 2015.\n\nNa introdução do romance, o narrador resgata lembranças de Plácida Linero relacionadas a seu filho Santiago Nasar. Nessa introdução, o uso da expressão augurio aciago remete ao(à)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Relação mística que se estabelece entre Plácida e seu filho Santiago."
+    },
+    {
+     "letter": "B",
+     "text": "Destino trágico de Santiago, que Plácida foi incapaz de prever nos sonhos."
+    },
+    {
+     "letter": "C",
+     "text": "Descompasso entre a felicidade de Santiago nos sonhos e seu azar na realidade."
+    },
+    {
+     "letter": "D",
+     "text": "Crença de Plácida na importância da interpretação dos sonhos para mudar o futuro."
+    },
+    {
+     "letter": "E",
+     "text": "Presença recorrente de elementos sombrios que se revelam nos sonhos de Santiago."
+    }
+   ],
+   "figures": [],
+   "number": 1,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "\"Augurio aciago\" é presságio funesto: a mãe não viu nos sonhos o destino trágico do filho. **Resposta: B**",
+    "keyConcept": "augurio aciago",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2018-REG-D1-C1-Q3-ESPANHOL",
+   "year": 2018,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "¿Qué es la X Solidaria?\n\nLa X Solidaria es una equis que ayuda a las personas más vulnerables. Podrás marcarla cuando hagas la declaración de la renta. Es la casilla que se denomina\n“Fines Sociales”. Nosotros preferimos llamarla X Solidaria:\n\n*   porque al marcada haces que se destine un 0,7 de tus impuestos a programas sociales que realizan las ONG.\n*   porque se benefician los colectivos más desfavorecidos, sin ningún coste económico para ti.\n*   porque NO marcarla es tomar una actitud pasiva, y dejar que sea el Estado quien decida el destino de esa parte de tus impuestos.\n*   porque marcándola te conviertes en contribuyente activo solidario.\n\nDisponível em: http://xsolidaria.org. Acesso em: 20 fev. 2012 (adaptado).\n\nAs ações solidárias contribuem para o enfrentamento de problemas sociais. No texto, a ação solidária ocorre quando o contribuinte",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Delega ao governo o destino de seus impostos."
+    },
+    {
+     "letter": "B",
+     "text": "Escolhe projetos que terão isenção de impostos."
+    },
+    {
+     "letter": "C",
+     "text": "Destina parte de seus impostos para custeio de programas sociais."
+    },
+    {
+     "letter": "D",
+     "text": "Determina a criação de impostos para implantação de projetos sociais."
+    },
+    {
+     "letter": "E",
+     "text": "Seleciona vários programas para beneficiar cidadãos vulneráveis socialmente."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Marcar a casilla destina parte do imposto a fins sociais. **Resposta: C**",
+    "keyConcept": "X Solidaria",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2018-REG-D1-C1-Q4-ESPANHOL",
+   "year": 2018,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "¿Cómo gestionar la diversidad lingüística en el aula?\n\nEl aprendizaje de idiomas es una de las demandas de la sociedad en la escuela: los alumnos tienen que finalizar la escolarización con un buen conocimiento, por lo menos, de las tres lenguas curriculares: catalán, castellano e inglés (o francés, portugués…).\nLa metodología que promueve el aprendizaje integrado de idiomas en la escuela tiene en cuenta las relaciones entre las diferentes lenguas: la mejor enseñanza de una lengua incide en la mejora de todas las demás. Se trata de educar en y para la diversidad lingüística y cultural.\nPor eso, la V Jornada de Buenas Prácticas de Gestión del Multilingüismo, que se celebrará en Barcelona, debatirá sobre la gestión del multilingüismo en el aula. El objetivo es difundir propuestas para el aprendizaje integrado de idiomas y presentar experiencias prácticas de gestión de la diversidad lingüística presente en las aulas.\n\nDisponível em: www10.gencat.cat. Acesso em: 15 set. 2010 (adaptado).\n\nNa região da Catalunha, Espanha, convivem duas línguas oficiais: o catalão e o espanhol. Além dessas, ensinam-se outras línguas nas escolas. De acordo com o texto, para administrar a variedade linguística nas aulas, é necessário",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ampliar o número de línguas ofertadas para enriquecer o conteúdo."
+    },
+    {
+     "letter": "B",
+     "text": "Divulgar o estudo de diferentes idiomas e culturas para atrair os estudantes"
+    },
+    {
+     "letter": "C",
+     "text": "Privilegiar o estudo de línguas maternas para valorizar os aspectos regionais."
+    },
+    {
+     "letter": "D",
+     "text": "Explorar as relações entre as línguas estudadas para promover a diversidade."
+    },
+    {
+     "letter": "E",
+     "text": "Debater as práticas sobre multilinguismo para formar melhor os professores de línguas."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O texto propõe a aprendizagem integrada dos idiomas: relacionar as línguas para valorizar a diversidade. **Resposta: D**",
+    "keyConcept": "diversidade linguística",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2018-REG-D1-C1-Q5-ESPANHOL",
+   "year": 2018,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Mayo\n15\nQue mañana no sea otro nombre de hoy\n\nEn el año 2011, miles de jóvenes, despojados de sus casas y de sus empleos, ocuparon las plazas y las calles de varias ciudades de España.\nY la indignación se difundió. La buena salud resultó más contagiosa que las pestes, y las voces de los indignados atravesaron las fronteras dibujadas en los mapas. Así resonaron en el mundo:\nNos dijeron “¡a la puta calle!”, y aquí estamos.\nApaga la tele y enciende la calle.\nLa llaman crisis, pero es estafa.\nNo falta dinero: sobran ladrones.\nLos mercados gobiernan. Yo no los voté.\nEllos toman decisiones por nosotros, sin nosotros.\nSe alquila esclavo económico.\nEstoy buscando mis derechos. ¿Alguien los ha visto?\nSi no nos dejan soñar, no los dejaremos dormir\n\nGALEANO, E. Los hijos de los dias. Buenos Aires: Siglo Veintiuno, 2012.\n\nAo elencar algumas frases proferidas durante protestos na Espanha, o enunciador transcreve, de forma direta, as\nreivindicações dos manifestantes para",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Provocá-los de forma velada."
+    },
+    {
+     "letter": "B",
+     "text": "Dar voz ao movimento popular."
+    },
+    {
+     "letter": "C",
+     "text": "Fomentar o engajamento do leitor."
+    },
+    {
+     "letter": "D",
+     "text": "Favorecer o diálogo entre governo e sociedade."
+    },
+    {
+     "letter": "E",
+     "text": "Instaurar dúvidas sobre a legitimidade da causa."
+    }
+   ],
+   "figures": [],
+   "number": 5,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Ao transcrever as frases dos cartazes, o autor dá voz ao movimento popular. **Resposta: B**",
+    "keyConcept": "Galeano e os indignados",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q1-ESPANHOL",
+   "year": 2019,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Adelfos\n\nYo soy como las gentes que a mi tierra vinieron — soy de la raza mora, vieja amiga del sol —, que todo lo ganaron y todo lo perdieron. Tengo el alma de nardo del árabe español.\n\nMACHADO, M. Disponível em: www.poetasandaluces.com. Acesso em: 22 out. 2015 (fragmento).\n\nNessa estrofe, o poeta e dramaturgo espanhol Manuel Machado reflete acerca",
+   "options": [
+    {
+     "letter": "A",
+     "text": "De sua formação identitária plural."
+    },
+    {
+     "letter": "B",
+     "text": "Da condição nômade de seus antepassados."
+    },
+    {
+     "letter": "C",
+     "text": "Da perda sofrida com o processo de migração."
+    },
+    {
+     "letter": "D",
+     "text": "Da dívida do povo espanhol para com o povo árabe."
+    },
+    {
+     "letter": "E",
+     "text": "De sua identificação com os elementos da natureza."
+    }
+   ],
+   "figures": [],
+   "number": 1,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O poeta se diz da \"raza mora\" com alma de \"árabe español\": identidade plural. **Resposta: A**",
+    "keyConcept": "Adelfos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q2-ESPANHOL",
+   "year": 2019,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "Millennials: Así es la generación que ya no recuerda\ncómo era el mundo sin Internet\n\nAlgunos los llaman generación Y, otros “Millennials”, generación del milenio o incluso “Echo Boomers”.\nNacieron y crecieron en una era de rápido desarrollo de las nuevas tecnologías, y casi no recuerdan cómo era el mundo sin Internet.\nSon idealistas, impacientes y están bien preparados académicamente. Muchos de ellos han tenido oportunidad de viajar por el mundo a una edad temprana,\nde estudiar en las mejores universidades y de trabajar en empresas multinacionales y extranjeras.\nLa generación Y se compone de este tipo de personas que quieren todo a la vez. No están dispuestos a soportar un trabajo poco interesante y rutinario, no quieren dejar las cosas buenas para luego. Lo que sí quieren es dejar su huella en la historia, vivir una vida interesante, formar parte de algo grande, crecer y desarrollarse, cambiar el mundo que les rodea, y no solo ganar dinero.\n\nDisponível em: https://actualidad.rt.com. Acesso em: 4 dez. 2018.\n\nO texto aponta características e interesses da “Geração Y”. Nele, a expressão dejar su huella refere-se a um dos desejos dessa geração, que é o de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Conhecer diferentes lugares."
+    },
+    {
+     "letter": "B",
+     "text": "Fazer a diferença no mundo."
+    },
+    {
+     "letter": "C",
+     "text": "Aproveitar todas as oportunidades."
+    },
+    {
+     "letter": "D",
+     "text": "Obter uma formação acadêmica de excelência."
+    },
+    {
+     "letter": "E",
+     "text": "Conquistar boas colocações no mundo do trabalho."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "\"Dejar su huella\" é deixar marca, fazer a diferença no mundo. **Resposta: B**",
+    "keyConcept": "dejar su huella",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q3-ESPANHOL",
+   "year": 2019,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "Que hay de cierto en la fábula de la cigarra y la hormiga\n\nCuenta una conocida fábula que, tras pasar todo un verano cantando y ociosa, una cigarra se encontró sin alimento y decidió pedir a su vecina, la hormiga algo que llevarse a la boca. Esta le ofreció granos de arroz acompañados de una moraleja: más vale prevenir que lamentar. ¿Merecen su fama de previsoras y afanosas las hormigas? Sin duda. Las hormigas cortadoras de hojas (Atta cephalotes), por ejemplo, son consideradas las primeras agricultoras del planeta, dedicadas a cortar, acarrear e integrar hojas en el jardín de hongos del que se alimentan. Otro dato curioso es que se ha comprobado que, prácticamente en todas las especies de hormigas, las más ancianas asumen trabajos de mayor riesgo. De acuerdo con Dawid Moron de la Universidad de Jagiellonian (Polonia), esto se debe a que es mejor para la colonia sacrificar una vida que está cerca de su fin que a un individuo joven.\n\nEn cuanto a las cigarras, no se les puede acusar de perezosas. Lo que sí es cierto es que los machos pasan el verano “cantando” — un sonido que producen con unas membranas llamadas timbales — y encaramados a un árbol, de cuya savia se alimentan.\n\nDisponível em: www.muyinteresante.es.\nAcesso em: 31 out. 2012 (adaptado).\n\nA fábula é um gênero de ampla divulgação frequentemente revisitado com diversos objetivos. No texto, a fábula A cigarra e a formiga é retomada para",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Apresentar ao leitor um ensinamento moral."
+    },
+    {
+     "letter": "B",
+     "text": "Reforçar o estereótipo associado às cigarras."
+    },
+    {
+     "letter": "C",
+     "text": "Descrever o comportamento dos insetos na natureza."
+    },
+    {
+     "letter": "D",
+     "text": "Expor a superioridade das formigas em relação às cigarras."
+    },
+    {
+     "letter": "E",
+     "text": "Descrever a relação social entre formigas e cigarras na natureza."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O texto parte da fábula para descrever o comportamento real de formigas e cigarras na natureza. **Resposta: C**",
+    "keyConcept": "fábula revisitada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q4-ESPANHOL",
+   "year": 2019,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Empanada\n\nOvera en bayo claro,\n\nvaquilla echada,\n\neres del vino tinto la camarada.\n\n[…]\n\nVienes llena de pino,\n\ncebolla y carne,\n\ncon pasas, huevo duro,\n\ny aliño de hambre.\n\nCon el primer mordisco\n\npor una oreja,\n\nse abre tu boca ardiente\n\ncomo sorpresa.\n\nTe la lleno de pebre\n\nquedas picante\n\nsi te beso muy fuerte,\n\nno me reclames.\n\nBusco, loco, en tu vientre,\n\ndelicia oscura,\n\nla traición exquisita\n\nde tu aceituna.\n\n[…]\n\nY repite el ataque\n\npor andanadas:\n\nNadie queda con hambre\n\nsi hay empanadas.\n\nANTRIX, J. Disponível em: http://versado-en-la-cocina.blogspot.com.\nAcesso em: 8 dez. 2018 (fragmento).\n\nA gastronomia é uma das formas de expressão cultural de um povo. Nesse poema, ao personificar as empanadas, o escritor chileno Antrix",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enaltece esse prato da culinária hispânica."
+    },
+    {
+     "letter": "B",
+     "text": "Descreve algumas etapas de preparação dessa receita."
+    },
+    {
+     "letter": "C",
+     "text": "Destaca a importância do vinho na alimentação hispânica."
+    },
+    {
+     "letter": "D",
+     "text": "Resgata o papel histórico desse alimento em tempos de fome."
+    },
+    {
+     "letter": "E",
+     "text": "Evidencia a relevância de alguns condimentos na cozinha hispânica."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O poeta trata a empanada como amante saborosa: enaltece o prato. **Resposta: A**",
+    "keyConcept": "empanada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2019-REG-D1-C1-Q5-ESPANHOL",
+   "year": 2019,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "El Hombre Electrónico\n\n¿Cuántas veces has cambiado de móvil? ¿Cuántos ordenadores has tenido ya? ¿Tienes cámara digital, IPOD, Nintendo Wii y televisión de pantalla de plasma? Ordenadores, teléfonos móviles, GPS, walkmans, televisiones, lavadoras, tostadores, aspiradores y un larguísimo etcétera. Todos usamos aparatos eléctricos que tarde o temprano se convertirán en residuos. El Hombre Electrónico mide 7 metros de altura y pesa 3,3 toneladas. Es una escultura hecha con la cantidad de residuos eléctricos y electrónicos que un ciudadano medio (en el Reino Unido) tirará a la basura a lo largo de su vida, si se sigue consumiendo este tipo de productos al ritmo actual. El Hombre Electrónico ha sido diseñado por el escultor Paul Bomini con objetivo de aumentar la conciencia de los ciudadanos a la hora de consumir aparatos eléctricos. Esta campaña parte de la base de que todos compramos aparatos electrónicos como herramientas de trabajo u ocio, pero haciéndonos unas cuantas preguntas podemos inducir cambios en nuestro comportamiento que beneficiarán al medio ambiente, otras personas y a nosotros mismos: ¿Tienes algún aparato eléctrico o electrónico que no necesitas? ¿Podrías ser más responsable a la hora de comprar un nuevo producto electrónico? ¿Podrías reciclar o reparar estos productos una vez que se han quedado obsoletos o se han roto? ¿Intentas ahorrar energia en tu vida diaria?\n\nDisponível em: www.verdecito.es. Acesso em: 20 fev. 2009 (adaptado).\n\nConsiderando a necessidade de assumir uma conduta mais responsável com o meio ambiente, Paul Bomini criou a escultura O homem eletrônico para",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Incentivar inovações em reciclagem para a construção de máquinas."
+    },
+    {
+     "letter": "B",
+     "text": "Propor a criação de objetos a partir de aparelhos descartados."
+    },
+    {
+     "letter": "C",
+     "text": "Divulgar o lançamento de produtos eletrônicos sustentáveis."
+    },
+    {
+     "letter": "D",
+     "text": "D problematizar o descarte inconsequente de equipamentos."
+    },
+    {
+     "letter": "E",
+     "text": "Alertar sobre as escolhas tecnológicas da população."
+    }
+   ],
+   "figures": [],
+   "number": 5,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A escultura feita de aparelhos descartados acompanha perguntas sobre consumir menos e reciclar: problematiza o descarte inconsequente. **Resposta: D**",
+    "keyConcept": "O homem eletrônico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q1-ESPANHOL",
+   "year": 2020,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Pablo Pueblo\n\nRegresa un hombre en silencio\nDe su trabajo cansado\nSu paso no lleva prisa\nSu sombra nunca lo alcanza\n\nLo espera el barrio de siempre\nCon el farol en la esquina\nCon la basura allá en frente\nY el ruido de la cantina\n\nPablo Pueblo\nllega hasta el zaguán oscuro\nY vuelve a ver las paredes\nCon las viejas papeletas\nQue prometían futuros\nen lides politiqueras\nY en su cara se dibuja\nla decepción de la espera.\n\nBLADES. R. DisponíveI em: http://rubenblades.com. Acesso em: 26 jun. 2012 (fragmento)\n\nRubén Blades é um compositor panamenho de canções socialmente engajadas. O título Pablo Pueblo, associado ao conteúdo da letra da canção, revela uma crítica social ao",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Contrapor a individualidade de um sujeito a uma estrutura social marcada pela decepção na atuação política."
+    },
+    {
+     "letter": "B",
+     "text": "Demonstrar que o problema sofrido pelo indivíduo atinge toda a comunidade."
+    },
+    {
+     "letter": "C",
+     "text": "Relativizar a importância que se dá ao sofrimento individual em uma estrutura social baseada na exploração."
+    },
+    {
+     "letter": "D",
+     "text": "Descrever a vida de um sujeito que nunca resolve suas inquietações e, por isso, mantém-se silencioso."
+    },
+    {
+     "letter": "E",
+     "text": "Usar um apelido jocoso para designar a atuação de um indivíduo em seu próprio bairro."
+    }
+   ],
+   "figures": [],
+   "number": 1,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "\"Pablo Pueblo\" é um homem e todo o povo: o indivíduo cansado diante de uma estrutura social de promessas frustradas. **Resposta: A**",
+    "keyConcept": "Pablo Pueblo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q2-ESPANHOL",
+   "year": 2020,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Los propietarios de la libertad\n\nLas palabras cumplen ciclos; las actitudes también. Sin embargo, cuando las palabras designan actitudes, los ciclos se vuelven más complejos. Cuando el hoy tan denostado Sartre puso la palabra compromiso sobre el tapete y hasta Mac Leish publicó un libro sobre la responsabilidad de los intelectuales, estas dos palabras, compromiso y responsabilidad, designaban actitudes que, sin ser gemelas, eran bastante afines. Salvo contadas excepciones, los intelectuales de entonces los hicieron suyas y, equivocados o no, dijeron sin eufemismos por\nqué empeño se la jugaban.\n\nLos intelectuales latinoamericanos tambiéncomprendieron dónde estaba esta vez el enemigo. Sólo entonces empezó la mala prensa. Los grandes pontífices de la propaganda subrayaron una y otra vez la palabra libertad y denostaron el compromiso. Libertad no era librarse de Batista o de Somoza, sino mantener la prensa libre. Libertad es la emocionada comprobación de que la gran prensa norteamericana es capaz de descubrir que Lumumba o Aliende fueron liquidados por la CIA, sin poner el acento en que eso no sirve para resucitarlos.\n\n¿Y compromiso? Es la actitud que adoptan ciertos intelectuales, cuya carga ideológica perjudica notoriamente su arte. Después de todo, ¿cómo se atrevena frecuentar las provincias del espiritu, si es público y notorio que tales ámbitos son patrimonio exclusivo de los propietarios de la Iibertad?\n\nBENEDETTI, M. Perplejidades de fin de siglo. Buenos Aires: Sudamericana, 1993 (adaptado)\n\nTransformar palavras em atitudes tem sido um dos grandes dilemas dos intelectuais. Ao ponderar sobre essa temática, o autor, um dos grandes críticos e literatos latino-americanos da atualidade, leva o leitor a perceber que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "O compromisso político afasta o artista da criação."
+    },
+    {
+     "letter": "B",
+     "text": "Os costumes sociais governam a linguagem e as atitudes das pessoas."
+    },
+    {
+     "letter": "C",
+     "text": "O compromisso ideológico de alguns intelectuais está refletido em suas obras."
+    },
+    {
+     "letter": "D",
+     "text": "A complexidade relacionada ao conceito de liberdade impede o compromisso."
+    },
+    {
+     "letter": "E",
+     "text": "Os intelectuais latino-americanos têm um posiciona - mento acrítico perante o poder."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O texto discute o compromisso e mostra que a postura ideológica de certos intelectuais se reflete em suas obras. **Resposta: C**",
+    "keyConcept": "Benedetti",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q3-ESPANHOL",
+   "year": 2020,
+   "area": "Interpretação e Gêneros Textuais",
+   "content": null,
+   "demand": null,
+   "statement": "La violencia como bella arte\n\nPues bien, ‘Relatos Salvajes’, de Damián Szifrón, es\nsobre todo un brilhante esfuerzo por poner rostro, por\nfotografiar, a la parte de la violencia que tanto cuesta ver\nen el cine. De repente, el director argentino coloca la\nespectador ante el espectáculo, digamos putrefacto, de\nuna sociedad enferma de su propia indolencia,\nanestesiada por su ira, incapaz de entender el origen de\nla insatisfacción que la habita. ¿Cómo se quedan? Sí,\nestamos delante de la una película vocacionalmente\nviolenta, obligadamente salvaje, pero, y sobre todo,\ndeslumbrante en su claridad.\nMás allá del esplendor sabio de una producción\nperfecta, lo que más duele, lo que más divierte, lo que\nmás conmueve es la sensación de reconocimiento. Cada\nuno de los damnificados, pese a su acento marcadamente\nargentino, somos nosotros. O, mejor, cada insulto\nproferido, y no siempre entendido, es nuestro, en algún\nmomento ha salido de nuestra boca. O saldrá.\nLa violencia no es sólo eso que tanto desagrada a los\nprofesionales del buen gusto, a los programadores de\nópera o a los filósofos de la nada; la violencia, la\nrealmente insoportable, es también una cuestión de\nactitud, un simple gesto. Y esa violencia está por todas\npartes, está dentro. Y Szifrón acierta a retrataria tan\nfielmente que no queda otra cosa que romper a reír.\nAunque sólo sea de simple desesperación. Brillante,\nmagistral incluso.\n\nMARTÍNEZ, L. Disponível em: www.elmundo.es. Acesso em: 13 abr. 2015 (adaptado).\n\nNessa resenha crítica acerca do filme Relatos Salvajes, o autor evidencia o",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cômico como fuga da sociedade diante de situações violentas."
+    },
+    {
+     "letter": "B",
+     "text": "Estado de apatia da sociedade perante a violência rotineira do mundo atual."
+    },
+    {
+     "letter": "C",
+     "text": "Empecilho para o espectador vivenciar a violência bruta na realidade e na ficção."
+    },
+    {
+     "letter": "D",
+     "text": "Sotaque reforçado dos personagens a fim de marca.r o espaço do cinema argentino."
+    },
+    {
+     "letter": "E",
+     "text": "Autorreconhecimento diante dos diversos tipos de comportamento humano frente à violência."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O filme retrata uma violência que está \"dentro\" de todos; o espectador se reconhece e ri de desespero. **Resposta: E**",
+    "keyConcept": "resenha crítica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2020-REG-D1-C1-Q4-ESPANHOL",
+   "year": 2020,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Oye, Pito, ésta es: la vida bruta de un boy\nmis tierras eran\nnuevo méxico, colorado,\ncalifornia, arizona, tejas,\ny muchos otros senderos,\naún cuando la luz existía\nsonrientemente\nen las palabras\nde mis antepasados…\nera entonces hombre,\nmaduro y sencillo\ncomo los cerros y los peñascos,\ny mi cultura era el atole,\nel chaquehue, y los buenos días;\nmi idioma cantaba\nversículos\npor los cañones\nde tierra roja\ny tierra amarilla…\nHoy sí, hoy ya no soy\nmejicano ni hispano\nni tampoco americano,\npero soy — y bien lo siento ser —\nuna sombra del pasado\ny un esfuerzo\nhacia el futuro…\n\nSÁNCHEZ. R. Disponível em: www.materialdelectura.unam.mx. Acesso em: 4 dez. 2017.\n\nAo abordar a expropriação de territórios mexicanos pelos Estados Unidos, o eu lírico do poema revela um(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Rejeição da língua utilizada por seus antepassados."
+    },
+    {
+     "letter": "B",
+     "text": "Desejo de pertencimento ao espaço estadunidense."
+    },
+    {
+     "letter": "C",
+     "text": "Certeza de manutenção de suas tradições."
+    },
+    {
+     "letter": "D",
+     "text": "Reivindicação de um mundo unificado."
+    },
+    {
+     "letter": "E",
+     "text": "Sentimento de conflito de identidades."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "\"Hoy ya no soy mejicano ni hispano ni tampoco americano\": conflito de identidades. **Resposta: E**",
+    "keyConcept": "identidade chicana",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2021-REG-D1-C1-Q1-ESPANHOL",
+   "year": 2021,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Se reunieron en un volumen todas las entrevistas\ndadas por el poeta y dramaturgo Federico García Lorca.\nLorca concedió 133 entrevistas; leyéndolas se sabrá\nqué estaba por detrás de la poética del escritor andaluz.\nSobre su obra declaró en una de ellas: “No he sido nunca\npoeta de minoría. He tratado de poner en mis poemas\nlo de todos los tiempos, lo permanente, lo humano.\nA mí me ataca lo humano, es el elemento fundamental en\ntoda obra de arte”. Y en otra dijo: “Hoy no interesa más\nque una problemática: lo social. La obra que no siga esa\ndirección está condenada al fracaso, aunque sea muy\nbuena”. En su última entrevista, de junio de 1936, Lorca\nse muestra profético: “Ni el poeta ni nadie tiene la clave y\nel secreto del mundo. Quiero ser bueno. Sé que la poesía\neleva y creo firmemente que si hay un más allá tendré la\nagradable sorpresa de encontrarme con él. Pero el dolor\ndel hombre y la injusticia constante que mana del mundo,\ny mi propio cuerpo y mi propio pensamiento, me evitan\ntrasladar mi casa a las estrellas”\n\nAYÉN, X. Retrato del poeta como “muchachón gitanazo”. Disponivel em: www.clarin.com.\nAcesso em: 8 dez. 2017 (adaptado),\n\nEsse trecho da resenha de um livro de entrevistas concedidas por Federico García Lorca tem por finalidade",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ressaltar a atração do entrevistado por questões misticas."
+    },
+    {
+     "letter": "B",
+     "text": "Divulgar a comoção das elites com as obras do entrevistado."
+    },
+    {
+     "letter": "C",
+     "text": "Salientar o compromisso do entrevistado com as questões sociais."
+    },
+    {
+     "letter": "D",
+     "text": "Mostrar a atualidade das bras poéticas e teatrais do entrevistado."
+    },
+    {
+     "letter": "E",
+     "text": "Criticar o interesse do entrevistado por particularidades da vida humana."
+    }
+   ],
+   "figures": [],
+   "number": 1,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Lorca diz que a dor do homem e a injustiça do mundo o impedem de \"mudar-se para as estrelas\": compromisso social. **Resposta: C**",
+    "keyConcept": "Lorca",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2021-REG-D1-C1-Q2-ESPANHOL",
+   "year": 2021,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "Amuleto\n\nLo único cierto es que llegué a México en 1965 y me planté en casa de León Felipe y en casa de Pedro Garfias y les dije aquí estoy para lo que gusten mandar. Y les debí de caer simpática, porque antipática no soy, aunque a veces soy pesada, pero antipática nunca. Y lo primero que hice fue coger una escoba y ponerme a barrer el suelo de sus casas y luego a limpiar las ventanas y cada vez que podía les pedía dinero y les hacia compra. Y ellos me decían con ese tono español tan peculiar, esa musiquilla distinta que no los abandonó nunca, como si encircularan las zetas y las ces y como si dejaran a las eses más huérfanas y libidinosas que nunca, Auxilio, me decian, deja ya de trasegar por el piso, Auxilio, deja esos papeles tranquilos, mujer, que el polvo siempre se ha avenido con la literatura.\n\nBOLAÑO, R. A. Tres novelas. Barcelona: Circulo de Lectores, 2003.\n\nNo fragmento do romance, a uruguaia Auxilio narra a experiência que viveu no México ao trabalhar voluntariamente para dois escritores espanhóis. Com base na relação com os escritores, ela reflete sobre a(s)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Variação linguística do espanhol."
+    },
+    {
+     "letter": "B",
+     "text": "Sujeira dos livros de literatura."
+    },
+    {
+     "letter": "C",
+     "text": "Distintas maneiras de acolher do mexicano."
+    },
+    {
+     "letter": "D",
+     "text": "Orientações sobre a limpeza das casas dos espanhóis."
+    },
+    {
+     "letter": "E",
+     "text": "Dificuldades de comunicação entre patrão e empregada."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Auxilio comenta o espanhol peninsular dos escritores, com \"eses\" e \"zetas\", diferente do seu: variação linguística. **Resposta: A**",
+    "keyConcept": "Amuleto",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2021-REG-D1-C1-Q3-ESPANHOL",
+   "year": 2021,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Hoy, en cuestión de segundos uno es capaz de conocer la vida de un individuo o las actividades que lleva a cabo sin necesidad de contacto personal; las RRSS tienen la poderosa virtud de convocar concentraciones de gentes con idearios comunes y generar movimientos como la Primavera Árabe, por ejemplo.\nBajo ese parámetro, cualquier incidente puede ser inmediatamente reportado por grabación o filmación, por lo que a los aparatos celulares, más allá de su utilidad en términos de conversación, habria que calificarlos como “la guillotina del siglo XXI”.\nAsí es. Son éstos los que han pasado a convertirse en artefactos con cuyo uso se han develado conversaciones, acuerdos, negociados, chantajes y un sin fin de hechos que han dado curso a procesos de naturaleza legal e investigativa que han tumbado gobiernos, empresas, empresarios, políticos y que, incluso, ha servido en un caso reciente, para que un inocente recupere su libertad tras cuatro años de injusto encierro.\n\nDisponível em: https:/elpotosi.net. Acesso em: 24. jun. 2021.\n\nO texto trata da evolução inerente às funcionalidades de recursos tecnológicos. A expressão “la guillotina del siglo XXI” destaca que os celulares de hoje podem",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Oferecer recursos com funções múltiplas."
+    },
+    {
+     "letter": "B",
+     "text": "Reunir usuários com ideias semelhantes."
+    },
+    {
+     "letter": "C",
+     "text": "Divulgar informação instantânea."
+    },
+    {
+     "letter": "D",
+     "text": "Organizar movimentos sociais."
+    },
+    {
+     "letter": "E",
+     "text": "Assumir utilidade jurídica."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O celular registra provas que tumbaram governos e libertaram um inocente: assume utilidade jurídica. **Resposta: E**",
+    "keyConcept": "guillotina del siglo XXI",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q2-ESPANHOL",
+   "year": 2022,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Pequeño hermano\n\nEs, no cabe duda, el instrumento más presente y más poderoso de todos los que entraron en nuestras vidas. Ni la televisión ni el ordenador, no hablemos ya del obsoleto fax o de las agendas o los libros electrónicos, ha tenido tal influencia, tal predicamento sobre nosotros. El móvil somos nosotros mismos. Todo desactivado e inerte, inocuo, ya les digo. Y de repente, tras un viaje y tres o cuatro imprudentes fotos, salta un aviso en la pantalla. Con sonido, además, pese a que tengo también todas las alertas desactivadas. Y mi monstruo doméstico me dice: Tienes un recuerdo nuevo. Lo repetiré: tienes un recuerdo nuevo. ¿Y tú qué sabes? ¿Y a ti, máquina demoníaca, qué te importa? ¿Cómo te atreves a decirme qué son o no son mis recuerdos? ¿Qué es esta intromisión, este descaro? El pequeño hermano lo sabe casi todo. Sólo hay una esperanza: que la obsolescencia programada mate antes al pequeño hermano y que nosotros sigamos vivos, con los recuerdos que nos dé la gana.\n\nFERNANDEZ, D, Disponível em: www.lavanguardia.com.\n\nAcesso em:  5 dez. 2018 (adaptado).\n\nNo texto, autor faz uma crítica ao(à)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Conhecimento das pessoas sobre as tecnologias."
+    },
+    {
+     "letter": "B",
+     "text": "Uso do celular alheio por pessoas desautorizadas."
+    },
+    {
+     "letter": "C",
+     "text": "Funcionamento de recursos tecnológicos obsoletos."
+    },
+    {
+     "letter": "D",
+     "text": "Ingerência do celular sobre as escolhas dos usuários"
+    },
+    {
+     "letter": "E",
+     "text": "Falta de informação sobre a configuração de alertas no celular"
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O autor reage ao celular que lhe diz quais são suas lembranças: ingerência do aparelho nas escolhas do usuário. **Resposta: D**",
+    "keyConcept": "pequeño hermano",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q3-ESPANHOL",
+   "year": 2022,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "En los suburbios de La Habana, llaman al amigo _mi tierra o mi sangre._En Caracas, el amigo es mi pana o mi llave: pana, por panadería, la fuente del buen pan para las hambres del alma; y llave por…—Llave, por llave—me dice Mario Benedetti. Y me cuenta que cuando vivía en Buenos Aires, en los tiempos del terror, él llevaba cinco llaves ajenas en su llavero: cinco llaves, de cinco casas, de cinco amigos: las llaves que lo salvaron.\n\nGALEANO, E. El libro de los abrazos. Madri: Siglo Veintiuno, 2015.\n\nNesse texto, o autor demonstra como as diferentes expressões existentes em espanhol para se referir a “amigo” variam em função",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Das peculiaridades dos subúrbios hispano-americanos."
+    },
+    {
+     "letter": "B",
+     "text": "Da força da conexão espiritual entre os amigos."
+    },
+    {
+     "letter": "C",
+     "text": "Do papel da amizade em diferentes contextos."
+    },
+    {
+     "letter": "D",
+     "text": "Do hábito de reunir amigos em torno da mesa"
+    },
+    {
+     "letter": "E",
+     "text": "Dos graus de intimidade entre os amigos"
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "\"Pana\" e \"llave\" (as chaves que salvaram Benedetti) mostram que os nomes do amigo variam conforme o papel da amizade em cada contexto. **Resposta: C**",
+    "keyConcept": "nomes do amigo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2022-REG-D1-C1-Q4-ESPANHOL",
+   "year": 2022,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Los niños de nuestro olvido\n\nEscribo sobre un destino\nQue apenas puedo tocar\nEn tanto un niño se inventa\nCon pegamento un hogar\n\nMientras busco las palabras\nPara hacer esta canción\nUn niño esquiva las balas\nQue buscan su corazón\n\nAcurrucado en mí calle\nDuerme un niño y la piedad\nArma lejos un pesebre\nY juega a la navidad\n\nArma lejos un pesebre\nY juega a la navidad\nY juega a la navidad\nY juega, y juega, y juega…\n\nLa niñez de nuestro olvido\nPide limosna en un bar\nY lava tu parabrisas\nPor un peso, por un pan\n\nSi las flores del futuro\nCrecen con tanto dolor\nSeguramente mañana\nSerá un mañana sin sol\n\nNo texto, a expressão “un mañana sin sol” é usada para concluir uma critica ao(à)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Descanso diante da problemática de crianças em situação de rua."
+    },
+    {
+     "letter": "B",
+     "text": "Violência característica do cotidiano das grandes metrópoles."
+    },
+    {
+     "letter": "C",
+     "text": "Estímulo à mendicância nos centros urbanos"
+    },
+    {
+     "letter": "D",
+     "text": "Tendência de informalização do trabalho"
+    },
+    {
+     "letter": "E",
+     "text": "Falta de serviços de saúde adequados"
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "A canção critica o descaso (\"olvido\") com as crianças de rua; sem mudança, o futuro será sem sol. **Resposta: A**",
+    "keyConcept": "un mañana sin sol",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q2-ESPANHOL",
+   "year": 2023,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Me niego rotundamente\nA negar mi voz,\nMi sangre y mi piel.\nY me niego rotundamente\nA dejar de ser yo,\nA dejar de sentirme bien\nCuando miro mi rostro en el es\nCon mi boca\nRotundamente grande\nY mi nariz\nRotundamente hermosa,\nY mis dientes\nRotundamente blancos,\nY mi piel valientemente negra.\nY me niego categóricamente\nA dejar de hablar\nMi lengua, mi acento y mi historia\nY me niego absolutamente\nA ser parte de los que callan,\nDe los que temen,\nDe los que lloran\nPorque me acepto\nRotundamente libre,\nRotundamente negra,\nRotundamente hermosa.\nCAMPELL BARR, S. Disponível em:\nhttps.negracubanateniaqueser.com\nAcesso em 25 out. 2021.\nPara enfatizar caracteristicas e atitudes que reforçam a identidade da mulher negra, o poema da escritora costarriquenha apresenta:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Advérbios como \"rotundamente\" e \"categóricamente\"."
+    },
+    {
+     "letter": "B",
+     "text": "Verbos reflexivos como \"me niego\" e \"me acepto\"."
+    },
+    {
+     "letter": "C",
+     "text": "Adjetivos como \"grande\" e \"hermosa\"."
+    },
+    {
+     "letter": "D",
+     "text": "Substantivos como \"sangre\" e \"piel\"."
+    },
+    {
+     "letter": "E",
+     "text": "Adjetivos possessivos como \"mi\" e \"mis\"."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Os advérbios \"rotundamente\", \"categóricamente\" e \"absolutamente\" enfatizam a afirmação da identidade negra. **Resposta: A**",
+    "keyConcept": "rotundamente",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q3-ESPANHOL",
+   "year": 2023,
+   "area": "Cultura e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "“Caramelos” en sus suelos\n\nLas tierras de España, tu vista enamoran;\n\nsus gentes; te amistan; ¿“cocinas”?, ¡“te molan”!\n\n¿El plato común?, ¡pues «tortilla/patatas»!;\n\nen bares, figones, o tascas, ¡las «tapas»!;\n\n“sabor nacional”, ¡el «gazpacho», sus «vinos»,\n\n«sangría», y «jamón» de sabrosos cochinos!\n\n(Cual “sellos”, te grabas sus «Típicos Platos»;\n\n¡sabrás por dó pasas, por sólo tu olfato!,\n\n¡si en cada lugar, un sabor peculiar,\n\n“al paso” cautiva tu buen paladar!).\n\n¡Son más que “recetas”!, será “alegoría”!,\n\n¡será “identidad”! (¡hay “reserva” en su «Guía»!);\n\nson platos allende un “timón conductor”,\n\n¡son mar, ríos, sierras!, ¡son valles, son flor!,\n\n¡y aportan “Conventos” a gastronomia,\n\nsus «dulces»! (sabor “celestial”, ¡de ambrosia!).\n\nQUIROZ Y LÓPEZ M. Disponível em: https://pt.calameo.com. Acesso em: 25 out. 2021.\n\nNesse poema, o eu poético enaltece a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Característica amistosa do povo espanhol."
+    },
+    {
+     "letter": "B",
+     "text": "Beleza das paisagens naturais da Espanha."
+    },
+    {
+     "letter": "C",
+     "text": "Variedade de pratos na gastronomia espanhola."
+    },
+    {
+     "letter": "D",
+     "text": "Relação entre os sentidos do paladar e do olfato na gastronomia."
+    },
+    {
+     "letter": "E",
+     "text": "Gastronomia como representação da identidade cultural de um povo."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "\"¡Son más que recetas!… ¡será identidad!\": a culinária como identidade cultural espanhola. **Resposta: E**",
+    "keyConcept": "gastronomia e identidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q4-ESPANHOL",
+   "year": 2023,
+   "area": "Vocabulário e Expressões",
+   "content": null,
+   "demand": null,
+   "statement": "Manipular es sembrar en la conciencia y en la mente de la gente ideas, actitudes, conceptos y aspiraciones -incluso falsas, inmorales y deshonestas- que sirvan a los objetivos -ocultos o abiertos- de sus manipuladores.\n\nManipular es una de las primeras cosas que aprendemos en la vida. A muy temprana edad, los bebes descubren el poder del llanto, el berrinche, los pataleos, la risa o alguna “gracia” como recursos para demandar atención, exigir comida, pedir ayuda o simplemente mantener ocupada a la gente. Nuestras actitudes de adultos reflejan lo mucho o poco que algunos maduraron, procesaron y rebasaron ese periodo.\n\nPara que exista un manipulador, debe haber una base de ciudadanos indefensos, dóciles, desinformados. El manipulador es celoso, a veces casi paranoico; no admite cuestionamientos ni quiere que nadie ocupe su espacio, sabe que su vigencia depende de presencia controladora. Todos los días, hay que marcar la línea de discurso, incidir en el debate. El ridículo vale la pena si con ello se logra una cortina de humo.\n\nDisponível em: www.forbes.com.mx. Acesso em: 7 out. 2021 (adaptado).\n\nNesse texto, a expressão “cortina de humo” revela que o manipulador",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Amadurece tardiamente."
+    },
+    {
+     "letter": "B",
+     "text": "Busca mascarar a verdade."
+    },
+    {
+     "letter": "C",
+     "text": "Rejeita questionamentos alheios."
+    },
+    {
+     "letter": "D",
+     "text": "Aproxima-se de pessoas indefesas."
+    },
+    {
+     "letter": "E",
+     "text": "Faz-se presente de forma controladora."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "\"Cortina de fumaça\" é desviar a atenção: o manipulador mascara a verdade. **Resposta: B**",
+    "keyConcept": "cortina de humo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-LC-2023-REG-D1-C1-Q5-ESPANHOL",
+   "year": 2023,
+   "area": "Literatura e Canção",
+   "content": null,
+   "demand": null,
+   "statement": "Que quede claro\n\nCómo es posible que se cierren\n\ntantas bocas, tantos ojos,\n\ntantas puertas, muchas mentes ante un\n\nacto xenofóbico sin precedentes.\n\nPresidentes, ministros, cancilleres,\n\nautoridades, responsables.\n\n¿Quién pagará el daño causado a familiares?\n\nPor un loco del estrada sin modales. […]\n\nSe alejó de aquel lugar donde su color era\n\nmucho más que su color, era su raza.\n\nPersiguiendo un sueño que desapareció,\n\nque se fusionó y terminó en una pesadilla. […]\n\nDéjame que te cuente esta historia\n\nque sucedió en el metro de Barcelona,\n\ncuando aquella mañana la injusticia\n\ny xenofobia se juntaron de la mano,\n\nprotagonizando una de las más feas escenas de racismo.\n\nEn aquel vagón viajaba un ángel de color diferente,\n\nen su camino se interpuso aquel inconsciente,\n\nque aún sabiendo lo que hacía,\n\nseguía hablando con su gente.\n\nLe dio al ángel dos patadas en su cara,\n\nse rió de ella sin cambiar la mirada.\n\nY aún anda suelto, aún anda suelto…\n\nORISHAS. In: Cosita buena. Delaware: Suerte Publishing LCC, 2008 (fragmento).\n\nA letra da canção Que quede claro, da banda cubana Orishas, revela o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Indignação diante do desrespeito à diversidade."
+    },
+    {
+     "letter": "B",
+     "text": "Violência característica das grandes metrópoles."
+    },
+    {
+     "letter": "C",
+     "text": "Preconceito da sociedade com relação ao misticismo."
+    },
+    {
+     "letter": "D",
+     "text": "Descuido da população com sonhos dos imigrantes."
+    },
+    {
+     "letter": "E",
+     "text": "Falta de segurança existente no transporte público urbano."
+    }
+   ],
+   "figures": [],
+   "number": 5,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "A canção denuncia a agressão racista no metrô e o silêncio das autoridades: indignação com o desrespeito à diversidade. **Resposta: A**",
+    "keyConcept": "Orishas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  }
+ ]
+}

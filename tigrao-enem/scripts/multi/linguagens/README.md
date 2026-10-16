@@ -10,8 +10,9 @@
 - `portugues.py` gera `src/materias/portugues.json` e `resolucoes/por_01.txt`.
 - Gabaritos 2009–2016 LC estão em `gab/gab_lc_2009_2016.json`, lidos dos PDFs oficiais com `le_gab_d2.py` e `le_gab_2010_d2.py`. As fontes estão em `lc_urls.tsv` e `lc_download_log.json`; ver também `lc_notas.txt`.
 
+- `linguagens.py <portugues|arte|educacao_fisica>` gera a matéria correspondente. Arte e EF usam `res/arte.txt` e `res/ef.txt` (formato `ano-n|gabarito|tema|conceito ou !|texto`).
+- `le/` (Inglês e Espanhol): `cand_le.py` gera `cand_le.json` e `le.py <ingles|espanhol>` gera a matéria. O gabarito 2017–2023 vem de `gab/gab_le_2017_2023.json`, lido por `le_gab_d1.py` dos PDFs oficiais do 1º dia (Wayback, SHA-1 conferido, ver `le_download_log.json`).
+
 ## Pendente
-- Arte: 50 questões classificadas (M: arte), fora do banco.
-- Educação Física: 49 questões (M: ef), fora do banco.
-- Inglês e Espanhol: ainda não processados; os itens estão em pastas "N-ingles"/"N-espanhol" no enem.dev. O gabarito 2009–2016 já foi extraído.
+- LE 2010: o caderno oficial com gabarito marcado não separa Inglês e Espanhol (as duas provas usam Q91–95), por isso as 10 questões ficaram fora.
 - 2024–2025: fora do escopo da base.

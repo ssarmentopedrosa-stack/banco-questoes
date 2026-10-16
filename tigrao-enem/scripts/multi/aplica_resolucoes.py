@@ -1,5 +1,5 @@
 """Aplica as resoluções comentadas (geradas por IA, NÃO revisadas pelo professor) de scripts/multi/resolucoes/*.txt
-em src/materias/{biologia,quimica,geografia,portugues}.json.
+em src/materias/{biologia,quimica,geografia,portugues,arte,educacao_fisica,ingles,espanhol}.json.
 
 Formato de cada bloco:
   @<id da questão>
@@ -19,7 +19,7 @@ for f in sorted(glob.glob(f'{ROOT}/scripts/multi/resolucoes/*.txt')):
         if blk.startswith('@'):
             R[blk.split('\n', 1)[0][1:].strip()] = blk
 sinal, erros, cont = [], [], {}
-for m in ('biologia', 'quimica', 'geografia', 'portugues'):
+for m in ('biologia', 'quimica', 'geografia', 'portugues', 'arte', 'educacao_fisica', 'ingles', 'espanhol'):
     p = f'{ROOT}/src/materias/{m}.json'
     d = json.load(open(p, encoding='utf-8'))
     n = 0

@@ -1,0 +1,72 @@
+[
+ {
+  "year": "2017",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+  "capture": "20171118002443",
+  "digest": "I6C33PRWN2B6Q63XEQDFQW7AYTPHBG2Q",
+  "sha1_ok": true,
+  "size": 197114,
+  "sha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863"
+ },
+ {
+  "year": "2018",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2018/GAB_ENEM_2018_DIA_1_AZUL.pdf",
+  "capture": "20181123100120",
+  "digest": "MQDF5SC3FSEVJ6J77QNDBIDLWP7NG7SR",
+  "sha1_ok": true,
+  "size": 152963,
+  "sha256": "8962d77f20412f17adfebdda624b1487a91de808b9b8ef00561316bd9b9a7041"
+ },
+ {
+  "year": "2019",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+  "capture": "20191126122614",
+  "digest": "ET7VB6I64X6RVIIHUVNPWTDGLGRNMN7K",
+  "sha1_ok": true,
+  "size": 165462,
+  "sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc"
+ },
+ {
+  "year": "2020",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+  "capture": "20210204075116",
+  "digest": "FHEQ3Q4DQXTQUGLD3KFNGGWR3DHCTSYS",
+  "sha1_ok": true,
+  "size": 129591,
+  "sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb"
+ },
+ {
+  "year": "2021",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
+  "capture": "20211201183304",
+  "digest": "5V3DVAQNXEDMIYLDZ2VI6WWVUVQOQCM6",
+  "sha1_ok": true,
+  "size": 224151,
+  "sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4"
+ },
+ {
+  "year": "2022",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D1_CD1.pdf",
+  "capture": "20221209113542",
+  "digest": "3PVPDGX4RFGIUFO4ECGWCY4HESEWFIP4",
+  "sha1_ok": true,
+  "size": 211180,
+  "sha256": "023dda43b3b4e7b275d7155d9d856451dc14d607f891601c65f9a0fcc3c8ed7e"
+ },
+ {
+  "year": "2023",
+  "kind": "d1gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+  "capture": "20231115005633",
+  "digest": "4LLQILC4X3JYM72HHXTRJESPUZAGMBTB",
+  "sha1_ok": true,
+  "size": 592479,
+  "sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1"
+ }
+]
