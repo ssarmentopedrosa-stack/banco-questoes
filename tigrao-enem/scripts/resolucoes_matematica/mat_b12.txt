@@ -1,0 +1,99 @@
+@ENEM-MT-2022-REG-D2-C7-Q151
+K: porcentagem e proporção
+Se a massa perdida é m, a água recomendada é 1,4m. Com 1,4m = 1,7, m ≈ 1,214 kg. Como a perda é de 1,5 kg por hora, o tempo é 1,214/1,5 ≈ 0,81 h ≈ 48,6 min, entre 45 e 55 minutos.
+**Resposta: C**
+
+@ENEM-MT-2022-REG-D2-C7-Q153
+K: volume do cone
+Com a mesma altura, o volume é proporcional a r². Para 81% do volume, r² = 0,81 × 4² e r = 0,9 × 4 = 3,6 cm.
+**Resposta: C**
+
+@ENEM-MT-2022-REG-D2-C7-Q154
+K: porcentagem
+Com uma queda de 75%, as 28.900 vagas de 2013 são 25% das de 2012: 28.900/0,25 = 115.600.
+**Resposta: C**
+
+@ENEM-MT-2022-REG-D2-C7-Q155
+K: combinações
+Os apartamentos com final 1 a 6 têm pelo menos um quarto com sol da manhã, então são 6 por andar. Escolhem-se 2 deles no mesmo andar: C(6,2) = 6!/((6 − 2)! × 2!) maneiras. Com 9 andares, o total é 9 × 6!/((6 − 2)! × 2!).
+**Resposta: B**
+
+@ENEM-MT-2022-REG-D2-C7-Q161
+K: área e escala
+Pela planta, a varanda em L tem uma faixa superior de 16 cm × 5 cm e uma faixa lateral de 4 cm × (18,4 − 5) cm, num total de 80 + 53,6 = 133,6 cm² no desenho. Na escala 1:50, as áreas ficam multiplicadas por 2.500: 334.000 cm² = 33,40 m².
+**Resposta: A**
+
+@ENEM-MT-2022-REG-D2-C7-Q162
+K: progressão aritmética (variação linear)
+Pelo gráfico, o setor adulto vendeu 18.000 e 15.000 nos dois primeiros períodos de dez dias, e o infantil, 8.000 e 7.000. Mantendo a tendência, no terceiro período seriam 12.000 e 6.000. O total do mês é 18 + 15 + 12 + 8 + 7 + 6 = 66 mil, e faltam 77.000 − 66.000 = 11.000 reais.
+**Resposta: C**
+
+@ENEM-MT-2022-REG-D2-C7-Q163
+K: média ponderada e porcentagem
+A folha total pode ser de até 100 × 12.240 = 1.224.000. Os mestres passam a custar 60 × 10.000 = 600.000, e sobram 624.000 para 40 doutores, ou 15.600 cada. Isso é um aumento de 3.600/12.000 = 30%.
+**Resposta: D**
+
+@ENEM-MT-2022-REG-D2-C7-Q164
+K: conversão de unidades e divisão
+60 dias têm 60 × 1.440 = 86.400 minutos, o que dá 86.400/48 = 1.800 acionamentos. Cada um libera 360/1.800 = 0,2 mL.
+**Resposta: B**
+
+@ENEM-MT-2022-REG-D2-C7-Q165
+K: razão e conversão de unidades
+Um ano de Z dura meio ano terrestre: 365/2 = 182,5 dias terrestres. Em dias de Z, isso é 182,5/73 = 2,5.
+**Resposta: A**
+
+@ENEM-MT-2022-REG-D2-C7-Q167
+K: descontos e acréscimos sucessivos
+O preço normal é 1.100, e com o cartão a loja cobra 1.100 × 0,98 = 1.078. A cliente calculou 1.000 × 1,08 = 1.080. O valor da loja é R$ 2,00 menor.
+**Resposta: A**
+
+@ENEM-MT-2022-REG-D2-C7-Q169
+K: volume do cilindro
+Em relação ao modelo I (V = Ab·P): II = (Ab/2)(2P) = 1; III = (Ab/4)(2P) = 0,5 (o raio pela metade divide a área por 4); IV = (2Ab)(P/2) = 1; V = (4Ab)(P/2) = 2. O de maior volume é o V.
+**Resposta: E**
+
+@ENEM-MT-2022-REG-D2-C7-Q170
+K: razão (rentabilidade)
+Pelos gráficos, aluguel/valor do imóvel: 2005 630/90.000 = 0,70%; 2007 960/120.000 = 0,80%; 2009 1.350/270.000 = 0,50%; 2011 1.800/450.000 = 0,40%; 2013 3.240/540.000 = 0,60%. A maior foi em 2007.
+**Resposta: B**
+
+@ENEM-MT-2022-REG-D2-C7-Q171
+K: média aritmética
+Para chegar à média de 18 em 5 jogos, é preciso somar 90 pontos. Pelo quadro, os totais dos quatro jogos são: I 77, II 71, III 71, IV 75, V 75. Os pontos que faltam: I 13, II 19, III 19, IV 15, V 15. O que precisa de menos pontos é o jogador I.
+**Resposta: A**
+
+@ENEM-MT-2022-REG-D2-C7-Q172
+K: área da superfície do paralelepípedo
+A área de revestimento é fundo + paredes = cl + 2p(c + l): I 50 + 3,6 × 27 = 147,2; II 45 + 4 × 14 = 101; III 90 + 2 × 21 = 132; IV 60 + 3 × 19 = 117; V 36 + 5 × 15 = 111 m². A menor é a do projeto II.
+**Resposta: B**
+
+@ENEM-MT-2022-REG-D2-C7-Q173
+K: produto e soma
+Candidatos = vagas × candidatos por vaga (quadro): 180 + 240 + 350 + 240 + 100 + 125 = 1.235.
+**Resposta: D**
+
+@ENEM-MT-2022-REG-D2-C7-Q174
+K: volume do cilindro e da esfera
+O cilindro tem π × 4² × 50 = 800π cm³. Cada esfera de raio 0,5 cm tem (4/3)π(0,5)³ = π/6 cm³. O número de esferas é 800π ÷ (π/6) = 4.800.
+**Resposta: D**
+
+@ENEM-MT-2022-REG-D2-C7-Q175
+K: notação numérica
+1 bilhão = 1.000.000.000, então 1,35 bilhão = 1.350.000.000,00.
+**Resposta: E**
+
+@ENEM-MT-2022-REG-D2-C7-Q177
+K: comparação de custos
+Pelo quadro, custo = preço por hora × horas + transporte: I 120 × 8 = 960 (sem transporte); II 180 × 6 = 1.080; III 170 × 6 + 20 = 1.040; IV 110 × 9 + 10 = 1.000 (ou mais, se for mais de um dia); V 110 × 10 = 1.100. O mais barato é o operário I.
+**Resposta: A**
+
+@ENEM-MT-2022-REG-D2-C7-Q178
+K: volume da esfera e proporção
+Dobrando o diâmetro, o volume fica 2³ = 8 vezes maior. Os 150 docinhos grandes equivalem a 150 × 8 = 1.200 pequenos, ou 1.200/50 = 24 porções.
+**Resposta: E**
+
+@ENEM-MT-2022-REG-D2-C7-Q179
+K: média aritmética
+Pelo gráfico, 2012 = 73,95 e 2013 = 74,23. Se 2013 é a média de 2012 e 2014, então 2014 = 2 × 74,23 − 73,95 = 74,51.
+**Resposta: B**
