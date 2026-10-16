@@ -36,8 +36,19 @@ def figura(ref, src):
     with open(os.path.join(REPO, rel), "rb") as f:
         return f.read()
 
+def _dobrado(t):
+    return len(t) >= 4 and len(t) % 2 == 0 and all(t[i] == t[i + 1] for i in range(0, len(t), 2))
+
+
 def lixo(linha):
     s = linha.strip()
+    if re.fullmatch(r"QUEST[ÃAã]O\s*\d{1,3}", s, re.I):
+        return True  # cabeçalho "QUESTÃO 119" colado no enunciado
+    # rodapé "7 | AZUL 9" + carimbo de impressão com caracteres dobrados ("2244//0077//22002255 1199::0033::0033")
+    r = re.sub(r"^\d{1,2}\s*\|\s*(AZUL|AMARELO|ROSA|BRANCO|CINZA|VERDE|LARANJA)\s*\d{0,3}\s*", "", s)
+    toks = r.split()
+    if toks and all(_dobrado(t) for t in toks) and r != s or (toks and len(toks) <= 3 and all(_dobrado(t) for t in toks) and re.search(r"[/:]", r)):
+        return True
     if len(s) >= 8 and len(s) % 2 == 0 and all(s[i] == s[i + 1] for i in range(0, len(s), 2)):
         return True  # cabeçalho de PDF duplicado (ex.: "2244//0077//22002255")
     return False

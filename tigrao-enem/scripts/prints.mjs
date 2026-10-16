@@ -105,7 +105,7 @@ const s1 = await state();
 check(s1.xp === xpAntes, `erro não dá XP (${xpAntes} → ${s1.xp})`);
 check(await page.locator('video[data-clip="anim_erro"]').isVisible(), "erro usa o clipe de apoio do Tigrão");
 check((await page.evaluate(() => window.scrollY)) > 100, "rolou até o feedback");
-check((await page.getByTestId("selo").first().innerText()).includes("Aguardando revisão do professor"), "selo: explicação de IA aguardando revisão do professor");
+check((await page.getByTestId("selo").first().innerText()).match(/Aguardando revisão do professor|ainda não revisada pelo professor/), "selo: explicação de IA aguardando revisão do professor");
 check((await page.getByTestId("reacao-tigrao").getAttribute("data-reacao")) === "erro", "reação do Tigrão no erro");
 const falaErro = await page.getByTestId("fala-tigrao").innerText();
 check(/Oxe|Vixe|Errar aqui é treino|Calma/.test(falaErro), "fala de treinador no erro: " + falaErro);

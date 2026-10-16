@@ -10,7 +10,9 @@
     "typecheck": "tsc --noEmit",
     "sync": "python3 scripts/sync_questoes.py",
     "prints": "node scripts/prints.mjs",
-    "test:materias": "node scripts/materias.mjs"
+    "test:materias": "node scripts/materias.mjs",
+    "test:bugs": "node scripts/bugs.mjs",
+    "check:lixo": "python3 scripts/checa_lixo.py"
   },
   "dependencies": {
     "@fontsource-variable/nunito": "^5.3.0",

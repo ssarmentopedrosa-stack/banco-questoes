@@ -4,18 +4,19 @@ import {
   ArrowDown, Settings, Sparkles, Target, Timer, Trophy, Upload, Vibrate, Volume1, Volume2, VolumeX, X, Zap, ZoomIn,
 } from "lucide-react";
 import { SOM_PADRAO, setModoProva, setSomPrefs, tocar, useSom, vibracaoSuportada, vibrar, type Som } from "./som";
-import { LETTERS, MATERIA, QUESTIONS, TOPICS, dicas, figuraAlt, optionText, plural, topicInfo, type Option, type Question } from "./data";
+import { LETTERS, MATERIA, QUESTIONS, TOPICS, dicas, figuraAlt, plural, topicInfo, type Option, type Question } from "./data";
 import {
   ALL_BADGES, CHANCE_SURPRESA, DOMINIO, LEVELS, META_DIARIA, NIVEIS_DOMINIO, SIMULADOS, XP, badgeLabel, dominioSub, dominioTema, dueReviews, folgaDisponivel,
   levelOf, load, missoes, nivelDominio, practiceSet, proximoPasso, registerAnswer, registerSimulado, reviewSet, save, scheduledReviews, simuladoDisponivel,
   simuladoSet, smartSet, subtemas, temaMaisFraco, topicStats, type Gain, type SimKind, type State,
 } from "./game";
 import { estruturar } from "./resolucao";
+import { lerRetomada, limparRetomada, questoesDe, salvarRetomada, type Retomada } from "./retomar";
 import { baixarArquivo, exportCode, importCode } from "./backup";
 
 type Mode = "pratica" | "inteligente" | "rapido" | "revisao" | SimKind;
 const isSim = (m: Mode): m is SimKind => m === "mini" || m === "completo";
-type Quiz = { mode: Mode; topic: string | null; questions: Question[]; revisao: string[] };
+type Quiz = { mode: Mode; topic: string | null; questions: Question[]; revisao: string[]; retomada?: Retomada };
 type Screen =
   | { name: "home" }
   | { name: "temas" }
@@ -37,17 +38,25 @@ const FONTES = ["100%", "112.5%", "125%"];
 export default function App({ onTrocar }: { onTrocar?: () => void }) {
   const [state, setState] = useState<State>(() => load());
   const [screen, setScreen] = useState<Screen>({ name: "home" });
+  const [pendente, setPendente] = useState<Retomada | null>(() => lerRetomada((m) => SIMULADOS[m as SimKind]?.segundos ?? 0));
   useEffect(() => {
     save(state);
   }, [state]);
   useEffect(() => {
-    document.documentElement.style.fontSize = FONTES[state.prefs.fonte] ?? "100%";
+    // desktop (≥1024px): letra 15% maior para leitura confortável; celular fica igual
+    const mq = window.matchMedia?.("(min-width: 1024px)");
+    const aplicar = () => { document.documentElement.style.fontSize = `${parseFloat(FONTES[state.prefs.fonte] ?? "100%") * (mq?.matches ? 1.15 : 1)}%`; };
+    aplicar();
+    mq?.addEventListener?.("change", aplicar);
+    return () => mq?.removeEventListener?.("change", aplicar);
   }, [state.prefs.fonte]);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [screen.name, screen.name === "quiz" ? screen.questions : null]);
 
-  const go = (q: Quiz) => setScreen({ name: "quiz", ...q });
+  const go = (q: Quiz) => { if (!q.retomada) limparRetomada(); setPendente(null); setScreen({ name: "quiz", ...q }); };
+  const retomar = (r: Retomada) => go({ mode: r.mode as Mode, topic: r.topic, questions: questoesDe(r.ids), revisao: r.revisao, retomada: r });
+  const descartar = () => { limparRetomada(); setPendente(null); };
   const startPratica = (topic: string | null) => go({ mode: "pratica", topic, questions: practiceSet(state, topic, 10), revisao: [] });
   const startSimulado = (kind: SimKind) => go({ mode: kind, topic: null, questions: simuladoSet(state, kind), revisao: [] });
   const startRevisao = () => {
@@ -65,7 +74,16 @@ export default function App({ onTrocar }: { onTrocar?: () => void }) {
   const home = () => setScreen({ name: "home" });
 
   return (
-    <div className="mx-auto min-h-screen max-w-md px-4 pb-10 pt-3">
+    <div className="mx-auto min-h-screen max-w-md px-4 pb-10 pt-3 md:max-w-[760px] md:px-6 md:pt-6">
+      {screen.name === "home" && pendente && (
+        <div className="mb-3 rounded-3xl bg-ouro-claro p-3 ring-1 ring-laranja/40" data-testid="retomar-quiz" role="region" aria-label="Quiz em andamento">
+          <div className="text-[0.8125rem] font-bold text-noite">Você tem um quiz em andamento: questão {pendente.respostas.length + 1} de {pendente.ids.length}.</div>
+          <div className="mt-2 flex gap-2">
+            <button onClick={() => retomar(pendente)} className="rounded-full bg-azul px-4 py-2 text-[0.8125rem] font-bold text-white">Retomar</button>
+            <button onClick={descartar} className="rounded-full bg-papel px-4 py-2 text-[0.8125rem] font-bold text-noite ring-1 ring-borda">Descartar</button>
+          </div>
+        </div>
+      )}
       {screen.name === "home" && (
         <Home state={state} onTemas={() => setScreen({ name: "temas" })} onSimulado={startSimulado} onRevisao={startRevisao} onMix={() => startPratica(null)}
           onInteligente={startInteligente} onRapido={startRapido} setState={setState} onConquistas={() => setScreen({ name: "conquistas" })} onDominio={() => setScreen({ name: "dominio" })}
@@ -76,8 +94,8 @@ export default function App({ onTrocar }: { onTrocar?: () => void }) {
       {screen.name === "conquistas" && <Conquistas state={state} onBack={home} />}
       {screen.name === "ajustes" && <Ajustes state={state} setState={setState} onBack={home} />}
       {screen.name === "quiz" && (
-        <QuizView key={screen.questions.map((q) => q.id).join()} {...screen} state={state} setState={setState} onExit={home}
-          onFinish={(r) => setScreen({ name: "resultado", mode: screen.mode, topic: screen.topic, ...r })} />
+        <QuizView key={screen.questions.map((q) => q.id).join()} {...screen} state={state} setState={setState} onExit={() => { limparRetomada(); home(); }}
+          onFinish={(r) => { limparRetomada(); setScreen({ name: "resultado", mode: screen.mode, topic: screen.topic, ...r }); }} />
       )}
       {screen.name === "resultado" && (
         <Resultado {...screen} state={state} onHome={home}
@@ -610,18 +628,19 @@ function QuizView(p: Quiz & {
   const { questions, mode } = p;
   const sim = isSim(mode);
   const total = sim ? SIMULADOS[mode].segundos : 0;
-  const [i, setI] = useState(0);
+  const ret = p.retomada;
+  const [i, setI] = useState(ret ? ret.respostas.length : 0);
   const [chosen, setChosen] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
-  const [items, setItems] = useState<Item[]>([]);
+  const [items, setItems] = useState<Item[]>(() => (ret ? ret.respostas.map((c, k) => ({ q: questions[k], chosen: c })) : []));
   const [gain, setGain] = useState<Gain | null>(null);
   const [nDicas, setNDicas] = useState(0);
   const [sair, setSair] = useState(false);
-  const acc = useRef({ xp: 0, badges: [] as string[], levelUp: null as string | null, missoes: [] as string[], dominioUps: [] as string[], state: p.state, combo: 0 });
+  const acc = useRef({ xp: ret?.xp ?? 0, badges: [] as string[], levelUp: null as string | null, missoes: [] as string[], dominioUps: [] as string[], state: p.state, combo: 0 });
   const altsRef = useRef<HTMLDivElement>(null);
   const [altsVisiveis, setAltsVisiveis] = useState(true);
-  const [left, setLeft] = useState(total);
-  const start = useRef(Date.now());
+  const start = useRef(ret?.inicio ?? Date.now());
+  const [left, setLeft] = useState(() => total - Math.round((Date.now() - start.current) / 1000));
   const finished = useRef(false);
   const feedbackRef = useRef<HTMLDivElement>(null);
   const frase = useMemo(() => ({ ok: pick(frasesAcerto()), erro: pick(FRASES_ERRO), sorte: Math.random() }), [i]);
@@ -656,6 +675,16 @@ function QuizView(p: Quiz & {
     window.addEventListener("beforeunload", h);
     return () => window.removeEventListener("beforeunload", h);
   }, [emAndamento]);
+
+  useEffect(() => {
+    if (finished.current) return;
+    const respostas = items.map((it) => it.chosen);
+    if (revealed || (sim && chosen)) respostas.push(chosen); // prática: já contou no progresso; simulado: marcada
+    if (respostas.length >= questions.length && !sim) return limparRetomada();
+    if (!respostas.length && !ret) return;
+    salvarRetomada({ mode, topic: p.topic, ids: questions.map((qq) => qq.id), revisao: p.revisao, respostas: respostas.slice(0, questions.length - 1), nDicas: 0, xp: acc.current.xp, inicio: start.current });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [items, revealed, chosen]);
 
   useEffect(() => {
     if (revealed) setTimeout(() => feedbackRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 120);
@@ -800,6 +829,11 @@ function QuizView(p: Quiz & {
         </div>
       )}
 
+      {!revealed && !sim && ds.length === 0 && (
+        <div className="mt-3 rounded-3xl bg-ceu p-3 text-[0.75rem] leading-4 text-tinta/80" data-testid="sem-dica">
+          <Lightbulb className="mr-1 inline h-4 w-4 align-[-3px]" /> Sem Dica do Tigrão nesta questão: a resolução ainda não foi escrita. Depois de responder, o gabarito oficial aparece normalmente.
+        </div>
+      )}
       {!revealed && ds.length > 0 && (
         <div className="mt-3 rounded-3xl bg-ouro-claro p-3 ring-1 ring-laranja/40" data-testid="dicas">
           {nDicas === 0 ? (
@@ -933,7 +967,7 @@ function Resolucao({ q }: { q: Question }) {
         <img src={T + "avatar.webp"} className="h-8 w-8 rounded-full object-cover" alt="" />
         <span className="font-titulo text-lg font-extrabold text-azul">Resolução comentada</span>
       </div>
-      <div className="mb-3 rounded-2xl bg-teal-claro px-3 py-2 text-[0.8125rem] font-bold text-tinta">✅ Gabarito oficial (Inep): letra {q.answer}{q.options ? ` — ${optionText(q, q.answer)}` : ""}</div>
+      <div className="mb-3 rounded-2xl bg-teal-claro px-3 py-2 text-[0.8125rem] font-bold text-tinta">✅ Gabarito oficial (Inep): letra {q.answer}{q.options ? <> — <OpcaoResumo q={q} letter={q.answer} /></> : ""}</div>
       {ex ? (
         <>
           <SeloResolucao q={q} />
@@ -1138,8 +1172,8 @@ function Resultado(p: {
                   <span className={`grid h-7 w-7 shrink-0 place-items-center rounded-lg text-white ${ok ? "bg-teal" : "bg-vermelho"}`}>{ok ? <Check className="h-4 w-4" /> : <X className="h-4 w-4" />}</span>
                   <span className="min-w-0 flex-1 text-[0.8125rem]">
                     <b>{k + 1}. {it.q.area}</b> · ENEM {it.q.year} Q{it.q.number}
-                    <span className="block text-[0.6875rem] text-tinta/80">Sua: {it.chosen ? `${it.chosen}) ${optionText(it.q, it.chosen)}` : "em branco"}</span>
-                    {!ok && <span className="block text-[0.6875rem] font-bold text-tinta">Gabarito: {it.q.answer}) {optionText(it.q, it.q.answer)}</span>}
+                    <span className="block text-[0.6875rem] text-tinta/80">Sua: {it.chosen ? <>{it.chosen}) <OpcaoResumo q={it.q} letter={it.chosen} /></> : "em branco"}</span>
+                    {!ok && <span className="block text-[0.6875rem] font-bold text-tinta">Gabarito: {it.q.answer}) <OpcaoResumo q={it.q} letter={it.q.answer} /></span>}
                   </span>
                   <ChevronRight className={`h-4 w-4 shrink-0 transition ${open ? "rotate-90" : ""}`} />
                 </button>
@@ -1368,5 +1402,17 @@ function Ajustes({ state, setState, onBack }: { state: State; setState: (s: Stat
         <p className="mt-1">Provas originais: <a className="font-bold text-azul underline" href={INEP} target="_blank" rel="noreferrer">gov.br/inep</a>.</p>
       </div>
     </div>
+  );
+}
+
+/** Alternativa em resumo (resultado/revisão): texto e, se a alternativa for imagem, a própria imagem. */
+function OpcaoResumo({ q, letter }: { q: Question; letter: string }) {
+  const o = q.options?.find((x) => x.letter === letter);
+  if (!o) return <span className="italic">alternativas na figura da prova</span>;
+  return (
+    <span data-testid="opcao-resumo">
+      {o.text}
+      {o.img && <img src={o.img.src} alt={`Alternativa ${o.letter}`} width={o.img.width} height={o.img.height} loading="lazy" className="my-1 block h-auto max-h-24 w-auto max-w-full rounded bg-white" />}
+    </span>
   );
 }
