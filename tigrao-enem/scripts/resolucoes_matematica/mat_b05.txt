@@ -1,0 +1,104 @@
+@ENEM-MT-2015-REG-D2-C7-Q158
+K: proporcionalidade com fator comum
+Pela fórmula, a dose da criança é a dose do adulto vezes um fator que só depende da idade. Esse fator vale 14/42 = 1/3, pela dose correta do medicamento Y. Para o medicamento X: 60 × 1/3 = 20 mg.
+**Resposta: B**
+
+@ENEM-MT-2015-REG-D2-C7-Q159
+K: média e porcentagem do total
+O total de renda é 101,8 milhões × R$ 1.202,00. Os 10% mais ricos (10,18 milhões de pessoas) ficam com 44,5% disso, uma média de 0,445 × 1.202/0,1 = R$ 5.348,90. Os 10% mais pobres têm média 0,011 × 1.202/0,1 = R$ 132,22. A diferença é R$ 5.216,68.
+**Resposta: E**
+
+@ENEM-MT-2015-REG-D2-C7-Q173
+K: comparação de decimais
+As distâncias para 3 mm são 0,10; 0,021; 0,04; 0,901 e 0,07 mm. A menor é 0,021 mm: a lente de 3,021 mm.
+**Resposta: C**
+
+@ENEM-MT-2015-REG-D2-C7-Q179
+K: probabilidade em sorteios em etapas
+No modo I, o atleta está entre os 3 sorteados de 200 com probabilidade 3/200. No modo II, a equipe dele sai com 1/20 e depois ele é um dos 3 de 10: 1/20 × 3/10 = 3/200. No modo III, a equipe dele é uma das 3 de 20 (3/20) e depois ele é o sorteado de 10: 3/20 × 1/10 = 3/200. As três são iguais.
+**Resposta: E**
+
+@ENEM-MT-2016-REG-D2-C7-Q165
+K: múltiplos comuns e progressão aritmética
+João trabalha nos andares ímpares e Pedro nos da forma 1 + 3k. Os andares em comum são 1, 7, 13, … (de 6 em 6). O 20º andar em comum é 1 + 19 × 6 = 115, e ele é o último andar, pois os dois terminaram lá (115 é ímpar e 115 = 1 + 3 × 38).
+**Resposta: D**
+
+@ENEM-MT-2016-REG-D2-C7-Q171
+K: aumento percentual
+Pela tabela, a população das capitais do Nordeste foi de 1.270.729 (1940) para 10.162.346 (2000), cerca de 8 vezes maior. Ficar 8 vezes maior é aumentar cerca de 700%.
+**Resposta: D**
+
+@ENEM-MT-2016-REG-D2-C7-Q177
+K: comparação de porcentagens
+Os índices são I: 14/400 = 3,5%; II: 6/500 = 1,2%; III: 13/520 = 2,5%; IV: 9/360 = 2,5%; V: 15/500 = 3%. O maior é o do bairro I, onde as ações começam.
+**Resposta: A**
+
+@ENEM-MT-2017-REG-D2-C7-Q137
+K: inequação exponencial com logaritmos
+Exigindo P ≤ 400: 5.000 × 0,013 × 1,013ⁿ ≤ 400(1,013ⁿ − 1), que vira 65 × 1,013ⁿ ≤ 400 × 1,013ⁿ − 400, ou 335 × 1,013ⁿ ≥ 400. Com logaritmos: n × log 1,013 ≥ log 400 − log 335, ou seja, 0,005n ≥ 2,602 − 2,525 = 0,077, e n ≥ 15,4. O menor número inteiro de parcelas é 16.
+**Resposta: D**
+
+@ENEM-MT-2017-REG-D2-C7-Q138
+K: seno e valor máximo
+O valor máximo de I é k, quando sen x = 1 (x = 90°). Com x = 30°, I = k × sen 30° = 0,5k: 50% do máximo.
+**Resposta: B**
+
+@ENEM-MT-2017-REG-D2-C7-Q139
+K: leitura de gráfico
+O veículo fica imóvel quando a velocidade é zero. No gráfico, isso acontece de 6 a 8 minutos: 2 minutos.
+**Resposta: C**
+
+@ENEM-MT-2017-REG-D2-C7-Q140
+K: comprimento mínimo e área do retângulo
+As bordas (raio 5 cm) se encostam, então os centros das taças ficam a 10 cm. O que precisa caber na bandeja são as bases (raio 4 cm): o comprimento é 3 × 10 + 4 + 4 = 38 cm e a largura é o diâmetro da base, 8 cm. A área mínima é 38 × 8 = 304 cm².
+**Resposta: C**
+
+@ENEM-MT-2017-REG-D2-C7-Q141
+K: média ponderada de custos
+Hoje, o custo de polpa por suco é 2/3 × 18 + 1/3 × 14,70 = 12 + 4,90 = R$ 16,90. Com a acerola a R$ 15,30, sua parte passa a 5,10. Para manter R$ 16,90, a parte do morango deve ser 11,80, ou seja, a embalagem de morango deve custar 11,80 × 3/2 = R$ 17,70: uma redução de R$ 0,30.
+**Resposta: E**
+
+@ENEM-MT-2017-REG-D2-C7-Q142
+K: volume do paralelepípedo
+O cubo de 80 cm só cabe se todas as dimensões forem pelo menos 80 cm, o que exclui a caixa 2 (75 cm). Os volumes são: caixa 1: 86³ = 636.056; caixa 3: 85 × 82 × 90 = 627.300; caixa 4: 82 × 95 × 82 = 638.780; caixa 5: 80 × 95 × 85 = 646.000 cm³. A de menor volume, e portanto menor espaço livre, é a caixa 3.
+**Resposta: C**
+
+@ENEM-MT-2017-REG-D2-C7-Q144
+K: volume e proporcionalidade
+A água tem 1,7 − 0,5 = 1,2 m de altura, e o volume é 3 × 5 × 1,2 = 18 m³ = 18.000 L. São 18 × 1,5 = 27 mL de produto.
+**Resposta: B**
+
+@ENEM-MT-2017-REG-D2-C7-Q145
+K: substituição em fórmula
+Calculando 1,96σ/√N para cada pesquisa: P1: 1,96 × 0,5/42 ≈ 0,023; P2: 1,96 × 0,4/28 = 0,028; P3: 1,96 × 0,3/24 ≈ 0,0245; P4: 1,96 × 0,2/21 ≈ 0,0187; P5: 1,96 × 0,1/8 ≈ 0,0245. Só P4 fica abaixo de 0,02.
+**Resposta: D**
+
+@ENEM-MT-2017-REG-D2-C7-Q146
+K: movimento uniforme e encontro
+Cada bondinho leva 90 s para a travessia inteira. No encontro, os dois juntos percorreram a travessia toda: se A andou 40 s, B andou 90 − 40 = 50 s. Então B partiu 10 s antes de A.
+**Resposta: B**
+
+@ENEM-MT-2017-REG-D2-C7-Q147
+K: porcentagem e leitura de gráfico
+Pelo gráfico, entre 15 h e 16 h a profundidade caiu 2 unidades (2 m). Essa queda é 10% da profundidade das 15 h, então às 15 h o rio tinha 20 m. Às 16 h: 20 − 2 = 18 m.
+**Resposta: A**
+
+@ENEM-MT-2017-REG-D2-C7-Q148
+K: reconhecimento de sólidos
+A estrutura da Figura 2 tem duas faces triangulares paralelas e congruentes (as frentes da cabana) ligadas por retângulos perpendiculares a elas. É um prisma reto de base triangular.
+**Resposta: E**
+
+@ENEM-MT-2017-REG-D2-C7-Q149
+K: probabilidade por vizinhança
+Q é vizinho do quadrado "1", que tem 1 mina entre 8 vizinhos: 1/8 = 12,5%. P é vizinho do "2" (2 minas em poucos vizinhos), T do "3" (3/8) e S do "4", todas probabilidades maiores. R não é vizinho de nenhum número aberto, e lá a chance é aproximadamente a das minas restantes (cerca de 30) dividida pelos quadrados livres restantes (cerca de 220), algo perto de 13,5%, um pouco acima de 12,5%. A menor é a de Q.
+**Resposta: B**
+
+@ENEM-MT-2017-REG-D2-C7-Q151
+K: média ponderada
+O total de créditos é 12 + 4 + 8 + 8 + 10 = 42. As notas já obtidas somam 8 × 4 + 6 × 8 + 5 × 8 + 7,5 × 10 = 195 pontos ponderados. Para "Bom", a média deve ser pelo menos 7: (12x + 195)/42 ≥ 7, então 12x ≥ 99 e x ≥ 8,25.
+**Resposta: D**
+
+@ENEM-MT-2017-REG-D2-C7-Q153
+K: triângulo equilátero formado pelos centros
+Os centros dos três tubos (raio 0,6 m) formam um triângulo equilátero de lado 1,2 m e altura 1,2 × √3/2 ≈ 0,6 × 1,7 = 1,02 m. A pilha tem altura 0,6 + 1,02 + 0,6 = 2,22 m sobre a carroceria, que está a 1,30 m do solo: 3,52 m no total. Com a margem de 0,50 m, o viaduto deve ter pelo menos 4,02 m.
+**Resposta: D**

@@ -1,0 +1,119 @@
+@ENEM-MT-2012-REG-D2-C7-Q179
+K: mediana de dez valores
+Em ordem, os dez valores do gráfico são 181.419; 181.796; 204.804; 209.425; 212.952; 246.875; 266.415; 298.041; 299.415; 305.068. A mediana é a média dos dois centrais: (212.952 + 246.875)/2 = 229.913,5, com parte inteira 229.913.
+**Resposta: B**
+
+@ENEM-MT-2013-REG-D2-C7-Q139
+K: conversão de tempo e volume
+Em 6 horas há 6 × 3.600 = 21.600 s, com uma gota a cada 3 s: 7.200 gotas. A 0,2 mL cada, são 1.440 mL ≈ 1,4 L.
+**Resposta: C**
+
+@ENEM-MT-2013-REG-D2-C7-Q148
+K: proporção da carga máxima
+900 telhas são 900/1.500 = 60% da carga máxima. Sobram 40%, que correspondem a 0,4 × 1.200 = 480 tijolos.
+**Resposta: D**
+
+@ENEM-MT-2013-REG-D2-C7-Q150
+K: probabilidade condicional com conjuntos
+Falam pelo menos uma língua 1.200 − 300 = 900 alunos. Como 600 falam inglês, 900 − 600 = 300 falam só espanhol. Os que não falam inglês são 1.200 − 600 = 600, e 300 deles falam espanhol: 300/600 = 1/2.
+**Resposta: A**
+
+@ENEM-MT-2013-REG-D2-C7-Q155
+K: grandezas proporcionais
+Cada ralo escoa 900/(6 ralos × 6 h) = 25 m³ por hora. O novo reservatório precisa escoar 500/4 = 125 m³ por hora, o que exige 125/25 = 5 ralos.
+**Resposta: C**
+
+@ENEM-MT-2013-REG-D2-C7-Q156
+K: área e semelhança
+Triplicando o lado, a área de cada placa fica 9 vezes maior: (3y)² = 9y². Para cobrir a mesma área S, basta 1/9 das placas: X = N/9.
+**Resposta: A**
+
+@ENEM-MT-2013-REG-D2-C7-Q158
+K: porcentagem do lucro
+O lucro é 34.000 − 26.000 = R$ 8.000,00, e o imposto é 15% disso: R$ 1.200,00.
+**Resposta: B**
+
+@ENEM-MT-2013-REG-D2-C7-Q159
+K: divisão proporcional
+A proporção 1 : 4 : 2 soma 7 partes. O cimento é 1/7 de 14 m³ = 2 m³.
+**Resposta: B**
+
+@ENEM-MT-2013-REG-D2-C7-Q163
+K: descontos sucessivos
+Com 20% de desconto, o produto sai por R$ 40,00. O cartão daria mais 10% sobre esse valor: R$ 4,00 de economia adicional.
+**Resposta: E**
+
+@ENEM-MT-2013-REG-D2-C7-Q167
+K: redução de área por fator linear
+Cada lado fica com 80% da medida, e a área fica com 0,8 × 0,8 = 0,64 da original. A redução é de 36%.
+**Resposta: C**
+
+@ENEM-MT-2013-REG-D2-C7-Q170
+K: conversão de unidades
+355 mL = 35,5 cL. Em onças fluidas: 35,5/2,95 ≈ 12,03 fl oz.
+**Resposta: C**
+
+@ENEM-MT-2013-REG-D2-C7-Q173
+K: sequência de períodos
+O ciclo n vai de 1755 + 11(n − 1) até 1765 + 11(n − 1). Como (2101 − 1755)/11 ≈ 31,45, já se passaram 31 ciclos completos, e 2101 está no 32º (o ciclo 32 vai de 2096 a 2106).
+**Resposta: A**
+
+@ENEM-MT-2014-REG-D2-C7-Q149
+K: divisão e conversão de tempo
+São 5 × 4 = 20 catracas, com 45.000/20 = 2.250 pessoas cada. A 2 s por pessoa, são 4.500 s = 75 min = 1 hora e 15 minutos.
+**Resposta: B**
+
+@ENEM-MT-2014-REG-D2-C7-Q152
+K: porcentagem do total
+Os 8 bilhões sem tratamento são 64% do esgoto, então o total é 8/0,64 = 12,5 bilhões de litros. Com 4 bilhões sem tratamento, isso será 4/12,5 = 32%, e o tratado passa a 68%.
+**Resposta: B**
+
+@ENEM-MT-2014-REG-D2-C7-Q154
+K: comparação de razões
+Os desempenhos são I: 50/85 ≈ 0,59; II: 40/65 ≈ 0,62; III: 20/65 ≈ 0,31; IV: 30/40 = 0,75; V: 48/90 ≈ 0,53. O maior é o do jogador IV.
+**Resposta: D**
+
+@ENEM-MT-2014-REG-D2-C7-Q165
+K: velocidade média
+Pela figura, os radares estão a 2,1 km. O tempo mínimo é 1 min 24 s = 84 s = 84/3.600 h. A velocidade média máxima é 2,1/(84/3.600) = 90 km/h, que é o valor da placa.
+**Resposta: C**
+
+@ENEM-MT-2014-REG-D2-C7-Q168
+K: porcentagem
+A agricultura usa 80 milhões dos 853 milhões de hectares: 80/853 ≈ 0,094, ou seja, cerca de 9,4%.
+**Resposta: D**
+
+@ENEM-MT-2014-REG-D2-C7-Q169
+K: escala e proporção
+Tirando as margens, a região disponível mede 42 − 6 = 36 cm por 30 − 6 = 24 cm. A gravura original (Figura 1) tem 8 m × 6 m. Mantendo a proporção, a altura limita: 6 m = 600 cm → 24 cm dá escala 24/600 = 1/25 (a largura ficaria 800/25 = 32 cm, que cabe em 36 cm).
+**Resposta: D**
+
+@ENEM-MT-2014-REG-D2-C7-Q171
+K: porcentagem e divisão
+O ponto central recebe 60% de 12 t = 7,2 t. Os 4,8 t restantes ficam divididos igualmente: 2,4 t para cada extremo.
+**Resposta: C**
+
+@ENEM-MT-2014-REG-D2-C7-Q173
+K: unidades de área
+1 hm = 100 m, então 1 hm² = 10.000 m². A área é 8 × 10.000 = 80.000 m².
+**Resposta: E**
+
+@ENEM-MT-2014-REG-D2-C7-Q174
+K: divisão exata
+São 16 × 4 = 64 L de gel, 6,4 L por escola. Divididos em 20 recipientes cheios: 6,4/20 = 0,32 L, o recipiente III.
+**Resposta: C**
+
+@ENEM-MT-2014-REG-D2-C7-Q179
+K: equação do 1º grau
+Seja q a quantidade habitual. A pessoa leva 10q + 6 reais. Com o novo preço de R$ 12,00, esse dinheiro compra exatamente q − 2 unidades: 10q + 6 = 12(q − 2), então q = 15. A quantia levada é 10 × 15 + 6 = R$ 156,00.
+**Resposta: B**
+
+@ENEM-MT-2015-REG-D2-C7-Q149
+K: faces de um poliedro
+O cubo tem 6 faces, que continuam no poliedro (agora octogonais). Cada um dos 8 cortes nos vértices cria uma face triangular nova. Total: 6 + 8 = 14 faces, ou seja, 14 cores.
+**Resposta: C**
+
+@ENEM-MT-2015-REG-D2-C7-Q156
+K: amortização constante
+Antes da 10ª prestação, já foram amortizados 9 × 500 = R$ 4.500,00, e o saldo devedor é 175.500. A prestação é 500 + 1% de 175.500 = 500 + 1.755 = R$ 2.255,00.
+**Resposta: D**
