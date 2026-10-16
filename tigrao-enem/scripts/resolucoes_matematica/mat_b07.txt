@@ -1,0 +1,99 @@
+@ENEM-MT-2018-REG-D2-C7-Q155
+K: classificação de triângulos
+Os dois remos têm o mesmo tamanho, então AB = AC e o triângulo é isósceles. O ângulo em A mede 170°, mais que 90°, então ele é obtusângulo.
+**Resposta: E**
+
+@ENEM-MT-2018-REG-D2-C7-Q157
+K: escala
+7,6 cm × 58.000.000 = 440.800.000 cm. Dividindo por 100.000 (1 km = 100.000 cm), são 4.408 km.
+**Resposta: A**
+
+@ENEM-MT-2018-REG-D2-C7-Q158
+K: produtividade e porcentagem
+Seja p a produtividade da área menos produtiva. A produção é 120p + 40 × 2,5p = 220p. Aumentar 15% significa produzir 0,15 × 220p = 33p a mais, o que, com produtividade p, exige 33 hectares.
+**Resposta: B**
+
+@ENEM-MT-2018-REG-D2-C7-Q162
+K: soma de progressão geométrica
+Com 128 tenistas, as fases têm 64, 32, 16, 8, 4, 2 e 1 partidas (cada partida elimina um e só sobra o campeão). Total: 64 + 32 + 16 + 8 + 4 + 2 + 1 = 127 partidas.
+**Resposta: E**
+
+@ENEM-MT-2018-REG-D2-C7-Q164
+K: operações com inteiros
+O saldo dos movimentos é +7 − 10 − 13 + 9 − 4 = −11. Como terminou no 5º andar, a criança entrou no 16º. O ponto mais alto do trajeto é logo após subir 7: 16 + 7 = 23º andar, que é o último do edifício (o elevador parou lá uma vez).
+**Resposta: C**
+
+@ENEM-MT-2018-REG-D2-C7-Q168
+K: interpolação linear
+Pelo gráfico, a cobertura foi de 67% em 2013 e 59% em 2015. Com variação linear, 2014 fica no meio: (67 + 59)/2 = 63%.
+**Resposta: B**
+
+@ENEM-MT-2018-REG-D2-C7-Q169
+K: escala e inequações
+O guindaste tem 1.500 cm. Para ficar entre 0,5 e 1 cm: 0,5 ≤ 1.500/X ≤ 1, ou seja, 1.500 ≤ X ≤ 3.000. A esteira (9.000 cm) deve ter mais de 4 cm: 9.000/X > 4, ou X < 2.250. Juntando as duas condições, 1.500 < X < 2.250.
+**Resposta: C**
+
+@ENEM-MT-2018-REG-D2-C7-Q171
+K: ângulos e rotações
+Medindo os ângulos no sentido anti-horário a partir do Leste, Oeste = 180°. Depois de +135° fica em 315°; −60° leva a 255°; +45° leva a 300°. O Noroeste está em 135°. De 300° até 135°, são 165° no sentido horário ou 195° no anti-horário, e a menor amplitude é 165° no sentido horário.
+**Resposta: E**
+
+@ENEM-MT-2018-REG-D2-C7-Q176
+K: produto e probabilidade
+Pelo quadro 1, o atleta 10 tem 687,5 pontos e o líder 829,0, então ele precisa de mais de 141,5 no último salto. Pelo quadro 2: T1 = 2,2 × 57 = 125,4; T2 = 2,4 × 58 = 139,2; T3 = 2,6 × 55 = 143; T4 = 2,8 × 50 = 140; T5 = 3,0 × 53 = 159. Só T3 e T5 alcançam o primeiro lugar, e T3 tem a maior probabilidade (91,88% contra 87,34%).
+**Resposta: C**
+
+@ENEM-MT-2018-REG-D2-C7-Q177
+K: porcentagem do total
+Pela tabela, a população dos grupos soma 4,5 + 2,0 + 2,5 + 0,5 + 20,5 = 30 milhões, e os vacinados somam 0,9 + 1,0 + 1,5 + 0,4 + 8,2 = 12 milhões. A porcentagem é 12/30 = 40%.
+**Resposta: D**
+
+@ENEM-MT-2018-REG-D2-C7-Q180
+K: planificação do cilindro e tangente
+O comprimento da circunferência da base é 2π × 6/π = 12 cm. Pela figura, a faixa dá 6 voltas, então seu comprimento é 6 × 12 = 72 cm. A diagonal faz 30° com a borda inferior, logo a altura é 72 × tg 30° = 72 × √3/3 = 24√3 cm.
+**Resposta: B**
+
+@ENEM-MT-2019-REG-D2-C7-Q138
+K: porcentagem
+O transporte custa 1/5 = 20% do valor do objeto. Para que transporte e recompensa não passem de 100% do valor, a recompensa máxima é 100% − 20% = 80%.
+**Resposta: E**
+
+@ENEM-MT-2019-REG-D2-C7-Q142
+K: área da coroa circular
+O círculo atual tem raio 3 m. Aumentando o diâmetro em 8 m, ele fica com 14 m e raio 7 m. A área nova a pavimentar é 3 × 7² − 3 × 3² = 147 − 27 = 120 m², mais que os 100 m² do estoque.
+**Resposta: E**
+
+@ENEM-MT-2019-REG-D2-C7-Q143
+K: taxa (razão por minuto)
+Pelo gráfico: I = 20/10 = 2; II = 100/15 ≈ 6,7; III = 120/20 = 6; IV = 100/25 = 4; V = 80/30 ≈ 2,7 kcal/min. O maior consumo por minuto é o da atividade II.
+**Resposta: B**
+
+@ENEM-MT-2019-REG-D2-C7-Q144
+K: soma das colunas de uma matriz
+Cada coluna é um dia, então soma-se cada coluna: segunda 3 + 3 + 2 + 3 + 0 = 11; terça 2 + 2 + 2 + 2 + 2 = 10; quarta 0 + 4 + 2 + 4 + 0 = 10; quinta 1 + 1 + 3 + 1 + 4 = 10; sexta 2 + 2 + 2 + 0 + 4 = 10. O maior total é o de segunda-feira.
+**Resposta: A**
+
+@ENEM-MT-2019-REG-D2-C7-Q145
+K: grandezas inversamente proporcionais
+A cada pedalada, a corrente anda o mesmo comprimento, e o número de voltas da roda é inversamente proporcional ao diâmetro da catraca. Para avançar 50% a mais (×1,5), o diâmetro deve ser 7/1,5 ≈ 4,7 cm.
+**Resposta: C**
+
+@ENEM-MT-2019-REG-D2-C7-Q147
+K: área de semicírculo e retângulo
+Pela figura, a placa é um retângulo de largura 40 cm com um semicírculo de raio 20 cm em cima. O retângulo tem altura 60 − 20 = 40 cm e área 1.600 cm², e o semicírculo tem 3,14 × 20²/2 = 628 cm². Cada placa tem 2.228 cm², e as dez somam 22.280 cm².
+**Resposta: B**
+
+@ENEM-MT-2019-REG-D2-C7-Q148
+K: volume e conversão de unidades
+80% de 0,3 m³ é 0,24 m³ = 240 L. Com 2,7 L por embalagem: 240/2,7 ≈ 88,9, então são necessárias no mínimo 89 embalagens.
+**Resposta: C**
+
+@ENEM-MT-2019-REG-D2-C7-Q149
+K: progressão aritmética
+Pelo quadro, de 2014 (900) para 2015 (850) a redução foi de 50 acidentes. Mantendo essa redução por mais 3 anos, 2018 terá 850 − 3 × 50 = 700 acidentes.
+**Resposta: D**
+
+@ENEM-MT-2019-REG-D2-C7-Q150
+K: valor presente com juros compostos
+Trazendo cada pagamento para a data da compra: 202/1,01 = 200 e 204,02/1,01² = 204,02/1,0201 = 200. O valor à vista é R$ 400,00.
+**Resposta: B**
