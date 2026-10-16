@@ -1,0 +1,114 @@
+@ENEM-MT-2009-REG-D2-C7-Q168
+K: mediana
+Em ordem crescente, as sete cotações da tabela são 73,10; 81,60; 82,00; 83,00; 84,00; 84,60; 85,30. Com 7 valores, a mediana é o 4º: R$ 83,00.
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q169
+K: área do trapézio e vazão
+Na canaleta atual, a área é (30 + 20)/2 × 2,5 = 62,5 m², então a velocidade é v = 1.050/62,5 = 16,8 m/s. Depois da reforma, a área será (49 + 41)/2 × 2 = 90 m². Com a mesma velocidade, Q = 90 × 16,8 = 1.512 m³/s.
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q170
+K: unidades de armazenamento e porcentagem
+Cada foto tem 2 milhões de pontos × 3 bytes = 6 MB sem compressão. Com redução de 95%, sobram 5%: 0,3 MB por foto. As 150 fotos ocupam 45 MB. O dispositivo que cabe tudo com a menor sobra é o cartão de 64 MB (16 MB não basta).
+**Resposta: E**
+
+@ENEM-MT-2009-REG-D2-C7-Q171
+K: probabilidade com combinações
+Seja C = C(60,6) o total de resultados. Uma aposta de 6 dezenas acerta a quina em C(6,5) × 54 = 324 resultados, então 84 apostas (sem quinas em comum) cobrem 84 × 324 = 27.216 resultados. Uma aposta de 9 dezenas acerta exatamente 5 em C(9,5) × 51 = 126 × 51 = 6.426 resultados. A razão é 27.216/6.426 ≈ 4,2: a aposta única é cerca de 4 vezes menos provável.
+**Resposta: C**
+
+@ENEM-MT-2009-REG-D2-C7-Q172
+K: proporção e receita = volume × preço
+Até maio, os gastos já conhecidos são US$ 2,84 bi em importações e US$ 2,24 bi em exportações. De junho a dezembro, os volumes serão 7/5 dos de janeiro a maio: importação 7/5 × 9,00 = 12,6 milhões de m³ × US$ 340 = US$ 4,284 bi, e exportação 7/5 × 11,00 = 15,4 milhões de m³ × US$ 230 = US$ 3,542 bi. No ano: importações 2,84 + 4,284 = 7,124 bi e exportações 2,24 + 3,542 = 5,782 bi. A diferença é ≈ US$ 1,34 bi.
+**Resposta: C**
+
+@ENEM-MT-2009-REG-D2-C7-Q173
+K: volume de pirâmide e semelhança
+Os 4 blocos têm a mesma altura e há 3 espaços de 1 cm: (19 − 3)/4 = 4 cm por bloco. Sem os espaços, os blocos formam uma pirâmide de base 6 cm e altura 16 cm (confere com a pirâmide do topo: 1,5/4 = 6/16), de volume (1/3) × 36 × 16 = 192 cm³. A pirâmide do topo tem volume (1/3) × 1,5² × 4 = 3 cm³. Sem ela, gasta-se 192 − 3 = 189 cm³.
+**Resposta: B**
+
+@ENEM-MT-2009-REG-D2-C7-Q174
+K: arco, ângulo em radianos e cosseno
+Percorrer um arco d numa circunferência de raio r corresponde a um ângulo d/r radianos. Se P sai do ponto (r, 0), sua projeção Q vai de x = r para x = r·cos(d/r). A distância percorrida por Q é r − r·cos(d/r) = r(1 − cos(d/r)).
+**Resposta: B**
+
+@ENEM-MT-2009-REG-D2-C7-Q175
+K: sistema de equações com razões
+De (TC + TA)/2 = 0,6 vem NV/NF + NA/NV = 1,2. Dobrando NF, NV/(2NF) + NA/NV = 1,0. Subtraindo, NV/(2NF) = 0,2, então NV/NF = 0,4 e NA/NV = 0,8. Logo NA = 0,8NV e NA + NV = 1,8NV = 3.600, ou seja, NV = 2.000 e NF = 2.000/0,4 = 5.000.
+**Resposta: C**
+
+@ENEM-MT-2009-REG-D2-C7-Q176
+K: soma de intervalos de tempo
+Das 10h30 às 11h07 há 37 minutos. O programa pede 10 min de esteira + 1 min de descanso = 11 min; 3 séries × 6 aparelhos = 18 séries de 30 s = 9 min; e 17 descansos de 60 s entre as séries = 17 min. Total: 11 + 9 + 17 = 37 min, exatamente o tempo disponível.
+**Resposta: B**
+
+@ENEM-MT-2009-REG-D2-C7-Q177
+K: seção plana de uma pirâmide
+A pirâmide de base quadrada tem 5 faces (4 triangulares e a base). Cada face cortada pelo plano contribui com um segmento, que é um lado do polígono da seção. Se o plano corta as 5 faces, a seção é um pentágono. As alternativas A, B, D e E fazem afirmações gerais falsas.
+**Resposta: C**
+
+@ENEM-MT-2009-REG-D2-C7-Q178
+K: comparação de custos com desconto e juros
+Cheque especial: as parcelas somam 12 × 150 = R$ 1.800,00; quitando já (2 parcelas de desconto), seriam R$ 1.500,00, mas emprestando de José custaria 1.500 × 1,25 = R$ 1.875,00, mais que as parcelas. Cartão: parcelas somam 5 × 80 = R$ 400,00; com 25% de desconto, R$ 300,00, e emprestado de José, 300 × 1,25 = R$ 375,00, menos que R$ 400,00. O menor gasto é 1.800 + 375 = R$ 2.175,00 (renegociar custaria 18 × 125 = R$ 2.250,00).
+**Resposta: E**
+
+@ENEM-MT-2009-REG-D2-C7-Q179
+K: volume e área
+O volume é 2.000 L × 15 dias = 30.000 L, mais 10%: 33.000 L. A área do telhado é 33.000/110 = 300 m², por exemplo 15 m × 20 m.
+**Resposta: B**
+
+@ENEM-MT-2009-REG-D2-C7-Q180
+K: probabilidade do evento complementar
+A chance de não ter efeito colateral em n doses é 0,9ⁿ, então o risco é 1 − 0,9ⁿ. Com 4 doses: 1 − 0,6561 ≈ 34,4%, dentro dos 35%. Com 6 doses: 1 − 0,531 ≈ 46,9%, acima do limite. O máximo admissível é 4 doses.
+**Resposta: B**
+
+@ENEM-MT-2010-REG-D2-C7-Q137
+K: razão com mesma unidade
+Passando para centímetros, 42 m = 4.200 cm. A razão é 2,1/4.200 = 1/2.000.
+**Resposta: E**
+
+@ENEM-MT-2010-REG-D2-C7-Q150
+K: área, perímetro e custo
+Primeira encomenda: cada tela tem 0,25 × 0,5 = 0,125 m² (8 telas = 1 m², R$ 20,00) e 1,5 m de moldura (12 m, R$ 180,00), total com entrega R$ 210,00. Segunda: cada tela tem 0,5 × 1 = 0,5 m² (4 m², R$ 80,00) e 3 m de moldura (24 m, R$ 360,00), total R$ 450,00. A segunda é maior, mas não é o dobro (o dobro seria R$ 420,00): a área quadruplica, o perímetro dobra e a taxa fixa não muda.
+**Resposta: B**
+
+@ENEM-MT-2010-REG-D2-C7-Q154
+K: crescimento percentual
+O crescimento foi 145.000/132.000 ≈ 1,0985, ou seja, cerca de 9,85%. Isso fica entre 5% e 10%: conceito bom.
+**Resposta: C**
+
+@ENEM-MT-2010-REG-D2-C7-Q155
+K: problema com dinheiro e divisão inteira
+Os 500 folhetos do segundo tipo custam 500 × (0,65 + 0,60 + 0,20) = R$ 725,00 e usam 500 selos de R$ 0,65. Sobram R$ 275,00, que compram 275/0,65 ≈ 423 selos de R$ 0,65. Total de selos de R$ 0,65: 500 + 423 = 923.
+**Resposta: C**
+
+@ENEM-MT-2010-REG-D2-C7-Q157
+K: volume de coroa cilíndrica
+O concreto ocupa o espaço entre um cilindro de raio 1,2 m e outro de raio 1 m, com 4 m de altura: V = π(1,2² − 1²) × 4 = 3,1 × 0,44 × 4 = 5,456 m³. A R$ 10,00 por m³, o preço é R$ 54,56.
+**Resposta: D**
+
+@ENEM-MT-2010-REG-D2-C7-Q160
+K: tangente no triângulo retângulo
+Para a primeira pessoa, tg 60° = h/1,8, então h = 1,8 × √3 ≈ 1,8 × 1,73 ≈ 3,1 km. A segunda confirma: h = 5,5 × tg 30° ≈ 5,5 × 0,577 ≈ 3,2 km.
+**Resposta: C**
+
+@ENEM-MT-2010-REG-D2-C7-Q161
+K: base média e razão de áreas
+M e N são pontos médios, então o triângulo MNC é semelhante a ABC com razão 1/2, e sua área é 1/4 da área de ABC. A região ABMN é o que sobra: 3/4 de ABC, ou seja, o triplo da área de MNC.
+**Resposta: E**
+
+@ENEM-MT-2010-REG-D2-C7-Q162
+K: porcentagem de área
+A página tem 260 mm × 400 mm = 104.000 mm², e 4% disso são 4.160 mm². Com o outro lado do retângulo medindo 26 mm, x = 4.160/26 = 160 mm.
+**Resposta: D**
+
+@ENEM-MT-2010-REG-D2-C7-Q163
+K: rolamento sem deslizamento
+Numa volta completa, o centro do rolo avança 2πR em relação ao chão. O topo do rolo, onde fica o bloco, anda o dobro da velocidade do centro (ele também gira para a frente), então o bloco se desloca 2 × 2πR = 4πR.
+**Resposta: E**
+
+@ENEM-MT-2010-REG-D2-C7-Q164
+K: circunferência inscrita no triângulo retângulo
+A base 6–8–10 é um triângulo retângulo (6² + 8² = 10²). O cilindro tangente às faces laterais tem o raio da circunferência inscrita: r = (catetos − hipotenusa)/2 = (6 + 8 − 10)/2 = 2 cm. Confere: área/semiperímetro = 24/12 = 2.
+**Resposta: B**

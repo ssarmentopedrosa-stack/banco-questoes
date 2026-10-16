@@ -1,0 +1,109 @@
+@ENEM-MT-2009-REG-D2-C7-Q136
+K: proporcionalidade com frota constante
+Com a frota igual nos dois meses, o total de passageiros é proporcional ao índice do gráfico. Em abril de 2001 o índice era 400 e em outubro de 2008 era 441. Então o total em outubro de 2008 é 321,9 × 441/400 ≈ 354,9 milhões, ou seja, cerca de 355 milhões.
+**Resposta: A**
+
+@ENEM-MT-2009-REG-D2-C7-Q139
+K: probabilidade como fração da população
+Pelo gráfico, em 2050 os países desenvolvidos terão 461 milhões de pessoas com 60 anos ou mais, na faixa entre 30% e 35% da população. A probabilidade de sortear uma delas é essa fração, perto de 0,32. Entre as opções, 8/25 = 0,32 é a mais próxima (1/2 = 0,5; 7/20 = 0,35 fica no limite; 1/5 = 0,2; 3/25 = 0,12).
+**Resposta: C**
+
+@ENEM-MT-2009-REG-D2-C7-Q140
+K: porcentagem de área
+Seja AB = x, então BC = 2x e o terreno tem área 2x². O quadrado tem lado x/5 e área x²/25, que é 1/50 = 2% do terreno. O limite permitido para construir é 100% − 94% = 6%, ou seja, o triplo da área atual do quadrado. Duplicar ou triplicar o lado multiplicaria a área por 4 ou por 9.
+**Resposta: C**
+
+@ENEM-MT-2009-REG-D2-C7-Q141
+K: porcentagem de uma mistura
+Os 925 milhões de litros correspondem a 4% do volume da mistura. Com o mesmo volume total, 3% correspondem a 925 × 3/4 = 693,75 milhões de litros.
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q142
+K: relação entre grandezas e proporcionalidade
+O gráfico tem forma de degraus: o número de casos sobe quando o consumo passa de 0 para 1 cigarro e de novo perto de 15 cigarros, mas fica constante nos intervalos. Há relação entre as grandezas, mas a razão entre elas não é constante (não é proporcionalidade direta) e o produto também não (não é inversa). A alternativa D não decorre do gráfico.
+**Resposta: E**
+
+@ENEM-MT-2009-REG-D2-C7-Q143
+K: aumento percentual
+Pelo gráfico, em 05/09 a população economicamente ativa era de 23.020 mil pessoas. Com crescimento de 4%: 23.020 × 1,04 = 23.940,8 mil = 23.940.800 pessoas.
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q144
+K: soma de frações
+Oito compassos de 3/4 somam 8 × 3/4 = 6 (seis semibreves). A colcheia vale 1/8 e a semínima 1/4, então 24 colcheias valem 3 e 12 semínimas valem 3, total 6. As outras combinações não somam 6: 24 fusas = 0,75; 3 semínimas = 0,75; 8 semínimas = 2; 16 semínimas + 8 semicolcheias = 4,5.
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q146
+K: função afim por partes
+No pacote, os três primeiros dias custam 150 cada (450), os três seguintes caem 20 por dia (130 + 110 + 90 = 330) e os dois últimos ficam no preço do sexto dia (90 + 90 = 180), total R$ 960,00. Sete dias fora da promoção custam 7 × 150 = R$ 1.050,00. A economia é 1.050 − 960 = R$ 90,00.
+**Resposta: A**
+
+@ENEM-MT-2009-REG-D2-C7-Q148
+K: taxa média de variação
+A taxa média é a variação da emissão dividida pela variação da produção entre o primeiro e o último dado da tabela: (4,00 − 2,14)/(2,0 − 1,1) = 1,86/0,9 ≈ 2,07. Esse valor está entre 1,50 e 2,80.
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q150
+K: média aritmética
+Média dos investimentos da França no Brasil: (825 + 485 + 1.458 + 744 + 1.214)/5 = 4.726/5 = 945,2. Média do Brasil na França: (367 + 357 + 354 + 539 + 280)/5 = 1.897/5 = 379,4. A diferença é 945,2 − 379,4 ≈ 565,8 milhões de dólares, entre 500 e 600 milhões.
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q151
+K: equação do 1º grau
+Seja c a cota final de cada uma das 55 pessoas; a cota inicial era c − 7. O total da despesa é 55c, e o orçamento inicial mais o que faltava dá 50(c − 7) + 510. Igualando: 50c − 350 + 510 = 55c, então 5c = 160 e c = R$ 32,00.
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q154
+K: semelhança de triângulos
+A rampa tem inclinação constante: subir 0,8 m exige 3,2 m de caminhada, ou seja, cada metro de altura pede 4 m de rampa. Para 2,2 m de altura, a rampa toda mede 2,2 × 4 = 8,8 m. Faltam 8,8 − 3,2 = 5,6 m.
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q155
+K: função quadrática (preço × quantidade)
+Com desconto de x centavos, o preço é 1,50 − x/100 reais e a venda é 10.000 + 100x litros. Então V = (1,50 − 0,01x)(10.000 + 100x) = 15.000 + 150x − 100x − x² = 15.000 + 50x − x².
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q157
+K: volume do cubo e arrumação de esferas
+A aresta da caixa é ∛13.824 = 24 cm. Cada esfera tem diâmetro 12 cm, então cabem 24/12 = 2 esferas em cada direção: 2 × 2 × 2 = 8 esferas.
+**Resposta: B**
+
+@ENEM-MT-2009-REG-D2-C7-Q158
+K: escala
+Pela figura, o avião mede 36 m de comprimento e 28,5 m de envergadura. Na escala 1:150: 3.600 cm/150 = 24 cm e 2.850 cm/150 = 19 cm. Somando 1 cm de margem de cada lado (2 cm em cada dimensão), a folha deve ter no mínimo 21 cm × 26 cm.
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q159
+K: função afim a partir de uma tabela
+Pela tabela, de 5 para 10 bolas o nível vai de 6,35 para 6,70 cm: aumento de 0,35 cm para 5 bolas, ou 0,07 cm por bola. Então y = 0,07x + b, e com x = 5: 6,35 = 0,35 + b, logo b = 6. A função é y = 0,07x + 6 (confere com 15 bolas: 7,05 cm).
+**Resposta: E**
+
+@ENEM-MT-2009-REG-D2-C7-Q160
+K: grandezas proporcionais e custo
+São necessários 180/6 = 30 hectares por dia, 1,5 vez os 20 atuais. Aumentar a jornada de 6 para 9 horas (×1,5) dá os 30 hectares sem mudar o custo diário: 12 × 10 + 4 × 1.000 = R$ 4.120,00 por dia, ou R$ 24.720,00 em 6 dias, abaixo de R$ 25.000,00. Mais 4 máquinas estouraria o orçamento, e as outras opções não atingem a produção.
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q161
+K: mediana
+Em ordem, as notas da Gama são 0; 6; 6,5; 6,5; 7; 7; 8; 8; 10; 10, e a mediana é (7 + 7)/2 = 7. No melhor caso, o aluno tira 10 no lugar do 0: as notas ficam 6; 6,5; 6,5; 7; 7; 8; 8; 10; 10; 10, com mediana (7 + 8)/2 = 7,5. Isso ainda é menor que os 7,6 da Delta, então a Gama fica em terceiro qualquer que seja a nota.
+**Resposta: D**
+
+@ENEM-MT-2009-REG-D2-C7-Q162
+K: regra de três composta
+Nos 10 primeiros dias foram 12 × 10 = 120 kg. O ritmo é 12 kg/(20 alunos × 3 h) = 0,2 kg por aluno-hora. Nos 20 dias restantes, 50 alunos × 4 h × 0,2 = 40 kg por dia, ou 800 kg. Total: 120 + 800 = 920 kg.
+**Resposta: A**
+
+@ENEM-MT-2009-REG-D2-C7-Q163
+K: consumo, densidade e massa
+16 voltas de 7 km somam 112 km. Com 75 L por 100 km, são 112 × 0,75 = 84 L de gasolina, que pesam 84 × 0,75 kg = 63 kg. O carro deve sair com pelo menos 605 + 63 = 668 kg.
+**Resposta: B**
+
+@ENEM-MT-2009-REG-D2-C7-Q164
+K: área de triângulo e razão trigonométrica
+Para dividir o quarto de círculo em três partes iguais, as retas saem do canto em ângulos de 30° e 60° com a base. A parte de João é o triângulo entre o lado esquerdo (2 km) e a reta a 30° da vertical, que corta o lado superior em x = 2 · tg 30° = 2 · 0,58 = 1,16 km. A área é (2 × 1,16)/2 = 1,16 km², de um terreno de 6 km²: 1,16/6 ≈ 19%.
+**Resposta: E**
+
+@ENEM-MT-2009-REG-D2-C7-Q165
+K: combinação × arranjo
+Escolher os 4 times do Grupo A não depende da ordem, então é uma combinação, C(12,4). No jogo de abertura a ordem importa (o primeiro é o mandante), então é um arranjo, A(4,2).
+**Resposta: A**
