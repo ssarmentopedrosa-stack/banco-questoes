@@ -1,0 +1,99 @@
+@ENEM-MT-2020-REG-D2-C7-Q179
+K: densidade superficial e conversão de unidades
+Uma folha tem 75 × 0,062 = 4,65 g. As 20.000 folhas pesam 93.000 g = 93 kg.
+**Resposta: E**
+
+@ENEM-MT-2020-REG-D2-C7-Q180
+K: média ponderada
+Com os pesos 3, 5 e 2 do quadro (todas as médias têm o mesmo divisor, 10, então basta comparar as somas): X 15 + 5 + 4 = 24; Y 3 + 20 + 4 = 27; Z 12 + 15 + 4 = 31; W 9 + 15 + 6 = 30; T 12 + 10 + 8 = 30. A maior média é a da empresa Z.
+**Resposta: C**
+
+@ENEM-MT-2021-REG-D2-C7-Q140
+K: média ponderada
+Pelo segundo quadro: (3,5 × 3 + 2,5 × 2 + 5 × 2 + 3 × 4 + 7,5 × 1)/12 = 45/12 = 3,75 milhões. Pelo primeiro quadro, 2 ≤ 3,75 < 4 corresponde à comissão II.
+**Resposta: B**
+
+@ENEM-MT-2021-REG-D2-C7-Q141
+K: expressão algébrica
+O total das n diárias é d·n. A taxa de serviço é a porcentagem s desse total, d·n·s, e a taxa de limpeza L é fixa. Então P = d·n + L + d·n·s.
+**Resposta: A**
+
+@ENEM-MT-2021-REG-D2-C7-Q142
+K: probabilidade do evento complementar
+Com n dardos, a chance de errar todos é (1/2)ⁿ. Para pontuar com probabilidade de pelo menos 9/10, é preciso (1/2)ⁿ ≤ 1/10, ou 2ⁿ ≥ 10, e o menor n é 4.
+**Resposta: B**
+
+@ENEM-MT-2021-REG-D2-C7-Q146
+K: coeficiente de variação
+A ração atual tem CV = 1/10 = 0,1. A nova tem CV = 1,5/x, que é menor que 0,1 quando x > 15 kg.
+**Resposta: E**
+
+@ENEM-MT-2021-REG-D2-C7-Q148
+K: mediana
+Pelo quadro, em ordem, os 12 valores são 11, 11, 12, 13, 15, 15, 16, 16, 17, 18, 20, 24. A mediana é a média do 6º e do 7º termo: (15 + 16)/2 = 15,5.
+**Resposta: C**
+
+@ENEM-MT-2021-REG-D2-C7-Q149
+K: leitura de gráfico
+Pelo gráfico, lucro = receita − despesa: janeiro 10 − 5 = 5; fevereiro 20 − 10 = 10; março 15 − 10 = 5; abril 20 − 15 = 5; maio 28 − 25 = 3. O maior lucro foi o de fevereiro.
+**Resposta: B**
+
+@ENEM-MT-2021-REG-D2-C7-Q150
+K: variação percentual
+Pelo gráfico, as vendas passaram de 236 (2005) para 519,2 (2009). Como 519,2/236 = 2,2, o aumento foi de 120%.
+**Resposta: C**
+
+@ENEM-MT-2021-REG-D2-C7-Q151
+K: frequência acumulada
+Pelo histograma, as faixas têm 5, 10, 5, 15, 20, 15, 15, 10, 5 e 5 imóveis (somando 105). Metade é 52,5. Acumulando: até 700 são 35 e até 800 são 55. O menor p com pelo menos 50% abaixo é 800 mil.
+**Resposta: C**
+
+@ENEM-MT-2021-REG-D2-C7-Q153
+K: escala
+O comprimento real da ponte é 38,4 m = 3.840 cm e o da réplica é 160 cm: 3.840/160 = 24 (a largura confirma: 168/7 = 24). A escala é 1 : 24.
+**Resposta: C**
+
+@ENEM-MT-2021-REG-D2-C7-Q154
+K: média e razão
+Pelo quadro, os médicos aumentaram 73.000 por década nas duas décadas, então em 2020 seriam 365.000 + 73.000 = 438.000. A população aumentou 23.000 e 21.000 mil, com média de 22.000 mil, e iria para 213.000 mil. São 438.000/213.000 ≈ 2,06 médicos por mil habitantes.
+**Resposta: D**
+
+@ENEM-MT-2021-REG-D2-C7-Q155
+K: porcentagem
+Pelo quadro: frango 0,4 × 12,50 = 5,00; batata 0,6 × 5,00 = 3,00; hortaliça 2,00. Total: 10,00. Com a batata a 7,50/kg, ela passa a custar 4,50, e sobram 10 − 4,50 − 2 = 3,50 para o frango: 3,50/12,50 = 0,28 kg. A redução é de 0,12/0,4 = 30%.
+**Resposta: C**
+
+@ENEM-MT-2021-REG-D2-C7-Q156
+K: função trigonométrica
+Pelo gráfico, a amplitude é 3 e o período é π, então ω = 2π/T = 2. Em t = 0, a massa está na posição mais baixa, P = −3, e só uma função do tipo −3cos(2t) tem esse valor inicial (−3 sen 0 = 0).
+**Resposta: A**
+
+@ENEM-MT-2021-REG-D2-C7-Q157
+K: matrizes (soma de colunas)
+O fluxo de chegada à região j é a soma da coluna j da matriz: coluna 1 = 4; coluna 2 = 4 + 2 + 2 = 8; coluna 3 = 2 + 6 + 2 = 10; coluna 4 = 2 + 2 + 3 + 4 = 11; coluna 5 = 5 + 3 + 4 = 12. O maior destino é a região 5.
+**Resposta: E**
+
+@ENEM-MT-2021-REG-D2-C7-Q158
+K: porcentagem
+O consumo é proporcional a passageiros × consumo por passageiro: o modelo B gasta 1,1 × 0,9 = 0,99 do que gasta o A, ou seja, 1% a menos.
+**Resposta: B**
+
+@ENEM-MT-2021-REG-D2-C7-Q159
+K: grandezas inversamente proporcionais
+Com 3 pessoas, um pneu leva 4 s. Com 2 pessoas, o tempo é 4 × 3/2 = 6 s. Os grupos trabalham ao mesmo tempo, então a troca leva o tempo do grupo mais lento, 6,0 s.
+**Resposta: A**
+
+@ENEM-MT-2021-REG-D2-C7-Q160
+K: divisão e comparação de custos
+O número de sachês tem que cobrir o mineral mais "difícil" de cada suplemento: I 16 sachês (por A) = R$ 32; II 6 (por C) = R$ 18; III 4 (por A e C) = R$ 20; IV 2 (A, B e C) = R$ 12; V 2 (por A e B) = R$ 16. O mais barato é o IV.
+**Resposta: D**
+
+@ENEM-MT-2021-REG-D2-C7-Q164
+K: sistema linear
+Pelo quadro: 12c + 4p + 3s = 10 e 18c + 3p + 2s = 10. Multiplicando a 2ª por 2 e subtraindo a 1ª: 24c + 2p + s = 10. Com duas calças e um sapato, cabem exatamente 24 camisetas.
+**Resposta: B**
+
+@ENEM-MT-2021-REG-D2-C7-Q166
+K: área e semelhança
+Dobrando comprimento e largura com a mesma altura, o perímetro dobra, e a área das paredes (perímetro × altura), também. O piso (comprimento × largura) fica 4 vezes maior. Isso é o que disse o fornecedor II.
+**Resposta: B**
