@@ -1,0 +1,119 @@
+@ENEM-MT-2010-REG-D2-C7-Q165
+K: função definida por partes e equação do 2º grau
+Os 48 °C ficam no primeiro trecho: (7/5)t + 20 = 48 dá t = 20 min. Os 200 °C ficam no segundo trecho (T(100) = 160): (2/125)t² − (16/5)t + 320 = 200, que vira t² − 200t + 7.500 = 0, com raízes 50 e 150. Como t ≥ 100, t = 150 min. A peça fica no forno 150 − 20 = 130 minutos.
+**Resposta: D**
+
+@ENEM-MT-2010-REG-D2-C7-Q166
+K: variação linear
+Pelo gráfico, em 2004 havia 750 favelas, então de 2004 a 2010 o aumento foi 968 − 750 = 218. Mantido o padrão por mais 6 anos, em 2016 serão 968 + 218 = 1.186, entre 1.150 e 1.200. A alternativa B erra: 1.186 é 436 a mais que em 2004.
+**Resposta: C**
+
+@ENEM-MT-2010-REG-D2-C7-Q167
+K: mediana de um conjunto par
+Lendo o gráfico, as 18 Copas tiveram artilheiros com 8, 5, 7, 9, 11, 13, 4, 9, 10, 7, 6, 6, 6, 6, 6, 6, 8 e 5 gols. Em ordem: 4, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9, 10, 11, 13. Os termos centrais (9º e 10º) são 6 e 7, então a mediana é 6,5 gols.
+**Resposta: B**
+
+@ENEM-MT-2010-REG-D2-C7-Q169
+K: equação do 1º grau
+Seja x o primeiro salto. O segundo é x − 1,2 e o terceiro é x − 1,2 − 1,5 = x − 2,7. Somando: 3x − 3,9 = 17,4, então x = 7,1 m, entre 7,0 m e 8,0 m.
+**Resposta: D**
+
+@ENEM-MT-2010-REG-D2-C7-Q170
+K: desvio padrão mede regularidade
+Os dois têm média 15, então o desempate é pela regularidade. Quanto menor o desvio padrão, mais próximas da média estão as notas. Marco tem desvio 0,32 e Paulo 4,97, então Marco é o mais regular.
+**Resposta: B**
+
+@ENEM-MT-2010-REG-D2-C7-Q171
+K: porcentagem de porcentagem
+Ficaram sem cura 60% dos pacientes, divididos em dois grupos de 30%. Os tratamentos novos curaram 35% de 30% = 10,5% e 45% de 30% = 13,5% do total inicial. Juntos: 24%.
+**Resposta: B**
+
+@ENEM-MT-2010-REG-D2-C7-Q172
+K: porcentagem e aumento relativo
+Em 2006, o Brasil produziu 43% de 40 = 17,2 bilhões de litros e os EUA 45% de 40 = 18 bilhões. Em 2009, os EUA produzirão 9 bilhões, e os dois juntos devem somar 88% de 40 = 35,2 bilhões, então o Brasil precisa de 26,2 bilhões. O aumento é 26,2/17,2 ≈ 1,523, ou seja, cerca de 52,3%.
+**Resposta: C**
+
+@ENEM-MT-2010-REG-D2-C7-Q173
+K: permutações
+Saindo de A e voltando a A, as 5 cidades podem ser visitadas em 5! = 120 ordens. Cada trajeto tem um simétrico de mesmo custo, então basta examinar 60 sequências. A 1,5 min cada, são 60 × 1,5 = 90 minutos.
+**Resposta: B**
+
+@ENEM-MT-2010-REG-D2-C7-Q174
+K: probabilidade condicional
+Pelo quadro, calçam mais que 36,0 as funcionárias de 37,0 (3), 38,0 (10) e 39,0 (1), total 14. Dessas, 10 calçam 38,0. A probabilidade é 10/14 = 5/7.
+**Resposta: D**
+
+@ENEM-MT-2010-REG-D2-C7-Q175
+K: média, mediana e moda
+Pelo quadro, são 20 jogos. A moda é 0 gol (5 jogos). Em ordem, o 10º e o 11º valores são 2 (os 5 primeiros são 0, os 3 seguintes são 1 e do 9º ao 12º são 2), então a mediana é 2. A média é (0·5 + 1·3 + 2·4 + 3·3 + 4·2 + 5·2 + 7·1)/20 = 45/20 = 2,25. Logo Z < Y < X.
+**Resposta: E**
+
+@ENEM-MT-2010-REG-D2-C7-Q176
+K: proporção encadeada
+Em Netuno cabem 58 Terras e em Júpiter cabem 23 Netunos. Então em Júpiter cabem 23 × 58 = 1.334 Terras.
+**Resposta: B**
+
+@ENEM-MT-2010-REG-D2-C7-Q178
+K: volume do cubo
+O volume de madeira é o cubo maior menos o espaço vazio: 12³ − 8³ = 1.728 − 512 = 1.216 cm³.
+**Resposta: D**
+
+@ENEM-MT-2010-REG-D2-C7-Q179
+K: padrões numéricos
+As somas das linhas são 1, 1 + 2 + 1 = 4, 1 + 2 + 3 + 2 + 1 = 9, 1 + 2 + 3 + 4 + 3 + 2 + 1 = 16: a linha n soma n². A 9ª linha soma 9² = 81.
+**Resposta: D**
+
+@ENEM-MT-2011-REG-D2-C7-Q136
+K: comparação de números decimais
+As diferenças para 68 mm são 0,21; 0,102; 0,001; 0,02 e 0,012 mm. A menor é 0,001 mm, do pistão de 68,001 mm.
+**Resposta: E**
+
+@ENEM-MT-2011-REG-D2-C7-Q140
+K: perímetro e área do retângulo
+Os perímetros são 200, 220, 180, 180 e 360 m, então só os terrenos 3 e 4 respeitam o limite de 180 m de tela. As áreas são 60 × 30 = 1.800 m² e 70 × 20 = 1.400 m². O de maior área é o terreno 3.
+**Resposta: C**
+
+@ENEM-MT-2011-REG-D2-C7-Q141
+K: proporcionalidade direta
+Para gastar 200 calorias: agachamentos passam de 20 para 40 min (+20), supermercado de 30 para 60 min (+30) e tirar o pó de 30 para 40 min (+10). Jardim, cachorro e roupas já gastam 200 em 30 min. O tempo a mais é 20 + 30 + 10 = 60 minutos.
+**Resposta: B**
+
+@ENEM-MT-2011-REG-D2-C7-Q143
+K: escala
+Em centímetros, 28 m = 2.800 cm e 12 m = 1.200 cm. Na escala 1:250, ficam 2.800/250 = 11,2 cm de comprimento e 1.200/250 = 4,8 cm de largura.
+**Resposta: C**
+
+@ENEM-MT-2011-REG-D2-C7-Q145
+K: conversão de unidades e aumento fracionário
+O consumo foi de 331 bilhões × 0,12 L ≈ 39,7 bilhões de litros. Aumentando 1/5, multiplica-se por 1,2: ≈ 47,7 bilhões de litros, ou seja, cerca de 48 bilhões.
+**Resposta: E**
+
+@ENEM-MT-2011-REG-D2-C7-Q146
+K: escala com mesma unidade
+Em centímetros, 2.000 km = 200.000.000 cm. A escala é 8 : 200.000.000 = 1 : 25.000.000.
+**Resposta: E**
+
+@ENEM-MT-2011-REG-D2-C7-Q148
+K: conversão de unidades
+Fora da Finlândia, o limite era 6.000 m ≈ 6.000 × 3,3 = 19.800 pés. A diferença para os 31.000 pés da Finlândia é 31.000 − 19.800 = 11.200 pés.
+**Resposta: C**
+
+@ENEM-MT-2011-REG-D2-C7-Q150
+K: distância entre pontos e pertinência à reta
+A estação tem de estar na reta y = x + 4 e a até 5 km de P(−5, 5). O ponto (−3, 1) está na reta (−3 + 4 = 1) e fica a √((−3 + 5)² + (1 − 5)²) = √20 ≈ 4,5 km de P. Os pontos (−5, 0) e (−2, 1) não estão na reta, e (0, 4) e (2, 6) estão a mais de 5 km.
+**Resposta: B**
+
+@ENEM-MT-2011-REG-D2-C7-Q153
+K: proporcionalidade
+Para 30 convidados: carne 30 × 0,25 kg = 7,5 kg; arroz 30/4 = 7,5 copos; farofa 30 × 4 = 120 colheres; vinho 30/6 = 5 garrafas; cerveja 30/2 = 15 garrafas; espumante 30/3 = 10 garrafas.
+**Resposta: E**
+
+@ENEM-MT-2011-REG-D2-C7-Q156
+K: função afim
+O aumento é de 4.300 trabalhadores por mês, então y = b + 4.300x. Fevereiro (x = 2) tem 880.605, logo b = 880.605 − 8.600 = 872.005, e y = 872.005 + 4.300x.
+**Resposta: C**
+
+@ENEM-MT-2011-REG-D2-C7-Q159
+K: igualdade de funções afins
+O custo da primeira empresa é 100.000n + 350.000 e o da segunda é 120.000n + 150.000. É indiferente quando são iguais; dividindo tudo por 1.000: 100n + 350 = 120n + 150.
+**Resposta: A**

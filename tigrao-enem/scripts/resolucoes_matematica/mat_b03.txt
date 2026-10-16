@@ -1,0 +1,104 @@
+@ENEM-MT-2011-REG-D2-C7-Q160
+K: porcentagem sobre o valor inicial
+Seja x o valor aplicado. No primeiro mês sobram 0,70x (perda de 0,30x). No segundo, ela recupera 20% do que perdeu: 0,20 × 0,30x = 0,06x. O montante é 0,76x = 3.800, então x = R$ 5.000,00.
+**Resposta: C**
+
+@ENEM-MT-2011-REG-D2-C7-Q161
+K: densidade demográfica
+A densidade é habitantes/área: 20.000.000/800.000 = 25 habitantes por km².
+**Resposta: B**
+
+@ENEM-MT-2011-REG-D2-C7-Q162
+K: progressão aritmética
+As vendas aumentam 1.500 passagens por mês (33.000; 34.500; 36.000…). Julho é o 7º termo: 33.000 + 6 × 1.500 = 42.000.
+**Resposta: D**
+
+@ENEM-MT-2011-REG-D2-C7-Q164
+K: energia = potência × tempo
+Dois banhos de 10 min são 20 min = 1/3 h por dia. O consumo diário é 4,8 × 1/3 = 1,6 kWh, e em 7 dias, 7 × 1,6 = 11,2 (o enunciado chama de "kW").
+**Resposta: D**
+
+@ENEM-MT-2011-REG-D2-C7-Q166
+K: aumento proporcional
+O acréscimo nas mulheres é 8/32 = 25%. Com a mesma proporção, os homens passam de 28 mil para 28 × 1,25 = 35 mil internações.
+**Resposta: D**
+
+@ENEM-MT-2011-REG-D2-C7-Q167
+K: volume do cilindro e razão
+O copo tem raio 2 cm e volume π r² h = 3 × 4 × 10 = 120 cm³ = 120 mL. Na mistura há 1 parte de açúcar para 5 de água, então a água é 5/6 do total: 5/6 × 120 = 100 mL.
+**Resposta: C**
+
+@ENEM-MT-2011-REG-D2-C7-Q168
+K: contagem de casos favoráveis
+Com duas bolas diferentes de 1 a 15: soma 12 sai com {1,11}, {2,10}, {3,9}, {4,8}, {5,7} (5 modos); soma 17 com {2,15}, {3,14}, {4,13}, {5,12}, {6,11}, {7,10}, {8,9} (7 modos); soma 22 com {7,15}, {8,14}, {9,13}, {10,12} (4 modos). Bernardo tem mais chances.
+**Resposta: C**
+
+@ENEM-MT-2011-REG-D2-C7-Q174
+K: permutações em ordem crescente
+Os números usam os algarismos 1, 3, 5, 7, 9 sem repetir: são 5! = 120. Antes de 75.913 vêm os que começam por 1, 3 ou 5 (3 × 4! = 72), os que começam por 71 ou 73 (2 × 3! = 12) e os que começam por 751 ou 753 (2 × 2! = 4). São 88 números antes; com os algarismos restantes 1 e 3, 75.913 é o primeiro que começa por 759, então ocupa a 89ª posição.
+**Resposta: E**
+
+@ENEM-MT-2012-REG-D2-C7-Q136
+K: escala
+O atleta correu 10 × 42 = 420 km = 42.000.000 cm. A escala é 60 : 42.000.000 = 1 : 700.000.
+**Resposta: D**
+
+@ENEM-MT-2012-REG-D2-C7-Q140
+K: valor presente com juros compostos
+Trazendo cada pagamento para hoje com 10% ao semestre: opção 2: 30.000 + 26.000/1,1 ≈ 53.636; opção 3: 20.000 + 20.000/1,1 + 18.000/1,21 ≈ 53.058; opção 4: 15.000 + 39.000/1,21 ≈ 47.231; opção 5: 60.000/1,21 ≈ 49.587; opção 1: 55.000. O menor valor presente é o da opção 4, que deixa mais dinheiro aplicado rendendo.
+**Resposta: D**
+
+@ENEM-MT-2012-REG-D2-C7-Q144
+K: princípio multiplicativo
+O número de respostas distintas é 5 objetos × 6 personagens × 9 cômodos = 270. Como há 280 alunos e as respostas não se repetem, alguém acerta: há 10 alunos a mais do que respostas possíveis.
+**Resposta: A**
+
+@ENEM-MT-2012-REG-D2-C7-Q150
+K: soma de uma sequência
+As colunas usam 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28 cartas. O monte tem 52 − 28 = 24 cartas.
+**Resposta: B**
+
+@ENEM-MT-2012-REG-D2-C7-Q161
+K: valor posicional
+O número tem 8 algarismos: 1 3 _ 9 8 2 0 7. Da direita para a esquerda: 7 unidades, 0 dezenas, 2 centenas, 8 unidades de milhar, 9 dezenas de milhar e o espaço vazio na casa da centena de milhar.
+**Resposta: C**
+
+@ENEM-MT-2012-REG-D2-C7-Q164
+K: proporcionalidade
+São 5 gotas para cada 2 kg. Com 30 gotas: 30/5 = 6 grupos de 2 kg = 12 kg.
+**Resposta: A**
+
+@ENEM-MT-2012-REG-D2-C7-Q166
+K: equação do 1º grau (ponto de equilíbrio)
+Igualando oferta e demanda: −20 + 4P = 46 − 2P, então 6P = 66 e P = 11.
+**Resposta: B**
+
+@ENEM-MT-2012-REG-D2-C7-Q167
+K: proporcionalidade
+A bicicleta exige 9.200/20 = 460 períodos de jogo. A R$ 3,00 cada, o gasto é 460 × 3 = R$ 1.380,00.
+**Resposta: D**
+
+@ENEM-MT-2012-REG-D2-C7-Q171
+K: conversão de minutos de grau em decimal
+3' = 3/60 de grau = 0,05°, e 0" não acrescenta nada. A longitude é 124,05°.
+**Resposta: B**
+
+@ENEM-MT-2012-REG-D2-C7-Q173
+K: razão e proporção
+A bacia comum gasta 60 L por dia a 15 L por descarga: 4 descargas. A ecológica gastaria 4 × 6 = 24 L. A economia é 60 − 24 = 36 litros por dia.
+**Resposta: B**
+
+@ENEM-MT-2012-REG-D2-C7-Q176
+K: variância e mudança de unidade
+O desvio padrão é 90 kg por talhão de 3 hectares, ou seja, 30 kg por hectare = 0,5 saca por hectare (saca de 60 kg). A variância é o quadrado do desvio: 0,5² = 0,25 (sacas/hectare)².
+**Resposta: E**
+
+@ENEM-MT-2012-REG-D2-C7-Q177
+K: princípio multiplicativo e aditivo
+Há 3 cores primárias e 3 secundárias (combinações de duas primárias): 6 cores. Cada uma pode aparecer sozinha, clara (com o branco) ou escura (com o preto): 6 × 3 = 18. Somando o preto e o branco, são 20 cores.
+**Resposta: C**
+
+@ENEM-MT-2012-REG-D2-C7-Q178
+K: probabilidade com dois dados
+Dos 36 resultados, a soma 7 sai de 6 modos (1+6, 2+5, 3+4, 4+3, 5+2, 6+1), a soma 8 de 5 modos (2+6, 3+5, 4+4, 5+3, 6+2) e a soma 4 de 3 modos (1+3, 2+2, 3+1). José tem a maior probabilidade.
+**Resposta: D**
