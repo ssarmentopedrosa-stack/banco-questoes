@@ -1,0 +1,119 @@
+@ENEM-MT-2023-REG-D2-C7-Q136
+K: volume de cone, tronco e cilindro
+O cone grande (r = 9, h = 36) tem 3 × 81 × 36/3 = 2.916 cm³. O cone retirado tem raio 3, então por semelhança tem altura 12 e volume 3 × 9 × 12/3 = 108; o tronco fica com 2.808 cm³. O furo é um cilindro de raio 3 e altura 24: 3 × 9 × 24 = 648 cm³. Sobram 2.160 cm³, e a massa é 2.160 × 0,6 = 1.296 g.
+**Resposta: B**
+
+@ENEM-MT-2023-REG-D2-C7-Q137
+K: média ponderada
+Pelo quadro: (75 × 2.000 + 25 × 7.000)/100 = (150.000 + 175.000)/100 = 3.250 reais.
+**Resposta: C**
+
+@ENEM-MT-2023-REG-D2-C7-Q138
+K: probabilidade de eventos independentes
+Para 0,20 × P(B) ≤ 0,01, é preciso P(B) ≤ 0,05. Com 4 pretas, a urna B deve ter pelo menos 4/0,05 = 80 bolinhas. Hoje tem 4/0,25 = 16 (12 brancas), então é preciso adicionar no mínimo 64 brancas.
+**Resposta: C**
+
+@ENEM-MT-2023-REG-D2-C7-Q139
+K: progressão aritmética
+Pela tabela, o produto I sobe 10 por mês (80, 90, 100) e o II cai 20 (190, 170, 150). Julho: 110 contra 130; agosto: 120 contra 110, e o I passa o II. A produção do II para no mês seguinte, setembro.
+**Resposta: D**
+
+@ENEM-MT-2023-REG-D2-C7-Q140
+K: média, mediana e moda
+Pelo gráfico: 1 viagem (10 motoristas), 2 (10), 3 (55), 4 (25), 6 (50), 7 (10), num total de 160. A moda é 3. A mediana, média do 80º e do 81º valores, é 4 (acumulado: 10, 20, 75, 100). A média é (10 + 20 + 165 + 100 + 300 + 70)/160 = 665/160 ≈ 4,16. Então moda < mediana < média.
+**Resposta: E**
+
+@ENEM-MT-2023-REG-D2-C7-Q143
+K: porcentagem
+A lista de espera deste ano tem 400 × 1,1 = 440 nomes, e a meta é 25% menor: 330. É preciso atender mais 110 crianças, o que dá 11 salas de 10 vagas.
+**Resposta: B**
+
+@ENEM-MT-2023-REG-D2-C7-Q144
+K: vazão e volume
+Pelo quadro, o nível subiu 3,2 − 0,5 = 2,7 m em 9 horas, ou 0,3 m/h (os intervalos intermediários confirmam o mesmo ritmo). Com base de 3 m², a vazão é 3 × 0,3 = 0,9 m³/h.
+**Resposta: C**
+
+@ENEM-MT-2023-REG-D2-C7-Q147
+K: proporção e arredondamento
+O casal consome 2 × 30 = 60 g de carboidrato por dia, ou 1.800 g em 30 dias. Cada pacote tem 18 × 15 = 270 g, então 1.800/270 ≈ 6,67, e são necessários 7 pacotes.
+**Resposta: D**
+
+@ENEM-MT-2023-REG-D2-C7-Q148
+K: trigonometria no triângulo retângulo
+O cabo é a hipotenusa: c = h/sen a. Opção I: 11/0,5 = 22; opção II: 12/(√2/2) = 12√2 ≈ 16,97; opção III: 18/(√3/2) = 12√3 ≈ 20,8. O menor cabo é o de 12√2 m.
+**Resposta: C**
+
+@ENEM-MT-2023-REG-D2-C7-Q149
+K: escala
+Na tela, a altitude máxima aparece com 1 quadradinho = 1 cm de altura. Como a altitude real é 5 km = 500.000 cm, a escala é 1 : 500.000.
+**Resposta: E**
+
+@ENEM-MT-2023-REG-D2-C7-Q150
+K: expressão algébrica
+A concentração é 90% da quantidade ingerida: C = 0,9q.
+**Resposta: A**
+
+@ENEM-MT-2023-REG-D2-C7-Q151
+K: leitura de gráfico cartesiano
+O valor de A está no eixo horizontal e o de B no vertical, então A > B quando x > y. Pelo gráfico: 9h (3; 0,5) sim; 10h (2; 2) igual; 11h (4; 4) igual; 12h (5,5; 3) sim; 13h (6; 1,5) sim; 14h (3; 2) sim; 15h, 16h e 17h, não. São 4 instantes.
+**Resposta: B**
+
+@ENEM-MT-2023-REG-D2-C7-Q153
+K: produto e comparação
+O tempo de espera é o tempo de atendimento vezes o número de pessoas na fila: I 60, II 54, III 30, IV 30, V 27 minutos. A menor espera é no caixa V.
+**Resposta: E**
+
+@ENEM-MT-2023-REG-D2-C7-Q154
+K: figuras planas (setor circular)
+O vértice do telhado está no centro da lua, então a parte escondida fica entre os dois lados do triângulo que saem desse vértice (ângulo de 60°) e o arco da lua. Essa região, limitada por dois raios e um arco, é um setor circular.
+**Resposta: B**
+
+@ENEM-MT-2023-REG-D2-C7-Q155
+K: área de quadrados
+A piscina tem lado 20 m. Com a calçada de 5 m de cada lado, o quadrado externo tem lado 30 m. A calçada ocupa 900 − 400 = 500 m².
+**Resposta: D**
+
+@ENEM-MT-2023-REG-D2-C7-Q156
+K: leitura de gráfico
+Pelo gráfico, a intensidade do sinal é zero de 10 a 12 min e de 16 a 20 min, num total de 2 + 4 = 6 minutos sem sinal.
+**Resposta: A**
+
+@ENEM-MT-2023-REG-D2-C7-Q157
+K: gráfico de dispersão e porcentagem
+Pelo gráfico, com massa abaixo de 80 kg e altura acima de 1,65 m só estão dois estudantes (cerca de 65 kg com 1,68 m e 68 kg com 1,70 m). São 2 em 10, ou 20%.
+**Resposta: B**
+
+@ENEM-MT-2023-REG-D2-C7-Q158
+K: função e inequação
+Com n ajudantes, a pesca é 300 + 100(n − 1) kg. O lucro é 0,96 × 5 × pesca − 900 − 250n. Para n = 3: 500 kg dá 2.400 − 900 − 750 = 750 (menos que 800). Para n = 4: 600 kg dá 2.880 − 900 − 1.000 = 980. O mínimo é 4 ajudantes.
+**Resposta: D**
+
+@ENEM-MT-2023-REG-D2-C7-Q159
+K: função exponencial
+Os 5 L devem ser usados em 5 × 200.000 = 1.000.000 de larvas. Com 100 × 10^(t/3) = 10⁶, 10^(t/3) = 10⁴, então t = 12 dias.
+**Resposta: D**
+
+@ENEM-MT-2023-REG-D2-C7-Q161
+K: juros compostos e equação do 2º grau
+Cada parcela é 1,2 × 1.500/3 = 600. Com x = 1/(1 + i): 1.500 = 600 + 600x + 600x², ou x² + x − 1,5 = 0, e x = (−1 + √7)/2. Como √7 = √28/2 ≈ 2,645, x ≈ 0,8225 e 1 + i ≈ 1,216. A taxa é de cerca de 21,5% ao mês.
+**Resposta: D**
+
+@ENEM-MT-2023-REG-D2-C7-Q162
+K: função afim
+O preço tem uma parte fixa de 500 e uma parte variável de 250 por m³: y = 250x + 500.
+**Resposta: D**
+
+@ENEM-MT-2023-REG-D2-C7-Q165
+K: área de retângulos
+Pela figura, cada degrau tem 1,0 m de largura, 0,25 m de piso e 0,20 m de espelho. Pisos: 3 × 1,0 × 0,25 = 0,75 m²; espelhos: 3 × 1,0 × 0,20 = 0,60 m². Cada parede lateral, em degraus, tem 0,25 × 0,20 × (1 + 2 + 3) = 0,30 m², e as duas somam 0,60. O total é 1,95 m².
+**Resposta: E**
+
+@ENEM-MT-2023-REG-D2-C7-Q166
+K: produto de matrizes (soma ponderada)
+Horas × cal/h (quadros): segunda 248 + 382 + 0 + 984 = 1.614; terça 124 + 764 + 178 + 492 = 1.558; quarta 0 + 1.146 + 356 + 246 = 1.748; quinta 1.528; sexta 382 + 1.230 = 1.612. O maior gasto é na quarta-feira.
+**Resposta: C**
+
+@ENEM-MT-2023-REG-D2-C7-Q167
+K: proporção e porcentagem
+São 5 folhas por aluno: 1.150 × 5 = 5.750 folhas, ou 58 embalagens, custando R$ 232,00. Para pagar 220, o desconto é de 12/232 ≈ 5,17%, no intervalo (5,0; 5,5).
+**Resposta: A**
