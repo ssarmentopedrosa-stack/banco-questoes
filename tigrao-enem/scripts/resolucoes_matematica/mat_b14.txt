@@ -1,0 +1,114 @@
+@ENEM-MT-2023-REG-D2-C7-Q168
+K: probabilidade condicional (etapas)
+Para o 50: o algarismo das unidades 0 sai com probabilidade 1/10, e na segunda urna ficam as dezenas 1 a 5 (10, 20, …, 50), então o 5 sai com 1/5. Total: 1/50. Para o 02: o 2 sai com 1/10, e ficam as dezenas 0 a 5 (02, 12, …, 52), com o 0 saindo com 1/6. Total: 1/60.
+**Resposta: A**
+
+@ENEM-MT-2023-REG-D2-C7-Q171
+K: conversão de unidades
+20 ciclos de 52 anos Haab são 1.040 × 365 = 379.600 dias. Em anos Tzolkim, isso é 379.600/260 = 1.460.
+**Resposta: C**
+
+@ENEM-MT-2023-REG-D2-C7-Q173
+K: unidades de medida
+O EC é o consumo de oxigênio (mL/min) dividido pela massa (kg). Então a unidade é mL/(min · kg).
+**Resposta: B**
+
+@ENEM-MT-2023-REG-D2-C7-Q175
+K: sistema linear
+Com a = tíquete azul e v = vermelho: a − v = v + 0,05, ou a = 2v + 0,05. Pelas cartelas, 18a + 9v = 32,40. Substituindo: 36v + 0,90 + 9v = 32,40, então v = 0,70. A cartela vermelha custa 9 × 0,70 = 6,30.
+**Resposta: B**
+
+@ENEM-MT-2023-REG-D2-C7-Q176
+K: sequências (números pentagonais)
+Pela figura, os acréscimos são 4, 7, 10, 13, 16 (1, 5, 12, 22, 35, 51), aumentando 3 de cada vez. Os próximos são 51 + 19 = 70 e 70 + 22 = 92. Pela fórmula n(3n − 1)/2, o 8º é 8 × 23/2 = 92.
+**Resposta: E**
+
+@ENEM-MT-2023-REG-D2-C7-Q179
+K: padrões de contagem
+Pelo quadrinho: 1 = urapum, 2 = okosa, 3 = okosa urapum, 4 = okosa okosa, 6 = okosa okosa okosa. Cada "okosa" vale 2 e "urapum" vale 1. Então 5 = okosa okosa urapum e 7 = okosa okosa okosa urapum.
+**Resposta: C**
+
+@ENEM-MT-2023-REG-D2-C7-Q180
+K: média aritmética
+As médias de dois meses seguidos são: out-nov 200; nov-dez 175; dez-jan 325; jan-fev 275; fev-mar 150. A maior é dezembro-janeiro, então o plantio deve ser no início de dezembro.
+**Resposta: C**
+
+@ENEM-MT-2024-REG-D2-C7-Q140
+K: porcentagem
+João acertou 75% de 200 = 150 questões (muito bom). Felipe acertou 30% a menos: 0,7 × 150 = 105, ou 52,5% (regular).
+**Resposta: B**
+
+@ENEM-MT-2024-REG-D2-C7-Q143
+K: porcentagem e lucro
+As meias previstas (60% = 300) subiram 50%, para 450. A bilheteria é 450 × 65 + 50 × 130 = 29.250 + 6.500 = 35.750, e o lucro com ingressos fica em 35.750 − 34.350 = 1.400. Faltam 15.600, que devem vir de 60% das vendas de bebidas: 15.600/0,6 = 26.000, ou 26.000/500 = 52 reais por pessoa.
+**Resposta: D**
+
+@ENEM-MT-2024-REG-D2-C7-Q145
+K: área do retângulo
+A área antiga é 110 × 75 = 8.250 m² e a nova, 105 × 68 = 7.140 m². A redução é de 1.110 m².
+**Resposta: D**
+
+@ENEM-MT-2024-REG-D2-C7-Q146
+K: maximização (função quadrática)
+O custo é 2 × 20L + 2 × 15C = 6.000, ou 40L + 30C = 6.000. O produto LC é máximo quando as duas parcelas são iguais: 40L = 30C = 3.000, então L = 75 m e C = 100 m. O maior lado mede 100 m.
+**Resposta: B**
+
+@ENEM-MT-2024-REG-D2-C7-Q153
+K: porcentagem e número decimal
+135,25% = 135,25/100 = 1,3525.
+**Resposta: D**
+
+@ENEM-MT-2024-REG-D2-C7-Q156
+K: função afim
+O valor é a tarifa fixa (2,00) mais 0,26 por minuto e 1,40 por quilômetro: V = 2,00 + 0,26T + 1,40D.
+**Resposta: B**
+
+@ENEM-MT-2024-REG-D2-C7-Q157
+K: equação do 1º grau
+Hoje, 5 porções custam 10 + 5 × 25 = 135. Com a nova taxa, 15 + 5p = 135, então p = 24 reais.
+**Resposta: C**
+
+@ENEM-MT-2024-REG-D2-C7-Q160
+K: vazão e tempo
+A primeira piscina leva 2.500.000/6.000 ≈ 416,7 min. A segunda deve levar 20% a mais: 1,2 × 416,7 = 500 min. A vazão é 2.750.000/500 = 5.500 L/min.
+**Resposta: D**
+
+@ENEM-MT-2024-REG-D2-C7-Q162
+K: progressão geométrica e calendário
+As parcelas crescem, então convém que as de maio (pagas pela imobiliária) sejam as maiores e as mais numerosas. São 100 meses: comprando em fevereiro, maio cai nas parcelas 4, 16, …, 100, ou seja, 9 parcelas, incluindo a última e maior. Comprando em março, abril ou maio, também são 9 maios, mas em posições anteriores (mais baratas). Em janeiro, junho ou agosto, são só 8. A melhor escolha é fevereiro.
+**Resposta: A**
+
+@ENEM-MT-2024-REG-D2-C7-Q179
+K: divisão proporcional
+Os engenheiros recebem 40% de 71.250 = 28.500. As horas são: I 4 × 5,5 = 22; II 5 × 4 = 20; III 6 × 2,5 = 15; total 57, o que dá 500 reais por hora. A maior diferença é entre I e III: (22 − 15) × 500 = 3.500 reais.
+**Resposta: C**
+
+@ENEM-MT-2025-REG-D2-C7-Q141
+K: equação do 1º grau
+Foram enviados 10.200 L e chegaram 9.900, então o descarte fixo é de 300 L. Para entregar 20.000 L, é preciso enviar 20.000 + 300 = 20.300 L.
+**Resposta: C**
+
+@ENEM-MT-2025-REG-D2-C7-Q144
+K: poliedros e congruência de faces
+As faces do sólido são: a base livre do prisma (hexágono grande), 6 retângulos laterais congruentes, 6 trapézios laterais congruentes do tronco e a base menor do tronco (hexágono pequeno). A base comum fica dentro do sólido. São 4 tipos de face, então 4 cores.
+**Resposta: D**
+
+@ENEM-MT-2025-REG-D2-C7-Q146
+K: subtração de decimais
+10,00 − 9,58 = 0,42 s.
+**Resposta: B**
+
+@ENEM-MT-2025-REG-D2-C7-Q150
+K: regra de três composta
+3 × 6 = 18 horas de trabalho por dia produzem 720 tijolos, ou 40 por hora de trabalho. Com 5 × 9 = 45 horas, são 45 × 40 = 1.800 tijolos.
+**Resposta: D**
+
+@ENEM-MT-2025-REG-D2-C7-Q151
+K: códigos numéricos
+Na ordem: andar 2, setor 08, funcionário 109 e manhã 0, formando 2 08 109 0 = 2081090.
+**Resposta: D**
+
+@ENEM-MT-2025-REG-D2-C7-Q155
+K: princípio multiplicativo
+Os cargos são diferentes, então a ordem importa. O presidente pode ser qualquer uma das 20 pessoas; o secretário, uma das 18 que não são do casal do presidente; o tesoureiro, uma das 16 restantes de outros casais. Total: 20 × 18 × 16.
+**Resposta: B**
