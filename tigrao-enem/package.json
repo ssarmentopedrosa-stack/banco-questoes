@@ -12,6 +12,7 @@
     "prints": "node scripts/prints.mjs",
     "test:materias": "node scripts/materias.mjs",
     "test:bugs": "node scripts/bugs.mjs",
+    "test:pomodoro": "node scripts/pomodoro.mjs",
     "check:lixo": "python3 scripts/checa_lixo.py"
   },
   "dependencies": {

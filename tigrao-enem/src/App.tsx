@@ -1,17 +1,18 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft, BookOpen, Brain, CalendarCheck, Check, ChevronRight, Clock, Download, ExternalLink, Flame, Gauge, Lightbulb, RotateCcw,
-  ArrowDown, Settings, Sparkles, Target, Timer, Trophy, Upload, Vibrate, Volume1, Volume2, VolumeX, X, Zap, ZoomIn,
+  ArrowDown, Pause, Play, Settings, Sparkles, Target, Timer, Trophy, Upload, Vibrate, Volume1, Volume2, VolumeX, X, Zap, ZoomIn,
 } from "lucide-react";
 import { SOM_PADRAO, setModoProva, setSomPrefs, tocar, useSom, vibracaoSuportada, vibrar, type Som } from "./som";
 import { LETTERS, MATERIA, QUESTIONS, TOPICS, dicas, figuraAlt, plural, topicInfo, type Option, type Question } from "./data";
 import {
   ALL_BADGES, CHANCE_SURPRESA, DOMINIO, LEVELS, META_DIARIA, NIVEIS_DOMINIO, SIMULADOS, XP, badgeLabel, dominioSub, dominioTema, dueReviews, folgaDisponivel,
-  levelOf, load, missoes, nivelDominio, practiceSet, proximoPasso, registerAnswer, registerSimulado, reviewSet, save, scheduledReviews, simuladoDisponivel,
+  levelOf, load, missoes, nivelDominio, practiceSet, proximoPasso, registerAnswer, registerPomodoro, registerSimulado, POMO_LIMITES, type PomoCfg, reviewSet, save, scheduledReviews, simuladoDisponivel,
   simuladoSet, smartSet, subtemas, temaMaisFraco, topicStats, type Gain, type SimKind, type State,
 } from "./game";
 import { estruturar } from "./resolucao";
 import { lerRetomada, limparRetomada, questoesDe, salvarRetomada, type Retomada } from "./retomar";
+import { avancar, continuar, iniciarFoco, lerPomo, mmss, pausar, restante, salvarPomo, type Pomo } from "./pomodoro";
 import { baixarArquivo, exportCode, importCode } from "./backup";
 
 type Mode = "pratica" | "inteligente" | "rapido" | "revisao" | SimKind;
@@ -23,6 +24,7 @@ type Screen =
   | { name: "dominio" }
   | { name: "conquistas" }
   | { name: "ajustes" }
+  | { name: "descanso" }
   | ({ name: "quiz" } & Quiz)
   | { name: "resultado"; mode: Mode; topic: string | null; items: Item[]; xp: number; badges: string[]; levelUp: string | null; missoes: string[]; seconds: number; dominioUps: string[] };
 type Item = { q: Question; chosen: string | null };
@@ -54,6 +56,40 @@ export default function App({ onTrocar }: { onTrocar?: () => void }) {
     window.scrollTo(0, 0);
   }, [screen.name, screen.name === "quiz" ? screen.questions : null]);
 
+  // ---------- Pomodoro (relógio por carimbo de tempo, salvo no aparelho) ----------
+  const [pomo, setPomo] = useState<Pomo | null>(() => lerPomo());
+  const [agora, setAgora] = useState(() => Date.now());
+  const [pomoGanho, setPomoGanho] = useState<Gain | null>(null);
+  const pomoRef = useRef(pomo); pomoRef.current = pomo;
+  const stateRef = useRef(state); stateRef.current = state;
+  useEffect(() => { salvarPomo(pomo); document.body.classList.toggle("com-pomo", !!pomo); }, [pomo]);
+  useEffect(() => {
+    if (!pomo) return;
+    const tick = () => {
+      const t = Date.now();
+      setAgora(t);
+      const cur = pomoRef.current;
+      if (!cur) return;
+      const r = avancar(cur, t, stateRef.current.prefs.pomo);
+      if (!r.mudou) return;
+      pomoRef.current = r.p;
+      setPomo(r.p);
+      if (r.focosConcluidos) {
+        const [ns, g] = registerPomodoro(stateRef.current);
+        stateRef.current = ns;
+        setState(ns); setPomoGanho(g);
+        setScreen({ name: "descanso" });
+        tocar("meta"); vibrar([80, 60, 80]);
+      } else { tocar("simInicio"); vibrar(60); }
+    };
+    tick();
+    const id = setInterval(tick, 1000);
+    document.addEventListener("visibilitychange", tick);
+    return () => { clearInterval(id); document.removeEventListener("visibilitychange", tick); };
+  }, [pomo === null]); // eslint-disable-line react-hooks/exhaustive-deps
+  // recarregou no meio da pausa: volta para a tela de descanso
+  useEffect(() => { if (pomo && pomo.fase !== "foco") setScreen({ name: "descanso" }); }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
   const go = (q: Quiz) => { if (!q.retomada) limparRetomada(); setPendente(null); setScreen({ name: "quiz", ...q }); };
   const retomar = (r: Retomada) => go({ mode: r.mode as Mode, topic: r.topic, questions: questoesDe(r.ids), revisao: r.revisao, retomada: r });
   const descartar = () => { limparRetomada(); setPendente(null); };
@@ -71,7 +107,16 @@ export default function App({ onTrocar }: { onTrocar?: () => void }) {
     const r = smartSet(state, 5);
     go({ mode: "rapido", topic: r.foco, questions: r.questions, revisao: [...r.revisao] });
   };
-  const home = () => setScreen({ name: "home" });
+  const home = () => { setPendente(lerRetomada((m) => SIMULADOS[m as SimKind]?.segundos ?? 0)); setScreen({ name: "home" }); };
+  /** Começa um foco: retoma o quiz interrompido, se houver; senão abre 10 questões da matéria escolhida. */
+  const comecarFoco = () => {
+    const cur = pomoRef.current;
+    if (!cur || cur.fase !== "foco") { const np = iniciarFoco(state.prefs.pomo, Date.now(), cur?.ciclos ?? 0); pomoRef.current = np; setPomo(np); }
+    setPomoGanho(null);
+    const r = lerRetomada((m) => SIMULADOS[m as SimKind]?.segundos ?? 0);
+    if (r && !isSim(r.mode as Mode)) retomar(r); else startPratica(null);
+  };
+  const pararPomo = () => { pomoRef.current = null; setPomo(null); setPomoGanho(null); if (screen.name === "descanso") home(); };
 
   return (
     <div className="mx-auto min-h-screen max-w-md px-4 pb-10 pt-3 md:max-w-[760px] md:px-6 md:pt-6">
@@ -87,7 +132,7 @@ export default function App({ onTrocar }: { onTrocar?: () => void }) {
       {screen.name === "home" && (
         <Home state={state} onTemas={() => setScreen({ name: "temas" })} onSimulado={startSimulado} onRevisao={startRevisao} onMix={() => startPratica(null)}
           onInteligente={startInteligente} onRapido={startRapido} setState={setState} onConquistas={() => setScreen({ name: "conquistas" })} onDominio={() => setScreen({ name: "dominio" })}
-          onAjustes={() => setScreen({ name: "ajustes" })} onTrocar={onTrocar} />
+          onAjustes={() => setScreen({ name: "ajustes" })} onTrocar={onTrocar} onPomodoro={comecarFoco} />
       )}
       {screen.name === "temas" && <Temas state={state} onBack={home} onPick={startPratica} />}
       {screen.name === "dominio" && <Dominio state={state} onBack={home} onPick={startPratica} onRevisao={startRevisao} onSimulado={() => startSimulado("mini")} />}
@@ -101,7 +146,11 @@ export default function App({ onTrocar }: { onTrocar?: () => void }) {
         <Resultado {...screen} state={state} onHome={home}
           onAgain={() => (isSim(screen.mode) ? startSimulado(screen.mode) : screen.mode === "revisao" ? startRevisao() : screen.mode === "inteligente" ? startInteligente() : screen.mode === "rapido" ? startRapido() : startPratica(screen.topic))} />
       )}
-      <p className="mt-6 px-2 text-center text-[0.6875rem] leading-4 text-tinta/70" data-testid="aviso">{AVISO}</p>
+      {screen.name === "descanso" && pomo && <Descanso pomo={pomo} agora={agora} ganho={pomoGanho} cfg={state.prefs.pomo} onFoco={comecarFoco} onParar={pararPomo} />}
+      {pomo && <PomoBarra pomo={pomo} agora={agora} emQuiz={screen.name === "quiz"} emDescanso={screen.name === "descanso"}
+        onPausar={() => setPomo(pausar(pomo, Date.now()))} onContinuar={() => setPomo(continuar(pomo, Date.now()))} onParar={pararPomo}
+        onQuestoes={comecarFoco} onDescanso={() => setScreen({ name: "descanso" })} />}
+      <p className={`mt-6 px-2 text-center text-[0.6875rem] leading-4 text-tinta/70 ${pomo ? "pb-16" : ""}`} data-testid="aviso">{AVISO}</p>
     </div>
   );
 }
@@ -236,7 +285,7 @@ function falaHome(state: State, due: number) {
 
 function Home(p: {
   state: State; onTemas: () => void; onSimulado: (k: SimKind) => void; onRevisao: () => void; onMix: () => void; onInteligente: () => void;
-  onRapido: () => void; setState: (s: State) => void; onConquistas: () => void; onDominio: () => void; onAjustes: () => void; onTrocar?: () => void;
+  onRapido: () => void; setState: (s: State) => void; onConquistas: () => void; onDominio: () => void; onAjustes: () => void; onTrocar?: () => void; onPomodoro: () => void;
 }) {
   const { state } = p;
   const [avisoFolga] = useState(state.folga.avisar ? state.folga.usadaEm : null);
@@ -323,6 +372,10 @@ function Home(p: {
         <BigButton onClick={() => p.onSimulado("mini")} cor="bg-vermelho" icon={<Timer className="h-6 w-6" />} titulo="Mini-simulado" sub={`${SIMULADOS.mini.n} questões · ${SIMULADOS.mini.segundos / 60} min`} />
         <BigButton onClick={() => p.onSimulado("completo")} cor="bg-noite" icon={<Clock className="h-6 w-6" />} titulo="Simulado ENEM"
           sub={`${SIMULADOS.completo.n} questões · 2h30`} disabled={!simuladoDisponivel("completo")} />
+      </div>
+      <div className="mt-3" data-testid="home-pomodoro">
+        <BigButton wide onClick={p.onPomodoro} cor="bg-laranja-escuro" icon={<span className="text-2xl" aria-hidden>🍅</span>} titulo="Modo Pomodoro"
+          sub={`${p.state.prefs.pomo.foco} min de questões · pausa de ${p.state.prefs.pomo.pausa} min · hoje: ${plural(p.state.pomodoro.hoje, "ciclo", "ciclos")}`} />
       </div>
       <BigButton wide onClick={p.onRevisao} cor="bg-laranja-escuro" icon={<RotateCcw className="h-6 w-6" />} titulo="Revisar erros"
         sub={due ? `${plural(due, "erro", "erros")} pra hoje · +${XP.revisao} XP extra por erro recuperado` : agendadas ? `${plural(agendadas, "revisão agendada", "revisões agendadas")} para os próximos dias` : "Nenhum erro ainda"} disabled={!due} />
@@ -859,7 +912,7 @@ function QuizView(p: Quiz & {
 
       {longa && !altsVisiveis && !revealed && !chosen && (
         <button onClick={irParaAlternativas} data-testid="ir-alternativas"
-          className="anim-sobe fixed bottom-4 left-1/2 z-40 flex -translate-x-1/2 items-center gap-1.5 rounded-full bg-noite px-4 py-2.5 text-[0.8125rem] font-extrabold text-white shadow-xl ring-2 ring-white">
+          className="anim-sobe fixed bottom-4 [.com-pomo_&]:bottom-20 left-1/2 z-40 flex -translate-x-1/2 items-center gap-1.5 rounded-full bg-noite px-4 py-2.5 text-[0.8125rem] font-extrabold text-white shadow-xl ring-2 ring-white">
           <ArrowDown className="h-4 w-4" /> Ir para as alternativas
         </button>
       )}
@@ -1355,6 +1408,7 @@ function Ajustes({ state, setState, onBack }: { state: State; setState: (s: Stat
       )}
 
       <AjustesSom />
+      <AjustesPomodoro state={state} setState={setState} />
 
       <div className="rounded-3xl bg-papel p-4 shadow-sm ring-1 ring-borda">
         <div className="mb-2 font-titulo text-lg font-extrabold text-noite">Tamanho da letra</div>
@@ -1414,5 +1468,76 @@ function OpcaoResumo({ q, letter }: { q: Question; letter: string }) {
       {o.text}
       {o.img && <img src={o.img.src} alt={`Alternativa ${o.letter}`} width={o.img.width} height={o.img.height} loading="lazy" className="my-1 block h-auto max-h-24 w-auto max-w-full rounded bg-white" />}
     </span>
+  );
+}
+
+/* ---------- Pomodoro ---------- */
+const NOME_FASE = { foco: "Foco", pausa: "Pausa", longa: "Pausa longa" } as const;
+function PomoBarra(p: { pomo: Pomo; agora: number; emQuiz: boolean; emDescanso: boolean; onPausar: () => void; onContinuar: () => void; onParar: () => void; onQuestoes: () => void; onDescanso: () => void }) {
+  const { pomo } = p;
+  const rest = restante(pomo, p.agora);
+  const pausado = !!pomo.pausadoEm;
+  return (
+    <div className="fixed inset-x-0 bottom-3 z-40 mx-auto flex w-[calc(100%-1.5rem)] max-w-md items-center gap-2 rounded-full bg-noite px-3 py-2 text-white shadow-xl md:max-w-[760px]"
+      data-testid="pomo-barra" role="timer" aria-label={`Pomodoro: ${NOME_FASE[pomo.fase]}, ${mmss(rest)} restantes${pausado ? ", pausado" : ""}`}>
+      <span aria-hidden>{pomo.fase === "foco" ? "🍅" : "☕"}</span>
+      <span className="text-[0.75rem] font-bold" data-testid="pomo-fase">{pomo.fim ? "Pausa acabou!" : NOME_FASE[pomo.fase]}{pausado && " · pausado"}</span>
+      <span className="font-titulo text-lg font-extrabold tabular-nums" data-testid="pomo-tempo">{mmss(rest)}</span>
+      <span className="ml-auto flex items-center gap-1.5">
+        {pomo.fase === "foco" && !p.emQuiz && <button onClick={p.onQuestoes} className="rounded-full bg-white/15 px-3 py-1 text-[0.75rem] font-bold">Questões</button>}
+        {pomo.fase !== "foco" && !p.emDescanso && <button onClick={p.onDescanso} className="rounded-full bg-white/15 px-3 py-1 text-[0.75rem] font-bold">Descanso</button>}
+        {!pomo.fim && (pausado
+          ? <button onClick={p.onContinuar} aria-label="Continuar Pomodoro" className="grid h-8 w-8 place-items-center rounded-full bg-teal"><Play className="h-4 w-4" /></button>
+          : <button onClick={p.onPausar} aria-label="Pausar Pomodoro" className="grid h-8 w-8 place-items-center rounded-full bg-white/15"><Pause className="h-4 w-4" /></button>)}
+        <button onClick={p.onParar} aria-label="Encerrar Pomodoro" className="grid h-8 w-8 place-items-center rounded-full bg-white/15"><X className="h-4 w-4" /></button>
+      </span>
+    </div>
+  );
+}
+function Descanso(p: { pomo: Pomo; agora: number; ganho: Gain | null; cfg: PomoCfg; onFoco: () => void; onParar: () => void }) {
+  const reduced = useReducedMotion();
+  const { pomo } = p;
+  if (pomo.fase === "foco") return null;
+  const longa = pomo.fase === "longa";
+  const noCiclo = ((pomo.ciclos - 1) % 4) + 1;
+  return (
+    <div className="anim-pop rounded-3xl bg-noite p-5 text-center text-white shadow-md" data-testid="descanso" data-fase={pomo.fase}>
+      <div className="font-titulo text-sm font-extrabold uppercase tracking-wider text-ouro-claro">{longa ? "Pausa longa" : "Pausa"} · ciclo {noCiclo} de 4</div>
+      <img src={T + (longa ? "cena.webp" : "acena.webp")} alt="Tigrão descansando" className={`mx-auto mt-3 h-44 w-44 rounded-3xl object-cover ring-4 ring-white/20 ${reduced ? "" : "animate-pulse [animation-duration:4s]"}`} />
+      <div className="mt-3 font-titulo text-5xl font-extrabold tabular-nums" data-testid="descanso-tempo">{mmss(restante(pomo, p.agora))}</div>
+      <p className="mt-2 text-sm">{pomo.fim ? "Pausa acabou! Bora pro próximo foco?" : longa ? "4 ciclos! Levanta, bebe água, alonga. O Tigrão tá orgulhoso." : "Respira, olha pra longe da tela e bebe água. Já já a gente volta."}</p>
+      {p.ganho && <p className="mt-2 rounded-2xl bg-white/10 px-3 py-2 text-[0.8125rem] font-bold" data-testid="pomo-ganho">🍅 Ciclo completo: +{p.ganho.xp} XP{p.ganho.newBadges.length ? ` · Medalha: ${p.ganho.newBadges.map((b) => `${badgeLabel(b).emoji} ${badgeLabel(b).nome}`).join(", ")}` : ""}{p.ganho.missoes.length ? ` · Missão: ${p.ganho.missoes.join(", ")}` : ""}</p>}
+      <div className="mt-4 flex justify-center gap-2">
+        <button onClick={p.onFoco} className="rounded-full bg-laranja-escuro px-5 py-2.5 font-bold">{pomo.fim ? `Começar foco de ${p.cfg.foco} min` : "Pular pausa"}</button>
+        <button onClick={p.onParar} className="rounded-full bg-white/15 px-5 py-2.5 font-bold">Encerrar</button>
+      </div>
+    </div>
+  );
+}
+function AjustesPomodoro({ state, setState }: { state: State; setState: (s: State) => void }) {
+  const c = state.prefs.pomo;
+  const campos: { k: keyof PomoCfg; n: string }[] = [{ k: "foco", n: "Foco" }, { k: "pausa", n: "Pausa" }, { k: "longa", n: "Pausa longa" }];
+  const [rasc, setRasc] = useState<Record<string, string>>({});
+  const gravar = (k: keyof PomoCfg) => {
+    const v = Math.round(Number(rasc[k] ?? c[k]));
+    const [a, b] = POMO_LIMITES[k];
+    setRasc({ ...rasc, [k]: undefined as unknown as string });
+    if (!Number.isFinite(v)) return;
+    setState({ ...state, prefs: { ...state.prefs, pomo: { ...c, [k]: Math.min(b, Math.max(a, v)) } } });
+  };
+  return (
+    <div className="rounded-3xl bg-papel p-4 shadow-sm ring-1 ring-borda" data-testid="ajustes-pomodoro">
+      <div className="mb-1 font-titulo text-lg font-extrabold text-noite">🍅 Pomodoro</div>
+      <p className="mb-2 text-[0.75rem] text-tinta/80">Pausa longa a cada 4 ciclos. Cada foco completo vale {XP.pomodoro} XP. Vale para o próximo foco ou pausa.</p>
+      <div className="grid grid-cols-3 gap-2">
+        {campos.map(({ k, n }) => (
+          <label key={k} className="text-[0.75rem] font-bold text-noite">{n} (min)
+            <input type="number" inputMode="numeric" min={POMO_LIMITES[k][0]} max={POMO_LIMITES[k][1]} value={rasc[k] ?? String(c[k])} data-testid={"pomo-" + k}
+              onChange={(e) => setRasc({ ...rasc, [k]: e.target.value })} onBlur={() => gravar(k)} onKeyDown={(e) => e.key === "Enter" && gravar(k)}
+              className="mt-1 w-full rounded-xl bg-ceu px-2 py-2 text-base font-bold" />
+          </label>
+        ))}
+      </div>
+    </div>
   );
 }

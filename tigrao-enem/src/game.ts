@@ -11,7 +11,7 @@ export let LEVELS = [
 ];
 
 /** Erro não dá XP. Dica reduz o XP do acerto. Recuperar um erro na revisão dá bônus. */
-export const XP = { acerto: 10, acertoComDica: [10, 7, 5], bonusSimulado: 5, revisao: 8, gabaritou: 50, metaDiaria: 20, surpresa: 5 };
+export const XP = { acerto: 10, acertoComDica: [10, 7, 5], bonusSimulado: 5, revisao: 8, gabaritou: 50, metaDiaria: 20, surpresa: 5, pomodoro: 15 };
 /** Chance do bônus surpresa num acerto (nunca em simulado). */
 export const CHANCE_SURPRESA = 0.1;
 /** Sorteio (os testes podem fixar com window.__tigraoSorte). */
@@ -50,7 +50,12 @@ export type Answer = { correct: boolean; attempts: number; everCorrect: boolean;
 export type ReviewItem = { box: number; due: string };
 export type SimuladoResult = { date: string; score: number; total: number; seconds: number; kind: SimKind };
 export type LogItem = { id: string; area: string; content: string | null; ok: boolean; t: string };
-export type Week = { id: string; answered: number; days: string[]; simulados: number; revisaoAcertos: number; paid: string[]; focus: string; focusAcertos: number };
+export type Week = { id: string; answered: number; days: string[]; simulados: number; revisaoAcertos: number; paid: string[]; focus: string; focusAcertos: number; pomoMaxDia?: number };
+/** Durações do Pomodoro em minutos (ajustáveis em Ajustes). */
+export type PomoCfg = { foco: number; pausa: number; longa: number };
+export const POMO_PADRAO: PomoCfg = { foco: 25, pausa: 5, longa: 15 };
+export const POMO_LIMITES: Record<keyof PomoCfg, [number, number]> = { foco: [1, 60], pausa: [1, 30], longa: [1, 45] };
+export const POMO_CICLOS_LONGA = 4;
 export type State = {
   schema: 2;
   xp: number;
@@ -64,7 +69,9 @@ export type State = {
   recent: string[];
   log: LogItem[];
   week: Week;
-  prefs: { fonte: 0 | 1 | 2 };
+  prefs: { fonte: 0 | 1 | 2; pomo: PomoCfg };
+  /** Pomodoros concluídos (ciclos de foco completos): hoje e no total. */
+  pomodoro: { date: string; hoje: number; total: number };
   /** Dia de folga: 1 por semana, automático. Protege a sequência se você ficar UM dia sem estudar. */
   folga: { semana: string; usadaEm: string | null; avisar: boolean };
 };
@@ -96,7 +103,8 @@ export const emptyState = (): State => ({
   recent: [],
   log: [],
   week: { id: weekId(), answered: 0, days: [], simulados: 0, revisaoAcertos: 0, paid: [], focus: TOPICS[0].name, focusAcertos: 0 },
-  prefs: { fonte: 0 },
+  prefs: { fonte: 0, pomo: { ...POMO_PADRAO } },
+  pomodoro: { date: today(), hoje: 0, total: 0 },
   folga: { semana: weekId(), usadaEm: null, avisar: false },
 });
 
@@ -180,6 +188,13 @@ export function normalize(raw: Partial<State> & Record<string, unknown>): State 
   const base = emptyState();
   const s = { ...base, ...raw, prefs: { ...base.prefs, ...(raw.prefs ?? {}) }, folga: { ...base.folga, ...(raw.folga ?? {}) } } as State;
   s.schema = 2;
+  s.prefs.pomo = { ...POMO_PADRAO, ...(raw.prefs?.pomo ?? {}) };
+  for (const k of Object.keys(POMO_LIMITES) as (keyof PomoCfg)[]) {
+    const [a, b] = POMO_LIMITES[k], v = Math.round(Number(s.prefs.pomo[k]));
+    s.prefs.pomo[k] = Number.isFinite(v) ? Math.min(b, Math.max(a, v)) : POMO_PADRAO[k];
+  }
+  s.pomodoro = { ...base.pomodoro, ...(raw.pomodoro ?? {}) };
+  if (s.pomodoro.date !== today()) s.pomodoro = { ...s.pomodoro, date: today(), hoje: 0 };
   for (const [id, a] of Object.entries(s.answers ?? {})) {
     if (!Array.isArray(a.hist)) s.answers[id] = { ...a, everCorrect: Boolean(a.everCorrect) || a.correct, hist: [a.correct] };
   }
@@ -248,6 +263,7 @@ export function missoes(w: Week): Missao[] {
     { id: "m-revisao", titulo: "Recuperar 3 erros na revisão", meta: 3, xp: 30, emoji: "🔁", val: w.revisaoAcertos },
     { id: "m-simulado", titulo: "Terminar 1 simulado (mini ou completo)", meta: 1, xp: 30, emoji: "⏱️", val: w.simulados },
     { id: "m-dias", titulo: "Estudar em 4 dias diferentes", meta: 4, xp: 20, emoji: "📅", val: w.days.length },
+    { id: "m-pomodoro", titulo: "Fazer 4 pomodoros num mesmo dia", meta: 4, xp: 30, emoji: "🍅", val: w.pomoMaxDia ?? 0 },
   ];
 }
 function payMissions(s: State): string[] {
@@ -365,7 +381,9 @@ export const SPECIAL_BADGES = [
   { id: "nota70", nome: "Acima da Média", emoji: "📈", desc: "70% ou mais num simulado" },
   { id: "gabaritou", nome: "Gabaritou!", emoji: "💯", desc: "Acertou todas num simulado" },
   { id: "revisor", nome: "Aprendeu com o Erro", emoji: "🔁", desc: "Recuperou 5 erros na revisão" },
-  { id: "missoes", nome: "Semana Completa", emoji: "🗓️", desc: "Cumpriu as 4 missões da semana" },
+  { id: "missoes", nome: "Semana Completa", emoji: "🗓️", desc: "Cumpriu todas as missões da semana" },
+  { id: "pomodoro", nome: "Primeiro Pomodoro", emoji: "🍅", desc: "Completou um ciclo de foco do Pomodoro" },
+  { id: "foco4", nome: "Foco Total", emoji: "🧘", desc: "Completou 4 pomodoros no mesmo dia" },
   { id: "cem", nome: "Cem Questões", emoji: "📚", desc: "Respondeu 100 questões diferentes" },
 ];
 
@@ -386,6 +404,8 @@ export function checkBadges(s: State): string[] {
   if (s.simulados.some((r) => r.total >= 10 && r.score / r.total >= 0.7)) give("nota70");
   if (s.simulados.some((r) => r.score === r.total && r.total >= 10)) give("gabaritou");
   if (s.revisaoAcertosTotal >= 5) give("revisor");
+  if ((s.pomodoro?.total ?? 0) >= 1) give("pomodoro");
+  if ((s.pomodoro?.hoje ?? 0) >= 4) give("foco4");
   if (s.week.paid.length >= missoes(s.week).length) give("missoes");
   let todos = true;
   for (const t of TOPICS) {
@@ -475,3 +495,18 @@ export const simuladoDisponivel = (kind: SimKind) =>
   Object.entries(SIMULADOS[kind].peso).every(([area, n]) => byTopic(area).length >= n) && QUESTIONS.length >= SIMULADOS[kind].n;
 
 configurarJogo();
+
+/** Um ciclo de foco do Pomodoro terminou: XP bônus, contagem do dia (alimenta conquistas e a missão da semana). */
+export function registerPomodoro(prev: State): [State, Gain] {
+  const s: State = normalize(structuredClone(prev));
+  const xpBefore = s.xp;
+  const lvlBefore = levelOf(s.xp).index;
+  s.pomodoro.hoje += 1;
+  s.pomodoro.total += 1;
+  s.week.pomoMaxDia = Math.max(s.week.pomoMaxDia ?? 0, s.pomodoro.hoje);
+  s.xp += XP.pomodoro;
+  const ms = payMissions(s);
+  const newBadges = checkBadges(s);
+  const lvlAfter = levelOf(s.xp).index;
+  return [s, { xp: s.xp - xpBefore, newBadges, levelUp: lvlAfter > lvlBefore ? levelOf(s.xp).cur.title : null, metaBatida: false, missoes: ms, recuperou: false }];
+}
