@@ -68,7 +68,7 @@
    "Álgebra e Funções": 44
   },
   "doPdfOficial": 43,
-  "comExplicacao": 333,
+  "comExplicacao": 336,
   "revisadas": 0,
   "classificacao": "automática (palavras-chave); a conferir pelo professor"
  },
@@ -11063,7 +11063,7 @@
     },
     {
      "letter": "C",
-     "text": "3 caixas do tipo A e 1 caixa do tipo B."
+     "text": "3 caixas do tipo A e 2 caixas do tipo B."
     },
     {
      "letter": "D",
@@ -11078,7 +11078,14 @@
    "number": 140,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "A sala tem 3,2 × 3,6 = 11,52 m² e cada peça tem 0,8 × 0,8 = 0,64 m², então são 18 peças (4 na largura e 4,5 no comprimento; as metades aproveitam os recortes). 3 caixas A e 2 caixas B dão 12 + 6 = 18 peças, sem sobra, por 3 × 35 + 2 × 27 = R$ 159,00. A outra opção sem sobra, 6 caixas B, custa R$ 162,00, e as demais deixam peças sobrando.\n**Resposta: C**",
+    "keyConcept": "área e combinação de embalagens",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q141",
@@ -12589,11 +12596,11 @@
    "area": "Estatística e Probabilidade",
    "content": null,
    "demand": null,
-   "statement": "A Cifra de César é um exemplo de um método de codificação de mensagens usado por Júlio César para se comunicar com seus generais.\nNo método, cada letra era trocada por uma letra que aparecia no alfabeto um número fixo de casas adiante (ou atrás) de forma cíclica. A seguir temos um exemplo em que cada letra é substituída pela que vem três posições à frente.\n\n[[FIG 0]]\n\nPara quebrar um código como esse, a análise de frequências das letras de um texto é uma ferramenta importante.\nUma análise do texto do romance O guarani, de José de Alencar, que é composto por 491 631 letras, gerou o seguinte gráfico de frequências:\n\n[[FIG 1]]\n\nApós codificar esse texto com a regra do exemplo fornecido, faz-se nova analise de frequência no texto codificado.\nAs quatro letras mais frequentes, em ordem decrescente de frequência, do texto codificado são",
+   "statement": "A Cifra de César é um exemplo de um método de codificação de mensagens usado por Júlio César para se comunicar com seus generais.\nNo método, cada letra era trocada por uma letra que aparecia no alfabeto um número fixo de casas adiante (ou atrás) de forma cíclica. A seguir temos um exemplo em que cada letra é substituída pela que vem três posições à frente.\n\n[[FIG 0]]\n\nPara quebrar um código como esse, a análise de frequências das letras de um texto é uma ferramenta importante.\nUma análise do texto do romance O guarani, de José de Alencar, que é composto por 491 631 letras, gerou o seguinte gráfico de frequências:\n\n[[FIG 1]]\n\nApós codificar esse texto com a regra do exemplo fornecido, faz-se nova análise de frequência no texto codificado.\nAs quatro letras mais frequentes, em ordem decrescente de frequência, do texto codificado são",
    "options": [
     {
      "letter": "A",
-     "text": "A,E,O e S."
+     "text": "A, E, O e S."
     },
     {
      "letter": "B",
@@ -12601,15 +12608,15 @@
     },
     {
      "letter": "C",
-     "text": "D, E, F e G."
+     "text": "D, H, R e V."
     },
     {
      "letter": "D",
-     "text": "D,H,R e V."
+     "text": "R, L, B e X."
     },
     {
      "letter": "E",
-     "text": "X, B L e P."
+     "text": "X, B, L e P."
     }
    ],
    "figures": [
@@ -12631,7 +12638,14 @@
    "number": 147,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, as quatro letras mais frequentes, em ordem decrescente, são A (cerca de 70 mil), E (cerca de 65 mil), O (cerca de 53 mil) e S (cerca de 39 mil). Na cifra do exemplo, cada letra avança três posições: A → D, E → H, O → R e S → V. A ordem das frequências se mantém no texto codificado: D, H, R e V.\n**Resposta: C**",
+    "keyConcept": "leitura de gráfico e deslocamento cíclico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q148",
@@ -13381,34 +13395,41 @@
    "area": "Geometria Plana",
    "content": null,
    "demand": null,
-   "statement": "Um automóvel apresenta um desempenho médio de 16 km/L. Um engenheiro desenvolveu um novo motor a combustão que economiza, em relação ao consumo do motor anterior, 0,1 L de combustível a cada 10 km percorridos.\n\nO valor do desempenho médio do automóvel com o novo motor, em quilômetro por litro, expresso com uma casa decimal, é",
+   "statement": "Um automóvel apresenta um desempenho médio de 16 km/L. Um engenheiro desenvolveu um novo motor a combustão que economiza, em relação ao consumo do motor anterior, 0,1 L de combustível a cada 20 km percorridos.\n\nO valor do desempenho médio do automóvel com o novo motor, em quilômetro por litro, expresso com uma casa decimal, é",
    "options": [
     {
      "letter": "A",
-     "text": "15,9"
+     "text": "15,9."
     },
     {
      "letter": "B",
-     "text": "16,1"
+     "text": "16,1."
     },
     {
      "letter": "C",
-     "text": "16,4"
+     "text": "16,4."
     },
     {
      "letter": "D",
-     "text": "17,4"
+     "text": "17,4."
     },
     {
      "letter": "E",
-     "text": "18,0"
+     "text": "18,0."
     }
    ],
    "figures": [],
    "number": 165,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com 16 km/L, o motor antigo gasta 20/16 = 1,25 L a cada 20 km. O novo economiza 0,1 L nesse trecho e gasta 1,15 L. O desempenho passa a ser 20/1,15 ≈ 17,39, ou seja, 17,4 km/L.\n**Resposta: D**",
+    "keyConcept": "consumo e desempenho (razão)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q166",

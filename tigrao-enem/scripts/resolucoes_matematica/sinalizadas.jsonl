@@ -7,7 +7,7 @@
 {"id": "ENEM-MT-2011-REG-D2-C7-Q179", "motivo": "alternativas são gráficos: depende só da figura"}
 {"id": "ENEM-MT-2012-REG-D2-C7-Q152", "motivo": "alternativas são imagens das fórmulas: depende só da figura"}
 {"id": "ENEM-MT-2012-REG-D2-C7-Q170", "motivo": "alternativas são gráficos: depende só da figura"}
-{"id": "ENEM-MT-2012-REG-D2-C7-Q157", "motivo": "resolução não chega ao gabarito: viagens nos dias 1, 5, 9… e férias de 1 a 10/6 (dias 152–161) dão 38 + 51 = 89 viagens, mas o gabarito oficial é C (88)"}
+{"id": "ENEM-MT-2012-REG-D2-C7-Q157", "motivo": "não chega no gabarito, mesmo com o texto conferido no PDF oficial do Inep (idêntico ao do banco): viagens nos dias 1, 5, …, 149 (38) e, depois das férias (dias 152–161), nos dias 162, 166, …, 362 (51) dão 89 viagens; o gabarito oficial é C (88)"}
 {"id": "ENEM-MT-2013-REG-D2-C7-Q153", "motivo": "alternativas são imagens das fórmulas: depende só da figura"}
 {"id": "ENEM-MT-2017-REG-D2-C7-Q136", "motivo": "alternativas são imagens das expressões: depende só da figura"}
 {"id": "ENEM-MT-2017-REG-D2-C7-Q150", "motivo": "rotação da tela: depende só da figura (posição de A e B)"}
@@ -27,16 +27,13 @@
 {"id": "ENEM-MT-2020-REG-D2-C7-Q166", "motivo": "alternativas são gráficos: depende só da figura"}
 {"id": "ENEM-MT-2020-REG-D2-C7-Q175", "motivo": "alternativas são gráficos: depende só da figura"}
 {"id": "ENEM-MT-2020-REG-D2-C7-Q176", "motivo": "alternativas são projeções em imagem: depende só da figura"}
-{"id": "ENEM-MT-2020-REG-D2-C7-Q140", "motivo": "não chega no gabarito: a sala exige 18 peças (11,52 m² ÷ 0,64 m²), e 6 caixas B dão 18 exatas por R$ 162; o gabarito C (3A + 1B) dá só 15 peças"}
 {"id": "ENEM-MT-2020-REG-D2-C7-Q177", "motivo": "alternativas são plantas de telhado em imagem: depende só da figura"}
 {"id": "ENEM-MT-2021-REG-D2-C7-Q137", "motivo": "alternativas são projeções em imagem: depende só da figura"}
 {"id": "ENEM-MT-2021-REG-D2-C7-Q161", "motivo": "alternativas são gráficos em imagem: depende só da figura"}
-{"id": "ENEM-MT-2021-REG-D2-C7-Q147", "motivo": "não chega no gabarito: as mais frequentes no gráfico são A, E, O, S, que codificadas (+3) viram D, H, R, V (alternativa D); o gabarito C repete o texto da B (D, E, F, G), o que indica erro de transcrição das alternativas"}
-{"id": "ENEM-MT-2021-REG-D2-C7-Q165", "motivo": "não chega no gabarito: com 0,1 L economizado a cada 10 km, o desempenho seria 10/0,525 ≈ 19,0 km/L; o gabarito D (17,4) corresponde a 0,1 L a cada 100 km (100/5,75), o que indica erro no enunciado"}
 {"id": "ENEM-MT-2021-REG-D2-C7-Q168", "motivo": "planificação do octaedro: visualização espacial, depende só da figura"}
 {"id": "ENEM-MT-2022-REG-D2-C7-Q137", "motivo": "alternativas são frações em imagem não legíveis no banco: depende só da figura"}
 {"id": "ENEM-MT-2022-REG-D2-C7-Q141", "motivo": "alternativas em imagem e a cartela de Pedro só está na figura: depende só da figura"}
-{"id": "ENEM-MT-2022-REG-D2-C7-Q145", "motivo": "não chega no gabarito: pelo enunciado, o pacote especial teria 2 × 2.000 + 6.000 = 10.000 gemas e 500.000 moedas; o gabarito E (400.000) corresponde a 2.000 + 6.000 = 8.000 gemas"}
+{"id": "ENEM-MT-2022-REG-D2-C7-Q145", "motivo": "não chega no gabarito, mesmo com o texto conferido no PDF oficial do Inep (idêntico ao do banco): 2 × 2.000 + 6.000 = 10.000 gemas dão 500.000 moedas (proporção 1:50), e 500.000 − 200.000 = 300.000 seria a D; o gabarito oficial E (400.000) só sai com 8.000 gemas (2.000 + 6.000)"}
 {"id": "ENEM-MT-2022-REG-D2-C7-Q152", "motivo": "as medidas da sala (largura L da tela e número de fileiras atuais) não aparecem no texto nem de forma legível na figura: faltam os dados"}
 {"id": "ENEM-MT-2022-REG-D2-C7-Q156", "motivo": "alternativas são figuras recortadas em imagem: depende só da figura"}
 {"id": "ENEM-MT-2022-REG-D2-C7-Q160", "motivo": "alternativas são projeções em imagem: depende só da figura"}

@@ -1,0 +1,14 @@
+@ENEM-MT-2020-REG-D2-C7-Q140
+K: área e combinação de embalagens
+A sala tem 3,2 × 3,6 = 11,52 m² e cada peça tem 0,8 × 0,8 = 0,64 m², então são 18 peças (4 na largura e 4,5 no comprimento; as metades aproveitam os recortes). 3 caixas A e 2 caixas B dão 12 + 6 = 18 peças, sem sobra, por 3 × 35 + 2 × 27 = R$ 159,00. A outra opção sem sobra, 6 caixas B, custa R$ 162,00, e as demais deixam peças sobrando.
+**Resposta: C**
+
+@ENEM-MT-2021-REG-D2-C7-Q147
+K: leitura de gráfico e deslocamento cíclico
+Pelo gráfico, as quatro letras mais frequentes, em ordem decrescente, são A (cerca de 70 mil), E (cerca de 65 mil), O (cerca de 53 mil) e S (cerca de 39 mil). Na cifra do exemplo, cada letra avança três posições: A → D, E → H, O → R e S → V. A ordem das frequências se mantém no texto codificado: D, H, R e V.
+**Resposta: C**
+
+@ENEM-MT-2021-REG-D2-C7-Q165
+K: consumo e desempenho (razão)
+Com 16 km/L, o motor antigo gasta 20/16 = 1,25 L a cada 20 km. O novo economiza 0,1 L nesse trecho e gasta 1,15 L. O desempenho passa a ser 20/1,15 ≈ 17,39, ou seja, 17,4 km/L.
+**Resposta: D**
