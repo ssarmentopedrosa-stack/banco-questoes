@@ -1,0 +1,119 @@
+@ENEM-MT-2019-REG-D2-C7-Q151
+K: divisão proporcional
+Cada sócio inicial investiu 1.000.000/3 ≈ 333.333 + 200.000 = 533.333 reais, e o quarto investiu 200.000. Do total de 1.800.000, isso dá 533.333/1.800.000 ≈ 29,60% para cada sócio inicial e 200.000/1.800.000 ≈ 11,11% para o quarto.
+**Resposta: A**
+
+@ENEM-MT-2019-REG-D2-C7-Q152
+K: divisão inversamente proporcional
+Os valores são proporcionais a 1/2, 1/3 e 1/5, ou seja, a 15, 10 e 6 (multiplicando por 30). Como 15 + 10 + 6 = 31 partes, cada parte vale 31.000/31 = 1.000. A máquina de 5 anos recebe 6 × 1.000 = R$ 6.000,00.
+**Resposta: B**
+
+@ENEM-MT-2019-REG-D2-C7-Q153
+K: aumentos percentuais sucessivos
+Em 2010: 1.250 × 1,072 = 1.340. Em 2020: 1.340 × 1,10 = 1.474 reais.
+**Resposta: E**
+
+@ENEM-MT-2019-REG-D2-C7-Q154
+K: logaritmos
+A·f = 2.000 × 0,2 = 400 e log 400 = log 4 + log 100 = 2 × 0,3 + 2 = 2,6. Então Ms = 3,30 + 2,6 = 5,9, que no quadro está na faixa "Moderado" (5,0 a 5,9).
+**Resposta: C**
+
+@ENEM-MT-2019-REG-D2-C7-Q155
+K: sequência periódica
+O bloco que se repete é 5, 4, 3, 2, 1, 2, 3, 4, com 8 termos. Como 2.015 = 8 × 251 + 7, o 2.015º termo é o 7º do bloco, que é 3, a caixa de direção.
+**Resposta: E**
+
+@ENEM-MT-2019-REG-D2-C7-Q156
+K: análise combinatória
+O número de maneiras de dividir 8 pessoas em 4 duplas é 7 × 5 × 3 × 1 = 105. Nas divisões em que os dois canhotos formam dupla, os outros 6 se dividem de 5 × 3 × 1 = 15 maneiras. Então são 105 − 15 = 90.
+**Resposta: C**
+
+@ENEM-MT-2019-REG-D2-C7-Q157
+K: poliedros (tetraedro truncado)
+Cada um dos 4 vértices do tetraedro é cortado e vira um triângulo equilátero. Cada uma das 4 faces triangulares perde seus cantos e, como em cada corte sai um terço da aresta, ela vira um hexágono com os 6 lados iguais, regular. Ficam 4 hexágonos regulares e 4 triângulos equiláteros.
+**Resposta: A**
+
+@ENEM-MT-2019-REG-D2-C7-Q158
+K: escala e volume
+Na escala 1:200, os volumes ficam multiplicados por 200³ = 8.000.000. O reservatório real tem 45 × 8.000.000 = 360.000.000 cm³ = 360.000 L, o que dá para 360.000/30.000 = 12 dias.
+**Resposta: C**
+
+@ENEM-MT-2019-REG-D2-C7-Q159
+K: probabilidade do evento complementar
+Com n placas, a chance de não perceber nenhuma é (1/2)ⁿ. Ela precisa ser menor que 1/100, então 2ⁿ > 100 e n ≥ 7. Como já existe uma placa, são necessárias 6 novas.
+**Resposta: D**
+
+@ENEM-MT-2019-REG-D2-C7-Q160
+K: média aritmética
+Trocar um jogador por outro 0,20 m mais baixo reduz a soma das alturas em 0,20 m, e a média cai 0,20/20 = 0,01 m. A nova média é 1,80 − 0,01 = 1,79 m.
+**Resposta: C**
+
+@ENEM-MT-2019-REG-D2-C7-Q161
+K: média ponderada
+Pelo quadro, o total de garrafas fora da especificação é 0 × 52 + 1 × 5 + 2 × 2 + 3 × 1 = 12, em 60 dias. A média é 12/60 = 0,2 por dia.
+**Resposta: B**
+
+@ENEM-MT-2019-REG-D2-C7-Q162
+K: conversão de unidades
+Pelo quadro, 1 jarda = 3 pés = 0,9144 m, então 1 pé = 0,3048 m = 30,48 cm. Com 1 polegada = 2,54 cm, um pé vale 30,48/2,54 = 12 polegadas.
+**Resposta: D**
+
+@ENEM-MT-2019-REG-D2-C7-Q164
+K: área de polígono e volume
+Pela figura, a laje se divide em três retângulos: 8 m × 8 m (altura 5 + 2 + 1), 3 m × 7 m (altura 5 + 2) e 3 m × 5 m. A área é 64 + 21 + 15 = 100 m², e o volume é 100 × 0,05 = 5 m³, o que cabe em um caminhão de 5 m³.
+**Resposta: C**
+
+@ENEM-MT-2019-REG-D2-C7-Q165
+K: razão e inequação
+O volume de sangue é 0,08m litros, então a concentração é q/(0,08m). Ela é prejudicial quando passa de 0,4 g/L: q/(0,08m) > 0,4.
+**Resposta: E**
+
+@ENEM-MT-2019-REG-D2-C7-Q167
+K: mediana
+Pela tabela, a mediana das alturas é 1,67 m. Como o basquete tem um aluno a mais, a turma tem um número ímpar de alunos, e o aluno da mediana (F, com 1,67 m, já que as alturas são todas diferentes) fica no grupo dos mais altos, o basquete. M (1,68 m) também joga basquete, e P e J, abaixo da mediana, jogam futebol.
+**Resposta: C**
+
+@ENEM-MT-2019-REG-D2-C7-Q168
+K: função afim
+Há X − 1 diaristas, e cada um recebe 2 × 80 = 160 por semana. Então Y = 1.000 + 160(X − 1) = 160X + 840.
+**Resposta: D**
+
+@ENEM-MT-2019-REG-D2-C7-Q169
+K: distância entre pontos no plano
+Pelo gráfico, Q = (3, 7), R = (6, 7), S = (5, 3) e o bar I = (5, 6). Do bar I: até Q, √(4 + 1) ≈ 2,2 ≤ 3; até R, √(1 + 1) ≈ 1,4 ≤ 2; até S, 3 ≤ 3 (e 3 ≤ 5). Assim, os três estão ao alcance mútuo. Nos bares II (4, 5), III (5, 5) e IV (4, 6), R fica a mais de 2 km, e no V (3, 4), R também está longe demais.
+**Resposta: A**
+
+@ENEM-MT-2019-REG-D2-C7-Q170
+K: proporção e conversão de unidades
+A dose diária é 500 mg × 20 = 10 g, e em 5 dias são 50 g. Como 1 g ocupa 1 cm³ = 1 mL, a criança precisa de exatamente 50 mL.
+**Resposta: B**
+
+@ENEM-MT-2019-REG-D2-C7-Q171
+K: combinações
+Escolhem-se as posições das cores em sequência: 4 vermelhas entre 12 posições, C(12,4); 3 azuis entre as 8 restantes, C(8,3); 3 verdes entre as 5 restantes, C(5,3); 2 amarelas nas 2 últimas, C(2,2). O total é o produto C(12,4) × C(8,3) × C(5,3) × C(2,2).
+**Resposta: E**
+
+@ENEM-MT-2019-REG-D2-C7-Q172
+K: média e progressão aritmética
+Pelo gráfico, as vendas foram 700, 2.500, 2.500, 2.800 e 2.700 de julho a novembro, com média 11.200/5 = 2.240, o valor de dezembro. A queda de novembro para dezembro é de 460 por mês: janeiro 1.780, fevereiro 1.320, março 860, abril 400, que é menos que os 700 de julho.
+**Resposta: D**
+
+@ENEM-MT-2019-REG-D2-C7-Q173
+K: probabilidade condicional
+P(fraudulenta) = 0,20 × 0,25 + 0,80 × 0,0625 = 0,05 + 0,05 = 0,10. Então P(inconsistente | fraudulenta) = 0,05/0,10 = 0,5.
+**Resposta: E**
+
+@ENEM-MT-2019-REG-D2-C7-Q174
+K: razão (taxa)
+Pelos gráficos (urbana/total): I 8.000/12.000 ≈ 0,667; II 10.000/18.000 ≈ 0,556; III 11.000/16.000 ≈ 0,688; IV 18.000/28.000 ≈ 0,643; V 17.000/29.000 ≈ 0,586. A maior taxa é a do município III.
+**Resposta: C**
+
+@ENEM-MT-2019-REG-D2-C7-Q176
+K: porcentagem
+O orçamento inicial é 10.000 + 40.000 + 2.500 × 40 = 150.000, e o novo deve ser 90% disso: 135.000. Com projeto de 5.000 e área de 3.125 × 40 = 125.000, sobram 135.000 − 130.000 = 5.000 para os custos fixos, um desconto de 35.000/40.000 = 87,5%.
+**Resposta: D**
+
+@ENEM-MT-2019-REG-D2-C7-Q177
+K: função trigonométrica
+Pela figura, h(t) = 4 + 4 sen(βt/2 − π/2) = 4 − 4 cos(βt/2). h = 6 dá cos(βt/2) = −1/2, ou βt/2 = 2π/3, 4π/3, 8π/3, … A terceira vez é em t = 16π/(3β) = 16/β (com π = 3). Para ser antes de 4 s, β > 4, então o menor inteiro é 5.
+**Resposta: D**
