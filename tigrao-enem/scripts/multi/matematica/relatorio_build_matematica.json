@@ -1,0 +1,2387 @@
+{
+ "resumo": {
+  "materia": "matematica",
+  "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), 2º dia, caderno 7 azul; texto conferido com o PDF oficial do Inep. 2024–2025: transcrito do PDF oficial do Inep (só questões sem figura/tabela/expoente)",
+  "fonteGabarito": "Gabaritos oficiais do Inep, 2º dia, caderno 7 azul (PDFs via Wayback Machine com SHA-1 conferido); 2010: prova azul com gabarito marcado pelo Inep (AZUL_Domingo_GAB.pdf)",
+  "porAno": {
+   "2009": 39,
+   "2010": 24,
+   "2011": 21,
+   "2012": 17,
+   "2013": 12,
+   "2014": 10,
+   "2015": 6,
+   "2016": 3,
+   "2017": 31,
+   "2018": 26,
+   "2019": 37,
+   "2020": 27,
+   "2021": 35,
+   "2022": 37,
+   "2023": 34,
+   "2024": 10,
+   "2025": 11
+  },
+  "foraPorAno": {
+   "2009": 6,
+   "2010": 21,
+   "2011": 24,
+   "2012": 28,
+   "2013": 33,
+   "2014": 35,
+   "2015": 39,
+   "2016": 42,
+   "2017": 14,
+   "2018": 19,
+   "2019": 8,
+   "2020": 18,
+   "2021": 10,
+   "2022": 8,
+   "2023": 11,
+   "2024": 35,
+   "2025": 34
+  },
+  "total": 380,
+  "fora": {
+   "texto incompleto em relação à prova oficial": 259,
+   "expoente/índice da prova oficial ausente no texto do dataset": 30,
+   "gabarito do dataset": 6,
+   "figura ausente": 1,
+   "notação matemática com marcação quebrada/LaTeX no dataset": 6,
+   "alternativas incompletas": 4,
+   "ausente no enem.dev": 4,
+   "anulada pelo Inep": 6,
+   "texto não conferível com a prova oficial e curto": 1,
+   "tem figura/tabela": 52,
+   "tem tabela": 2,
+   "tem expoente/índice": 9,
+   "subscrito/sobrescrito quebrado no PDF": 1,
+   "alternativas não reconhecidas no PDF": 2,
+   "rejeitada na leitura manual da transcrição: frações das alternativas perdidas": 2
+  },
+  "porArea": {
+   "Geometria Plana": 76,
+   "Razão, Proporção e Grandezas": 74,
+   "Estatística e Probabilidade": 66,
+   "Porcentagem e Matemática Financeira": 62,
+   "Geometria Espacial": 58,
+   "Álgebra e Funções": 44
+  },
+  "doPdfOficial": 43,
+  "comExplicacao": 0,
+  "revisadas": 0,
+  "classificacao": "automática (palavras-chave); a conferir pelo professor"
+ },
+ "fora": [
+  {
+   "materia": "matematica",
+   "ano": 2009,
+   "questao": 137,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 44%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2009,
+   "questao": 138,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (2 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2009,
+   "questao": 145,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (4 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2009,
+   "questao": 152,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (5 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2009,
+   "questao": 156,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (12 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2009,
+   "questao": 167,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (1 no PDF); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 136,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 68%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 138,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 29%); PDF: alternativas não reconhecidas no PDF"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 139,
+   "motivo": "gabarito do dataset (A) diverge do oficial do Inep (B)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 140,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 63%); PDF: tem tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 141,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 72%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 143,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 59%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 144,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 46%); PDF: alternativas não reconhecidas no PDF"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 145,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 67%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 146,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 42%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 147,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 45%); PDF: alternativas não reconhecidas no PDF"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 148,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 69%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 149,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 22%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 151,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 68%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 152,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 56%); PDF: alternativas não reconhecidas no PDF"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 153,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 36%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 156,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 53%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 158,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 62%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 159,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 43%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 168,
+   "motivo": "figura ausente; PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 177,
+   "motivo": "notação matemática com marcação quebrada/LaTeX no dataset; PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2010,
+   "questao": 180,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 90%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 137,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 65%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 138,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 30%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 139,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 59%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 142,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 20%); PDF: rejeitada na leitura manual da transcrição: tabela achatada na transcrição"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 144,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 67%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 147,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 50%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 149,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 56%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 151,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 73%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 154,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 71%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 155,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 51%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 157,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 52%); PDF: rejeitada na leitura manual da transcrição: tabela achatada na transcrição"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 158,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 88%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 163,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 45%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 165,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 42%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 169,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 54%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 170,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 24%); PDF: subscrito/sobrescrito quebrado no PDF"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 171,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 56%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 172,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 54%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 173,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 47%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 175,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 45%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 176,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 47%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 177,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 39%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 178,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 32%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2011,
+   "questao": 180,
+   "motivo": "alternativas incompletas; PDF: rejeitada na leitura manual da transcrição: lixo de rodapé da prova misturado à alternativa E"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 137,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 74%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 138,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 52%); PDF: tem tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 139,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 70%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 141,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 34%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 142,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (1 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 143,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 34%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 145,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 33%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 146,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 78%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 147,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 37%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 148,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 53%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 149,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 59%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 151,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 42%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 153,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 70%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 154,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 28%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 155,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 58%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 156,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 37%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 158,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 50%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 159,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 26%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 160,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 76%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 162,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 83%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 163,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 66%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 165,
+   "motivo": "gabarito do dataset (E) diverge do oficial do Inep (C)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 168,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (1 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 169,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 38%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 172,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 29%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 174,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 81%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 175,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 76%); PDF: rejeitada na leitura manual da transcrição: quadro achatado na transcrição"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2012,
+   "questao": 180,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (4 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 136,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 51%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 137,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 51%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 138,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 7%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 140,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 32%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 141,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 24%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 142,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 42%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 143,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 23%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 144,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 58%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 145,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 38%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 146,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 68%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 147,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 33%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 149,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 42%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 151,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (6 no PDF); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 152,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 81%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 154,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 81%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 157,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 33%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 160,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 24%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 161,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 50%); PDF: tem tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 162,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 43%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 164,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 20%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 165,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 26%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 166,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 35%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 168,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 35%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 169,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 56%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 171,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 20%); PDF: rejeitada na leitura manual da transcrição: fração 2/3 perdida (virou '2 3')"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 172,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (1 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 174,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 65%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 175,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 33%); PDF: tem tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 176,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 68%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 177,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 60%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 178,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 61%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 179,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 15%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2013,
+   "questao": 180,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 38%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 136,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 78%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 137,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 53%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 138,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 70%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 139,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 26%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 140,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 74%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 141,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 78%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 142,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 76%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 143,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 47%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 144,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 13%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 145,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 19%); PDF: tem tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 146,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 16%); PDF: rejeitada na leitura manual da transcrição: símbolos (x, −, potências) em fonte especial ilegíveis"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 147,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 29%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 148,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 61%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 150,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 39%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 151,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 75%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 153,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 50%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 155,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 22%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 156,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 26%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 157,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 72%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 158,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 40%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 159,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 27%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 160,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 35%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 161,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 21%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 162,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 78%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 163,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 38%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 164,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 20%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 166,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 61%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 167,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 35%); PDF: rejeitada na leitura manual da transcrição: símbolo π em fonte especial (virou 'S')"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 170,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 63%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 172,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 32%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 175,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 26%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 176,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 68%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 177,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 36%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 178,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 31%); PDF: rejeitada na leitura manual da transcrição: símbolo × em fonte especial (virou 'u')"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2014,
+   "questao": 180,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 40%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 136,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 20%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 137,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 27%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 138,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 56%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 139,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 27%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 140,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 60%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 141,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 25%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 142,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 42%); PDF: alternativas não reconhecidas no PDF"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 143,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 42%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 144,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 83%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 145,
+   "motivo": "ausente no enem.dev; PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 146,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 31%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 147,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 26%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 148,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 71%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 150,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 78%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 151,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 33%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 152,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 24%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 153,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 36%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 154,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 71%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 155,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 69%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 157,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (5 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 160,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 70%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 161,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 38%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 162,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 25%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 163,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 82%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 164,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 37%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 165,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 60%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 166,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 15%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 167,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 19%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 168,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 33%); PDF: rejeitada na leitura manual da transcrição: trecho em fonte codificada ilegível"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 169,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 65%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 170,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 8%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 171,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 31%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 172,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 57%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 174,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 38%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 175,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 28%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 176,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 39%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 177,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 52%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 178,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 46%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2015,
+   "questao": 180,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 43%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 136,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 43%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 137,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 35%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 138,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 68%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 139,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 43%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 140,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 29%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 141,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 55%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 142,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 55%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 143,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 41%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 144,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 78%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 145,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 79%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 146,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 36%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 147,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 28%); PDF: alternativas não reconhecidas no PDF"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 148,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 10%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 149,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 41%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 150,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 43%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 151,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 46%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 152,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 65%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 153,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 70%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 154,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 67%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 155,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 38%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 156,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 19%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 157,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 58%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 158,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 43%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 159,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 39%); PDF: rejeitada na leitura manual da transcrição: ordinal sobrescrito perdido ('1o mês')"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 160,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 77%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 161,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 48%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 162,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 31%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 163,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 38%); PDF: subscrito/sobrescrito quebrado no PDF"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 164,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 61%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 166,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 53%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 167,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 18%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 168,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (10 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 169,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 73%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 170,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 48%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 172,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 25%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 173,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 45%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 174,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 48%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 175,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 47%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 176,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 47%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 178,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 33%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 179,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 3%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2016,
+   "questao": 180,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 56%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 143,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (5 no PDF); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 158,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (1 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 163,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 71%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 166,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 35%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 167,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 54%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 168,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 43%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 169,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 50%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 171,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 63%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 174,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 57%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 175,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 35%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 177,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 57%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 178,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 22%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 179,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 83%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2017,
+   "questao": 180,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 29%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 136,
+   "motivo": "notação matemática com marcação quebrada/LaTeX no dataset; PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 140,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 144,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 87%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 147,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 88%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 152,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 71%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 153,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 154,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 156,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 88%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 160,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 86%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 161,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 79%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 163,
+   "motivo": "anulada pelo Inep"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 165,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 166,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 167,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 89%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 170,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 89%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 172,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 86%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 174,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 86%); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 175,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 81%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2018,
+   "questao": 178,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 89%); PDF: linha ilegível no PDF (fonte codificada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2019,
+   "questao": 137,
+   "motivo": "notação matemática com marcação quebrada/LaTeX no dataset; PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2019,
+   "questao": 139,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (11 no PDF); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2019,
+   "questao": 140,
+   "motivo": "notação matemática com marcação quebrada/LaTeX no dataset; PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2019,
+   "questao": 141,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (3 no PDF); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2019,
+   "questao": 163,
+   "motivo": "notação matemática com marcação quebrada/LaTeX no dataset; PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2019,
+   "questao": 166,
+   "motivo": "notação matemática com marcação quebrada/LaTeX no dataset; PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2019,
+   "questao": 175,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (8 no PDF); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2019,
+   "questao": 178,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 87%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 139,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 142,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 88%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 143,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 82%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 144,
+   "motivo": "ausente no enem.dev; PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 145,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 89%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 148,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 90%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 150,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (3 no PDF); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 152,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 79%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 154,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (5 no PDF); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 157,
+   "motivo": "anulada pelo Inep"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 161,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 86%); PDF: rejeitada na leitura manual da transcrição: frações/raízes das alternativas perdidas"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 162,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 86%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 164,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 84%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 168,
+   "motivo": "ausente no enem.dev; PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 170,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 88%); PDF: alternativas não reconhecidas no PDF"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 171,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 88%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 173,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2020,
+   "questao": 178,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 84%); PDF: rejeitada na leitura manual da transcrição: fórmula do CRC (imagem) ausente na transcrição"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2021,
+   "questao": 136,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (7 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2021,
+   "questao": 138,
+   "motivo": "anulada pelo Inep"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2021,
+   "questao": 139,
+   "motivo": "gabarito do dataset (A) diverge do oficial do Inep (E)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2021,
+   "questao": 143,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 79%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2021,
+   "questao": 144,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 87%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2021,
+   "questao": 145,
+   "motivo": "gabarito do dataset (A) diverge do oficial do Inep (C)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2021,
+   "questao": 152,
+   "motivo": "gabarito do dataset (D) diverge do oficial do Inep (E)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2021,
+   "questao": 162,
+   "motivo": "texto não conferível com a prova oficial e curto; PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2021,
+   "questao": 163,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (4 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2021,
+   "questao": 175,
+   "motivo": "alternativas incompletas; PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2022,
+   "questao": 143,
+   "motivo": "gabarito do dataset (A) diverge do oficial do Inep (D)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2022,
+   "questao": 144,
+   "motivo": "alternativas incompletas; PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2022,
+   "questao": 148,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (2 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2022,
+   "questao": 157,
+   "motivo": "anulada pelo Inep"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2022,
+   "questao": 158,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (1 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2022,
+   "questao": 159,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (21 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2022,
+   "questao": 166,
+   "motivo": "alternativas incompletas; PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2022,
+   "questao": 176,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 43%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2023,
+   "questao": 141,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 13%); PDF: rejeitada na leitura manual da transcrição: frações das alternativas quebradas"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2023,
+   "questao": 142,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 25%); PDF: rejeitada na leitura manual da transcrição: alternativas quebradas e π em fonte especial (virou 'p')"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2023,
+   "questao": 145,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (14 no PDF); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2023,
+   "questao": 146,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 77%); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2023,
+   "questao": 152,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (13 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2023,
+   "questao": 160,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (9 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2023,
+   "questao": 164,
+   "motivo": "anulada pelo Inep"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2023,
+   "questao": 169,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (9 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2023,
+   "questao": 170,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (6 no PDF); PDF: tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2023,
+   "questao": 172,
+   "motivo": "expoente/índice da prova oficial ausente no texto do dataset (9 no PDF); PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2023,
+   "questao": 174,
+   "motivo": "ausente no enem.dev; PDF: tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 136,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 137,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 138,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 139,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 141,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 142,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 144,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 147,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 148,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 149,
+   "motivo": "tem tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 150,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 151,
+   "motivo": "tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 152,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 154,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 155,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 158,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 159,
+   "motivo": "tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 161,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 163,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 164,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 165,
+   "motivo": "subscrito/sobrescrito quebrado no PDF"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 166,
+   "motivo": "alternativas não reconhecidas no PDF"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 167,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 168,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 169,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 170,
+   "motivo": "tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 171,
+   "motivo": "tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 172,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 173,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 174,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 175,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 176,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 177,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 178,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2024,
+   "questao": 180,
+   "motivo": "alternativas não reconhecidas no PDF"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 136,
+   "motivo": "tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 137,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 138,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 139,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 140,
+   "motivo": "tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 142,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 143,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 145,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 147,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 148,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 149,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 152,
+   "motivo": "rejeitada na leitura manual da transcrição: frações das alternativas perdidas ('1 24')"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 153,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 154,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 156,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 157,
+   "motivo": "tem tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 159,
+   "motivo": "tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 160,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 161,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 163,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 164,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 165,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 166,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 167,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 168,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 169,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 170,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 172,
+   "motivo": "tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 173,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 174,
+   "motivo": "anulada pelo Inep"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 177,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 178,
+   "motivo": "rejeitada na leitura manual da transcrição: frações das alternativas perdidas ('2 3')"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 179,
+   "motivo": "tem expoente/índice (não transcrito nesta rodada)"
+  },
+  {
+   "materia": "matematica",
+   "ano": 2025,
+   "questao": 180,
+   "motivo": "tem figura/tabela (não transcrita nesta rodada)"
+  }
+ ]
+}

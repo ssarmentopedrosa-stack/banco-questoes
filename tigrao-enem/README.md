@@ -1,7 +1,7 @@
-# Tigrão ENEM · Física, Biologia, Química e Geografia (questões oficiais)
+# Tigrão ENEM · Física, Biologia, Química, Geografia e Matemática (questões oficiais)
 
 ## Matérias (out/2026)
-- Tela inicial de **escolha de matéria**: Física (163), Biologia (214), Química (159), Geografia (200) e
+- Tela inicial de **escolha de matéria**: Física (163), Biologia (214), Química (159), Geografia (200), Matemática (380) e
   **Ciências da Natureza** (Física + Biologia + Química juntas, simulado misto 5/5/5 e 15/15/15).
 - Cada matéria tem **progresso próprio** (XP, domínio, revisões, medalhas, simulados) em chaves separadas do
   `localStorage`. A de Física continua `tigrao-enem-fisica-v1` (quem já jogava não perde nada e cai direto na Física).
@@ -11,6 +11,8 @@
   `scripts/multi/resolucoes_sinalizadas.json`, que mostram só o gabarito), com o aviso "Resolução ainda não revisada pelo
   professor" (nunca o selo de revisada);
   classificação de matéria/tema automática + manual, **a revisar pelo professor** (`scripts/multi/revisao_professor.csv`).
+- Matemática: pipeline próprio em `scripts/multi/matematica/` (2º dia, caderno azul, Q136–180, 2009–2025), gabarito
+  oficial do Inep, sem resoluções ainda (o app mostra só o gabarito). Temas automáticos a revisar no CSV.
 - Simulados das matérias novas: mesmo formato (15 q/45 min e 45 q/2h30), pesos proporcionais ao banco de cada tema.
 - Backup: o código guarda a matéria; códigos antigos valem para Física; código de outra matéria é recusado.
 - Testes: `node scripts/prints.mjs` (Física) e `node scripts/materias.mjs` (matérias novas + preservação da Física).

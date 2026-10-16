@@ -1,0 +1,18 @@
+{"_doc": "Questões transcritas do PDF que passaram nos filtros automáticos mas foram REJEITADAS na leitura manual (agente) por perda de notação/formatação. Ficam fora até transcrição manual conferida.",
+ "2011-142": "tabela achatada na transcrição",
+ "2011-157": "tabela achatada na transcrição",
+ "2011-180": "lixo de rodapé da prova misturado à alternativa E",
+ "2012-175": "quadro achatado na transcrição",
+ "2013-171": "fração 2/3 perdida (virou '2 3')",
+ "2014-146": "símbolos (x, −, potências) em fonte especial ilegíveis",
+ "2014-167": "símbolo π em fonte especial (virou 'S')",
+ "2014-178": "símbolo × em fonte especial (virou 'u')",
+ "2015-168": "trecho em fonte codificada ilegível",
+ "2016-159": "ordinal sobrescrito perdido ('1o mês')",
+ "2020-161": "frações/raízes das alternativas perdidas",
+ "2020-178": "fórmula do CRC (imagem) ausente na transcrição",
+ "2023-141": "frações das alternativas quebradas",
+ "2023-142": "alternativas quebradas e π em fonte especial (virou 'p')",
+ "2025-152": "frações das alternativas perdidas ('1 24')",
+ "2025-178": "frações das alternativas perdidas ('2 3')"
+}

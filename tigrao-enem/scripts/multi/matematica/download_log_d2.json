@@ -1,0 +1,342 @@
+[
+ {
+  "year": "2009",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2009/gabarito_dia2.pdf",
+  "capture": "20190711113116",
+  "digest": "4HBFJZQ5PUDKEKMKB3NPUT5OZUK3EGXN",
+  "sha1_ok": true,
+  "size": 66643,
+  "sha256": "82615d5bb081c011ea83c15a145a7eae7ac0da3a13fd0f1c11e8cb3860286d20"
+ },
+ {
+  "year": "2009",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+  "capture": "20200602061308",
+  "digest": "DPUXFCTHY3YD6HARGTDKOVK4MFEB7VKU",
+  "sha1_ok": true,
+  "size": 3583555,
+  "sha256": "1006d00bbd419de56cfdea13adc1a696ed227b05e8a654ac8951244ea13494de"
+ },
+ {
+  "year": "2010",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/AZUL_Domingo_GAB.pdf",
+  "capture": "20131029235633",
+  "digest": "KR5NMKSMMFCBLTS4B3LEPI5MIF7O54KJ",
+  "sha1_ok": true,
+  "size": 1892452,
+  "sha256": "38ca873c375165f7c755c3b678180cc51f350336b8022f77a4014a555906c8d7"
+ },
+ {
+  "year": "2010",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+  "capture": "20260628221822",
+  "digest": "FSMF7IUSNIAZTPBPKW232V74XYS7Z2SQ",
+  "sha1_ok": true,
+  "size": 8395662,
+  "sha256": "c7284f83312a5c6ccf3667377c45bd3203097e8113309ec1ad2cf1344b3490f9"
+ },
+ {
+  "year": "2011",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2011/07_AZUL_GABARITO.pdf",
+  "capture": "20111111163709",
+  "digest": "TFHKEQ72LOTVMAJUIP4EJ55XLQGNCDBS",
+  "sha1_ok": true,
+  "size": 117840,
+  "sha256": "be768a255e257fcc465fed2440db7bd8c7d89d036bfa598466fe7e725f14270d"
+ },
+ {
+  "year": "2011",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/07_AZUL.pdf",
+  "capture": "20190918115920",
+  "digest": "XM4NWVSXE4IB2WXTPQDIJNX6DJEOKR56",
+  "sha1_ok": true,
+  "size": 1048576,
+  "sha256": "17eba88919e87081f9130d48f53cab6ceb10efa33d9f5559d92182f73a5bcdb8"
+ },
+ {
+  "year": "2012",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2012/dia2_azul.pdf",
+  "capture": "20130720171943",
+  "digest": "WV2HZTHYZEDES2T4EUDVTDWF4LFAVKCS",
+  "sha1_ok": true,
+  "size": 106300,
+  "sha256": "eb46855a6679b5acefdceaa91b0d4844c496303c7ab9b931c5eea922afebe243"
+ },
+ {
+  "year": "2012",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/caderno_enem2012_dom_azul.pdf",
+  "capture": "20131029235404",
+  "digest": "R7BZCTJOEF5NUQJCQXZLLXKUJX67XQOG",
+  "sha1_ok": true,
+  "size": 2784958,
+  "sha256": "3c7822668a69ec3d5adb3067a5ca4ef92a246df4a0efde43f0ce1db17113c400"
+ },
+ {
+  "year": "2013",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2013/dia2_azul.pdf",
+  "capture": "20131101082819",
+  "digest": "DMFNL6C75ZS4O2A2NXYWL7DQDPN3SY6Y",
+  "sha1_ok": true,
+  "size": 134704,
+  "sha256": "897c8165f03268a9d68e42a978b52995ff70605daadb1b82e8b47dc2597d1220"
+ },
+ {
+  "year": "2013",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/caderno_enem2013_dom_azul.pdf",
+  "capture": "20140914212648",
+  "digest": "35FHX4A4AVSCPDQ42QU67JILIDBOLIBP",
+  "sha1_ok": true,
+  "size": 4132747,
+  "sha256": "113f23141c72e31216d2bedeacdfcd95cf9f848cc260472a1ddf9b94baf2302a"
+ },
+ {
+  "year": "2014",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2014/CADERNO_7_AZUL_DOMINGO.pdf",
+  "capture": "20141126221645",
+  "digest": "NTIL4BCGQKM33GZP237WK65BXTBBQ6VG",
+  "sha1_ok": true,
+  "size": 123853,
+  "sha256": "c4382390c26bd8b5b0e3e8c293843d9454c4aa13bd9cd96ff95575f7870b4eeb"
+ },
+ {
+  "year": "2014",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/CAD_ENEM_2014_DIA_2_07_AZUL.pdf",
+  "capture": "20150319064308",
+  "digest": "2OGDNXMUY3Y7YDZQB7ZRJMGST64T7DYY",
+  "sha1_ok": true,
+  "size": 1594097,
+  "sha256": "33bb668dd4d06c0835bbb70f90e128955bf81e2e87cbfbc28bc2e147b90c9961"
+ },
+ {
+  "year": "2015",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2015/CADERNO_7_AZUL_DOMINGO.pdf",
+  "capture": "20151106011625",
+  "digest": "TZZ5QWO6HKYWOFEGVICF5YTF756MEWM6",
+  "sha1_ok": true,
+  "size": 263901,
+  "sha256": "28aebf28e1066bfc4d382a9ccd6c56ed9912631e9057feb1cec46e4194b50bc5"
+ },
+ {
+  "year": "2015",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/CAD_ENEM%202015_DIA%202_07_AZUL.pdf",
+  "capture": "20151123024139",
+  "digest": "PQXR2N72VTXOD3P4IQ7JGFYQI6HAHR7D",
+  "sha1_ok": true,
+  "size": 955697,
+  "sha256": "9dce047bc669cf443a631921e8133333514cbd3350cfc7497192b485b04056ee"
+ },
+ {
+  "year": "2016",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2016/GAB_ENEM_2016_DIA_2_07_AZUL.pdf",
+  "capture": "20161119010149",
+  "digest": "FUQIL3W6ITVCXUS4TB556RWFZFEZDPBM",
+  "sha1_ok": true,
+  "size": 131802,
+  "sha256": "67557d0c2c7fd2a6ecb27184f97bca5e2b478aa5d578e3e1338aca2038910052"
+ },
+ {
+  "year": "2016",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+  "capture": "20161119063126",
+  "digest": "UZ3AI6MO2BH5ZDHXNNEXHFGYUEXFPXFX",
+  "sha1_ok": true,
+  "size": 1062141,
+  "sha256": "4323baa29921a653c036d8a58f626eeb7c98a76e41433eff18203d90d3ba56aa"
+ },
+ {
+  "year": "2017",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+  "capture": "20171118002516",
+  "digest": "EPYQMWCDLFBQ5D6G4LIRJZGGBRK7L4GC",
+  "sha1_ok": true,
+  "size": 197286,
+  "sha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2"
+ },
+ {
+  "year": "2017",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_7_prova_azul_12112017.pdf",
+  "capture": "20171118014006",
+  "digest": "JWNGF66DKZ7WM5U4GU36YS2VTLWNK4ZY",
+  "sha1_ok": true,
+  "size": 1687449,
+  "sha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393"
+ },
+ {
+  "year": "2018",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2018/GAB_ENEM_2018_DIA_2_AZUL.pdf",
+  "capture": "20181123100147",
+  "digest": "NZAX6JS3XXJQRTH2BMLIY4CPRNL7DKCY",
+  "sha1_ok": true,
+  "size": 150054,
+  "sha256": "36ead3cbb0dc3032d2ebe89bdbb66de54777e311f8e8ffa57eec42756fa38e78"
+ },
+ {
+  "year": "2018",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2DIA_07_AZUL_BAIXA.pdf",
+  "capture": "20181123100617",
+  "digest": "FMRFWKHUGJGM2MHP3R5IPSQ3KLPD4X67",
+  "sha1_ok": true,
+  "size": 725679,
+  "sha256": "cfca731b6655487b52e870ede46b227810534d01efc9c8295a03af809e02c7d8"
+ },
+ {
+  "year": "2019",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+  "capture": "20191126122647",
+  "digest": "CHVUC36S35JC7UPLEAYIOKXYSPN4ZDHM",
+  "sha1_ok": true,
+  "size": 166467,
+  "sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644"
+ },
+ {
+  "year": "2019",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/caderno_de_questoes_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+  "capture": "20191126123218",
+  "digest": "CAVMRUNGZY5F7JJZUUMLR7L6A7HAGNP5",
+  "sha1_ok": true,
+  "size": 3528807,
+  "sha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6"
+ },
+ {
+  "year": "2020",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+  "capture": "20210128163702",
+  "digest": "WCIIJ5YOMIL2EUYSE72JGPRWL5HYBOMG",
+  "sha1_ok": true,
+  "size": 129835,
+  "sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0"
+ },
+ {
+  "year": "2020",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+  "capture": "20231101224515",
+  "digest": "WRUQJ2SARHA55IRQ75XKPV3Y7H7LCPMS",
+  "sha1_ok": true,
+  "size": 6518863,
+  "sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc"
+ },
+ {
+  "year": "2021",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
+  "capture": "20211201183615",
+  "digest": "YSOLIX2AELI77FEFYX55QMXSFOCTOQD6",
+  "sha1_ok": true,
+  "size": 224392,
+  "sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7"
+ },
+ {
+  "year": "2021",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+  "capture": "20211202031442",
+  "digest": "IZ4EMQD5H4XL3O36CPPWDT3TJ5HF6UV6",
+  "sha1_ok": true,
+  "size": 1354632,
+  "sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540"
+ },
+ {
+  "year": "2022",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+  "capture": "20221209114428",
+  "digest": "EVY6WM7V2Y4JNQFJMUMXYEFVGW3BTAFC",
+  "sha1_ok": true,
+  "size": 210705,
+  "sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118"
+ },
+ {
+  "year": "2022",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+  "capture": "20231108223614",
+  "digest": "XIHWIOBZIK3YEARV73OWMS3PBKHGXUQY",
+  "sha1_ok": true,
+  "size": 6854310,
+  "sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9"
+ },
+ {
+  "year": "2023",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+  "capture": "20231204055957",
+  "digest": "3NJ3GDH6FHGKUZXVBMKP3B77QN2BDEIQ",
+  "sha1_ok": true,
+  "size": 592375,
+  "sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410"
+ },
+ {
+  "year": "2023",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+  "capture": "20260927025017",
+  "digest": "VZRFNBVQP72CRYG4L6XAZSOQS24LMCZD",
+  "sha1_ok": true,
+  "size": 3753721,
+  "sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b"
+ },
+ {
+  "year": "2024",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D2_CD7.pdf",
+  "capture": "20241114130018",
+  "digest": "EWAL4GRGIJX67XEHZNGV6JSWSVPJDJJJ",
+  "sha1_ok": true,
+  "size": 120684,
+  "sha256": "8d27b5a447061e9a1c181d00a916d10f45e1c6c1da68d628b3ae8bdfedbf5c92"
+ },
+ {
+  "year": "2024",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D2_CD7.pdf",
+  "capture": "20260927025135",
+  "digest": "ABF2ZAZMDBSGAWPGDGZTLW4G7P6RGVUA",
+  "sha1_ok": true,
+  "size": 5456870,
+  "sha256": "0993ae687a93dfbcda8e95ce8708883be9d5a55cabbe1f1a06b81a50c18c6cdc"
+ },
+ {
+  "year": "2025",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD7.pdf",
+  "capture": "20251121155126",
+  "digest": "VW5KTPAAGIHKJNNXOTSL655YDIT52WPV",
+  "sha1_ok": true,
+  "size": 293450,
+  "sha256": "9e2d470af35378df532173414ec7077c3ce4df38c084a5f1258579fdf9270aef"
+ },
+ {
+  "year": "2025",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD7.pdf",
+  "capture": "20260927025301",
+  "digest": "SGNSVTSURWEA5LFDKBIV7UFJRT7DPVII",
+  "sha1_ok": true,
+  "size": 3685677,
+  "sha256": "39af0f0eaf3e30a3cd211bc19db9029204703965a2c76ff232fb3109181fa7c8"
+ }
+]

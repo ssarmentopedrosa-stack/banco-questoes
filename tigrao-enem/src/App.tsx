@@ -1362,7 +1362,8 @@ function Ajustes({ state, setState, onBack }: { state: State; setState: (s: Stat
         <div className="mb-1 font-titulo text-lg font-extrabold text-noite">Sobre</div>
         <p><b>{AVISO}</b></p>
         <p className="mt-1">{QUESTIONS.length} questões de {MATERIA.nome} com gabarito oficial. {notaResolucoes()}</p>
-        {MATERIA.id !== "fisica" && <p className="mt-1">Questões de {MATERIA.nome} separadas do caderno de {MATERIA.area} por classificação automática (revisão do professor pendente). Algumas foram transcritas do PDF oficial do Inep; questões com texto incompleto ou figura não recuperada ficaram de fora.</p>}
+        {MATERIA.id === "matematica" && <p className="mt-1">Questões de Matemática do 2º dia (caderno azul) com tema escolhido por classificação automática (revisão do professor pendente). Algumas foram transcritas do PDF oficial do Inep; questões com texto incompleto, notação perdida ou figura não recuperada ficaram de fora.</p>}
+        {MATERIA.id !== "fisica" && MATERIA.id !== "matematica" && <p className="mt-1">Questões de {MATERIA.nome} separadas do caderno de {MATERIA.area} por classificação automática (revisão do professor pendente). Algumas foram transcritas do PDF oficial do Inep; questões com texto incompleto ou figura não recuperada ficaram de fora.</p>}
         <p className="mt-1" data-testid="regras-jogo"><b>Como o jogo funciona:</b> acerto vale +{XP.acerto} XP; erro recuperado na revisão, +{XP.revisao} XP; meta de {META_DIARIA} questões no dia, +{XP.metaDiaria} XP. Em treinos (nunca em simulados), cerca de {Math.round(CHANCE_SURPRESA * 100)}% dos acertos ganham um bônus surpresa de +{XP.surpresa} XP. A sequência conta o dia com pelo menos 1 questão respondida, e você tem 1 dia de folga automático por semana.</p>
         <p className="mt-1">Provas originais: <a className="font-bold text-azul underline" href={INEP} target="_blank" rel="noreferrer">gov.br/inep</a>.</p>
       </div>

@@ -21,7 +21,7 @@ export type Question = {
 
 export type Raw = { meta: { total: number; porAno: Record<string, number>; [k: string]: unknown }; questions: Question[] };
 export type TopicInfo = { name: string; emoji: string; badge: string; cor: string; corClara: string; texto: string };
-export type MateriaId = "fisica" | "biologia" | "quimica" | "geografia" | "natureza";
+export type MateriaId = "fisica" | "biologia" | "quimica" | "geografia" | "matematica" | "natureza";
 export type MateriaInfo = {
   id: MateriaId;
   nome: string;
@@ -103,6 +103,18 @@ export const MATERIAS: MateriaInfo[] = [
       t("Cartografia e Geotecnologias", "🗺️", "Olho de Satélite", "noite"),
     ],
     fraseAcerto: "Isso! Geografia de quem vai passar!", fraseOtimo: "Mandou muito bem! Você tá no mapa do ENEM! 🌎", nivel3: "Explorador do Mundo",
+  },
+  {
+    id: "matematica", nome: "Matemática", emoji: "📐", key: "tigrao-enem-matematica-v1", subtitulo: "Matemática, questões oficiais", area: "Matemática e suas Tecnologias",
+    topicos: [
+      t("Razão, Proporção e Grandezas", "⚖️", "Mestre da Proporção", "azul"),
+      t("Porcentagem e Matemática Financeira", "💰", "Fera dos Juros", "laranja"),
+      t("Estatística e Probabilidade", "🎲", "Senhor das Chances", "teal"),
+      t("Álgebra e Funções", "📈", "Domador de Funções", "roxo"),
+      t("Geometria Plana", "📐", "Arquiteto do Plano", "vermelho"),
+      t("Geometria Espacial", "🧊", "Construtor de Sólidos", "noite"),
+    ],
+    fraseAcerto: "Isso! Matemática de quem vai passar!", fraseOtimo: "Mandou muito bem! Conta certa rumo ao ENEM! 📐", nivel3: "Gênio dos Números",
   },
   {
     id: "natureza", nome: "Ciências da Natureza", emoji: "🔬", key: "tigrao-enem-natureza-v1", subtitulo: "Física + Biologia + Química, questões oficiais",
