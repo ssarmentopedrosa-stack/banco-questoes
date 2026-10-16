@@ -1,0 +1,114 @@
+@ENEM-MT-2017-REG-D2-C7-Q155
+K: média aritmética
+Pela tabela, X tem 5 + 5 + 5 + 10 + 6 = 31 (média 6,2), Y tem 4 + 9 + 3 + 9 + 5 = 30 (média 6,0) e Z tem 5 + 5 + 8 + 5 + 6 = 29 (média 5,8). Só Z fica abaixo de 6.
+**Resposta: B**
+
+@ENEM-MT-2017-REG-D2-C7-Q156
+K: lei dos cossenos
+O raio é a distância CB entre as pontas do compasso. O triângulo ABC tem AB = AC = 10 cm e ângulo de 120° em A: CB² = 10² + 10² − 2 · 10 · 10 · cos 120° = 300, então CB = 10√3 ≈ 17 cm. Pelo quadro, 15 < R ≤ 21: material IV.
+**Resposta: D**
+
+@ENEM-MT-2017-REG-D2-C7-Q157
+K: comparação de decimais
+As diferenças para 4 mm são 0,025; 0,100; 0,030; 0,080 e 0,901 mm. A menor é a da pérola de 4,025 mm.
+**Resposta: C**
+
+@ENEM-MT-2017-REG-D2-C7-Q159
+K: razão entre números de dentes
+Mais devagar é o menor número de voltas da roda por pedalada, ou seja, a menor razão coroa/catraca. Pelo quadro: I = 46/24 ≈ 1,92; II = 46/14 ≈ 3,29; III = 36/18 = 2; IV = 26/24 ≈ 1,08; V = 26/14 ≈ 1,86. A menor é a combinação IV.
+**Resposta: D**
+
+@ENEM-MT-2017-REG-D2-C7-Q161
+K: área máxima com perímetro fixo
+A tela forma o perímetro da base: 2X + 2Y = 100, ou X + Y = 50. A área XY = X(50 − X) é uma função quadrática com máximo no vértice, X = 25. Então Y = 25: a base é um quadrado.
+**Resposta: D**
+
+@ENEM-MT-2017-REG-D2-C7-Q162
+K: tipos de curvas
+Isolando v: v = K/(p + a) − b. É uma função do tipo y = K/(x + a) − b, cujo gráfico é uma hipérbole deslocada. Como p ≥ 0 (peso), aparece apenas um ramo de hipérbole.
+**Resposta: E**
+
+@ENEM-MT-2017-REG-D2-C7-Q164
+K: grandezas diretamente proporcionais
+Com a mesma velocidade, a distância é proporcional ao tempo. X usa 25% do tempo de Y, então percorre 25% da distância: a razão é 1/4.
+**Resposta: B**
+
+@ENEM-MT-2017-REG-D2-C7-Q165
+K: razão entre alturas de colunas
+No Gráfico 1, a razão B/A é 30/70 = 3/7. No Gráfico 2, o eixo começa em 20, então as colunas medem 30 − 20 = 10 e 70 − 20 = 50, com razão 1/5. A diferença é 3/7 − 1/5 = 15/35 − 7/35 = 8/35.
+**Resposta: E**
+
+@ENEM-MT-2017-REG-D2-C7-Q170
+K: leitura de escala
+A máxima é dada pelo nível inferior do filete preto na coluna da direita, onde os números crescem de baixo para cima. Na figura, esse nível fica um pouco abaixo da marca de 20 °C, perto de 19 °C.
+**Resposta: E**
+
+@ENEM-MT-2017-REG-D2-C7-Q172
+K: gráfico com dois eixos de escalas diferentes
+O reservatório A usa o eixo da esquerda (até 180.000 L) e o B usa o da direita (até 90.000 L), metade da escala. Por isso, onde as curvas se sobrepõem, A tem o dobro de B. As quantidades só são iguais quando A, no ponto mais baixo (cerca de 30.000 L, perto das 9 h), tem o mesmo volume de B, parado em 30.000 L. Isso acontece em um único momento.
+**Resposta: A**
+
+@ENEM-MT-2017-REG-D2-C7-Q173
+K: porcentagem e densidade
+O tanque começou com 100 kg e consumiu 4/10, ou seja, 40 kg, restando 60 kg. O reabastecimento foi 1/3 disso: 20 kg. Com densidade 0,75 kg/L, o volume é 20/0,75 litros.
+**Resposta: B**
+
+@ENEM-MT-2017-REG-D2-C7-Q176
+K: equação com porcentagem
+Na primeira fase, a economia é de 200 m² × 1 (elétrica) + 200 m² × 0,7 (térmica) = 340 kWh/dia. O dobro é 680. A área elétrica aumenta 75%, para 350 m² (350 kWh), e faltam 330 kWh de energia térmica: 330/0,7 ≈ 471,4 m², mais perto de 472.
+**Resposta: C**
+
+@ENEM-MT-2018-REG-D2-C7-Q137
+K: juros compostos e logaritmo
+Antecipar uma parcela n meses a reduz para P = 820/(1,0132)ⁿ. O desconto passa de 25% quando 1/(1,0132)ⁿ < 3/4, ou seja, (1,0132)ⁿ > 4/3. Com logaritmos: n > ln(4/3)/ln(1,0132) = 0,2877/0,0131 ≈ 21,96, então n ≥ 22. Junto com a 30ª, a primeira que pode ser antecipada é a 30 + 22 = 52ª.
+**Resposta: C**
+
+@ENEM-MT-2018-REG-D2-C7-Q138
+K: equação da circunferência
+A circunferência (x − 2)² + (y − 2)² = 8 tem centro (2, 2) e raio √8, e passa pela origem, por A(0, 4), B(4, 4) e C(4, 0): 3 pontos × 2 = 6 pontos. A reta x = 0 atinge A e E (2 pontos), e x² + (y − 2)² = 4 atinge só A e D (4 pontos). x² + y² = 16 não passa pela origem e y = 0 não passa por A.
+**Resposta: E**
+
+@ENEM-MT-2018-REG-D2-C7-Q141
+K: progressão aritmética
+Os postes ficam em 80, 100, …, 1.380 m, de 20 em 20: são (1.380 − 80)/20 + 1 = 66 postes. O gasto máximo é 66 × 8.000 = R$ 528.000,00.
+**Resposta: C**
+
+@ENEM-MT-2018-REG-D2-C7-Q142
+K: proporcionalidade direta e inversa
+Pelo gráfico, A e B têm o mesmo raio, mas B tem mais massa, então F_B > F_A. A e C têm a mesma massa, mas C está mais longe, então F_C < F_A. Logo F_C < F_A < F_B.
+**Resposta: E**
+
+@ENEM-MT-2018-REG-D2-C7-Q143
+K: mistura e proporção
+Os 40 g de prata 950 têm 38 g de prata pura e 2 g de cobre. Os 10 g de prata 925 já trazem 9,25 g de prata e 0,75 g de cobre. Faltam 38 − 9,25 = 28,75 g de prata e 2 − 0,75 = 1,25 g de cobre.
+**Resposta: B**
+
+@ENEM-MT-2018-REG-D2-C7-Q145
+K: média ponderada
+Pelo quadro, o total de acidentes é 0·50 + 1·17 + 2·15 + 3·10 + 4·6 + 5·2 = 111. A média nos 100 funcionários é 111/100 = 1,11.
+**Resposta: D**
+
+@ENEM-MT-2018-REG-D2-C7-Q146
+K: distância = velocidade × tempo
+Alpha: 6,0 × 1,5 = 9 km; Beta: 5,0 × 1,5 = 7,5 km; Gama: 6,5 × 1 = 6,5 km. Então d_Gama < d_Beta < d_Alpha.
+**Resposta: A**
+
+@ENEM-MT-2018-REG-D2-C7-Q148
+K: proporcionalidade e função de duas variáveis
+Gastando X reais na rádio, são X/120 anúncios de 1.500 ouvintes: 12,5X = 50X/4 pessoas. Gastando Y em panfletos, são Y/180 milheiros: 1.000Y/180 = 50Y/9 pessoas. Total: 50X/4 + 50Y/9.
+**Resposta: A**
+
+@ENEM-MT-2018-REG-D2-C7-Q149
+K: inclinação em porcentagem
+A rampa desce 2 m em 8 m: 25%, acima do permitido. Com 20% em 8 m, o desnível máximo é 0,20 × 8 = 1,6 m. O nível da garagem deve ser elevado em 2 − 1,6 = 0,4 m = 40 cm.
+**Resposta: A**
+
+@ENEM-MT-2018-REG-D2-C7-Q150
+K: probabilidade condicional e sem reposição
+Opção 1: 2/6 × 1/5 = 1/15. Opção 2: 3/10 × 2/9 = 1/15. Opção 3 (C → A): metade das vezes A fica com 3 pretas em 7 (3/7 × 2/6 = 1/7) e metade com 2 pretas em 7 (1/21), média ≈ 0,095. Opção 4 (D → C): ½ × (3/5 × 2/4) + ½ × (2/5 × 1/4) = 0,15 + 0,05 = 0,20. Opção 5 (C → D): ½ × (4/7 × 3/6) + ½ × (3/7 × 2/6) = 1/7 + 1/14 ≈ 0,214. A maior é a opção 5.
+**Resposta: E**
+
+@ENEM-MT-2018-REG-D2-C7-Q151
+K: área cresce com o quadrado da escala
+O furo tem raio proporcional ao lado x, então a área pintada é proporcional a x². Reduzir a área a 1/16 exige reduzir as dimensões lineares a 1/4. O tamanho da fonte passa de 192 para 192/4 = 48.
+**Resposta: B**
