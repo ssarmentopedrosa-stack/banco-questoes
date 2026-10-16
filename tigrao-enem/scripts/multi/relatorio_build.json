@@ -121,9 +121,10 @@
   "geografia": {
    "materia": "geografia",
    "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), caderno azul; texto conferido com o PDF oficial do Inep",
-   "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2010 CN: leitura do gabarito oficial (círculos verdes) feita no pipeline de Física",
+   "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2010 CN: leitura do gabarito oficial (círculos verdes) feita no pipeline de Física; 2010 CH: AZUL_Sabado_GAB.pdf (gab/gabarito_ch_2010.json)",
    "porAno": {
     "2009": 16,
+    "2010": 13,
     "2011": 17,
     "2012": 17,
     "2013": 10,
@@ -141,20 +142,20 @@
     "2025": 9
    },
    "foraPorAno": {},
-   "total": 200,
+   "total": 213,
    "fora": {},
    "porArea": {
-    "Indústria, Economia e Globalização": 40,
+    "Indústria, Economia e Globalização": 42,
     "Urbanização e População": 39,
-    "Espaço Agrário": 26,
+    "Espaço Agrário": 30,
+    "Relevo, Solos e Geologia": 27,
+    "Meio Ambiente e Recursos": 26,
     "Clima e Hidrografia": 25,
-    "Relevo, Solos e Geologia": 24,
-    "Meio Ambiente e Recursos": 23,
     "Geopolítica e Conflitos": 14,
-    "Cartografia e Geotecnologias": 9
+    "Cartografia e Geotecnologias": 10
    },
    "doPdfOficial": 20,
-   "comExplicacao": 0,
+   "comExplicacao": 213,
    "revisadas": 0,
    "classificacao": "automática (palavras-chave) + revisão manual dos casos ambíguos pelo agente; a conferir pelo professor"
   },
@@ -175,14 +176,12 @@
     "tem figura/tabela (não extraída nesta rodada)": 11,
     "enunciado curto demais": 6,
     "texto incompleto em relação à prova oficial": 58,
-    "sem gabarito oficial disponível": 45,
     "texto não conferível com a prova oficial e curto": 2,
     "gabarito do dataset diverge do oficial": 1,
     "figura ausente": 2
    },
    "foraPorAno": {
     "2009": 3,
-    "2010": 45,
     "2011": 4,
     "2012": 1,
     "2013": 7,
@@ -521,258 +520,6 @@
    "motivo": "texto incompleto em relação à prova oficial (cobertura 46%)"
   },
   {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 1,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 10,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 11,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 12,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 13,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 14,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 15,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 16,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 17,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 18,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 19,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 2,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 20,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 21,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 22,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 23,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 24,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 25,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 26,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 27,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 28,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 29,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 3,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 30,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 31,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 32,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 33,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 34,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 35,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 36,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 37,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 38,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 39,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 4,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 40,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 41,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 42,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 43,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 44,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 45,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 5,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 6,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
    "materia": "quimica",
    "ano": 2010,
    "questao": 63,
@@ -783,12 +530,6 @@
    "ano": 2010,
    "questao": 69,
    "motivo": "texto incompleto em relação à prova oficial (cobertura 47%)"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 7,
-   "motivo": "sem gabarito oficial disponível"
   },
   {
    "materia": "quimica",
@@ -803,22 +544,10 @@
    "motivo": "texto incompleto em relação à prova oficial (cobertura 40%)"
   },
   {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 8,
-   "motivo": "sem gabarito oficial disponível"
-  },
-  {
    "materia": "biologia",
    "ano": 2010,
    "questao": 86,
    "motivo": "texto incompleto em relação à prova oficial (cobertura 89%)"
-  },
-  {
-   "materia": "CH-nao-classificada",
-   "ano": 2010,
-   "questao": 9,
-   "motivo": "sem gabarito oficial disponível"
   },
   {
    "materia": "CH-nao-classificada",

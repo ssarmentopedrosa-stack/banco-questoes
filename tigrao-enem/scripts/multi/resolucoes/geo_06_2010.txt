@@ -1,0 +1,51 @@
+@ENEM-CH-2010-REG-D1-C1-Q1
+K: poucos imóveis grandes concentram a maior parte da área
+O gráfico mostra que os imóveis acima de 1.000 ha ocupam a maior fatia da área rural (53%), embora sejam poucos. Os imóveis pequenos, mais numerosos, ficam com uma fatia mínima. Isso é concentração fundiária. Minifúndios (C) e agricultura familiar (D) não dominam a área. **Resposta: A**
+
+@ENEM-CH-2010-REG-D1-C1-Q2
+K: técnica e ciência chegam ao campo
+Milton Santos diz que o mundo rural também ficou "artificial": correção de solo, adubação, sementes melhoradas e máquinas. Com isso, solos antes pouco férteis, como os do Cerrado, passam a ser aproveitados. A fronteira agrícola avança (não estagna, D), e a concentração de terras não diminui (A). **Resposta: B**
+
+@ENEM-CH-2010-REG-D1-C1-Q3
+K: mecanização expulsa o trabalhador do campo
+Vila Maria virou "exportadora de trabalhadores": quem era do campo agora mora na cidade e viaja centenas de quilômetros para trabalho temporário mal pago (boia-fria). Isso é efeito social da modernização da agricultura, que mecaniza a produção e reduz o emprego fixo no campo. Salários não se recompuseram (B). **Resposta: A**
+
+@ENEM-CH-2010-REG-D1-C1-Q4
+K: lixão atrai vetores e contamina solo e água
+No lixão, o lixo fica a céu aberto e atrai ratos, moscas e baratas, que transmitem doenças. O chorume ainda contamina o solo e as águas. Por isso é problema de saúde pública. Chuva ácida vem de gases como SO₂ e NOₓ, não do lixo (C). Lixões costumam ficar na periferia, não no centro (D). **Resposta: B**
+
+@ENEM-CH-2010-REG-D1-C1-Q5
+K: arar morro abaixo abre caminho para a enxurrada
+Arar do topo ao vale (no sentido da declividade) cria sulcos por onde a água da chuva escorre rápido, arrastando o solo. Isso acelera a erosão e forma sulcos, ravinas e voçorocas. Plantio direto, associação de culturas, curvas de nível e terraços (A, B, C, E) protegem o solo. **Resposta: D**
+
+@ENEM-CH-2010-REG-D1-C1-Q6
+K: erosão na encosta → assoreamento → enchente na baixada
+O solo arrancado das encostas vai parar nos rios da baixada e se deposita no leito (assoreamento). O rio fica mais raso e comporta menos água, e as enchentes ficam mais frequentes nas áreas urbanas. As outras alternativas não decorrem diretamente desse processo. **Resposta: A**
+
+@ENEM-CH-2010-REG-D1-C1-Q7
+K: coordenadas geográficas = latitude + longitude
+Latitude e longitude formam um sistema de linhas imaginárias (paralelos e meridianos) que permite localizar qualquer ponto da superfície terrestre. A é a definição de escala. B troca paralelos e meridianos. D inverte as definições: a latitude se mede a partir do Equador, e a longitude, a partir de Greenwich. **Resposta: C**
+
+@ENEM-CH-2010-REG-D1-C1-Q8
+K: fósseis se preservam em rochas sedimentares
+Fósseis se formam quando restos de seres vivos são soterrados por sedimentos que depois se compactam e viram rocha (litificação). Por isso aparecem em rochas sedimentares. O calor das rochas magmáticas e metamórficas destrói os restos (A, C, E). Na figura, as camadas representam deposição, e não erosão (D). **Resposta: B**
+
+@ENEM-CH-2010-REG-D1-C1-Q9
+K: BRIC = emergentes com grande potencial de crescimento
+O termo BRIC foi criado por um economista do banco Goldman Sachs para indicar países emergentes com economias grandes e potencial de crescimento nas décadas seguintes. Eles não se destacam por igualdade social (C), por base tecnológica mais avançada (B) nem por semelhanças culturais (E). **Resposta: A**
+
+@ENEM-CH-2010-REG-D1-C1-Q14
+K: Carajás = minério de ferro para exportação
+A Estrada de Ferro Carajás leva o minério de ferro (e manganês) da Serra dos Carajás, no Pará, até o porto de São Luís, de onde é exportado. A importância estratégica da região é a produção de minerais metálicos. Esses minérios não são energéticos (E) nem não metálicos (B), e a ferrovia serve à exportação, não à importação (D). **Resposta: C**
+
+@ENEM-CH-2010-REG-D1-C1-Q15
+K: crescimento econômico × conservação ambiental
+Belo Monte gera energia para o crescimento do país, mas inunda áreas, afeta povos indígenas e agricultores, o que provoca protestos. O impasse é conciliar o desenvolvimento com a conservação ambiental e social. As alternativas A, C e E não tratam desse conflito central, e D afirma algo que o texto não diz. **Resposta: B**
+
+@ENEM-CH-2010-REG-D1-C1-Q17
+K: avanço do agronegócio × terras indígenas e leis ambientais
+Os Xavante e os Timbira protestam contra o cerco de suas terras pelo agronegócio. A tensão é entre a expansão da fronteira agrícola (Centro-Oeste e Norte) e as leis que protegem os povos indígenas e o ambiente. O texto não fala em povos "pouco organizados" (B): eles foram protestar na Avenida Paulista. O texto também não fala em invasões urbanas (E). **Resposta: A**
+
+@ENEM-CH-2010-REG-D1-C1-Q38
+K: ludismo: resistência à técnica que degradava trabalho e natureza
+Os luditas quebravam máquinas porque elas degradavam o trabalho e os modos de vida. Milton Santos liga essa reação, e os protestos contra as ferrovias, ao combate atual dos ambientalistas. Ou seja, eram movimentos de contestação à degradação do trabalho, das tradições e da natureza. No século XIX ainda não havia políticas de preservação (B). **Resposta: E**

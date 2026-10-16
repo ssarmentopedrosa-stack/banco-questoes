@@ -1,0 +1,145 @@
+{
+ "_doc": "Física ENEM 2021 (2º dia, caderno 7 AZUL). Texto do enunciado e das alternativas transcrito e conferido palavra a palavra com o recorte da página do PDF oficial do Inep (2021_PV_impresso_D2_CD7.pdf, sha256 887b2a10…f540) — o OCR original tinha lixo. Alternativas gráficas (Q102, Q105, Q126) continuam em imagem. Gabarito: oficial do Inep (não alterado).",
+ "ENEM-CN-2021-REG-D2-C7-Q92": {
+  "statement": "O sino dos ventos é composto por várias barras metálicas de mesmo material e espessura, mas de comprimentos diferentes, conforme a figura.\n\nConsidere f₁ e v₁, respectivamente, como a frequência fundamental e a velocidade de propagação do som emitido pela barra de menor comprimento, e f₂ e v₂ são essas mesmas grandezas para o som emitido pela barra de maior comprimento.\n\nAs relações entre as frequências fundamentais e entre as velocidades de propagação são, respectivamente,",
+  "options": [
+   "f₁ < f₂ e v₁ < v₂.",
+   "f₁ < f₂ e v₁ = v₂.",
+   "f₁ < f₂ e v₁ > v₂.",
+   "f₁ > f₂ e v₁ = v₂.",
+   "f₁ > f₂ e v₁ > v₂."
+  ]
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q94": {
+  "statement": "A figura foi extraída de um antigo jogo para computadores, chamado Bang! Bang!\n\nNo jogo, dois competidores controlam os canhões A e B, disparando balas alternadamente com o objetivo de atingir o canhão do adversário; para isso, atribuem valores estimados para o módulo da velocidade inicial de disparo (|v₀|) e para o ângulo de disparo (θ).\n\nEm determinado momento de uma partida, o competidor B deve disparar; ele sabe que a bala disparada anteriormente, θ = 53°, passou tangenciando o ponto P.\n\nNo jogo, |g| é igual a 10 m/s². Considere sen 53° = 0,8, cos 53° = 0,6 e desprezível a ação de forças dissipativas.\n\nDisponível em: http://mebdownloads.butzke.net.br. Acesso em: 18 abr. 2015 (adaptado).\n\nCom base nas distâncias dadas e mantendo o último ângulo de disparo, qual deveria ser, aproximadamente, o menor valor de |v₀| que permitiria ao disparo efetuado pelo canhão B atingir o canhão A?",
+  "options": [
+   "30 m/s.",
+   "35 m/s.",
+   "40 m/s.",
+   "45 m/s.",
+   "50 m/s."
+  ]
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q99": {
+  "statement": "Na cidade de São Paulo, as ilhas de calor são responsáveis pela alteração da direção do fluxo da brisa marítima que deveria atingir a região de mananciais. Mas, ao cruzar a ilha de calor, a brisa marítima agora encontra um fluxo de ar vertical, que transfere para ela energia térmica absorvida das superfícies quentes da cidade, deslocando-a para altas altitudes. Dessa maneira, há condensação e chuvas fortes no centro da cidade, em vez de na região de mananciais. A imagem apresenta os três subsistemas que trocam energia nesse fenômeno.\n\nNo processo de fortes chuvas no centro da cidade de São Paulo, há dois mecanismos dominantes de transferência de calor: entre o Sol e a ilha de calor, e entre a ilha de calor e a brisa marítima.\n\nVIVEIROS, M. Ilhas de calor afastam chuvas de represas. Disponível em: www2.feis.unesp.br. Acesso em: 3 dez. 2019 (adaptado).\n\nEsses mecanismos são, respectivamente,",
+  "options": [
+   "irradiação e convecção.",
+   "irradiação e irradiação.",
+   "condução e irradiação.",
+   "convecção e irradiação.",
+   "convecção e convecção."
+  ]
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q100": {
+  "statement": "No seu estudo sobre a queda dos corpos, Aristóteles afirmava que se abandonarmos corpos leves e pesados de uma mesma altura, o mais pesado chegaria mais rápido ao solo. Essa ideia está apoiada em algo que é difícil de refutar, a observação direta da realidade baseada no senso comum.\n\nApós uma aula de física, dois colegas estavam discutindo sobre a queda dos corpos, e um tentava convencer o outro de que tinha razão:\n\nColega A: “O corpo mais pesado cai mais rápido que um menos pesado, quando largado de uma mesma altura. Eu provo, largando uma pedra e uma rolha. A pedra chega antes. Pronto! Tá provado!”.\n\nColega B: “Eu não acho! Peguei uma folha de papel esticado e deixei cair. Quando amassei, ela caiu mais rápido. Como isso é possível? Se era a mesma folha de papel, deveria cair do mesmo jeito. Tem que ter outra explicação!”.\n\nHÜLSENDEGER, M. Uma análise das concepções dos alunos sobre a queda dos corpos. Caderno Brasileiro de Ensino de Física, n. 3, dez. 2004 (adaptado).\n\nO aspecto físico comum que explica a diferença de comportamento dos corpos em queda nessa discussão é o(a)",
+  "options": [
+   "peso dos corpos.",
+   "resistência do ar.",
+   "massa dos corpos.",
+   "densidade dos corpos.",
+   "aceleração da gravidade."
+  ]
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q102": {
+  "statement": "É possível ligar aparelhos elétricos de baixa corrente utilizando materiais comuns de laboratório no lugar das tradicionais pilhas. A ilustração apresenta uma montagem que faz funcionar um cronômetro digital.\n\nUtilizando a representação de projetos elétricos, o circuito equivalente a esse sistema é",
+  "options": null
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q105": {
+  "statement": "Duas esferas carregadas com cargas iguais em módulo e sinais contrários estão ligadas por uma haste rígida isolante na forma de haltere. O sistema se movimenta sob ação da gravidade numa região que tem um campo magnético horizontal uniforme (B), da esquerda para a direita. A imagem apresenta o sistema visto de cima para baixo, no mesmo sentido da aceleração da gravidade (g) que atua na região.\n\nVisto de cima, o diagrama esquemático das forças magnéticas que atuam no sistema, no momento inicial em que as cargas penetram na região de campo magnético, está representado em",
+  "options": null
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q107": {
+  "statement": "Analisando a ficha técnica de um automóvel popular, verificam-se algumas características em relação ao seu desempenho. Considerando o mesmo automóvel em duas versões, uma delas funcionando a álcool e outra, a gasolina, tem-se os dados apresentados no quadro, em relação ao desempenho de cada motor.\n\nParâmetro | Motor a gasolina | Motor a álcool\nAceleração | de 0 a 100 km/h em 13,4 s | de 0 a 100 km/h em 12,9 s\nVelocidade máxima | 165 km/h | 163 km/h\n\nConsiderando desprezível a resistência do ar, qual versão apresenta a maior potência?",
+  "options": [
+   "Como a versão a gasolina consegue a maior aceleração, esta é a que desenvolve a maior potência.",
+   "Como a versão a gasolina atinge o maior valor de energia cinética, esta é a que desenvolve a maior potência.",
+   "Como a versão a álcool apresenta a maior taxa de variação de energia cinética, esta é a que desenvolve a maior potência.",
+   "Como ambas as versões apresentam a mesma variação de velocidade no cálculo da aceleração, a potência desenvolvida é a mesma.",
+   "Como a versão a gasolina fica com o motor trabalhando por mais tempo para atingir os 100 km/h, esta é a que desenvolve a maior potência."
+  ]
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q108": {
+  "statement": "TEXTO I\n\nNo cordel intitulado Senhor dos Anéis, de autoria de Gonçalo Ferreira da Silva, lê-se a sextilha:\n\nA distância em relação\nAo nosso planeta amado\nPouco menos que a do Sol\nEle está distanciado\nE menos denso que a água\nQuando no normal estado\n\nMEDEIROS, A.; AGRA, J. T. M., A astronomia na literatura de cordel, Física na Escola, n. 1, abr. 2010 (fragmento).\n\nTEXTO II\n\nDistâncias médias dos planetas ao Sol e suas densidades médias\n\nPlanetas | Distância média ao Sol (u.a.) | Densidade relativa média\n*Mercúrio | 0,39 | 5,6\n*Vênus | 0,72 | 5,2\n*Terra | 1,0 | 5,5\n*Marte | 1,5 | 4,0\n**Ceres | 2,8 | 2,1\n*Júpiter | 5,2 | 1,3\n*Saturno | 9,6 | 0,7\n*Urano | 19 | 1,2\n*Netuno | 30 | 1,7\n**Plutão | 40 | 2,0\n**Éris | 68 | 2,5\n\nu.a. = 149 600 000 km, é a unidade astronômica, *Planeta clássico, **Planeta-anão\n\nCaracterísticas dos planetas. Disponível em: www.astronoo.com. Acesso em: 8 nov. 2019 (adaptado).\n\nConsiderando os versos da sextilha e as informações da tabela, a qual planeta o cordel faz referência?",
+  "options": [
+   "Mercúrio.",
+   "Júpiter.",
+   "Urano.",
+   "Saturno.",
+   "Netuno."
+  ]
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q109": {
+  "statement": "Cientistas da Universidade de New South Wales, na Austrália, demonstraram em 2012 que a Lei de Ohm é válida mesmo para fios finíssimos, cuja área da seção reta compreende alguns poucos átomos. A tabela apresenta as áreas e comprimentos de alguns dos fios construídos (respectivamente com as mesmas unidades de medida). Considere que a resistividade mantém-se constante para todas as geometrias (uma aproximação confirmada pelo estudo).\n\nFio | Área | Comprimento | Resistência elétrica\nFio 1 | 9 | 312 | R1\nFio 2 | 4 | 47 | R2\nFio 3 | 2 | 54 | R3\nFio 4 | 1 | 106 | R4\n\nWEBER, S. B. et al. Ohm's Law Survives to the Atomic Scale. Science, n. 335, jan. 2012 (adaptado).\n\nAs resistências elétricas dos fios, em ordem crescente, são",
+  "options": [
+   "R1 < R2 < R3 < R4.",
+   "R2 < R1 < R3 < R4.",
+   "R2 < R3 < R1 < R4.",
+   "R4 < R1 < R3 < R2.",
+   "R4 < R3 < R2 < R1."
+  ]
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q115": {
+  "statement": "Na montagem de uma cozinha para um restaurante, a escolha do material correto para as panelas é importante, pois a panela que conduz mais calor é capaz de cozinhar os alimentos mais rapidamente e, com isso, há economia de gás. A taxa de condução do calor depende da condutividade k do material, de sua área A, da diferença de temperatura ΔT e da espessura d do material, sendo dada pela relação ΔQ/Δt = k·A·ΔT/d. Em panelas com dois materiais, a taxa de condução é dada por ΔQ/Δt = A·ΔT / (d₁/k₁ + d₂/k₂), em que d₁ e d₂ são as espessuras dos dois materiais, e k₁ e k₂ são as condutividades de cada material. Os materiais mais comuns no mercado para panelas são o alumínio (k = 20 W/m K), o ferro (k = 8 W/m K) e o aço (k = 5 W/m K) combinado com o cobre (k = 40 W/m K).\n\nCompara-se uma panela de ferro, uma de alumínio e uma composta de 1/2 da espessura em cobre e 1/2 da espessura em aço, todas com a mesma espessura total e com a mesma área de fundo.\n\nA ordem crescente da mais econômica para a menos econômica é",
+  "options": [
+   "cobre-aço, alumínio e ferro.",
+   "alumínio, cobre-aço e ferro.",
+   "cobre-aço, ferro e alumínio.",
+   "alumínio, ferro e cobre-aço.",
+   "ferro, alumínio e cobre-aço."
+  ]
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q120": {
+  "statement": "No outono, as folhas das árvores mudam de cor, de verde para tons de amarelo, castanho, laranja e vermelho. A cor verde das folhas deve-se ao pigmento clorofila. Nas plantas de folhas caducas, a produção de clorofila diminui e o tom verde desvanece, permitindo assim que outros pigmentos, como o caroteno, de coloração amarelo-alaranjado, e a antocianina, de tons avermelhados, passem a dominar a tonalidade das folhas. A coloração observada se dá em função da interação desses pigmentos com a radiação solar.\n\nConforme apresentado no espectro de absorção, as moléculas de clorofila absorvem a radiação solar nas regiões do azul e do vermelho, assim a luz refletida pelas folhas tem falta desses dois tons e as vemos na cor verde. Já as antocianinas absorvem a luz desde o azul até o verde. Nesse caso, a luz refletida pelas folhas que contêm antocianinas aparece conforme as cores complementares, ou seja, vermelho-alaranjado.\n\nDisponível em: https://vidauniversoydemas.wordpress.com. Acesso em: 6 dez. 2017 (adaptado).\n\nEm qual faixa do espectro visível os carotenos absorvem majoritariamente?",
+  "options": [
+   "Entre o violeta e o azul.",
+   "Entre o azul e o verde.",
+   "Entre o verde e o amarelo.",
+   "Entre o amarelo e o laranja.",
+   "Entre o laranja e o vermelho."
+  ]
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q125": {
+  "statement": "Considere a tirinha, na situação em que a temperatura do ambiente é inferior à temperatura corporal dos personagens.\n\nWATTERSON, B. Disponível em: https://novaescola.org.br. Acesso em: 11 ago. 2014.\n\nO incômodo mencionado pelo personagem da tirinha deve-se ao fato de que, em dias úmidos,",
+  "options": [
+   "a temperatura do vapor-d’água presente no ar é alta.",
+   "o suor apresenta maior dificuldade para evaporar do corpo.",
+   "a taxa de absorção de radiação pelo corpo torna-se maior.",
+   "o ar torna-se mau condutor e dificulta o processo de liberação de calor.",
+   "o vapor-d’água presente no ar condensa-se ao entrar em contato com a pele."
+  ]
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q126": {
+  "statement": "Um garoto precisa montar um circuito que acenda três lâmpadas de cores diferentes, uma de cada vez. Ele dispõe das lâmpadas, de fios, uma bateria e dois interruptores, como ilustrado, junto com seu símbolo de três pontos. Quando esse interruptor fecha AB, abre BC e vice-versa.\n\nO garoto fez cinco circuitos elétricos usando os dois interruptores, mas apenas um satisfaz a sua necessidade.\n\nEsse circuito é representado por",
+  "options": null
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q128": {
+  "statement": "Carros elétricos estão cada vez mais baratos, no entanto, os órgãos governamentais e a indústria se preocupam com o tempo de recarga das baterias, que é muito mais lento quando comparado ao tempo gasto para encher o tanque de combustível. Portanto, os usuários de transporte individual precisam se conscientizar dos ganhos ambientais dessa mudança e planejar com antecedência seus percursos, pensando em pausas necessárias para recargas.\n\nApós realizar um percurso de 110 km, um motorista pretende recarregar as baterias de seu carro elétrico, que tem um desempenho médio de 5,0 km/kWh, usando um carregador ideal que opera a uma tensão de 220 V e é percorrido por uma corrente de 20 A.\n\nQuantas horas são necessárias para recarregar a energia utilizada nesse percurso?",
+  "options": [
+   "0,005",
+   "0,125",
+   "2,5",
+   "5,0",
+   "8,0"
+  ]
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q131": {
+  "statement": "O eletrocardiograma é um exame cardíaco que mede a intensidade dos sinais elétricos advindos do coração. A imagem apresenta o resultado típico obtido em um paciente saudável e a intensidade do sinal (V_EC) em função do tempo.\n\nDe acordo com o eletrocardiograma apresentado, qual foi o número de batimentos cardíacos por minuto desse paciente durante o exame?",
+  "options": [
+   "30",
+   "60",
+   "100",
+   "120",
+   "180"
+  ]
+ },
+ "ENEM-CN-2021-REG-D2-C7-Q134": {
+  "statement": "O alcoolômetro Gay Lussac é um instrumento destinado a medir o teor de álcool, em porcentagem de volume (v/v), de soluções de água e álcool na faixa de 0 °GL a 100 °GL, com divisões de 0,1 °GL. A concepção do alcoolômetro se baseia no princípio de flutuabilidade de Arquimedes, semelhante ao funcionamento de um densímetro. A escala do instrumento é aferida a 20 °C, sendo necessária a correção da medida, caso a temperatura da solução não esteja na temperatura de aferição. É apresentada parte da tabela de correção de um alcoolômetro, com a temperatura.\n\nTabela de correção do alcoolômetro com temperatura 20 °C (leitura da temperatura em °C)\n°GL | 20 | 21 | 22 | 23 | 24 | 25\n35 | 35,0 | 34,6 | 34,2 | 33,8 | 33,4 | 33,0\n36 | 36,0 | 35,6 | 35,2 | 34,8 | 34,4 | 34,0\n\nManual alcoolômetro Gay Lussac. Disponível em: www.incoterm.com.br. Acesso em: 4 dez. 2018 (adaptado).\n\nÉ necessária a correção da medida do instrumento, pois um aumento na temperatura promove o(a)",
+  "options": [
+   "aumento da dissociação da água.",
+   "aumento da densidade da água e do álcool.",
+   "mudança do volume dos materiais por dilatação.",
+   "aumento da concentração de álcool durante a medida.",
+   "alteração das propriedades químicas da mistura álcool e água."
+  ]
+ }
+}

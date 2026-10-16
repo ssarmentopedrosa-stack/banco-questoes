@@ -73,7 +73,7 @@ for (const m of ["biologia", "quimica", "geografia", "natureza"]) {
     if (k === 0) { await page.screenshot({ path: OUT + `${m}_3_corrigida.png`, fullPage: true }); check((await page.getByText(/Revisada pelo Prof/).count()) === 0, `${m}: sem selo de revisada`); }
     if (k === 1 && q.explanation && q.answer !== "A") {
       await page.screenshot({ path: OUT + `${m}_3b_errou_resolucao.png`, fullPage: true });
-      check(await page.getByText("Resolução ainda não revisada pelo professor").isVisible(), `${m}: errou → resolução com aviso de não revisada`);
+      check(await page.getByText(/Resolução ainda não revisada pelo professor|Aguardando revisão do professor/).first().isVisible(), `${m}: errou → resolução com aviso de não revisada`);
       check((await page.getByTestId("reacao-tigrao").getAttribute("data-reacao")) === "erro" && (await page.getByTestId("fala-tigrao").innerText()).length > 15, `${m}: Tigrão reage ao erro com fala de treinador`);
       const rt = page.getByTestId("resolucao-topicos");
       check((await rt.getByTestId("sec-como").count()) === 1 && (await rt.locator("li").count()) >= 2 && (await rt.getByTestId("sec-resposta").innerText()).includes("Resposta: " + q.answer), `${m}: resolução em tópicos (${await rt.locator("li").count()} bullets, ${(await rt.getByTestId("sec-outras").count()) ? "com" : "sem"} 'por que as outras')`);

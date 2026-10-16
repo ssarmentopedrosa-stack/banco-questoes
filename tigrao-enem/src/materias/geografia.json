@@ -2,9 +2,10 @@
  "meta": {
   "materia": "geografia",
   "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), caderno azul; texto conferido com o PDF oficial do Inep",
-  "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2010 CN: leitura do gabarito oficial (círculos verdes) feita no pipeline de Física",
+  "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2010 CN: leitura do gabarito oficial (círculos verdes) feita no pipeline de Física; 2010 CH: AZUL_Sabado_GAB.pdf (gab/gabarito_ch_2010.json)",
   "porAno": {
    "2009": 16,
+   "2010": 13,
    "2011": 17,
    "2012": 17,
    "2013": 10,
@@ -22,20 +23,20 @@
    "2025": 9
   },
   "foraPorAno": {},
-  "total": 200,
+  "total": 213,
   "fora": {},
   "porArea": {
-   "Indústria, Economia e Globalização": 40,
+   "Indústria, Economia e Globalização": 42,
    "Urbanização e População": 39,
-   "Espaço Agrário": 26,
+   "Espaço Agrário": 30,
+   "Relevo, Solos e Geologia": 27,
+   "Meio Ambiente e Recursos": 26,
    "Clima e Hidrografia": 25,
-   "Relevo, Solos e Geologia": 24,
-   "Meio Ambiente e Recursos": 23,
    "Geopolítica e Conflitos": 14,
-   "Cartografia e Geotecnologias": 9
+   "Cartografia e Geotecnologias": 10
   },
   "doPdfOficial": 20,
-  "comExplicacao": 200,
+  "comExplicacao": 213,
   "revisadas": 0,
   "classificacao": "automática (palavras-chave) + revisão manual dos casos ambíguos pelo agente; a conferir pelo professor"
  },
@@ -771,6 +772,584 @@
    "explanation": {
     "markdown": "O nível das águas do Pantanal depende dos rios que nascem no planalto. O desmatamento e a erosão nas cabeceiras assoreiam e reduzem esses rios, por isso controlar esses processos nas nascentes é a medida mais eficaz. Barragens (E) alterariam o pulso natural de cheias. **Resposta: D**",
     "keyConcept": "as nascentes no planalto abastecem o Pantanal",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q1",
+   "year": 2010,
+   "area": "Espaço Agrário",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nFonte: Incra, Estatísticas cadastrais 1998.\n\nO gráfico representa a relação entre o tamanho e a totalidade dos imóveis rurais no Brasil. Que característica da estrutura fundiária brasileira está evidenciada no gráfico apresentado?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A concentração de terras nas mãos de poucos."
+    },
+    {
+     "letter": "B",
+     "text": "A existência de poucas terras agricultáveis."
+    },
+    {
+     "letter": "C",
+     "text": "O domínio territorial dos minifúndios."
+    },
+    {
+     "letter": "D",
+     "text": "A primazia da agricultura familiar."
+    },
+    {
+     "letter": "E",
+     "text": "A debilidade dos plantations modernos."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/geografia/2010/ENEM-CH-2010-REG-D1-C1-Q1-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 375,
+     "height": 346
+    }
+   ],
+   "number": 1,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O gráfico mostra que os imóveis acima de 1.000 ha ocupam a maior fatia da área rural (53%), embora sejam poucos. Os imóveis pequenos, mais numerosos, ficam com uma fatia mínima. Isso é concentração fundiária. Minifúndios (C) e agricultura familiar (D) não dominam a área. **Resposta: A**",
+    "keyConcept": "poucos imóveis grandes concentram a maior parte da área",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q2",
+   "year": 2010,
+   "area": "Espaço Agrário",
+   "content": null,
+   "demand": null,
+   "statement": "Antes, eram apenas as grandes cidades que se apresentavam como o império da técnica, objeto de modificações, suspensões, acréscimos, cada vez mais sofisticadas e carregadas de artifício. Esse mundo artificial inclui, hoje, o mundo rural.\n\nSANTOS, M. A Natureza do Espaço. São Paulo: Hucitec, 1996.\n\nConsiderando a transformação mencionada no texto, uma consequência socioespacial que caracteriza o atual mundo rural brasileiro é",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A redução do processo de concentração de terras."
+    },
+    {
+     "letter": "B",
+     "text": "O aumento do aproveitamento de solos menos férteis."
+    },
+    {
+     "letter": "C",
+     "text": "A ampliação do isolamento do espaço rural."
+    },
+    {
+     "letter": "D",
+     "text": "A estagnação da fronteira agrícola do país."
+    },
+    {
+     "letter": "E",
+     "text": "A diminuição do nível de emprego formal."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Milton Santos diz que o mundo rural também ficou \"artificial\": correção de solo, adubação, sementes melhoradas e máquinas. Com isso, solos antes pouco férteis, como os do Cerrado, passam a ser aproveitados. A fronteira agrícola avança (não estagna, D), e a concentração de terras não diminui (A). **Resposta: B**",
+    "keyConcept": "técnica e ciência chegam ao campo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q3",
+   "year": 2010,
+   "area": "Espaço Agrário",
+   "content": null,
+   "demand": null,
+   "statement": "A maioria das pessoas daqui era do campo. Vila Maria é hoje exportadora de trabalhadores. Empresários de Primavera do Leste, Estado de Mato Grosso, procuram o bairro de Vila Maria para conseguir mão de obra. É gente indo distante daqui 300, 400 quilômetros para ir trabalhar, para ganhar sete conto por dia. (Carlito, 43 anos, maranhense, entrevistado em 22/03/98).\n\nRibeiro, H. S. O migrante e a cidade: dilemas e conflitos. Araraquara: Wunderlich, 2001 (adaptado).\n\nO texto retrata um fenômeno vivenciado pela agricultura brasileira nas últimas décadas do século XX, consequência",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dos impactos sociais da modernização da agricultura."
+    },
+    {
+     "letter": "B",
+     "text": "Da recomposição dos salários do trabalhador rural."
+    },
+    {
+     "letter": "C",
+     "text": "Da exigência de qualificação do trabalhador rural."
+    },
+    {
+     "letter": "D",
+     "text": "Da diminuição da importância da agricultura."
+    },
+    {
+     "letter": "E",
+     "text": "Dos processos de desvalorização de áreas rurais."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Vila Maria virou \"exportadora de trabalhadores\": quem era do campo agora mora na cidade e viaja centenas de quilômetros para trabalho temporário mal pago (boia-fria). Isso é efeito social da modernização da agricultura, que mecaniza a produção e reduz o emprego fixo no campo. Salários não se recompuseram (B). **Resposta: A**",
+    "keyConcept": "mecanização expulsa o trabalhador do campo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q4",
+   "year": 2010,
+   "area": "Meio Ambiente e Recursos",
+   "content": null,
+   "demand": null,
+   "statement": "Os lixões são o pior tipo de disposição final dos resíduos sólidos de uma cidade, representando um grave problema ambiental e de saúde pública. Nesses locais, o lixo é jogado diretamente no solo e a céu aberto, sem nenhuma norma de controle, o que causa, entre outros problemas, a contaminação do solo e das águas pelo chorume (líquido escuro com alta carga poluidora, proveniente da decomposição da matéria orgânica presente no lixo).\n\nRICARDO, B.; CANPANILLI, M. Almanaque Brasil Socioambiental 2008. São Paulo, Instituto Socioambiental, 2007.\n\nConsidere um município que deposita os resíduos sólidos produzidos por sua população em um lixão. Esse procedimento é considerado um problema de saúde pública porque os lixões",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Causam problemas respiratórios, devido ao mau cheiro que provém da decomposição."
+    },
+    {
+     "letter": "B",
+     "text": "São locais propícios à proliferação de vetores de doenças, além de contaminarem o solo e as águas."
+    },
+    {
+     "letter": "C",
+     "text": "Provocam o fenômeno da chuva ácida, devido aos gases oriundos da decomposição da matéria orgânica."
+    },
+    {
+     "letter": "D",
+     "text": "São instalados próximos ao centro das cidades, afetando toda a população que circula diariamente na área."
+    },
+    {
+     "letter": "E",
+     "text": "São responsáveis pelo desaparecimento das nascentes na região onde são instalados, o que leva à escassez de água."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "No lixão, o lixo fica a céu aberto e atrai ratos, moscas e baratas, que transmitem doenças. O chorume ainda contamina o solo e as águas. Por isso é problema de saúde pública. Chuva ácida vem de gases como SO₂ e NOₓ, não do lixo (C). Lixões costumam ficar na periferia, não no centro (D). **Resposta: B**",
+    "keyConcept": "lixão atrai vetores e contamina solo e água",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q5",
+   "year": 2010,
+   "area": "Relevo, Solos e Geologia",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nTEIXEIRA. W. et al. (Orgs). Decifrando a Terra. São Paulo: Companhia Editora Nacional, 2009.\n\nO esquema representa um processo de erosão em encosta. Que prática realizada por um agricultor pode resultar em aceleração desse processo?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Plantio direto."
+    },
+    {
+     "letter": "B",
+     "text": "Associação de culturas."
+    },
+    {
+     "letter": "C",
+     "text": "Implantação de curvas de nível."
+    },
+    {
+     "letter": "D",
+     "text": "Aração do solo, do topo ao vale."
+    },
+    {
+     "letter": "E",
+     "text": "Terraceamento na propriedade."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/geografia/2010/ENEM-CH-2010-REG-D1-C1-Q5-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 604,
+     "height": 446
+    }
+   ],
+   "number": 5,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Arar do topo ao vale (no sentido da declividade) cria sulcos por onde a água da chuva escorre rápido, arrastando o solo. Isso acelera a erosão e forma sulcos, ravinas e voçorocas. Plantio direto, associação de culturas, curvas de nível e terraços (A, B, C, E) protegem o solo. **Resposta: D**",
+    "keyConcept": "arar morro abaixo abre caminho para a enxurrada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q6",
+   "year": 2010,
+   "area": "Relevo, Solos e Geologia",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nTEIXEIRA. W. et al. (Orgs). Decifrando a Terra. São Paulo: Companhia Editora Nacional, 2009.\n\nMuitos processos erosivos se concentram nas encostas, principalmente aqueles motivados pela água e pelo vento. No entanto, os reflexos também são sentidos nas áreas de baixada, onde geralmente há ocupação urbana. Um exemplo desses reflexos na vida cotidiana de muitas cidades brasileiras é",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A maior ocorrência de enchentes, já que os rios assoreados comportam menos água em seus leitos."
+    },
+    {
+     "letter": "B",
+     "text": "A contaminação da população pelos sedimentos trazidos pelo rio e carregados de matéria orgânica."
+    },
+    {
+     "letter": "C",
+     "text": "O desgaste do solo nas áreas urbanas, causado pela redução do escoamento superficial pluvial na encosta."
+    },
+    {
+     "letter": "D",
+     "text": "A maior facilidade de captação de água potável para o abastecimento público, já que é maior o efeito do escoamento sobre a infiltração."
+    },
+    {
+     "letter": "E",
+     "text": "O aumento da incidência de doenças como a amebíase na população urbana, em decorrência do escoamento de água poluída do topo das encostas."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/geografia/2010/ENEM-CH-2010-REG-D1-C1-Q6-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 604,
+     "height": 446
+    }
+   ],
+   "number": 6,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O solo arrancado das encostas vai parar nos rios da baixada e se deposita no leito (assoreamento). O rio fica mais raso e comporta menos água, e as enchentes ficam mais frequentes nas áreas urbanas. As outras alternativas não decorrem diretamente desse processo. **Resposta: A**",
+    "keyConcept": "erosão na encosta → assoreamento → enchente na baixada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q7",
+   "year": 2010,
+   "area": "Cartografia e Geotecnologias",
+   "content": null,
+   "demand": null,
+   "statement": "Pensando nas correntes e prestes a entrar no braço que deriva da Corrente do Golfo para o norte, lembrei-me de um vidro de café solúvel vazio. Coloquei no vidro uma nota cheia de zeros, uma bola cor rosa-choque. Anotei a posição e data: Latitude 49º49′ N, Longitude 23º49′ W. Tampei e joguei na água. Nunca imaginei que receberia uma carta com a foto de um menino norueguês, segurando a bolinha e a estranha nota.\n\nKLINK, A. Parati: entre dois pólos. São Paulo: Companhia das Letras, 1998 (adaptado).\n\nNo texto, o autor anota sua coordenada geográfica, que é",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A relação que se estabelece entre as distâncias representadas no mapa e as distâncias reais da superfície cartografada."
+    },
+    {
+     "letter": "B",
+     "text": "O registro de que os paralelos são verticais e convergem para os polos, e os meridianos são círculos imaginários, horizontais e equidistantes."
+    },
+    {
+     "letter": "C",
+     "text": "A informação de um conjunto de linhas imaginárias que permitem localizar um ponto ou acidente geográfico na superfície terrestre."
+    },
+    {
+     "letter": "D",
+     "text": "A latitude como distância em graus entre um ponto e o Meridiano de Greenwich, e a longitude como a distância em graus entre um ponto e o Equador."
+    },
+    {
+     "letter": "E",
+     "text": "A forma de projeção cartográfica, usado para navegação, onde os meridianos e paralelos distorcem a superfície do planeta."
+    }
+   ],
+   "figures": [],
+   "number": 7,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Latitude e longitude formam um sistema de linhas imaginárias (paralelos e meridianos) que permite localizar qualquer ponto da superfície terrestre. A é a definição de escala. B troca paralelos e meridianos. D inverte as definições: a latitude se mede a partir do Equador, e a longitude, a partir de Greenwich. **Resposta: C**",
+    "keyConcept": "coordenadas geográficas = latitude + longitude",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q8",
+   "year": 2010,
+   "area": "Relevo, Solos e Geologia",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nTEIXEIRA, W. et. al. (Orgs.) Decifrando a Terra. São Paulo: Companhia Editora Nacional, 2009 (adaptado).\n\nO esquema mostra depósitos em que aparecem fósseis de animais do Período Jurássico. As rochas em que se encontram esses fósseis são",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Magmáticas, pois a ação de vulcões causou as maiores extinções desses animais já conhecidas ao longo da história terrestre."
+    },
+    {
+     "letter": "B",
+     "text": "Sedimentares, pois os restos podem ter sido soterrados e litificados com o restante dos sedimentos."
+    },
+    {
+     "letter": "C",
+     "text": "Magmáticas, pois são as rochas mais facilmente erodidas, possibilitando a formação de tocas que foram posteriormente lacradas."
+    },
+    {
+     "letter": "D",
+     "text": "Sedimentares, já que cada uma das camadas encontradas na figura simboliza um evento de erosão dessa área representada."
+    },
+    {
+     "letter": "E",
+     "text": "Metamórficas, pois os animais representados precisavam estar perto de locais quentes."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/geografia/2010/ENEM-CH-2010-REG-D1-C1-Q8-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 518,
+     "height": 369
+    }
+   ],
+   "number": 8,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Fósseis se formam quando restos de seres vivos são soterrados por sedimentos que depois se compactam e viram rocha (litificação). Por isso aparecem em rochas sedimentares. O calor das rochas magmáticas e metamórficas destrói os restos (A, C, E). Na figura, as camadas representam deposição, e não erosão (D). **Resposta: B**",
+    "keyConcept": "fósseis se preservam em rochas sedimentares",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q9",
+   "year": 2010,
+   "area": "Indústria, Economia e Globalização",
+   "content": null,
+   "demand": null,
+   "statement": "O G-20 é o grupo que reúne os países do G-7, os mais industrializados do mundo (EUA, Japão, Alemanha, França, Reino Unido, Itália e Canadá), a União Europeia e os principais emergentes (Brasil, Rússia, Índia, China, África do Sul, Arábia Saudita, Argentina, Austrália, Coreia do Sul, Indonésia, México e Turquia). Esse grupo de países vem ganhando força nos fóruns internacionais de decisão e consulta.\n\nALLAN. R. Crise global. Disponível em: http://conteudoclippingmp.planejamento.gov.br. Acesso em: 31 jul. 2010.\n\nEntre os países emergentes que formam o G-20, estão os chamados BRIC (Brasil, Rússia, Índia e China), termo criado em 2001 para referir-se aos países que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Apresentam características econômicas promissoras para as próximas décadas."
+    },
+    {
+     "letter": "B",
+     "text": "Possuem base tecnológica mais elevada."
+    },
+    {
+     "letter": "C",
+     "text": "Apresentam índices de igualdade social e econômica mais acentuados."
+    },
+    {
+     "letter": "D",
+     "text": "Apresentam diversidade ambiental suficiente para impulsionar a economia global."
+    },
+    {
+     "letter": "E",
+     "text": "Possuem similaridades culturais capazes de alavancar a economia mundial."
+    }
+   ],
+   "figures": [],
+   "number": 9,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O termo BRIC foi criado por um economista do banco Goldman Sachs para indicar países emergentes com economias grandes e potencial de crescimento nas décadas seguintes. Eles não se destacam por igualdade social (C), por base tecnológica mais avançada (B) nem por semelhanças culturais (E). **Resposta: A**",
+    "keyConcept": "BRIC = emergentes com grande potencial de crescimento",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q14",
+   "year": 2010,
+   "area": "Indústria, Economia e Globalização",
+   "content": null,
+   "demand": null,
+   "statement": "No dia 28 de fevereiro de 1985, era inaugurada a Estrada de Ferro Carajás, pertencente e diretamente operada pela Companhia Vale do Rio Doce (CVRD), na região Norte do país, ligando o interior ao principal porto da região, em São Luís. Por seus, aproximadamente, 900 quilômetros de linha, passam, hoje, 5 353 vagões e 100 locomotivas.\n\nDisponível em: http://www.transportes.gov.br. Acesso em: 27 jul. 2010 (adaptado).\n\nA ferrovia em questão é de extrema importância para a logística do setor primário da economia brasileira, em especial para porções dos estados do Pará e Maranhão. Um argumento que destaca a importância estratégica dessa porção do território é a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Produção de energia para as principais áreas industriais do país."
+    },
+    {
+     "letter": "B",
+     "text": "Produção sustentável de recursos minerais não metálicos."
+    },
+    {
+     "letter": "C",
+     "text": "Capacidade de produção de minerais metálicos."
+    },
+    {
+     "letter": "D",
+     "text": "Logística de importação de matérias-primas industriais."
+    },
+    {
+     "letter": "E",
+     "text": "Produção de recursos minerais energéticos."
+    }
+   ],
+   "figures": [],
+   "number": 14,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "A Estrada de Ferro Carajás leva o minério de ferro (e manganês) da Serra dos Carajás, no Pará, até o porto de São Luís, de onde é exportado. A importância estratégica da região é a produção de minerais metálicos. Esses minérios não são energéticos (E) nem não metálicos (B), e a ferrovia serve à exportação, não à importação (D). **Resposta: C**",
+    "keyConcept": "Carajás = minério de ferro para exportação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q15",
+   "year": 2010,
+   "area": "Meio Ambiente e Recursos",
+   "content": null,
+   "demand": null,
+   "statement": "A usina hidrelétrica de Belo Monte será construída no rio Xingu, no município de Vitória de Xingu, no Pará. A usina será a terceira maior do mundo e a maior totalmente brasileira, com capacidade de 11,2 mil megawatts. Os índios do Xingu tomam a paisagem com seus cocares, arcos e flechas. Em Altamira, no Pará, agricultores fecharam estradas de uma região que será inundada pelas águas da usina.\n\nBACOCCINA, D.; QUEIROZ, G.; BORGES, R. Fim do leilão, começo da confusão. Istoé Dinheiro. Ano 13, n.º 655, 28 abr. 2010 (adaptado).\n\nOs impasses, resistências e desafios associados à construção da Usina Hidrelétrica de Belo Monte estão relacionados",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ao potencial hidrelétrico dos rios no norte e nordeste quando comparados às bacias hidrográficas das regiões Sul, Sudeste e Centro-Oeste do país."
+    },
+    {
+     "letter": "B",
+     "text": "À necessidade de equilibrar e compatibilizar o investimento no crescimento do país com os esforços para a conservação ambiental."
+    },
+    {
+     "letter": "C",
+     "text": "À grande quantidade de recursos disponíveis para as obras e à escassez dos recursos direcionados para o pagamento pela desapropriação das terras."
+    },
+    {
+     "letter": "D",
+     "text": "Ao direito histórico dos indígenas à posse dessas terras e à ausência de reconhecimento desse direito por parte das empreiteiras."
+    },
+    {
+     "letter": "E",
+     "text": "Ao aproveitamento da mão de obra especializada disponível na região Norte e o interesse das construtoras na vinda de profissionais do Sudeste do país."
+    }
+   ],
+   "figures": [],
+   "number": 15,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Belo Monte gera energia para o crescimento do país, mas inunda áreas, afeta povos indígenas e agricultores, o que provoca protestos. O impasse é conciliar o desenvolvimento com a conservação ambiental e social. As alternativas A, C e E não tratam desse conflito central, e D afirma algo que o texto não diz. **Resposta: B**",
+    "keyConcept": "crescimento econômico × conservação ambiental",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q17",
+   "year": 2010,
+   "area": "Espaço Agrário",
+   "content": null,
+   "demand": null,
+   "statement": "Coube aos Xavante e aos Timbira, povos indígenas do Cerrado, um recente e marcante gesto simbólico: a realização de sua tradicional corrida de toras (de buriti) em plena Avenida Paulista (SP), para denunciar o cerco de suas terras e a degradação de seus entornos pelo avanço do agronegócio.\n\nRICARDO, B.; RICARDO, F. Povos indígenas do Brasil: 2001-2005. São Paulo: Instituto Socioambiental, 2006 (adaptado).\n\nA questão indígena contemporânea no Brasil evidencia a relação dos usos socioculturais da terra com os atuais problemas socioambientais, caracterizados pelas tensões entre",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A expansão territorial do agronegócio, em especial nas regiões Centro-Oeste e Norte, e as leis de proteção indígena e ambiental."
+    },
+    {
+     "letter": "B",
+     "text": "Os grileiros articuladores do agronegócio e os povos indígenas pouco organizados no Cerrado."
+    },
+    {
+     "letter": "C",
+     "text": "As leis mais brandas sobre o uso tradicional do meio ambiente e as severas leis sobre o uso capitalista do meio ambiente."
+    },
+    {
+     "letter": "D",
+     "text": "Os povos indígenas do Cerrado e os polos econômicos representados pelas elites industriais paulistas."
+    },
+    {
+     "letter": "E",
+     "text": "O campo e a cidade no Cerrado, que faz com que as terras indígenas dali sejam alvo de invasões urbanas."
+    }
+   ],
+   "figures": [],
+   "number": 17,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Os Xavante e os Timbira protestam contra o cerco de suas terras pelo agronegócio. A tensão é entre a expansão da fronteira agrícola (Centro-Oeste e Norte) e as leis que protegem os povos indígenas e o ambiente. O texto não fala em povos \"pouco organizados\" (B): eles foram protestar na Avenida Paulista. O texto também não fala em invasões urbanas (E). **Resposta: A**",
+    "keyConcept": "avanço do agronegócio × terras indígenas e leis ambientais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q38",
+   "year": 2010,
+   "area": "Meio Ambiente e Recursos",
+   "content": null,
+   "demand": null,
+   "statement": "A poluição e outras ofensas ambientais ainda não tinham esse nome, mas já eram largamente notadas no século XIX, nas grandes cidades inglesas e continentais. E a própria chegada ao campo das estradas de ferro suscitou protestos. A reação antimaquinista, protagonizada pelos diversos luddismos, antecipa a batalha atual dos ambientalistas. Esse era, então, o combate social contra os miasmas urbanos.\n\nSANTOS M. A natureza do espaço: técnica e tempo, razão e emoção. São Paulo: EDUSP, 2002 (adaptado).\n\nO crescente desenvolvimento técnico-produtivo impõe modificações na paisagem e nos objetos culturais vivenciados pelas sociedades. De acordo com o texto, pode-se dizer que tais movimentos sociais emergiram e se expressaram por meio",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Das ideologias conservacionistas, com milhares de adeptos no meio urbano."
+    },
+    {
+     "letter": "B",
+     "text": "Das políticas governamentais de preservação dos objetos naturais e culturais."
+    },
+    {
+     "letter": "C",
+     "text": "Das teorias sobre a necessidade de harmonização entre técnica e natureza."
+    },
+    {
+     "letter": "D",
+     "text": "Dos boicotes aos produtos das empresas exploradoras e poluentes."
+    },
+    {
+     "letter": "E",
+     "text": "Da contestação à degradação do trabalho, das tradições e da natureza."
+    }
+   ],
+   "figures": [],
+   "number": 38,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Os luditas quebravam máquinas porque elas degradavam o trabalho e os modos de vida. Milton Santos liga essa reação, e os protestos contra as ferrovias, ao combate atual dos ambientalistas. Ou seja, eram movimentos de contestação à degradação do trabalho, das tradições e da natureza. No século XIX ainda não havia políticas de preservação (B). **Resposta: E**",
+    "keyConcept": "ludismo: resistência à técnica que degradava trabalho e natureza",
     "commonMistake": "",
     "lowConfidence": false,
     "author": "IA",

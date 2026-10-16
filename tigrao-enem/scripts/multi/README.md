@@ -41,3 +41,12 @@ Depois de `build.py`, rodar nesta ordem (todos idempotentes):
 3. `aplica_resolucoes.py` — lê `resolucoes/*.txt` (resoluções geradas por IA, **não revisadas pelo professor**),
    confere a letra final com o gabarito oficial e grava `explanation` (`author: "IA"`, `reviewed: false`).
    Questões em que o raciocínio não chegou com segurança ao gabarito ficam em `resolucoes_sinalizadas.json` (só gabarito).
+
+## Geografia 2010 (out/2026)
+As 45 questões de CH 2010 ficavam fora por falta de gabarito. O gabarito oficial veio do PDF do Inep
+`AZUL_Sabado_GAB.pdf` (alternativa circulada em verde, baixado via Wayback com SHA-1 conferido):
+`gab/le_gab_ch_2010.py` → `gab/gabarito_ch_2010.json` (a mesma leitura bate 45/45 com o gabarito CN 2010 já usado).
+`geografia_2010.py <dia1_caderno1_azul.pdf>` inclui as questões rotuladas em `labels/ch_geografia_2010.json`
+(13 de 45; as outras 32 são História/Filosofia/Sociologia), com as mesmas regras do build (gabarito do dataset = Inep,
+cobertura ≥ 90% do texto do PDF) e correções de digitação conferidas com o PDF. Resoluções: `resolucoes/geo_06_2010.txt`
+(IA, não revisadas). Revisão do professor: `revisao_professor_fis2021_geo2010.csv`.

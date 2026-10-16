@@ -1,0 +1,8 @@
+{
+"_doc": "ENEM 2010, 1º dia, caderno 1 azul (CH 1–45): questões rotuladas manualmente como Geografia e tema (revisão do agente, a conferir pelo professor). Q10, Q11, Q12, Q13 e Q19 têm vocabulário geográfico mas foram tratadas como História.",
+"ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 17, 38],
+"tema": {"1": "Espaço Agrário", "2": "Espaço Agrário", "3": "Espaço Agrário", "4": "Meio Ambiente e Recursos",
+ "5": "Relevo, Solos e Geologia", "6": "Relevo, Solos e Geologia", "7": "Cartografia e Geotecnologias",
+ "8": "Relevo, Solos e Geologia", "9": "Indústria, Economia e Globalização", "14": "Indústria, Economia e Globalização",
+ "15": "Meio Ambiente e Recursos", "17": "Espaço Agrário", "38": "Meio Ambiente e Recursos"}
+}
