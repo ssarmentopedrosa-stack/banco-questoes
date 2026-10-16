@@ -7,7 +7,7 @@ import { readFileSync, mkdirSync } from "node:fs";
 const OUT = (process.argv[2] ?? new URL("../prints/materias/", import.meta.url).pathname).replace(/\/?$/, "/");
 mkdirSync(OUT, { recursive: true });
 const ler = (f) => JSON.parse(readFileSync(new URL("../src/" + f, import.meta.url))).questions;
-const BANCO = { fisica: ler("questoes.json"), biologia: ler("materias/biologia.json"), quimica: ler("materias/quimica.json"), geografia: ler("materias/geografia.json") };
+const BANCO = { fisica: ler("questoes.json"), biologia: ler("materias/biologia.json"), quimica: ler("materias/quimica.json"), geografia: ler("materias/geografia.json"), portugues: ler("materias/portugues.json") };
 BANCO.natureza = [...BANCO.fisica, ...BANCO.biologia, ...BANCO.quimica];
 const PORT = 4191;
 const server = await preview({ root: new URL("..", import.meta.url).pathname, preview: { port: PORT, host: "127.0.0.1" } });
@@ -49,7 +49,7 @@ check(await page.getByText("420 XP").first().isVisible(), "XP de Física preserv
 const xpFis = (await st("fisica")).xp;
 
 // 2) cada matéria: escolha, home, prática com figura, mini-simulado completo
-for (const m of ["biologia", "quimica", "geografia", "natureza"]) {
+for (const m of ["biologia", "quimica", "geografia", "portugues", "natureza"]) {
   await page.getByTestId("trocar-materia").click(); await wait(500);
   check(await page.getByTestId("materia-" + m).isVisible(), `${m}: tela de escolha aparece`);
   if (m === "biologia") { check((await page.getByTestId("materia-fisica").innerText()).includes("420 XP"), "card de Física mostra o XP salvo"); await page.screenshot({ path: OUT + "00_escolha.png" }); }

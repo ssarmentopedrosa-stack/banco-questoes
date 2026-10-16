@@ -1,0 +1,329 @@
+@2013-97
+M: ef
+@2013-98
+M: pt
+T: N
+K: 1ª pessoa do plural
+As formas "controlamos" e "somos controlados" incluem o leitor no ponto de vista do autor. Ele é copartícipe: manipula as tecnologias e é manipulado por elas. **Resposta: D**
+@2013-99
+M: pt
+T: L
+K: Jorge de Lima: negritude
+O eu lírico afirma que a alma negra não será apagada e que a "raça que te enforca" se enforca de tédio. Há preservação da memória ancestral e resistência à apatia dos brancos. **Resposta: B**
+@2013-100
+M: pt
+T: V
+K: linguagem coloquial
+Expressões como "Levanta aí", "pode crer" e "Se liga aí" tornam a letra espontânea e coloquial. **Resposta: D**
+@2013-101
+M: pt
+T: G
+K: metáfora da memória
+Cada retalho da manta corresponde a uma história contada na família. A manta vale pela correlação entre os retalhos e as histórias de tradição oral. **Resposta: E**
+@2013-102
+M: pt
+T: M
+K: hipertextualidade
+Para Ramal, o hipertexto redefine os papéis de autor e leitor. É um novo modo de ler e de organizar a escrita. **Resposta: C**
+@2013-103
+M: pt
+T: G
+K: verbal × não verbal
+O cartaz relaciona o aquecimento global às atitudes humanas: a agressão ao planeta depende da posição que o homem assume diante dos problemas ambientais. **Resposta: E**
+@2013-104
+M: pt
+T: F
+K: metalinguagem
+O poeta discute o próprio ato de escrever o poema sobre a "rapariga", cujo sentido muda no Brasil. É a tematização do fazer artístico. **Resposta: D**
+@2013-105
+M: pt
+T: G
+K: texto legal
+A lei precisa ser precisa. Por isso usa palavras e construções que evitam ambiguidade, como as definições de criança e adolescente. **Resposta: B**
+@2013-106
+M: pt
+T: M
+K: redes e mobilização
+A queda de Mubarak, organizada pelas redes sociais, confirma Castells: os sistemas de comunicação permitem aderir a valores e compartilhá-los. **Resposta: E**
+@2013-107
+M: pt
+T: G
+K: tombamento e coerência
+O tombamento protege imóveis de valor histórico. Concordar com ele é dizer que o patrimônio da cidade deve ser preservado. **Resposta: E**
+@2013-108
+M: ef
+@2013-109
+M: arte
+@2013-110
+M: pt
+T: G
+K: leitura de cartum
+Entre figuras iguais e padronizadas, a que se destaca representa quem resiste à uniformização, uma reação ao controle do pensamento coletivo. **Resposta: E**
+@2013-111
+M: ef
+@2013-112
+M: pt
+T: N
+K: pontuação por extenso
+"Não física, dois pontos" substitui o sinal pela palavra. O recurso estilístico anuncia o exemplo que vem a seguir, encadeando as ideias. **Resposta: C**
+@2013-113
+M: pt
+T: L
+K: efeito poético
+O texto de Adélia Prado não narra um fato real nem defende uma tese. Ele surpreende pelo efeito poético do final ("os cacos voaram sem nenhum aplauso. Perfeita."). **Resposta: B**
+@2013-115
+M: pt
+T: L
+K: repetição intensificadora
+O repórter repete "muitos meninos" e "empilhados, espremidos, esmagados de corpo e alma". A insistência intensifica a ideia de opressão física e moral, que gera ódio. **Resposta: A**
+@2013-116
+M: pt
+T: L
+K: Parnasianismo: máscara
+Muitos que riem escondem uma dor e só "parecem venturosos" aos outros. A necessidade de aceitação leva à dissimulação. **Resposta: A**
+@2013-117
+M: arte
+@2013-118
+M: pt
+T: V
+K: marca de informalidade
+"Pra valer" é uma expressão coloquial, uma marca de informalidade no texto jornalístico. **Resposta: D**
+@2013-119
+M: pt
+T: N
+K: oração adversativa
+Na charge, a oração adversativa ("mas...") quebra a expectativa no final e produz o humor. **Resposta: A**
+@2013-120
+M: pt
+T: G
+K: ironia urbana
+A imagem e as palavras ironizam a dificuldade de se mover no trânsito urbano, travado pelo excesso de veículos. **Resposta: B**
+@2013-121
+M: pt
+T: N
+K: elipse do sujeito
+Em "Supõe-se que fizesse referência...", o sujeito de "fizesse" ("o segundo" vocábulo, "gripe") fica implícito. É coesão por elipse. **Resposta: E**
+@2013-122
+M: pt
+T: L
+K: Machado: antirromantismo
+O tique-taque não conta mais "instantes perdidos", e sim "minutos ganhados". O relógio materializa o tempo e põe em xeque o idealismo romântico de Brás. **Resposta: D**
+@2013-123
+M: pt
+T: M
+K: comércio da distração
+Para Carr, as empresas de internet lucram mantendo-nos famintos por informação fragmentada. Elas tiram proveito da nossa atenção frágil. **Resposta: E**
+@2013-124
+M: pt
+T: L
+K: Clarice: narrador reflexivo
+O narrador de "A hora da estrela" medita sobre a origem da vida e sobre o próprio ato de narrar ("estou escrevendo na hora mesma em que sou lido"). **Resposta: C**
+@2013-125
+M: pt
+T: G
+K: divulgação científica
+O Texto II se opõe ao I ao dizer que a natureza "planejou que você a produzisse em sua pele": a vitamina D vem mais do corpo do que dos alimentos. **Resposta: C**
+@2013-126
+M: pt
+T: M
+K: escrita e tecnologia
+O texto vê a informática como desdobramento da escrita e da tradição oral. A escrita é a base essencial do progresso das tecnologias de comunicação. **Resposta: E**
+@2013-128
+M: pt
+T: F
+K: função metalinguística
+O texto reflete sobre os princípios que estruturam a forma e o conteúdo de uma obra, ou seja, fala da própria linguagem. **Resposta: D**
+@2013-130
+M: pt
+T: G
+K: "Na verdade"
+"Na verdade" anuncia uma correção do senso comum. O autor traz dados pouco divulgados (mais de 300 povos, 180 línguas) para defender a diversidade e o respeito aos indígenas. **Resposta: E**
+@2013-131
+M: pt
+T: M
+K: tirinha crítica
+A tirinha ironiza o uso social da tecnologia para interagir e se informar. A postura do autor é crítica. **Resposta: A**
+@2013-132
+M: pt
+T: V
+K: humor por quebra de expectativa
+Perguntaram como se pronuncia o nome do bicho, mas o compadre responde que ele passou rápido demais. Ele desconsidera o conteúdo linguístico da pergunta. **Resposta: C**
+@2013-134
+M: pt
+T: M
+K: cyberbullying
+No meio virtual, o agressor pode se esconder no anonimato, e isso dificulta identificá-lo. **Resposta: B**
+@2014-96
+M: pt
+T: G
+K: relação entre textos
+A notícia mostra que as doações cresceram, e o cartaz pede mais doações. Os textos se complementam. **Resposta: B**
+@2014-97
+M: ef
+@2014-98
+M: ef
+@2014-99
+M: pt
+T: L
+K: campo, cidade e violência
+Nos dois fragmentos, a pobreza do campo e a falta de oportunidades na cidade levam os personagens à criminalidade. **Resposta: C**
+@2014-100
+M: pt
+T: L
+K: aforismo
+"O que ela quer da gente é coragem" é uma máxima concisa sobre a vida, à maneira de um aforismo. **Resposta: D**
+@2014-101
+M: pt
+T: N
+K: coesão catafórica
+"Nisso" antecipa o trecho que vem logo depois: "botar a cara na janela em crônica de jornal". **Resposta: A**
+@2014-102
+M: arte
+@2014-103
+M: pt
+T: G
+K: posicionamento polêmico
+Marisa Lajolo questiona a ideia corrente de que há uma "crise da leitura", apoiando-se em dados de pesquisas acadêmicas. **Resposta: D**
+@2014-104
+M: pt
+T: V
+K: adequação linguística
+Para Possenti, não há um único português correto. Dominar a língua é adequar as formas a cada tipo de texto e contexto. **Resposta: D**
+@2014-105
+M: pt
+T: G
+K: metáfora do pesadelo
+A metáfora do pesadelo dá a dimensão do sofrimento da criança abusada e reforça a importância de denunciar. **Resposta: C**
+@2014-106
+M: pt
+T: V
+K: marcador conversacional
+O "né" repetido é um marcador conversacional: serve para manter o contato com o ouvinte na interação oral. **Resposta: B**
+@2014-108
+M: pt
+T: L
+K: Bandeira: cotidiano
+O poema enumera brinquedos simples de camelô e os transforma em lirismo. Traduz em linguagem lírica um mosaico de coisas corriqueiras. **Resposta: C**
+@2014-109
+M: pt
+T: L
+K: ironia machadiana
+Brás diz que a crueldade de Cotrim com os escravos era mero "efeito de relações sociais", ironia que expõe a hipocrisia do "modelo" de honradez. **Resposta: B**
+@2014-110
+M: pt
+T: F
+K: metalinguagem
+Vinicius escreve uma crônica sobre as dificuldades de escrever crônicas. O texto fala de si mesmo: é metalinguagem. **Resposta: E**
+@2014-111
+M: pt
+T: N
+K: modalização
+Em "deve acabar logo, em 2050", o verbo "dever" indica probabilidade. Expressa uma previsão trágica sobre a água potável. **Resposta: D**
+@2014-112
+M: pt
+T: M
+K: TV do futuro
+O texto anuncia uma TV com recursos de ponta que atenderão aos desejos e escolhas de cada espectador. **Resposta: B**
+@2014-113
+M: pt
+T: L
+K: Gregório de Matos
+Comparar a saída de um governante à libertação dos hebreus do Faraó ("o Faraó do povo brasileiro") é uma crítica velada ao governo. **Resposta: C**
+@2014-114
+M: pt
+T: G
+K: argumento por dados
+O texto comprova a mudança no gosto musical com uma pesquisa que mostra o sertanejo como preferido hoje. **Resposta: A**
+@2014-115
+M: pt
+T: G
+K: perguntas direcionadas
+O anúncio de recrutamento traça o perfil desejado com perguntas dirigidas ao leitor, o que torna o texto dinâmico e interativo. **Resposta: B**
+@2014-116
+M: pt
+T: M
+K: linotipo e acesso
+Ao acelerar a composição, a linotipo barateou livros e jornais. Tornou acessíveis os materiais informativos. **Resposta: D**
+@2014-117
+M: pt
+T: G
+K: cordel e identidade
+Imprimir à mão e ilustrar com xilogravura preserva a essência e a identidade da tradição do cordel. **Resposta: E**
+@2014-118
+M: pt
+T: V
+K: variação histórica
+Sabino mostra palavras que caem em desuso ("defluxo", "trem de ferro"). A inovação lexical se percebe comparando as gerações. **Resposta: B**
+@2014-119
+M: pt
+T: L
+K: Augusto dos Anjos
+O poema mantém o soneto, a métrica e a rima, de herança parnasiana e simbolista, mas usa vocabulário científico e temas mórbidos. É uma poesia de transição. **Resposta: D**
+@2014-120
+M: pt
+T: L
+K: crônica irônica
+A crônica de Dalton Trevisan mostra com malícia a convivência dos vizinhos e as propostas insinuantes do velho Abílio. **Resposta: C**
+@2014-121
+M: pt
+T: G
+K: editorial
+O editorial retoma uma notícia já publicada e a interpreta criticamente, com a opinião do jornal sobre um tema relevante. **Resposta: D**
+@2014-122
+M: arte
+@2014-123
+M: arte
+@2014-124
+M: pt
+T: L
+K: Cruz e Sousa: dor silenciosa
+O soneto mostra um "ser humilde" que sofre em silêncio uma "cruz infernal". A dor calada pode ser lida como reflexo da discriminação vivida pelo poeta. **Resposta: A**
+@2014-125
+M: pt
+T: V
+K: humor por contraste
+Verissimo conta o nascimento de Jesus com gírias ("plá", "flagraram", "dicavam"). O humor vem do contraste entre o tema sagrado e a linguagem. **Resposta: E**
+@2014-126
+M: arte
+@2014-127
+M: pt
+T: F
+K: polissemia na charge
+"Quadro dramático" remete ao quadro de Picasso e à situação dramática do trânsito no carnaval. **Resposta: E**
+@2014-128
+M: pt
+T: N
+K: "mas" argumentativo
+Em cada par de versos, o "mas" introduz o argumento mais forte da sequência: denunciar ("avisar aos outros"). **Resposta: C**
+@2014-129
+M: pt
+T: V
+K: regionalismo
+"Cabras", no sentido de "sujeitos", e a contração "pr'esses" marcam o falar popular nordestino. **Resposta: C**
+@2014-130
+M: pt
+T: M
+K: segurança da informação
+O texto defende fomentar empresas nacionais de software e hardware de segurança, ou seja, promover a indústria de segurança da informação. **Resposta: B**
+@2014-131
+M: pt
+T: M
+K: selfies
+O robô em Marte tirando "selfie" critica a circulação digital excessiva de autorretratos. **Resposta: C**
+@2014-132
+M: pt
+T: G
+K: uso dos ditados
+Prima Constança usa os ditados para justificar as próprias vontades, como se fossem desígnios de Deus. **Resposta: C**
+@2014-133
+M: arte
+@2014-134
+M: pt
+T: V
+K: empréstimos linguísticos
+As palavras indígenas, africanas e dos imigrantes guardam marcas da história do país: a colonização e a imigração. **Resposta: A**
+@2014-135
+M: pt
+T: G
+K: linguagem visual
+Associar a arma ao megafone transforma o instrumento de violência em instrumento de voz. A propaganda defende a palavra no lugar da agressão. **Resposta: B**

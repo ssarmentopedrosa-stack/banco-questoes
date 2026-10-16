@@ -1,0 +1,343 @@
+@2011-96
+M: ef
+@2011-97
+M: pt
+T: M
+K: amizade virtual
+Na amizade assimétrica, um segue o outro sem reciprocidade, como seguidores de perfis. Ela aproxima pessoas por interesses comuns. **Resposta: D**
+@2011-98
+M: pt
+T: M
+K: hipertexto
+O hipertexto não é linear. O leitor escolhe o próprio percurso entre os links, sem sequência predeterminada. **Resposta: E**
+@2011-99
+M: pt
+T: L
+K: Morte e Vida Severina
+Severino se define por traços que muitos compartilham: o nome, a mãe Maria, a serra, a vida curta. Ele representa todos os retirantes que vivem a mesma condição. **Resposta: C**
+@2011-100
+M: pt
+T: G
+K: intertextualidade na propaganda
+O anúncio de "Noites do Terror" só é entendido quando se reconhece o dito popular que ele retoma e modifica. **Resposta: D**
+@2011-101
+M: pt
+T: L
+K: ironia em Noel Rosa
+A canção pergunta, ironicamente, de onde vem a riqueza de quem não tem herança nem trabalho conhecido. A crítica ao enriquecimento duvidoso continua atual. **Resposta: A**
+@2011-102
+M: pt
+T: L
+K: Guimarães Rosa: agregados
+Riobaldo mostra que Zé-Zim não cria nada porque, como agregado e meeiro, pode ser mandado embora a qualquer momento. A dupla condição de homem livre e dependente dificulta sua vida. **Resposta: D**
+@2011-103
+M: pt
+T: M
+K: suportes do texto
+O cronista diz que os poemas de cordel e os livros vão sobreviver em novos formatos. Os textos continuarão vivos, ainda que o papel desapareça. **Resposta: D**
+@2011-104
+M: pt
+T: V
+K: valorização da fala popular
+Noel Rosa diz que "o samba não tem tradução" no francês nem no inglês e defende a gíria do morro. É a valorização da fala popular brasileira como identidade. **Resposta: C**
+@2011-105
+M: ef
+@2011-106
+M: pt
+T: N
+K: coesão sequencial
+"Além disso" acrescenta uma nova informação às anteriores, marcando a sequência das ideias. Em "mas também", não há contraste, e sim adição. **Resposta: A**
+@2011-107
+M: arte
+@2011-108
+M: ef
+@2011-109
+M: pt
+T: G
+K: objetivo argumentativo
+O autor retoma Cícero para mostrar que cada idade tem seus encantos. O objetivo é mostrar que é possível aceitar o envelhecimento sem angústia. **Resposta: E**
+@2011-110
+M: arte
+@2011-111
+M: pt
+T: G
+K: anedota
+O texto é curto, tem enredo simples e termina numa tirada engraçada ("feiura caprichada"). É uma anedota. **Resposta: A**
+@2011-112
+M: arte
+@2011-113
+M: pt
+T: L
+K: Bandeira: efemeridade
+A vida aparentemente parada da estrada e o "murmúrio da água" sugerem ao eu lírico que "a vida passa". É a percepção da efemeridade da vida. **Resposta: B**
+@2011-114
+M: arte
+@2011-115
+M: pt
+T: G
+K: argumentação crítica
+O autor afirma que saber ler e escrever não basta: é preciso romper o ciclo da pobreza. Ele faz uma avaliação crítica da condição cidadã no Brasil. **Resposta: D**
+@2011-116
+M: pt
+T: L
+K: Gilka Machado
+O poema explora os vários sentidos de "língua" (órgão, idioma, linguagem amorosa) para construir uma essência feminina erotizada. Também inova no léxico ("língua-lama", "língua-resplendor"). **Resposta: E**
+@2011-117
+M: pt
+T: L
+K: Naturalismo: O Cortiço
+O chorado baiano, sensual e vibrante, "rompe" com o fado nostálgico e arrasta todos. A música brasileira se impõe e cala a portuguesa. **Resposta: C**
+@2011-118
+M: pt
+T: L
+K: metapoesia e memória
+O poema mostra que "guardar" é olhar e admirar, e que é isso que o poema faz. A literatura preserva a subjetividade e os valores humanos. **Resposta: C**
+@2011-119
+M: pt
+T: V
+K: língua geral
+Teyssier mostra que, nas famílias coloniais, se falava a língua dos índios em casa e se aprendia o português na escola. Houve convivência pacífica entre o português e o tupi. **Resposta: E**
+@2011-120
+M: pt
+T: F
+K: função emotiva
+O eu lírico fala da própria dor e dos próprios sentimentos ("A dor que foi maior...", "eu vou voltar pra mim"). É a função emotiva. **Resposta: A**
+@2011-122
+M: pt
+T: F
+K: metalinguagem publicitária
+O anúncio do Conar destaca e "suprime" um trecho para falar da própria publicidade enganosa. Usa a metalinguagem para subverter o fazer publicitário. **Resposta: D**
+@2011-123
+M: pt
+T: G
+K: finalidade do anúncio
+O anúncio explica o que o Conar faz e como o consumidor pode reclamar de uma propaganda enganosa. O objetivo é informar o público sobre a atuação do órgão. **Resposta: A**
+@2011-125
+M: pt
+T: V
+K: língua e identidade
+O texto apresenta a língua como "algo vivo", a melhor expressão da brasilidade. Destaca a importância da língua para a identidade nacional. **Resposta: B**
+@2011-126
+M: pt
+T: G
+K: carta do leitor
+Os dois leitores criticam a falta de ação preventiva dos governantes diante das tragédias. Apontam a incapacidade política de resolver as mazelas sociais. **Resposta: C**
+@2011-127
+M: pt
+T: G
+K: propaganda e imagem
+O saco de açúcar com forma de corpo fora de forma e o mote "Mude sua embalagem" associam o açúcar à barriga. Sugerem trocar o açúcar pelo adoçante. **Resposta: D**
+@2011-128
+M: pt
+T: V
+K: norma brasileira
+Callou mostra que há usos que configuram uma norma nacional brasileira, diferente da de Portugal, além das normas regionais prestigiadas ou estigmatizadas. **Resposta: C**
+@2011-129
+M: pt
+T: N
+K: pronome reto × oblíquo
+Na norma-padrão, o pronome reto ("ele") é sujeito, e o oblíquo ("o") é objeto. Usar o reto como objeto contraria a marcação das funções sintáticas. **Resposta: B**
+@2011-130
+M: pt
+T: V
+K: variação lexical regional
+Aipim, macaxeira e mandioca designam a mesma planta em regiões diferentes. É variação lexical regional. **Resposta: A**
+@2011-131
+M: pt
+T: V
+K: variação e norma
+O texto diz que certos usos aparecem até em quem domina a variedade padrão, porque revelam tendências da língua. Esses falantes confirmam a variação. **Resposta: B**
+@2011-132
+M: pt
+T: M
+K: tecnologia e identidade
+Ao traduzir "mouse" e "windows" para o guarani ("angojhá", "oventã"), a tribo usa a nova tecnologia e preserva o próprio idioma e a identidade. **Resposta: C**
+@2011-133
+M: ef
+@2011-134
+M: pt
+T: M
+K: charge evolucionista
+A charge mostra a "evolução" que termina num homem curvado diante do computador. É um homem dependente do novo modelo tecnológico. **Resposta: A**
+@2011-135
+M: pt
+T: M
+K: concisão no Twitter
+O limite de 140 caracteres obriga a escrever frases concisas, claras e objetivas, o que potencializa a comunicação. **Resposta: E**
+@2012-96
+M: ef
+@2012-97
+M: pt
+T: M
+K: novos suportes
+O anúncio oferece a revista em versão digital, para tablets e computadores. A tecnologia mudou a forma de consumir e ofertar revistas e livros. **Resposta: A**
+@2012-98
+M: pt
+T: L
+K: memória literária
+Digitalizar o acervo inédito de Alencar ajuda a preservar a memória literária e a descobrir as várias facetas do autor. **Resposta: D**
+@2012-99
+M: pt
+T: V
+K: marcas da oralidade
+O relato tem pausas ("…"), alongamentos ("a::"), risos e linguagem informal. Essas marcas o caracterizam como modalidade falada. **Resposta: A**
+@2012-100
+M: ef
+@2012-101
+M: pt
+T: L
+K: o títere
+O personagem pensa manipular os "cordéis de seus títeres", mas ele mesmo vira "títere voluntário" para subir na vida. A crítica está nessa imagem do fantoche. **Resposta: A**
+@2012-102
+M: pt
+T: F
+K: metáfora e tempo
+"Muito peixe foi embrulhado pelas folhas de jornal" indica que muito tempo passou entre os dois fragmentos. A relação é de temporalidade. **Resposta: B**
+@2012-103
+M: pt
+T: F
+K: polissemia
+A charge joga com os dois sentidos de "rede social": a rede de dormir dos pobres e a rede social da internet. É polissemia. **Resposta: A**
+@2012-104
+M: pt
+T: M
+K: texto eletrônico (Chartier)
+No texto eletrônico, todos podem ler e escrever. A internet dá acesso livre e imediato às informações e permite trocar opiniões, o que realiza a universalidade e a interatividade. **Resposta: A**
+@2012-105
+M: pt
+T: V
+K: formas de tratamento
+O "senhor" usado no meio de uma roda em que todos se tratavam por "você" criou distância. É o que diz o trecho: ergueu "um muro frio e triste". **Resposta: A**
+@2012-106
+M: pt
+T: G
+K: estratégia persuasiva
+No terceiro quadrinho, o vendedor ajusta o discurso ao que a cliente deseja e consegue convencê-la. A estratégia é de indução. **Resposta: E**
+@2012-107
+M: pt
+T: G
+K: argumentação
+O texto sustenta que não somos tão especiais com exemplos de animais (inteligência, cultura) comparados aos humanos. **Resposta: B**
+@2012-108
+M: pt
+T: V
+K: variação histórica do léxico
+Palavras como "pirralhos", "arear" e "tugir" caíram em desuso. O léxico do português varia e se renova ao longo do tempo. **Resposta: E**
+@2012-110
+M: pt
+T: V
+K: lúdico na fala popular
+Manoel de Barros se encanta com os "erros" ("voltou de ateu", "não sei a ler"), que ganham sentidos poéticos. Valoriza a dimensão lúdica e poética da fala coloquial. **Resposta: E**
+@2012-111
+M: pt
+T: G
+K: linguagem radiofônica
+A letra da Blitz imita um recado de rádio: é simples e se dirige ao ouvinte ("Oh! Arlindo Orlando volte"). São os traços apontados pelo Texto I. **Resposta: A**
+@2012-112
+M: pt
+T: L
+K: Cecília Meireles: poder das palavras
+"Reis, impérios, povos, tempos, / pelo vosso impulso rodam": as palavras movem as relações humanas em todas as esferas. **Resposta: B**
+@2012-113
+M: pt
+T: L
+K: Manoel de Barros: insignificância
+Pote Cru vive entre restos e coisas desprezíveis ("trapos", "vísceras", "dálias secas"). O eu lírico o segue nessa opção pela insignificância das coisas. **Resposta: E**
+@2012-114
+M: pt
+T: G
+K: cartaz educativo
+O cartaz da biblioteca orienta como os usuários devem se comportar (silêncio, cuidado com os livros). A função é educativa. **Resposta: D**
+@2012-115
+M: ef
+@2012-116
+M: pt
+T: L
+K: Classicismo
+O soneto de Camões e a pintura de Rafael idealizam a mulher serena, moderada e equilibrada, ideal renascentista. **Resposta: C**
+@2012-117
+M: pt
+T: L
+K: papéis de gênero
+O poema contrapõe a liberdade dos irmãos à reclusão e ao serviço da irmã. Os papéis de gênero produzem realizações desiguais. **Resposta: E**
+@2012-118
+M: pt
+T: L
+K: ironia de Verissimo
+A "sedução" propõe juntar rendas e ser "meio felizes", ironizando os valores medianos da sociedade. O título reforça a ironia. **Resposta: B**
+@2012-119
+M: pt
+T: G
+K: carta do leitor
+O leitor contesta o enfoque da reportagem e propõe novas ideias, como pensar nos filhos e no acordo amigável. **Resposta: E**
+@2012-120
+M: pt
+T: M
+K: texto de divulgação
+O texto apresenta a extensão SendLater, que amplia a função do e-mail ao permitir o envio agendado. **Resposta: E**
+@2012-121
+M: arte
+@2012-122
+M: arte
+@2012-123
+M: pt
+T: V
+K: norma-padrão
+O cronista reconhece que o amigo tinha razão quanto à grafia. Em textos escritos formais, a norma-padrão é necessária. **Resposta: B**
+@2012-124
+M: pt
+T: L
+K: Policarpo Quaresma
+Policarpo percebe que a pátria em que acreditava era um mito construído no gabinete, com cordialidade do povo, riqueza da terra e heróis. **Resposta: C**
+@2012-125
+M: pt
+T: M
+K: excesso de informação
+Há tanta notícia que o leitor não tem tempo de assimilá-la. A oferta de informação é incoerente com o tempo de que as pessoas dispõem. **Resposta: D**
+@2012-126
+M: pt
+T: L
+K: poesia marginal e ditadura
+Morcegos, hienas, um "porco belicoso de radar" e "centuriões sentinelas" são alegorias fortes da repressão dos anos 1970. **Resposta: D**
+@2012-127
+M: pt
+T: F
+K: função emotiva
+O cronista fala do próprio estado ("Estou nervoso. Estou zangado"). Sua atitude se sobrepõe ao assunto. **Resposta: B**
+@2012-128
+M: pt
+T: V
+K: adequação ao gênero
+Bagno usa a norma-padrão porque a entrevista para um informativo editorial exige linguagem mais formal. Ele adapta o nível de linguagem à situação. **Resposta: A**
+@2012-129
+M: pt
+T: V
+K: léxico e cultura
+O texto mostra que as línguas diferem no vocabulário conforme a cultura de seus falantes, sem diferença de qualidade entre elas. **Resposta: D**
+@2012-130
+M: pt
+T: V
+K: mudança linguística
+Callou mostra que "ter" no lugar de "haver" é um processo antigo e natural da língua. Condená-lo por purismo atrapalha entender como a língua se constituiu. **Resposta: E**
+@2012-131
+M: arte
+@2012-132
+M: pt
+T: G
+K: intertexto e objetivo
+"Lugar de mulher também é na oficina" retoma o ditado machista para mostrar que a situação das mulheres mudou, com o salto nas matrículas. **Resposta: A**
+@2012-133
+M: pt
+T: G
+K: publicidade sustentável
+A peça convence o leitor a consumir com responsabilidade ecológica. **Resposta: E**
+@2012-134
+M: pt
+T: F
+K: metáfora
+O personagem "bebe" paisagens, músicas e quadros. O sentido literal de beber vira metáfora, daí a ironia de morrer de "etilismo abstrato". **Resposta: A**
+@2012-135
+M: pt
+T: L
+K: Mário de Andrade: identidade
+"Sou um tupi tangendo um alaúde" junta o primitivo nacional e o instrumento europeu. A identidade brasileira aparece como síntese problemática. **Resposta: D**

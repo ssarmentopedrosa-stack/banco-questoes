@@ -1,0 +1,343 @@
+@2015-96
+M: pt
+T: G
+K: imprensa e cidadania
+A campanha da ABI liga informação e opinião: o cidadão só forma sua opinião se tiver acesso à informação. **Resposta: E**
+@2015-97
+M: ef
+@2015-98
+M: pt
+T: L
+K: humor e ironia
+A "história da humanidade" em frases curtas vai do homem nu ao "alguém apagou a luz" e ao "cada um se vira como pode". Transita entre humor e ironia para celebrar o caos da vida. **Resposta: D**
+@2015-99
+M: pt
+T: L
+K: Cecília Meireles: renovação
+O eu lírico mostra que morremos e nos renovamos todos os dias no amor, na tristeza e no desejo. Emocionar-se é o que sublima e eterniza. **Resposta: A**
+@2015-100
+M: pt
+T: V
+K: coloquialismo
+Expressões populares como "essa pequena" e "valeu a pena" aproximam a letra do ouvinte e marcam a variedade coloquial. **Resposta: B**
+@2015-101
+M: pt
+T: G
+K: canção-carta
+O eu poético escreve a Tom Jobim e relembra com saudade a Ipanema de antes. Os dois trocam notícias, em tom nostálgico, sobre as mudanças da cidade. **Resposta: B**
+@2015-102
+M: pt
+T: F
+K: função referencial
+O texto informa as consequências de jogar resíduos na privada e orienta onde descartá-los. Esse é o lado referencial do texto. **Resposta: B**
+@2015-103
+M: pt
+T: G
+K: finalidade do texto
+O texto mostra o volume de lixo nas rodovias e seus riscos. Quer conscientizar sobre a preservação ambiental e a segurança no trânsito. **Resposta: E**
+@2015-104
+M: pt
+T: L
+K: poesia concreta
+O poema quebra as palavras em pedaços ("pou coa pou coa pag amo meu"), encenando a memória que se apaga aos poucos. **Resposta: D**
+@2015-105
+M: pt
+T: M
+K: sociedade da informação
+Na sociedade da informação, a informação é usada intensamente em todos os setores da vida social. **Resposta: E**
+@2015-106
+M: pt
+T: M
+K: escrita digital
+O texto defende que a escola ensine o aluno a perceber o que é próprio de cada linguagem em cada ambiente digital. **Resposta: E**
+@2015-107
+M: pt
+T: L
+K: Bilac: ufanismo
+O poema promete que quem trabalha a terra "vê pago o seu esforço, e é feliz, e enriquece". A prosperidade individual depende só da terra exuberante, não de políticas de governo. **Resposta: B**
+@2015-109
+M: pt
+T: V
+K: herança iorubá
+Misturar o iorubá ao português mostra a marca da cultura africana, que continua viva na música brasileira. **Resposta: B**
+@2015-110
+M: arte
+@2015-111
+M: arte
+@2015-112
+M: arte
+@2015-113
+M: pt
+T: N
+K: neologismo
+"Sambódromo" usa o modelo de hipódromo e autódromo para nomear algo novo. Mostra o dinamismo da língua na criação de palavras. **Resposta: A**
+@2015-114
+M: pt
+T: M
+K: redes sociais e trabalho
+Segundo a pesquisa, o perfil nas redes permite ao empregador avaliar informações pessoais e comportamentais do candidato. **Resposta: D**
+@2015-115
+M: pt
+T: V
+K: oralidade indígena
+Nas sociedades indígenas, a transmissão oral preserva e passa adiante os saberes e a memória cultural dos povos. **Resposta: B**
+@2015-116
+M: pt
+T: V
+K: rotacismo
+Em "tarvez" e "sorto", o L em fim de sílaba vira R. É a mesma regra fonológica, o rotacismo. **Resposta: B**
+@2015-117
+M: pt
+T: G
+K: relatório oficial subjetivo
+O relatório de Graciliano foge da impessoalidade esperada no gênero: usa linguagem subjetiva, irônica e emotiva. **Resposta: E**
+@2015-119
+M: pt
+T: L
+K: metapoesia
+A garrafa contém e se contém até explodir "numa explosão de diamantes". É a imagem da palavra poética, que se contém, amadurece e se transforma. **Resposta: D**
+@2015-120
+M: pt
+T: V
+K: desuso lexical
+O autor mostra que palavras como "pinchar" caem em desuso porque são vistas como caipiras. O abandono de vocábulos se liga a preconceitos socioculturais. **Resposta: C**
+@2015-121
+M: pt
+T: G
+K: projeto de leitura
+Imprimir poemas em sacos de pão leva a literatura a públicos diversos, no dia a dia. **Resposta: D**
+@2015-122
+M: pt
+T: V
+K: saber indígena
+"Itaorna" quer dizer "pedra podre" em tupinambá. Se o acervo linguístico indígena fosse conhecido e valorizado, o risco do solo seria previsto. **Resposta: A**
+@2015-123
+M: pt
+T: V
+K: grau de formalidade
+"Causadora de problemas" troca a expressão informal "por trás de encrencas" por uma formal, mantendo o sentido. As outras substituições continuam informais. **Resposta: E**
+@2015-124
+M: ef
+@2015-125
+M: pt
+T: G
+K: texto instrucional
+O guia explica como enviar o currículo por e-mail de forma eficiente, com destinatário, assunto e mensagem adequados. **Resposta: C**
+@2015-126
+M: pt
+T: L
+K: poesia e Inconfidência
+O poema recria, com linguagem de ruptura e cortes nas palavras, o ambiente de opressão da Casa dos Contos, onde morreu Cláudio Manuel da Costa. **Resposta: E**
+@2015-127
+M: pt
+T: L
+K: O Ateneu
+O colégio se promove por "nutrido reclame" e é "farinha daquela marca para o pão do espírito". O narrador revela a lógica mercantil da educação e a vaidade do diretor. **Resposta: A**
+@2015-128
+M: pt
+T: G
+K: biografia
+A biografia relata, em perspectiva histórica, os fatos da vida de Jota Barros que valorizam seu percurso artístico. **Resposta: B**
+@2015-129
+M: pt
+T: L
+K: Cacaso: ditadura
+As cores da bandeira saem do sangue de um corpo torturado e terminam em "o negro o negro". O emblema nacional é transfigurado pelo medo e pela violência. **Resposta: D**
+@2015-130
+M: pt
+T: L
+K: Lygia: hipocrisia familiar
+A família "perfeita" esconde segredos (a mulher mestiça) que a narradora descobre. É um pacto de valores mantido à custa de ocultação e hipocrisia. **Resposta: C**
+@2015-131
+M: arte
+@2015-132
+M: pt
+T: N
+K: tempos verbais
+O anúncio usa o futuro e logo depois o pretérito (vai ficar pronto / ficou pronto). A sequência dá a ideia de rapidez. **Resposta: C**
+@2015-133
+M: ef
+@2015-134
+M: pt
+T: N
+K: tempos do pretérito
+Bandeira alterna o perfeito ("embarquei", "escolhi") e o mais-que-perfeito ("me falara", "passara") para ordenar os fatos no tempo. **Resposta: C**
+@2015-135
+M: pt
+T: G
+K: divulgação científica
+O texto explica o que são as micro-ondas e como aquecem os alimentos. O objetivo é apresentar informações sobre essas ondas e seu uso. **Resposta: C**
+@2016-96
+M: pt
+T: F
+K: metalinguagem
+O texto de Lajolo discorre sobre o próprio ato de ler. Por isso usa a metalinguagem. **Resposta: D**
+@2016-97
+M: pt
+T: M
+K: hoax
+O texto sugere que o leitor analise a linguagem das mensagens: frases falsas, apelos e erros denunciam o boato. **Resposta: B**
+@2016-98
+M: arte
+@2016-99
+M: pt
+T: V
+K: regionalismo
+"O peste" e "cachorro da molest'a" são expressões do falar nordestino. Caracterizam os usos linguísticos de uma região. **Resposta: B**
+@2016-100
+M: pt
+T: L
+K: Arcadismo
+O eu lírico estranha a paisagem mudada e conclui que são os seus males que fazem tudo degenerar. Há empatia entre o sofrimento do eu e a agonia da terra. **Resposta: E**
+@2016-101
+M: pt
+T: N
+K: oração condicional
+"Acontecendo de o cientista provocar um dano..." equivale a "se o cientista provocar um dano". A relação com a oração seguinte é de condição. **Resposta: C**
+@2016-102
+M: pt
+T: V
+K: semântica histórica
+"Mandinga" passou a significar feitiço porque os portugueses viam como bruxos os africanos daquela costa. O sentido nasce do contexto sócio-histórico. **Resposta: A**
+@2016-103
+M: pt
+T: G
+K: crítica ao consumismo
+Os textos mostram que o consumo invadiu felicidade, família e corpo. O consumismo provoca mudanças nos valores sociais. **Resposta: B**
+@2016-104
+M: pt
+T: N
+K: dois-pontos
+Os dois-pontos introduzem a explicação de por que é um erro procurar a essência do conto entre obra e autor. É um argumento esclarecedor. **Resposta: D**
+@2016-106
+M: pt
+T: M
+K: pirataria e autoria
+O texto mostra que a internet obriga a repensar a propriedade intelectual. O exemplo é Paulo Coelho, que vendeu mais depois de liberar o livro. **Resposta: D**
+@2016-107
+M: pt
+T: L
+K: estrutura de poder
+Os lugares à mesa, com o pai à cabeceira e o filho antes da mulher, representam a hierarquia familiar trazida do Japão. **Resposta: E**
+@2016-108
+M: pt
+T: G
+K: apresentação de livro
+O texto apresenta o livro sobre a madeira amazônica, com informações e comentários sobre o conteúdo. **Resposta: A**
+@2016-109
+M: pt
+T: G
+K: campanha de trânsito
+Imagem e texto se dirigem ao motorista para que ele não use o celular ao volante. **Resposta: D**
+@2016-110
+M: pt
+T: L
+K: metáfora da pérola
+A pérola se forma aos poucos em torno de um grão invasor, assim como a obra literária nasce de um trabalho progressivo e de autoconhecimento. **Resposta: C**
+@2016-111
+M: pt
+T: G
+K: gênero diário
+Como num diário, o eu da canção narra o próprio dia e reflete sobre si ("Hoje topei...", "eu não quebro porque sou macio"). **Resposta: E**
+@2016-112
+M: pt
+T: L
+K: pontos de vista
+O narrador passa do olhar do dono para o da galinha cega ("Quase que já não sabia onde é que estava a luz"), com envolvimento afetivo. **Resposta: D**
+@2016-113
+M: pt
+T: L
+K: corte das palavras
+"Corto as palavras rentes / com tesoura de jardim": o poema é um trabalho agressivo de supressão, que deixa só "as palavras que sobraram". **Resposta: C**
+@2016-114
+M: arte
+@2016-115
+M: pt
+T: V
+K: tabu linguístico
+O nome antigo do vaga-lume era considerado indecente, por isso os poetas o evitavam. Bluteau criou "pirilampo". O tabu é a restrição a um vocábulo mal aceito socialmente. **Resposta: E**
+@2016-116
+M: pt
+T: L
+K: Ana Cristina Cesar
+O poema imita uma lição escolar sobre gêneros poéticos. O tom explicativo e contido vira uma forma peculiar de expressão lírica. **Resposta: B**
+@2016-117
+M: pt
+T: G
+K: repetição argumentativa
+O refrão "houve um tempo em que..." sensibiliza o leitor para as relações mais calmas e próximas do passado ("havia tempo"). **Resposta: B**
+@2016-118
+M: pt
+T: G
+K: resenha
+O texto resume e avalia o livro, que considera boa leitura e acessível. É uma resenha: apreciação a partir de uma síntese crítica. **Resposta: C**
+@2016-119
+M: pt
+T: L
+K: Clarice: solidão
+A velha bem vestida, que pergunta se a moça quer trocar de lugar por causa dela, revela uma solidão alimentada pelo envelhecimento. **Resposta: E**
+@2016-120
+M: pt
+T: L
+K: gerações e erros
+Cada geração bateu na seguinte achando normal e só depois entendeu o erro. O eu lírico sente angústia ao reconhecer imperfeições aceitas como senso comum. **Resposta: B**
+@2016-121
+M: pt
+T: L
+K: João Cabral: metapoesia
+"Flor é a palavra flor": o poeta recria uma palavra comparando-a a imagens (o salto da ave, a explosão, a máquina) para dar-lhe novos sentidos. **Resposta: A**
+@2016-122
+M: pt
+T: G
+K: campanha de doação
+"Da sua honestidade depende a vida de quem vai receber seu sangue": a campanha torna o doador corresponsável pela qualidade do sangue. **Resposta: A**
+@2016-123
+M: pt
+T: V
+K: fala × escrita
+Mesmo com hesitações na transcrição, os dois textos vêm de uma professora em situação formal. São amostras do português culto urbano. **Resposta: E**
+@2016-124
+M: pt
+T: V
+K: humor e formalidade
+O humor vem do uso de "outrossim", palavra formal e livresca, numa conversa doméstica de domingo. **Resposta: B**
+@2016-125
+M: pt
+T: G
+K: mescla de gêneros
+Saramago escreve um poema com a estrutura de uma receita ("Tome-se...", "Deita-se..."), com instruções prescritivas. **Resposta: A**
+@2016-126
+M: arte
+@2016-127
+M: pt
+T: G
+K: piada como corpus
+Possenti destaca que as piadas revelam valores sociais, como o machismo e o racismo. São um valioso objeto de investigação. **Resposta: E**
+@2016-128
+M: ef
+@2016-129
+M: ef
+@2016-130
+M: ef
+@2016-131
+M: pt
+T: L
+K: Machado: crônica e memória
+Para o cronista, ler jornais velhos é a "recomposição do extinto, a revivescência do passado". O jornal é instrumento de reconstrução da memória. **Resposta: C**
+@2016-132
+M: arte
+@2016-133
+M: pt
+T: L
+K: rubricas
+As indicações entre parênteses ("A reflexão escorrega...", "DESISTE") são rubricas que constroem a ação dramática, marca do texto teatral. **Resposta: D**
+@2016-134
+M: pt
+T: G
+K: argumento por contraste
+O crítico enfatiza a qualidade de Túlio Piva pelo contraste: gaúcho, ele escolheu o samba "com categoria". **Resposta: A**
+@2016-135
+M: pt
+T: N
+K: reticências
+Em "O PM pensou que...", as reticências deixam implícito o que o policial pensou: que a criança era um suspeito. **Resposta: B**

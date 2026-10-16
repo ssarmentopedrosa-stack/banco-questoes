@@ -1,0 +1,162 @@
+[
+ {
+  "year": "2009",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+  "capture": "20200602061308",
+  "digest": "DPUXFCTHY3YD6HARGTDKOVK4MFEB7VKU",
+  "sha1_ok": true,
+  "size": 3583555,
+  "sha256": "1006d00bbd419de56cfdea13adc1a696ed227b05e8a654ac8951244ea13494de"
+ },
+ {
+  "year": "2009",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2009/gabarito_dia2.pdf",
+  "capture": "20190711113116",
+  "digest": "4HBFJZQ5PUDKEKMKB3NPUT5OZUK3EGXN",
+  "sha1_ok": true,
+  "size": 66643,
+  "sha256": "82615d5bb081c011ea83c15a145a7eae7ac0da3a13fd0f1c11e8cb3860286d20"
+ },
+ {
+  "year": "2010",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+  "capture": "20260628221822",
+  "digest": "FSMF7IUSNIAZTPBPKW232V74XYS7Z2SQ",
+  "sha1_ok": true,
+  "size": 8395662,
+  "sha256": "c7284f83312a5c6ccf3667377c45bd3203097e8113309ec1ad2cf1344b3490f9"
+ },
+ {
+  "year": "2010",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul_com_gab.pdf",
+  "capture": "20191005173208",
+  "digest": "KR5NMKSMMFCBLTS4B3LEPI5MIF7O54KJ",
+  "sha1_ok": true,
+  "size": 1892452,
+  "sha256": "38ca873c375165f7c755c3b678180cc51f350336b8022f77a4014a555906c8d7"
+ },
+ {
+  "year": "2011",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/07_AZUL.pdf",
+  "capture": "20190918115920",
+  "digest": "XM4NWVSXE4IB2WXTPQDIJNX6DJEOKR56",
+  "sha1_ok": true,
+  "size": 1048576,
+  "sha256": "17eba88919e87081f9130d48f53cab6ceb10efa33d9f5559d92182f73a5bcdb8"
+ },
+ {
+  "year": "2011",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2011/07_AZUL_GABARITO.pdf",
+  "capture": "20111111163709",
+  "digest": "TFHKEQ72LOTVMAJUIP4EJ55XLQGNCDBS",
+  "sha1_ok": true,
+  "size": 117840,
+  "sha256": "be768a255e257fcc465fed2440db7bd8c7d89d036bfa598466fe7e725f14270d"
+ },
+ {
+  "year": "2012",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/caderno_enem2012_dom_azul.pdf",
+  "capture": "20131029235404",
+  "digest": "R7BZCTJOEF5NUQJCQXZLLXKUJX67XQOG",
+  "sha1_ok": true,
+  "size": 2784958,
+  "sha256": "3c7822668a69ec3d5adb3067a5ca4ef92a246df4a0efde43f0ce1db17113c400"
+ },
+ {
+  "year": "2012",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2012/dia2_azul.pdf",
+  "capture": "20130720171943",
+  "digest": "WV2HZTHYZEDES2T4EUDVTDWF4LFAVKCS",
+  "sha1_ok": true,
+  "size": 106300,
+  "sha256": "eb46855a6679b5acefdceaa91b0d4844c496303c7ab9b931c5eea922afebe243"
+ },
+ {
+  "year": "2013",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/caderno_enem2013_dom_azul.pdf",
+  "capture": "20140914212648",
+  "digest": "35FHX4A4AVSCPDQ42QU67JILIDBOLIBP",
+  "sha1_ok": true,
+  "size": 4132747,
+  "sha256": "113f23141c72e31216d2bedeacdfcd95cf9f848cc260472a1ddf9b94baf2302a"
+ },
+ {
+  "year": "2013",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2013/dia2_azul.pdf",
+  "capture": "20131101082819",
+  "digest": "DMFNL6C75ZS4O2A2NXYWL7DQDPN3SY6Y",
+  "sha1_ok": true,
+  "size": 134704,
+  "sha256": "897c8165f03268a9d68e42a978b52995ff70605daadb1b82e8b47dc2597d1220"
+ },
+ {
+  "year": "2014",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/CAD_ENEM_2014_DIA_2_07_AZUL.pdf",
+  "capture": "20150319064308",
+  "digest": "2OGDNXMUY3Y7YDZQB7ZRJMGST64T7DYY",
+  "sha1_ok": true,
+  "size": 1594097,
+  "sha256": "33bb668dd4d06c0835bbb70f90e128955bf81e2e87cbfbc28bc2e147b90c9961"
+ },
+ {
+  "year": "2014",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2014/CADERNO_7_AZUL_DOMINGO.pdf",
+  "capture": "20141126221645",
+  "digest": "NTIL4BCGQKM33GZP237WK65BXTBBQ6VG",
+  "sha1_ok": true,
+  "size": 123853,
+  "sha256": "c4382390c26bd8b5b0e3e8c293843d9454c4aa13bd9cd96ff95575f7870b4eeb"
+ },
+ {
+  "year": "2015",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/CAD_ENEM%202015_DIA%202_07_AZUL.pdf",
+  "capture": "20151123024139",
+  "digest": "PQXR2N72VTXOD3P4IQ7JGFYQI6HAHR7D",
+  "sha1_ok": true,
+  "size": 955697,
+  "sha256": "9dce047bc669cf443a631921e8133333514cbd3350cfc7497192b485b04056ee"
+ },
+ {
+  "year": "2015",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2015/CADERNO_7_AZUL_DOMINGO.pdf",
+  "capture": "20151106011625",
+  "digest": "TZZ5QWO6HKYWOFEGVICF5YTF756MEWM6",
+  "sha1_ok": true,
+  "size": 263901,
+  "sha256": "28aebf28e1066bfc4d382a9ccd6c56ed9912631e9057feb1cec46e4194b50bc5"
+ },
+ {
+  "year": "2016",
+  "kind": "d2prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+  "capture": "20161119063126",
+  "digest": "UZ3AI6MO2BH5ZDHXNNEXHFGYUEXFPXFX",
+  "sha1_ok": true,
+  "size": 1062141,
+  "sha256": "4323baa29921a653c036d8a58f626eeb7c98a76e41433eff18203d90d3ba56aa"
+ },
+ {
+  "year": "2016",
+  "kind": "d2gab",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2016/GAB_ENEM_2016_DIA_2_07_AZUL.pdf",
+  "capture": "20161119010149",
+  "digest": "FUQIL3W6ITVCXUS4TB556RWFZFEZDPBM",
+  "sha1_ok": true,
+  "size": 131802,
+  "sha256": "67557d0c2c7fd2a6ecb27184f97bca5e2b478aa5d578e3e1338aca2038910052"
+ }
+]

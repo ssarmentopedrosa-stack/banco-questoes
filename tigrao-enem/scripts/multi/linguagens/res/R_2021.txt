@@ -1,0 +1,362 @@
+@2021-7
+M: pt
+T: V
+K: Valoriza o uso de variedades populares
+Valoriza o uso de variedades populares: o poeta pede que o dicionário registre as expressões que o povo já registrou. **Resposta: D**
+@2021-8
+M: pt
+T: G
+K: Ser o único finalista fora do eixo EUA-E
+Ser o único finalista fora do eixo EUA-Europa realça a proeza de premiar uma história do interior do Nordeste. **Resposta: C**
+@2021-9
+M: pt
+T: V
+K: Os ditados e expressões populares do tex
+Os ditados e expressões populares do texto de Rosa guardam memória e saberes coletivos. **Resposta: D**
+@2021-10
+M: pt
+T: G
+K: Dizer que premiar o filme 'não deixaria 
+Dizer que premiar o filme 'não deixaria de ser um passo à frente' é uma opinião implícita a favor do filme. **Resposta: E**
+@2021-14
+M: arte
+@2021-16
+M: pt
+T: G
+K: A letra de Sinal fechado dá um exemplo c
+A letra de Sinal fechado dá um exemplo concreto da pressa e da falta de diálogo criticadas no texto. **Resposta: B**
+@2021-19
+M: ef
+@2021-20
+M: arte
+@2021-21
+M: pt
+T: G
+K: O Texto I diz que os estoques são inesgo
+O Texto I diz que os estoques são inesgotáveis, e o II diz que os aquíferos não se recuperam. Divergem sobre ser possível manter os estoques. **Resposta: A**
+@2021-22
+M: pt
+T: V
+K: A convivência de tu e você mostra a dive
+A convivência de tu e você mostra a diversidade e a variação da língua. **Resposta: B**
+@2021-26
+M: pt
+T: N
+K: 'O Pedro mencionado' retoma 'o gigante d
+'O Pedro mencionado' retoma 'o gigante do Brasil', o hino; as expressões são interdependentes na coesão referencial. **Resposta: D**
+@2021-30
+M: pt
+T: N
+K: Pelino corrige todos em qualquer situaçã
+Pelino corrige todos em qualquer situação: ignora os níveis de formalidade da comunicação. **Resposta: E**
+@2021-31
+M: ef
+@2021-32
+M: pt
+T: F
+K: A crônica em 1ª pessoa expressa as impre
+A crônica em 1ª pessoa expressa as impressões do autor (função emotiva): o foco está no enunciador. **Resposta: D**
+@2021-36
+M: arte
+@2021-37
+M: pt
+T: L
+K: A letra imita conselhos de obediência pa
+A letra imita conselhos de obediência para ironizar o conformismo imposto. **Resposta: A**
+@2021-39
+M: pt
+T: V
+K: 'Falação' e 'pros' (contração de para os
+'Falação' e 'pros' (contração de para os) são marcas informais. **Resposta: A**
+@2021-40
+M: pt
+T: L
+K: O narrador descreve Alda com lirismo amo
+O narrador descreve Alda com lirismo amoroso dentro do espaço de segregação do hospício. **Resposta: C**
+@2021-41
+M: pt
+T: L
+K: O pavão vermelho, a alegria, supera os o
+O pavão vermelho, a alegria, supera os outros pavões: a cor metaforiza a plenitude alcançada. **Resposta: D**
+@2021-44
+M: pt
+T: L
+K: A matraca, em que o povo confiava cegame
+A matraca, em que o povo confiava cegamente, espalhava notícias não fidedignas; daí a ironia. **Resposta: D**
+@2022-7
+M: pt
+T: G
+K: O Texto II conta a vida de um cão de rua
+O Texto II conta a vida de um cão de rua e problematiza a falta de lar, enquanto o I apenas promove a adoção. **Resposta: A**
+@2022-8
+M: pt
+T: G
+K: O jogo com mulheres notáveis contribui p
+O jogo com mulheres notáveis contribui para a formação cidadã, combatendo estereótipos de gênero. **Resposta: A**
+@2022-10
+M: arte
+@2022-12
+M: pt
+T: V
+K: Corrigir colocação pronominal numa conve
+Corrigir colocação pronominal numa conversa informal é inadequado ao contexto comunicativo. **Resposta: B**
+@2022-13
+M: pt
+T: M
+K: O acesso depende de renda, escolaridade,
+O acesso depende de renda, escolaridade, cor e gênero; os autores questionam a ideia de internet igualitária. **Resposta: B**
+@2022-14
+M: pt
+T: V
+K: Expressões como 'dia negro' mostram que 
+Expressões como 'dia negro' mostram que o léxico incorpora os preconceitos históricos da sociedade. **Resposta: D**
+@2022-16
+M: pt
+T: G
+K: O texto é uma resenha crítica
+O texto é uma resenha crítica: avalia o filme Elena. **Resposta: E**
+@2022-17
+M: pt
+T: F
+K: A metáfora 'as palavras têm corpo e alma
+A metáfora 'as palavras têm corpo e alma' dá caráter poético ao falso verbete. **Resposta: B**
+@2022-18
+M: pt
+T: G
+K: O texto alterna frases nominais e verbai
+O texto alterna frases nominais e verbais justapostas ('Branco, preto, branco, preto'). **Resposta: A**
+@2022-19
+M: ef
+@2022-20
+M: ef
+@2022-21
+M: pt
+T: L
+K: A senhora abolicionista expõe a hipocris
+A senhora abolicionista expõe a hipocrisia dos argumentos conservadores pró-escravidão. **Resposta: B**
+@2022-22
+M: pt
+T: M
+K: Os dois projetos visam a disseminar o co
+Os dois projetos visam a disseminar o conhecimento de forma acessível. **Resposta: E**
+@2022-23
+M: pt
+T: L
+K: O olhar verde 'queimado' pelas 'misérias
+O olhar verde 'queimado' pelas 'misérias e orgulhos' dos antepassados marca sofrimentos antigos no fluxo de consciência. **Resposta: E**
+@2022-24
+M: pt
+T: V
+K: O exemplo do pão em linguagem rebuscada 
+O exemplo do pão em linguagem rebuscada mostra a necessidade de adequar a linguagem à situação. **Resposta: E**
+@2022-25
+M: ef
+@2022-26
+M: pt
+T: F
+K: 'A cidade não mora mais em mim' exprime 
+'A cidade não mora mais em mim' exprime o sentimento do eu lírico (função emotiva). **Resposta: C**
+@2022-28
+M: pt
+T: V
+K: Recuperar o patxôhã une resistência étni
+Recuperar o patxôhã une resistência étnica e preservação da memória cultural. **Resposta: B**
+@2022-29
+M: pt
+T: L
+K: Bárbara une singeleza ('criaturinha leve
+Bárbara une singeleza ('criaturinha leve') e astúcia nos negócios de vidência, eis a ironia. **Resposta: D**
+@2022-30
+M: pt
+T: L
+K: O naturalismo vê o ser humano como fenôm
+O naturalismo vê o ser humano como fenômeno biológico, guiado por instintos. **Resposta: C**
+@2022-31
+M: pt
+T: L
+K: O Romance de 30 pinta cruamente a realid
+O Romance de 30 pinta cruamente a realidade dos retirantes da seca. **Resposta: A**
+@2022-34
+M: ef
+@2022-35
+M: pt
+T: G
+K: Clarice estranha a crônica breve e super
+Clarice estranha a crônica breve e superficial, o 'só falar' com o leitor. **Resposta: C**
+@2022-36
+M: pt
+T: G
+K: A notícia também conscientiza sobre a le
+A notícia também conscientiza sobre a leishmaniose como problema de saúde pública. **Resposta: C**
+@2022-38
+M: arte
+@2022-40
+M: pt
+T: L
+K: O choro escondido do vaqueiro ao noticia
+O choro escondido do vaqueiro ao noticiar a morte de Firmo reforça o lirismo. **Resposta: D**
+@2022-41
+M: pt
+T: L
+K: O narrador descreve a libertinagem do ca
+O narrador descreve a libertinagem do carnaval com atração e com asco ('Era ignóbil'). **Resposta: B**
+@2022-42
+M: pt
+T: L
+K: Elogiar o tenente 'amável' e concluir qu
+Elogiar o tenente 'amável' e concluir que a fome é professora é uma resposta irônica à autoridade. **Resposta: D**
+@2022-43
+M: pt
+T: L
+K: A narração transforma as agressões sofri
+A narração transforma as agressões sofridas por Vanda em episódio anedótico. **Resposta: E**
+@2023-6
+M: ef
+@2023-7
+M: pt
+T: L
+K: A narradora descreve o próprio corpo mar
+A narradora descreve o próprio corpo marcado pela história escravista e pelo gênero. **Resposta: A**
+@2023-8
+M: pt
+T: V
+K: O preconceito vem da crença lusitana num
+O preconceito vem da crença lusitana numa língua ideal, a de Portugal. **Resposta: C**
+@2023-9
+M: pt
+T: M
+K: A eficácia vinha da variedade de meios d
+A eficácia vinha da variedade de meios da época (cavalos, ordens mendicantes, boatos). **Resposta: E**
+@2023-10
+M: pt
+T: M
+K: Analisar a linguagem dos bots ajuda a id
+Analisar a linguagem dos bots ajuda a identificar padrões de desinformação. **Resposta: E**
+@2023-11
+M: pt
+T: G
+K: O texto apela a valores e respeito para 
+O texto apela a valores e respeito para sensibilizar a uma direção responsável. **Resposta: D**
+@2023-12
+M: pt
+T: L
+K: A narradora descreve impressionisticamen
+A narradora descreve impressionisticamente o fetiche de Timóteo pelas roupas da mãe. **Resposta: C**
+@2023-13
+M: pt
+T: L
+K: Depois dos amores passados, o eu lírico 
+Depois dos amores passados, o eu lírico repousa sereno nesta entrega ao desejo. **Resposta: C**
+@2023-14
+M: pt
+T: L
+K: Os ouvintes gostam da novela pelo jeito 
+Os ouvintes gostam da novela pelo jeito singular de Soropita recontá-la. **Resposta: D**
+@2023-15
+M: pt
+T: V
+K: As gravações de falantes mortos são irre
+As gravações de falantes mortos são irrecuperáveis: dano à memória e à identidade nacionais. **Resposta: B**
+@2023-16
+M: pt
+T: V
+K: A Libras tem variação regional, etária e
+A Libras tem variação regional, etária e histórica como qualquer língua. **Resposta: A**
+@2023-17
+M: pt
+T: G
+K: Os colchetes 'voltados para fora' simbol
+Os colchetes 'voltados para fora' simbolizam a revista que acolhe e difunde as ideias dos livros. **Resposta: D**
+@2023-18
+M: pt
+T: M
+K: As duas canções percebem a profusão de i
+As duas canções percebem a profusão de informações (bancas, algoritmos). **Resposta: B**
+@2023-19
+M: pt
+T: G
+K: A citação e os dados de homicídios refor
+A citação e os dados de homicídios reforçam que os negros são vítimas preferenciais da violência. **Resposta: D**
+@2023-20
+M: pt
+T: V
+K: A autora critica as linguagens especiali
+A autora critica as linguagens especializadas (de advogados, médicos) que excluem a população. **Resposta: E**
+@2023-21
+M: pt
+T: V
+K: O dicionário de termos populares melhora
+O dicionário de termos populares melhora a compreensão dos sintomas dos pacientes. **Resposta: D**
+@2023-22
+M: pt
+T: L
+K: A cantiga transmitida oralmente preserva
+A cantiga transmitida oralmente preserva a ancestralidade africana. **Resposta: C**
+@2023-23
+M: pt
+T: G
+K: O Texto II explica a imagem de Jane Jets
+O Texto II explica a imagem de Jane Jetson por construções imaginárias cristalizadas sobre a mulher. **Resposta: C**
+@2023-25
+M: pt
+T: L
+K: A narradora associa a palavra 'arado' à 
+A narradora associa a palavra 'arado' à lavoura, metaforizando a língua como ferramenta. **Resposta: B**
+@2023-26
+M: pt
+T: L
+K: Bilac antecipa que as crianças só verão 
+Bilac antecipa que as crianças só verão a escravidão nos museus: o futuro apagamento de suas marcas. **Resposta: C**
+@2023-27
+M: pt
+T: N
+K: A repetição de 'todos' faz o texto progr
+A repetição de 'todos' faz o texto progredir e generaliza o enredo amoroso. **Resposta: A**
+@2023-28
+M: pt
+T: F
+K: O eu lírico expressa o nó na garganta, a
+O eu lírico expressa o nó na garganta, a dificuldade de comunicação. **Resposta: C**
+@2023-29
+M: pt
+T: L
+K: O gato gordo e lerdo contrasta com a aus
+O gato gordo e lerdo contrasta com a austeridade heroica dos inconfidentes evocada. **Resposta: E**
+@2023-30
+M: pt
+T: L
+K: As proibições absurdas e os cacos nos mu
+As proibições absurdas e os cacos nos muros alegorizam o medo cotidiano da ditadura. **Resposta: A**
+@2023-31
+M: pt
+T: L
+K: O fim do amor se dilui na banalidade de 
+O fim do amor se dilui na banalidade de recolher migalhas de pão. **Resposta: C**
+@2023-32
+M: arte
+@2023-33
+M: arte
+@2023-35
+M: ef
+@2023-36
+M: arte
+@2023-37
+M: arte
+@2023-38
+M: arte
+@2023-39
+M: pt
+T: M
+K: A petição on-line feita por cidadãos lev
+A petição on-line feita por cidadãos levou à mudança do verbete. **Resposta: C**
+@2023-40
+M: ef
+@2023-41
+M: ef
+@2023-42
+M: ef
+@2023-43
+M: pt
+T: G
+K: Rui Barbosa usa metáforas ('anel de outr
+Rui Barbosa usa metáforas ('anel de outras núpcias') ligadas à vida e à obra de Machado. **Resposta: A**

@@ -1,0 +1,296 @@
+@2009-91
+M: arte
+@2009-92
+M: pt
+T: V
+K: adequação ao interlocutor
+Ao reconhecer no cliente um velho amigo, a gerente troca o registro formal do atendimento por um informal ("Julinho", "cara", "Cê tá"). Ela adequa a fala ao novo tipo de relação. **Resposta: A**
+@2009-93
+M: pt
+T: M
+K: uso de redes sociais
+Os resultados do teste criticam quem passa mais tempo nos sites de relacionamento do que com as pessoas e sugerem mudar esse hábito. **Resposta: D**
+@2009-94
+M: arte
+@2009-95
+M: arte
+@2009-96
+M: pt
+T: F
+K: função apelativa
+A campanha fala diretamente com o leitor ("você", "sua") e usa verbos no imperativo. São marcas da função conativa, que buscam a adesão do leitor. **Resposta: C**
+@2009-97
+M: pt
+T: G
+K: texto instrucional de saúde
+O cartaz enfrenta o problema orientando a população: lista os sintomas da gripe e os cuidados para evitar o contágio. **Resposta: D**
+@2009-98
+M: pt
+T: F
+K: sonoridade e coloquialismo
+"lobo-bolo / Tipo pra rimar com ouro de tolo" brinca com os sons (lobo/bolo, rima com "tolo") e usa a expressão coloquial "tipo pra". **Resposta: D**
+@2009-99
+M: pt
+T: L
+K: Simbolismo
+O soneto tem forma refinada e trata de temas metafísicos: a alma presa, o mistério, o infinito. São traços do Simbolismo de Cruz e Sousa. **Resposta: C**
+@2009-100
+M: pt
+T: F
+K: função emotiva
+Na segunda fala, o entrevistado não informa nem convence: ele expressa o que sente sobre o processo de produção. **Resposta: E**
+@2009-102
+M: arte
+@2009-103
+M: ef
+@2009-104
+M: pt
+T: M
+K: hipertexto e autoria
+No hipertexto, cada leitor escolhe seu caminho pelos blocos de texto. Assim, é o leitor que constrói a versão final do texto, e isso muda a noção de autoria. **Resposta: A**
+@2009-105
+M: pt
+T: G
+K: HQ e oralidade
+Os quadrinhos reproduzem marcas da conversa face a face, como interjeições, pausas e expressões coloquiais nos balões. **Resposta: D**
+@2009-107
+M: pt
+T: G
+K: argumentação por dados
+O Texto II, da campanha do Akatu, convence com constatações e informações sobre o custo ambiental das sacolas. Ele não usa previsões nem intimidação. **Resposta: E**
+@2009-108
+M: pt
+T: G
+K: comparação de textos
+O Texto I quer mostrar a versatilidade e as vantagens do plástico. O Texto II alerta para os danos ambientais das sacolas descartáveis. **Resposta: B**
+@2009-110
+M: pt
+T: M
+K: democratização da informação
+O portal oferece de graça obras culturais e científicas a todos os usuários da internet. Isso exemplifica a democratização da informação. **Resposta: C**
+@2009-111
+M: pt
+T: V
+K: tradição oral e identidade
+A canção folclórica preserva a fala do interior ("bera", "espaia", "oio") e a memória do povo. Ela mostra a formação da identidade nacional pela tradição oral. **Resposta: C**
+@2009-112
+M: pt
+T: L
+K: Quinhentismo e Eckhout
+A pintura de Eckhout e a Carta de Caminha têm em comum representar o habitante da nova terra a partir do olhar do europeu. **Resposta: C**
+@2009-113
+M: pt
+T: M
+K: exclusão digital
+A "divisão digital" é a desigualdade no acesso às TIC. Ela aprofunda as diferenças sociais que já existem, porque os mais pobres têm dificuldade de comprar equipamentos e de se conectar. **Resposta: D**
+@2009-114
+M: pt
+T: G
+K: consumo consciente
+O anúncio pede que o leitor procure o selo de certificação, isto é, que confira se o produto foi fabricado de acordo com os princípios éticos. **Resposta: D**
+@2009-116
+M: pt
+T: F
+K: função poética
+O poema de Bandeira trabalha a própria forma: repetições, paralelismos e o contraste entre o que o vento leva e a vida que se enche. Predomina a função poética. **Resposta: E**
+@2009-117
+M: pt
+T: F
+K: paralelismo
+O texto se estrutura pela repetição de sons e de construções iguais ("O vento varria...", "E a minha vida ficava..."). **Resposta: D**
+@2009-118
+M: arte
+@2009-119
+M: pt
+T: V
+K: purismo × descrição da língua
+O Texto I defende uma rigidez gramatical purista e despreza a "língua brasileira". O Texto II defende aproximar a gramática do português brasileiro em uso. **Resposta: E**
+@2009-121
+M: pt
+T: G
+K: interlocutor do discurso
+Marcos Terena fala a "vocês", que têm "o Brasil de vocês" e que ele quer que reconheçam o índio de hoje. O público é o dos brasileiros não índios. **Resposta: B**
+@2009-122
+M: pt
+T: V
+K: norma-padrão e simetria
+Ao usar o "código de vocês", a norma-padrão, o líder indígena se põe em pé de igualdade com os interlocutores. As duas partes ficam em posições simétricas. **Resposta: B**
+@2009-123
+M: pt
+T: L
+K: alegoria crítica (Brecht)
+A fábula dos tubarões-homens mostra a dominação dos fracos pelos fortes, com escola, religião e guerra a serviço dos poderosos. É uma crítica à organização das sociedades capitalistas ocidentais. **Resposta: D**
+@2009-124
+M: pt
+T: F
+K: oxímoro
+"Viver nessa que morre" combina ideias opostas, vida e morte, que no contexto reforçam a expressão. É um oxímoro. **Resposta: D**
+@2009-126
+M: pt
+T: M
+K: gêneros digitais
+O material sobre a dengue circula por vários meios, inclusive para download, porque precisa atingir públicos diferentes. **Resposta: D**
+@2009-127
+M: pt
+T: G
+K: interlocutor do texto
+A carta-campanha se dirige aos prefeitos e os convoca a organizar o combate à dengue nos municípios. **Resposta: C**
+@2009-128
+M: pt
+T: L
+K: hesitação do narrador
+"Deveria fugir ou falar com ela?" expressa com clareza a dúvida entre partir em silêncio e se despedir da avó. **Resposta: E**
+@2009-129
+M: pt
+T: V
+K: unidade × variação dialetal
+Os dois autores reconhecem que no Brasil as fronteiras dialetais geográficas são pouco marcadas. Teyssier, porém, destaca mais as diferenças socioculturais. **Resposta: E**
+@2009-130
+M: pt
+T: L
+K: identidade cultural brasileira
+A autora vê, no início do século XXI, a cultura brasileira consolidada e um reconhecimento mútuo com Portugal. Cada lado desenvolve sua própria tradição. **Resposta: C**
+@2009-132
+M: pt
+T: L
+K: Raduan Nassar
+Em "Um copo de cólera", o fluxo verbal contínuo e torrencial do narrador critica a sociedade autoritária da época. É a "vanguarda estética e amargura política" citada por Antonio Candido. **Resposta: D**
+@2009-133
+M: pt
+T: L
+K: discurso desmistificador
+O narrador ataca em discurso ágil e contundente os grandes princípios e as "verdades" da sua interlocutora. É um discurso desmistificador. **Resposta: C**
+@2009-134
+M: ef
+@2009-135
+M: pt
+T: L
+K: Drummond: eu × mundo
+O poema liga o eu lírico (triste, orgulhoso, "de ferro") à cidade de Itabira e à sua história. Há uma tensão entre o indivíduo e a comunidade. **Resposta: C**
+@2010-97
+M: pt
+T: F
+K: função referencial
+O texto expõe conceitos (biosfera, ecossistemas) de forma objetiva e informativa. Predomina a função referencial. **Resposta: E**
+@2010-98
+M: pt
+T: G
+K: horóscopo
+O horóscopo dá conselhos sobre a vida amorosa, a saúde, o trabalho e o comportamento do leitor. **Resposta: E**
+@2010-99
+M: pt
+T: V
+K: registro técnico
+O texto foi escrito para professores e usa termos da linguística, como "dicotômicas", "código" e "modalidades". São marcas do registro técnico-científico. **Resposta: C**
+@2010-102
+M: pt
+T: M
+K: ironia
+"Fiquei radiante: eu havia realizado uma consulta paranormal com o pai da psicanálise" é irônico: zomba da ideia de que um teste online revelaria o que Freud pensaria. **Resposta: E**
+@2010-103
+M: pt
+T: G
+K: texto expositivo
+O texto apresenta de modo geral o transtorno do comer compulsivo: o que é, quem atinge e quantos têm. Ele não narra nem aconselha. **Resposta: D**
+@2010-104
+M: pt
+T: N
+K: coesão: oposição e adição
+O texto mostra oposição (a gentileza "vai além" da educação) e acrescenta ideias sobre ela. São as relações que articulam o argumento. **Resposta: E**
+@2010-105
+M: arte
+@2010-106
+M: ef
+@2010-107
+M: pt
+T: N
+K: neologismo
+"Corasamborim" é uma palavra nova criada pela junção de "coração", "samba" e "tamborim". É um neologismo. **Resposta: B**
+@2010-109
+M: pt
+T: M
+K: anonimato no chat
+O chat cria outra forma de comunicação porque permite conversar sem revelar a identidade real, com apelidos e personagens. **Resposta: A**
+@2010-110
+M: ef
+@2010-113
+M: pt
+T: N
+K: valores do "mas"
+Na primeira ocorrência, o "mas" introduz um contraste narrativo. Na segunda, restringe e enfatiza ("não outras, mas essas apenas"). Ele assume funções diferentes. **Resposta: E**
+@2010-114
+M: pt
+T: G
+K: posição do autor
+Kanitz contesta os especialistas (sociólogos, psicólogos, historiadores) que ignoram a herança da Inquisição e afirma que ela persiste em comportamentos brasileiros. **Resposta: B**
+@2010-115
+M: pt
+T: V
+K: persistência linguística
+Os textos mostram que elementos de uma língua sobrevivem: a influência indígena no português e a escrita egípcia decifrada pela Pedra de Roseta, mesmo sem falantes. **Resposta: B**
+@2010-116
+M: pt
+T: G
+K: biografia
+O texto é uma biografia: apresenta a vida de uma personalidade, Machado de Assis, em ordem narrativa e cronológica. **Resposta: E**
+@2010-117
+M: pt
+T: L
+K: Ultrarromantismo
+No soneto de Álvares de Azevedo, a melancolia diante da perda paralisa o eu lírico. Esse é o fundamento do lirismo. **Resposta: B**
+@2010-119
+M: pt
+T: M
+K: Wikipédia e confiabilidade
+Qualquer pessoa pode editar a Wikipédia. Essa construção coletiva sujeita os conteúdos a erros e sabotagens, e por isso a confiança neles é menor. **Resposta: A**
+@2010-120
+M: ef
+@2010-121
+M: pt
+T: V
+K: Acordo Ortográfico
+As opções A, B, D e E discutem se a unificação da língua é válida. A C foge da discussão ao tratar das necessidades políticas e econômicas de internacionalizar o português. **Resposta: C**
+@2010-122
+M: pt
+T: G
+K: fumo passivo
+Os dois textos defendem que os não fumantes sejam respeitados e protegidos, pois também sofrem os efeitos da fumaça. **Resposta: D**
+@2010-123
+M: arte
+@2010-125
+M: pt
+T: G
+K: editorial argumentativo
+O editorial quer convencer o leitor de que só desmontando as organizações do tráfico, com a certeza de punição, o problema será superado. **Resposta: D**
+@2010-127
+M: pt
+T: V
+K: linguagem culta
+A carta ao presidente usa vocabulário formal e construções da norma culta ("Vossa Excelência", "conjurada"). É adequada ao interlocutor e à situação. **Resposta: D**
+@2010-128
+M: pt
+T: L
+K: Machado: aparência
+Rubião, que era pobre e enriqueceu, se deslumbra com a prataria e troca o pajem por criados estrangeiros. É o triunfo da aparência, tema universal. **Resposta: A**
+@2010-130
+M: pt
+T: N
+K: conectivos
+"Mesmo com mais posse de bola" tem valor concessivo: apesar da vantagem, o time teve dificuldade. **Resposta: D**
+@2010-131
+M: arte
+@2010-132
+M: pt
+T: G
+K: leitura de gráfico
+O gráfico mostra mais mulheres em cursos ligados à compreensão e às relações humanas e mais homens nas exatas. A alternativa B é a coerente com os dados. **Resposta: B**
+@2010-133
+M: pt
+T: M
+!
+R: O gabarito oficial é A ("relações entre conhecimento teórico e empírico; novos gêneros textuais surgiram com o progresso"). O trecho de Lévy fala de novos meios que não suplantam os antigos, e isso parece apontar para D. A explicação não fecha com o gabarito; precisa de revisão do professor.
+@2010-135
+M: pt
+T: M
+K: hipertexto impresso
+O dicionário permite uma leitura não linear: o leitor vai direto ao verbete que lhe interessa. É um exemplo de hipertextualidade no impresso. **Resposta: A**

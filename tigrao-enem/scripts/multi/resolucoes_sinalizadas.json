@@ -4,5 +4,17 @@
   "materia": "quimica",
   "gabaritoOficial": "D",
   "motivo": "Depende da comparação de estruturas (moléculas 1–5) e do fator 10⁶ das figuras; o raciocínio sobre a nucleofilicidade do N/O e o impedimento estérico não leva, de forma inequívoca, à molécula 4 do gabarito oficial (a 5 também seria candidata). Mostrar só o gabarito."
+ },
+ {
+  "id": "ENEM-LC-2010-REG-D2-C7-Q133",
+  "materia": "portugues",
+  "gabaritoOficial": "A",
+  "motivo": "O gabarito oficial é A (\"relações entre conhecimento teórico e empírico; novos gêneros textuais surgiram com o progresso\"). O trecho de Lévy fala de novos meios que não suplantam os antigos, e isso parece apontar para D. A explicação não fecha com o gabarito; precisa de revisão do professor."
+ },
+ {
+  "id": "ENEM-LC-2018-REG-D1-C1-Q17",
+  "materia": "portugues",
+  "gabaritoOficial": "C",
+  "motivo": "Gabarito oficial C (frases feitas de situações amorosas estereotipadas). A leitura da IA favorecia D (quebra de expectativa: o \"ele\" que abandona o narrador é o celular). Não fechou com segurança; conferir."
  }
 ]

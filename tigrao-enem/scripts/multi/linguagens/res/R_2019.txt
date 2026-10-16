@@ -1,0 +1,315 @@
+@2019-7
+M: pt
+T: F
+K: duplo sentido
+Versos como "marcas no meu corpo" e "eu grito, eu quase morro" lembram paixão, mas revelam agressão. O duplo sentido mostra que dominação e violência não são amor. **Resposta: C**
+@2019-8
+M: pt
+T: N
+K: enunciados negativos
+As frases negativas da carta ("não havia sangue", "nem ferida") descartam causas da morte e ajudam Holmes na investigação. **Resposta: B**
+@2019-9
+M: ef
+@2019-10
+M: pt
+T: N
+K: estruturas injuntivas
+O cartaz repete verbos no imperativo ("passe", "denuncie") dirigidos a vários públicos (alunos, pais, professores). Convoca diferentes atores sociais. **Resposta: A**
+@2019-11
+M: ef
+@2019-12
+M: pt
+T: M
+K: acessibilidade
+A HQ sem palavras de uma quadrinista surda e a notícia sobre ela contribuem para a acessibilidade e a inclusão na leitura. **Resposta: D**
+@2019-13
+M: pt
+T: L
+K: ironia ao público
+Pinote abandonou o futurismo porque o tratavam como "maluco" e passou a ser "passadista". O público é ironizado como conservador, apegado a modelos consagrados. **Resposta: B**
+@2019-14
+M: pt
+T: L
+K: viagem e solidão
+Quem fica também busca "um oriente", uma "paisagem nova" e "a alegria difícil da descoberta". A solidão projeta novos rumos. **Resposta: E**
+@2019-15
+M: pt
+T: F
+K: função referencial
+O texto informa como acessar e baixar as imagens do acervo e descreve o passo a passo. Predomina a função referencial. **Resposta: C**
+@2019-16
+M: pt
+T: L
+K: humor do absurdo
+Baratas roubando máscaras, a agenda em branco, a "ótica com balconista topless": o humor vem de eventos absurdos encadeados na narrativa. **Resposta: D**
+@2019-17
+M: pt
+T: M
+K: tipos nas redes
+O infográfico mostra perfis "cheios de si" nas redes: a exposição exagerada dos indivíduos. **Resposta: A**
+@2019-18
+M: pt
+T: M
+K: software livre
+O software livre é feito coletivamente e entregue com o código aberto. Democratiza o acesso a produtos construídos em comunidade. **Resposta: A**
+@2019-19
+M: pt
+T: M
+K: exposição parental
+Ao postar imagens dos filhos sem que eles possam opinar, os pais desrespeitam a intimidade das crianças. **Resposta: E**
+@2019-20
+M: pt
+T: M
+K: dados abertos
+O DataViva reúne dados oficiais sobre economia, população e salários. A tecnologia facilita obter informações estratégicas. **Resposta: C**
+@2019-21
+M: pt
+T: L
+K: estigma do desquite
+A pergunta "o que é desquitada?" suspende tudo. A narrativa mostra, pelo olhar da menina, o estigma social da mulher separada nos anos 1960. **Resposta: D**
+@2019-22
+M: pt
+T: L
+K: João Cabral: a ouriça
+A mulher-ouriça se arma de espinhos diante de quem se aproxima, mas depois "se desouriça" para o abraço. É a tenacidade transformada em brandura. **Resposta: A**
+@2019-23
+M: pt
+T: G
+K: imagem simbólica
+O calçado no cartaz simboliza a caminhada dos refugiados. Convida o leitor a "se pôr no lugar" deles e a aderir à causa. **Resposta: E**
+@2019-24
+M: pt
+T: G
+K: sequência injuntiva
+Como na ladainha, a canção repete o apelo "Vamos pedir piedade", convocando o interlocutor a participar. É a sequência injuntiva. **Resposta: C**
+@2019-25
+M: arte
+@2019-26
+M: pt
+T: G
+K: contraste entre textos
+O Estatuto garante direitos, mas as denúncias e o cartaz mostram a violência contra idosos. As regras contrastam com as condições reais do país. **Resposta: E**
+@2019-27
+M: ef
+@2019-28
+M: pt
+T: L
+K: gênese caricata
+O narrador põe os subúrbios "antes dos vulcões" e descreve calçadas encardidas e ônibus sujando tudo. É uma visão caricata da paisagem deteriorada. **Resposta: B**
+@2019-29
+M: pt
+T: M
+K: inteligência coletiva
+Para Lévy, a rede é um laço em que as comunidades ajudam seus membros a aprender. O saber circula pela contribuição dos usuários. **Resposta: C**
+@2019-30
+M: pt
+T: V
+K: estratos da língua
+Os textos mostram que uma língua guarda memórias de outras. O português resulta de influências passadas e conserva marcas delas, como as do árabe. **Resposta: C**
+@2019-32
+M: ef
+@2019-33
+M: pt
+T: L
+K: prosa poética
+O texto de Pompeia tem ritmo e imagens sensoriais ("Inverno! Inverno! Inverno!"). É uma plasticidade verbal ligada à cadência melódica. **Resposta: E**
+@2019-34
+M: pt
+T: V
+K: origem latina
+Os nomes dos meses (setembro, outubro, novembro, dezembro) vêm do calendário romano e refletem a origem latina do português. **Resposta: A**
+@2019-35
+M: ef
+@2019-36
+M: arte
+@2019-37
+M: pt
+T: M
+K: mobilização em rede
+Os alunos se organizaram pelo Twitter num boicote pacífico. As redes agregam e empoderam grupos em torno de uma causa. **Resposta: D**
+@2019-38
+M: pt
+T: M
+K: IA e criatividade
+O conto da máquina tinha estrutura impecável, mas personagens fracos. Fica evidente a diferença entre estrutura e criatividade humana. **Resposta: D**
+@2019-39
+M: pt
+T: L
+K: Hilda Hilst
+O eu lírico repete "Tudo isso te devo" sobre dor e desfeitas. O amadurecimento vem com ironia e desapego. **Resposta: B**
+@2019-40
+M: pt
+T: L
+K: Futurismo
+O manifesto exalta a energia, a velocidade e as máquinas. Valoriza a inovação tecnológica. **Resposta: B**
+@2019-41
+M: pt
+T: L
+K: alegoria da lesma
+A lesma sonha ser servida numa travessa de porcelana, um destino "digno". A alegoria representa o desejo de realizar expectativas utópicas. **Resposta: C**
+@2019-42
+M: pt
+T: G
+K: pergunta retórica
+O autor simula diálogo com o leitor por meio de uma pergunta retórica, que introduz a explicação da sensibilidade das aranhas. **Resposta: D**
+@2019-43
+M: pt
+T: G
+K: subversão de gênero
+A carta de jogo, um formato lúdico, apresenta dados biográficos do cientista. É uma subversão do gênero. **Resposta: C**
+@2019-44
+M: pt
+T: N
+K: formas verbais e pronominais
+Os verbos e pronomes de 2ª pessoa ("tomas", "teu", "dás") e de 3ª ("ele", "patrão") distinguem os referentes, o operário e o patrão, a serviço do projeto poético. **Resposta: E**
+@2020-6
+M: pt
+T: F
+K: metalinguagem
+Bandeira comenta a origem e a longa gestação do poema "Vou-me embora pra Pasárgada". É a função metalinguística. **Resposta: C**
+@2020-7
+M: pt
+T: V
+K: apagamento de preposição
+No título do filme, falta a preposição que a norma pede. O apagamento é comum na fala brasileira. **Resposta: E**
+@2020-8
+M: pt
+T: L
+K: slam em Libras
+No Slam do Corpo, o corpo e os sinais dão ritmo e visibilidade à poesia, para surdos e ouvintes. **Resposta: A**
+@2020-10
+M: pt
+T: F
+K: aspas e metáfora
+"O ouro do século 21" e as outras expressões entre aspas atribuem valor elevado aos metais, que são o tema da reportagem. **Resposta: C**
+@2020-11
+M: pt
+T: L
+K: paisagem e emoção
+A natureza vira monstruosa e sufocante conforme cresce o medo de Maria. O estado emocional da personagem e a paisagem confluem. **Resposta: B**
+@2020-12
+M: pt
+T: L
+K: Águas de março
+O Texto II mostra que a canção dialoga com diferentes tradições da cultura nacional: folclore, poesia, música popular. **Resposta: A**
+@2020-13
+M: pt
+T: M
+K: aplicativos
+Os aplicativos reúnem times e reservam quadras. Formam grupos em comunidades virtuais para jogar. **Resposta: E**
+@2020-14
+M: arte
+@2020-15
+M: ef
+@2020-16
+M: pt
+T: L
+K: apelo patriótico
+Para neutralizar o pedido dos operários, a empresa apela para a "questão de honra" e o "orgulho nacional" da ponte. É a tentativa mais forte. **Resposta: E**
+@2020-17
+M: ef
+@2020-18
+M: pt
+T: L
+K: retrato lírico
+Por trás do muro escuro e da armadura, "a polpa toda é fruição de medo". O olhar revela vazio e angústia sob a austeridade. **Resposta: A**
+@2020-19
+M: pt
+T: G
+K: petição em versos
+O habeas corpus em versos de cordel brinca com a linguagem jurídica. O jogo atenua a gravidade do "crime" de tocar violão. **Resposta: C**
+@2020-20
+M: pt
+T: V
+K: jargão do coaching
+O "empreendedor de palco" se reconhece pelo jargão ("mindset", "proativo", "powermind"), ou seja, pelos padrões de linguagem. **Resposta: D**
+@2020-21
+M: arte
+@2020-22
+M: pt
+T: G
+K: campanha
+O anúncio do Ministério do Esporte promove conscientização contra a violência de gênero nos eventos esportivos. **Resposta: A**
+@2020-23
+M: pt
+T: L
+K: frases curtas e repetição
+O narrador repete "Eu tenho empresas", "visto", "Nova York". As frases curtas expõem a futilidade do seu discurso de poder e distinção. **Resposta: A**
+@2020-24
+M: pt
+T: N
+K: gerundismo
+O "vou estar enviando" indica um processo contínuo, sem conclusão, por isso vira desculpa de ineficiência. **Resposta: D**
+@2020-25
+M: arte
+@2020-26
+M: pt
+T: M
+K: realidade virtual
+A realidade virtual leva a pessoa a experimentar mentalmente outros ambientes, sem sair do lugar. **Resposta: D**
+@2020-27
+M: pt
+T: G
+K: tipos textuais
+"Caminhando contra o vento... Eu vou" narra o percurso, e o que é visto nas bancas é descrito ("o sol nas bancas de revista"). Os tipos são narrativo e descritivo. **Resposta: D**
+@2020-28
+M: arte
+@2020-29
+M: pt
+T: G
+K: humor
+A confusão de parentescos chega ao absurdo de o garoto ser "meu avô", o que reforça o humor da situação. **Resposta: B**
+@2020-30
+M: pt
+T: G
+K: imagem metafórica
+O lenço cobrindo nariz e boca é a metáfora de que as mulheres precisam se proteger do assédio. **Resposta: B**
+@2020-31
+M: pt
+T: G
+K: notícia
+O texto relata um fato recente (o caso de Joanie Simpson) e informa sobre a síndrome do coração partido. É uma notícia. **Resposta: E**
+@2020-32
+M: pt
+T: V
+K: ditado popular
+"Quem herda, não rouba": a mãe justifica o gênio forte do filho como herança do pai, e o marido se acalma. **Resposta: B**
+@2020-33
+M: pt
+T: L
+K: poesia lambe-lambe
+O projeto usa o suporte dos cartazes de poste, normalmente comerciais, para espalhar poemas. **Resposta: A**
+@2020-34
+M: pt
+T: L
+K: perspectiva infantil
+A vida como "jogo brincado na rua" e os "dias mágicos" mostram a voz narrativa infantil, que dá o tom afetivo. **Resposta: A**
+@2020-35
+M: ef
+@2020-36
+M: ef
+@2020-38
+M: pt
+T: G
+K: voz externa
+"'Antiga, muy nobre, sempre leal e invicta' cidade do Porto" cita entre aspas um título histórico, uma voz externa sobre a identidade portuguesa. **Resposta: A**
+@2020-39
+M: pt
+T: L
+K: descrição exaltadora
+O hino descreve a bandeira (céu azul, matas, Cruzeiro do Sul) para valorizar seus elementos. **Resposta: C**
+@2020-40
+M: pt
+T: L
+K: Os ratos
+Naziazeno pede dinheiro e é humilhado diante de todos, que sorriem. A pobreza amplifica a sujeição moral. **Resposta: A**
+@2020-43
+M: pt
+T: M
+K: algoritmos e preconceito
+O software repetiu a discriminação dos funcionários, e os anúncios associam nomes de negros a antecedentes criminais. A tecnologia expõe o preconceito social. **Resposta: D**
+@2020-44
+M: pt
+T: G
+K: campanha de adoção
+A imagem de uma família feliz com um filho mais velho reforça que a adoção tardia é positiva. **Resposta: B**

@@ -21,7 +21,7 @@ export type Question = {
 
 export type Raw = { meta: { total: number; porAno: Record<string, number>; [k: string]: unknown }; questions: Question[] };
 export type TopicInfo = { name: string; emoji: string; badge: string; cor: string; corClara: string; texto: string };
-export type MateriaId = "fisica" | "biologia" | "quimica" | "geografia" | "natureza";
+export type MateriaId = "fisica" | "biologia" | "quimica" | "geografia" | "portugues" | "natureza";
 export type MateriaInfo = {
   id: MateriaId;
   nome: string;
@@ -103,6 +103,18 @@ export const MATERIAS: MateriaInfo[] = [
       t("Cartografia e Geotecnologias", "🗺️", "Olho de Satélite", "noite"),
     ],
     fraseAcerto: "Isso! Geografia de quem vai passar!", fraseOtimo: "Mandou muito bem! Você tá no mapa do ENEM! 🌎", nivel3: "Explorador do Mundo",
+  },
+  {
+    id: "portugues", nome: "Português e Literatura", emoji: "📚", key: "tigrao-enem-portugues-v1", subtitulo: "Português e Literatura, questões oficiais", area: "Linguagens e Códigos",
+    topicos: [
+      t("Interpretação e Gêneros Textuais", "📖", "Leitor de Elite", "azul"),
+      t("Literatura", "🖋️", "Alma de Poeta", "roxo"),
+      t("Variação Linguística", "🗣️", "Voz do Brasil", "laranja"),
+      t("Linguagem, Mídia e Tecnologia", "📱", "Fera da Mídia", "teal"),
+      t("Funções da Linguagem e Figuras", "🎭", "Mestre das Figuras", "vermelho"),
+      t("Gramática e Norma-Padrão", "✏️", "Guardião da Norma", "noite"),
+    ],
+    fraseAcerto: "Isso! Português de quem vai passar!", fraseOtimo: "Mandou muito bem! Leitura afiada rumo ao ENEM! 📚", nivel3: "Mestre das Letras",
   },
   {
     id: "natureza", nome: "Ciências da Natureza", emoji: "🔬", key: "tigrao-enem-natureza-v1", subtitulo: "Física + Biologia + Química, questões oficiais",
