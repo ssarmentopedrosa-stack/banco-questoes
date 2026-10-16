@@ -4,38 +4,38 @@
   "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), caderno azul; texto conferido com o PDF oficial do Inep",
   "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2010 CN: leitura do gabarito oficial (círculos verdes) feita no pipeline de Física",
   "porAno": {
-   "2009": 16,
+   "2009": 18,
    "2011": 17,
    "2012": 17,
-   "2013": 10,
-   "2014": 8,
-   "2015": 9,
-   "2016": 11,
-   "2017": 14,
-   "2018": 10,
-   "2019": 12,
+   "2013": 11,
+   "2014": 10,
+   "2015": 12,
+   "2016": 12,
+   "2017": 15,
+   "2018": 12,
+   "2019": 15,
    "2020": 19,
-   "2021": 11,
+   "2021": 12,
    "2022": 14,
    "2023": 13,
    "2024": 10,
    "2025": 9
   },
   "foraPorAno": {},
-  "total": 200,
+  "total": 216,
   "fora": {},
   "porArea": {
-   "Indústria, Economia e Globalização": 40,
-   "Urbanização e População": 39,
-   "Espaço Agrário": 26,
-   "Clima e Hidrografia": 25,
-   "Relevo, Solos e Geologia": 24,
-   "Meio Ambiente e Recursos": 23,
-   "Geopolítica e Conflitos": 14,
+   "Indústria, Economia e Globalização": 42,
+   "Urbanização e População": 42,
+   "Espaço Agrário": 27,
+   "Clima e Hidrografia": 27,
+   "Meio Ambiente e Recursos": 26,
+   "Relevo, Solos e Geologia": 26,
+   "Geopolítica e Conflitos": 17,
    "Cartografia e Geotecnologias": 9
   },
   "doPdfOficial": 20,
-  "comExplicacao": 200,
+  "comExplicacao": 216,
   "revisadas": 0,
   "classificacao": "automática (palavras-chave) + revisão manual dos casos ambíguos pelo agente; a conferir pelo professor"
  },
@@ -527,6 +527,48 @@
    }
   },
   {
+   "id": "ENEM-CH-2009-REG-D1-C1-Q82",
+   "year": 2009,
+   "area": "Geopolítica e Conflitos",
+   "content": null,
+   "demand": null,
+   "statement": "Com a perspectiva do desaparecimento das geleiras no Polo Norte, grandes reservas de petróleo e minérios, hoje inacessíveis, poderão ser exploradas. E já atiçam a cobiça das potências.\n\nKOPP, D. Guerra Fria sobre o Ártico. Le monde diplomatique Brasil.\nSetembro, n. 2, 2007 (adaptado).\n\nNo cenário de que trata o texto, a exploração de jazidas de petróleo, bem como de minérios – diamante, ouro, prata, cobre, chumbo, zinco – torna-se atraente não só em função de seu formidável potencial, mas também por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Situar-se em uma zona geopolítica mais estável que o Oriente Médio."
+    },
+    {
+     "letter": "B",
+     "text": "Possibilitar o povoamento de uma região pouco habitada, além de promover seu desenvolvimento econômico."
+    },
+    {
+     "letter": "C",
+     "text": "Garantir, aos países em desenvolvimento, acesso a matérias-primas e energia, necessárias ao crescimento econômico."
+    },
+    {
+     "letter": "D",
+     "text": "Contribuir para a redução da poluição em áreas ambientalmente já degradadas devido ao grande volume da produção industrial, como ocorreu na Europa."
+    },
+    {
+     "letter": "E",
+     "text": "Promover a participação dos combustíveis fósseis na matriz energética mundial, dominada, majoritariamente, pelas fontes renováveis, de maior custo."
+    }
+   ],
+   "figures": [],
+   "number": 82,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Com o degelo, petróleo e minérios do Ártico passam a ser cobiçados. Além do potencial, a região é atraente por ser geopoliticamente mais estável que o Oriente Médio, marcado por guerras e instabilidade que afetam o fornecimento de petróleo. **Resposta: A**",
+    "keyConcept": "Ártico, nova fronteira de recursos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
    "id": "ENEM-CH-2009-REG-D1-C1-Q83",
    "year": 2009,
    "area": "Indústria, Economia e Globalização",
@@ -637,6 +679,63 @@
    "explanation": {
     "markdown": "A restrição climática mais evidente é a aridez. A irrigação por aspersão (pivôs centrais) no deserto da Arábia Saudita é uma tecnologia que permite produzir apesar da falta de chuva. O parque eólico (E) usa o vento para gerar energia, e não para contornar uma limitação à produção agrícola. **Resposta: D**",
     "keyConcept": "técnica para superar a falta de chuva",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2009-REG-D1-C1-Q86",
+   "year": 2009,
+   "area": "Meio Ambiente e Recursos",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\n[[FIG 1]]\n\nReunindo-se as informações contidas nas duas charges, infere-se que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Os regimes climáticos da Terra são desprovidos de padrões que os caracterizem."
+    },
+    {
+     "letter": "B",
+     "text": "As intervenções humanas nas regiões polares são mais intensas que em outras partes do globo."
+    },
+    {
+     "letter": "C",
+     "text": "O processo de aquecimento global será detido com a eliminação das queimadas."
+    },
+    {
+     "letter": "D",
+     "text": "A destruição das florestas tropicais é uma das causas do aumento da temperatura em locais distantes como os polos."
+    },
+    {
+     "letter": "E",
+     "text": "Os parâmetros climáticos modificados pelo homem afetam todo o planeta, mas os processos naturais têm alcance regional."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/geografia/2009/ENEM-CH-2009-REG-D1-C1-Q86-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 338,
+     "height": 243
+    },
+    {
+     "src": "./figuras/geografia/2009/ENEM-CH-2009-REG-D1-C1-Q86-2.webp",
+     "kind": "enunciado",
+     "label": "Figura 2",
+     "width": 350,
+     "height": 372
+    }
+   ],
+   "number": 86,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "As charges ligam a queimada das florestas tropicais ao derretimento do gelo polar. O desmatamento libera CO₂ e intensifica o aquecimento global, cujos efeitos chegam a regiões distantes como os polos. **Resposta: D**",
+    "keyConcept": "efeitos globais do desmatamento",
     "commonMistake": "",
     "lowConfidence": false,
     "author": "IA",
@@ -2372,6 +2471,48 @@
    }
   },
   {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q19",
+   "year": 2013,
+   "area": "Indústria, Economia e Globalização",
+   "content": null,
+   "demand": null,
+   "statement": "Disneylândia\n\nMultinacionais japonesas instalam empresas em Hong-Kong\n\nE produzem com matéria-prima brasileira\n\nPara competir no mercado americano\n\n[…]\n\nPilhas americanas alimentam eletrodomésticos ingleses na Nova Guiné\n\nGasolina árabe alimenta automóveis americanos na África do Sul\n\n[…]\n\nCrianças iraquianas fugidas da guerra\n\nNão obtêm visto no consulado americano do Egito\n\nPara entrarem na Disneylândia\n\nANTUNES, A. Disponível em: www.radio.uol.com.br. Acesso em: 3 fev. 2013 (fragmento).\n\nNa canção, ressalta-se a coexistência, no contexto internacional atual, das seguintes situações:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acirramento do controle alfandegário e estímulo ao capital especulativo."
+    },
+    {
+     "letter": "B",
+     "text": "Ampliação das trocas econômicas e seletividade dos fluxos populacionais."
+    },
+    {
+     "letter": "C",
+     "text": "Intensificação do controle informacional e adoção de barreiras fitossanitárias."
+    },
+    {
+     "letter": "D",
+     "text": "Aumento da circulação mercantil e desregulamentação do sistema financeiro."
+    },
+    {
+     "letter": "E",
+     "text": "Expansão do protecionismo comercial e descaracterização de identidades nacionais."
+    }
+   ],
+   "figures": [],
+   "number": 19,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A canção mostra mercadorias, capitais e matérias-primas circulando livremente pelo mundo, enquanto crianças fugidas da guerra não conseguem visto. Há ampliação das trocas econômicas e seletividade dos fluxos de pessoas. **Resposta: B**",
+    "keyConcept": "globalização seletiva",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
    "id": "ENEM-CH-2013-REG-D1-C1-Q21",
    "year": 2013,
    "area": "Geopolítica e Conflitos",
@@ -3034,6 +3175,106 @@
    }
   },
   {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q36",
+   "year": 2014,
+   "area": "Relevo, Solos e Geologia",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nA partir da análise da imagem, o aparecimento da Dorsal Mesoatlântica está associada ao(à)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Separação da Pangeia a partir do período Permiano."
+    },
+    {
+     "letter": "B",
+     "text": "Deslocamento de fraturas no período Triássico."
+    },
+    {
+     "letter": "C",
+     "text": "Afastamento da Europa no período Jurássico."
+    },
+    {
+     "letter": "D",
+     "text": "Formação do Atlântico Sul no período Cretáceo."
+    },
+    {
+     "letter": "E",
+     "text": "Constituição de orogêneses no período Quaternário."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/geografia/2014/ENEM-CH-2014-REG-D1-C1-Q36-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 332,
+     "height": 597
+    }
+   ],
+   "number": 36,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A Dorsal Mesoatlântica é a cadeia submarina formada pelo afastamento das placas Sul-Americana e Africana. A separação entre América do Sul e África, que formou o Atlântico Sul, ocorreu no Cretáceo. **Resposta: D**",
+    "keyConcept": "abertura do Atlântico Sul",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q37",
+   "year": 2014,
+   "area": "Geopolítica e Conflitos",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nNa imagem, é ressaltado, em tom mais escuro, um grupo de países que na atualidade possuem características político-econômicas comuns, no sentido de:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adotarem o liberalismo político na dinâmica dos seus setores públicos."
+    },
+    {
+     "letter": "B",
+     "text": "Constituírem modelos de ações decisórias vinculadas à social-democracia."
+    },
+    {
+     "letter": "C",
+     "text": "Instituírem fóruns de discussão sobre intercâmbio multilateral de economias emergentes."
+    },
+    {
+     "letter": "D",
+     "text": "Promoverem a integração representativa dos diversos povos integrantes de seus territórios."
+    },
+    {
+     "letter": "E",
+     "text": "Apresentarem uma frente de desalinhamento político aos polos dominantes do sistema-mundo."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/geografia/2014/ENEM-CH-2014-REG-D1-C1-Q37-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 722,
+     "height": 376
+    }
+   ],
+   "number": 37,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Os países destacados no mapa (Brasil, Rússia, Índia, China e África do Sul) formam o BRICS, fórum de economias emergentes para cooperação e intercâmbio multilateral. **Resposta: C**",
+    "keyConcept": "BRICS",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
    "id": "ENEM-CH-2015-REG-D1-C1-Q1",
    "year": 2015,
    "area": "Meio Ambiente e Recursos",
@@ -3084,6 +3325,56 @@
    }
   },
   {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q4",
+   "year": 2015,
+   "area": "Espaço Agrário",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nNa charge há uma crítica ao processo produtivo agrícola brasileiro relacionada ao",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Elevado preço das mercadorias no comércio."
+    },
+    {
+     "letter": "B",
+     "text": "Aumento da demanda por produtos naturais."
+    },
+    {
+     "letter": "C",
+     "text": "Crescimento da produção de alimentos."
+    },
+    {
+     "letter": "D",
+     "text": "Hábito de adquirir derivados industriais."
+    },
+    {
+     "letter": "E",
+     "text": "Uso de agrotóxicos nas plantações."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/geografia/2015/ENEM-CH-2015-REG-D1-C1-Q4-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 373,
+     "height": 288
+    }
+   ],
+   "number": 4,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "A charge critica o modelo agrícola brasileiro, um dos maiores consumidores de agrotóxicos do mundo, e o risco dos resíduos que chegam aos alimentos. **Resposta: E**",
+    "keyConcept": "agrotóxicos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
    "id": "ENEM-CH-2015-REG-D1-C1-Q8",
    "year": 2015,
    "area": "Indústria, Economia e Globalização",
@@ -3119,6 +3410,48 @@
    "explanation": {
     "markdown": "A crise imobiliária dos EUA (2007–2008) se espalhou porque bancos e investidores do mundo todo tinham títulos ligados a essas hipotecas, já que o sistema financeiro é interdependente. Não foi uma crise de superprodução (A) nem começou na Ásia (B). **Resposta: C**",
     "keyConcept": "crise do subprime: economias interligadas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q12",
+   "year": 2015,
+   "area": "Urbanização e População",
+   "content": null,
+   "demand": null,
+   "statement": "O processo de concentração urbana no Brasil em determinados locais teve momentos de maior intensidade e, ao que tudo indica, atualmente passa por uma desaceleração no ritmo de crescimento populacional nos grandes centros urbanos.\n\nBAENINGER, R. Cidades e metrópoles: a desaceleração no crescimento populacional e novos arranjos regionais. Disponível em: www.sbsociologia.com.br. Acesso em: 12 dez. 2012 (adaptado).\n\nUma causa para o processo socioespacial mencionado no texto é o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Carência de matérias-primas."
+    },
+    {
+     "letter": "B",
+     "text": "Degradação da rede rodoviária."
+    },
+    {
+     "letter": "C",
+     "text": "Aumento do crescimento vegetativo."
+    },
+    {
+     "letter": "D",
+     "text": "Centralização do poder político."
+    },
+    {
+     "letter": "E",
+     "text": "Realocação da atividade industrial."
+    }
+   ],
+   "figures": [],
+   "number": 12,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "A desaceleração do crescimento das grandes metrópoles está ligada à saída de indústrias para cidades médias e outras regiões, em busca de incentivos e custos menores. É a realocação da atividade industrial. **Resposta: E**",
+    "keyConcept": "desconcentração industrial",
     "commonMistake": "",
     "lowConfidence": false,
     "author": "IA",
@@ -3211,6 +3544,48 @@
    "explanation": {
     "markdown": "O intemperismo é mais intenso em climas quentes e úmidos. Onde chove pouco, como no semiárido, ele é muito fraco, e os solos são rasos e pouco alterados. Os climas equatorial e tropical (C, A) têm intemperismo forte. **Resposta: D**",
     "keyConcept": "intemperismo químico precisa de água e calor",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q29",
+   "year": 2015,
+   "area": "Indústria, Economia e Globalização",
+   "content": null,
+   "demand": null,
+   "statement": "No final do século XX e em razão dos avanços da ciência, produziu-se um sistema presidido pelas técnicas da informação, que passaram a exercer um papel de elo entre as demais, unindo-as e assegurando ao novo sistema uma presença planetária. Um mercado que utiliza esse sistema de técnicas avançadas resulta nessa globalização perversa.\n\nSANTOS, M. Por uma outra globalização. Rio de Janeiro: Record, 2008 (adaptado).\n\nUma consequência para o setor produtivo e outra para o mundo do trabalho advindas das transformações citadas no texto estão presentes, respectivamente, em:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Eliminação das vantagens locacionais e ampliação da legislação laboral."
+    },
+    {
+     "letter": "B",
+     "text": "Limitação dos fluxos logísticos e fortalecimento de associações sindicais."
+    },
+    {
+     "letter": "C",
+     "text": "Diminuição dos investimentos industriais e desvalorização dos postos qualificados."
+    },
+    {
+     "letter": "D",
+     "text": "Concentração das áreas manufatureiras e redução da jornada semanal."
+    },
+    {
+     "letter": "E",
+     "text": "Automatização dos processos fabris e aumento dos níveis de desemprego."
+    }
+   ],
+   "figures": [],
+   "number": 29,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Para Milton Santos, as técnicas da informação unificaram o sistema produtivo. Na produção, isso trouxe automação dos processos; no trabalho, a substituição de pessoas por máquinas aumentou o desemprego, um dos traços da \"globalização perversa\". **Resposta: E**",
+    "keyConcept": "meio técnico-científico-informacional",
     "commonMistake": "",
     "lowConfidence": false,
     "author": "IA",
@@ -3773,6 +4148,48 @@
    "explanation": {
     "markdown": "O ACNUR critica o governo húngaro por estimular a xenofobia com muros e cartazes, o que fortalece práticas de discriminação contra imigrantes e refugiados. A crítica não é sobre mudança de regime nem sobre liberdade de expressão (A, D). **Resposta: E**",
     "keyConcept": "governo incentivando a xenofobia",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q34",
+   "year": 2016,
+   "area": "Meio Ambiente e Recursos",
+   "content": null,
+   "demand": null,
+   "statement": "A linhagem dos primeiros críticos ambientais brasileiros não praticou o elogio laudatório da beleza e da grandeza do meio natural brasileiro. O meio natural foi elogiado por sua riqueza e potencial econômico, sendo sua destruição interpretada como um signo de atraso, ignorância e falta de cuidado.\n\nPADUA, J. A. Um sopro de destruição: pensamento político e crítica ambiental no Brasil escravista (1786-1888). Rio de Janeiro:Zahar, 2002 (adaptado).\n\nDescrevendo a posição dos críticos ambientais brasileiros dos séculos XVIII e XIX, o autor demonstra que, via de regra, eles viam o meio natural como",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ferramenta essencial para o avanço da nação."
+    },
+    {
+     "letter": "B",
+     "text": "Dádiva divina para o desenvolvimento industrial."
+    },
+    {
+     "letter": "C",
+     "text": "Paisagem privilegiada para a valorização fundiária."
+    },
+    {
+     "letter": "D",
+     "text": "Limitação topográfica para a promoção da urbanização."
+    },
+    {
+     "letter": "E",
+     "text": "Obstáculo climático para o estabelecimento da civilização."
+    }
+   ],
+   "figures": [],
+   "number": 34,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O autor mostra que os primeiros críticos ambientais brasileiros não exaltavam a beleza da natureza. Eles a valorizavam pela riqueza e pelo potencial econômico, e criticavam sua destruição por ameaçar o futuro do país. A natureza era vista como ferramenta para o progresso da nação. **Resposta: A**",
+    "keyConcept": "natureza como recurso para a nação",
     "commonMistake": "",
     "lowConfidence": false,
     "author": "IA",
@@ -4349,6 +4766,48 @@
    }
   },
   {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q72",
+   "year": 2017,
+   "area": "Meio Ambiente e Recursos",
+   "content": null,
+   "demand": null,
+   "statement": "Trata-se da perda progressiva da produtividade de biomas inteiros, afetando parcelas muito expressivas dos domínios subúmidos e semiáridos em todas as regiões quentes do mundo. É nessas áreas, ecologicamente transicionais, que pressão sobre a biomassa se faz sentir com muita força, devido à retirada da cobertura florestal, ao superpastoreio e às atividades mineradoras não controladas, desencadeando um quadro agudo de degradação ambiental, refletido pela incapacidade de suporte para o desenvolvimento de espécies vegetais, seja uma floresta natural ou plantações agrícolas.\n\nCONTI, J. B. A geografia física e as relações sociedade-natureza no mundo tropical, In: CARLOS, A. F. A. (Org.). Novos caminhos da geografia. São Paulo:\n\nO texto enfatiza uma consequência da relação conflituosa entre a sociedade humana e o ambiente, que diz respeito",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inversão térmica."
+    },
+    {
+     "letter": "B",
+     "text": "Poluição atmosférica."
+    },
+    {
+     "letter": "C",
+     "text": "Eutrofização da água."
+    },
+    {
+     "letter": "D",
+     "text": "Contaminação dos solos."
+    },
+    {
+     "letter": "E",
+     "text": "Desertificação de ecossistemas."
+    }
+   ],
+   "figures": [],
+   "number": 72,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "A perda progressiva de produtividade de biomas inteiros em áreas subúmidas e semiáridas, causada pelo uso inadequado do solo, é a definição de desertificação. **Resposta: E**",
+    "keyConcept": "desertificação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
    "id": "ENEM-CH-2017-REG-D1-C1-Q73",
    "year": 2017,
    "area": "Urbanização e População",
@@ -4616,6 +5075,56 @@
    }
   },
   {
+   "id": "ENEM-CH-2018-REG-D1-C1-Q63",
+   "year": 2018,
+   "area": "Clima e Hidrografia",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nQual característica do meio físico é condição necessária para a distribuição espacial do fenômeno representado?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cobertura vegetal com porte arbóreo."
+    },
+    {
+     "letter": "B",
+     "text": "Barreiras orográficas com altitudes elevadas."
+    },
+    {
+     "letter": "C",
+     "text": "Pressão atmosférica com diferença acentuada."
+    },
+    {
+     "letter": "D",
+     "text": "Superfície continental com refletividade intensa."
+    },
+    {
+     "letter": "E",
+     "text": "Correntes marinhas com direções convergentes."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/geografia/2018/ENEM-CH-2018-REG-D1-C1-Q63-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 536,
+     "height": 356
+    }
+   ],
+   "number": 63,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O fenômeno representado no mapa depende do deslocamento de ar, ou seja, do vento. O vento se forma quando há diferença acentuada de pressão atmosférica entre áreas: o ar vai da alta para a baixa pressão. **Resposta: C**",
+    "keyConcept": "ventos e diferença de pressão",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
    "id": "ENEM-CH-2018-REG-D1-C1-Q65",
    "year": 2018,
    "area": "Indústria, Economia e Globalização",
@@ -4827,6 +5336,56 @@
    "explanation": {
     "markdown": "Crostas lateríticas (canga) se formam pela alternância de estações chuvosas, que lixiviam o solo, e secas, que concentram e endurecem o ferro. Isso é típico do clima tropical com sazonalidade. Clima árido ou frio (A, C) não altera tanto o solo. **Resposta: D**",
     "keyConcept": "crosta laterítica: estação chuvosa + estação seca",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2018-REG-D1-C1-Q82",
+   "year": 2018,
+   "area": "Clima e Hidrografia",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\nHá mais de duas décadas, os cientistas e ambientalistas têm alertado para o fato de a água doce ser um recurso escasso em nosso planeta. Desde o começo de 2014, o Sudeste do Brasil adquiriu uma clara percepção dessa realidade em função da seca.\n\nTEXTO II\n                                 Dinâmicas atmosféricas no Brasil\n\nElementos relevantes ao transporte de umidade na América do Sul a leste dos Andes pelos Jatos de Baixos Níveis (JBN), Frentes Frias (FF) e transporte de umidade do Atlântico Sul, assim como a presença da Zona de Convergência do Atlântico Sul (ZCAS), para um verão normal e para o verão seco de 2014. “A ” representa o centro da anomalia de alta pressão atmosférica.\n\n[[FIG 0]]\n\nDe acordo com as informações apresentadas, a seca de 2014, no Sudeste, teve como causa natural o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Constituição de frentes quentes barrando as chuvas convectivas."
+    },
+    {
+     "letter": "B",
+     "text": "Formação de anticiclone impedindo a entrada de umidade."
+    },
+    {
+     "letter": "C",
+     "text": "Presença de nebulosidade na região de cordilheira."
+    },
+    {
+     "letter": "D",
+     "text": "Avanço de massas polares para o continente."
+    },
+    {
+     "letter": "E",
+     "text": "Baixa pressão atmosférica no litoral."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/geografia/2018/ENEM-CH-2018-REG-D1-C1-Q82-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 779,
+     "height": 319
+    }
+   ],
+   "number": 82,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O mapa indica um centro de alta pressão anômalo sobre o Sudeste. Esse anticiclone bloqueou a Zona de Convergência do Atlântico Sul e impediu a chegada da umidade e das chuvas de verão. **Resposta: B**",
+    "keyConcept": "bloqueio atmosférico na seca de 2014",
     "commonMistake": "",
     "lowConfidence": false,
     "author": "IA",
@@ -5186,6 +5745,56 @@
    }
   },
   {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q59",
+   "year": 2019,
+   "area": "Relevo, Solos e Geologia",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nA divisão política do mundo como apresentada na imagem seria possível caso o planeta fosse marcado pela estabilidade do(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ciclo hidrológico."
+    },
+    {
+     "letter": "B",
+     "text": "Processo erosivo."
+    },
+    {
+     "letter": "C",
+     "text": "Estrutura geológica."
+    },
+    {
+     "letter": "D",
+     "text": "Índice pluviométrico."
+    },
+    {
+     "letter": "E",
+     "text": "Pressão atmosférica."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/geografia/2019/ENEM-CH-2019-REG-D1-C1-Q59-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 418,
+     "height": 290
+    }
+   ],
+   "number": 59,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "A imagem mostra as fronteiras políticas atuais sobre um mapa dos continentes em outra configuração. Essa divisão só seria possível se a estrutura geológica fosse estável, isto é, se as placas tectônicas não se movessem e os continentes não mudassem de posição. **Resposta: C**",
+    "keyConcept": "divisão política e estrutura geológica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
    "id": "ENEM-CH-2019-REG-D1-C1-Q61",
    "year": 2019,
    "area": "Clima e Hidrografia",
@@ -5305,6 +5914,98 @@
    "explanation": {
     "markdown": "O povoado surgiu de invasões de camponeses, madeireiros, pecuaristas e grileiros sobre áreas florestais, sem planejamento do governo: uma frente pioneira. Não houve colonização dirigida nem reforma agrária (B, C), que dependem da ação do Estado. **Resposta: E**",
     "keyConcept": "ocupação espontânea avançando sobre a floresta",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q77",
+   "year": 2019,
+   "area": "Urbanização e População",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nFala-se aqui de uma arte criada nas ruas e para as ruas, marcadas antes de tudo pela vida cotidiana, seus conflitos e suas possibilidades, que poderiam envolver técnicas, agentes e temas que não fossem encontrados nas instituições mais tradicionais e formais.\n\nVALVERDE, R. R. H. F. Os limites da inversão: a heterotopia do Beco do Batman. Boletim Goiano de Geografia (Online). Goiânia, v. 37, n. 2, maio/ago. 2017 (adaptado).\n\nA manifestação artística expressa na imagem e apresentada no texto integra um movimento contemporâneo de:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Regulação das relações sociais."
+    },
+    {
+     "letter": "B",
+     "text": "Apropriação dos espaços públicos."
+    },
+    {
+     "letter": "C",
+     "text": "Padronização das culturas urbanas."
+    },
+    {
+     "letter": "D",
+     "text": "Valorização dos formalismos estéticos."
+    },
+    {
+     "letter": "E",
+     "text": "Revitalização dos patrimônios históricos."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/geografia/2019/ENEM-CH-2019-REG-D1-C1-Q77-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 600,
+     "height": 453
+    }
+   ],
+   "number": 77,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O grafite do Beco do Batman é uma arte das ruas, feita fora dos espaços formais. Ela integra um movimento de apropriação dos espaços públicos pelos moradores e artistas. **Resposta: B**",
+    "keyConcept": "grafite e espaço público",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q82",
+   "year": 2019,
+   "area": "Urbanização e População",
+   "content": null,
+   "demand": null,
+   "statement": "Tratava-se agora de construir: e construir um ritmo novo. Para tanto, era necessário convocar todas as forças vivas da Nação, todos os homens que, com vontade de trabalhar e confiança no futuro, pudessem erguer, num tempo novo, um novo Tempo. E, à grande convocação que conclamava o povo para a gigantesca tarefa, começaram a chegar de todos os cantos da imensa pátria os trabalhadores: os homens simples e quietos, com pés de raiz, rostos de couro e mãos de pedra, e que, no calcanho, em carro de boi, em lombo de burro, em paus-de-arara, por todas as formas possíveis e imagináveis, em sua mudez cheia de esperança, muitas vezes deixando para trás mulheres e filhos a aguardar suas promessas de melhores dias; foram chegando de tantos povoados, tantas cidades cujos nomes pareciam cantar saudades aos seus ouvidos, dentro dos antigos ritmos da imensa pátria… Terra de sol, Terra de luz… Brasil! Brasil! Brasil!\n\nMORAES, V.; JOBIM, A. C. Brasília, sinfonia da alvorada. III – A chegada dos candangos. Disponível em: www.viniciusdemoraes.com.br. Acesso em: 14 ago. 2012 (adaptado).\n\nNo texto, a narrativa produzida sobre a construção de Brasília articula os elementos políticos e socioeconômicos indicados, respectivamente, em:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Apelo simbólico e migração inter-regional."
+    },
+    {
+     "letter": "B",
+     "text": "Organização sindical e expansão do capital."
+    },
+    {
+     "letter": "C",
+     "text": "Segurança territorial e estabilidade financeira."
+    },
+    {
+     "letter": "D",
+     "text": "Consenso partidário e modernização rodoviária."
+    },
+    {
+     "letter": "E",
+     "text": "Perspectiva democrática e eficácia dos transportes."
+    }
+   ],
+   "figures": [],
+   "number": 82,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O texto de Vinicius convoca \"todas as forças vivas da Nação\" para erguer Brasília, um apelo simbólico de caráter político. No plano socioeconômico, destaca a chegada dos candangos, trabalhadores que migraram de outras regiões, sobretudo do Nordeste. **Resposta: A**",
+    "keyConcept": "Brasília e os candangos",
     "commonMistake": "",
     "lowConfidence": false,
     "author": "IA",
@@ -5569,7 +6270,7 @@
    "area": "Espaço Agrário",
    "content": null,
    "demand": null,
-   "statement": "A propriedade compreende, em seu conteúdo e alcance, além do tradicional direito de uso, gozo e disposição por parte de seu titular, a obrigatoriedade do atendimento de sua função social, cuja definição é inseparável do requisito obrigatório do uso racional da propriedade e dos recursos ambientais que lhe são integrantes. O proprietário, como membro integrante da comunidade, se sujeita a obrigações crescentes que, ultrapassando os limites do direito de vizinhança, no âmbito do direito privado, abrangem o campo dos direitos da coletividade, visando o bem-estar geral, no âmbito do direito público.\nJELINEK, R. O princípio da função social da propriedade e sua repercussão sobre o sistema do Código Civil. Disponível em: www.mp.rs.gov.br. Acesso em: 20 fev. 2013.\nOs movimentos em prol da reforma agrária, que atuam com base no conceito de direito à propriedade apresentado no texto, propõem-se a",
+   "statement": "A propriedade compreende, em seu conteúdo e alcance, além do tradicional direito de uso, gozo e disposição por parte de seu titular, a obrigatoriedade do atendimento de sua função social, cuja definição é inseparável do requisito obrigatório do uso racional da propriedade e dos recursos ambientais que lhe são integrantes. O proprietário, como membro integrante da comunidade, se sujeita a obrigações crescentes que, ultrapassando os limites do direitos de vizinhança, no âmbito do direito privado, abrangem o campo dos direitos da coletividade, visando o bem-estar geral, no âmbito do direito público.\n\nJELINEK, R. O princípio da função social da propriedade e sua repercussão sobre o sistema do Código Civil. Disponível em: www.mp.rs.gov.br. Acesso em: 20 fev. 2013.\n\nOs movimentos em prol da reforma agrária, que atuam com base no conceito de direito à propriedade apresentado no texto, propõem-se a",
    "options": [
     {
      "letter": "A",
@@ -5585,7 +6286,7 @@
     },
     {
      "letter": "D",
-     "text": "Impedir a produção exportadora nas terras agricultáveis."
+     "text": "Impedir a produção exportadora nas terras agriculturáveis."
     },
     {
      "letter": "E",
@@ -5597,14 +6298,13 @@
    "booklet": 1,
    "answer": "C",
    "explanation": {
-    "markdown": "Se a propriedade deve cumprir uma função social e usar a terra de forma racional, as terras improdutivas podem ser desapropriadas para a reforma agrária. Os movimentos não propõem impedir a exportação ou acabar com as agroindústrias (D, E). **Resposta: C**",
-    "keyConcept": "propriedade deve cumprir função social",
+    "markdown": "A Constituição condiciona o direito de propriedade ao cumprimento de sua função social. Os movimentos por reforma agrária usam esse princípio para defender a desapropriação de latifúndios improdutivos. **Resposta: C**",
+    "keyConcept": "função social da propriedade",
     "commonMistake": "",
     "lowConfidence": false,
     "author": "IA",
     "reviewed": false
-   },
-   "textoDoPdf": true
+   }
   },
   {
    "id": "ENEM-CH-2020-REG-D1-C1-Q50",
@@ -6598,6 +7298,48 @@
    "explanation": {
     "markdown": "Sem inserção nas novas tecnologias e dependendo de commodities e de indústria antiga, o Brasil importa tecnologia e fica subordinado aos fluxos econômicos globais. O texto não indica estatização nem modernização (B, E). **Resposta: D**",
     "keyConcept": "pouca inovação → dependência externa",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2021-REG-D1-C1-Q63",
+   "year": 2021,
+   "area": "Geopolítica e Conflitos",
+   "content": null,
+   "demand": null,
+   "statement": "As atividades mineradores têm criado conflitos com extrativistas, quilombolas, pequenos agricultores, ribeirinhos, pescadores artesanais e povos indígenas. Em geral, estes sujeitos têm encontrado grande dificuldade de reproduzi suas dinâmicas territoriais depois da instalação da atividade mineradora , nem sempre com reconhecimento do impacto ao seu território pelo Estado e pela empresa, ficando sem qualquer tipo de compensação econômica. Em outros casos, nem a compensação econômica tem sido capaz de evitar esgarçamento das relações sociais destes grupos que sofrem com a reconstrução abrupta das suas identidades e de suas dinâmicas territoriais.\n\nPALHETA, J. M. et al. Conflitos pelo uso do território na Amazônica mineral. Mercator, n. 16. 2017.\n\nO texto apresenta uma relação entre atividade econômica e organização social marcada pelo(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Escassez de incentivo cultural."
+    },
+    {
+     "letter": "B",
+     "text": "Rompimento de vínculos locais."
+    },
+    {
+     "letter": "C",
+     "text": "Carência de investimento financeiro."
+    },
+    {
+     "letter": "D",
+     "text": "Estabelecimento de práticas agroecológicas."
+    },
+    {
+     "letter": "E",
+     "text": "Enriquecimento das comunidades autóctones."
+    }
+   ],
+   "figures": [],
+   "number": 63,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A mineração na Amazônia desloca comunidades tradicionais (quilombolas, ribeirinhos, indígenas) e muda abruptamente suas identidades e territórios. O resultado é o rompimento dos vínculos locais. **Resposta: B**",
+    "keyConcept": "mineração e territórios tradicionais",
     "commonMistake": "",
     "lowConfidence": false,
     "author": "IA",

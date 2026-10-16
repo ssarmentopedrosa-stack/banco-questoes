@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera src/materias/historia.json (ENEM 2009–2023, CH, caderno azul do 1º dia).
+"""Gera src/materias/<historia|filosofia|sociologia>.json (ou acrescenta à geografia.json com o argumento geografia) (ENEM 2009–2023, CH, caderno azul do 1º dia).
 
 Pipeline (mesmas regras do build.py):
   seg.py   → segmenta o PDF oficial do Inep por questão;
@@ -29,8 +29,33 @@ TEMAS = {'historia': [
  ('Idade Moderna, Iluminismo e Revoluções', r'renascen|reforma protestante|lutero|absolutis|iluminis|revolucao francesa|revolucao industrial|mercantil|1789|burgues|navega|independencia dos estados unidos|napole'),
  ('Mundo Contemporâneo: Guerras e Guerra Fria', r'guerra mundial|nazis|fascis|hitler|guerra fria|sovietic|urss|socialis|comunis|totalit|holocaust|imperialis|descoloniza|apartheid|cuba|vietna|1914|1939|1945'),
  ('África, América e Povos Originários', r'africa|indigena|indio|asteca|maia|inca|nativ|povos originarios|america latina|afro'),
-]}
-TEMA_PADRAO = {'historia': 'Cultura, Memória e Cidadania'}
+],
+ 'filosofia': [
+ ('Filosofia Antiga', r'socrat|platao|aristotel|pre-socrat|heraclit|parmenid|democrit|epicur|estoic|sofist|ceticis|pirro|tales|polis|grego|grecia'),
+ ('Filosofia Medieval', r'agostinho|tomas de aquino|aquino|escolastic|medieva|fe e razao|deus'),
+ ('Filosofia Moderna: Razão e Conhecimento', r'descartes|cartesian|bacon|hume|locke|kant|empiris|racionalis|conhecimento|metodo|ciencia|galileu|newton|iluminis'),
+ ('Ética e Moral', r'etica|moral|virtude|felicidade|dever|utilitar|bentham|mill|bem e o mal|liberdade'),
+ ('Filosofia Política', r'maquiavel|hobbes|rousseau|montesquieu|contrato|estado|soberan|democracia|poder|justica|direito|politic|cidadan'),
+ ('Filosofia Contemporânea', r'nietzsche|sartre|existenc|heidegger|adorno|horkheimer|industria cultural|foucault|arendt|habermas|marx|schopenhauer|merleau|beauvoir|wittgenstein'),
+ ],
+ 'sociologia': [
+ ('Cultura, Identidade e Diversidade', r'cultura|identidade|etnocentr|relativis|diversidade|indigena|religi|tradicao'),
+ ('Trabalho e Sociedade', r'trabalho|operari|fordis|toyotis|capitalis|produc|emprego|salari|marx|classe'),
+ ('Política, Estado e Cidadania', r'estado|cidadan|democracia|direitos|politic|eleic|voto|weber|poder|constituic'),
+ ('Movimentos Sociais e Desigualdades', r'movimento|desigualdade|feminis|mulher|genero|racis|negro|pobreza|exclusao|minoria'),
+ ('Globalização, Mídia e Tecnologia', r'globaliza|midia|internet|tecnolog|consumo|rede|informac|comunicac|imagem|digital'),
+ ],
+ 'geografia': [
+ ('Indústria, Economia e Globalização', r'industri|economi|globaliza|mercado|empresa|comerci|capital'),
+ ('Urbanização e População', r'urban|cidade|populac|migra|metropol|favela|demograf'),
+ ('Espaço Agrário', r'agrari|agricult|terra|rural|campo|latifund|soja|agronegoc'),
+ ('Clima e Hidrografia', r'clima|chuva|rio|hidrograf|agua|seca|bacia|temperatura|atmosf'),
+ ('Relevo, Solos e Geologia', r'relevo|solo|rocha|geolog|eros|tecton|vulc|sismo'),
+ ('Meio Ambiente e Recursos', r'ambient|desmat|bioma|floresta|energia|recurso|polui|sustent'),
+ ('Geopolítica e Conflitos', r'geopolit|conflito|guerra|fronteira|territori|naca|estado'),
+ ('Cartografia e Geotecnologias', r'mapa|cartograf|escala|projec|satelit|coordenad'),
+ ]}
+TEMA_PADRAO = {'historia': 'Cultura, Memória e Cidadania', 'filosofia': 'Filosofia Contemporânea', 'sociologia': 'Cultura, Identidade e Diversidade', 'geografia': 'Indústria, Economia e Globalização'}
 
 def tema(txt):
     t = norm(txt); best, bs = None, 0
@@ -73,9 +98,23 @@ def main():
                 os.makedirs(os.path.dirname(f'{APP}/public/{rel}'), exist_ok=True)
                 im = Image.open(src); im = im if im.mode in ('RGB', 'RGBA', 'L') else im.convert('RGBA')
                 im.save(f'{APP}/public/{rel}', 'WEBP', quality=90, method=6); o['image'] = './' + rel
-        out.append({'id': id_, 'year': y, 'area': tema(st + ' ' + ' '.join(o['text'] for o in opts)), 'content': None, 'demand': None,
+        out.append({'id': id_, 'year': y, 'area': LAB.get('tema', {}).get(k) or tema(st + ' ' + ' '.join(o['text'] for o in opts)), 'content': None, 'demand': None,
                     'statement': st, 'options': opts, 'figures': figs, 'number': n, 'booklet': 1, 'answer': of, 'explanation': None})
     p = f'{APP}/src/materias/{MAT}.json'
+    if MAT == 'geografia':
+        d = json.load(open(p)); ids = {x['id'] for x in out}
+        prev = {x['id']: x for x in d['questions'] if x['id'] in ids}
+        for x in out:
+            if x['id'] in prev: x['explanation'] = prev[x['id']].get('explanation'); pass
+        nao = {f'ENEM-CH-{k.split("-")[0]}-REG-D1-C1-Q{k.split("-")[1]}' for k, v in LAB['materia'].items() if v != 'geografia'}
+        d['questions'] = sorted([x for x in d['questions'] if x['id'] not in ids and x['id'] not in nao] + out, key=lambda x: (x['year'], x['number']))
+        qs = d['questions']; m = d['meta']
+        m['porAno'] = dict(sorted(collections.Counter(str(x['year']) for x in qs).items())); m['total'] = len(qs)
+        m['porArea'] = dict(collections.Counter(x['area'] for x in qs).most_common())
+        m['comExplicacao'] = sum(1 for x in qs if x.get('explanation'))
+        json.dump(d, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        json.dump({'entram': [f"{x['year']}-{x['number']}" for x in out], 'fora': fora}, open(f'{HERE}/relatorio_geografia_humanas.json', 'w'), ensure_ascii=False, indent=1)
+        print('geografia (+humanas) entram', len(out), [f"{x['year']}-{x['number']}" for x in out], '| fora', len(fora), '| total', len(qs)); return
     old = {x['id']: x for x in json.load(open(p))['questions']} if os.path.exists(p) else {}
     for x in out:
         if x['id'] in old and old[x['id']].get('explanation'): x['explanation'] = old[x['id']]['explanation']

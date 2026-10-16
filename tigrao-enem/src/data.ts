@@ -21,7 +21,7 @@ export type Question = {
 
 export type Raw = { meta: { total: number; porAno: Record<string, number>; [k: string]: unknown }; questions: Question[] };
 export type TopicInfo = { name: string; emoji: string; badge: string; cor: string; corClara: string; texto: string };
-export type MateriaId = "fisica" | "biologia" | "quimica" | "geografia" | "historia" | "natureza";
+export type MateriaId = "fisica" | "biologia" | "quimica" | "geografia" | "historia" | "filosofia" | "sociologia" | "natureza";
 export type MateriaInfo = {
   id: MateriaId;
   nome: string;
@@ -118,6 +118,29 @@ export const MATERIAS: MateriaInfo[] = [
       t("Cultura, Memória e Cidadania", "🎭", "Guardião da Memória", "teal"),
     ],
     fraseAcerto: "Isso! História de quem vai passar!", fraseOtimo: "Mandou muito bem! Você tá fazendo história no ENEM! 🏛️", nivel3: "Mestre do Tempo",
+  },
+  {
+    id: "filosofia", nome: "Filosofia", emoji: "🦉", key: "tigrao-enem-filosofia-v1", subtitulo: "Filosofia, questões oficiais", area: "Ciências Humanas",
+    topicos: [
+      t("Filosofia Antiga", "🏺", "Discípulo de Sócrates", "roxo"),
+      t("Filosofia Medieval", "📜", "Escolástico", "noite"),
+      t("Filosofia Moderna: Razão e Conhecimento", "💡", "Pensador Racional", "azul"),
+      t("Ética e Moral", "⚖️", "Guardião da Ética", "teal"),
+      t("Filosofia Política", "🏛️", "Cidadão da Pólis", "vermelho"),
+      t("Filosofia Contemporânea", "🧠", "Pensador Contemporâneo", "laranja"),
+    ],
+    fraseAcerto: "Isso! Filosofia de quem vai passar!", fraseOtimo: "Mandou muito bem! Sócrates aprovaria! 🦉", nivel3: "Filósofo do ENEM",
+  },
+  {
+    id: "sociologia", nome: "Sociologia", emoji: "👥", key: "tigrao-enem-sociologia-v1", subtitulo: "Sociologia, questões oficiais", area: "Ciências Humanas",
+    topicos: [
+      t("Cultura, Identidade e Diversidade", "🎭", "Mestre da Diversidade", "roxo"),
+      t("Trabalho e Sociedade", "🏭", "Analista do Trabalho", "laranja"),
+      t("Política, Estado e Cidadania", "🗳️", "Cidadão Ativo", "azul"),
+      t("Movimentos Sociais e Desigualdades", "✊", "Voz Coletiva", "vermelho"),
+      t("Globalização, Mídia e Tecnologia", "📱", "Leitor da Rede", "teal"),
+    ],
+    fraseAcerto: "Isso! Sociologia de quem vai passar!", fraseOtimo: "Mandou muito bem! Você entende a sociedade! 👥", nivel3: "Sociólogo do ENEM",
   },
   {
     id: "natureza", nome: "Ciências da Natureza", emoji: "🔬", key: "tigrao-enem-natureza-v1", subtitulo: "Física + Biologia + Química, questões oficiais",

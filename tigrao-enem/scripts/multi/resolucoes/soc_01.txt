@@ -1,0 +1,355 @@
+@ENEM-CH-2009-REG-D1-C1-Q54
+K: visão yanomami da floresta
+Para os Yanomami, a urihi (terra-floresta) é viva: tem um "sopro vital", chamado wixia, que garante sua fertilidade e sua capacidade de se manter. Por isso eles não a veem como objeto de exploração econômica (B) e acham que o branco a destrói (C). **Resposta: E**
+
+@ENEM-CH-2009-REG-D1-C1-Q56
+K: propriedade e cidadania nos EUA
+O texto diz que, nos EUA, o cidadão é incluído pelo exercício dos direitos políticos e pelo direito de propriedade garantido pelo governo, mesmo quando a propriedade é pequena. A tradição liga democracia às possibilidades econômicas de cada indivíduo. **Resposta: D**
+
+@ENEM-CH-2009-REG-D1-C1-Q57
+K: Tocqueville: moral e negócios
+Para Tocqueville, os norte-americanos condenavam a falta de moral porque ela tira a atenção do trabalho e prejudica o sucesso dos negócios. A conduta moral era associada ao progresso econômico. **Resposta: D**
+
+@ENEM-CH-2009-REG-D1-C1-Q69
+K: decadência da aristocracia rural
+O trecho de Lúcio Cardoso descreve a casa dos Meneses com móveis antigos e gastos, onde a vida "repousa como lembrança". A casa é um espaço arruinado que simboliza a desagregação da velha ordem rural. **Resposta: E**
+
+@ENEM-CH-2009-REG-D1-C1-Q79
+K: trabalho escravo contemporâneo
+As organizações de direitos humanos denunciam ao Ministério Público os casos de trabalho análogo à escravidão e conscientizam os trabalhadores sobre seus direitos. Elas não substituem a polícia e a Justiça (C). **Resposta: D**
+
+@ENEM-CH-2010-REG-D1-C1-Q36
+K: TV e democracia
+A TV teve papel democrático quando, como espaço do jornalismo, revelou ao país casos de corrupção de vários governos. As outras opções descrevem usos autoritários ou propagandísticos da mídia. **Resposta: B**
+
+@ENEM-CH-2010-REG-D1-C1-Q37
+K: internet e participação
+O texto descreve um meio que supera os anteriores ao permitir a participação política e a circulação de informações por mecanismos eletrônicos. É a internet. **Resposta: A**
+
+@ENEM-CH-2010-REG-D1-C1-Q43
+K: automação e precarização
+O banco cobra pelo atendimento humano para estimular o autoatendimento eletrônico. O argumento das empresas é reduzir custos; a consequência social é o corte de vagas e a insegurança no emprego. **Resposta: C**
+
+@ENEM-CH-2011-REG-D1-C1-Q1
+K: Primavera Árabe e redes
+Os jovens árabes usaram a internet e as redes sociais para difundir ideias e organizar os protestos que derrubaram ou abalaram regimes autoritários em 2011. **Resposta: E**
+
+@ENEM-CH-2011-REG-D1-C1-Q16
+K: trabalho na sociedade em rede
+Castells descreve o enfraquecimento do assalariamento clássico. Na sociedade em rede, avançam o trabalho flexível, a terceirização e a individualização das relações de trabalho para dar agilidade e inovação às empresas. **Resposta: C**
+
+@ENEM-CH-2011-REG-D1-C1-Q18
+K: movimentos sociais e democracia
+Os movimentos sociais contribuem para a democracia ao organizar demandas e pressionar o Estado para atendê-las, ampliando a participação da sociedade civil. **Resposta: C**
+
+@ENEM-CH-2011-REG-D1-C1-Q20
+K: lei não basta contra a tortura
+O texto mostra que, apesar das leis e dos tratados contra a tortura, ela continua acontecendo, e poucos casos chegam a uma condenação. A simples existência da lei não garante justiça. **Resposta: B**
+
+@ENEM-CH-2011-REG-D1-C1-Q21
+K: imprensa e esfera pública
+Se a democracia é a participação de todos nas decisões coletivas, os meios de comunicação são relevantes por informar e alimentar o debate político público. **Resposta: B**
+
+@ENEM-CH-2011-REG-D1-C1-Q23
+K: Guattari e a ecosofia
+Diante de tragédias como Chernobyl, Guattari propõe reorientar a ciência e a técnica para finalidades mais humanas, Assim, o desenvolvimento deve definir seus projetos a partir dos interesses coletivos. Ele não deve seguir a lógica do mercado (B). **Resposta: A**
+
+@ENEM-CH-2011-REG-D1-C1-Q27
+K: socialização pela TV
+As crianças estão em plena socialização e têm menos senso crítico. Por isso tendem a interiorizar os padrões de comportamento e os papéis sociais mostrados na televisão. **Resposta: C**
+
+@ENEM-CH-2012-REG-D1-C1-Q3
+K: processo civilizador (Elias)
+Para Norbert Elias, a civilização envolve o autocontrole e o monopólio estatal da violência. A violência difusa no Brasil mostra a dificuldade histórica de institucionalizar formas de controle social compatíveis com valores democráticos. **Resposta: D**
+
+@ENEM-CH-2012-REG-D1-C1-Q21
+K: crise de 1929 × crise de 2008
+A crise de 1929 veio da superprodução industrial e da especulação na bolsa nos EUA. A crise atual nasceu da especulação financeira, sobretudo com hipotecas e derivativos, num sistema desregulado. **Resposta: B**
+
+@ENEM-CH-2012-REG-D1-C1-Q23
+K: corpo e culpabilização
+O discurso que associa o corpo ideal à força de vontade faz da obesidade um "defeito moral". A disciplinarização dos corpos leva à culpabilização individual. **Resposta: D**
+
+@ENEM-CH-2013-REG-D1-C1-Q15
+K: Marx: base material
+Para Marx, as relações de produção formam a base econômica sobre a qual se ergue a superestrutura jurídica e política. Por isso o trabalho, a produção material, é o fundamento real da vida social. **Resposta: B**
+
+@ENEM-CH-2013-REG-D1-C1-Q16
+K: controle por resultados
+Sennett mostra que, no trabalho flexível, o empregado decide o local, mas é vigiado por metas e resultados, muitas vezes por meios eletrônicos. O controle passa do processo (como no taylorismo e no fordismo) para os resultados. **Resposta: E**
+
+@ENEM-CH-2013-REG-D1-C1-Q35
+K: indignados e democracia real
+Os acampados de 2011 na Puerta del Sol pediam "democracia real já", com mais participação e decisões coletivas em assembleia, contra a democracia representativa vista como capturada pelos partidos e bancos. Isso remete à democracia direta. **Resposta: B**
+
+@ENEM-CH-2013-REG-D1-C1-Q38
+K: cultura afro-brasileira como processo
+O texto diz que a herança africana deve ser entendida como algo em movimento, plural e complexo, e não como cópia do passado. Capoeira e candomblé resultam da interação entre valores africanos e a experiência histórica no Brasil. **Resposta: C**
+
+@ENEM-CH-2013-REG-D1-C1-Q40
+K: patriarcado no século XIX
+Os textos mostram a mulher da elite restrita ao lar, vigiada e "sonegada à sociedade" por pais e maridos. A representação comum é a submissão de gênero sustentada pela família patriarcal. **Resposta: A**
+
+@ENEM-CH-2013-REG-D1-C1-Q45
+K: cidadania LGBT
+O autor viu as relações homossexuais passarem de ilegais a direitos reconhecidos, como o casamento. Essa transformação dependeu da ampliação da noção de cidadania. **Resposta: A**
+
+@ENEM-CH-2014-REG-D1-C1-Q5
+K: tecnologia e desemprego
+O cartum mostra o engraxate substituído por uma máquina, uma visão pessimista da ideia de progresso técnico, que elimina empregos em vez de beneficiar a todos. **Resposta: A**
+
+@ENEM-CH-2014-REG-D1-C1-Q8
+K: difusão cultural (Linton)
+O dia a dia do norte-americano usa objetos e costumes vindos de muitos povos e épocas. Os costumes resultam da fusão de elementos de tradições culturais diferentes. **Resposta: D**
+
+@ENEM-CH-2014-REG-D1-C1-Q10
+K: fuga de cérebros
+Com o desemprego alto na Espanha, jovens qualificados são preparados pela universidade para emigrar. A crise implica a exportação de mão de obra qualificada. **Resposta: C**
+
+@ENEM-CH-2014-REG-D1-C1-Q17
+K: direitos sociais na Constituição de 1988
+A charge trata dos direitos sociais garantidos em 1988, como educação, saúde, trabalho e proteção à maternidade e à infância, que existem no papel, mas nem sempre na prática. **Resposta: B**
+
+@ENEM-CH-2014-REG-D1-C1-Q30
+K: valorização identitária
+As Diretrizes sobre relações étnico-raciais e o ensino de cultura afro-brasileira ligam a inclusão social ao reconhecimento e à valorização da identidade negra. São práticas de valorização identitária. **Resposta: A**
+
+@ENEM-CH-2014-REG-D1-C1-Q33
+K: conservadorismo e desigualdade
+O texto mostra que o sistema político se apresenta como expressão do conservadorismo da sociedade e, assim, se legitima por uma ideologia que sustenta as desigualdades existentes. **Resposta: E**
+
+@ENEM-CH-2015-REG-D1-C1-Q2
+K: luz elétrica e jornada de trabalho
+A iluminação artificial libertou o trabalho do ritmo do dia e da noite. A consequência foi a ampliação do período disponível para a jornada, incluindo o turno da noite. **Resposta: E**
+
+@ENEM-CH-2015-REG-D1-C1-Q7
+K: socialismo e fim das classes
+O modelo chinês adota o mercado, o que gera desigualdade e novas elites. Isso contradiz um objetivo central do socialismo: a extinção gradual das classes sociais. **Resposta: E**
+
+@ENEM-CH-2015-REG-D1-C1-Q21
+K: espionagem e segurança dos dados
+Depois das denúncias de espionagem dos EUA, países restringiram empresas de informática norte-americanas. As medidas mostram a preocupação com a segurança dos dados, mais do que com o protecionismo econômico (C). **Resposta: E**
+
+@ENEM-CH-2015-REG-D1-C1-Q25
+K: movimentos sociais e democracia
+Segundo Gohn, os movimentos sociais da redemocratização reconstruíram a democracia como prática do cotidiano, com participação e diálogo com o Estado. Ela passou a ser um valor social que vai além das eleições. **Resposta: B**
+
+@ENEM-CH-2015-REG-D1-C1-Q35
+K: alteridade (Žižek)
+Žižek pede que imaginemos a reação a uma menina afegã orgulhosa de um pai talibã para revelar nosso duplo padrão. O desafio é colocar-se no lugar do outro, o exercício da alteridade. **Resposta: B**
+
+@ENEM-CH-2015-REG-D1-C1-Q38
+K: produção global em rede
+O carro "global" é projetado, financiado e montado em vários países. Isso pressupõe empresas organizadas em rede e tecnologias de informação que coordenam a produção a distância. **Resposta: D**
+
+@ENEM-CH-2015-REG-D1-C1-Q39
+K: selfies e espelhamento
+Sodré critica a busca de ser visto e falado nas mídias, como nas selfies. Esse "espelhamento" é uma prática identitária autorreferente, centrada na própria imagem. **Resposta: A**
+
+@ENEM-CH-2015-REG-D1-C1-Q40
+K: desencantamento do mundo (Weber)
+Para Weber, a racionalização moderna faz crer que tudo pode ser dominado pelo cálculo, sem forças mágicas ou misteriosas. O desencantamento é o afastamento das crenças tradicionais, típico da modernidade. **Resposta: D**
+
+@ENEM-CH-2015-REG-D1-C1-Q41
+K: princípio da precaução
+O princípio da precaução nasce na "sociedade de risco": diante de tecnologias com efeitos incertos, como os transgênicos, propõe avaliar os riscos e debatê-los publicamente antes de adotá-las. **Resposta: C**
+
+@ENEM-CH-2015-REG-D1-C1-Q42
+K: feminismo de segunda onda
+"Ninguém nasce mulher: torna-se mulher." A tese de Beauvoir de que o gênero é uma construção social inspirou o feminismo dos anos 1960, com protestos públicos pela igualdade de gênero. **Resposta: C**
+
+@ENEM-CH-2015-REG-D1-C1-Q43
+K: sociologia do conhecimento
+Para Mannheim, o indivíduo fala e pensa à maneira do seu grupo. O conhecimento sobre a realidade é condicionado socialmente. **Resposta: A**
+
+@ENEM-CH-2016-REG-D1-C1-Q7
+K: estereótipos de gênero
+O anúncio de 1968 associava mulheres à limpeza, e em 2016 a escolha de uma mulher para uma missão científica recebeu comentários machistas. Mesmo distantes no tempo, os dois casos mostram a manutenção de estereótipos de gênero. **Resposta: D**
+
+@ENEM-CH-2016-REG-D1-C1-Q9
+K: trabalho como mercadoria (Polanyi)
+Para Polanyi, a sociedade industrial transformou trabalho, terra e dinheiro em mercadorias reguladas pelo mercado. Uma consequência é a consolidação da força de trabalho como mercadoria. **Resposta: C**
+
+@ENEM-CH-2016-REG-D1-C1-Q11
+K: patrimônio imaterial
+O texto trata da valorização de novos tipos de patrimônio cultural, reivindicados por grupos sociais. O bem da imagem é identificado como conhecimento tradicional, um saber ou fazer próprio do patrimônio imaterial. **Resposta: E**
+
+@ENEM-CH-2016-REG-D1-C1-Q32
+K: Durkheim e a sociologia científica
+Durkheim critica as generalidades filosóficas sem prova e propõe estudar fatos sociais delimitados, com observação e comparação, como fazem as ciências naturais. **Resposta: D**
+
+@ENEM-CH-2016-REG-D1-C1-Q41
+K: modernidade contraditória (Berman)
+Para Berman, ser moderno é viver uma promessa de aventura e transformação que, ao mesmo tempo, ameaça destruir tudo: uma "unidade da desunidade". A modernidade é uma dinâmica social contraditória. **Resposta: A**
+
+@ENEM-CH-2016-REG-D1-C1-Q42
+K: internet e superficialidade
+Carr nota que, com a internet, perdeu a capacidade de concentração e de leitura profunda. O paradoxo é que a abundância de informação vem acompanhada de uma experiência mais superficial. **Resposta: A**
+
+@ENEM-CH-2017-REG-D1-C1-Q50
+K: terra indígena e sobrevivência cultural
+O artigo 231 da Constituição reconhece aos indígenas a cultura e os direitos sobre as terras que ocupam tradicionalmente. A luta pela demarcação mostra que o território é condição para a sobrevivência cultural desses povos. **Resposta: C**
+
+@ENEM-CH-2017-REG-D1-C1-Q58
+K: multiculturalismo e democracia
+Sociedades multiétnicas exigem das democracias, ao mesmo tempo, direitos iguais para todos e respeito às diferenças culturais. **Resposta: B**
+
+@ENEM-CH-2017-REG-D1-C1-Q67
+K: judicialização da política
+Com os tribunais constitucionais como árbitros dos demais poderes, cresceu no Brasil a judicialização: o STF passou a decidir questões que caberiam ao Legislativo. **Resposta: D**
+
+@ENEM-CH-2017-REG-D1-C1-Q74
+K: cotas de gênero
+Para combater a sub-representação feminina no Legislativo, a lei eleitoral brasileira obriga os partidos a reservar uma porcentagem mínima de candidaturas para cada sexo. **Resposta: B**
+
+@ENEM-CH-2017-REG-D1-C1-Q89
+K: publicidade personalizada
+A interatividade permite traçar o perfil de interesses de cada usuário. Isso possibilita direcionar a propaganda, ou seja, individualizar as mensagens publicitárias. **Resposta: D**
+
+@ENEM-CH-2018-REG-D1-C1-Q48
+K: sociedade contra o Estado (Clastres)
+Nas sociedades indígenas estudadas por Clastres, o chefe não tem poder de coerção e conta só com a palavra. As decisões vêm do consenso e da autonomia da comunidade, ao contrário do Estado liberal. **Resposta: C**
+
+@ENEM-CH-2018-REG-D1-C1-Q70
+K: sociedade do espetáculo
+Debord descreve a passagem do "ser" para o "ter" e depois para o "parecer". Hoje isso se manifesta na exposição de si nos meios de comunicação, como nas redes sociais. **Resposta: B**
+
+@ENEM-CH-2018-REG-D1-C1-Q75
+K: transição demográfica
+A limitação voluntária dos nascimentos nos países industriais reduziu a natalidade até ela se aproximar da mortalidade, já baixa. Isso concluiu a transição demográfica europeia. **Resposta: B**
+
+@ENEM-CH-2018-REG-D1-C1-Q80
+K: pobreza como solidão
+Mia Couto mostra que, em Moçambique, ser pobre é não ter parentes. A pobreza se agrava com o rompimento dos laços familiares e comunitários, isto é, com a fragilização das redes de sociabilidade. **Resposta: B**
+
+@ENEM-CH-2018-REG-D1-C1-Q81
+K: fronteiras seletivas (Bauman)
+Bauman mostra que, na globalização, as fronteiras se abrem para o capital e para os ricos, mas se fecham para os pobres e migrantes. A fronteira passa a funcionar como mecanismo seletivo de segregação. **Resposta: E**
+
+@ENEM-CH-2019-REG-D1-C1-Q62
+K: intolerância religiosa
+Agredir adeptos de religiões de matriz africana em espaço público viola a laicidade e a democracia porque restringe a liberdade de crença e de culto. **Resposta: E**
+
+@ENEM-CH-2019-REG-D1-C1-Q66
+K: SUS: universalidade e igualdade
+O SUS é uma política para todos, que garante a saúde como direito de cidadania e com igualdade de acesso. Suas características são o universalismo e o igualitarismo, e não a filantropia (A) ou o mérito (B). **Resposta: C**
+
+@ENEM-CH-2019-REG-D1-C1-Q70
+!
+R: O gabarito oficial é E ("contestação dos estereótipos consolidados"). Pelo texto, a mídia reforça o ideal do corpo magro, e a crítica feita parece ser a de que ela repete discursos hegemônicos (D). A explicação não fecha com o gabarito; precisa de revisão do professor.
+
+@ENEM-CH-2019-REG-D1-C1-Q71
+K: reestruturação produtiva (Harvey)
+As crises levam o capital a reorganizar a produção com novas tecnologias. Para entrar nesse novo processo produtivo, o trabalhador precisa de qualificação profissional. **Resposta: D**
+
+@ENEM-CH-2019-REG-D1-C1-Q84
+K: Declaração Universal dos Direitos Humanos
+A DUDH fez da proteção da pessoa humana um tema internacional, legitimando a defesa de indivíduos e grupos vulneráveis mesmo diante dos Estados. **Resposta: B**
+
+@ENEM-CH-2019-REG-D1-C1-Q85
+K: museus e culturas excluídas
+A frase "nossa cultura não cabe nos seus museus" critica os acervos que excluem as culturas populares e indígenas. O conflito vem da definição dos critérios usados para montar os acervos. **Resposta: B**
+
+@ENEM-CH-2019-REG-D1-C1-Q87
+K: combate ao trabalho escravo
+O texto defende a ação conjunta do MTE, da polícia, do Ministério Público e do ICMBio, isto é, a articulação dos órgãos públicos. **Resposta: A**
+
+@ENEM-CH-2020-REG-D1-C1-Q48
+K: feminização do trabalho
+As mulheres entraram em massa no mercado de trabalho, mas os cargos de gestão seguem masculinos e a criação dos filhos ainda reproduz papéis tradicionais, como a dupla jornada. Por isso a igualdade não se completa. **Resposta: B**
+
+@ENEM-CH-2020-REG-D1-C1-Q61
+K: veias abertas (Galeano)
+Para Galeano, a América Latina se especializou em perder: desde a colonização, seus recursos foram apropriados pelas potências imperialistas. **Resposta: C**
+
+@ENEM-CH-2020-REG-D1-C1-Q63
+K: ética protestante e trabalho
+Como mostrou Weber, a Reforma Protestante valorizou o trabalho como vocação no mundo, base da mentalidade moderna sobre o trabalho. **Resposta: B**
+
+@ENEM-CH-2020-REG-D1-C1-Q64
+K: neoliberalismo nos anos 1990
+Nos anos 1990, os governos reduziram o papel social do Estado e deram prioridade às reformas macroeconômicas e ao controle da inflação, como no Plano Real. **Resposta: E**
+
+@ENEM-CH-2020-REG-D1-C1-Q73
+K: educação inclusiva
+A Declaração de Salamanca afirma que cada criança tem características e necessidades próprias e que os sistemas de ensino devem considerar essa diversidade. O compromisso é com políticas que contemplem a pluralidade dos sujeitos. **Resposta: C**
+
+@ENEM-CH-2020-REG-D1-C1-Q76
+K: Tocqueville e as leis de herança
+Para Tocqueville, a lei de herança com partilha igual entre os filhos dividiu e espalhou bens e poder nos EUA, impedindo a concentração aristocrática. Isso criou um ambiente favorável aos valores burgueses e democráticos. **Resposta: B**
+
+@ENEM-CH-2020-REG-D1-C1-Q78
+K: toyotismo
+O toyotismo responde à crise com produção enxuta, just in time, e estoques mínimos. Sua marca é ajustar a produção à demanda. **Resposta: C**
+
+@ENEM-CH-2021-REG-D1-C1-Q46
+K: trabalho invadindo a vida privada
+Checar mensagens do trabalho depois do expediente leva o trabalho para casa. O resultado é a ampliação de atividades extras não remuneradas, que prejudica a saúde e a família. **Resposta: B**
+
+@ENEM-CH-2021-REG-D1-C1-Q54
+K: tecnologia e precarização
+O texto critica o uso das novas tecnologias como forma de controle empresarial, porque ele intensifica e precariza o trabalho. Daí a fragilização das relações de trabalho. **Resposta: C**
+
+@ENEM-CH-2021-REG-D1-C1-Q60
+K: "Vida de gado"
+A canção de Zé Ramalho, de 1979, ainda na ditadura, critica o "povo marcado, povo feliz", que segue passivo e conformado como gado. O comportamento criticado é a passividade social. **Resposta: B**
+
+@ENEM-CH-2021-REG-D1-C1-Q64
+K: minoria (Deleuze e Guattari)
+Para Deleuze e Guattari, minoria não é questão de número, e sim de um padrão imposto como dominante. Ela decorre de relações de poder arbitrárias. **Resposta: C**
+
+@ENEM-CH-2021-REG-D1-C1-Q80
+K: dualismo e desenvolvimento
+Costa Pinto vê o Brasil em transição, com o moderno e o arcaico convivendo. O desenvolvimento é marcado por descompassos na construção de instituições modernas. **Resposta: C**
+
+@ENEM-CH-2022-REG-D1-C1-Q56
+K: exclusão digital
+A charge e o texto mostram que muitos alunos não tinham internet ou equipamento para as aulas remotas durante a pandemia. A desigualdade de acesso é uma forma de exclusão social. **Resposta: A**
+
+@ENEM-CH-2022-REG-D1-C1-Q60
+K: tecnologia e sociabilidade
+No experimento FunFit, o celular estimulou os participantes a se exercitar juntos e a cooperar. Ele cumpriu uma função social, estimulando a reciprocidade por meios digitais. **Resposta: B**
+
+@ENEM-CH-2022-REG-D1-C1-Q61
+K: IA e desemprego estrutural
+A dublagem feita por inteligência artificial reduz as oportunidades para dubladores e atores. É desemprego causado pela tecnologia, o desemprego estrutural. **Resposta: E**
+
+@ENEM-CH-2022-REG-D1-C1-Q79
+K: patrimônio e saberes
+O tamborete conta sua história a partir de quem o fez e usou. Ele associa sua trajetória às habilidades artísticas e culturais dos sujeitos. **Resposta: A**
+
+@ENEM-CH-2022-REG-D1-C1-Q83
+K: apatridia
+As meninas não puderam ser registradas nem no Líbano nem na Síria. Nasceram sem nacionalidade, ou seja, apátridas. **Resposta: B**
+
+@ENEM-CH-2022-REG-D1-C1-Q90
+K: saberes tradicionais
+O ofício das paneleiras usa barro e tanino do mangue e é passado entre gerações. Ele liga os recursos naturais à manutenção dos modos de vida da comunidade. **Resposta: A**
+
+@ENEM-CH-2023-REG-D1-C1-Q59
+K: etiqueta e distinção (Elias)
+O garfo, artigo de luxo de prata ou ouro, foi adotado primeiro pelas classes altas. A etiqueta tem como princípio a distinção das classes sociais. **Resposta: A**
+
+@ENEM-CH-2023-REG-D1-C1-Q60
+K: violência patrimonial
+Reter dinheiro ou bens e usar o nome da mulher sem consentimento são formas de violência patrimonial, prevista na Lei Maria da Penha. **Resposta: D**
+
+@ENEM-CH-2023-REG-D1-C1-Q61
+K: trabalho invisível na IA
+A "mágica" do assistente virtual esconde milhares de linguistas terceirizados. O texto critica a invisibilidade desses profissionais. **Resposta: E**
+
+@ENEM-CH-2023-REG-D1-C1-Q69
+K: dignidade humana
+Juízas afegãs perseguidas e a violência generalizada contra mulheres configuram desrespeito à dignidade humana. **Resposta: D**
+
+@ENEM-CH-2023-REG-D1-C1-Q72
+K: nova corrida espacial
+O Texto I destaca as expectativas com o turismo espacial. A charge do Texto II mostra desconfiança diante desse projeto da elite. **Resposta: B**
+
+@ENEM-CH-2023-REG-D1-C1-Q75
+K: racismo no futebol
+"Mulambo" remete a pessoas escravizadas. A troca da letra reflete a condenação do preconceito racial. **Resposta: C**
+
+@ENEM-CH-2023-REG-D1-C1-Q88
+K: competitividade (Milton Santos)
+Milton Santos distingue concorrência, que pode ser saudável, de competitividade, que admite qualquer meio, até a violência. Vender abaixo do custo para eliminar rivais (dumping) é uma prática moralmente condenável. **Resposta: A**

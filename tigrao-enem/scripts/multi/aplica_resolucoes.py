@@ -19,7 +19,7 @@ for f in sorted(glob.glob(f'{ROOT}/scripts/multi/resolucoes/*.txt')):
         if blk.startswith('@'):
             R[blk.split('\n', 1)[0][1:].strip()] = blk
 sinal, erros, cont = [], [], {}
-for m in ('biologia', 'quimica', 'geografia', 'historia'):
+for m in ('biologia', 'quimica', 'geografia', 'historia', 'filosofia', 'sociologia'):
     p = f'{ROOT}/src/materias/{m}.json'
     d = json.load(open(p, encoding='utf-8'))
     n = 0

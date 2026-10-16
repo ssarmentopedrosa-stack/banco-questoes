@@ -19,3 +19,8 @@ Revisão do professor: `scripts/multi/revisao_professor_humanas.csv`.
 Pendentes:
 - Filosofia e Sociologia: a classificação está pronta, mas a matéria ainda não foi criada.
 - 2024–2025: ainda não estão no enem.dev; precisam de transcrição do PDF.
+
+## Rodada Filosofia/Sociologia (out/2026)
+- `python historia.py filosofia|sociologia|geografia` (geografia faz merge na matéria existente).
+- Filosofia 88, Sociologia 89, Geografia +16 novas (total 216). Resoluções: `resolucoes/fil_01.txt`, `soc_01.txt`, `geo_07_humanas.txt`.
+- Pendente: provas 2024–2025; revisão do professor (CSV `revisao_professor_humanas.csv`).

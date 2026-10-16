@@ -1,0 +1,3836 @@
+{
+ "meta": {
+  "materia": "sociologia",
+  "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), caderno azul; texto conferido com o PDF oficial do Inep",
+  "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2010 CH: AZUL_Sabado_GAB.pdf (gab/gabarito_ch_2010.json)",
+  "porAno": {
+   "2009": 5,
+   "2010": 3,
+   "2011": 7,
+   "2012": 3,
+   "2013": 6,
+   "2014": 6,
+   "2015": 11,
+   "2016": 6,
+   "2017": 5,
+   "2018": 5,
+   "2019": 7,
+   "2020": 7,
+   "2021": 5,
+   "2022": 6,
+   "2023": 7
+  },
+  "foraPorAno": {
+   "2011": 1,
+   "2012": 1,
+   "2013": 1,
+   "2016": 1,
+   "2017": 1,
+   "2021": 4,
+   "2022": 2,
+   "2023": 3
+  },
+  "total": 89,
+  "fora": {},
+  "porArea": {
+   "Política, Estado e Cidadania": 32,
+   "Trabalho e Sociedade": 23,
+   "Cultura, Identidade e Diversidade": 15,
+   "Globalização, Mídia e Tecnologia": 12,
+   "Movimentos Sociais e Desigualdades": 7
+  },
+  "doPdfOficial": 0,
+  "comExplicacao": 88,
+  "revisadas": 0,
+  "classificacao": "automática (palavras-chave) + revisão manual dos casos ambíguos pelo agente; a conferir pelo professor (labels/ch_humanas.json)"
+ },
+ "questions": [
+  {
+   "id": "ENEM-CH-2009-REG-D1-C1-Q54",
+   "year": 2009,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "Os Yanomami constituem uma sociedade indígena do norte da Amazônia e formam um amplo conjunto linguístico e cultural. Para os Yanomami, urihi, a “terrafloresta”, não é um mero cenário inerte, objeto de exploração econômica, e sim uma entidade viva, animada por uma dinâmica de trocas entre os diversos seres que a povoam. A floresta possui um sopro vital, wixia, que é muito longo. Se não a desmatarmos, ela não morrerá. Ela não se decompõe, isto é, não se desfaz. É graças ao seu sopro úmido que as plantas crescem. A floresta não está morta pois, se fosse assim, as florestas não teriam folhas. Tampouco se veria água. Segundo os Yanomami, se os brancos os fizerem desaparecer para desmatá-la e morar no seu lugar, ficarão pobres e acabarão tendo fome e sede.\n\nALBERT, B. Yanomami, o espírito da floresta. Almanaque Brasil Socioambiental. São Paulo: ISA, 2007 (adaptado).\n\nDe acordo com o texto, os Yanomami acreditam que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A floresta não possui organismos decompositores."
+    },
+    {
+     "letter": "B",
+     "text": "O potencial econômico da floresta deve ser explorado."
+    },
+    {
+     "letter": "C",
+     "text": "O homem branco convive harmonicamente com urihi."
+    },
+    {
+     "letter": "D",
+     "text": "As folhas e a água são menos importantes para a floresta que seu sopro vital."
+    },
+    {
+     "letter": "E",
+     "text": "Wixia é a capacidade que tem a floresta de se sustentar por meio de processos vitais."
+    }
+   ],
+   "figures": [],
+   "number": 54,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Para os Yanomami, a urihi (terra-floresta) é viva: tem um \"sopro vital\", chamado wixia, que garante sua fertilidade e sua capacidade de se manter. Por isso eles não a veem como objeto de exploração econômica (B) e acham que o branco a destrói (C). **Resposta: E**",
+    "keyConcept": "visão yanomami da floresta",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2009-REG-D1-C1-Q56",
+   "year": 2009,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Na democracia estado-unidense, os cidadãos são incluídos na sociedade pelo exercício pleno dos direitos políticos e também pela ideia geral de direito de propriedade. Compete ao governo garantir que esse direito não seja violado. Como consequência, mesmo aqueles que possuem uma pequena propriedade sentem-se cidadãos de pleno direito.\n\nNa tradição política dos EUA, uma forma de incluir socialmente os cidadãos é",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Submeter o indivíduo à proteção do governo."
+    },
+    {
+     "letter": "B",
+     "text": "Hierarquizar os indivíduos segundo suas posses."
+    },
+    {
+     "letter": "C",
+     "text": "Estimular a formação de propriedades comunais."
+    },
+    {
+     "letter": "D",
+     "text": "Vincular democracia e possibilidades econômicas individuais."
+    },
+    {
+     "letter": "E",
+     "text": "Defender a obrigação de que todos os indivíduos tenham propriedades."
+    }
+   ],
+   "figures": [],
+   "number": 56,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O texto diz que, nos EUA, o cidadão é incluído pelo exercício dos direitos políticos e pelo direito de propriedade garantido pelo governo, mesmo quando a propriedade é pequena. A tradição liga democracia às possibilidades econômicas de cada indivíduo. **Resposta: D**",
+    "keyConcept": "propriedade e cidadania nos EUA",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2009-REG-D1-C1-Q57",
+   "year": 2009,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "Na década de 30 do século XIX, Tocqueville escreveu as seguintes linhas a respeito da moralidade nos EUA: “A opinião pública norte-americana é particularmente dura com a falta de moral, pois esta desvia a atenção frente à busca do bem-estar e prejudica a harmonia doméstica, que é tão essencial ao sucesso dos negócios. Nesse sentido, pode-se dizer que ser casto é uma questão de honra”.\n\nTOCQUEVILLE, A. Democracy in America. Chicago: Encyclopædia Britannica, Inc., Great Books 44, 1990 (adaptado).\n\nDo trecho, infere-se que, para Tocqueville, os norte- americanos do seu tempo",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Buscavam o êxito, descurando as virtudes cívicas."
+    },
+    {
+     "letter": "B",
+     "text": "Tinham na vida moral uma garantia de enriquecimento rápido."
+    },
+    {
+     "letter": "C",
+     "text": "Valorizavam um conceito de honra dissociado do comportamento ético."
+    },
+    {
+     "letter": "D",
+     "text": "Relacionavam a conduta moral dos indivíduos com o progresso econômico."
+    },
+    {
+     "letter": "E",
+     "text": "Acreditavam que o comportamento casto perturbava a harmonia doméstica."
+    }
+   ],
+   "figures": [],
+   "number": 57,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Para Tocqueville, os norte-americanos condenavam a falta de moral porque ela tira a atenção do trabalho e prejudica o sucesso dos negócios. A conduta moral era associada ao progresso econômico. **Resposta: D**",
+    "keyConcept": "Tocqueville: moral e negócios",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2009-REG-D1-C1-Q69",
+   "year": 2009,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Como se assistisse à demonstração de um espetáculo mágico, ia revendo aquele ambiente tão característico de família, com seus pesados móveis de vinhático ou de jacarandá, de qualidade antiga, e que denunciavam um passado ilustre, gerações de Meneses talvez mais singelos e mais calmos; agora, uma espécie de desordem, de relaxamento, abastardava aquelas qualidades primaciais. Mesmo assim era fácil perceber o que haviam sido, esses nobres da roça, com seus cristais que brilhavam mansamente na sombra, suas pratas semi- empoeiradas que atestavam o esplendor esvanecido, seus marfins e suas opalinas – ah, respirava-se ali conforto, não havia dúvida, mas era apenas uma sobrevivência de coisas idas. Dir-se-ia, ante esse mundo que se ia desagregando, que um mal oculto o roía, como um tumor latente em suas entranhas.\n\nCARDOSO, L. Crônica da casa assassinada. Rio de Janeiro: Civilização Brasileira, 2002 (adaptado).\n\nO mundo narrado nesse trecho do romance de Lúcio Cardoso, acerca da vida dos Meneses, família da aristocracia rural de Minas Gerais, apresenta não apenas a história da decadência dessa família, mas é, ainda, a representação literária de uma fase de desagregação política, social e econômica do país. O recurso expressivo que formula literariamente essa desagregação histórica é o de descrever a casa dos Meneses como",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ambiente de pobreza e privação, que carece de conforto mínimo para a sobrevivência da família."
+    },
+    {
+     "letter": "B",
+     "text": "Mundo mágico, capaz de recuperar o encantamento perdido durante o período de decadência da aristocracia rural mineira."
+    },
+    {
+     "letter": "C",
+     "text": "Cena familiar, na qual o calor humano dos habitantes da casa ocupa o primeiro plano, compensando a frieza e austeridade dos objetos antigos."
+    },
+    {
+     "letter": "D",
+     "text": "Símbolo de um passado ilustre que, apesar de superado, ainda resiste à sua total dissolução graças ao cuidado e asseio que a família dispensa à conservação da casa."
+    },
+    {
+     "letter": "E",
+     "text": "Espaço arruinado, onde os objetos perderam seu esplendor e sobre os quais a vida repousa como lembrança de um passado que está em vias de desaparecer completamente."
+    }
+   ],
+   "figures": [],
+   "number": 69,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O trecho de Lúcio Cardoso descreve a casa dos Meneses com móveis antigos e gastos, onde a vida \"repousa como lembrança\". A casa é um espaço arruinado que simboliza a desagregação da velha ordem rural. **Resposta: E**",
+    "keyConcept": "decadência da aristocracia rural",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2009-REG-D1-C1-Q79",
+   "year": 2009,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Entre 2004 e 2008, pelo menos 8 mil brasileiros foram libertados de fazendas onde trabalhavam como se fossem escravos. O governo criou uma lista em que ficaram expostos os nomes dos fazendeiros flagrados pela fiscalização. No Norte, Nordeste e Centro-Oeste, regiões que mais sofrem com a fraqueza do poder público, o bloqueio dos canais de financiamento agrícola para tais fazendeiros tem sido a principal arma de combate a esse problema, mas os governos ainda sofrem com a falta de informações, provocada pelas distâncias e pelo poder intimidador dos proprietários. Organizações não governamentais e grupos como a Pastoral da Terra têm agido corajosamente, acionando as autoridades públicas e ministrando aulas sobre direitos sociais e trabalhistas.\n\nPlano Nacional para Erradicação do Trabalho Escravo”. Disponível em:\nhttp://www.mte.gov.br. Acesso em: 17 mar. 2009 (adaptado).\n\nNos lugares mencionados no texto, o papel dos grupos de defesa dos direitos humanos tem sido fundamental, porque eles",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Negociam com os fazendeiros o reajuste dos honorários e a redução da carga horária de trabalho."
+    },
+    {
+     "letter": "B",
+     "text": "Defendem os direitos dos consumidores junto aos armazéns e mercados das fazendas e carvoarias."
+    },
+    {
+     "letter": "C",
+     "text": "Substituem as autoridades policiais e jurídicas na resolução dos conflitos entre patrões e empregados."
+    },
+    {
+     "letter": "D",
+     "text": "Encaminham denúncias ao Ministério Público e promovem ações de conscientização dos trabalhadores."
+    },
+    {
+     "letter": "E",
+     "text": "Fortalecem a administração pública ao ministrarem aulas aos seus servidores."
+    }
+   ],
+   "figures": [],
+   "number": 79,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "As organizações de direitos humanos denunciam ao Ministério Público os casos de trabalho análogo à escravidão e conscientizam os trabalhadores sobre seus direitos. Elas não substituem a polícia e a Justiça (C). **Resposta: D**",
+    "keyConcept": "trabalho escravo contemporâneo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q36",
+   "year": 2010,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "A caixa de pandora tecnológica penetra nos lares e libera suas cabeças falantes, astros, novelas, noticiários e as fabulosas, irresistíveis garotas-propaganda, versões modernizadas do tradicional homem-sanduíche.\n\nSEVCENKO, N. (Org). História da Vida Privada no Brasil 3.\nRepública: da Belle Époque à Era do Rádio.\nSão Paulo: Cia das Letras, 1998.\n\nA TV, a partir da década de 1950, entrou nos lares brasileiros provocando mudanças consideráveis nos hábitos da população. Certos episódios da história brasileira revelaram que a TV, especialmente como espaço de ação da imprensa, tornou-se também veículo de utilidade pública, a favor da democracia, na medida em que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Amplificou os discursos nacionalistas e autoritários durante o governo Vargas."
+    },
+    {
+     "letter": "B",
+     "text": "Revelou para o país casos de corrupção na esfera política de vários governos."
+    },
+    {
+     "letter": "C",
+     "text": "Maquiou indicadores sociais negativos durante as décadas de 1970 e 1980."
+    },
+    {
+     "letter": "D",
+     "text": "Apoiou, no governo Castelo Branco, as iniciativas de fechamento do parlamento."
+    },
+    {
+     "letter": "E",
+     "text": "Corroborou a construção de obras faraônicas durante os governos militares."
+    }
+   ],
+   "figures": [],
+   "number": 36,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A TV teve papel democrático quando, como espaço do jornalismo, revelou ao país casos de corrupção de vários governos. As outras opções descrevem usos autoritários ou propagandísticos da mídia. **Resposta: B**",
+    "keyConcept": "TV e democracia",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q37",
+   "year": 2010,
+   "area": "Globalização, Mídia e Tecnologia",
+   "content": null,
+   "demand": null,
+   "statement": "Os meios de comunicação funcionam como um elo entre os diferentes segmentos de uma sociedade. Nas últimas décadas, acompanhamos a inserção de um novo meio de comunicação que supera em muito outros já existentes, visto que pode contribuir para a democratização da vida social e política da sociedade à medida que possibilita a instituição de mecanismos eletrônicos para a efetiva participação política e disseminação de informações.\n\nConstitui o exemplo mais expressivo desse novo conjunto de redes informacionais a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Internet."
+    },
+    {
+     "letter": "B",
+     "text": "Fibra ótica."
+    },
+    {
+     "letter": "C",
+     "text": "TV digital."
+    },
+    {
+     "letter": "D",
+     "text": "Telefonia móvel."
+    },
+    {
+     "letter": "E",
+     "text": "Portabilidade telefônica."
+    }
+   ],
+   "figures": [],
+   "number": 37,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O texto descreve um meio que supera os anteriores ao permitir a participação política e a circulação de informações por mecanismos eletrônicos. É a internet. **Resposta: A**",
+    "keyConcept": "internet e participação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q43",
+   "year": 2010,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Um banco inglês decidiu cobrar de seus clientes cinco libras toda vez que recorressem aos funcionários de suas agências. E o motivo disso é que, na verdade, não querem clientes em suas agências; o que querem é reduzir o número de agências, fazendo com que os clientes usem as máquinas automáticas em todo o tipo de transações. Em suma, eles querem se livrar de seus funcionários.\n\nHOBSBAWM, E. O novo século. São Paulo: Companhia das Letras,\n2000 (adaptado).\n\nO exemplo mencionado permite identificar um aspecto da adoção de novas tecnologias na economia capitalista contemporânea. Um argumento utilizado pelas empresas e uma consequência social de tal aspecto estão em",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Qualidade total e estabilidade no trabalho."
+    },
+    {
+     "letter": "B",
+     "text": "Pleno emprego e enfraquecimento dos sindicatos."
+    },
+    {
+     "letter": "C",
+     "text": "Diminuição dos custos e insegurança no emprego."
+    },
+    {
+     "letter": "D",
+     "text": "Responsabilidade social e redução do desemprego."
+    },
+    {
+     "letter": "E",
+     "text": "Maximização dos lucros e aparecimento de empregos."
+    }
+   ],
+   "figures": [],
+   "number": 43,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O banco cobra pelo atendimento humano para estimular o autoatendimento eletrônico. O argumento das empresas é reduzir custos; a consequência social é o corte de vagas e a insegurança no emprego. **Resposta: C**",
+    "keyConcept": "automação e precarização",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2011-REG-D1-C1-Q1",
+   "year": 2011,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "No mundo árabe, países governados há décadas por regimes políticos centralizadores contabilizam metade da população com menos de 30 anos; desses, 56% têm acesso à internet. Sentindo-se sem perspectivas de futuro e diante da estagnação da economia, esses jovens incubam vírus sedentos por modernidade e democracia. Em meados de dezembro, um tunisiano\nde 26 anos, vendedor de frutas, põe fogo no próprio corpo em protesto por trabalho, justiça e liberdade. Uma série de manifestações eclode na Tunísia e, como uma epidemia, o vírus libertário começa a se espalhar pelos países vizinhos, derrubando em seguida o presidente do Egito, Hosni Mubarak. Sites e redes sociais – como o Facebook e o Twitter – ajudaram a mobilizar manifestantes do norte da África a ilhas do Golfo Pérsico.\n\nSEQUEIRA, C. D.; VILLAMÉA, L. A epidemia da Liberdade. Istoé Internacional. 2 mar. 2011 (adaptado).\n\nConsiderando os movimentos políticos mencionados no texto, o acesso à internet permitiu aos jovens árabes",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reforçar a atuação dos regimes políticos existentes."
+    },
+    {
+     "letter": "B",
+     "text": "Tomar conhecimento dos fatos sem se envolver."
+    },
+    {
+     "letter": "C",
+     "text": "Manter o distanciamento necessário à sua segurança."
+    },
+    {
+     "letter": "D",
+     "text": "Disseminar vírus capazes de destruir programas dos computadores."
+    },
+    {
+     "letter": "E",
+     "text": "Difundir ideias revolucionárias que mobilizaram a população."
+    }
+   ],
+   "figures": [],
+   "number": 1,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Os jovens árabes usaram a internet e as redes sociais para difundir ideias e organizar os protestos que derrubaram ou abalaram regimes autoritários em 2011. **Resposta: E**",
+    "keyConcept": "Primavera Árabe e redes",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2011-REG-D1-C1-Q16",
+   "year": 2011,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Estamos testemunhando o reverso da tendência histórica da assalariação do trabalho e socialização da produção, que foi característica predominante na era industrial. A nova organização social e econômica baseada nas tecnologias da informação visa à administração descentralizadora, ao trabalho individualizante e aos mercados personalizados. As novas tecnologias da informação possibilitam, ao mesmo tempo, a descentralização das tarefas e sua coordenação em uma rede interativa de comunicação em tempo real, seja entre continentes, seja entre os andares de um mesmo edifício.\n\nCASTELLS, M. A sociedade em rede. São Paulo: Paz e Terra, 2006 (adaptado).\n\nNo contexto descrito, as sociedades vivenciam mudanças constantes nas ferramentas de comunicação que afetam os processos produtivos nas empresas. Na esfera do trabalho, tais mudanças têm provocado",
+   "options": [
+    {
+     "letter": "A",
+     "text": "O aprofundamento dos vínculos dos operários com as linhas de montagem sob influência dos modelos orientais de gestão."
+    },
+    {
+     "letter": "B",
+     "text": "O aumento das formas de teletrabalho como solução de larga escala para o problema do desemprego crônico."
+    },
+    {
+     "letter": "C",
+     "text": "O avanço do trabalho flexível e da terceirização como respostas às demandas por inovação e com vistas à mobilidade dos investimentos."
+    },
+    {
+     "letter": "D",
+     "text": "A autonomização crescente das máquinas e computadores em substituição ao trabalho dos especialistas técnicos e gestores."
+    },
+    {
+     "letter": "E",
+     "text": "O fortalecimento do diálogo entre operários, gerentes, executivos e clientes com a garantia de harmonização das relações de trabalho."
+    }
+   ],
+   "figures": [],
+   "number": 16,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Castells descreve o enfraquecimento do assalariamento clássico. Na sociedade em rede, avançam o trabalho flexível, a terceirização e a individualização das relações de trabalho para dar agilidade e inovação às empresas. **Resposta: C**",
+    "keyConcept": "trabalho na sociedade em rede",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2011-REG-D1-C1-Q18",
+   "year": 2011,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Na década de 1990, os movimentos sociais camponeses e as ONGs tiveram destaque, ao lado de outros sujeitos coletivos. Na sociedade brasileira, a ação dos movimentos sociais vem construindo lentamente um conjunto de práticas democráticas no interior das escolas, das comunidades, dos grupos organizados e na interface da sociedade civil com o Estado. O diálogo, o confronto e o conflito têm sido os motores no processo de construção democrática.\n\nSOUZA, M. A. Movimentos sociais no Brasil contemporâneo: participação e possibilidades das práticas democráticas. Disponível em: http://www.ces.uc.pt. Acesso em: 30 abr. 2010 (adaptado).\n\nSegundo o texto, os movimentos sociais contribuem para o processo de construção democrática, porque",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Determinam o papel do Estado nas transformações socioeconômicas."
+    },
+    {
+     "letter": "B",
+     "text": "Aumentam o clima de tensão social na sociedade civil."
+    },
+    {
+     "letter": "C",
+     "text": "Pressionam o Estado para o atendimento das demandas da sociedade."
+    },
+    {
+     "letter": "D",
+     "text": "Privilegiam determinadas parcelas da sociedade em detrimento das demais."
+    },
+    {
+     "letter": "E",
+     "text": "Propiciam a adoção de valores éticos pelos órgãos do Estado."
+    }
+   ],
+   "figures": [],
+   "number": 18,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Os movimentos sociais contribuem para a democracia ao organizar demandas e pressionar o Estado para atendê-las, ampliando a participação da sociedade civil. **Resposta: C**",
+    "keyConcept": "movimentos sociais e democracia",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2011-REG-D1-C1-Q20",
+   "year": 2011,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "Embora o Brasil seja signatário das convenções e tratados internacionais contra a tortura e tenha incorporado em seu ordenamento jurídico uma lei tipificando o crime, ele continua a ocorrer em larga escala. Mesmo que a lei que tipifica a tortura esteja vigente desde 1997, até o ano 2000 não se conhece nenhum caso de condenação de torturadores julgado em última instância, embora tenham sido registrados nesse período centenas de casos, além de numerosos outros presumíveis mas não registrados.\n\nDisponível em: http://www.dhnet.org.br. Acesso em: 16 jun 2010 (adaptado).\n\nO texto destaca a questão da tortura no país, apontando que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A justiça brasileira, por meio de tratados e leis, tem conseguido inibir e, inclusive, extinguir a prática da tortura."
+    },
+    {
+     "letter": "B",
+     "text": "A existência da lei não basta como garantia de justiça para as vítimas e testemunhas dos casos de tortura."
+    },
+    {
+     "letter": "C",
+     "text": "As denúncias anônimas dificultam a ação da justiça, impedindo que torturadores sejam reconhecidos e identificados pelo crime cometido."
+    },
+    {
+     "letter": "D",
+     "text": "A falta de registro da tortura por parte das autoridades policiais, em razão do desconhecimento da tortura como crime, legitima a impunidade."
+    },
+    {
+     "letter": "E",
+     "text": "A justiça tem esbarrado na precária existência de jurisprudência a respeito da tortura, o que a impede de atuar nesses casos."
+    }
+   ],
+   "figures": [],
+   "number": 20,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O texto mostra que, apesar das leis e dos tratados contra a tortura, ela continua acontecendo, e poucos casos chegam a uma condenação. A simples existência da lei não garante justiça. **Resposta: B**",
+    "keyConcept": "lei não basta contra a tortura",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2011-REG-D1-C1-Q21",
+   "year": 2011,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "A ação democrática consiste em todos tomarem parte do processo decisório sobre aquilo que terá consequência na vida de toda coletividade.\n\nGALLO, S. etal. Ética e Cidadania. Caminhos da Filosofia. Campinas: Papirus, 1997 (adaptado).\n\nTEXTO II\n\nÉ necessário que haja liberdade de expressão, fiscalização sobre órgãos governamentais e acesso por parte da população às informações trazidas a público pela imprensa.\n\nDisponível em: http://www.observatoriodaimprensa.com.br. Acesso em: 24 abr. 2010.\n\nPartindo da perspectiva de democracia apresentada no Texto I, os meios de comunicação, de acordo com o Texto II, assumem um papel relevante na sociedade por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Orientarem os cidadãos na compra dos bens necessários à sua sobrevivência e bem-estar."
+    },
+    {
+     "letter": "B",
+     "text": "Fornecerem informações que fomentam o debate político na esfera pública."
+    },
+    {
+     "letter": "C",
+     "text": "Apresentarem aos cidadãos a versão oficial dos fatos."
+    },
+    {
+     "letter": "D",
+     "text": "Propiciarem o entretenimento, aspecto relevante para conscientização política."
+    },
+    {
+     "letter": "E",
+     "text": "Promoverem a unidade cultural, por meio das transmissões esportivas."
+    }
+   ],
+   "figures": [],
+   "number": 21,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Se a democracia é a participação de todos nas decisões coletivas, os meios de comunicação são relevantes por informar e alimentar o debate político público. **Resposta: B**",
+    "keyConcept": "imprensa e esfera pública",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2011-REG-D1-C1-Q23",
+   "year": 2011,
+   "area": "Globalização, Mídia e Tecnologia",
+   "content": null,
+   "demand": null,
+   "statement": "O acidente nuclear de Chernobyl revela brutalmente os limites dos poderes técnico-científicos da humanidade e as “marchas-à-ré” que a “natureza” nos pode reservar. É evidente que uma gestão mais coletiva se impõe para orientar as ciências e as técnicas em direção a finalidades mais humanas.\n\nGUATTARI, F. As três ecologias. São Paulo: Papirus, 1995 (adaptado).\n\nO texto trata do aparato técnico-científico e as suas consequências para a humanidade, propondo que esse desenvolvimento",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Defina seus projetos a partir dos interesses coletivos."
+    },
+    {
+     "letter": "B",
+     "text": "Guie-se por interesses econômicos, prescritos pela lógica do mercado."
+    },
+    {
+     "letter": "C",
+     "text": "Priorize a evolução da tecnologia, se apropriando da natureza."
+    },
+    {
+     "letter": "D",
+     "text": "Promova a separação entre natureza e sociedade tecnológica."
+    },
+    {
+     "letter": "E",
+     "text": "Tenha gestão própria, com o objetivo de melhor apropriação da natureza."
+    }
+   ],
+   "figures": [],
+   "number": 23,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Diante de tragédias como Chernobyl, Guattari propõe reorientar a ciência e a técnica para finalidades mais humanas, Assim, o desenvolvimento deve definir seus projetos a partir dos interesses coletivos. Ele não deve seguir a lógica do mercado (B). **Resposta: A**",
+    "keyConcept": "Guattari e a ecosofia",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2011-REG-D1-C1-Q27",
+   "year": 2011,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "Um volume imenso de pesquisas tem sido produzido para tentar avaliar os efeitos dos programas de televisão. A maioria desses estudos diz respeito às crianças — o que é bastante compreensível pela quantidade de tempo que elas passam em frente ao aparelho e pelas possíveis implicações desse comportamento para a socialização. Dois dos tópicos mais pesquisados são o impacto da televisão no âmbito do crime e da violência e a natureza das notícias exibidas na televisão.\n\nGIDDENS, A. Sociologia. Porto Alegre: Artmed, 2005.\n\nO texto indica que existe uma significativa produção científica sobre os impactos socioculturais da televisão na vida do ser humano. E as crianças, em particular, são as mais vulneráveis a essas influências, porque",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Codificam informações transmitidas nos programas infantis por meio da observação."
+    },
+    {
+     "letter": "B",
+     "text": "Adquirem conhecimentos variados que incentivam o processo de interação social."
+    },
+    {
+     "letter": "C",
+     "text": "Interiorizam padrões de comportamento e papéis sociais com menor visão crítica."
+    },
+    {
+     "letter": "D",
+     "text": "Observam formas de convivência social baseadas na tolerância e no respeito."
+    },
+    {
+     "letter": "E",
+     "text": "Apreendem modelos de sociedade pautados na observância das leis."
+    }
+   ],
+   "figures": [],
+   "number": 27,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "As crianças estão em plena socialização e têm menos senso crítico. Por isso tendem a interiorizar os padrões de comportamento e os papéis sociais mostrados na televisão. **Resposta: C**",
+    "keyConcept": "socialização pela TV",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2012-REG-D1-C1-Q3",
+   "year": 2012,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Texto I\n\nO que vemos no país é uma espécie de espraiamento e a manifestação da agressividade através da violência. Isso se desdobra de maneira evidente na criminalidade, que está presente em todos os redutos — seja nas áreas abandonadas pelo poder público, seja na política ou no futebol. O brasileiro não é mais violento do que outros povos, mas a fragilidade do exercício e do reconhecimento da cidadania e a ausência do Estado em vários territórios do país se impõem como um caldo de cultura no qual a agressividade e a violência fincam suas raízes.\n\nEntrevista com Joel Birman. A Corrupção é um crime sem rosto. IstoÉ. Edição 2099, 3 fev. 2010.\n\nTexto II\n\nNenhuma sociedade pode sobreviver sem canalizar as pulsões e emoções do indivíduo, sem um controle muito específico de seu comportamento. Nenhum controle desse tipo é possível sem que as pessoas anteponham limitações umas às outras, e todas as limitações são convertidas, na pessoa a quem são impostas, em medo de um ou outro tipo.\n\nELIAS, N. O Processo Civilizador. Rio de Janeiro: Jorge Zahar, 1993.\n\nConsiderando-se a dinâmica do processo civilizador, tal como descrito no Texto II, o argumento do Texto I acerca da violência e agressividade na sociedade brasileira expressa a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Incompatibilidade entre os modos democráticos de convívio social e a presença de aparatos de controle policial."
+    },
+    {
+     "letter": "B",
+     "text": "Manutenção de práticas repressivas herdadas dos períodos ditatoriais sob a forma de leis e atos administrativos."
+    },
+    {
+     "letter": "C",
+     "text": "Inabilidade das forças militares em conter a violência decorrente das ondas migratórias nas grandes cidades brasileiras."
+    },
+    {
+     "letter": "D",
+     "text": "Dificuldade histórica da sociedade brasileira em institucionalizar formas de controle social compatíveis com valores democráticos."
+    },
+    {
+     "letter": "E",
+     "text": "Incapacidade das instituições político-legislativas em formular mecanismos de controle social específicos à realidade social brasileira."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Para Norbert Elias, a civilização envolve o autocontrole e o monopólio estatal da violência. A violência difusa no Brasil mostra a dificuldade histórica de institucionalizar formas de controle social compatíveis com valores democráticos. **Resposta: D**",
+    "keyConcept": "processo civilizador (Elias)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2012-REG-D1-C1-Q21",
+   "year": 2012,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Texto I\n\nA Europa entrou em estado de exceção, personificado por obscuras forças econômicas sem rosto ou localização física conhecida que não prestam contas a ninguém e se espalham pelo globo por meio de milhões de transações diárias no ciberespaço.\n\nROSSI, C. Nem fim do mundo nem mundo novo. Folha de São Paulo, 11 dez. 2011 (adaptado).\n\nTexto II\n\nEstamos imersos numa crise financeira como nunca tínhamos visto desde a Grande Depressão iniciada em 1929 nos Estados Unidos.\n\nEntrevista de George Soros. Disponível em: www.nybooks.com. Acesso em: 17 ago. 2011 (adaptado).\n\nA comparação entre os significados da atual crise econômica e do crash de 1929 oculta a principal diferença entre essas duas crises, pois:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "O crash da Bolsa em 1929 adveio do envolvimento dos EUA na I Guerra Mundial e a atual crise é o resultado dos gastos militares desse país nas guerras do Afeganistão e Iraque."
+    },
+    {
+     "letter": "B",
+     "text": "A crise de 1929 ocorreu devido a um quadro de superprodução industrial nos EUA e a atual crise resultou da especulação financeira e da expansão desmedida do crédito bancário."
+    },
+    {
+     "letter": "C",
+     "text": "A crise de 1929 foi o resultado da concorrência dos países europeus reconstruídos após a I Guerra e a atual crise se associa à emergência dos BRICS como novos concorrentes econômicos."
+    },
+    {
+     "letter": "D",
+     "text": "O crash da Bolsa em 1929 resultou do excesso de proteções ao setor produtivo estadunidense e a atual crise tem origem na internacionalização das empresas e no avanço da política de livre mercado."
+    },
+    {
+     "letter": "E",
+     "text": "A crise de 1929 decorreu da política intervencionista norte-americana sobre o sistema de comércio mundial e a atual crise resultou do excesso de regulação do governo desse país sobre o sistema monetário."
+    }
+   ],
+   "figures": [],
+   "number": 21,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A crise de 1929 veio da superprodução industrial e da especulação na bolsa nos EUA. A crise atual nasceu da especulação financeira, sobretudo com hipotecas e derivativos, num sistema desregulado. **Resposta: B**",
+    "keyConcept": "crise de 1929 × crise de 2008",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2012-REG-D1-C1-Q23",
+   "year": 2012,
+   "area": "Globalização, Mídia e Tecnologia",
+   "content": null,
+   "demand": null,
+   "statement": "Nossa cultura lipofóbica muito contribui para a distorção da imagem corporal, gerando gordos que se veem magros e magros que se veem gordos, numa quase unanimidade de que todos se sentem ou se veem “distorcidos”. Engordamos quando somos gulosos. É pecado da gula que controla a relação do homem com a balança. Todo obeso declarou, um dia, guerra à balança. Para emagrecer é preciso fazer as pazes com a dita cuja, visando adequar-se às necessidades para as quais ela aponta.\n\nFREIRE, D. S. Obesidade não pode ser pré-requisito. Disponível em: http//gnt.globo.com. Acesso em: 3 abr. 2012 (adaptado).\n\nO texto apresenta um discurso de disciplinarização dos corpos, que tem como consequência",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A ampliação dos tratamentos médicos alternativos, reduzindo os gastos com remédios."
+    },
+    {
+     "letter": "B",
+     "text": "A democratização do padrão de beleza, tornando-o acessível pelo esforço individual."
+    },
+    {
+     "letter": "C",
+     "text": "O controle do consumo, impulsionando uma crise econômica na indústria de alimentos."
+    },
+    {
+     "letter": "D",
+     "text": "A culpabilização individual, associando obesidade à fraqueza de caráter."
+    },
+    {
+     "letter": "E",
+     "text": "O aumento da longevidade, resultando no crescimento populacional."
+    }
+   ],
+   "figures": [],
+   "number": 23,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O discurso que associa o corpo ideal à força de vontade faz da obesidade um \"defeito moral\". A disciplinarização dos corpos leva à culpabilização individual. **Resposta: D**",
+    "keyConcept": "corpo e culpabilização",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q15",
+   "year": 2013,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Na produção social que os homens realizam, eles entram em determinadas relações indispensáveis e independentes de sua vontade; tais relações de produção correspondem a um estágio definido de desenvolvimento das suas forças materiais de produção. A totalidade dessas relações constitui a estrutura econômica da sociedade — fundamento real, sobre o qual se erguem as superestruturas política e jurídica, e ao qual correspondem determinadas formas de consciência social.\n\nMARX, K. Prefácio à Crítica da economia política. In: MARX, K.; ENGELS, F. Textos 3. São Paulo: Edições Sociais, 1977 (adaptado).\n\nPara o autor, a relação entre economia e política estabelecida no sistema capitalista faz com que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "O proletariado seja contemplado pelo processo de mais-valia."
+    },
+    {
+     "letter": "B",
+     "text": "O trabalho se constitua como o fundamento real da produção material."
+    },
+    {
+     "letter": "C",
+     "text": "A consolidação das forças produtivas seja compatível com o progresso humano."
+    },
+    {
+     "letter": "D",
+     "text": "A autonomia da sociedade civil seja proporcional ao desenvolvimento econômico."
+    },
+    {
+     "letter": "E",
+     "text": "A burguesia revolucione o processo social de formação da consciência de classe."
+    }
+   ],
+   "figures": [],
+   "number": 15,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Para Marx, as relações de produção formam a base econômica sobre a qual se ergue a superestrutura jurídica e política. Por isso o trabalho, a produção material, é o fundamento real da vida social. **Resposta: B**",
+    "keyConcept": "Marx: base material",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q16",
+   "year": 2013,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Um trabalhador em tempo flexível controla o local do trabalho, mas não adquire maior controle sobre o processo em si. A essa altura, vários estudos sugerem que a supervisão do trabalho é muitas vezes maior para os ausentes do escritório do que para os presentes. O trabalho é fisicamente descentralizado e o poder sobre o trabalhador, mais direto.\n\nSENNETT, R. A corrosão do caráter: consequências pessoais do novo capitalismo. Rio de Janeiro: Record, 1999 (adaptado).\n\nComparada à organização do trabalho característica do taylorismo e do fordismo, a concepção de tempo analisada no texto pressupõe que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "As tecnologias de informação sejam usadas para democratizar as relações laborais."
+    },
+    {
+     "letter": "B",
+     "text": "As estruturas burocráticas sejam transferidas da empresa para o espaço doméstico."
+    },
+    {
+     "letter": "C",
+     "text": "Os procedimentos de terceirização sejam aprimorados pela qualificação profissional."
+    },
+    {
+     "letter": "D",
+     "text": "As organizações sindicais sejam fortalecidas com a valorização da especialização funcional."
+    },
+    {
+     "letter": "E",
+     "text": "Os mecanismos de controle sejam deslocados dos processos para os resultados do trabalho."
+    }
+   ],
+   "figures": [],
+   "number": 16,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Sennett mostra que, no trabalho flexível, o empregado decide o local, mas é vigiado por metas e resultados, muitas vezes por meios eletrônicos. O controle passa do processo (como no taylorismo e no fordismo) para os resultados. **Resposta: E**",
+    "keyConcept": "controle por resultados",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q35",
+   "year": 2013,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Rua Preciados, seis da tarde. Ao longe, a massa humana que abarrota a Praça Puertal Del Sol, em Madri, se levanta. Um grupo de garotas, ao ver a cena, corre em direção à multidão. Milhares de pessoas fazem ressoar o Slogan: “Que não, que não, que não nos representem”. Um garoto fala pelo megafone: “Demandamos submeter a referendo o resgate bancário”.\n\nRodriguez. O. Puerta Del Sol, o grande alto-falante. Brasil de Fato. São Paulo, 26 maio-1 jun. 2011 (adaptado).\n\nEm 2011, o acampamento dos indignados espanhóis expressou todo o descontamento político da juventude europeia. Que proposta sintetiza o conjunto de reivindicações políticas destes jovens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Voto universal."
+    },
+    {
+     "letter": "B",
+     "text": "Democracia direta."
+    },
+    {
+     "letter": "C",
+     "text": "Pluralidade partidária."
+    },
+    {
+     "letter": "D",
+     "text": "Autonomia legislativa."
+    },
+    {
+     "letter": "E",
+     "text": "Imunidade parlamentar."
+    }
+   ],
+   "figures": [],
+   "number": 35,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Os acampados de 2011 na Puerta del Sol pediam \"democracia real já\", com mais participação e decisões coletivas em assembleia, contra a democracia representativa vista como capturada pelos partidos e bancos. Isso remete à democracia direta. **Resposta: B**",
+    "keyConcept": "indignados e democracia real",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q38",
+   "year": 2013,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "A recuperação da herança cultural africana deve levar em conta o que é próprio do processo cultural: seu movimento, pluralidade e complexidade. Não se trata, portanto, do resgate ingênuo do passado nem do seu cultivo nostálgico, mas de procurar perceber o próprio rosto cultural brasileiro. O que se quer é captar seu movimento para melhor compreendê-lo historicamente.\n\nMINAS GERAIS: Cadernos do Arquivo 1: Escravidão em\nMinas Gerais. Belo Horizonte: Arquivo Público Mineiro, 1988.\n\nCom base no texto, a análise de manifestações culturais de origem africana, como a capoeira ou o candomblé, deve considerar que elas",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Permanecem como reprodução dos valores e costumes africanos."
+    },
+    {
+     "letter": "B",
+     "text": "Perderam a relação com o seu passado histórico."
+    },
+    {
+     "letter": "C",
+     "text": "Derivam da interação entre valores africanos e a experiência histórica brasileira."
+    },
+    {
+     "letter": "D",
+     "text": "Contribuem para o distanciamento cultural entre negros e brancos no Brasil atual."
+    },
+    {
+     "letter": "E",
+     "text": "Demonstram a maior complexidade cultural dos africanos em relação aos europeus."
+    }
+   ],
+   "figures": [],
+   "number": 38,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O texto diz que a herança africana deve ser entendida como algo em movimento, plural e complexo, e não como cópia do passado. Capoeira e candomblé resultam da interação entre valores africanos e a experiência histórica no Brasil. **Resposta: C**",
+    "keyConcept": "cultura afro-brasileira como processo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q40",
+   "year": 2013,
+   "area": "Movimentos Sociais e Desigualdades",
+   "content": null,
+   "demand": null,
+   "statement": "Ela acorda tarde depois de ter ido ao teatro e à dança; ela lê romances, além de desperdiçar o tempo a olhar para a rua da sua janela ou da sua varanda; passa horas no toucador a arrumar o seu complicado penteado; um número igual de horas praticando piano e mais outras na sua aula de francês ou de dança.\n\nComentário do Padre Lopes da Gama acerca dos costumes femininos (1839) apud SILVA, T. V. Z. Mulheres, cultura e literatura brasileira. Ipotasi – Revista de Estudos Literários. Juiz de Fora, v. 2. n. 2, 1998.\n\nTEXTO II\n\nAs janelas e portas gradeadas com treliças não eram cadeias confessas, positivas; mas eram, pelo aspecto e pelo seu destino, grandes gaiolas, onde os pais e maridos zelavam, sonegadas à sociedade, as filhas e as esposas.\n\nMACEDO, J. M. Memórias da Rua do Ouvidor (1878). Disponível em: www.dominiopublico.gov.br. Acesso em: 20 maio 2013 (adaptado).\n\nA representação social do feminino comum aos dois textos é o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Submissão de gênero, apoiada pela concepção patriarcal de família."
+    },
+    {
+     "letter": "B",
+     "text": "Acesso aos produtos de beleza, decorrência da abertura dos portos."
+    },
+    {
+     "letter": "C",
+     "text": "Ampliação do espaço de entretenimento, voltado às distintas classes sociais."
+    },
+    {
+     "letter": "D",
+     "text": "Proteção da honra, mediada pela disputa masculina em relação às damas da corte."
+    },
+    {
+     "letter": "E",
+     "text": "Valorização do casamento cristão, respaldado pelos interesses vinculados à herança."
+    }
+   ],
+   "figures": [],
+   "number": 40,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Os textos mostram a mulher da elite restrita ao lar, vigiada e \"sonegada à sociedade\" por pais e maridos. A representação comum é a submissão de gênero sustentada pela família patriarcal. **Resposta: A**",
+    "keyConcept": "patriarcado no século XIX",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q45",
+   "year": 2013,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Tenho 44 anos e presenciei uma transformação impressionante na condição de homens e mulheres gays nos Estados Unidos. Quando nasci, relações homossexuais eram ilegais em todos os Estados Unidos, menos Illinois. Gays e lésbicas não podiam trabalhar no governo federal. Não havia nenhum político abertamente gay. Alguns homossexuais não assumidos ocupavam posições de poder, mas a tendência era eles tormarem as coisas ainda piores para seus semelhantes.\n\nROSS, A. Na máquina do tempo. Época, ed. 766, 28 jan. 2013.\n\nA dimensão política da transformação sugerida no texto teve como condição necessária a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ampliação da noção de cidadania."
+    },
+    {
+     "letter": "B",
+     "text": "Reformulação de concepções religiosas."
+    },
+    {
+     "letter": "C",
+     "text": "Manutenção de ideologias conservadoras."
+    },
+    {
+     "letter": "D",
+     "text": "Implantação de cotas nas listas partidárias."
+    },
+    {
+     "letter": "E",
+     "text": "Alteração da composição étnica da população."
+    }
+   ],
+   "figures": [],
+   "number": 45,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O autor viu as relações homossexuais passarem de ilegais a direitos reconhecidos, como o casamento. Essa transformação dependeu da ampliação da noção de cidadania. **Resposta: A**",
+    "keyConcept": "cidadania LGBT",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q5",
+   "year": 2014,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nNEVES, E. Engraxate. Disponível em: www.grafar.blogspot.com. Acesso em: 15 fev. 2013.\n\nConsiderando-se a dinâmica entre tecnologia e organização do trabalho, a representação contida no cartum é caracterizada pelo pessimismo em relação à",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ideia de progresso."
+    },
+    {
+     "letter": "B",
+     "text": "Concentração do capital."
+    },
+    {
+     "letter": "C",
+     "text": "Noção de sustentabilidade."
+    },
+    {
+     "letter": "D",
+     "text": "Organização dos sindicatos."
+    },
+    {
+     "letter": "E",
+     "text": "Obsolescência dos equipamentos."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/sociologia/2014/ENEM-CH-2014-REG-D1-C1-Q5-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 643,
+     "height": 376
+    }
+   ],
+   "number": 5,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O cartum mostra o engraxate substituído por uma máquina, uma visão pessimista da ideia de progresso técnico, que elimina empregos em vez de beneficiar a todos. **Resposta: A**",
+    "keyConcept": "tecnologia e desemprego",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q8",
+   "year": 2014,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "O cidadão norte-americano desperta num leito construído segundo padrão originário do Oriente Próximo, mas modificado na Europa Setentrional antes de ser transmitido à América. Sai debaixo de cobertas feitas de algodão cuja planta se tornou doméstica na Índia. No restaurante, toda uma série de elementos tomada de empréstimo o espera. O prato é feito de uma espécie de cerâmica inventada na China. A faca é de aço, liga feita pela primeira vez na Índia do Sul; o garfo é inventado na Itália medieval; a colher vem de um original romano. Lê notícias do dia impressas em caracteres inventados pelos antigos semitas, em material inventado na China e por um processo inventado na Alemanha.\n\nLINTON. R. O homem: uma introdução à antropologia. São Paulo: Martins. 1959 (adaptado).\n\nA situação descrita é um exemplo de como os costumes resultam da",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Assimilação de valores de povos exóticos."
+    },
+    {
+     "letter": "B",
+     "text": "Experimentação de hábitos sociais variados."
+    },
+    {
+     "letter": "C",
+     "text": "Recuperação de heranças da Antiguidade Clássica."
+    },
+    {
+     "letter": "D",
+     "text": "Fusão de elementos de tradições culturais diferentes."
+    },
+    {
+     "letter": "E",
+     "text": "Valorização de comportamento de grupos privilegiados."
+    }
+   ],
+   "figures": [],
+   "number": 8,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O dia a dia do norte-americano usa objetos e costumes vindos de muitos povos e épocas. Os costumes resultam da fusão de elementos de tradições culturais diferentes. **Resposta: D**",
+    "keyConcept": "difusão cultural (Linton)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q10",
+   "year": 2014,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "O jovem espanhol Daniel se sente perdido. Seu diploma de desenhista industrial e seu alto conhecimento de inglês devem ajudá-lo a tomar um rumo. Mas a taxa de desemprego, que supera 52% entre os que têm menos de 25 anos, o desnorteia. Ele está convencido de que seu futuro profissional não está na Espanha, como o de, pelo menos, 120 mil conterrâneos que emigraram nos últimos dois anos. O irmão dele, que é engenheiro-agrônomo, conseguiu emprego no Chile. Atualmente, Daniel participa de uma “oficina de procura de emprego” em países como Brasil, Alemanha e China. A oficina é oferecida por uma universidade espanhola.\n\nGUILAYN, P. Na Espanha, universidade ensina a emigrar. O Globo, 17 fev. 2013 (adaptado).\n\nA situação ilustra uma crise econômica que implica",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Valorização do trabalho fabril."
+    },
+    {
+     "letter": "B",
+     "text": "Expansão dos recursos tecnológicos."
+    },
+    {
+     "letter": "C",
+     "text": "Exportação de mão de obra qualificada."
+    },
+    {
+     "letter": "D",
+     "text": "Diversificação dos mercados produtivos."
+    },
+    {
+     "letter": "E",
+     "text": "Intensificação dos intercâmbios estudantis."
+    }
+   ],
+   "figures": [],
+   "number": 10,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Com o desemprego alto na Espanha, jovens qualificados são preparados pela universidade para emigrar. A crise implica a exportação de mão de obra qualificada. **Resposta: C**",
+    "keyConcept": "fuga de cérebros",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q17",
+   "year": 2014,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nPAIVA, M. Disponível em: www.redes.unb.br. Acesso em: 25 maio 2014\n\nA discussão levantada na charge, publicada logo após a promulgação da Constituição de 1988, faz referência ao seguinte conjunto de direitos:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Civis, como o direito à vida, à liberdade de expressão e à propriedade."
+    },
+    {
+     "letter": "B",
+     "text": "Sociais, como direito à educação, ao trabalho e à proteção à maternidade e à infância."
+    },
+    {
+     "letter": "C",
+     "text": "Difusos, como direito à paz, ao desenvolvimento sustentável e ao meio ambiente saudável."
+    },
+    {
+     "letter": "D",
+     "text": "Coletivos, como direito à organização sindical, à participação partidária e à expressão religiosa."
+    },
+    {
+     "letter": "E",
+     "text": "Políticos, como o direito de votar e ser votado, à soberania popular e à participação democrática."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/sociologia/2014/ENEM-CH-2014-REG-D1-C1-Q17-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 478,
+     "height": 408
+    }
+   ],
+   "number": 17,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A charge trata dos direitos sociais garantidos em 1988, como educação, saúde, trabalho e proteção à maternidade e à infância, que existem no papel, mas nem sempre na prática. **Resposta: B**",
+    "keyConcept": "direitos sociais na Constituição de 1988",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q30",
+   "year": 2014,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Parecer CNE/CP no 3/2004, que instituiu as Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais e para o Ensino de História e Cultura Afro-Brasileira e Africana. Procura-se oferecer uma resposta, entre outras, na área da educação, à demanda da população afrodescendente, no sentido de políticas de ações afirmativas. Propõe a divulgação e a produção de conhecimentos, a formação de atitudes, posturas que eduquem cidadãos orgulhosos de seu pertencimento étnico-racial — descendentes de africanos, povos indígenas, descendentes de europeus, de asiáticos — para interagirem na construção de uma nação democrática, em que todos igualmente tenham seus direitos garantidos.\n\nBRASIL. Conselho Nacional de Educação. Disponível em: www.semesp.org.br. Acesso em: 21 nov. 2013 (adaptado).\n\nA orientação adotada por esse parecer fundamenta uma política pública e associa o princípio da inclusão social a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Práticas de valorização identitária."
+    },
+    {
+     "letter": "B",
+     "text": "Medidas de compensação econômica."
+    },
+    {
+     "letter": "C",
+     "text": "Dispositivos de liberdade de expressão."
+    },
+    {
+     "letter": "D",
+     "text": "Estratégias de qualificação profissional."
+    },
+    {
+     "letter": "E",
+     "text": "Instrumentos de modernização jurídica."
+    }
+   ],
+   "figures": [],
+   "number": 30,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "As Diretrizes sobre relações étnico-raciais e o ensino de cultura afro-brasileira ligam a inclusão social ao reconhecimento e à valorização da identidade negra. São práticas de valorização identitária. **Resposta: A**",
+    "keyConcept": "valorização identitária",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q33",
+   "year": 2014,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Existe uma cultura política que domina o sistema e é fundamental para entender o conservadorismo brasileiro. Há um argumento, partilhado pela direita e pela esquerda, de que a sociedade brasileira é conservadora. Isso legitimou o conservadorismo do sistema político: existiriam limites para transformar o país, porque a sociedade é conservadora, não aceita mudanças bruscas. Isso justifica o caráter vagaroso da redemocratização e da redistribuição da renda. Mas não é assim. A sociedade é muito mais avançada que o sistema político. Ele se mantém porque consegue convencer a sociedade de que é a expressão dela, de seu conservadorismo.\n\nNOBRE, M. Dois ismos que não rimam. Disponível em: www.unicamp.br. Acesso em: 28 mar. 2014 (adaptado).\n\nA característica do sistema político brasileiro, ressaltada no texto, obtém sua legitimidade da",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dispersão regional do poder econômico."
+    },
+    {
+     "letter": "B",
+     "text": "Polarização acentuada da disputa partidária."
+    },
+    {
+     "letter": "C",
+     "text": "Orientação radical dos movimentos populares."
+    },
+    {
+     "letter": "D",
+     "text": "Condução eficiente das ações administrativas."
+    },
+    {
+     "letter": "E",
+     "text": "Sustentação ideológica das desigualdades existentes."
+    }
+   ],
+   "figures": [],
+   "number": 33,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O texto mostra que o sistema político se apresenta como expressão do conservadorismo da sociedade e, assim, se legitima por uma ideologia que sustenta as desigualdades existentes. **Resposta: E**",
+    "keyConcept": "conservadorismo e desigualdade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q2",
+   "year": 2015,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Dominar a luz implica tanto um avanço tecnológico quanto uma certa liberação dos ritmos cíclicos da natureza, com a passagem das estações e as alternâncias de dia e noite. Com a iluminação noturna, a escuridão vai cedendo lugar à claridade, e a percepção temporal começa a se pautar pela marcação do relógio. Se a luz invade a noite, perde sentido a separação tradicional entre trabalho e descanso – todas as partes do dia podem ser aproveitadas produtivamente.\n\nSILVA FILHO. A. L. M. Fortaleza: imagens da cidade. Fortaleza: Museu do Ceará: Secult-CE. 2001 (adaptado).\n\nEm relação ao mundo do trabalho, a transformação apontada no texto teve como consequência a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Melhoria da qualidade da produção industrial."
+    },
+    {
+     "letter": "B",
+     "text": "Redução da oferta de emprego nas zonas rurais."
+    },
+    {
+     "letter": "C",
+     "text": "Permissão ao trabalhador para controlar seus próprios horários."
+    },
+    {
+     "letter": "D",
+     "text": "Diminuição das exigências de esforço no trabalho com máquinas."
+    },
+    {
+     "letter": "E",
+     "text": "Ampliação do período disponível para a jornada de trabalho."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "A iluminação artificial libertou o trabalho do ritmo do dia e da noite. A consequência foi a ampliação do período disponível para a jornada, incluindo o turno da noite. **Resposta: E**",
+    "keyConcept": "luz elétrica e jornada de trabalho",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q7",
+   "year": 2015,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "O principal articulador do atual modelo econômico chinês argumenta que o mercado é só um instrumento econômico, que se emprega de forma indistinta tanto no capitalismo como no socialismo. Porém os próprios chineses já estão sentindo, na sua sociedade, o seu real significado: o mercado não é algo neutro, ou um instrumental técnico que possibilita à sociedade utilizá-lo para a construção e edificação do socialismo. Ele é, ao contrário do que diz o articulador, um instrumento do capitalismo e é inerente à sua estrutura como modo de produção. A sua utilização está levando a uma polarização da sociedade chinesa.\n\nOLIVEIRA, A. A Revolução Chinesa. Caros Amigos, 31 jan. 2011 (adaptado).\n\nNo texto, as reformas econômicas ocorridas na China são colocadas como antagônicas à construção de um país socialista. Nesse contexto, a característica fundamental do socialismo, à qual o modelo econômico chinês atual se contrapõe é a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Desestatização da economia."
+    },
+    {
+     "letter": "B",
+     "text": "Instauração de um partido único."
+    },
+    {
+     "letter": "C",
+     "text": "Manutenção da livre concorrência."
+    },
+    {
+     "letter": "D",
+     "text": "Formação de sindicatos trabalhistas."
+    },
+    {
+     "letter": "E",
+     "text": "Extinção gradual das classes sociais."
+    }
+   ],
+   "figures": [],
+   "number": 7,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O modelo chinês adota o mercado, o que gera desigualdade e novas elites. Isso contradiz um objetivo central do socialismo: a extinção gradual das classes sociais. **Resposta: E**",
+    "keyConcept": "socialismo e fim das classes",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q21",
+   "year": 2015,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "Atualmente, as represálias econômicas contra as empresas de informática norte-americanas continuam. A Alemanha proibiu um aplicativo dos Estados Unidos de compartilhamento de carros; na China, o governo explicou que os equipamentos e serviços de informática norte-americanos representam uma ameaça, pedindo que as empresas estatais não recorram a eles.\n\nSCHILLER, D. Disponível em: www.diplomatique.org.br. Acesso em: 11 nov. 2014 (adaptado).\n\nAs ações tomadas pelos países contra a espionagem revelam preocupação com o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Subsídio industrial."
+    },
+    {
+     "letter": "B",
+     "text": "Hegemonia cultural."
+    },
+    {
+     "letter": "C",
+     "text": "Protecionismo dos mercados."
+    },
+    {
+     "letter": "D",
+     "text": "Desemprego tecnológico."
+    },
+    {
+     "letter": "E",
+     "text": "Segurança dos dados."
+    }
+   ],
+   "figures": [],
+   "number": 21,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Depois das denúncias de espionagem dos EUA, países restringiram empresas de informática norte-americanas. As medidas mostram a preocupação com a segurança dos dados, mais do que com o protecionismo econômico (C). **Resposta: E**",
+    "keyConcept": "espionagem e segurança dos dados",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q25",
+   "year": 2015,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Não nos resta a menor dúvida de que a principal contribuição dos diferentes tipos de movimentos sociais brasileiros nos últimos vinte anos foi no plano da reconstrução do processo de democratização do país. E não se trata apenas da reconstrução do regime político, da retomada da democracia e do fim do Regime Militar. Trata-se da reconstrução ou construção de novos rumos para a cultura do país, do preenchimento de vazios na condução da luta pela redemocratização, constituindo-se como agentes interlocutores que dialogam diretamente com a população e com o Estado.\n\nGOHN, M. G. M. Os sem-terras, ONGs e cidadania. São Paulo: Cortez, 2003 (adaptado).\n\nNo processo da redemocratização brasileira, os novos movimentos sociais contribuíram para",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diminuir a legitimidade dos novos partidos políticos então criados."
+    },
+    {
+     "letter": "B",
+     "text": "Tornar a democracia um valor social que ultrapassa os momentos eleitorais."
+    },
+    {
+     "letter": "C",
+     "text": "Difundir a democracia representativa como objetivo fundamental da luta política."
+    },
+    {
+     "letter": "D",
+     "text": "Ampliar as disputas pela hegemonia das entidades de trabalhadores com os sindicatos."
+    },
+    {
+     "letter": "E",
+     "text": "Fragmentar as lutas políticas dos diversos atores sociais frente ao Estado."
+    }
+   ],
+   "figures": [],
+   "number": 25,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Segundo Gohn, os movimentos sociais da redemocratização reconstruíram a democracia como prática do cotidiano, com participação e diálogo com o Estado. Ela passou a ser um valor social que vai além das eleições. **Resposta: B**",
+    "keyConcept": "movimentos sociais e democracia",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q35",
+   "year": 2015,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Quanto ao “choque de civilizações”, é bom lembrar a carta de uma menina americana de sete anos cujo pai era piloto na Guerra do Afeganistão: ela escreveu que — embora amasse muito seu pai — estava pronta a deixá-lo morrer, a sacrificá-lo por seu país. Quando o presidente Bush citou suas palavras, elas foram entendidas como manifestação “normal” de patriotismo americano; vamos conduzir uma experiência mental simples e imaginar uma menina árabe maometana pateticamente lendo para as câmeras as mesmas palavras a respeito do pai que lutava pelo Talibã — não é necessário pensar muito sobre qual teria sido a nossa reação.\n\nZIZEK, S. Bem-vindo ao deserto do real. São Paulo: Bom Tempo, 2003.\n\nA situação imaginária proposta pelo autor explicita o desafio cultual do(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Prática da diplomacia."
+    },
+    {
+     "letter": "B",
+     "text": "Exercício da alteridade."
+    },
+    {
+     "letter": "C",
+     "text": "Expansão da democracia."
+    },
+    {
+     "letter": "D",
+     "text": "Universalização do progresso."
+    },
+    {
+     "letter": "E",
+     "text": "Conquista da autodeterminação."
+    }
+   ],
+   "figures": [],
+   "number": 35,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Žižek pede que imaginemos a reação a uma menina afegã orgulhosa de um pai talibã para revelar nosso duplo padrão. O desafio é colocar-se no lugar do outro, o exercício da alteridade. **Resposta: B**",
+    "keyConcept": "alteridade (Žižek)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q38",
+   "year": 2015,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Um carro esportivo é financiado pelo Japão, projetado na Itália e montado em Indiana, México e França, usando os mais avançados componentes eletrônicos, que foram inventados em Nova Jérsei e fabricados na Coreia. A campanha publicitária é desenvolvida na Inglaterra, filmada no Canadá, a edição e as cópias, feitas em Nova York para serem veiculadas no mundo todo. Teias globais disfarçam-se com o uniforme nacional que lhes for mais conveniente.\n\nREICH, R. O trabalho das nações: preparando-nos para o capitalismo no século XXI. São Paulo: Educator, 1994 (adaptado).\n\nA viabilidade do processo de produção ilustrado pelo texto pressupõe o uso de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Linhas de montagem e formação de estoques."
+    },
+    {
+     "letter": "B",
+     "text": "Empresas burocráticas e mão de obra barata."
+    },
+    {
+     "letter": "C",
+     "text": "Controle estatal e infraestrutura consolidada."
+    },
+    {
+     "letter": "D",
+     "text": "Organização em rede e tecnologia de informação."
+    },
+    {
+     "letter": "E",
+     "text": "Gestão centralizada e protecionismo econômico."
+    }
+   ],
+   "figures": [],
+   "number": 38,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O carro \"global\" é projetado, financiado e montado em vários países. Isso pressupõe empresas organizadas em rede e tecnologias de informação que coordenam a produção a distância. **Resposta: D**",
+    "keyConcept": "produção global em rede",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q39",
+   "year": 2015,
+   "area": "Globalização, Mídia e Tecnologia",
+   "content": null,
+   "demand": null,
+   "statement": "Na sociedade contemporânea, onde as relações sociais tendem a reger-se por imagens midiáticas, a imagem de um indivíduo, principalmente na indústria do espetáculo, pode agregar valor econômico na medida de seu incremento técnico: amplitude do espelhamento e da atenção pública. Aparecer é então mais do que ser; o sujeito é famoso porque é falado. Nesse âmbito, a lógica circulatória do mercado, ao mesmo tempo que acena democraticamente para as massas com supostos “ganhos distributivos” (a informação ilimitada, a quebra das supostas hierarquias culturais), afeta a velha cultura disseminada na esfera pública. A participação nas redes sociais, a obsessão dos selfies, tanto falar e ser falado quanto ser visto são índices do desejo de “espelhamento”.\n\nSODRÉ, M. Disponível em: http://alias.estadao.com.br. Acesso em: 9 fev. 2015 (adaptado).\n\nA crítica contida no texto sobre a sociedade contemporânea enfatiza",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A prática identitária autorreferente."
+    },
+    {
+     "letter": "B",
+     "text": "A dinâmica política democratizante."
+    },
+    {
+     "letter": "C",
+     "text": "A produção instantânea de notícias."
+    },
+    {
+     "letter": "D",
+     "text": "Os processos difusores de informações."
+    },
+    {
+     "letter": "E",
+     "text": "Os mecanismos de convergência tecnológica."
+    }
+   ],
+   "figures": [],
+   "number": 39,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Sodré critica a busca de ser visto e falado nas mídias, como nas selfies. Esse \"espelhamento\" é uma prática identitária autorreferente, centrada na própria imagem. **Resposta: A**",
+    "keyConcept": "selfies e espelhamento",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q40",
+   "year": 2015,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "A crescente intelectualização e racionalização não indicam um conhecimento maior e geral das condições sob as quais vivemos. Significa a crença em que, se quiséssemos, poderíamos ter esse conhecimento a qualquer momento. Não há forças misteriosas incalculáveis; podemos dominar todas as coisas pelo cálculo.\n\nWEBER, M. A ciência como vocação. In: GERTH, H.; MILLS, W. (Org.). Max Weber: ensaios de sociologia. Rio de Janeiro: Zahar, 1979 (adaptado).\n\nTal como apresentada no texto, a proposição de Max Weber a respeito do processo de desencantamento do mundo evidencia o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Progresso civilizatório como decorrência da expansão do industrialismo."
+    },
+    {
+     "letter": "B",
+     "text": "Extinção do pensamento mítico como um desdobramento do capitalismo."
+    },
+    {
+     "letter": "C",
+     "text": "Emancipação como consequência do processo de racionalização da vida."
+    },
+    {
+     "letter": "D",
+     "text": "Afastamento de crenças tradicionais como uma característica da modernidade."
+    },
+    {
+     "letter": "E",
+     "text": "Fim do monoteísmo como condição para a consolidação da ciência."
+    }
+   ],
+   "figures": [],
+   "number": 40,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Para Weber, a racionalização moderna faz crer que tudo pode ser dominado pelo cálculo, sem forças mágicas ou misteriosas. O desencantamento é o afastamento das crenças tradicionais, típico da modernidade. **Resposta: D**",
+    "keyConcept": "desencantamento do mundo (Weber)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q41",
+   "year": 2015,
+   "area": "Globalização, Mídia e Tecnologia",
+   "content": null,
+   "demand": null,
+   "statement": "Diante de ameaças surgidas com a engenharia genética de alimentos, vários grupos da sociedade civil conceberam o chamado “princípio da precaução”. O fundamento desse princípio é: quando uma tecnologia ou produto comporta alguma ameaça à saúde ou ao ambiente, ainda que não se possa avaliar a natureza precisa ou a magnitude do dano que venha a ser causado por eles, deve-se evitá-los ou deixá-los de quarentena para maiores estudos e avaliações antes de sua liberação.\n\nSEVCENKO, N. A corrida para o século XXI: no loop da montanha-russa. São Paulo: Cia. das Letras, 2001 (adaptado).\n\nO texto expõe uma tendência representativa do pensamento social contemporâneo, na qual o desenvolvimento de mecanismos de acautelamento ou administração de riscos tem como objetivo",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Priorizar os interesses econômicos em relação aos seres humanos e à natureza."
+    },
+    {
+     "letter": "B",
+     "text": "Negar a perspectiva científica e suas conquistas por causa de riscos ecológicos."
+    },
+    {
+     "letter": "C",
+     "text": "Instituir o diálogo público sobre mudanças tecnológicas e suas consequências."
+    },
+    {
+     "letter": "D",
+     "text": "Combater a introdução de tecnologias para travar o curso das mudanças sociais."
+    },
+    {
+     "letter": "E",
+     "text": "Romper o equilíbrio entre benefícios e riscos do avanço tecnológico e científico."
+    }
+   ],
+   "figures": [],
+   "number": 41,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O princípio da precaução nasce na \"sociedade de risco\": diante de tecnologias com efeitos incertos, como os transgênicos, propõe avaliar os riscos e debatê-los publicamente antes de adotá-las. **Resposta: C**",
+    "keyConcept": "princípio da precaução",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q42",
+   "year": 2015,
+   "area": "Movimentos Sociais e Desigualdades",
+   "content": null,
+   "demand": null,
+   "statement": "Ninguém nasce mulher: torna-se mulher. Nenhum destino biológico, psíquico, econômico define a forma que a fêmea humana assume no seio da sociedade; é o conjunto da civilização que elabora esse produto intermediário entre o macho e o castrado que qualificam o feminino.\n\nBEAUVOIR, S. O segundo sexo. Rio de Janeiro: Nova Fronteira, 1980\n\nNa década de 1960, a proposição de Simone de Beauvoir contribuiu para estruturar um movimento social que teve como marca o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ação do Poder Judiciário para criminalizar a violência sexual."
+    },
+    {
+     "letter": "B",
+     "text": "Pressão do Poder Legislativo para impedir a dupla jornada de trabalho."
+    },
+    {
+     "letter": "C",
+     "text": "Organização de protestos púbicos para garantir a igualdade de gênero."
+    },
+    {
+     "letter": "D",
+     "text": "Oposição de grupos religiosos para impedir os casamento homoafetivos."
+    },
+    {
+     "letter": "E",
+     "text": "Estabelecimento de políticas governamentais para promover ações afirmativas."
+    }
+   ],
+   "figures": [],
+   "number": 42,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "\"Ninguém nasce mulher: torna-se mulher.\" A tese de Beauvoir de que o gênero é uma construção social inspirou o feminismo dos anos 1960, com protestos públicos pela igualdade de gênero. **Resposta: C**",
+    "keyConcept": "feminismo de segunda onda",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q43",
+   "year": 2015,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "Só num sentido muito restrito, o indivíduo cria com seus próprios recursos o modo de falar e de pensar que lhe são atribuídos. Fala o idioma de seu grupo; pensa à maneira de seu grupo. Encontra a sua disposição apenas determinadas palavras e significados. Estas não só determinam, em grau considerável, as vias de acesso mental ao mundo circundante, mas também mostram, ao mesmo tempo, sob que ângulo e em que contexto de atividade os objetos foram até agora perceptíveis ao grupo ou ao indivíduo.\n\nMANNHEIM, K. Ideologia e utopia. Porto Alegre: Globo 1950 (adaptado)\n\nIlustrando uma proposição básica da sociologia do conhecimento, o argumento de Karl Mannheim defende que o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Conhecimento sobre a realidade é condicionado socialmente."
+    },
+    {
+     "letter": "B",
+     "text": "Submissão ao grupo manipula o conhecimento do mundo."
+    },
+    {
+     "letter": "C",
+     "text": "Divergência é um privilégio de indivíduos excepcionais."
+    },
+    {
+     "letter": "D",
+     "text": "Educação formal determina o conhecimento do idioma."
+    },
+    {
+     "letter": "E",
+     "text": "Domínio das línguas universaliza o conhecimento."
+    }
+   ],
+   "figures": [],
+   "number": 43,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Para Mannheim, o indivíduo fala e pensa à maneira do seu grupo. O conhecimento sobre a realidade é condicionado socialmente. **Resposta: A**",
+    "keyConcept": "sociologia do conhecimento",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q7",
+   "year": 2016,
+   "area": "Movimentos Sociais e Desigualdades",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\n\n[[FIG 0]]\n\nTradução: “As mulheres do futuro farão da Lua um\nlugar mais limpo para se viver”.\n\nDisponível em: www.propagandashistoricas.com.br. Acesso em: 16 out. 2015.\n\nTEXTO II\n\nMetade da nova equipe da Nasa é composta por mulheres\n\nAté hoje, cerca de 350 astronautas americanos já estiveram no espaço, enquanto as mulheres não chegam a ser um terço desse número. Após o anúncio da turma composta 50% por mulheres, alguns internautas escreveram comentários machistas e desrespeitosos sobre a escolha nas redes sociais.\n\nDisponível em: https//catracalivre com br. Acesso em 10 mar 2016\n\nA comparação entre o anúncio publicitário de 1968 e a repercussão da notícia mostra a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Elitização da carreira científica."
+    },
+    {
+     "letter": "B",
+     "text": "Qualificação da atividade doméstica."
+    },
+    {
+     "letter": "C",
+     "text": "Ambição de indústrias patrocinadoras."
+    },
+    {
+     "letter": "D",
+     "text": "Manutenção de estereótipos de gênero."
+    },
+    {
+     "letter": "E",
+     "text": "Equiparação de papeis nas relações familiares."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/sociologia/2016/ENEM-CH-2016-REG-D1-C1-Q7-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 320,
+     "height": 429
+    }
+   ],
+   "number": 7,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O anúncio de 1968 associava mulheres à limpeza, e em 2016 a escolha de uma mulher para uma missão científica recebeu comentários machistas. Mesmo distantes no tempo, os dois casos mostram a manutenção de estereótipos de gênero. **Resposta: D**",
+    "keyConcept": "estereótipos de gênero",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q9",
+   "year": 2016,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Quanto mais complicada se tornou a produção industrial, mais numerosos passaram a ser os elementos da indústria que exigiam garantia de fornecimento. Três deles eram de importância fundamental: o trabalho, a terra e o dinheiro. Numa sociedade comercial, esse fornecimento só poderia ser organizado de uma forma: tornando-os disponíveis à compra. Agora eles tinham que ser organizados para a venda no mercado. Isso estava de acordo com a exigência de um sistema de mercado. Sabemos que em um sistema como esse, os lucros só podem ser assegurados se se garante a autorregulação por meios de mercados competitivos interdependentes.\n\nPOLANYI, K. A grande transformação: As origens de nossa época. Rio de Janeiro: Campus, 2000 (Adaptado).\n\nA consequência do processo de transformação socioeconômica abordada no texto é a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Expansão das terras comunais."
+    },
+    {
+     "letter": "B",
+     "text": "Limitação do mercado como meio de especulação."
+    },
+    {
+     "letter": "C",
+     "text": "Consolidação da força de trabalho como mercadoria."
+    },
+    {
+     "letter": "D",
+     "text": "Diminuição do comércio como efeito da industrialização."
+    },
+    {
+     "letter": "E",
+     "text": "Adequação do dinheiro como elemento padrão das transações."
+    }
+   ],
+   "figures": [],
+   "number": 9,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Polanyi, a sociedade industrial transformou trabalho, terra e dinheiro em mercadorias reguladas pelo mercado. Uma consequência é a consolidação da força de trabalho como mercadoria. **Resposta: C**",
+    "keyConcept": "trabalho como mercadoria (Polanyi)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q11",
+   "year": 2016,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nTEXTO II\n\nA eleição dos novos bens, ou melhor, de novas formas de se conceber a condição do patrimônio cultural nacional, também permite que diferentes grupos sociais, utilizando as leis do Estado e o apoio de especialistas, revejam as imagens e alegorias do seu passado, do que querem guardar e definir como próprio e identitário.\n\nABREU, M.; SOIHET, R.; GONTIJO, R. (Org.). Cultura política e leituras do passado: historiografia e ensino de história, Rio de Janeiro Civilização Brasileira, 2007\n\nO texto chama a atenção para a importância da proteção de bens que, como aquele apresentado na imagem, se identificam como:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Artefatos sagrados."
+    },
+    {
+     "letter": "B",
+     "text": "Heranças materiais."
+    },
+    {
+     "letter": "C",
+     "text": "Objetos arqueológicos."
+    },
+    {
+     "letter": "D",
+     "text": "Peças comercializáveis."
+    },
+    {
+     "letter": "E",
+     "text": "Conhecimentos tradicionais."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/sociologia/2016/ENEM-CH-2016-REG-D1-C1-Q11-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 742,
+     "height": 470
+    }
+   ],
+   "number": 11,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "O texto trata da valorização de novos tipos de patrimônio cultural, reivindicados por grupos sociais. O bem da imagem é identificado como conhecimento tradicional, um saber ou fazer próprio do patrimônio imaterial. **Resposta: E**",
+    "keyConcept": "patrimônio imaterial",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q32",
+   "year": 2016,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "A sociologia ainda não ultrapassou a era das construções e das sínteses filosóficas. Em vez de assumir a tarefa de lançar luz sobre uma parcela restrita do campo social, ela prefere buscar as brilhantes generalidades em que todas as questões são levantadas sem que nenhuma seja expressamente tratada. Não é com exames sumários e por meio de intuições rápidas que se pode chegar a descobrir as leis de uma realidade tão complexa. Sobretudo, generalizações às vezes tão amplas e tão apressadas não são suscetíveis de nenhum tipo de prova.\n\nDURKHEIM, E. O suicídio: estudo de sociologia. São Paulo: Martins Fontes, 2000.\n\nO texto expressa o esforço de Émile Durkheim em construir uma sociologia com base na",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Vinculação com a filosofia como saber unificado."
+    },
+    {
+     "letter": "B",
+     "text": "Reunião de percepções intuitivas para demonstração."
+    },
+    {
+     "letter": "C",
+     "text": "Formulação de hipóteses subjetivas sobre a vida social."
+    },
+    {
+     "letter": "D",
+     "text": "Adesão aos padrões de investigação típicos das ciências naturais."
+    },
+    {
+     "letter": "E",
+     "text": "Incorporação de um conhecimento alimentado pelo engajamento político."
+    }
+   ],
+   "figures": [],
+   "number": 32,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Durkheim critica as generalidades filosóficas sem prova e propõe estudar fatos sociais delimitados, com observação e comparação, como fazem as ciências naturais. **Resposta: D**",
+    "keyConcept": "Durkheim e a sociologia científica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q41",
+   "year": 2016,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Ser moderno é encontrar-se em um ambiente que promete aventura, poder, alegria, crescimento, autotransformação e transformação das coisas em redor – mas ao mesmo tempo ameaça destruir tudo o que temos, tudo o que sabemos, tudo o que somos. A experiência ambiental da modernidade anula todas as fronteiras geográficas e raciais, de classe e nacionalidade: nesse sentido, pode-se dizer que a modernidade une a espécie humana. Porém, é uma unidade paradoxal, uma unidade de de Sunidade.\n\nBERMAN, M. Tudo que é sólido desmancha no ar: a aventura da modernidade. São Paulo: Cia, das Letras, 1986 (adaptado).\n\nO texto apresenta uma interpretação da modernidade que a caracteriza como um(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dinâmica social contraditória."
+    },
+    {
+     "letter": "B",
+     "text": "Interação coletiva harmônica."
+    },
+    {
+     "letter": "C",
+     "text": "Fenômeno econômico estável."
+    },
+    {
+     "letter": "D",
+     "text": "Sistema internacional decadente."
+    },
+    {
+     "letter": "E",
+     "text": "Processo histórico homogeneizador."
+    }
+   ],
+   "figures": [],
+   "number": 41,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Para Berman, ser moderno é viver uma promessa de aventura e transformação que, ao mesmo tempo, ameaça destruir tudo: uma \"unidade da desunidade\". A modernidade é uma dinâmica social contraditória. **Resposta: A**",
+    "keyConcept": "modernidade contraditória (Berman)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q42",
+   "year": 2016,
+   "area": "Globalização, Mídia e Tecnologia",
+   "content": null,
+   "demand": null,
+   "statement": "Não estou mais pensando como costumava pensar. Percebo isso de modo mais acentuado quando estou lendo. Mergulhar num livro, ou num longo artigo, costumava ser fácil. Isso raramente ocorre atualmente. Agora minha atenção começa a divagar depois de duas ou três páginas. Creio que sei o que está acontecendo. Por mais de uma década venho passando mais tempo On-line, procurando e surfando e algumas vezes acrescentando informação à grande biblioteca da internet. A internet tem sido uma dádiva para um escritor como eu. Pesquisas que antes exigiam dias de procura em jornais ou na biblioteca agora podem ser feitas em minutos. Como disse o teórico da comunicação Marshall McLuhan nos anos 60, a mídia não é apenas um canal passivo para o tráfego de informação. Ela fornece a matéria, mas também molda o processo de pensamento. E o que a net parece fazer é pulverizar minha capacidade de concentração e contemplação.\n\nCARR, N. Is Google making us stupid’? Disponível em: www.theatlantic.com. Acesso em: 17 fev. 2013 (adaptado).\n\nEm relação à internet, a perspectiva defendida pelo autor ressalta um paradoxo que se caracteriza por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Associar uma experiência superficial à abundância de informações."
+    },
+    {
+     "letter": "B",
+     "text": "Condicionar uma capacidade individual à desorganização da rede."
+    },
+    {
+     "letter": "C",
+     "text": "Agregar uma tendência contemporânea à aceleração do tempo."
+    },
+    {
+     "letter": "D",
+     "text": "Aproximar uma mídia inovadora à passividade da recepҫãо."
+    },
+    {
+     "letter": "E",
+     "text": "Equiparar uma ferramenta digital à tecnologia analógica."
+    }
+   ],
+   "figures": [],
+   "number": 42,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Carr nota que, com a internet, perdeu a capacidade de concentração e de leitura profunda. O paradoxo é que a abundância de informação vem acompanhada de uma experiência mais superficial. **Resposta: A**",
+    "keyConcept": "internet e superficialidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q50",
+   "year": 2017,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Art. 231. São reconhecidos aos índios sua organização social, costumes, línguas, crenças e tradições, e os direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las, proteger e fazer respeitar todos os seus bens.\n\nBRASIL. Constituição da República Federativa do Brasil de 1988. Disponível em: www.planalto.gov.br. Acesso em: 27 abr. 2017.\n\nA persistência das reivindicações relativas à aplicação desse preceito normativo tem em vista a vinculação histórica fundamental entre",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Etnia e miscigenação racial."
+    },
+    {
+     "letter": "B",
+     "text": "Sociedade e igualdade jurídica."
+    },
+    {
+     "letter": "C",
+     "text": "Espaço e sobrevivência cultural."
+    },
+    {
+     "letter": "D",
+     "text": "Progresso e educação ambiental."
+    },
+    {
+     "letter": "E",
+     "text": "Bem-estar e modernização econômica."
+    }
+   ],
+   "figures": [],
+   "number": 50,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O artigo 231 da Constituição reconhece aos indígenas a cultura e os direitos sobre as terras que ocupam tradicionalmente. A luta pela demarcação mostra que o território é condição para a sobrevivência cultural desses povos. **Resposta: C**",
+    "keyConcept": "terra indígena e sobrevivência cultural",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q58",
+   "year": 2017,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Muitos países se caracterizam por terem populações multiétnicas. Com frequência, evoluíram desse modo ao longo de séculos. Outras sociedades se tornaram multiétnicas mais rapidamente, como resultado de políticas incentivando a migração, ou por conta de legados coloniais e imperiais.\n\nGIDDENS,A. Sociologia. Porto Alegre: Penso, 2012 (adaptado)\n\nDo ponto de vista do funcionamento das democracias contemporâneas, o modelo de sociedade descrito demanda, simultaneamente,",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Defesa do patriotismo e rejeição ao hibridismo."
+    },
+    {
+     "letter": "B",
+     "text": "Universalização de direitos e respeito à diversidade."
+    },
+    {
+     "letter": "C",
+     "text": "Segregação do território e estímulo ao autogoverno."
+    },
+    {
+     "letter": "D",
+     "text": "Políticas de compensação e homogeneização do idioma."
+    },
+    {
+     "letter": "E",
+     "text": "Padronização da cultura e repressão aos particularismos."
+    }
+   ],
+   "figures": [],
+   "number": 58,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Sociedades multiétnicas exigem das democracias, ao mesmo tempo, direitos iguais para todos e respeito às diferenças culturais. **Resposta: B**",
+    "keyConcept": "multiculturalismo e democracia",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q67",
+   "year": 2017,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "A grande maioria dos países ocidentais democráticos adotou o Tribunal Constitucional como mecanismo de controle dos demais poderes. A inclusão dos Tribunais no cenário político implicou alterações no cálculo para a implementação de políticas públicas. O governo, além de negociar seu plano político com o Parlamento, teve que se preocupar em não infringir a Constituição. Essa nova arquitetura institucional propiciou o desenvolvimento de um ambiente político que viabilizou a participação do Judiciário nos processos decisórios.\n\nCARVALHO, E. R. Revista de Sociologia e Política, n. 23, nov. 2004 (adaptado).\n\nO texto faz referência a uma importante mudança na dinâmica de funcionamento dos Estados contemporâneos que, no caso brasileiro, teve como consequência a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adoção de eleições para a alta magistratura."
+    },
+    {
+     "letter": "B",
+     "text": "Diminuição das tensões entre os entes federativos."
+    },
+    {
+     "letter": "C",
+     "text": "Suspensão do princípio geral dos freios e contrapesos."
+    },
+    {
+     "letter": "D",
+     "text": "Judicialização de questões próprias da esfera legislativa."
+    },
+    {
+     "letter": "E",
+     "text": "Profissionalização do quadro de funcionários da Justiça."
+    }
+   ],
+   "figures": [],
+   "number": 67,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Com os tribunais constitucionais como árbitros dos demais poderes, cresceu no Brasil a judicialização: o STF passou a decidir questões que caberiam ao Legislativo. **Resposta: D**",
+    "keyConcept": "judicialização da política",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q74",
+   "year": 2017,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "A participação da mulher no processo de decisão política ainda é extremamente limitada em praticamente todos os países, independentemente do regime econômico e social e da estrutura institucional vigente em casa um deles. É fato público e notório, além de empiricamente comprovado, que as mulheres estão em geral sub-representadas nos órgãos do poder, pois a proporção não corresponde jamais ao peso relativo dessa parte da população.\n\nTABAK, G, Mulheres públicas: participação política e poder. Rio de Janeiro: Letra Capital, 2002.\n\nNo âmbito do Poder Legislativo brasileiro, a tentativa de reverter esse quadro de sub-representação tem envolvido a implementação, pelo Estado, de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Leis que combatem à violência doméstica."
+    },
+    {
+     "letter": "B",
+     "text": "Cotas de gêneros nas candidaturas partidárias."
+    },
+    {
+     "letter": "C",
+     "text": "Programas de mobilização política nas escolas."
+    },
+    {
+     "letter": "D",
+     "text": "Propaganda de incentivo ao voto consciente."
+    },
+    {
+     "letter": "E",
+     "text": "Apoio financeiro às lideranças femininas."
+    }
+   ],
+   "figures": [],
+   "number": 74,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Para combater a sub-representação feminina no Legislativo, a lei eleitoral brasileira obriga os partidos a reservar uma porcentagem mínima de candidaturas para cada sexo. **Resposta: B**",
+    "keyConcept": "cotas de gênero",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q89",
+   "year": 2017,
+   "area": "Globalização, Mídia e Tecnologia",
+   "content": null,
+   "demand": null,
+   "statement": "O comércio soube extrair um bom proveito da interatividade própria do meio tecnológico. A possibilidade de se obter um alto desenho do perfil de interesses do usuário, que deverá levar às últimas consequências o princípio da oferta como isca para o desejo consumista, foi o principal deles.\n\nSANTAELLA, L. Culturas e artes do pós-humano: da cultura das mídias à cibercultura. São Paulo: Paulus, 2003 (adaptado).\n\nDo ponto de vista comercial, o avanço das novas tecnologias, indicado no texto, está associado à",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Atuação dos consumidores como fiscalizadores da produção."
+    },
+    {
+     "letter": "B",
+     "text": "Exigência de consumidores conscientes de seus direitos."
+    },
+    {
+     "letter": "C",
+     "text": "Relação direta entre fabricantes e consumidores."
+    },
+    {
+     "letter": "D",
+     "text": "Individualização das mensagens publicitárias."
+    },
+    {
+     "letter": "E",
+     "text": "Manutenção das preferências de consumo."
+    }
+   ],
+   "figures": [],
+   "number": 89,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A interatividade permite traçar o perfil de interesses de cada usuário. Isso possibilita direcionar a propaganda, ou seja, individualizar as mensagens publicitárias. **Resposta: D**",
+    "keyConcept": "publicidade personalizada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2018-REG-D1-C1-Q48",
+   "year": 2018,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "A tribo não possui um rei, mas um chefe que não é chefe de Estado. O que significa isso? Simplesmente que o chefe não dispõe de nenhuma autoridade, de nenhum poder de coerção, de nenhum meio de dar uma ordem. O chefe não é um comandante, as pessoas da tribo não têm nenhum dever de obediência. O espaço da chefia não é o lugar do poder. Essencialmente encarregado de eliminar conflitos que podem surgir entre indivíduos, famílias e linhagens, o chefe só dispõe, para restabelecer a ordem e a concórdia, do prestígio que lhe reconhece a sociedade. Mas evidentemente prestígio não significa poder, e os meios que o chefe detém para realizar sua tarefa de pacificador limitam-se ao uso exclusivo da palavra.\n\nCLASTRES, P. A sociedade contra o Estado. Rio de Janeiro: Francisco Alves, 1982 (adaptado).\n\nO modelo político das sociedades discutidas no texto contrasta com o do Estado liberal burguês porque se baseia em:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Imposição ideológica e normas hierárquicas."
+    },
+    {
+     "letter": "B",
+     "text": "Determinação divina e soberania monárquica."
+    },
+    {
+     "letter": "C",
+     "text": "Intervenção consensual e autonomia comunitária."
+    },
+    {
+     "letter": "D",
+     "text": "Mediação jurídica e regras contratualistas."
+    },
+    {
+     "letter": "E",
+     "text": "Gestão coletiva e obrigações tributárias."
+    }
+   ],
+   "figures": [],
+   "number": 48,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Nas sociedades indígenas estudadas por Clastres, o chefe não tem poder de coerção e conta só com a palavra. As decisões vêm do consenso e da autonomia da comunidade, ao contrário do Estado liberal. **Resposta: C**",
+    "keyConcept": "sociedade contra o Estado (Clastres)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2018-REG-D1-C1-Q70",
+   "year": 2018,
+   "area": "Globalização, Mídia e Tecnologia",
+   "content": null,
+   "demand": null,
+   "statement": "A primeira fase da dominação da economia sobre a vida social acarretou, no modo de definir toda realização humana, uma evidente degradação do ser para o ter. A fase atual, em que a vida social está totalmente tomada pelos resultados da economia, leva a um deslizamento generalizado do ter para o parecer, do qual todo ter efetivo deve extrair seu prestígio imediato e sua função última. Ao mesmo tempo, toda realidade individual tornou-se social, diretamente dependente da força social, moldada por ela.\n\nDEBORD, G. A sociedade do espetáculo. Rio de Janeiro: Contraponto, 2015.\n\nUma manifestação contemporânea do fenômeno descrito no texto é o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Valorização dos conhecimentos acumulados."
+    },
+    {
+     "letter": "B",
+     "text": "Exposição nos meios de comunicação."
+    },
+    {
+     "letter": "C",
+     "text": "Aprofundamento da vivência espiritual."
+    },
+    {
+     "letter": "D",
+     "text": "Fortalecimento das relações interpessoais."
+    },
+    {
+     "letter": "E",
+     "text": "Reconhecimento na esfera artística."
+    }
+   ],
+   "figures": [],
+   "number": 70,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Debord descreve a passagem do \"ser\" para o \"ter\" e depois para o \"parecer\". Hoje isso se manifesta na exposição de si nos meios de comunicação, como nas redes sociais. **Resposta: B**",
+    "keyConcept": "sociedade do espetáculo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2018-REG-D1-C1-Q75",
+   "year": 2018,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "Os países industriais adotaram uma concepção diferente das relações familiares e do lugar da fecundidade na vida familiar e social. A preocupação de garantir uma\ntransmissão integral das vantagens econômicas e sociais adquiridas tem como resultado uma ação voluntária de limitação do número de nascimentos.\n\nGEORGE, P Panorama do mundo atual. São Paulo: Difusão Européia do Livro, 1968 (adaptado).\n\nEm meados do século XX, o fenômeno social descrito contribuiu para o processo europeu de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Estabilização da pirâmide etária."
+    },
+    {
+     "letter": "B",
+     "text": "Conclusão da transição demográfica."
+    },
+    {
+     "letter": "C",
+     "text": "Contenção da entrada de imigrantes."
+    },
+    {
+     "letter": "D",
+     "text": "Elevação do crescimento vegetativo."
+    },
+    {
+     "letter": "E",
+     "text": "Formação de espaços superpovoados."
+    }
+   ],
+   "figures": [],
+   "number": 75,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A limitação voluntária dos nascimentos nos países industriais reduziu a natalidade até ela se aproximar da mortalidade, já baixa. Isso concluiu a transição demográfica europeia. **Resposta: B**",
+    "keyConcept": "transição demográfica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2018-REG-D1-C1-Q80",
+   "year": 2018,
+   "area": "Globalização, Mídia e Tecnologia",
+   "content": null,
+   "demand": null,
+   "statement": "Em algumas línguas de Moçambique não existe a palavra “pobre”. O indivíduo é pobre quando não tem parentes. A pobreza é a solidão, a ruptura das relações familiares que, na sociedade rural, servem de apoio à sobrevivência. Os consultores internacionais, especialistas em elaborar relatórios sobre a miséria, talvez não tenham em conta o impacto dramático da destruição dos laços familiares e das relações de entreajuda. Nações inteiras estão tornando-se “órfãs”, e a mendicidade parece ser a única via de uma agonizante sobrevivência.\n\nCOUTO, M. E se Obama fosse africano? & outras intervenções. Portugal: Caminho, 2009 (adaptado).\n\nEm uma leitura que extrapola a esfera econômica, o autor associa o acirramento da pobreza à",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Afirmação das origens ancestrais."
+    },
+    {
+     "letter": "B",
+     "text": "Fragilização das redes de sociabilidade."
+    },
+    {
+     "letter": "C",
+     "text": "Padronização das políticas educacionais."
+    },
+    {
+     "letter": "D",
+     "text": "Fragmentação das propriedades agrícolas."
+    },
+    {
+     "letter": "E",
+     "text": "Globalização das tecnologias de comunicação."
+    }
+   ],
+   "figures": [],
+   "number": 80,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Mia Couto mostra que, em Moçambique, ser pobre é não ter parentes. A pobreza se agrava com o rompimento dos laços familiares e comunitários, isto é, com a fragilização das redes de sociabilidade. **Resposta: B**",
+    "keyConcept": "pobreza como solidão",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2018-REG-D1-C1-Q81",
+   "year": 2018,
+   "area": "Movimentos Sociais e Desigualdades",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\nAs fronteiras, ao mesmo tempo que se separam, unem e articulam, por elas passando discursos de legitimação da ordem social tanto quanto do conflito.\n\nCUNHA, L. Terras lusitanas e gentes dos brasis: a nação e o seu retrato literário.\nRevista Ciências Sociais, n. 2, 2009.\n\nTEXTO II\nAs últimas barreiras ao livre movimento do dinheiro e das mercadorias e informação que rendem dinheiro andam de mãos dadas com a pressão para cavar novos fossos e erigir novas muralhas que barrem o movimento daqueles que em consequência perdem, física ou espiritualmente, suas raízes.\n\nBAUMAN, Z. Globalização: as consequências humanas. Rio de Janeiro: Jorge Zahar, 1999.\n\nA ressignificação contemporânea da ideia de fronteira compreende a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Liberação da circulação de pessoas."
+    },
+    {
+     "letter": "B",
+     "text": "Preponderância dos limites naturais."
+    },
+    {
+     "letter": "C",
+     "text": "Supressão dos obstáculos aduaneiros."
+    },
+    {
+     "letter": "D",
+     "text": "Desvalorização da noção de nacionalismo."
+    },
+    {
+     "letter": "E",
+     "text": "Seletividade dos mecanismos segregadores."
+    }
+   ],
+   "figures": [],
+   "number": 81,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Bauman mostra que, na globalização, as fronteiras se abrem para o capital e para os ricos, mas se fecham para os pobres e migrantes. A fronteira passa a funcionar como mecanismo seletivo de segregação. **Resposta: E**",
+    "keyConcept": "fronteiras seletivas (Bauman)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q62",
+   "year": 2019,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "A maior parte das agressões e manifestações discriminatórias contra as religiões de matrizes africanas ocorrem em locais públicos (57%). É na rua, na via pública, que tiveram lugar mais de 2/3 das agressões, geralmente em locais próximos às casas de culto dessas religiões. O transporte público também é apontado como um local em que os adeptos das religiões de matrizes africanas são discriminados, geralmente quando se encontram paramentados por conta dos preceitos religiosos.\n\nREGO, L. F.; FONSECA, D. P. R.; GIACOMINI, S. M. Cartografia social de terreiros no Rio de Janeiro. Rio de Janeiro: PUC-Rio, 2014.\n\nAs práticas descritas no texto são incompatíveis com a dinâmica de uma sociedade laica e democrática porque:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Asseguram as expressões multiculturais."
+    },
+    {
+     "letter": "B",
+     "text": "Promovem a diversidade de etnias."
+    },
+    {
+     "letter": "C",
+     "text": "Falseiam os dogmas teológicos."
+    },
+    {
+     "letter": "D",
+     "text": "Estimulam os rituais sincréticos."
+    },
+    {
+     "letter": "E",
+     "text": "Restringem a liberdade de credo."
+    }
+   ],
+   "figures": [],
+   "number": 62,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Agredir adeptos de religiões de matriz africana em espaço público viola a laicidade e a democracia porque restringe a liberdade de crença e de culto. **Resposta: E**",
+    "keyConcept": "intolerância religiosa",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q66",
+   "year": 2019,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "A criação do Sistema Único de Saúde (SUS) como uma política para todos constitui-se uma das mais importantes conquistas da sociedade brasileira no século XX. O SUS deve ser valorizado e defendido como um marco para a cidadania e o avanço civilizatório. A democracia envolve um modelo de Estado no qual políticas protegem os cidadãos e reduzem as desigualdades. O SUS é uma diretriz que fortalece a cidadania e contribui para assegurar o exercício de direitos, o pluralismo político e o bem-estar como valores de uma sociedade fraterna, pluralista e sem preconceitos, conforme prevê a Constituição Federal de 1988.\n\nRIZZOTO, M. L. F. et at. Justiça social, democracia com direitos sociais e saúde: a luta do Cebes. Revista Saúde em Debate, n. 116, jan.-mar. 2018 (adaptado).\n\nSegundo o texto, duas características da concepção da política pública analisada são:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Paternalismo e filantropia."
+    },
+    {
+     "letter": "B",
+     "text": "Liberalismo e meritocracia."
+    },
+    {
+     "letter": "C",
+     "text": "Universalismo e igualitarismo."
+    },
+    {
+     "letter": "D",
+     "text": "Nacionalismo e individualismo."
+    },
+    {
+     "letter": "E",
+     "text": "Revolucionarismo e coparticipação."
+    }
+   ],
+   "figures": [],
+   "number": 66,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O SUS é uma política para todos, que garante a saúde como direito de cidadania e com igualdade de acesso. Suas características são o universalismo e o igualitarismo, e não a filantropia (A) ou o mérito (B). **Resposta: C**",
+    "keyConcept": "SUS: universalidade e igualdade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q70",
+   "year": 2019,
+   "area": "Globalização, Mídia e Tecnologia",
+   "content": null,
+   "demand": null,
+   "statement": "Em nenhuma outra época, o corpo magro adquiriu um sentido de corpo ideal e esteve tão em evidência como nos dias atuais: esse corpo, nu ou vestido, exposto em diversas revistas femininas e masculinas, está na moda: é capa de revistas, matérias de jornais, manchetes publicitárias, e se transformou em um sonho de consumo para milhares de pessoas. Partindo dessa concepção, o gordo passa a ter um corpo visivelmente sem comedimento, sem saúde, um corpo estigmatizado pelo desvio, o desvio pelo excesso. Entretanto, como afirma a escritora Marylin Wann, é perfeitamente possível ser gordo e saudável. Frequentemente os gordos adoecem não por causa da gordura, mas sim pelo estresse, pela opressão a que são submetidos.\n\nVASCONCELOS, N. A.; SUDO, I.; SUDO, N. Um peso na alma: o corpo gordo e a mídia. Revista Mal-Estar e Subjetividade, n. 1, mar. 2004 (adaptado).\n\nNo texto, o tratamento predominante na mídia sobre a relação entre saúde e corpo recebe a seguinte crítica:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Difusão das estéticas antigas."
+    },
+    {
+     "letter": "B",
+     "text": "Exaltação das crendices populares."
+    },
+    {
+     "letter": "C",
+     "text": "Propagação das conclusões científicas."
+    },
+    {
+     "letter": "D",
+     "text": "Reiteração dos discursos hegemônicos."
+    },
+    {
+     "letter": "E",
+     "text": "Contestação dos estereótipos consolidados."
+    }
+   ],
+   "figures": [],
+   "number": 70,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": null
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q71",
+   "year": 2019,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "No sistema capitalista, as muitas manifestações de crise criam condições que forçam a algum tipo de racionalização. Em geral, essas crises periódicas têm o efeito de expandir a capacidade produtiva e de renovar as condições de acumulação. Podemos conceber cada crise como uma mudança do processo de acumulação para um nível novo e superior.\n\nHARVEY, D. A produção capitalista do espaço. São Paulo: Annablume, 2005 (adaptado).\n\nA condição para a inclusão dos trabalhadores no novo processo produtivo descrito no texto é a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Associação sindical."
+    },
+    {
+     "letter": "B",
+     "text": "Participação eleitoral."
+    },
+    {
+     "letter": "C",
+     "text": "Migração internacional."
+    },
+    {
+     "letter": "D",
+     "text": "Qualificação profissional."
+    },
+    {
+     "letter": "E",
+     "text": "Regulamentação funcional."
+    }
+   ],
+   "figures": [],
+   "number": 71,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "As crises levam o capital a reorganizar a produção com novas tecnologias. Para entrar nesse novo processo produtivo, o trabalhador precisa de qualificação profissional. **Resposta: D**",
+    "keyConcept": "reestruturação produtiva (Harvey)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q84",
+   "year": 2019,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "A Declaração Universal dos Direitos Humanos, adotada e proclamada pela Assembleia Geral da ONU na Resolução 217-A, de 10 de dezembro de 1948, foi um acontecimento histórico de grande relevância. Ao afirmar, pela primeira vez em escala planetária, o papel dos direitos humanos na convivência coletiva, pode ser considerada um evento inaugural de uma nova concepção de vida internacional.\n\nLAFER, C. Declaração Universal dos Direitos Humanos (1948). In: MAGNOLI, D. (Org.) História da paz. São Paulo: Contexto, 2008.\n\nA declaração citada no texto introduziu uma nova concepção nas relações internacionais ao possibilitar a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Superação da soberania estatal."
+    },
+    {
+     "letter": "B",
+     "text": "Defesa dos grupos vulneráveis."
+    },
+    {
+     "letter": "C",
+     "text": "Redução da truculência belicista."
+    },
+    {
+     "letter": "D",
+     "text": "Impunidade dos atos criminosos."
+    },
+    {
+     "letter": "E",
+     "text": "Inibição dos choques civilizacionais."
+    }
+   ],
+   "figures": [],
+   "number": 84,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A DUDH fez da proteção da pessoa humana um tema internacional, legitimando a defesa de indivíduos e grupos vulneráveis mesmo diante dos Estados. **Resposta: B**",
+    "keyConcept": "Declaração Universal dos Direitos Humanos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q85",
+   "year": 2019,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\n“Nossa cultura não cabe nos seus museus”.\n\nTOLENTINO, A. B. Patrimônio cultural e discursos museológicos. Midas, n. 6, 2016.\n\nProduzida no Chile, no final da década de 1970, a imagem expressa um conflito entre culturas e sua presença em museus decorrente da:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Valorização do mercado das obras de arte."
+    },
+    {
+     "letter": "B",
+     "text": "Definição dos critérios de criação de acervos."
+    },
+    {
+     "letter": "C",
+     "text": "Ampliação da rede de instituições de memória."
+    },
+    {
+     "letter": "D",
+     "text": "Burocratização do acesso dos espaços expositivos."
+    },
+    {
+     "letter": "E",
+     "text": "Fragmentação dos territórios das comunidades representadas."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/sociologia/2019/ENEM-CH-2019-REG-D1-C1-Q85-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 551,
+     "height": 440
+    }
+   ],
+   "number": 85,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A frase \"nossa cultura não cabe nos seus museus\" critica os acervos que excluem as culturas populares e indígenas. O conflito vem da definição dos critérios usados para montar os acervos. **Resposta: B**",
+    "keyConcept": "museus e culturas excluídas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q87",
+   "year": 2019,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "O Ministério do Trabalho e Emprego (MTE) realizou 248 ações fiscais e resgatou um total de 1590 trabalhadores da situação análoga à de escravo, em 2014, em todo o país. A análise do enfrentamento do trabalho em condições análogas às de escravo materializa a efetivação de parcerias inéditas no trato da questão, podendo ser referenciadas ações fiscais realizadas com o Ministério da Defesa, Exército Brasileiro, Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama) e Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio).\n\nDisponível em: [http://portal.mte.gov.br](http://portal.mte.gov.br/). Acesso em: 4 fev. 2015 (adaptado).\n\nA estratégia defendida no texto para reduzir o problema social apontado consiste em:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Articular os órgãos públicos."
+    },
+    {
+     "letter": "B",
+     "text": "Pressionar o Poder Legislativo."
+    },
+    {
+     "letter": "C",
+     "text": "Ampliar a emissão das multas."
+    },
+    {
+     "letter": "D",
+     "text": "Limitar a autonomia das empresas."
+    },
+    {
+     "letter": "E",
+     "text": "Financiar as pesquisas acadêmicas."
+    }
+   ],
+   "figures": [],
+   "number": 87,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O texto defende a ação conjunta do MTE, da polícia, do Ministério Público e do ICMBio, isto é, a articulação dos órgãos públicos. **Resposta: A**",
+    "keyConcept": "combate ao trabalho escravo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q48",
+   "year": 2020,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Nas últimas décadas, uma acentuada feminização no mundo do trabalho vem ocorrendo. Se a participação masculina pouco cresceu no período pós-1970, a intensificação da inserção das mulheres foi o traço marcante. Entretanto, essa presença feminina se dá mais no espaço dos empregos precários, onde a exploração, em grande medida, se encontra mais acentuada.\n\nNOGUEIRA, C. M. As trabalhadoras do telemarketing: uma nova divisão sexual do trabalho? In: ANTUNES, R. et al. Infoproletários: degradação real do trabalho virtual. São Paulo: Boitempo, 2009.\n\nA transformação descrita no texto tem sido insuficiente para o estabelecimento de uma condição de igualdade de oportunidade em virtude da(s)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Estagnação de direitos adquiridos e do anacronismo da legislação vigente."
+    },
+    {
+     "letter": "B",
+     "text": "Manutenção do status quo gerencial e dos padrões de socialização familiar."
+    },
+    {
+     "letter": "C",
+     "text": "Desestruturação da herança patriarcal e das mudanças do perfil ocupacional."
+    },
+    {
+     "letter": "D",
+     "text": "Disputas na composição sindical e da presença na esfera político-partidária."
+    },
+    {
+     "letter": "E",
+     "text": "Exigências de aperfeiçoamento profissional e de habilidades na competência diretiva."
+    }
+   ],
+   "figures": [],
+   "number": 48,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "As mulheres entraram em massa no mercado de trabalho, mas os cargos de gestão seguem masculinos e a criação dos filhos ainda reproduz papéis tradicionais, como a dupla jornada. Por isso a igualdade não se completa. **Resposta: B**",
+    "keyConcept": "feminização do trabalho",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q61",
+   "year": 2020,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "A Divisão Internacional do Trabalho significa que alguns países se especializam em ganhar e outros, em perder. Nossa comarca no mundo, que hoje chamamos América Latica, foi precoce: especializou-se em perder desde os remotos tempos em que os europeus do Renascimento se aventuraram pelos mares e lhe cravaram os dentes na garganta. Passaram-se os séculos e a América Latina aprimorou suas funções.\n\nGALEANO, E. As velas abertas da América Latina. São Paulo: Paz e Terra, 1978.\n\nEscrito na décadas de 1970, o texto considera a participação da América Latina na Divisão Internacional do Trabalho marcado",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Produção inovadora de padrões de tecnologia."
+    },
+    {
+     "letter": "B",
+     "text": "Superação paulatina do caráter agroexportador."
+    },
+    {
+     "letter": "C",
+     "text": "Apropriação imperialista dos recursos territoriais."
+    },
+    {
+     "letter": "D",
+     "text": "Valorização econômica dos saberes tradicionais."
+    },
+    {
+     "letter": "E",
+     "text": "Dependência externa do suprimento de alimentos."
+    }
+   ],
+   "figures": [],
+   "number": 61,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Galeano, a América Latina se especializou em perder: desde a colonização, seus recursos foram apropriados pelas potências imperialistas. **Resposta: C**",
+    "keyConcept": "veias abertas (Galeano)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q63",
+   "year": 2020,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Desde o mundo antigo e sua filosofia, que o trabalho tem sido compreendido como expressão de vida e degradação, criação e infelicidade, atividade vital e escravidão, felicidade social e servidão. Trabalho e fadiga. Na Modernidade, sob o comando do mundo da mercadoria e do dinheiro, a prevalência do negócio (negar o ócio) veio sepultar o império do repouso, da folga e da preguiça, criando uma ética positiva de trabalho.\n\nANTUNES, R. O século XX e a era da degradação do trabalho. In: SILVA, J.P. (Org.). Por uma sociologia do século XX. São Paulo: Annablume, 2007 (adaptado).\n\nO processo de ressignificação do trabalho nas sociedades modernas teve início a partir do surgimento de uma nova mentalidade, influenciada pela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reforma higienista, que combateu o caráter excessivo e insalubre do trabalho fabril."
+    },
+    {
+     "letter": "B",
+     "text": "Reforma Protestante, que expressou a importância das atividades laborais no mundo secularizado."
+    },
+    {
+     "letter": "C",
+     "text": "Força do sindicalismo, que emergiu no esteio do anarquismo reivindicando direitos trabalhistas."
+    },
+    {
+     "letter": "D",
+     "text": "Participação das mulheres em movimentos sociais, defendendo o direito ao trabalho."
+    },
+    {
+     "letter": "E",
+     "text": "Visão do catolicismo, que, desde a Idade Média, defendia a dignidade do trabalho e do lucro."
+    }
+   ],
+   "figures": [],
+   "number": 63,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Como mostrou Weber, a Reforma Protestante valorizou o trabalho como vocação no mundo, base da mentalidade moderna sobre o trabalho. **Resposta: B**",
+    "keyConcept": "ética protestante e trabalho",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q64",
+   "year": 2020,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "É difícil imaginar que nos anos 1990, num país com setores da população na pobreza absoluta e sem uma rede de benefícios sociais em que se apoiar, um governo possa abandonar o papel de promotor de programas de geração de emprego, de assistência social, de desenvolvimento da infraestrutura e de promoção de regiões excluídas, na expectativa de que o mercado venha algum dia a dar uma resposta adequada a tudo isso.\n\nSORJ, B. A nova sociedade brasileira. Rio de Janeiro: Jorge Zahar, 2000 (adaptado).\n\nNesse contexto, a criticada postura dos governos frente à situação social do país coincidiu com a priorização de que medidas?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Expansão dos investimentos nas empresas públicas e nos bancos estatais."
+    },
+    {
+     "letter": "B",
+     "text": "Democratização do crédito habitacional e da aquisição de moradias populares."
+    },
+    {
+     "letter": "C",
+     "text": "Enxugamento da carga fiscal individual e da contribuição tributária empresarial."
+    },
+    {
+     "letter": "D",
+     "text": "Reformulação do acesso ao ensino superior e do financiamento científico nacional."
+    },
+    {
+     "letter": "E",
+     "text": "Reforma das políticas macroeconômicas e dos mecanismos de controle inflacionário."
+    }
+   ],
+   "figures": [],
+   "number": 64,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Nos anos 1990, os governos reduziram o papel social do Estado e deram prioridade às reformas macroeconômicas e ao controle da inflação, como no Plano Real. **Resposta: E**",
+    "keyConcept": "neoliberalismo nos anos 1990",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q73",
+   "year": 2020,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "Acreditamos e proclamamos que: toda criança tem direito fundamental à educação e deve ser dada a oportunidade de atingir e manter o nível adequado de aprendizagem; toda criança possui características, interesses, habilidades e necessidades de aprendizagem que são únicas; sistemas educacionais deveriam ser designados e programas educacionais deveriam ser implementados no sentido de se levar em conta a vasta diversidade de tais características e necessidades.\n\nDisponível em: http://portal.mec.gov.br. Acesso em: 4 oct. 2015.\n\nComo signatário da Declaração citada, o Brasil comprometeu-se com a elaboração de políticas públicas educacionais que contemplem a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Criação de privilégios."
+    },
+    {
+     "letter": "B",
+     "text": "Contenção dos gastos."
+    },
+    {
+     "letter": "C",
+     "text": "Pluralidade dos sujeitos."
+    },
+    {
+     "letter": "D",
+     "text": "Padronização do currículo."
+    },
+    {
+     "letter": "E",
+     "text": "Valorização da meritocracia."
+    }
+   ],
+   "figures": [],
+   "number": 73,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "A Declaração de Salamanca afirma que cada criança tem características e necessidades próprias e que os sistemas de ensino devem considerar essa diversidade. O compromisso é com políticas que contemplem a pluralidade dos sujeitos. **Resposta: C**",
+    "keyConcept": "educação inclusiva",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q76",
+   "year": 2020,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "“A principal característica da situação social dos angloamericanos é seu caráter eminentemente democrático. Afirmei anteriormente que reinava uma igualdade muito grande entre os emigrantes que foram se estabelecer na Nova Inglaterra. Para isso contribuiu a influência das leis de sucessão. Estabelecidas de uma maneira, as leis de sucessão reúnem, concentram e agrupam em um só a propriedade e o poder. Estabelecidas por outros princípios, produzem o oposto: dividem, partilham e disseminam os bens e o poder.”\n\n(TOCQUEVILLE, A. A democracia na América.\nBelo Horizonte: tabela; São Paulo: Edusp 1977. Adaptado.)\n\nO texto tematiza o papel desempenhado por uma norma na criação de um ambiente propicio ao(à)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Emprego do trabalho escravo."
+    },
+    {
+     "letter": "B",
+     "text": "Consolidação dos valores burgueses."
+    },
+    {
+     "letter": "C",
+     "text": "Banimento das dissidências religiosas."
+    },
+    {
+     "letter": "D",
+     "text": "Contenção da identificação nacionalista."
+    },
+    {
+     "letter": "E",
+     "text": "Hierarquização dos agentes econômicos."
+    }
+   ],
+   "figures": [],
+   "number": 76,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Para Tocqueville, a lei de herança com partilha igual entre os filhos dividiu e espalhou bens e poder nos EUA, impedindo a concentração aristocrática. Isso criou um ambiente favorável aos valores burgueses e democráticos. **Resposta: B**",
+    "keyConcept": "Tocqueville e as leis de herança",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q78",
+   "year": 2020,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "“O toyotismo, a partir dos anos 1970, teve grande impacto no mundo ocidental, quando se mostrou para os países avançados como uma opção possível para a superação de uma crise de acumulação.”\n\n(ANTUNES, R. Os sentidos do trabalho: ensaio sobre a afirmação e a negação do trabalho. São Paulo: Boitempo. 2009. Adaptado.)\n\nA característica organizacional do modelo em questão, requerida no contexto de crise, foi o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Expansão dos grandes estoques."
+    },
+    {
+     "letter": "B",
+     "text": "Incremento da fabricação em massa."
+    },
+    {
+     "letter": "C",
+     "text": "Adequação da produção à demanda."
+    },
+    {
+     "letter": "D",
+     "text": "Aumento da mecanização do trabalho."
+    },
+    {
+     "letter": "E",
+     "text": "Centralização das etapas de planejamento."
+    }
+   ],
+   "figures": [],
+   "number": 78,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O toyotismo responde à crise com produção enxuta, just in time, e estoques mínimos. Sua marca é ajustar a produção à demanda. **Resposta: C**",
+    "keyConcept": "toyotismo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2021-REG-D1-C1-Q46",
+   "year": 2021,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Seu turno de trabalho acabou, você já está em casa e é hora do jantar da família. Mas, em vez de relaxar, você começa a pensar na possibilidade de ter recebido alguma mensagem importante no e-mail profissional ou no grupo de WhatsApp da empresa. Imediatamente, você fica distante. Momentos depois, com alguns toques na tela do celular, você está de volta ao ambiente de trabalho. O jantar e a família ficaram em segundo plano.\n\nA simples vontade de checar mensagens do trabalho pós-expediente prejudica sua saúde -e a de sua família. Disponível em: www.bbc.com. Acesso em: 4 dez. 2018.\n\nO texto indica práticas as relações cotidianas do trabalho que causam para o indivíduo a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Proteção da vida privada."
+    },
+    {
+     "letter": "B",
+     "text": "Ampliação de atividades extras."
+    },
+    {
+     "letter": "C",
+     "text": "Elevação de tapas burocráticas."
+    },
+    {
+     "letter": "D",
+     "text": "Diversificação do lazer recreativo."
+    },
+    {
+     "letter": "E",
+     "text": "Desobrigação de afazeres domésticos."
+    }
+   ],
+   "figures": [],
+   "number": 46,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Checar mensagens do trabalho depois do expediente leva o trabalho para casa. O resultado é a ampliação de atividades extras não remuneradas, que prejudica a saúde e a família. **Resposta: B**",
+    "keyConcept": "trabalho invadindo a vida privada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2021-REG-D1-C1-Q54",
+   "year": 2021,
+   "area": "Globalização, Mídia e Tecnologia",
+   "content": null,
+   "demand": null,
+   "statement": "O uso de novas tecnologias envolve a assimilação de uma cultura empresarial na qual haja a integração entre as propostas de modernização tecnológica e a racionalização. Nem sempre o uso de novas tecnologias é\napenas um processo técnico na medida em que pressupõe uma nova orientação no controle do capital, no processo produtivo e na qualificação da mão de obra. Dos diversos efeitos que derivaram dessa orientação, a terceirização, a precarização e a flexibilização aparecem\ncom constância como características do paradigma flexível, em substituição a modelo taylorista-fordista.\n\nHERÉDIA, V. Novas tecnologias nos processos de trabalho: efeitos da\nreestruturação produtiva. Scripta Nova, n. 170, ago. 2004 (adaptado).\n\nO uso de novas tecnologias relacionado a controle empresarial é criticado no texto em razão da",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Operacionalização da tarefa laboral."
+    },
+    {
+     "letter": "B",
+     "text": "Capacitação de profissionais liberais."
+    },
+    {
+     "letter": "C",
+     "text": "Fragilização das relações de trabalho."
+    },
+    {
+     "letter": "D",
+     "text": "Hierarquização dos cargos executivos."
+    },
+    {
+     "letter": "E",
+     "text": "Aplicação dos conhecimentos da ciência."
+    }
+   ],
+   "figures": [],
+   "number": 54,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O texto critica o uso das novas tecnologias como forma de controle empresarial, porque ele intensifica e precariza o trabalho. Daí a fragilização das relações de trabalho. **Resposta: C**",
+    "keyConcept": "tecnologia e precarização",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2021-REG-D1-C1-Q60",
+   "year": 2021,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "Vocês que fazem parte dessa massa\nQue passa nos projetos do futuro\nE duro tanto ter que caminhar\nE dar muito mais do que receber\nE, ô, ô, vida de gado\nPovo marcado\nE, povo feliz!\n\nZÉ RAMALHO. A peleja do diabo com o dono do céu.\nRio de Janeiro: Sony, 1979 (fragmento).\n\nQual comportamento coletivo é criticado no trecho da letra da canção lançada em 1979?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Militância política."
+    },
+    {
+     "letter": "B",
+     "text": "Passividade social."
+    },
+    {
+     "letter": "C",
+     "text": "Altruísmo religioso."
+    },
+    {
+     "letter": "D",
+     "text": "Autocontrole moral."
+    },
+    {
+     "letter": "E",
+     "text": "Inconformismo eleitoral."
+    }
+   ],
+   "figures": [],
+   "number": 60,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "A canção de Zé Ramalho, de 1979, ainda na ditadura, critica o \"povo marcado, povo feliz\", que segue passivo e conformado como gado. O comportamento criticado é a passividade social. **Resposta: B**",
+    "keyConcept": "\"Vida de gado\"",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2021-REG-D1-C1-Q64",
+   "year": 2021,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Por maioria, nós não entendemos uma quantidade relativa maior, mas a determinação de uma estado ou de um padrão em relação ao qual tanto as quantidades maiores quanto as menores serão ditas minoritárias. Maioria supõe um estado de dominação. É nesse sentido que as mulheres, as crianças e também os animais são minoritários.\n\nDELEUXE, G.; GUATTARI, F. Mil platôs. São Paulo: Editora 34, 2012 (adaptado).\n\nNo texto, a caracterização de uma minoria decorre da existência de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ameaças de extinção social."
+    },
+    {
+     "letter": "B",
+     "text": "Políticas de incentivos estatais."
+    },
+    {
+     "letter": "C",
+     "text": "Relações de natureza arbitrária."
+    },
+    {
+     "letter": "D",
+     "text": "Valorações de conexões simétricas."
+    },
+    {
+     "letter": "E",
+     "text": "Hierarquizações de origem biológica."
+    }
+   ],
+   "figures": [],
+   "number": 64,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Deleuze e Guattari, minoria não é questão de número, e sim de um padrão imposto como dominante. Ela decorre de relações de poder arbitrárias. **Resposta: C**",
+    "keyConcept": "minoria (Deleuze e Guattari)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2021-REG-D1-C1-Q80",
+   "year": 2021,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Numa sociedade em transição, a marcha da mudança, em diferentes graus, está impressa em todos os aspectos da ordem social, especialmente no jogo político, que nessas sociedades sempre apresenta padrões característicos de ambivalência, cujas raízes sociais se encontram na coexistência de dois padrões de estrutura social: o padrão tradicional, em declínio, e o novo, emergente, em expansão. Em tais situações, é possível encontrar, simultaneamente, apoio para uma orientação política ou para outra que seja exatamente o oposto. O padrão ambivalente do processo político, nas sociedades em desenvolvimento, é o que explica um dos seus trações mais salientes, e que consiste na tendência ao adiamento das grandes decisões. Resulta dai que a inércia política ou a convulsão política pode se suceder uma à outra em períodos surpreendentemente curtos.\n\nPINTO, L, A. C. Sociologia e desenvolvimento. Rio de Janeiro: Civilização Brasileira. 1975 (adaptado).\n\nDe acordo com a perspectiva apresentada, central no pensamento social brasileiro dos anos 1950 e 1960, o desenvolvimento do país foi marcado por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Radicalidade nas agendas de reforma das elites dirigentes."
+    },
+    {
+     "letter": "B",
+     "text": "Anomalias na execução dos planos econômicos ortodoxos."
+    },
+    {
+     "letter": "C",
+     "text": "Descompassos na construção de quadros institucionais modernos."
+    },
+    {
+     "letter": "D",
+     "text": "Ilegitimidade na atuação dos movimentos de representação classista."
+    },
+    {
+     "letter": "E",
+     "text": "Vagarosidade na dinâmica de aperfeiçoamento dos programas partidários."
+    }
+   ],
+   "figures": [],
+   "number": 80,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Costa Pinto vê o Brasil em transição, com o moderno e o arcaico convivendo. O desenvolvimento é marcado por descompassos na construção de instituições modernas. **Resposta: C**",
+    "keyConcept": "dualismo e desenvolvimento",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q56",
+   "year": 2022,
+   "area": "Globalização, Mídia e Tecnologia",
+   "content": null,
+   "demand": null,
+   "statement": "[[FIG 0]]\n\nCAZO. Disponível em: www.humorpolitico.com.br. Acesso em: 21 nov. 2021 (adaptado).\n\nTEXTO II\nÉ como se os problemas fossem criados pela pandemia quando, em verdade, isso só demonstra o quanto eles sofrem uma tentativa de serem naturalizados. Eles estavam lá, empurrados para debaixo de vários tapetes. Diversos levantamentos realizados indicam que parcela significativa dos estudantes não têm acesso à internet em suas casas, não têm computadores; têm celulares, mas com pacotes baratos que não permitem assistir a todas as aulas. E, caso tenham celulares e dados, pergunta-se: É possível elaborar um texto no celular? É possível interagir na aula remota pelo celular?\n\nASSIS. A. E. S. Q. Educação e pandemia. Educação em Revista, n. 37, 2021 (adaptado).\n\nA crítica contida no texto e na figura evidencia o seguinte aspecto da sociedade contemporárea:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Exclusão social."
+    },
+    {
+     "letter": "B",
+     "text": "Expansão digital."
+    },
+    {
+     "letter": "C",
+     "text": "Manifestação cultural."
+    },
+    {
+     "letter": "D",
+     "text": "Organização espacial."
+    },
+    {
+     "letter": "E",
+     "text": "Valorização intelectual."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/sociologia/2022/ENEM-CH-2022-REG-D1-C1-Q56-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 369,
+     "height": 334
+    }
+   ],
+   "number": 56,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "A charge e o texto mostram que muitos alunos não tinham internet ou equipamento para as aulas remotas durante a pandemia. A desigualdade de acesso é uma forma de exclusão social. **Resposta: A**",
+    "keyConcept": "exclusão digital",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q60",
+   "year": 2022,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Um experimento denominado FunFit foi desenvolvido com o objetivo de fazer com que os membros de uma comunidade local se tornassem mais ativos fisicamente. Todos os participantes do estudo foram vinculados a dois outros membros da comunidade que receberiam pequenos incentivos em dinheiro para serem estimulados a aumentar a sua atividade física, que era medida por acelerômetros nos celulares fornecidos pelo estado. Assim, se a pessoa andasse mais do que o habitual, seus conhecidos receberiam o dinheiro. Os resultados foram assombrosos: o esquema mostrou-se de quatro a oito vezes mais eficaz do que o método de oferecer incentivos individuais.\n\nMOROZOV, E. Big Tech: a ascensão dos dados e a morte da politica. São Paulo: Ubu, 2018 (adaptado).\n\nContrariando a visão prevalente sobre o impacto tecnológico nas relações humanas, o texto revela que os celulares podem desempenhar uma função",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Recreativa, promovendo o lazer em redes integradas."
+    },
+    {
+     "letter": "B",
+     "text": "Social, estimulando a reciprocidade por meios digitais."
+    },
+    {
+     "letter": "C",
+     "text": "Laboral, convertendo o desenvolvedor em usuário final."
+    },
+    {
+     "letter": "D",
+     "text": "Comercial, direcionando a escolha por produtos industrializados."
+    },
+    {
+     "letter": "E",
+     "text": "Cognitiva, favorecendo ferramentas virtuais."
+    }
+   ],
+   "figures": [],
+   "number": 60,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "No experimento FunFit, o celular estimulou os participantes a se exercitar juntos e a cooperar. Ele cumpriu uma função social, estimulando a reciprocidade por meios digitais. **Resposta: B**",
+    "keyConcept": "tecnologia e sociabilidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q61",
+   "year": 2022,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "A dublagem é o novo campo a ser explorado pela inteligência artificial, e há empresas dedicadas a fazer com que as vozes originais de atores sejam transpostas para outros idiomas. A novidade reforça a tendência da automação de postos de trabalho nas mais diversas áreas. Tem potencial para facilitar a vida de estúdios e produtoras e, ao mesmo tempo, tornar mais escassas as oportunidades para dubladores e atores que trabalham com isso.\n\nGAGLIONI, C. Disponível em: www.nexojornal.com.br. Acesso em: 25 ou. 2021.\n\nA consequência da mudança tecnológica apresentada no texto é a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Proteção da economia nacional."
+    },
+    {
+     "letter": "B",
+     "text": "Valorização da cultura tradicional."
+    },
+    {
+     "letter": "C",
+     "text": "Diminuição da formação acadêmica."
+    },
+    {
+     "letter": "D",
+     "text": "Estagnação da manifestação artística."
+    },
+    {
+     "letter": "E",
+     "text": "Ampliação do desemprego estrutural."
+    }
+   ],
+   "figures": [],
+   "number": 61,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "A dublagem feita por inteligência artificial reduz as oportunidades para dubladores e atores. É desemprego causado pela tecnologia, o desemprego estrutural. **Resposta: E**",
+    "keyConcept": "IA e desemprego estrutural",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q79",
+   "year": 2022,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "Hoje sou um ser inanimado, mas já tive vida pulsante em seivas vegetais, ful um ser vivo; é bem verdade que do reino vegetal, mas isso não me tirou a percepção de vida vivida como tamborete. Guardo apreço pelos meus criadores, as mãos que me fizeram, me venderam, 6 pelas mulheres que me usaram para suas vendas e de tantas outras maneiras. Essas pessoas, sim, tiveram suas subjetividades, singularidades e pluralidades, que estão incorporadas a mim. É preciso considerar que a nossa história, de móveis de museus, está para além da mera vinculação aos estilos e à patrimonialização que recebemos como bem material vinculado ao patrimônio imaterial. A nossa história está ligada aos dons individuais das pessoas e suas práticas sociais. Alguns indivíduos consagravam-se por terem determinados requisitos, tais como o conhecimento de modelos clássicos ou destreza nos desenhos.\n\nFREITAS, J. M.; OLIVEIRA, L. R. Memórias de um tamborete de baiana: as muitas vozes em um objeto de museu. Revista Brasileira de Pesquisa (Auto)Blográfica, n. 14, maio-ago. 2020 (Adaptado).\n\nAo descrever-se como patrimônio museológico, o objeto abordado no texto associa a sua história às",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Habilidades artísticas e culturais dos sujeitos."
+    },
+    {
+     "letter": "B",
+     "text": "Vocações religiosas e pedagógicas dos mestres."
+    },
+    {
+     "letter": "C",
+     "text": "Naturezas antropológica e etnográfica dos expositores."
+    },
+    {
+     "letter": "D",
+     "text": "Preservações arquitetônica e visual dos conservatórios."
+    },
+    {
+     "letter": "E",
+     "text": "Competências econômica e financeira dos comerciantes."
+    }
+   ],
+   "figures": [],
+   "number": 79,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O tamborete conta sua história a partir de quem o fez e usou. Ele associa sua trajetória às habilidades artísticas e culturais dos sujeitos. **Resposta: A**",
+    "keyConcept": "patrimônio e saberes",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q83",
+   "year": 2022,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "Nascidas o Líbano, as duas irmãs não puderam ser registradas no país, porque lá é exigido que os nascidos sejam filhos de pais e mães libaneses. Seus pais, de nacionalidade síria, também não puderam registrá-las no país de origem. Na Síria, crianças só são registradas por pais oficialmente casados, o que não era o caso deles.\n\nDisponível em: https://agenciabrasi.ebc.com.br. Acesso em: 7 nov. 2021.\n\nEm situações como a apresentada no texto, as pessoas ao nascerem já se encontram na condição sociopolítica de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Exiladas."
+    },
+    {
+     "letter": "B",
+     "text": "Apátridas."
+    },
+    {
+     "letter": "C",
+     "text": "Foragidas."
+    },
+    {
+     "letter": "D",
+     "text": "Refugiadas."
+    },
+    {
+     "letter": "E",
+     "text": "Clandestinas."
+    }
+   ],
+   "figures": [],
+   "number": 83,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "As meninas não puderam ser registradas nem no Líbano nem na Síria. Nasceram sem nacionalidade, ou seja, apátridas. **Resposta: B**",
+    "keyConcept": "apatridia",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q90",
+   "year": 2022,
+   "area": "Cultura, Identidade e Diversidade",
+   "content": null,
+   "demand": null,
+   "statement": "Em Vitória (ES), no bairro Goiabeiras, encontramos as paneleiras, mulheres que são conhecidas pelos saberes/fazeres das tradicionais panelas de barro, ícones da culinária capixaba. A tradição passada de mãe para filha é de origem indígena e sofreu influência de outras etnias, como a afro e a luso. Dessa mistura, acredita-se que a fabricação das panelas de barro já tenha 400 anos. A fabricação das panelas de barro se dá em várias etapas, desde a obtenção de matéria-prima à confecção das panelas. As matérias-primas tradicionalmente utilizadas são provenientes do meio natural, como: argila, retirada do barreiro no Vale do Mulembá; madeira, atualmente proveniente das sobras da construção civil; e tinta, extraída da casca do manguezal, o popular mangue-vermelho.\n\nTRISTÃO, M. A educação ambiental e o pós-colonialismo. Revista de Educação, n. 53, ago. 2014.\n\nUma característica de práticas tradicionais como a exemplificada no texto é vinculação entre os recursos do mundo natural e a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Manutenção dos modos de vida."
+    },
+    {
+     "letter": "B",
+     "text": "Conservação dos plantios da roça."
+    },
+    {
+     "letter": "C",
+     "text": "Atualização do modelo de gestão."
+    },
+    {
+     "letter": "D",
+     "text": "Participação na sociedade de consumo."
+    },
+    {
+     "letter": "E",
+     "text": "Especialização nas etapas de produção."
+    }
+   ],
+   "figures": [],
+   "number": 90,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O ofício das paneleiras usa barro e tanino do mangue e é passado entre gerações. Ele liga os recursos naturais à manutenção dos modos de vida da comunidade. **Resposta: A**",
+    "keyConcept": "saberes tradicionais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2023-REG-D1-C1-Q59",
+   "year": 2023,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Do século XVI em diante, pelo menos nas classes mais altas, o garfo passou a ser usado como utensílio para comer, chegando através da Itália primeiramente à França e, em seguida, à Inglaterra e à Alemanha, depois de ter servido, durante algum tempo, apenas para retirar alimentos sólidos da travessa. Henrique III introduziu-o na França, trazendo-o provavelmente de Veneza. Seus cortesãos não foram pouco ridicularizados por essa maneira “afetada” de comer e, no princípio, não eram muito hábeis no uso do utensílio: pelo menos se dizia que metade da comida cala do garfo no caminho do prato à boca. Em data tão recente como o século XVII, o garfo era ainda basicamente artigo de luxo, geralmente feito de prata ou ouro.\n\nELIAS. N. O processo civilizador: uma história dos costumes. Rio de Janeiro: Zahar, 1994.\n\nO processo social relatado indica a formação de uma etiqueta que tem como principio a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Distinção das classes sociais."
+    },
+    {
+     "letter": "B",
+     "text": "Valorização de habitos de higiene."
+    },
+    {
+     "letter": "C",
+     "text": "Exaltação da cultura mediterrânea."
+    },
+    {
+     "letter": "D",
+     "text": "Consagração de tradições medievais."
+    },
+    {
+     "letter": "E",
+     "text": "Disseminação de produtos manufaturados."
+    }
+   ],
+   "figures": [],
+   "number": 59,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O garfo, artigo de luxo de prata ou ouro, foi adotado primeiro pelas classes altas. A etiqueta tem como princípio a distinção das classes sociais. **Resposta: A**",
+    "keyConcept": "etiqueta e distinção (Elias)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2023-REG-D1-C1-Q60",
+   "year": 2023,
+   "area": "Movimentos Sociais e Desigualdades",
+   "content": null,
+   "demand": null,
+   "statement": "Negar o pedido por dinheiro indispensável para necessidades pessoais ou comprar bens usando o nome da pessoa sem o consentimento dela. Ameaçar o corte de recursos dependendo de atitudes pessoais, esconder documentos ou trocar senhas do banco sem avisar. Ou, ainda, proibir a pessoa de trabalhar ou destruir seus pertences. As histórias são comuns, mas às vezes não são reconhecidas como abuso. Mas é uma das cinco formas de conduta contra a mulher previstas na Lei Maria da Penha.\n\nLEWGOY. J. Conduta quase invisível destrói a vida de mulheres. Disponível em: https://valorinveste.globo.com. Acesso em: 23 out. 2021 (adaptado).\n\nO texto apresenta tipos de conduta sujeitos a punição, conforme previsto na Lei Maria da Penha, porque consistem em formas de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ação difamatória."
+    },
+    {
+     "letter": "B",
+     "text": "Desvio comportamental."
+    },
+    {
+     "letter": "C",
+     "text": "Expressão preconceituosa."
+    },
+    {
+     "letter": "D",
+     "text": "Violência patrimonial."
+    },
+    {
+     "letter": "E",
+     "text": "Desentendimento matrimonial."
+    }
+   ],
+   "figures": [],
+   "number": 60,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Reter dinheiro ou bens e usar o nome da mulher sem consentimento são formas de violência patrimonial, prevista na Lei Maria da Penha. **Resposta: D**",
+    "keyConcept": "violência patrimonial",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2023-REG-D1-C1-Q61",
+   "year": 2023,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Por trás da “mágica” do Google Assistant de sua capacidade de interpretar 26 idiomas está uma enorme equipe de linguistas distribuídos globalmente, trabalhando como subcontratados, que devem rotular tediosamente os dados de treinamento para que funcione. Eles ganham baixos salários e são rotineiramente forçados a trabalhar horas extras não remuneradas. A inteligência artificial não funciona como um pozinho mágico. Ela funciona por meio de trabalhadores que treinam algoritmos incansavelmente até que eles automatizem seus próprios trabalhos.\n\nA Inteligência Artificial (IA) da economia freelancer está vindo atrás de você. Disponível em: https://mittechreview.com.br. Acesso em: 6 out. 2021 (adaptado).\n\nO texto critica a mudança tecnológica em razão da seguinte consequência:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diversificação da função."
+    },
+    {
+     "letter": "B",
+     "text": "Mobilidade da população."
+    },
+    {
+     "letter": "C",
+     "text": "Autonomia do empregado."
+    },
+    {
+     "letter": "D",
+     "text": "Concentração da produção."
+    },
+    {
+     "letter": "E",
+     "text": "Invisibilidade do profissional."
+    }
+   ],
+   "figures": [],
+   "number": 61,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "A \"mágica\" do assistente virtual esconde milhares de linguistas terceirizados. O texto critica a invisibilidade desses profissionais. **Resposta: E**",
+    "keyConcept": "trabalho invisível na IA",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2023-REG-D1-C1-Q69",
+   "year": 2023,
+   "area": "Movimentos Sociais e Desigualdades",
+   "content": null,
+   "demand": null,
+   "statement": "Elas foram as pioneiras dos direitos das mulheres no Afeganistão. Defensoras ferrenhas da lei, buscaram justiça para os mais marginalizados. Mas, agora, mais de 220 juízas afegãs estão escondidas por medo de retaliação sob o regime do Talibã. Uma delas condenou centenas de homens por violência contra as mulheres, incluindo estupro, assassinato e tortura. Mas poucos dias depois que o Talibã assumiu o controle de sua cidade e milhares de criminosos condenados foram libertados da prisão, as ameaças de morte começaram. O país sempre foi considerado um dos lugares mais difíceis e perigosos do mundo para as mulheres. De acordo com estudos de organizações não governamentais, cerca de 87% das mulheres e meninas serão vítimas de abuso durante a vida.\n\nDisponível em: https://g1.globo.com. Acesso em: 12 out. 2021 (adaptado).\n\nO texto evidencia situação representativa de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Afronta às estruturas sociais."
+    },
+    {
+     "letter": "B",
+     "text": "Desprezo aos valores religiosos."
+    },
+    {
+     "letter": "C",
+     "text": "Transgressão às normas morais."
+    },
+    {
+     "letter": "D",
+     "text": "Desrespeito à dignidade humana."
+    },
+    {
+     "letter": "E",
+     "text": "Oposição aos princípios hierárquicos."
+    }
+   ],
+   "figures": [],
+   "number": 69,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Juízas afegãs perseguidas e a violência generalizada contra mulheres configuram desrespeito à dignidade humana. **Resposta: D**",
+    "keyConcept": "dignidade humana",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2023-REG-D1-C1-Q72",
+   "year": 2023,
+   "area": "Política, Estado e Cidadania",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\n\nPor hora, apenas os mais abastados poderão sonhar em viajar ao espaço, seja por um foguete ou por um avião híbrido, mas toda a população global poderá sentir os efeitos dessas viagens e avanços tecnológicos. Para uma aventura dessas, as empresas tiveram que criar novas tecnologias, materiais e softwares, o que podem, em algum momento, voltar para a sociedade. A câmera fotográfica, hoje comum no mundo, antes foi uma invenção para ser usada em telescópios e o titânio, usado até na medicina, foi desenvolvido para a construção de foguetes.\n\nORLANDO, G. Corrida espacial dos bilionários pode trazer vantagens para todos. Disponível em: https://noticias.r7.com/. Acesso em: 5 nov. 2021 (adaptado).\n\nTEXTO II\n\n[[FIG 0]]\n\nCAZO. Disponível em: www.humorpolitico.com.br. Acesso em: 5 nov. 2021.\n\nOs textos apresentam perspectivas da nova corrida espacial que revelam, respectivamente:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dependência e progresso."
+    },
+    {
+     "letter": "B",
+     "text": "Expectativa e desconfiança."
+    },
+    {
+     "letter": "C",
+     "text": "Angústia e adaptação."
+    },
+    {
+     "letter": "D",
+     "text": "Pioneirismo e retrocesso."
+    },
+    {
+     "letter": "E",
+     "text": "Receio e civilidade."
+    }
+   ],
+   "figures": [
+    {
+     "src": "./figuras/sociologia/2023/ENEM-CH-2023-REG-D1-C1-Q72-1.webp",
+     "kind": "enunciado",
+     "label": "Figura 1",
+     "width": 810,
+     "height": 456
+    }
+   ],
+   "number": 72,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "O Texto I destaca as expectativas com o turismo espacial. A charge do Texto II mostra desconfiança diante desse projeto da elite. **Resposta: B**",
+    "keyConcept": "nova corrida espacial",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2023-REG-D1-C1-Q75",
+   "year": 2023,
+   "area": "Movimentos Sociais e Desigualdades",
+   "content": null,
+   "demand": null,
+   "statement": "A torcida do Fluminense inicia um movimento para mudar a letra de uma das músicas mais populares das arquibancadas tricolores. Grupos pedem a remoção do termo “mulambo imundo”, em uma provocação direta ao Flamengo. Mulambo é um termo que surgiu em Angola, na época da escravatura, e eles eram chamados de mulambos pelos senhores de engenho, os patrões das fazendas.\n\nDisponível em: https://oglobo.globo.com. Acesso em: 23 nov. 2021.\n\nQual mudança no comportamento social a proposta reportada no texto reflete?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A Rejeição de costumes elitistas."
+    },
+    {
+     "letter": "B",
+     "text": "Repulsão de condutas misóginas."
+    },
+    {
+     "letter": "C",
+     "text": "Condenação do preconceito racial."
+    },
+    {
+     "letter": "D",
+     "text": "Criminalização de práticas homofóbicas"
+    },
+    {
+     "letter": "E",
+     "text": "Contestação do comportamento machista."
+    }
+   ],
+   "figures": [],
+   "number": 75,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "\"Mulambo\" remete a pessoas escravizadas. A troca da letra reflete a condenação do preconceito racial. **Resposta: C**",
+    "keyConcept": "racismo no futebol",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2023-REG-D1-C1-Q88",
+   "year": 2023,
+   "area": "Trabalho e Sociedade",
+   "content": null,
+   "demand": null,
+   "statement": "Concorrer e competir não são a mesma coisa. A concorrência pode até ser saudável sempre que a batalha entre agentes, para melhor empreender uma tarefa e obter melhores resultados finais, exige o respeito a certas regras de convivência preestabelecidas ou não. Já a competitividade se funda na invenção de novas armas de luta, num exercício em que a única regra é a conquista da melhor posição. A competitividade é uma espécie de guerra em que tudo vale e, desse modo, sua prática provoca um afrouxamento dos valores morais e um convite ao exercício de violência.\n\nSANTOS, M. Por uma outra globalização: do pensamento único à consciência universal. Rio de Janeiro: Record, 2006.\n\nDe acordo com a diferenciação feita pelo autor, que prática econômica é considerada moralmente condenável?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adoção do dumping comercial."
+    },
+    {
+     "letter": "B",
+     "text": "Fusão da função administrativa."
+    },
+    {
+     "letter": "C",
+     "text": "Criação de holding empresarial."
+    },
+    {
+     "letter": "D",
+     "text": "Limitação do mercado monopolista."
+    },
+    {
+     "letter": "E",
+     "text": "Modernização da produção industrial."
+    }
+   ],
+   "figures": [],
+   "number": 88,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Milton Santos distingue concorrência, que pode ser saudável, de competitividade, que admite qualquer meio, até a violência. Vender abaixo do custo para eliminar rivais (dumping) é uma prática moralmente condenável. **Resposta: A**",
+    "keyConcept": "competitividade (Milton Santos)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  }
+ ]
+}

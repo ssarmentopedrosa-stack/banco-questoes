@@ -1,0 +1,160 @@
+{
+ "entram": [
+  "2009-82",
+  "2009-86",
+  "2013-19",
+  "2014-36",
+  "2014-37",
+  "2015-4",
+  "2015-12",
+  "2015-29",
+  "2016-34",
+  "2017-72",
+  "2018-63",
+  "2018-82",
+  "2019-59",
+  "2019-77",
+  "2019-82",
+  "2020-49",
+  "2021-63"
+ ],
+ "fora": [
+  {
+   "ano": 2011,
+   "n": 6,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 82%)",
+   "cobertura": 0.816
+  },
+  {
+   "ano": 2013,
+   "n": 1,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 76%)",
+   "cobertura": 0.762
+  },
+  {
+   "ano": 2013,
+   "n": 2,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 83%)",
+   "cobertura": 0.826
+  },
+  {
+   "ano": 2013,
+   "n": 7,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 71%)",
+   "cobertura": 0.706
+  },
+  {
+   "ano": 2013,
+   "n": 17,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 77%)",
+   "cobertura": 0.771
+  },
+  {
+   "ano": 2014,
+   "n": 26,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 53%)",
+   "cobertura": 0.526
+  },
+  {
+   "ano": 2014,
+   "n": 27,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%)",
+   "cobertura": 0.846
+  },
+  {
+   "ano": 2014,
+   "n": 38,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 90%)",
+   "cobertura": 0.897
+  },
+  {
+   "ano": 2016,
+   "n": 16,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 66%)",
+   "cobertura": 0.659
+  },
+  {
+   "ano": 2016,
+   "n": 17,
+   "motivo": "texto não conferível com a prova oficial",
+   "cobertura": 1.0
+  },
+  {
+   "ano": 2016,
+   "n": 36,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 56%)",
+   "cobertura": 0.561
+  },
+  {
+   "ano": 2017,
+   "n": 54,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 59%)",
+   "cobertura": 0.594
+  },
+  {
+   "ano": 2017,
+   "n": 77,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 79%)",
+   "cobertura": 0.789
+  },
+  {
+   "ano": 2018,
+   "n": 56,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 61%)",
+   "cobertura": 0.611
+  },
+  {
+   "ano": 2019,
+   "n": 57,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 81%)",
+   "cobertura": 0.812
+  },
+  {
+   "ano": 2021,
+   "n": 53,
+   "motivo": "gabarito do dataset (A) diverge do oficial do Inep (B)"
+  },
+  {
+   "ano": 2021,
+   "n": 55,
+   "motivo": "texto não conferível com a prova oficial",
+   "cobertura": 1.0
+  },
+  {
+   "ano": 2021,
+   "n": 89,
+   "motivo": "texto não conferível com a prova oficial",
+   "cobertura": 0.167
+  },
+  {
+   "ano": 2022,
+   "n": 67,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 85%)",
+   "cobertura": 0.852
+  },
+  {
+   "ano": 2022,
+   "n": 68,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 78%)",
+   "cobertura": 0.778
+  },
+  {
+   "ano": 2022,
+   "n": 78,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 64%)",
+   "cobertura": 0.643
+  },
+  {
+   "ano": 2022,
+   "n": 82,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 56%)",
+   "cobertura": 0.556
+  },
+  {
+   "ano": 2023,
+   "n": 89,
+   "motivo": "texto incompleto em relação à prova oficial (cobertura 55%)",
+   "cobertura": 0.55
+  }
+ ]
+}

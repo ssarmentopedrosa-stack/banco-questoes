@@ -1,0 +1,351 @@
+@ENEM-CH-2009-REG-D1-C1-Q58
+K: cidadania aristocrática em Aristóteles
+Aristóteles considera o trabalho e os negócios "desprezíveis" e defende que o cidadão tenha lazer para a virtude e a política. A cidadania era vista como privilégio dos grupos superiores, numa concepção hierárquica que excluía trabalhadores, mulheres e escravos. **Resposta: B**
+
+@ENEM-CH-2010-REG-D1-C1-Q29
+K: política controlada por uma minoria
+Para Valéry, primeiro a política afastava as pessoas das decisões; depois, as obrigou a decidir sobre o que não entendem. Nos dois momentos, quem de fato controla as decisões é uma minoria. **Resposta: C**
+
+@ENEM-CH-2010-REG-D1-C1-Q30
+K: Maquiavel: crueldade a serviço da ordem
+Para Maquiavel, o príncipe não deve temer a fama de cruel se ela mantiver o povo unido e leal: poucos castigos exemplares evitam desordens maiores. A ordem se baseia em combinar o uso duro do poder com a moral própria do governante, separada da moral comum. **Resposta: E**
+
+@ENEM-CH-2010-REG-D1-C1-Q34
+K: Foucault: lei e poder
+Para Foucault, a lei não nasce da natureza nem da paz, mas das batalhas e conquistas: é a continuação da guerra por outros meios. A finalidade das leis é organizar as relações de poder na sociedade e entre os Estados. **Resposta: E**
+
+@ENEM-CH-2010-REG-D1-C1-Q39
+K: ética como construção coletiva
+O texto define a ética como um empreendimento coletivo e social, sempre rediscutido. Assim entendida, ela garante a cidadania, porque leva os cidadãos a pensar e agir segundo valores coletivos. A ética não é dada pela natureza (B). **Resposta: A**
+
+@ENEM-CH-2010-REG-D1-C1-Q44
+K: sujeito ético histórico-social
+Segundo Severino, o sujeito ético contemporâneo é histórico e social: suas ações individuais têm valor ao se ligarem às relações com os outros. O texto destaca o sentido coletivo e político das ações individuais. **Resposta: D**
+
+@ENEM-CH-2011-REG-D1-C1-Q2
+K: autonomia da norma moral
+As normas morais não são impostas de fora: são criadas pelo próprio ser humano, que as dá a si mesmo (autonomia). Por isso cumpri-las depende da vontade, o que explica a distância entre reconhecer e cumprir. **Resposta: D**
+
+@ENEM-CH-2012-REG-D1-C1-Q2
+K: Esclarecimento kantiano
+Para Kant, Esclarecimento é sair da "menoridade", isto é, ter coragem de usar o próprio entendimento sem a direção de outro. É a afirmação da autonomia da razão. **Resposta: A**
+
+@ENEM-CH-2012-REG-D1-C1-Q7
+K: liberdade segundo Montesquieu
+Para Montesquieu, liberdade é o direito de fazer tudo o que as leis permitem. Nas democracias, a liberdade dos cidadãos está condicionada a agir conforme as leis. **Resposta: B**
+
+@ENEM-CH-2012-REG-D1-C1-Q9
+K: Habermas e direitos culturais
+Para Habermas, a democracia acolhe as minorias quando as diferentes formas de vida coexistem e os discursos de autoentendimento são submetidos ao debate público e racional entre todos. **Resposta: C**
+
+@ENEM-CH-2012-REG-D1-C1-Q25
+K: Platão: razão × sensação
+Platão aceita a ideia de Parmênides de que o verdadeiro conhecimento vem da razão (o mundo das Ideias), e não dos sentidos, que só dão opinião. A razão gera conhecimento; a sensação, não. **Resposta: D**
+
+@ENEM-CH-2012-REG-D1-C1-Q28
+K: princípio originário (arché)
+Anaxímenes diz que o ar é a origem de tudo; Basílio, filósofo cristão, atribui a origem do mundo a Deus. Os dois postulam um princípio originário do mundo, a arché. Só Basílio o identifica com Deus (E). **Resposta: D**
+
+@ENEM-CH-2012-REG-D1-C1-Q30
+K: sentidos em Descartes e Hume
+Descartes desconfia dos sentidos, que enganam, e busca a certeza na razão. Para Hume, todas as ideias vêm de impressões sensíveis. Os dois dão papéis diferentes aos sentidos na formação do conhecimento. **Resposta: E**
+
+@ENEM-CH-2012-REG-D1-C1-Q31
+K: Maquiavel e a virtù
+Maquiavel admite que a fortuna (o acaso) controla metade dos acontecimentos, mas afirma que a outra metade depende da ação humana. É a confiança renascentista na capacidade racional e autônoma do ser humano. **Resposta: C**
+
+@ENEM-CH-2013-REG-D1-C1-Q4
+K: dúvida metódica
+Descartes percebe que aceitou muitas opiniões falsas e decide duvidar de tudo para reconstruir o saber sobre bases seguras. É preciso questionar de forma ampla e profunda as antigas ideias. **Resposta: B**
+
+@ENEM-CH-2013-REG-D1-C1-Q10
+K: natureza humana em Maquiavel
+Maquiavel prefere que o príncipe seja temido porque os homens são ingratos, volúveis e interesseiros: ficam ao lado do príncipe na fartura e se revoltam no perigo. O homem é guiado por interesses e é inconstante. **Resposta: C**
+
+@ENEM-CH-2013-REG-D1-C1-Q22
+K: separação dos poderes
+Para Montesquieu, "o poder freia o poder": separar as funções de legislar, executar e julgar evita abusos. Isso só é possível num modelo que estabelece limites aos governantes e às instituições. **Resposta: D**
+
+@ENEM-CH-2013-REG-D1-C1-Q24
+K: panóptico e disciplina
+O panóptico de Bentham, analisado por Foucault, mostra um poder disciplinar sutil: o prisioneiro sabe que pode ser visto a qualquer momento e passa a controlar a si mesmo. O olhar vira instrumento de adestramento dos corpos. **Resposta: D**
+
+@ENEM-CH-2013-REG-D1-C1-Q27
+K: eudaimonia aristotélica
+Para Aristóteles, a felicidade reúne o melhor, o mais nobre e o mais aprazível. Ela é o bem supremo, buscado por si mesmo, e por isso é a finalidade das ações humanas. **Resposta: C**
+
+@ENEM-CH-2013-REG-D1-C1-Q36
+K: revolução copernicana de Kant
+Kant contrapõe a visão tradicional, em que o conhecimento se regula pelos objetos, à sua proposta, em que os objetos se regulam pelo sujeito que conhece. São dois pontos de vista opostos sobre a natureza do conhecimento. **Resposta: A**
+
+@ENEM-CH-2013-REG-D1-C1-Q41
+K: ciência moderna como modelo de razão
+Para Descartes, Bacon e o Iluminismo, a ciência é a expressão maior da razão: dá ao ser humano domínio sobre a natureza e serve de modelo de progresso para os outros saberes. **Resposta: C**
+
+@ENEM-CH-2014-REG-D1-C1-Q4
+K: dúvida que gera certeza
+A dúvida cartesiana é radical, mas tem caráter positivo: ao resistir a ela, chega-se a uma certeza indubitável (o "penso, logo existo"), base de um conhecimento inabalável. **Resposta: D**
+
+@ENEM-CH-2014-REG-D1-C1-Q12
+K: bioética
+A bioética discute os limites morais das intervenções da ciência sobre a vida, como a clonagem humana. Sua tarefa é relacionar o conhecimento da vida aos valores éticos. **Resposta: A**
+
+@ENEM-CH-2014-REG-D1-C1-Q14
+K: ética do discurso
+Para Habermas, uma norma só é válida se todos os afetados por ela puderem concordar com ela num discurso prático. A validade vem da razão comunicativa, que busca o consenso. **Resposta: B**
+
+@ENEM-CH-2014-REG-D1-C1-Q19
+K: cidadania como participação
+Tucídides (na voz de Péricles) considera inútil quem se afasta da vida pública. Aristóteles define cidadão como quem participa das funções de julgar e governar. Para os dois, a cidadania é participação política. **Resposta: C**
+
+@ENEM-CH-2014-REG-D1-C1-Q24
+K: Epicuro: prazer moderado
+Epicuro classifica os desejos e recomenda satisfazer só os naturais e necessários. Assim se evita a dor e se alcança a ataraxia (tranquilidade), ou seja, o prazer moderado e a felicidade. **Resposta: A**
+
+@ENEM-CH-2014-REG-D1-C1-Q29
+K: Galileu e a física matemática
+Para Galileu, o "livro da natureza" está escrito em linguagem matemática. Defender isso era opor a nova física quantitativa e experimental à física qualitativa da escolástica, baseada em Aristóteles. **Resposta: C**
+
+@ENEM-CH-2015-REG-D1-C1-Q3
+K: Paulo Freire: consciência crítica
+Freire critica o homem moderno, paralisado e só ajustado ao seu tempo. Ele propõe superar isso pela integração crítica com a realidade, ou seja, desenvolvendo um pensamento autônomo capaz de captar os temas da época. **Resposta: A**
+
+@ENEM-CH-2015-REG-D1-C1-Q13
+K: Trasímaco e o convencionalismo
+Para o sofista Trasímaco, certo e errado são só regras criadas pelos homens (no fundo, pelo interesse dos mais fortes), e não verdades objetivas. A justiça é uma convenção social que nasce de interesses humanos contingentes. **Resposta: D**
+
+@ENEM-CH-2015-REG-D1-C1-Q16
+K: empirismo de Hume
+Para Hume, a mente só combina materiais vindos dos sentidos: a "montanha de ouro" junta as ideias de ouro e de montanha. O conteúdo das ideias tem origem nas impressões sensíveis. **Resposta: A**
+
+@ENEM-CH-2015-REG-D1-C1-Q17
+K: Tomás de Aquino e o bem comum
+Como um navio precisa de um piloto para chegar ao porto, a sociedade precisa de um dirigente que a conduza ao seu fim. Para Tomás de Aquino, a monarquia une a sociedade em vista do bem comum. **Resposta: C**
+
+@ENEM-CH-2015-REG-D1-C1-Q26
+K: estado de natureza em Hobbes
+Para Hobbes, a natureza fez os homens quase iguais. Por isso, quando dois desejam a mesma coisa, que não podem ter juntos, tornam-se inimigos: é a "guerra de todos contra todos". Antes da sociedade civil, eles entravam em conflito. **Resposta: A**
+
+@ENEM-CH-2015-REG-D1-C1-Q28
+K: ágora e democracia
+Na democracia ateniense, a palavra e o debate eram o instrumento do poder. A ágora, e sobretudo a Eclésia, era o espaço em que os cidadãos se reuniam para deliberar diretamente sobre as questões da comunidade. **Resposta: C**
+
+@ENEM-CH-2015-REG-D1-C1-Q34
+K: Tales e o nascimento da filosofia
+Para Nietzsche, a frase de Tales ("a água é a origem de tudo") importa porque busca uma origem das coisas sem recorrer ao mito e contém a ideia de que "tudo é um". A filosofia nasce da busca racional da causa primeira. **Resposta: C**
+
+@ENEM-CH-2016-REG-D1-C1-Q1
+K: Schopenhauer e a resignação
+Satisfazer desejos é como uma esmola que só adia a fome. A resignação, que liberta o indivíduo das necessidades externas, é a verdadeira riqueza. A felicidade está no domínio de si e na independência interior. **Resposta: B**
+
+@ENEM-CH-2016-REG-D1-C1-Q15
+K: indústria cultural
+Para Adorno e Horkheimer, a indústria cultural oferece uma "liberdade" de escolha entre produtos padronizados, que no fundo são sempre a mesma coisa. Essa liberdade é uma ilusão. **Resposta: E**
+
+@ENEM-CH-2016-REG-D1-C1-Q20
+K: Descartes: pensar por si
+Descartes diz que memorizar as demonstrações de outros não faz ninguém filósofo ou matemático: seria aprender "histórias", e não ciências. O verdadeiro saber resulta da autonomia do sujeito que pensa e julga por si mesmo. **Resposta: D**
+
+@ENEM-CH-2016-REG-D1-C1-Q23
+K: Heráclito × Parmênides
+Heráclito afirma o devir (tudo flui); Parmênides afirma que o ser é uno, imóvel e eterno. É uma oposição sobre a natureza do ser, ou seja, uma discussão ontológica. **Resposta: C**
+
+@ENEM-CH-2016-REG-D1-C1-Q24
+K: democracia deliberativa × ativista
+Segundo Iris Young, a democracia deliberativa busca o acordo por meio da argumentação razoável, isto é, o consenso. A ativista valoriza o protesto e a mobilização dos grupos excluídos e das minorias. **Resposta: C**
+
+@ENEM-CH-2016-REG-D1-C1-Q25
+K: ética da responsabilidade (Jonas)
+Hans Jonas mostra que a técnica moderna ameaça a própria vida. Ele propõe uma ética da responsabilidade cujo objetivo é garantir a sobrevivência das gerações futuras. **Resposta: B**
+
+@ENEM-CH-2016-REG-D1-C1-Q28
+K: ceticismo pirrônico
+Pirro afirmava que nada é em si justo ou verdadeiro e por isso suspendia o juízo, vivendo com indiferença. O ceticismo defende a impossibilidade de obter certezas e a indiferença diante delas. **Resposta: C**
+
+@ENEM-CH-2016-REG-D1-C1-Q37
+K: niilismo em Nietzsche
+O trecho de Zaratustra descreve a crença de que "tudo é oco, tudo é igual": um cansaço e uma perda de sentido que Nietzsche associa ao niilismo e à decadência da cultura ocidental. **Resposta: D**
+
+@ENEM-CH-2017-REG-D1-C1-Q48
+K: utilitarismo de Bentham
+Para Bentham, a ação moral é a que produz a maior felicidade para o maior número de pessoas afetadas. É um cálculo de consequências, uma racionalidade de caráter pragmático, e não obediência a Deus ou a regras abstratas. **Resposta: D**
+
+@ENEM-CH-2017-REG-D1-C1-Q60
+K: Amartya Sen: desenvolvimento como liberdade
+Sen define o desenvolvimento como expansão das liberdades reais: depende da renda, mas também de educação, saúde e direitos civis. Liga, portanto, a garantia da cidadania à ascensão econômica. **Resposta: D**
+
+@ENEM-CH-2017-REG-D1-C1-Q63
+K: futurismo e ruptura com o passado
+Marinetti manda incendiar bibliotecas e inundar museus. As vanguardas do início do século XX viam a modernidade como uma ruptura radical com a tradição, a superação da história. **Resposta: C**
+
+@ENEM-CH-2017-REG-D1-C1-Q64
+K: Rawls e o liberalismo
+Rawls descreve uma sociedade em que pessoas livres aceitam regras e princípios de justiça comuns. Retoma o liberalismo moderno, que associa liberdade, autonomia e contrato. **Resposta: A**
+
+@ENEM-CH-2017-REG-D1-C1-Q65
+K: atomismo de Demócrito
+Para Demócrito, tudo é composto por átomos, partículas indivisíveis que se movem no vazio e, ao se combinar, formam os seres. **Resposta: E**
+
+@ENEM-CH-2017-REG-D1-C1-Q66
+K: maiêutica socrática
+Sócrates conversava com os jovens fazendo perguntas que os levavam a refletir sobre si e a reconhecer a própria ignorância. Esse modo de vida se baseava no diálogo, o método dialético. **Resposta: B**
+
+@ENEM-CH-2017-REG-D1-C1-Q84
+K: democracia deliberativa de Habermas
+Para Habermas, a legitimidade democrática vem de um processo de discussão em que todos os afetados podem argumentar. A inclusão depende do debate livre e racional entre os cidadãos e o Estado. **Resposta: B**
+
+@ENEM-CH-2017-REG-D1-C1-Q85
+K: imperativo categórico
+Para Kant, a falsa promessa não pode virar lei universal: se todos prometessem sem cumprir, ninguém mais acreditaria em promessas. Ela se opõe ao princípio de agir só segundo máximas que possam valer universalmente. **Resposta: C**
+
+@ENEM-CH-2017-REG-D1-C1-Q88
+K: política como ciência arquitetônica
+Para Aristóteles, o sumo bem humano é objeto da ciência mais importante, a política, que organiza a cidade e cuja finalidade abrange a das outras ciências. **Resposta: C**
+
+@ENEM-CH-2018-REG-D1-C1-Q49
+K: o filósofo entre evidência e ambiguidade
+Para Merleau-Ponty, o filósofo une o gosto pela evidência (rigor) ao sentido da ambiguidade, num movimento constante entre saber e ignorância. Sua atividade concilia o rigor da investigação com a inquietude do questionamento. **Resposta: D**
+
+@ENEM-CH-2018-REG-D1-C1-Q51
+K: argumento ontológico
+Tomás de Aquino apresenta o argumento de que Deus, "aquilo de que nada maior pode ser pensado", existe necessariamente. É uma tentativa de sustentar racionalmente uma doutrina baseada na fé, típica da escolástica. **Resposta: B**
+
+@ENEM-CH-2018-REG-D1-C1-Q52
+K: igualdade no estado de natureza
+Hobbes e Rousseau divergem sobre o estado de natureza (guerra de todos contra todos ou bondade natural), mas os dois afirmam que os homens são iguais na sua condição original, antes da sociedade. **Resposta: D**
+
+@ENEM-CH-2018-REG-D1-C1-Q79
+K: Epicuro e a temperança
+"A quem não basta pouco, nada basta": Epicuro valoriza a moderação dos desejos, ou seja, a temperança e o domínio da vontade, condição para a tranquilidade e a felicidade. **Resposta: C**
+
+@ENEM-CH-2019-REG-D1-C1-Q48
+K: natureza como objeto de domínio
+A imagem dos sul-americanos como "mendigos sentados num saco de ouro" vê a natureza como recurso a explorar. Acosta mostra que isso mantém o racionalismo cartesiano, que separa sujeito e natureza e faz do ser humano o "senhor e possuidor" dela. **Resposta: C**
+
+@ENEM-CH-2019-REG-D1-C1-Q50
+K: hospitalidade em Derrida
+A hospitalidade pura acolhe o estrangeiro sem exigir documentos ou condições. No contexto das migrações, ela impõe acolher o outro na sua diferença, a incorporação da alteridade. **Resposta: C**
+
+@ENEM-CH-2019-REG-D1-C1-Q51
+K: Direito como técnica de convivência
+Abbagnano define o Direito como técnica de coexistência humana: regras que orientam o comportamento recíproco das pessoas. Seu sentido fundamental é regular o convívio social. **Resposta: B**
+
+@ENEM-CH-2019-REG-D1-C1-Q58
+K: livre-arbítrio em Agostinho
+Para Agostinho, Deus deu ao homem a vontade livre para viver retamente. O pecado é o mau uso dessa liberdade, e a punição se justifica porque o homem, por si só, falha em usar bem sua vontade. Pelo gabarito oficial, o fundamento é a insuficiência da autonomia moral. **Resposta: B**
+
+@ENEM-CH-2019-REG-D1-C1-Q64
+K: ciência e hipóteses
+O texto desmonta a lenda da maçã: Newton não "descobriu" a gravidade num estalo. Ele formulou hipóteses e teorias para explicar a queda dos corpos, e é isso que caracteriza a ciência moderna. **Resposta: C**
+
+@ENEM-CH-2019-REG-D1-C1-Q65
+K: Maquiavel: moral ideal × moral efetiva
+Para Maquiavel, o governante deve agir segundo a "verdade efetiva das coisas", e não segundo a moral ideal: pode até mentir pelo bem do Estado. É a distinção entre a idealidade e a efetividade da moral. **Resposta: A**
+
+@ENEM-CH-2019-REG-D1-C1-Q67
+K: razão e fé na modernidade
+Descartes contempla Deus pela razão, e Rachels pergunta se a crença em Deus pode ter base racional. Os textos discutem o modelo moderno centrado na razão humana. **Resposta: A**
+
+@ENEM-CH-2019-REG-D1-C1-Q74
+K: sujeito como construção (Foucault)
+Para Foucault, não há um sujeito universal e soberano: ele se constitui em práticas de sujeição e de liberdade, a partir de regras do meio cultural. A subjetivação é contingente e acontece nas interações sociais. **Resposta: C**
+
+@ENEM-CH-2019-REG-D1-C1-Q75
+K: natureza como objeto
+Bacon fala em "torturar" a natureza com experimentos, e o segundo texto critica a ação desarmônica do homem sobre o ambiente. Ambos mostram a natureza tratada como objeto a ser dominado e explorado. **Resposta: A**
+
+@ENEM-CH-2019-REG-D1-C1-Q76
+K: Arendt e os campos de concentração
+Arendt mostra como os campos tornam o extermínio "normal", uma segregação de seres humanos que sustenta projetos biopolíticos de controle e eliminação de grupos. Critica-se a naturalização dessa segregação. **Resposta: D**
+
+@ENEM-CH-2019-REG-D1-C1-Q78
+K: Kant relido
+Em Kant, a lei moral está "em mim" (interior) e o céu estrelado está "sobre mim" (o mundo dos fenômenos). A poeta inverte: a lei fica fora, "cobrindo-me", e o céu fica dentro. Inverte a interioridade da norma e a fenomenalidade do mundo. **Resposta: E**
+
+@ENEM-CH-2020-REG-D1-C1-Q55
+K: solipsismo
+Nagel discute a hipótese de que tudo exista só na sua mente, sem mundo real a que "acordar". É o solipsismo: ninguém pode garantir, a partir da própria mente, a existência de um mundo compartilhado. **Resposta: E**
+
+@ENEM-CH-2020-REG-D1-C1-Q60
+K: morte e existencialismo
+A angústia de Ivan Ilitch diante da morte iminente é tema central do existencialismo (Kierkegaard, Heidegger, Sartre), ligado à questão da finitude e do reconhecimento de si. **Resposta: E**
+
+@ENEM-CH-2020-REG-D1-C1-Q69
+K: Rawls e o contrato
+A ideia de Rawls da sociedade como sistema justo de cooperação, com regras que todos podem aceitar, retoma o contratualismo moderno. **Resposta: E**
+
+@ENEM-CH-2020-REG-D1-C1-Q72
+K: ensaio de Montaigne
+Montaigne criou o ensaio (Essais), texto em primeira pessoa no qual expõe reflexões pessoais, hesitações e autocríticas sobre um tema. **Resposta: B**
+
+@ENEM-CH-2020-REG-D1-C1-Q77
+K: ética e política em Aristóteles
+A cidade é a comunidade que visa o bem supremo. Para Aristóteles, ética e política estão ligadas porque as duas conduzem à eudaimonia, a felicidade do indivíduo e da cidade. **Resposta: A**
+
+@ENEM-CH-2020-REG-D1-C1-Q89
+K: Hume e a experiência
+Nem um Adão de razão perfeita poderia saber, sem experiência, que a água afoga ou que o fogo queima. Para Hume, o conhecimento sobre questões de fato vem da experiência, da vivência dos fenômenos. **Resposta: D**
+
+@ENEM-CH-2021-REG-D1-C1-Q57
+K: Marcuse: identificação com mercadorias
+Para Marcuse, as necessidades criadas socialmente são vividas como se fossem individuais: as pessoas "encontram sua alma" no automóvel e na casa. A satisfação é guiada por mecanismos subjetivos de identificação com as mercadorias. **Resposta: D**
+
+@ENEM-CH-2021-REG-D1-C1-Q65
+K: luta de classes em Engels
+Engels diz aos operários que a classe média (a burguesia) tem interesses opostos aos deles e que não devem esperar ajuda dela. É o conceito de luta de classes. **Resposta: A**
+
+@ENEM-CH-2022-REG-D1-C1-Q47
+K: Arendt: discurso e ação
+Para Arendt, é o discurso que faz do homem um ser político: as coisas só têm sentido quando podem ser faladas entre as pessoas. A linguagem é essencial à construção da sociabilidade. **Resposta: E**
+
+@ENEM-CH-2022-REG-D1-C1-Q57
+K: sociedade disciplinar (Foucault)
+O leproso era excluído; a cidade da peste era esquadrinhada, vigiada e controlada em detalhe. O modelo da peste prefigura a sociedade disciplinar, com vigilância e controle minucioso dos indivíduos. **Resposta: A**
+
+@ENEM-CH-2022-REG-D1-C1-Q71
+K: Estado de direito
+No Estado de direito, o poder é exercido conforme a lei e sem arbítrio, e os governantes são escolhidos e limitados segundo regras. Suprimir as eleições dos representantes viola esse princípio. As outras opções não envolvem arbítrio do poder público. **Resposta: A**
+
+@ENEM-CH-2022-REG-D1-C1-Q80
+K: pólis, sofistas e razão
+Para Vernant, a razão grega nasce ligada à vida política da pólis, baseada na palavra e no debate. Os sofistas, mestres da retórica e da argumentação pública, fortaleceram esse vínculo. **Resposta: C**
+
+@ENEM-CH-2022-REG-D1-C1-Q84
+K: saber sensível
+Merleau-Ponty valoriza a percepção, que "reaprende a ver o mundo", e Deleuze diz que os cineastas pensam com imagens. Os dois veem o olhar e a percepção como forma de conhecimento. **Resposta: C**
+
+@ENEM-CH-2022-REG-D1-C1-Q86
+K: Empédocles e a cosmogonia
+Empédocles explica a formação do cosmo por quatro elementos eternos misturados pelo Amor e separados pelo Ódio. A busca da arché é uma discussão cosmogônica, sobre a origem e a organização do universo. **Resposta: C**
+
+@ENEM-CH-2022-REG-D1-C1-Q88
+K: estoicismo e serenidade
+Para Sêneca, a filosofia deixa o ânimo alegre e firme até diante da morte e da doença. O bem fundamental do estoicismo é a moderação das paixões (apatheia), que leva à serenidade. **Resposta: E**
+
+@ENEM-CH-2023-REG-D1-C1-Q52
+K: ética freiriana e transformação
+Para Paulo Freire, a pessoa não é mero produto das determinações e por isso é eticamente responsável. A educação crítica leva os educandos a conhecer sua realidade para transformá-la, ou seja, à participação sociopolítica. **Resposta: A**
+
+@ENEM-CH-2023-REG-D1-C1-Q54
+K: dualismo cartesiano
+Merleau-Ponty mostra a raiva como algo vivido no corpo, e não um pensamento separado dele. Descartes, ao contrário, separa a alma pensante (res cogitans) do corpo (res extensa): é uma visão dualista. **Resposta: A**
+
+@ENEM-CH-2023-REG-D1-C1-Q55
+K: tempo livre na indústria cultural
+Para Adorno e Horkheimer, a diversão prolonga o trabalho: o lazer é ocupado pelo consumo de produtos culturais feitos no mesmo sistema produtivo mecanizado, que reproduzem a lógica do trabalho. **Resposta: A**
+
+@ENEM-CH-2023-REG-D1-C1-Q79
+K: Sartre: existência e transcendência
+Para Sartre, o homem é liberdade e projeto: está sempre além da sua situação (transcendência). O personagem determinista, que já "sabe tudo o que lhe pode acontecer", nega essa possibilidade de transcendência. **Resposta: B**
+
+@ENEM-CH-2023-REG-D1-C1-Q81
+K: ilegalidades e poder punitivo
+Foucault mostra que, no capitalismo, as ilegalidades contra os bens (das classes populares) passaram aos tribunais ordinários e às punições, enquanto as ilegalidades de direitos (da burguesia) ficaram mais toleradas. O poder punitivo se caracteriza pela gestão diferencial das ilicitudes pelo sistema judicial. **Resposta: A**
+
+@ENEM-CH-2016-REG-D1-C1-Q6
+K: Hamlet e o existencialismo
+"Ser ou não ser" mostra o sujeito que reflete sobre a própria existência e a morte e hesita diante delas. Essa tensão entre consciência de si e angústia é um tema central do existencialismo. **Resposta: A**
+
+@ENEM-CH-2020-REG-D1-C1-Q74
+K: fenomenologia do corpo
+Pessoa ("penso com os olhos...") e Merleau-Ponty (o saber parte da experiência vivida) dão ao corpo e à percepção um lugar central no conhecimento da realidade. **Resposta: C**

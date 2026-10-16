@@ -1,0 +1,3743 @@
+{
+ "meta": {
+  "materia": "filosofia",
+  "fonteTexto": "enem.dev (github.com/yunger7/enem-api, GPL-2.0), caderno azul; texto conferido com o PDF oficial do Inep",
+  "fonteGabarito": "Gabaritos oficiais do Inep (caderno azul); 2010 CH: AZUL_Sabado_GAB.pdf (gab/gabarito_ch_2010.json)",
+  "porAno": {
+   "2009": 1,
+   "2010": 5,
+   "2011": 1,
+   "2012": 7,
+   "2013": 7,
+   "2014": 6,
+   "2015": 7,
+   "2016": 9,
+   "2017": 9,
+   "2018": 4,
+   "2019": 11,
+   "2020": 7,
+   "2021": 2,
+   "2022": 7,
+   "2023": 5
+  },
+  "foraPorAno": {
+   "2010": 1,
+   "2014": 2,
+   "2018": 2,
+   "2021": 3,
+   "2023": 2
+  },
+  "total": 88,
+  "fora": {},
+  "porArea": {
+   "Filosofia Política": 32,
+   "Filosofia Moderna: Razão e Conhecimento": 23,
+   "Ética e Moral": 14,
+   "Filosofia Antiga": 11,
+   "Filosofia Medieval": 4,
+   "Filosofia Contemporânea": 4
+  },
+  "doPdfOficial": 0,
+  "comExplicacao": 88,
+  "revisadas": 0,
+  "classificacao": "automática (palavras-chave) + revisão manual dos casos ambíguos pelo agente; a conferir pelo professor (labels/ch_humanas.json)"
+ },
+ "questions": [
+  {
+   "id": "ENEM-CH-2009-REG-D1-C1-Q58",
+   "year": 2009,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Segundo Aristóteles, “na cidade com o melhor conjunto de normas e naquela dotada de homens absolutamente justos, os cidadãos não devem viver uma vida de trabalho trivial ou de negócios — esses tipos de vida são desprezíveis e incompatíveis com as qualidades morais —, tampouco devem ser agricultores os aspirantes à cidadania, pois o lazer é indispensável ao desenvolvimento das qualidades morais e à prática das atividades políticas”.\n\nVAN ACKER, T. Grécia. A vida cotidiana na cidade-Estado. São Paulo: Atual, 1994.\n\nO trecho, retirado da obra Política, de Aristóteles, permite compreender que a cidadania:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Possui uma dimensão histórica que deve ser criticada, pois é condenável que os políticos de qualquer época fiquem entregues à ociosidade, enquanto o resto dos cidadãos tem de trabalhar."
+    },
+    {
+     "letter": "B",
+     "text": "Era entendida como uma dignidade própria dos grupos sociais superiores, fruto de uma concepção política profundamente hierarquizada da sociedade."
+    },
+    {
+     "letter": "C",
+     "text": "Estava vinculada, na Grécia Antiga, a uma percepção política democrática, que levava todos os habitantes da pólis a participarem da vida cívica."
+    },
+    {
+     "letter": "D",
+     "text": "Tinha profundas conexões com a justiça, razão pela qual o tempo livre dos cidadãos deveria ser dedicado às atividades vinculadas aos tribunais."
+    },
+    {
+     "letter": "E",
+     "text": "Vivida pelos atenienses era, de fato, restrita àqueles que se dedicavam à política e que tinham tempo para resolver os problemas da cidade."
+    }
+   ],
+   "figures": [],
+   "number": 58,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Aristóteles considera o trabalho e os negócios \"desprezíveis\" e defende que o cidadão tenha lazer para a virtude e a política. A cidadania era vista como privilégio dos grupos superiores, numa concepção hierárquica que excluía trabalhadores, mulheres e escravos. **Resposta: B**",
+    "keyConcept": "cidadania aristocrática em Aristóteles",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q29",
+   "year": 2010,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "A política foi, inicialmente, a arte de impedir as pessoas de se ocuparem do que lhes diz respeito. Posteriormente, passou a ser a arte de compelir as pessoas a decidirem sobre aquilo de que nada entendem.\n\nVALÉRY, P. Cadernos. Apud BENEVIDES, M. V. M.\nA cidadania ativa. São Paulo: Ática, 1996.\n\nNessa definição, o autor entende que a história da política está dividida em dois momentos principais: um primeiro, marcado pelo autoritarismo excludente, e um segundo, caracterizado por uma democracia incompleta. Considerando o texto, qual é o elemento comum a esses dois momentos da história política?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A distribuição equilibrada do poder."
+    },
+    {
+     "letter": "B",
+     "text": "O impedimento da participação popular."
+    },
+    {
+     "letter": "C",
+     "text": "O controle das decisões por uma minoria."
+    },
+    {
+     "letter": "D",
+     "text": "A valorização das opiniões mais competentes."
+    },
+    {
+     "letter": "E",
+     "text": "A sistematização dos processos decisórios."
+    }
+   ],
+   "figures": [],
+   "number": 29,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Valéry, primeiro a política afastava as pessoas das decisões; depois, as obrigou a decidir sobre o que não entendem. Nos dois momentos, quem de fato controla as decisões é uma minoria. **Resposta: C**",
+    "keyConcept": "política controlada por uma minoria",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q30",
+   "year": 2010,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "O príncipe, portanto, não deve se incomodar com a reputação de cruel, se seu propósito é manter o povo unido e leal. De fato, com uns poucos exemplos duros poderá ser mais clemente do que outros que, por muita piedade, permitem os distúrbios que levem ao assassínio e ao roubo.\n\nMAQUIAVEL, N. O Príncipe, São Paulo: Martin Claret, 2009.\n\nNo século XVI, Maquiavel escreveu O Príncipe, reflexão sobre a Monarquia e a função do governante. A manutenção da ordem social, segundo esse autor, baseava-se na",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inércia do julgamento de crimes polêmicos."
+    },
+    {
+     "letter": "B",
+     "text": "Bondade em relação ao comportamento dos mercenários."
+    },
+    {
+     "letter": "C",
+     "text": "Compaixão quanto à condenação de transgressões religiosas."
+    },
+    {
+     "letter": "D",
+     "text": "Neutralidade diante da condenação dos servos."
+    },
+    {
+     "letter": "E",
+     "text": "Conveniência entre o poder tirânico e a moral do príncipe."
+    }
+   ],
+   "figures": [],
+   "number": 30,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Para Maquiavel, o príncipe não deve temer a fama de cruel se ela mantiver o povo unido e leal: poucos castigos exemplares evitam desordens maiores. A ordem se baseia em combinar o uso duro do poder com a moral própria do governante, separada da moral comum. **Resposta: E**",
+    "keyConcept": "Maquiavel: crueldade a serviço da ordem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q34",
+   "year": 2010,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "A lei não nasce da natureza, junto das fontes frequentadas pelos primeiros pastores: a lei nasce das batalhas reais, das vitórias, dos massacres, das conquistas que têm sua data e seus heróis de horror: a lei nasce das cidades incendiadas, das terras devastadas; ela nasce com os famosos inocentes que agonizam no dia que está amanhecendo.\n\nFOUCAULT. M. Aula de 14 de janeiro de 1976. In. Em defesa da\nsociedade. São Paulo: Martins Fontes. 1999\n\nO filósofo Michel Foucault (séc. XX) inova ao pensar a política e a lei em relação ao poder e à organização social. Com base na reflexão de Foucault, a finalidade das leis na organização das sociedades modernas é",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Combater ações violentas na guerra entre as nações."
+    },
+    {
+     "letter": "B",
+     "text": "Coagir e servir para refrear a agressividade humana."
+    },
+    {
+     "letter": "C",
+     "text": "Criar limites entre a guerra e a paz praticadas entre os indivíduos de uma mesma nação."
+    },
+    {
+     "letter": "D",
+     "text": "Estabelecer princípios éticos que regulamentam as ações bélicas entre países inimigos."
+    },
+    {
+     "letter": "E",
+     "text": "Organizar as relações de poder na sociedade e entre os Estados."
+    }
+   ],
+   "figures": [],
+   "number": 34,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Para Foucault, a lei não nasce da natureza nem da paz, mas das batalhas e conquistas: é a continuação da guerra por outros meios. A finalidade das leis é organizar as relações de poder na sociedade e entre os Estados. **Resposta: E**",
+    "keyConcept": "Foucault: lei e poder",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q39",
+   "year": 2010,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "A ética precisa ser compreendida como um empreendimento coletivo a ser constantemente retomado e rediscutido, porque é produto da relação interpessoal e social. A ética supõe ainda que cada grupo social se organize sentindo-se responsável por todos e que crie condições para o exercício de um pensar e agir autônomos. A relação entre ética e política é também uma questão de educação e luta pela soberania dos povos. É necessária uma ética renovada, que se construa a partir da natureza dos valores sociais para organizar também uma nova prática política.\n\nCORDI et al. Para filosofar. São Paulo: Scipione, 2007 (adaptado).\n\nO Século XX teve de repensar a ética para enfrentar novos problemas oriundos de diferentes crises sociais, conflitos ideológicos e contradições da realidade. Sob esse enfoque e a partir do texto, a ética pode ser compreendida como",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Instrumento de garantia da cidadania, porque através dela os cidadãos passam a pensar e agir de acordo com valores coletivos."
+    },
+    {
+     "letter": "B",
+     "text": "Mecanismo de criação de direitos humanos, porque é da natureza do homem ser ético e virtuoso."
+    },
+    {
+     "letter": "C",
+     "text": "Meio para resolver os conflitos sociais no cenário da globalização, pois a partir do entendimento do que é efetivamente a ética, a política internacional se realiza."
+    },
+    {
+     "letter": "D",
+     "text": "Parâmetro para assegurar o exercício político primando pelos interesses e ação privada dos cidadãos."
+    },
+    {
+     "letter": "E",
+     "text": "Aceitação de valores universais implícitos numa sociedade que busca dimensionar sua vinculação à outras sociedades."
+    }
+   ],
+   "figures": [],
+   "number": 39,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O texto define a ética como um empreendimento coletivo e social, sempre rediscutido. Assim entendida, ela garante a cidadania, porque leva os cidadãos a pensar e agir segundo valores coletivos. A ética não é dada pela natureza (B). **Resposta: A**",
+    "keyConcept": "ética como construção coletiva",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2010-REG-D1-C1-Q44",
+   "year": 2010,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Na ética contemporânea, o sujeito não é mais um sujeito substancial, soberano e absolutamente livre, nem um sujeito empírico puramente natural. Ele é simultaneamente os dois, na medida em que é um sujeito histórico-social. Assim, a ética adquire um dimensionamento político, uma vez que a ação do sujeito não pode mais ser vista e avaliada fora da relação social coletiva. Desse modo, a ética se entrelaça, necessariamente, com a política, entendida esta como a área de avaliação dos valores que atravessam as relações sociais e que interliga os indivíduos entre si.\n\nSEVERINO. A. J. Filosofia. São Paulo: Cortez, 1992 (adaptado)\n\nO texto, ao evocar a dimensão histórica do processo de formação da ética na sociedade contemporânea, ressalta",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Os conteúdos éticos decorrentes das ideologias político-partidárias."
+    },
+    {
+     "letter": "B",
+     "text": "O valor da ação humana derivada de preceitos metafísicos."
+    },
+    {
+     "letter": "C",
+     "text": "A sistematização de valores desassociados da cultura."
+    },
+    {
+     "letter": "D",
+     "text": "O sentido coletivo e político das ações humanas individuais."
+    },
+    {
+     "letter": "E",
+     "text": "O julgamento da ação ética pelos políticos eleitos democraticamente."
+    }
+   ],
+   "figures": [],
+   "number": 44,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Segundo Severino, o sujeito ético contemporâneo é histórico e social: suas ações individuais têm valor ao se ligarem às relações com os outros. O texto destaca o sentido coletivo e político das ações individuais. **Resposta: D**",
+    "keyConcept": "sujeito ético histórico-social",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2011-REG-D1-C1-Q2",
+   "year": 2011,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "O brasileiro tem noção clara dos comportamentos éticos e morais adequados, mas vive sob o espectro da corrupção, revela pesquisa. Se o país fosse resultado dos padrões morais que as pessoas dizem aprovar, pareceria mais com a Escandinávia do que com Bruzundanga (corrompida nação fictícia de Lima Barreto).\n\nFRAGA, P. Ninguém é inocente. Folha de S. Paulo, 4 out. 2009 (adaptado).\n\nO distanciamento entre “reconhecer” e “cumprir” efetivamente o que é moral constitui uma ambiguidade inerente ao humano, porque as normas morais são",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Decorrentes da vontade divina e, por esse motivo, utópicas."
+    },
+    {
+     "letter": "B",
+     "text": "Parâmetros idealizados, cujo cumprimento é destituído de obrigação."
+    },
+    {
+     "letter": "C",
+     "text": "Amplas e vão além da capacidade de o indivíduo conseguir cumpri-las integralmente."
+    },
+    {
+     "letter": "D",
+     "text": "Criadas pelo homem, que concede a si mesmo a lei à qual deve se submeter"
+    },
+    {
+     "letter": "E",
+     "text": "Cumpridas por aqueles que se dedicam inteiramente a observar as normas jurídicas."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "As normas morais não são impostas de fora: são criadas pelo próprio ser humano, que as dá a si mesmo (autonomia). Por isso cumpri-las depende da vontade, o que explica a distância entre reconhecer e cumprir. **Resposta: D**",
+    "keyConcept": "autonomia da norma moral",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2012-REG-D1-C1-Q2",
+   "year": 2012,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Esclarecimento é a saída do homem de sua menoridade, da qual ele próprio é culpado. A menoridade é a incapacidade de fazer uso de seu entendimento sem a direção de outro indivíduo. O homem é o próprio culpado dessa menoridade se a causa dela não se encontra na falta de entendimento, mas na falta de decisão e coragem de servir-se de si mesmo sem a direção de outrem. Tem coragem de fazer uso de teu próprio entendimento, tal é o lema do esclarecimento. A preguiça e a covardia são as causas pelas quais uma tão grande parte dos homens, depois que a natureza de há muito os libertou de uma condição estranha, continuem, no entanto, de bom grado menores durante toda a vida.\n\nKANT, I. Resposta à pergunta: o que é esclarecimento? Petrópolis: Vozes, 1985 (adaptado).\n\nKant destaca no texto o conceito de Esclarecimento, fundamental para a compreensão do contexto filosófico da Modernidade. Esclarecimento, no sentido empregado por Kant, representa",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A reivindicação de autonomia da capacidade racional como expressão da maioridade."
+    },
+    {
+     "letter": "B",
+     "text": "O exercício da racionalidade como pressuposto menor diante das verdades eternas."
+    },
+    {
+     "letter": "C",
+     "text": "A imposição de verdades matemáticas, com caráter objetivo, de forma heterônoma."
+    },
+    {
+     "letter": "D",
+     "text": "A compreensão de verdades religiosas que libertam o homem da falta de entendimento."
+    },
+    {
+     "letter": "E",
+     "text": "A emancipação da subjetividade humana de ideologias produzidas pela própria razão."
+    }
+   ],
+   "figures": [],
+   "number": 2,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Para Kant, Esclarecimento é sair da \"menoridade\", isto é, ter coragem de usar o próprio entendimento sem a direção de outro. É a afirmação da autonomia da razão. **Resposta: A**",
+    "keyConcept": "Esclarecimento kantiano",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2012-REG-D1-C1-Q7",
+   "year": 2012,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "É verdade que nas democracias o povo parece fazer o que quer; mas a liberdade política não consiste nisso. Deve-se ter sempre presente em mente o que é independência e o que é liberdade. A liberdade é o direito de fazer tudo o que as leis permitem; se um cidadão pudesse fazer tudo o que elas proíbem, não teria mais liberdade, porque os outros também teriam tal poder.\n\nMONTESQUIEU. Do Espírito das Leis. São Paulo: Editora Nova Cultural, 1997 (adaptado).\n\nA característica de democracia ressaltada por Montesquieu diz respeito",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ao status de cidadania que o indivíduo adquire ao tomar as decisões por si mesmo."
+    },
+    {
+     "letter": "B",
+     "text": "Ao condicionamento da liberdade dos cidadãos à conformidade às leis."
+    },
+    {
+     "letter": "C",
+     "text": "À possibilidade de o cidadão participar no poder e, nesse caso, livre da submissão às leis."
+    },
+    {
+     "letter": "D",
+     "text": "Ao livre-arbítrio do cidadão em relação àquilo que é proibido, desde que ciente das consequências."
+    },
+    {
+     "letter": "E",
+     "text": "Ao direito do cidadão exercer sua vontade de acordo com seus valores pessoais."
+    }
+   ],
+   "figures": [],
+   "number": 7,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Para Montesquieu, liberdade é o direito de fazer tudo o que as leis permitem. Nas democracias, a liberdade dos cidadãos está condicionada a agir conforme as leis. **Resposta: B**",
+    "keyConcept": "liberdade segundo Montesquieu",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2012-REG-D1-C1-Q9",
+   "year": 2012,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Na regulação de matérias culturalmente delicadas, como, por exemplo, a linguagem oficial, os currículos da educação pública, o status das Igrejas e das comunidades religiosas, as normas do direito penal (por exemplo, quanto ao aborto), mas também em assuntos menos chamativos, como, por exemplo, a posição da família e dos consórcios semelhantes ao matrimônio, a aceitação de normas de segurança ou a delimitação das esferas pública e privada — em tudo isso reflete-se amiúde apenas o autoentendimento ético-político de uma cultura majoritária, dominante por motivos históricos. Por causa de tais regras, implicitamente repressivas, mesmo dentro de uma comunidade republicana que garanta formalmente a igualdade de direitos para todos, pode eclodir um conflito cultural movido pelas minorias desprezadas contra a cultura da maioria.\n\nHABERMAS, J. A inclusão do outro: estudos de teoria política. São Paulo: Loyola, 2002.\n\nA reivindicação dos direitos culturais das minorias, como exposto por Habermas, encontra amparo nas democracias contemporâneas, na medida em que se alcança",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A secessão, pela qual a minoria discriminada obteria a igualdade de direitos na condição da sua concentração espacial, num tipo de independência nacional."
+    },
+    {
+     "letter": "B",
+     "text": "A reunificação da sociedade que se encontra fragmentada em grupos de diferentes comunidades étnicas, confissões religiosas e formas de vida, em torno da coesão de uma cultura política nacional."
+    },
+    {
+     "letter": "C",
+     "text": "A coexistência das diferenças, considerando a possibilidade de os discursos de autoentendimento se submeterem ao debate público, cientes de que estarão vinculados à coerção do melhor argumento."
+    },
+    {
+     "letter": "D",
+     "text": "A autonomia dos indivíduos que, ao chegarem à vida adulta, tenham condições de se libertar das tradições de suas origens em nome da harmonia da política nacional."
+    },
+    {
+     "letter": "E",
+     "text": "O desaparecimento de quaisquer limitações, tais como linguagem política ou distintas convenções de comportamento, para compor a arena política a ser compartilhada."
+    }
+   ],
+   "figures": [],
+   "number": 9,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Habermas, a democracia acolhe as minorias quando as diferentes formas de vida coexistem e os discursos de autoentendimento são submetidos ao debate público e racional entre todos. **Resposta: C**",
+    "keyConcept": "Habermas e direitos culturais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2012-REG-D1-C1-Q25",
+   "year": 2012,
+   "area": "Filosofia Antiga",
+   "content": null,
+   "demand": null,
+   "statement": "Para Platão, o que havia de verdadeiro em Parmênides era que o objeto de conhecimento é um objeto de razão e não de sensação, e era preciso estabelecer uma relação entre objeto racional e objeto sensível ou material que privilegiasse o primeiro em detrimento do segundo. Lenta, mas irresistivelmente, a Doutrina das Ideias formava-se em sua mente.\n\nZINGANO, M. Platão e Aristóteles: o fascínio da filosofia. São Paulo: Odysseus, 2012 (adaptado).\n\nO texto faz referência à relação entre razão e sensação, um aspecto essencial da Doutrina das Ideias de Platão (427 a.C.-346 a.C.). De acordo com o texto, como Platão se situa diante dessa relação?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Estabelecendo um abismo intransponível entre as duas."
+    },
+    {
+     "letter": "B",
+     "text": "Privilegiando os sentidos e subordinando o conhecimento a eles."
+    },
+    {
+     "letter": "C",
+     "text": "Atendo-se à posição de Parmênides de que razão e sensação são inseparáveis."
+    },
+    {
+     "letter": "D",
+     "text": "Afirmando que a razão é capaz de gerar conhecimento, mas a sensação não."
+    },
+    {
+     "letter": "E",
+     "text": "Rejeitando a posição de Parmênides de que a sensação é superior à razão."
+    }
+   ],
+   "figures": [],
+   "number": 25,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Platão aceita a ideia de Parmênides de que o verdadeiro conhecimento vem da razão (o mundo das Ideias), e não dos sentidos, que só dão opinião. A razão gera conhecimento; a sensação, não. **Resposta: D**",
+    "keyConcept": "Platão: razão × sensação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2012-REG-D1-C1-Q28",
+   "year": 2012,
+   "area": "Filosofia Medieval",
+   "content": null,
+   "demand": null,
+   "statement": "Anaxímenes de Mileto disse que o ar é o elemento originário de tudo o que existe, existiu e existirá, e que outras coisas provêm de sua descendência. Quando o ar se dilata, transforma-se em fogo, ao passo que os ventos são ar condensado. As nuvens formam-se a partir do ar por feltragem e, ainda mais condensadas, transformam-se em água. A água, quando mais condensada, transforma-se em terra, e quando condensada ao máximo possível, transformase em pedras.\n\nBURNET, J. A aurora da filosofia grega. Rio de Janeiro: PUC-Rio, 2006 (adaptado).\n\nTEXTO II\n\nBasílio Magno, filósofo medieval, escreveu: “Deus, como criador de todas as coisas, está no princípio do mundo e dos tempos. Quão parcas de conteúdo se nos apresentam, em face desta concepção, as especulações contraditórias dos filósofos, para os quais o mundo se origina, ou de algum dos quatro elementos, como ensinam os Jônios, ou dos átomos, como julga Demócrito. Na verdade, dão a impressão de quererem ancorar o mundo numa teia de aranha.”\n\nGILSON, E.; BOEHNER, P. História da Filosofia Cristã. São Paulo: Vozes, 1991 (adaptado).\n\nFilósofos dos diversos tempos históricos desenvolveram teses para explicar a origem do universo, a partir de uma explicação racional. As teses de Anaxímenes, filósofo grego antigo, e de Basílio, filósofo medieval, têm em comum na sua fundamentação teorias que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Eram baseadas nas ciências da natureza."
+    },
+    {
+     "letter": "B",
+     "text": "Refutavam as teorias de filósofos da religião."
+    },
+    {
+     "letter": "C",
+     "text": "Tinham origem nos mitos das civilizações antigas."
+    },
+    {
+     "letter": "D",
+     "text": "Postulavam um princípio originário para o mundo."
+    },
+    {
+     "letter": "E",
+     "text": "Defendiam que Deus é o princípio de todas as coisas."
+    }
+   ],
+   "figures": [],
+   "number": 28,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Anaxímenes diz que o ar é a origem de tudo; Basílio, filósofo cristão, atribui a origem do mundo a Deus. Os dois postulam um princípio originário do mundo, a arché. Só Basílio o identifica com Deus (E). **Resposta: D**",
+    "keyConcept": "princípio originário (arché)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2012-REG-D1-C1-Q30",
+   "year": 2012,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Experimentei algumas vezes que os sentidos eram enganosos, e é de prudência nunca se fiar inteiramente em quem já nos enganou uma vez.\n\nDESCARTES, R. Meditações Metafísicas. São Paulo: Abril Cultural, 1979.\n\nTEXTO II\n\nSempre que alimentarmos alguma suspeita de que uma ideia esteja sendo empregada sem nenhum significado, precisaremos apenas indagar: de que impressão deriva esta suposta ideia? E se for impossível atribuir-lhe qualquer impressão sensorial, isso servirá para confirmar nossa suspeita.\n\nHUME, D. Uma investigação sobre o entendimento. São Paulo: Unesp, 2004 (adaptado).\n\nNos textos, ambos os autores se posicionam sobre a natureza do conhecimento humano. A comparação dos excertos permite assumir que Descartes e Hume",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Defendem os sentidos como critério originário para considerar um conhecimento legítimo."
+    },
+    {
+     "letter": "B",
+     "text": "Entendem que é desnecessário suspeitar do significado de uma ideia na reflexão filosófica e crítica."
+    },
+    {
+     "letter": "C",
+     "text": "São legítimos representantes do criticismo quanto à gênese do conhecimento."
+    },
+    {
+     "letter": "D",
+     "text": "Concordam que conhecimento humano é impossível em relação às ideias e aos sentidos."
+    },
+    {
+     "letter": "E",
+     "text": "Atribuem diferentes lugares ao papel dos sentidos no processo de obtenção do conhecimento."
+    }
+   ],
+   "figures": [],
+   "number": 30,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Descartes desconfia dos sentidos, que enganam, e busca a certeza na razão. Para Hume, todas as ideias vêm de impressões sensíveis. Os dois dão papéis diferentes aos sentidos na formação do conhecimento. **Resposta: E**",
+    "keyConcept": "sentidos em Descartes e Hume",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2012-REG-D1-C1-Q31",
+   "year": 2012,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Não ignoro a opinião antiga e muito difundida de que o que acontece no mundo é decidido por Deus e pelo acaso. Essa opinião é muito aceita em nossos dias, devido às grandes transformações ocorridas, e que ocorrem diariamente, as quais escapam à conjectura humana. Não obstante, para não ignorar inteiramente o nosso livre-arbítrio, creio que se pode aceitar que a sorte decida metade dos nossos atos, mas [o livre-arbítrio] nos permite o controle sobre a outra metade.\n\nMAQUIAVEL, N. O Príncipe. Brasília: EdUnB, 1979 (adaptado).\n\nEm O Príncipe, Maquiavel refletiu sobre o exercício do poder em seu tempo. No trecho citado, o autor demonstra o vínculo entre o seu pensamento político e o humanismo renascentista ao",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Valorizar a interferência divina nos acontecimentos definidores do seu tempo."
+    },
+    {
+     "letter": "B",
+     "text": "Rejeitar a intervenção do acaso nos processos políticos."
+    },
+    {
+     "letter": "C",
+     "text": "Afirmar a confiança na razão autônoma como fundamento da ação humana."
+    },
+    {
+     "letter": "D",
+     "text": "Romper com a tradição que valorizava o passado como fonte de aprendizagem."
+    },
+    {
+     "letter": "E",
+     "text": "Redefinir a ação política com base na unidade entre fé e razão."
+    }
+   ],
+   "figures": [],
+   "number": 31,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Maquiavel admite que a fortuna (o acaso) controla metade dos acontecimentos, mas afirma que a outra metade depende da ação humana. É a confiança renascentista na capacidade racional e autônoma do ser humano. **Resposta: C**",
+    "keyConcept": "Maquiavel e a virtù",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q4",
+   "year": 2013,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Há já algum tempo eu me apercebi de que, desde meus primeiros anos, recebera muitas falsas opiniões como verdadeiras, e de que aquilo que depois eu fundei em princípios tão mal assegurados não podia ser senão mui duvidoso e incerto. Era necessário tentar seriamente, uma vez em minha vida, desfazer-me de todas as opiniões a que até então dera crédito, e começar tudo novamente a fim de estabelecer um saber firme e inabalável.\n\nDESCARTES, R. Meditações concernentes à Primeira Filosofia. São Paulo: Abril Cultural, 1973 (adaptado).\n\nTEXTO II\n\nÉ o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida.\n\nSILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado).\n\nA exposição e a análise do projeto cartesiano indicam que, para viabilizar a reconstrução radical do conhecimento, deve-se",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Retomar o método da tradição para edificar a ciência com legitimidade."
+    },
+    {
+     "letter": "B",
+     "text": "Questionar de forma ampla e profunda as antigas ideias e concepções."
+    },
+    {
+     "letter": "C",
+     "text": "Investigar os conteúdos da consciência dos homens menos esclarecidos."
+    },
+    {
+     "letter": "D",
+     "text": "Buscar uma via para eliminar da memória saberes antigos e ultrapassados."
+    },
+    {
+     "letter": "E",
+     "text": "Encontrar ideias e pensamentos evidentes que dispensam ser questionados."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Descartes percebe que aceitou muitas opiniões falsas e decide duvidar de tudo para reconstruir o saber sobre bases seguras. É preciso questionar de forma ampla e profunda as antigas ideias. **Resposta: B**",
+    "keyConcept": "dúvida metódica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q10",
+   "year": 2013,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Nasce daqui uma questão: se vale mais ser amado que temido ou temido que amado. Responde-se que ambas as coisas seriam de desejar; mas porque é difícil juntá-las, é muito mais seguro ser temido que amado, quando haja de faltar uma das duas. Porque dos homens se pode dizer, duma maneira geral, que são ingratos, volúveis, simuladores, covardes e ávidos de lucro, e enquanto lhes fazes bem são inteiramente teus, oferecem-te o sangue, os bens, a vida e os filhos, quando, como acima disse, o perigo está longe; mas quando ele chega, revoltam-se.\n\nMAQUIAVEL, N. O príncipe. Rio de Janeiro: Bertrand, 1991.\n\nA partir da análise histórica do comportamento humano em suas relações sociais e políticas. Maquiavel define o homem como um ser",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Munido de virtude, com disposição nata a praticar o bem a si e aos outros."
+    },
+    {
+     "letter": "B",
+     "text": "Possuidor de fortuna, valendo-se de riquezas para alcançar êxito na política."
+    },
+    {
+     "letter": "C",
+     "text": "Guiado por interesses, de modo que suas ações são imprevisíveis e inconstantes."
+    },
+    {
+     "letter": "D",
+     "text": "Naturalmente racional, vivendo em um estado pré-social e portando seus direitos naturais."
+    },
+    {
+     "letter": "E",
+     "text": "Sociável por natureza, mantendo relações pacíficas com seus pares."
+    }
+   ],
+   "figures": [],
+   "number": 10,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Maquiavel prefere que o príncipe seja temido porque os homens são ingratos, volúveis e interesseiros: ficam ao lado do príncipe na fartura e se revoltam no perigo. O homem é guiado por interesses e é inconstante. **Resposta: C**",
+    "keyConcept": "natureza humana em Maquiavel",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q22",
+   "year": 2013,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Para que não haja abuso, é preciso organizar as coisas de maneira que o poder seja contido pelo poder. Tudo estaria perdido se o mesmo homem ou o mesmo corpo dos principais, ou dos nobres, ou do povo, exercesse esses três poderes: o de fazer leis, o de executar as resoluções públicas e o de julgar os crimes ou as divergências dos indivíduos. Assim, criam-se os poderes Legislativo, Executivo e Judiciário, atuando de forma independente para a efetivação da liberdade, sendo que esta não existe se uma mesma pessoa ou grupo exercer os referidos poderes concomitantemente.\n\nMONTESQUIEU, B. Do espírito das leis. São Paulo Abril Cultural, 1979 (adaptado).\n\nA divisão e a independência entre os poderes são condições necessárias para que possa haver liberdade em um Estado. Isso pode ocorrer apenas sob um modelo político em que haja",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Exercício de tutela sobre atividades jurídicas e políticas."
+    },
+    {
+     "letter": "B",
+     "text": "Consagração do poder político pela autoridade religiosa."
+    },
+    {
+     "letter": "C",
+     "text": "Concentração do poder nas mãos de elites técnico-cientifícas."
+    },
+    {
+     "letter": "D",
+     "text": "Estabelecimento de limites aos atores públicos e às instituições do governo."
+    },
+    {
+     "letter": "E",
+     "text": "Reunião das funções de legislar, julgar e executar nas mãos de um governante eleito."
+    }
+   ],
+   "figures": [],
+   "number": 22,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Para Montesquieu, \"o poder freia o poder\": separar as funções de legislar, executar e julgar evita abusos. Isso só é possível num modelo que estabelece limites aos governantes e às instituições. **Resposta: D**",
+    "keyConcept": "separação dos poderes",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q24",
+   "year": 2013,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "O edifício é circular. Os apartamentos dos prisioneiros ocupam a circunferência. Você pode chamá-los, se quiser, de celas. O apartamento do inspetor ocupa o centro; você pode chamá-lo, se quiser de alojamento do inspetor. A moral reformada; a saúde preservada; a indústria revigorada; a instrução difundida; os encargos públicos aliviados; a economia assentada, como deve ser, sobre uma rocha; o nó górdio da Lei sobre os Pobres não cortado, mas desfeito – tudo por uma simples ideia de arquitetura!\n\nBENTHAM, J. O panóptico. Belo Horizonte: Autêntica, 2008.\n\nEssa é a proposta de um sistema conhecido como panóptico, um modelo que mostra o poder da disciplina nas sociedades contemporâneas, exercido preferencialmente por mecanismos",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Religiosos, que se constituem como um olho divino controlador que tudo vê."
+    },
+    {
+     "letter": "B",
+     "text": "Ideológicos, que estabelecem limites pela alienação, impedindo a visão da dominação sofrida."
+    },
+    {
+     "letter": "C",
+     "text": "Repressivos, que perpetuam as relações de dominação entre os homens por meio da tortura física."
+    },
+    {
+     "letter": "D",
+     "text": "Sutis, que adestram os corpos no espaço-tempo por meio do olhar como instrumento de controle."
+    },
+    {
+     "letter": "E",
+     "text": "Consensuais, que pactuam acordos com base na compreensão dos benefícios gerais de se ter as próprias ações controladas."
+    }
+   ],
+   "figures": [],
+   "number": 24,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O panóptico de Bentham, analisado por Foucault, mostra um poder disciplinar sutil: o prisioneiro sabe que pode ser visto a qualquer momento e passa a controlar a si mesmo. O olhar vira instrumento de adestramento dos corpos. **Resposta: D**",
+    "keyConcept": "panóptico e disciplina",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q27",
+   "year": 2013,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "A felicidade é, portanto, a melhor, a mais nobre e a mais aprazível coisa do mundo, e esses atributos não devem estar separados como na inscrição existente em Delfos “das coisas, a mais nobre é a mais justa, e a melhor é a saúde; porém a mais doce é ter o que amamos”. Todos estes atributos estão presentes nas mais excelentes atividades, e entre essas a melhor, nós a identificamos como felicidade.\n\nARISTOTELES. A Política. São Paulo: Cia das Letras, 2010.\n\nAo reconhecer na felicidade a reunião dos mais excelentes atributos, Aristoteles a identifica como",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Busca por bens materiais e títulos de nobreza."
+    },
+    {
+     "letter": "B",
+     "text": "Plenitude espiritual e ascese pessoal."
+    },
+    {
+     "letter": "C",
+     "text": "Finalidade das ações e condutas humanas."
+    },
+    {
+     "letter": "D",
+     "text": "Conhecimento de verdades imutáveis e perfeitas."
+    },
+    {
+     "letter": "E",
+     "text": "Expressão do sucesso individual e reconhecimento público."
+    }
+   ],
+   "figures": [],
+   "number": 27,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Aristóteles, a felicidade reúne o melhor, o mais nobre e o mais aprazível. Ela é o bem supremo, buscado por si mesmo, e por isso é a finalidade das ações humanas. **Resposta: C**",
+    "keyConcept": "eudaimonia aristotélica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q36",
+   "year": 2013,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Até hoje admitia-se que nosso conhecimento se devia regular pelos objetos; porém, todas as tentativas para descobrir, mediante conceitos, algo que ampliasse nosso conhecimento, malogravam-se com esse pressuposto. Tentemos, pois, uma vez, experimentar se não se resolverão melhor as tarefas da metafísica, admitindo que os objetos se deveriam regular pelo nosso conhecimento.\n\nKANT, I. Crítica da razão pura. Lisboa: Calouste-Gulbenkian, 1994 (adaptado).\n\nO trecho em questão é uma referência ao que ficou conhecido como revolução copernicana na filosofia. Nele, confrontam-se duas posições filosóficas que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Assumem pontos de vista opostos acerca da natureza do conhecimento."
+    },
+    {
+     "letter": "B",
+     "text": "Defendem que o conhecimento é impossível, restando-nos somente o ceticismo."
+    },
+    {
+     "letter": "C",
+     "text": "Revelam a relação de interdependência entre os dados da experiência e a reflexão filosófica."
+    },
+    {
+     "letter": "D",
+     "text": "Apostam, no que diz respeito às tarefas da filosofia, na primazia das ideias em relação aos objetos."
+    },
+    {
+     "letter": "E",
+     "text": "Refutam-se mutuamente quanto à natureza do nosso conhecimento e são ambas recusadas por Kant."
+    }
+   ],
+   "figures": [],
+   "number": 36,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Kant contrapõe a visão tradicional, em que o conhecimento se regula pelos objetos, à sua proposta, em que os objetos se regulam pelo sujeito que conhece. São dois pontos de vista opostos sobre a natureza do conhecimento. **Resposta: A**",
+    "keyConcept": "revolução copernicana de Kant",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2013-REG-D1-C1-Q41",
+   "year": 2013,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Os produtos e seu consumo constituem a meta declarada do empreendimento tecnológico. Essa meta foi proposta pela primeira vez no início da Modernidade, como expectativa de que o homem poderia dominar a natureza. No entanto, essa expectativa, convertida em programa anunciado por pensadores como Descartes e Bacon e impulsionado pelo Iluminismo, não surgiu “de um prazer de poder”, “de um mero imperialismo humano”, mas da aspiração de libertar o homem e de enriquecer sua vida, física e culturalmente.\n\nCUPANI, A. A tecnologia como problema filosófico: três enfoques. Scientiae Studia, São Paulo, v. 2, n. 4, 2004 (adaptado).\n\nAutores da filosofia moderna, notadamente Descartes e Bacon, e o projeto iluminista concebem a ciência como uma forma de saber que almeja libertar o homem das intempéries da natureza. Nesse contexto, a investigação científica consiste em",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Expor a essência da verdade e resolver definitivamente as disputas teóricas ainda existentes."
+    },
+    {
+     "letter": "B",
+     "text": "Oferecer a última palavra acerca das coisas que existem e ocupar o lugar que outrora foi da filosofia."
+    },
+    {
+     "letter": "C",
+     "text": "Ser a expressão da razão e servir de modelo para outras áreas do saber que almejam o progresso."
+    },
+    {
+     "letter": "D",
+     "text": "Explicitar as leis gerais que permitem interpretar a natureza e eliminar os discursos éticos e religiosos."
+    },
+    {
+     "letter": "E",
+     "text": "Explicar a dinâmica presente entre os fenômenos naturais e impor limites aos debates acadêmicos."
+    }
+   ],
+   "figures": [],
+   "number": 41,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Descartes, Bacon e o Iluminismo, a ciência é a expressão maior da razão: dá ao ser humano domínio sobre a natureza e serve de modelo de progresso para os outros saberes. **Resposta: C**",
+    "keyConcept": "ciência moderna como modelo de razão",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q4",
+   "year": 2014,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "É o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida.\n\nSILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado).\n\nApesar de questionar os conceitos da tradição, a dúvida radical da filosofia cartesiana tem caráter positivo por contribuir para o (a):",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dissolução do saber científico."
+    },
+    {
+     "letter": "B",
+     "text": "Recuperação dos antigos juízos."
+    },
+    {
+     "letter": "C",
+     "text": "Exaltação do pensamento clássico."
+    },
+    {
+     "letter": "D",
+     "text": "Surgimento do conhecimento inabalável."
+    },
+    {
+     "letter": "E",
+     "text": "Fortalecimento dos preconceitos religiosos."
+    }
+   ],
+   "figures": [],
+   "number": 4,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "A dúvida cartesiana é radical, mas tem caráter positivo: ao resistir a ela, chega-se a uma certeza indubitável (o \"penso, logo existo\"), base de um conhecimento inabalável. **Resposta: D**",
+    "keyConcept": "dúvida que gera certeza",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q12",
+   "year": 2014,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Panayiotis Zavos “quebrou” o último tabu da clonagem humana — transferiu embriões para o útero de mulheres, que os gerariam. Esse procedimento é crime em inúmeros países. Aparentemente, o médico possuía um laboratório secreto, no qual fazia seus experimentos. “Não tenho nenhuma dúvida de que uma criança clonada irá aparecer em breve. Posso não ser eu o médico que irá criá-la, mas vai acontecer”, declarou Zavos. “Se nos esforçarmos, podemos ter um bebê clonado daqui a um ano, ou dois, mas não sei se é o caso. Não sofremos pressão para entregar um bebê clonado ao mundo. Sofremos pressão para entregar um bebê clonado saudável ao mundo.”\n\nCONNOR, S. Disponível em: www.independent.co.uk. Acesso em: 14 ago. 2012 (adaptado).\n\nA clonagem humana é um importante assunto de reflexão no campo da bioética que, entre outras questões, dedica-se a:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Refletir sobre as relações entre o conhecimento da vida e os valores éticos do homem."
+    },
+    {
+     "letter": "B",
+     "text": "Legitimar o predomínio da espécie humana sobre as demais espécies animais no planeta."
+    },
+    {
+     "letter": "C",
+     "text": "Relativizar, no caso da clonagem humana, o uso dos valores de certo e errado, de bem e mal."
+    },
+    {
+     "letter": "D",
+     "text": "Legalizar, pelo uso das técnicas de clonagem, os processos de reprodução humana e animal."
+    },
+    {
+     "letter": "E",
+     "text": "Fundamentar técnica e economicamente as pesquisas sobre células-tronco para uso em seres humanos."
+    }
+   ],
+   "figures": [],
+   "number": 12,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "A bioética discute os limites morais das intervenções da ciência sobre a vida, como a clonagem humana. Sua tarefa é relacionar o conhecimento da vida aos valores éticos. **Resposta: A**",
+    "keyConcept": "bioética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q14",
+   "year": 2014,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Uma norma só deve pretender validez quando todos os que possam ser concernidos por ela cheguem (ou possam chegar), enquanto participantes de um discurso prático, a um acordo quanto à validade dessa norma.\n\nHABERMAS, J. Consciência moral e agir comunicativo. Rio de Janeiro: Tempo Brasileiro, 1989.\n\nSegundo Habermas, a validez de uma norma deve ser estabelecida pelo(a):",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Liberdade humana, que consagra a vontade."
+    },
+    {
+     "letter": "B",
+     "text": "Razão comunicativa, que requer um consenso."
+    },
+    {
+     "letter": "C",
+     "text": "Conhecimento filosófico, que expressa a verdade."
+    },
+    {
+     "letter": "D",
+     "text": "Técnica científica, que aumento o poder do homem."
+    },
+    {
+     "letter": "E",
+     "text": "Poder político, que se concentra no sistema partidário."
+    }
+   ],
+   "figures": [],
+   "number": 14,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Para Habermas, uma norma só é válida se todos os afetados por ela puderem concordar com ela num discurso prático. A validade vem da razão comunicativa, que busca o consenso. **Resposta: B**",
+    "keyConcept": "ética do discurso",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q19",
+   "year": 2014,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Olhamos o homem alheio às atividades públicas não como alguém que cuida apenas de seus próprios interesses, mas como um inútil; nós, cidadãos atenienses, decidimos as questões públicas por nós mesmos na crença de que não é o debate que é empecilho à ação, e sim o fato de não se estar esclarecido pelo debate antes de chegar a hora da ação.\n\nTUCÍDIDES. História da Guerra do Peloponeso. Brasília: UnB, 1987 (adaptado).\n\nTEXTO II\n\nUm cidadão integral pode ser definido nada menos que pelo direito de administrar justiça e exercer funções públicas; algumas destas, todavia, são limitadas quanto ao tempo de exercício, de tal modo que não podem de forma alguma ser exercidas duas vezes pela mesma pessoa, ou somente podem sê-lo depois de certos intervalos de tempo prefixados.\n\nARISTÓTELES. Política. Brasília: UnB, 1985.\n\nComparando os textos I e II, tanto para Tucídides (no século V a.C.) quanto para Aristóteles (no século IV a.C.), a cidadania era definida pelo(a):",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Prestígio social."
+    },
+    {
+     "letter": "B",
+     "text": "Acúmulo de riqueza."
+    },
+    {
+     "letter": "C",
+     "text": "Participação política."
+    },
+    {
+     "letter": "D",
+     "text": "Local de nascimento."
+    },
+    {
+     "letter": "E",
+     "text": "Grupo de parentesco."
+    }
+   ],
+   "figures": [],
+   "number": 19,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Tucídides (na voz de Péricles) considera inútil quem se afasta da vida pública. Aristóteles define cidadão como quem participa das funções de julgar e governar. Para os dois, a cidadania é participação política. **Resposta: C**",
+    "keyConcept": "cidadania como participação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q24",
+   "year": 2014,
+   "area": "Filosofia Antiga",
+   "content": null,
+   "demand": null,
+   "statement": "Alguns dos desejos são naturais e necessários; outros, naturais e não necessários; outros, nem naturais nem necessários, mas nascidos de vã opinião. Os desejos que não nos trazem dor se não satisfeitos não são necessários, mas o seu impulso pode ser facilmente desfeito, quando é difícil obter sua satisfação ou parecem geradores de dano.\n\nEPICURO DE SAMOS. Doutrinas principais. In: SANSON, V F. Textos de filosofia. Rio de Janeiro: Eduff, 1974.\n\nNo fragmento da obra filosófica de Epicuro, o homem tem como fim",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Alcançar o prazer moderado e a felicidade."
+    },
+    {
+     "letter": "B",
+     "text": "Valorizar os deveres e as obrigações sociais."
+    },
+    {
+     "letter": "C",
+     "text": "Aceitar o sofrimento e o rigorismo da vida com resignação."
+    },
+    {
+     "letter": "D",
+     "text": "Refletir sobre os valores e as normas dadas pela divindade."
+    },
+    {
+     "letter": "E",
+     "text": "Defender a indiferença e a impossibilidade de se atingir o saber."
+    }
+   ],
+   "figures": [],
+   "number": 24,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Epicuro classifica os desejos e recomenda satisfazer só os naturais e necessários. Assim se evita a dor e se alcança a ataraxia (tranquilidade), ou seja, o prazer moderado e a felicidade. **Resposta: A**",
+    "keyConcept": "Epicuro: prazer moderado",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2014-REG-D1-C1-Q29",
+   "year": 2014,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "A filosofia encontra-se escrita neste grande livro que continuamente se abre perante nossos olhos (isto é, o universo), que não se pode compreender antes de entender a língua e conhecer os caracteres com os quais está escrito. Ele está escrito em língua matemática, os caracteres são triângulos, circunferências e outras figuras geométricas, sem cujos meios é impossível entender humanamente as palavras; sem eles, vagamos perdidos dentro de um obscuro labirinto.\n\nGALILEI, G. O ensaiador. Os pensadores. São Paulo: Abril Cultural, 1978.\n\nNo contexto da Revolução Científica do século XVII, assumir a posição de Galileu significava defender a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Continuidade do vínculo entre ciência e fé dominante na Idade Média."
+    },
+    {
+     "letter": "B",
+     "text": "Necessidade de o estudo linguístico ser acompanhado do exame matemático."
+    },
+    {
+     "letter": "C",
+     "text": "Oposição da nova física quantitativa aos pressupostos da filosofia escolástica."
+    },
+    {
+     "letter": "D",
+     "text": "Importância da independência da investigação científica pretendida pela Igreja."
+    },
+    {
+     "letter": "E",
+     "text": "Inadequação da matemática para elaborar uma explicação racional da natureza."
+    }
+   ],
+   "figures": [],
+   "number": 29,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Galileu, o \"livro da natureza\" está escrito em linguagem matemática. Defender isso era opor a nova física quantitativa e experimental à física qualitativa da escolástica, baseada em Aristóteles. **Resposta: C**",
+    "keyConcept": "Galileu e a física matemática",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q3",
+   "year": 2015,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "Apesar de seu disfarce de iniciativa e otimismo, o homem moderno está esmagado por um profundo sentimento de impotência que o faz olhar fixamente e, como que paralisado, para as catástrofes que se avizinham. Por isso, desde já, saliente-se a necessidade de uma permanente atitude crítica, o único modo pelo qual o homem realizará sua vocação natural de integrar-se, superando a atitude do simples ajustamento ou acomodação, apreendendo temas e tarefas de sua época.\n\nFREIRE, P. Educação como prática da liberdade. Rio de Janeiro: Paz e Terra, 2011.\n\nPaulo Freire defende que a superação das dificuldades e a apreensão da realidade atual será obtida pelo(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Desenvolvimento do pensamento autônomo."
+    },
+    {
+     "letter": "B",
+     "text": "Obtenção de qualificação profissional."
+    },
+    {
+     "letter": "C",
+     "text": "Resgate de valores tradicionais."
+    },
+    {
+     "letter": "D",
+     "text": "Realização de desejos pessoais."
+    },
+    {
+     "letter": "E",
+     "text": "Aumento da renda familiar."
+    }
+   ],
+   "figures": [],
+   "number": 3,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Freire critica o homem moderno, paralisado e só ajustado ao seu tempo. Ele propõe superar isso pela integração crítica com a realidade, ou seja, desenvolvendo um pensamento autônomo capaz de captar os temas da época. **Resposta: A**",
+    "keyConcept": "Paulo Freire: consciência crítica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q13",
+   "year": 2015,
+   "area": "Filosofia Antiga",
+   "content": null,
+   "demand": null,
+   "statement": "Trasímaco estava impaciente porque Sócrates e os seus amigos presumiam que a justiça era algo real e importante. Trasímaco negava isso. Em seu entender, as pessoas acreditavam no certo e no errado apenas por terem sido ensinadas a obedecer às regras da sua sociedade. No entanto, essas regras não passavam de invenções humanas.\n\nRACHELS, J. Problemas da Filosofia. Lisboa: Gradiva, 2009.\n\nO sofista Trasímaco, personagem imortalizado no diálogo A República, de Platão, sustentava que a correlação entre justiça e ética é resultado de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Determinações biológicas impregnadas na natureza humana."
+    },
+    {
+     "letter": "B",
+     "text": "Verdades objetivas com fundamento anterior aos interesses sociais."
+    },
+    {
+     "letter": "C",
+     "text": "Mandamentos divinos inquestionáveis legados das tradições antigas."
+    },
+    {
+     "letter": "D",
+     "text": "Convenções sociais resultantes de interesses humanos contingentes."
+    },
+    {
+     "letter": "E",
+     "text": "Sentimentos experimentados diante de determinadas atitudes humanas."
+    }
+   ],
+   "figures": [],
+   "number": 13,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Para o sofista Trasímaco, certo e errado são só regras criadas pelos homens (no fundo, pelo interesse dos mais fortes), e não verdades objetivas. A justiça é uma convenção social que nasce de interesses humanos contingentes. **Resposta: D**",
+    "keyConcept": "Trasímaco e o convencionalismo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q16",
+   "year": 2015,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Todo o poder criativo da mente se reduz a nada mais do que a faculdade de compor, transpor, aumentar ou diminuir os materiais que nos fornecem os sentidos e a experiência. Quando pensamos em uma montanha de ouro, não fazemos mais do que juntar duas ideias consistentes, ouro e montanha, que já conhecíamos. Podemos conceber um cavalo virtuoso, porque somos capazes de conceber a virtude a partir de nossos próprios sentimento, e podemos unir a isso a figura e a forma de um cavalo, animal que nos é familiar.\n\nHUME, D. Investigação sobre o entendimento humano. São Paulo: Abril Cultural, 1995.\n\nHume estabelece um vínculo entre pensamento e impressão ao considerar que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Os conteúdos das ideias no intelecto têm origem na sensação."
+    },
+    {
+     "letter": "B",
+     "text": "O espírito é capaz de classificar os dados da percepção sensível."
+    },
+    {
+     "letter": "C",
+     "text": "As ideias fracas resultam de experiências sensoriais determinadas pelo acaso."
+    },
+    {
+     "letter": "D",
+     "text": "Os sentimentos ordenam como os pensamentos devem ser processados na memória."
+    },
+    {
+     "letter": "E",
+     "text": "As ideias têm como fonte específica o sentimento cujos dados são colhidos na empiria."
+    }
+   ],
+   "figures": [],
+   "number": 16,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Para Hume, a mente só combina materiais vindos dos sentidos: a \"montanha de ouro\" junta as ideias de ouro e de montanha. O conteúdo das ideias tem origem nas impressões sensíveis. **Resposta: A**",
+    "keyConcept": "empirismo de Hume",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q17",
+   "year": 2015,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Ora, em todas as coisas ordenadas a algum fim, é preciso haver algum dirigente, pelo qual se atinja diretamente o devido fim. Com efeito, um navio, que se move para diversos lados pelo impulso dos ventos contrários, não chegaria ao fim de destino, se por indústria do piloto não fosse dirigido ao porto; ora, tem o homem um fim, para o qual se ordenam toda a sua vida e ação. Acontece, porém, agirem os homens de modos diversos em vista do fim, o que a própria diversidade dos esforços e ações humanas comprova. Portanto, precisa o homem de um dirigente para o fim.\n\nAQUINO, T. Do reino ou do governo dos homens: ao rei do Chipre. Escritos políticos de São Tomás de Aquino. Petrópolis: Vozes, 1995 (adaptado).\n\nNo trecho citado, Tomás de Aquino justifica a monarquia como o regime de governo capaz de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Refrear os movimentos religiosos contestatórios."
+    },
+    {
+     "letter": "B",
+     "text": "Promover a atuação da sociedade civil na vida política."
+    },
+    {
+     "letter": "C",
+     "text": "Unir a sociedade tendo em vista a realização do bem comum."
+    },
+    {
+     "letter": "D",
+     "text": "Reformar a religião por meio do retorno à tradição helenística."
+    },
+    {
+     "letter": "E",
+     "text": "Dissociar a relação política entre os poderes temporal e espiritual."
+    }
+   ],
+   "figures": [],
+   "number": 17,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Como um navio precisa de um piloto para chegar ao porto, a sociedade precisa de um dirigente que a conduza ao seu fim. Para Tomás de Aquino, a monarquia une a sociedade em vista do bem comum. **Resposta: C**",
+    "keyConcept": "Tomás de Aquino e o bem comum",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q26",
+   "year": 2015,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "A natureza fez os homens tão iguais, quanto às faculdades do corpo e do espírito, que, embora por vezes se encontre um homem manifestamente mais forte de corpo, ou de espírito mais vivo do que outro, mesmo assim, quando se considera tudo isto em conjunto, a diferença entre um e outro homem não é suficientemente considerável para que um deles possa com base nela reclamar algum benefício a que outro não possa igualmente aspirar.\n\nHOBBES, T. Leviatã. São Paulo: Martins Fontes, 2003.\n\nPara Hobbes, antes da constituição da sociedade civil, quando dois homens desejavam o mesmo objeto, eles",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Entravam em conflito."
+    },
+    {
+     "letter": "B",
+     "text": "Recorriam aos clérigos."
+    },
+    {
+     "letter": "C",
+     "text": "Consultavam os anciãos."
+    },
+    {
+     "letter": "D",
+     "text": "Apelavam aos governantes."
+    },
+    {
+     "letter": "E",
+     "text": "Exerciam a solidariedade."
+    }
+   ],
+   "figures": [],
+   "number": 26,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Para Hobbes, a natureza fez os homens quase iguais. Por isso, quando dois desejam a mesma coisa, que não podem ter juntos, tornam-se inimigos: é a \"guerra de todos contra todos\". Antes da sociedade civil, eles entravam em conflito. **Resposta: A**",
+    "keyConcept": "estado de natureza em Hobbes",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q28",
+   "year": 2015,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "O que implica o sistema da pólis é uma extraordinária preeminência da palavra sobre todos os outros instrumentos do poder. A palavra constitui o debate contraditório, a discussão, a argumentação e a polêmica. Torna-se a regra do jogo intelectual, assim como do jogo político.\n\nVERNANT, J. P. As origens do pensamento grego. Rio de Janeiro: Bertrand, 1992 (adaptado).\n\nNa configuração política da democracia grega, em especial a ateniense, a ágora tinha por função",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Agregar os cidadãos em torno de reis que governavam em prol da cidade."
+    },
+    {
+     "letter": "B",
+     "text": "Permitir aos homens livres o acesso às decisões do Estado expostas por seus magistrados."
+    },
+    {
+     "letter": "C",
+     "text": "Constituir o lugar onde o corpo de cidadãos se reunia para deliberar sobre as questões da comunidade."
+    },
+    {
+     "letter": "D",
+     "text": "Reunir os exércitos para decidir em assembleias fechadas os rumos a serem tomados em caso de guerra."
+    },
+    {
+     "letter": "E",
+     "text": "Congregar a comunidade para eleger representantes com direito a pronunciar-se em assembleias."
+    }
+   ],
+   "figures": [],
+   "number": 28,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Na democracia ateniense, a palavra e o debate eram o instrumento do poder. A ágora, e sobretudo a Eclésia, era o espaço em que os cidadãos se reuniam para deliberar diretamente sobre as questões da comunidade. **Resposta: C**",
+    "keyConcept": "ágora e democracia",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2015-REG-D1-C1-Q34",
+   "year": 2015,
+   "area": "Filosofia Antiga",
+   "content": null,
+   "demand": null,
+   "statement": "A filosofia grega parece começar com uma ideia absurda, com a proposição: a água é a origem e a matriz de todas as coisas. Será mesmo necessário deter-nos nela e levá-la a sério? Sim, e por três razões: em primeiro lugar, porque essa proposição enuncia algo sobre a origem das coisas; em segundo lugar, porque o faz sem imagem e fabulação; e, enfim, em terceiro lugar, porque nela, embora apenas em estado de crisálida, está contido o pensamento: Tudo é um.\n\nNIETZSCHE, F. Crítica moderna. In: Os pré-socráticos. São Paulo: Nova Cultural, 1999.\n\nO que, de acordo com Nietzsche, caracteriza o surgimento da filosofia entre os gregos?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "O impulso para transformar, mediante justificativas, os elementos sensíveis em verdades racionais."
+    },
+    {
+     "letter": "B",
+     "text": "O desejo de explicar, usando metáforas, a origem dos seres e das coisas."
+    },
+    {
+     "letter": "C",
+     "text": "A necessidade de buscar, de forma racional, a causa primeira das coisas existentes."
+    },
+    {
+     "letter": "D",
+     "text": "A ambição de expor, de maneira metódica, as diferenças entre as coisas."
+    },
+    {
+     "letter": "E",
+     "text": "A tentativa de justificar, a partir de elementos empíricos, o que existe no real."
+    }
+   ],
+   "figures": [],
+   "number": 34,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Nietzsche, a frase de Tales (\"a água é a origem de tudo\") importa porque busca uma origem das coisas sem recorrer ao mito e contém a ideia de que \"tudo é um\". A filosofia nasce da busca racional da causa primeira. **Resposta: C**",
+    "keyConcept": "Tales e o nascimento da filosofia",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q1",
+   "year": 2016,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "Sentimos que toda satisfação de nossos desejos advinda do mundo assemelha-se à esmola que mantém hoje o mendigo vivo, porém prolonga amanhã a sua fome. A resignação, ao contrário, assemelha-se à fortuna herdada: livra o herdeiro para sempre de todas as preocupações.\n\nSCHOPENHAUER, A. Aforismo para a sabedoria da vida. São Paulo: Martins Fontes, 2005.\n\nO trecho destaca uma ideia remanescente de uma tradição filosófica ocidental, segundo a qual a felicidade se mostra indissociavelmente ligada à",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Consagração de relacionamentos afetivos."
+    },
+    {
+     "letter": "B",
+     "text": "Administração da independência interior."
+    },
+    {
+     "letter": "C",
+     "text": "Fugacidade do conhecimento empírico."
+    },
+    {
+     "letter": "D",
+     "text": "Liberdade de expressão religiosa."
+    },
+    {
+     "letter": "E",
+     "text": "Busca de prazeres efêmeros."
+    }
+   ],
+   "figures": [],
+   "number": 1,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Satisfazer desejos é como uma esmola que só adia a fome. A resignação, que liberta o indivíduo das necessidades externas, é a verdadeira riqueza. A felicidade está no domínio de si e na independência interior. **Resposta: B**",
+    "keyConcept": "Schopenhauer e a resignação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q6",
+   "year": 2016,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Ser ou não ser — eis a questão.\nMorrer — dormir — Dormir! Talvez sonhar. Aí está o obstáculo!\nOs sonhos que hão de vir no sono da morte\nQuando tivermos escapado ao tumulto vital\nNos obriguam a hesitar: e é essa a reflexão\nQue dá à desventura uma vida tão longa.\n\nSHAKESPEARE, W. Hamlet. Porto Alegre: L&PM, 2007\n\nEste solilóquio pode ser considerado um precursor do existencialismo ao enfatizar a tensão entre",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Consciência de si e angústia humana."
+    },
+    {
+     "letter": "B",
+     "text": "Inevitabilidade do destino e incerteza moral."
+    },
+    {
+     "letter": "C",
+     "text": "Tragicidade da personagem e ordem do mundo."
+    },
+    {
+     "letter": "D",
+     "text": "Racionalidade argumentativa e loucura iminente."
+    },
+    {
+     "letter": "E",
+     "text": "Dependência paterna e impossibilidade de ação."
+    }
+   ],
+   "figures": [],
+   "number": 6,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "\"Ser ou não ser\" mostra o sujeito que reflete sobre a própria existência e a morte e hesita diante delas. Essa tensão entre consciência de si e angústia é um tema central do existencialismo. **Resposta: A**",
+    "keyConcept": "Hamlet e o existencialismo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q15",
+   "year": 2016,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "Hoje, a indústria cultural assumiu a herança civilizatória da democracia de pioneiros e empresários, que tampouco desenvolvera uma fineza de sentido para os desvios espirituais. Todos são livres para dançar e para se divertir do mesmo modo que, desde a neutralização histórica da religião, são livres para entrar em qualquer uma das inúmeras seitas. Mas a liberdade de escolha da ideologia, que reflete sempre a coerção econômica, revela-se em todos os setores como a liberdade de escolher o que é sempre a mesma coisa.\n\nADORNO, T; HORKHEIMER, M. Dialética do esclarecimento: fragmentos filosóficos. Rio de Janeiro; Zahar, 1985\n\nA liberdade de escolha na civilização ocidental, de acordo com a análise do texto, é um(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Legado social."
+    },
+    {
+     "letter": "B",
+     "text": "Patrimônio politico."
+    },
+    {
+     "letter": "C",
+     "text": "Produto da moralidade."
+    },
+    {
+     "letter": "D",
+     "text": "Conquista da humanidade."
+    },
+    {
+     "letter": "E",
+     "text": "Ilusão da contemporaneidade."
+    }
+   ],
+   "figures": [],
+   "number": 15,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Para Adorno e Horkheimer, a indústria cultural oferece uma \"liberdade\" de escolha entre produtos padronizados, que no fundo são sempre a mesma coisa. Essa liberdade é uma ilusão. **Resposta: E**",
+    "keyConcept": "indústria cultural",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q20",
+   "year": 2016,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Nunca nos tornaremos matemáticos, por exemplo, embora nossa memória possua todas as demonstrações feitas por outros, se nosso espírito não for capaz de resolver toda espécie de problemas; não nos tornaríamos filósofos, por ter lido todos os raciocínios de Platão e Aristóteles, sem poder formular um juízo sólido sobre o que nos é proposto. Assim, de fato, pareceríamos ter aprendido, não ciências, mas histórias.\n\nDESCARTES, R. Regras para a orientação do espírito. São Paulo: Martins Fontes, 1999.\n\nEm sua busca pelo saber verdadeiro, o autor considera o conhecimento, de modo crítico, como resultado da",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Investigação de natureza empírica."
+    },
+    {
+     "letter": "B",
+     "text": "Retomada da tradição intelectual."
+    },
+    {
+     "letter": "C",
+     "text": "Imposição de valores ortodoxos."
+    },
+    {
+     "letter": "D",
+     "text": "Autonomia do sujeito pensante."
+    },
+    {
+     "letter": "E",
+     "text": "Liberdade do agente moral."
+    }
+   ],
+   "figures": [],
+   "number": 20,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Descartes diz que memorizar as demonstrações de outros não faz ninguém filósofo ou matemático: seria aprender \"histórias\", e não ciências. O verdadeiro saber resulta da autonomia do sujeito que pensa e julga por si mesmo. **Resposta: D**",
+    "keyConcept": "Descartes: pensar por si",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q23",
+   "year": 2016,
+   "area": "Filosofia Antiga",
+   "content": null,
+   "demand": null,
+   "statement": "Fragmento B91: Não se pode banhar duas vezes no mesmo rio, nem substância mortal alcançar duas vezes a mesma condição; mas pela intensidade e rapidez da mudança, dispersa e de novo reúne.\n\nHERÁCLITO. Fragmentos (Sobre a natureza). São Paulo: Abril Cultural, 1996 (adaptado).\n\nFragmento B8: São muitos os sinais de que o ser é ingênito e indestrutível, pois é compacto, inabalável e sem fim; não foi nem será, pois é agora um todo homogêneo, uno, contínuo. Como poderia o que é perecer? Como poderia gerar-se?\n\nPARMÊNIDES. Da natureza. São Paulo: Loyola, 2002 (adaptado).\n\nOs fragmentos do pensamento pré-socrático expõem uma oposição que se insere no campo das",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Investigações do pensamento sistemático."
+    },
+    {
+     "letter": "B",
+     "text": "Preocupações do período mitológico."
+    },
+    {
+     "letter": "C",
+     "text": "Discussões de base ontológica."
+    },
+    {
+     "letter": "D",
+     "text": "Habilidades da retórica sofística."
+    },
+    {
+     "letter": "E",
+     "text": "Verdades do mundo sensível."
+    }
+   ],
+   "figures": [],
+   "number": 23,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Heráclito afirma o devir (tudo flui); Parmênides afirma que o ser é uno, imóvel e eterno. É uma oposição sobre a natureza do ser, ou seja, uma discussão ontológica. **Resposta: C**",
+    "keyConcept": "Heráclito × Parmênides",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q24",
+   "year": 2016,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "A democracia deliberativa afirma que as partes do Conflito político devem deliberar entre si e, por meio de argumentação razoável, tentar chegar a um acordo sobre as políticas que seja satisfatório para todos. A democracia ativista desconfia das exortações à deliberação por acreditar que, no mundo real da política, onde as desigualdades estruturais influenciam procedimentos e resultados, processos democráticos que parecem cumprir as normas de deliberação geralmente tendem a beneficiar os agentes mais poderosos. Ela recomenda, portanto, que aqueles que se preocupam com a promoção de mais justiça devem realizar principalmente a atividade de oposição crítica, em vez de tentar chegar a um acordo com quem sustenta estruturas de poder existentes ou delas se beneficia.\n\nYOUNG, I. M. Desafios ativistas à democracia deliberativa Revista Brasileira de Ciência Política, n. 13, jan-abr. 2014.\n\nAs concepções de democracia deliberativa e de democracia ativista apresentadas no texto tratam como imprescindíveis, respectivamente,",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A decisão da maioria e a uniformização de direitos."
+    },
+    {
+     "letter": "B",
+     "text": "A organização de eleições e o movimento anarquista."
+    },
+    {
+     "letter": "C",
+     "text": "A obtenção do consenso e a mobilização das minorias."
+    },
+    {
+     "letter": "D",
+     "text": "A fragmentação da participação e a desobediência civil."
+    },
+    {
+     "letter": "E",
+     "text": "A imposição de resistência e o monitoramento da liberdade."
+    }
+   ],
+   "figures": [],
+   "number": 24,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Segundo Iris Young, a democracia deliberativa busca o acordo por meio da argumentação razoável, isto é, o consenso. A ativista valoriza o protesto e a mobilização dos grupos excluídos e das minorias. **Resposta: C**",
+    "keyConcept": "democracia deliberativa × ativista",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q25",
+   "year": 2016,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "A promessa da tecnologia moderna se converteu em uma ameaça, ou esta se associou àquela de forma indissolúvel. Ela Vai além da constatação da ameaça física. Concebida para a felicidade humana, a submissão da natureza, na sobremedida de seu sucesso, que agora se estende à própria natureza do homem, conduziu ao maior desafio já posto ao ser humano pela sua própria ação. O novo continente da práxis coletiva que adentramos com a alta tecnologia ainda constitui, para a teoria ética, uma terra de ninguém.\n\nJONAS, H. O princípio da responsabilidade. Rio de Janeiro: Contraponto; Editora PUC-Rio, 2011 (adaptado).\n\nAs implicações éticas da articulação apresentada no texto impulsionam a necessidade de construção de um novo padrão de comportamento, cujo objetivo consiste em garantir o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pragmatismo da escolha individual."
+    },
+    {
+     "letter": "B",
+     "text": "Sobrevivência de gerações futuras."
+    },
+    {
+     "letter": "C",
+     "text": "Fortalecimento de políticas liberais."
+    },
+    {
+     "letter": "D",
+     "text": "Valorização de múltiplas etnias."
+    },
+    {
+     "letter": "E",
+     "text": "Promoção da inclusão social."
+    }
+   ],
+   "figures": [],
+   "number": 25,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Hans Jonas mostra que a técnica moderna ameaça a própria vida. Ele propõe uma ética da responsabilidade cujo objetivo é garantir a sobrevivência das gerações futuras. **Resposta: B**",
+    "keyConcept": "ética da responsabilidade (Jonas)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q28",
+   "year": 2016,
+   "area": "Filosofia Antiga",
+   "content": null,
+   "demand": null,
+   "statement": "Pirro afirmava que nada é nobre nem vergonhoso, justo ou injusto, e que, da mesma maneira, nada existe do ponto de vista da verdade, que os homens agem apenas segundo a lei e o costume, nada sendo mais isto do que aquilo. Ele levou uma vida de acordo com esta doutrina, nada procurando evitar e não se desviando do que quer que fosse, suportando tudo, carroças, por exemplo, precipícios, cães, nada deixando ao arbítrio dos sentidos.\n\nLAÉRCIO, D. Vidas e sentenças dos filósofos ilustres. Brasília: Editora UnB, 1988.\n\nO ceticismo, conforme sugerido no texto, caracteriza-se por:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Desprezar quaisquer convenções e obrigações da sociedade."
+    },
+    {
+     "letter": "B",
+     "text": "Atingir o verdadeiro prazer como o princípio e o fim da vida feliz."
+    },
+    {
+     "letter": "C",
+     "text": "Defender a indiferença e a impossibilidade de obter alguma certeza."
+    },
+    {
+     "letter": "D",
+     "text": "Aceitar o determinismo e ocupar-se com a esperança transcendente."
+    },
+    {
+     "letter": "E",
+     "text": "Agir de forma virtuosa e sábia a fim de enaltecer o homem bom e belo."
+    }
+   ],
+   "figures": [],
+   "number": 28,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Pirro afirmava que nada é em si justo ou verdadeiro e por isso suspendia o juízo, vivendo com indiferença. O ceticismo defende a impossibilidade de obter certezas e a indiferença diante delas. **Resposta: C**",
+    "keyConcept": "ceticismo pirrônico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2016-REG-D1-C1-Q37",
+   "year": 2016,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "Vi os homens sumirem-se numa grande tristeza. Os melhores cansaram-se das suas obras. Proclamou-se uma doutrina e com ela circulou uma crença: Tudo é oco, tudo é igual, tudo passou! O nosso trabalho foi inútil; o nosso vinho tornou-se veneno; o mau olhado amareleceu-nos os campos e os corações. Secamos de todo, e se caísse fogo em cima de nós, as nossas cinzas voariam em pó. Sim; cansamos o próprio fogo. Todas as fontes secaram para nós, e o mar retirou-se. Todos os solos se querem abrir, mas os abismos não nos querem tragar!\n\nNIETZSCHE, F. Assim falou Zaratustra, Rio de Janeiro. Ediouro, 1977.\n\nO texto exprime uma construção alegórica, que traduz um entendimento da doutrina niilista, uma vez que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reforça a liberdade do cidadão."
+    },
+    {
+     "letter": "B",
+     "text": "Desvela os valores do cotidiano."
+    },
+    {
+     "letter": "C",
+     "text": "Exorta as relações de produção."
+    },
+    {
+     "letter": "D",
+     "text": "Destaca a decadência da cultura."
+    },
+    {
+     "letter": "E",
+     "text": "Amplifica o sentimento de ansiedade."
+    }
+   ],
+   "figures": [],
+   "number": 37,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "O trecho de Zaratustra descreve a crença de que \"tudo é oco, tudo é igual\": um cansaço e uma perda de sentido que Nietzsche associa ao niilismo e à decadência da cultura ocidental. **Resposta: D**",
+    "keyConcept": "niilismo em Nietzsche",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q48",
+   "year": 2017,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "A moralidade, Bentham exortava, não é uma questão de agradar a Deus, muito menos de fidelidade a regras abstratas. A moralidade é a tentativa de criar a maior quantidade de felicidade possível neste mundo. Ao decidir o que fazer, deveríamos, portanto, perguntar qual curso de conduta promoveria a maior quantidade de felicidade para todos aqueles que serão afetados.\n\nRACHELS, J. Os elementos dafilosofia moral. Barueri-SP: Manole, 2006.\n\nOs parâmetros da ação indicados no texto estão em conformidade com uma",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fundamentação científica de viés positivista."
+    },
+    {
+     "letter": "B",
+     "text": "Convenção social de orientação normativa."
+    },
+    {
+     "letter": "C",
+     "text": "Transgressão comportamental religiosa."
+    },
+    {
+     "letter": "D",
+     "text": "Racionalidade de caráter pragmático."
+    },
+    {
+     "letter": "E",
+     "text": "Inclinação de natureza passional."
+    }
+   ],
+   "figures": [],
+   "number": 48,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Para Bentham, a ação moral é a que produz a maior felicidade para o maior número de pessoas afetadas. É um cálculo de consequências, uma racionalidade de caráter pragmático, e não obediência a Deus ou a regras abstratas. **Resposta: D**",
+    "keyConcept": "utilitarismo de Bentham",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q60",
+   "year": 2017,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "Procuramos demonstrar que o desenvolvimento pode ser visto como um processo de expansão das liberdades reais que as pessoas desfrutam. O enfoque nas liberdades humanas contrasta com visões mais restritas de desenvolvimento, como as que identificam desenvolvimento com crescimento do Produto Nacional Bruto, ou industrialização. O crescimento do PNB pode ser muito importante como um meio de expandir as liberdades. Mas as liberdades dependem também de outros determinantes, como os serviços de educação e saúde e os direitos civis.\n\nSEN, A. Desenvolvimento como liberdade. São Paulo: Cia. das Letras, 2010.\n\nA concepção de desenvolvimento proposta no texto fundamenta-se no vínculo entre",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Incremento da indústria e atuação no mercado financeiro."
+    },
+    {
+     "letter": "B",
+     "text": "Criação de programas assistencialistas e controle de preços."
+    },
+    {
+     "letter": "C",
+     "text": "Elevação da renda média e arrecadação de impostos."
+    },
+    {
+     "letter": "D",
+     "text": "Garantia da cidadania e ascensão econômica."
+    },
+    {
+     "letter": "E",
+     "text": "Ajuste de políticas econômicas e incentivos fiscais."
+    }
+   ],
+   "figures": [],
+   "number": 60,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Sen define o desenvolvimento como expansão das liberdades reais: depende da renda, mas também de educação, saúde e direitos civis. Liga, portanto, a garantia da cidadania à ascensão econômica. **Resposta: D**",
+    "keyConcept": "Amartya Sen: desenvolvimento como liberdade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q63",
+   "year": 2017,
+   "area": "Filosofia Contemporânea",
+   "content": null,
+   "demand": null,
+   "statement": "E venham, então, os alegres incendiários de dedos carbonizados! Vamos! Ateiem fogo às estantes das bibliotecas! Desviem o curso dos canais, para inundar os museus! Empunhem as picaretas, os machados, os martelos e deitem abaixo sem piedade as cidades veneradas!\n\nMARINETTI, F.T. Manifesto futurista. Disponível em : www.sibila.com.br. Acesso em: 2 Ago.2012(adaptado).\n\nQue princípio marcante do Futurismo e comum a várias correntes artísticas e culturais das primeiras três décadas do século XX está destacado no texto?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tradição é uma força incontornável."
+    },
+    {
+     "letter": "B",
+     "text": "A arte é expressão da memória coletiva."
+    },
+    {
+     "letter": "C",
+     "text": "A modernidade é a superação decisiva da história."
+    },
+    {
+     "letter": "D",
+     "text": "A realidade cultural é determinada economicamente."
+    },
+    {
+     "letter": "E",
+     "text": "A memória é um elemento crucial da identidade cultural."
+    }
+   ],
+   "figures": [],
+   "number": 63,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Marinetti manda incendiar bibliotecas e inundar museus. As vanguardas do início do século XX viam a modernidade como uma ruptura radical com a tradição, a superação da história. **Resposta: C**",
+    "keyConcept": "futurismo e ruptura com o passado",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q64",
+   "year": 2017,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Uma sociedade é uma associação mais ou menos autossuficiente de pessoas que em suas relações mútuas reconhecem certas regras de conduto com obrigatórias e que, na maioria das vezes, agem de acordo com elas. Uma sociedade é bom ordenada não apenas quando está planejada para promover o bem de seus membros, mas quando é também efetivamente regulada por uma concepção pública de justiça. Isto é, trata-se de uma sociedade na qual todos aceitam, e sabem que os outros aceitam, o mesmo princípio de justiça.\n\nRAWLS, J. Uma teoria da justiça. São Paulo: Martins Fontes, 1997. Adaptado.\n\nA visão expressa nesse texto do século XX remete a qual aspecto do pensamento moderno?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A relação entre liberdade e autonomia do Liberalismo."
+    },
+    {
+     "letter": "B",
+     "text": "A independência entre poder e moral do Racionalismo."
+    },
+    {
+     "letter": "C",
+     "text": "A convenção entre cidadãos e soberano do Absolutismo."
+    },
+    {
+     "letter": "D",
+     "text": "A dialética entre indivíduo e governo autocrata do Idealismo."
+    },
+    {
+     "letter": "E",
+     "text": "A contraposição entre bondade e condições selvagem do Naturalismo."
+    }
+   ],
+   "figures": [],
+   "number": 64,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Rawls descreve uma sociedade em que pessoas livres aceitam regras e princípios de justiça comuns. Retoma o liberalismo moderno, que associa liberdade, autonomia e contrato. **Resposta: A**",
+    "keyConcept": "Rawls e o liberalismo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q65",
+   "year": 2017,
+   "area": "Filosofia Antiga",
+   "content": null,
+   "demand": null,
+   "statement": "A representação de Demócrito é semelhante à de Anaxágoras, na medida em que um infinitamente múltiplo é a origem; mas nele a determinação dos princípios fundamentais aparece de maneira tal que contém aquilo que para o que foi formado não é, absolutamente, o aspecto simples para si. Por exemplo, partículas de carne e de ouro seriam princípios que, através de sua concentração, formam aquilo que aparece como figura.\n\nHEGEL, G.W. Crítica moderna. In:SOUZA, J.C. (Org.). Os pré-socráticos: vida e obra. São Paulo: Nova Cultural, 2000 (adaptado).\n\nO texto faz uma apresentação crítica acerca do pensamento de Demócrito, segundo o qual o “princípio constitutivo das coisas” estava representado pelo(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Número, que fundamenta a criação dos deuses."
+    },
+    {
+     "letter": "B",
+     "text": "Devir, que simboliza o constante movimento dos objetos."
+    },
+    {
+     "letter": "C",
+     "text": "Água, que expressa a causa material da origem do universo."
+    },
+    {
+     "letter": "D",
+     "text": "Imobilidade, que sustenta a existência do ser atemporal."
+    },
+    {
+     "letter": "E",
+     "text": "Átomo, que explica o surgimento dos entes."
+    }
+   ],
+   "figures": [],
+   "number": 65,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Para Demócrito, tudo é composto por átomos, partículas indivisíveis que se movem no vazio e, ao se combinar, formam os seres. **Resposta: E**",
+    "keyConcept": "atomismo de Demócrito",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q66",
+   "year": 2017,
+   "area": "Filosofia Antiga",
+   "content": null,
+   "demand": null,
+   "statement": "Uma conversação de tal natureza transforma o ouvinte; o contato de Sócrates paralisa e embaraça; leva a refletir sobre si mesmo, a imprimir à atenção uma direção incomum: os temperamentais, como Alcibíades, sabem que encontrarão junto dele todo o bem de que são capazes, mas fogem porque receiam essa imfuência poderosa, que os leva a se censurarem. É sobretudo a esses jovens, muitos quase crianças, que ele tenta imprimir sua orientação.\n\nBRÉHIER,E. História da filosofia. São Paulo: Mestre Jou, 1977.\n\nO texto evidencia características do modo de vida socrático, que se baseava na",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Contemplação da tradição mítica."
+    },
+    {
+     "letter": "B",
+     "text": "Sustentação do método dialético."
+    },
+    {
+     "letter": "C",
+     "text": "Relativização do saber verdadeiro."
+    },
+    {
+     "letter": "D",
+     "text": "Valorização da argumentação retórica."
+    },
+    {
+     "letter": "E",
+     "text": "Investigação dos fundamentos da natureza."
+    }
+   ],
+   "figures": [],
+   "number": 66,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Sócrates conversava com os jovens fazendo perguntas que os levavam a refletir sobre si e a reconhecer a própria ignorância. Esse modo de vida se baseava no diálogo, o método dialético. **Resposta: B**",
+    "keyConcept": "maiêutica socrática",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q84",
+   "year": 2017,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "O conceito de democracia, no pensamento de Habermas, é construído a partir de uma dimensão procedimental, calcada no discurso e na deliberação. A legitimidade democrática exige que o processo de tomada de decisões políticas ocorra a partir de uma ampla discussão pública, para somente então decidir. Assim, o caráter deliberativo corresponde a um processo coletivo de ponderação e análise, permeado pelo discurso, que antecede a decisão.\n\nVITALE, D. Jürgen Habermas, modernidade e democracia deliberativa. Cadernos do CRH (UFBA), v. 19, 2006 (adaptado).\n\nO conceito de democracia proposto por Jürgen Habermas pode favorecer processos de inclusão social. De acordo com o texto, é uma condição para que isso aconteça o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Participação direta periódica do cidadão."
+    },
+    {
+     "letter": "B",
+     "text": "Debate livre e racional entre cidadãos e Estado."
+    },
+    {
+     "letter": "C",
+     "text": "Interlocução entre os poderes governamentais."
+    },
+    {
+     "letter": "D",
+     "text": "Eleição de lideranças políticas com mandatos temporários."
+    },
+    {
+     "letter": "E",
+     "text": "Controle do poder político por cidadãos mais esclarecidos."
+    }
+   ],
+   "figures": [],
+   "number": 84,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Para Habermas, a legitimidade democrática vem de um processo de discussão em que todos os afetados podem argumentar. A inclusão depende do debate livre e racional entre os cidadãos e o Estado. **Resposta: B**",
+    "keyConcept": "democracia deliberativa de Habermas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q85",
+   "year": 2017,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Uma pessoa vê-se forçada pela necessidade a pedir dinheiro emprestado. Sabe muito bem que não poderá pagar, mas vê também que não lhe emprestarão nada se não prometer firmemente pagar em prazo determinado. Sente a tentação de fazer a promessa; mas tem ainda consciência bastante para perguntar a si mesma: não é proibido e contrário ao dever livrar-se de apuros desta maneira? Admitindo que se decida a fazê-lo, a sua máxima de ação seria: quando julgo estar em apuros de dinheiro, vou pedi-lo emprestado e prometo pagá-lo, embora saiba que tal nunca sucederá.\n\nKANT, I. Fundamentação da metafísica dos costumes. São Paulo: Abril Cultural, 1980.\n\nDe acordo com a moral kantiana, a “falsa promessa de pagamento” representada no texto",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Assegura que a ação seja aceita por todos a partir da livre discussão participativa."
+    },
+    {
+     "letter": "B",
+     "text": "Garante que os efeitos das ações não destruam a possibilidade da vida futura na terra."
+    },
+    {
+     "letter": "C",
+     "text": "Opõe-se ao princípio de que toda ação do homem possa valer como norma universal."
+    },
+    {
+     "letter": "D",
+     "text": "Materializa-se no entendimento de que os fins da ação humana podem justificar os meios."
+    },
+    {
+     "letter": "E",
+     "text": "Permite que a ação individual produza a mais ampla felicidade para as pessoas envolvidas."
+    }
+   ],
+   "figures": [],
+   "number": 85,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Kant, a falsa promessa não pode virar lei universal: se todos prometessem sem cumprir, ninguém mais acreditaria em promessas. Ela se opõe ao princípio de agir só segundo máximas que possam valer universalmente. **Resposta: C**",
+    "keyConcept": "imperativo categórico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2017-REG-D1-C1-Q88",
+   "year": 2017,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Se, pois, para as coisas que fazemos existe um fim que desejamos por ele mesmo e tudo o mais é desejado no interesse desse fim; evidentemente tal fim será o bem, ou antes, o sumo bem. Mas não terá o conhecimento, porventura, grande influência sobre essa vida? Se assim é, esforcemo-nos por determinar, ainda que em linhas gerais apenas, o que seja ele e de qual das ciências ou faculdades constitui o objeto. Ninguém duvidará de que o seu estudo pertença à arte mais prestigiosa e que mais verdadeiramente se pode chamar a arte mestra. Ora, a política mostra ser dessa natureza, pois é ela que determina quais as ciências que devem ser estudadas num Estado, quais são as que cada cidadão deve aprender, e até que ponto; e vemos que até as faculdades tidas em maior apreço, como a estratégia, a economia e a retórica, estão sujeitas a ela. Ora, como a política utiliza as demais ciências e, por outro lado, legisla sobre o que devemos e o que não devemos fazer, a finalidade dessa ciência deve abranger as das outras, de modo que essa finalidade será o bem humano.\n\nARISTÓTELES. Ética a Nicômaco. In: Pensadores. São Pauto: Nova Cultural, 1991 (adaptado).\n\nPara Aristóteles, a relação entre o sumo bem e a organização da pólis pressupõe que",
+   "options": [
+    {
+     "letter": "A",
+     "text": "O bem dos indivíduos consiste em cada um perseguir seus interesses."
+    },
+    {
+     "letter": "B",
+     "text": "O sumo bem é dado pela fé de que os deuses são os portadores da verdade."
+    },
+    {
+     "letter": "C",
+     "text": "A política é a ciência que precede todas as demais na organização da cidade."
+    },
+    {
+     "letter": "D",
+     "text": "A educação visa formar a consciência de cada pessoa para agir corretamente."
+    },
+    {
+     "letter": "E",
+     "text": "A democracia protege as atividades políticas necessárias para o bem comum."
+    }
+   ],
+   "figures": [],
+   "number": 88,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Aristóteles, o sumo bem humano é objeto da ciência mais importante, a política, que organiza a cidade e cuja finalidade abrange a das outras ciências. **Resposta: C**",
+    "keyConcept": "política como ciência arquitetônica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2018-REG-D1-C1-Q49",
+   "year": 2018,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "O filósofo reconhece-se pela posse inseparável do gosto da evidência e do sentido da ambiguidade. Quando se limita a suportar a ambiguidade, esta se chama equívoco. Sempre aconteceu que, mesmo aqueles que pretenderam construir uma filosofia absolutamente positiva, sô conseguiram ser filósofos na medida em que,\nsimultaneamente, se recusaram o direito de se instalar no saber absoluto. O que caracteriza o filósofo é o movimento que leva incessantemente do saber à ignorância, da ignorância ao saber, e um certo repouso neste movimento.\n\nMERLEAU-PONTY, M. Elogio da filosofia. Lisboa: Guimarães, 1998 (adaptado).\n\nO texto apresenta um entendimento acerca dos elementos constitutivos da atividade do fllósofo, que se caracteriza por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reunir os antagonismos das opiniões ao método dialético."
+    },
+    {
+     "letter": "B",
+     "text": "Ajustar a clareza do conhecimento ao inatismo das ideias."
+    },
+    {
+     "letter": "C",
+     "text": "Associar a certeza do intelecto à imutabilidade da verdade."
+    },
+    {
+     "letter": "D",
+     "text": "Conciliar o rigor da investigação à inquietude do questionamento."
+    },
+    {
+     "letter": "E",
+     "text": "Compatibilizar as estruturas do pensamento aos princípios fundamentais."
+    }
+   ],
+   "figures": [],
+   "number": 49,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Para Merleau-Ponty, o filósofo une o gosto pela evidência (rigor) ao sentido da ambiguidade, num movimento constante entre saber e ignorância. Sua atividade concilia o rigor da investigação com a inquietude do questionamento. **Resposta: D**",
+    "keyConcept": "o filósofo entre evidência e ambiguidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2018-REG-D1-C1-Q51",
+   "year": 2018,
+   "area": "Filosofia Medieval",
+   "content": null,
+   "demand": null,
+   "statement": "Desde que tenhamos compreendido o significado da palavra “Deus”, sabemos, de imediato, que Deus existe. Com efeito, essa palavra designa uma coisa de tal ordem que não podemos conceber nada que lhe seja maior. Ora, o que existe na realidade e no pensamento é maior do que o que existe apenas no pensamento. Donde se segue que o objeto designado pela palavra “Deus”, que existe no pensamento, desde que se entenda essa palavra, também existe na realidade. Por conseguinte, a\nexistência de Deus é evidente.\n\nTOMÁS DE AQUINO. Suma teológica. Rio de Janeiro: Loyola, 2002.\n\nO texto apresenta uma elaboração teórica de Tomás de Aquino caracterizada por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reiterar a ortodoxia religiosa contra os heréticos."
+    },
+    {
+     "letter": "B",
+     "text": "Sustentar racionalmente doutrina alicerçada na fé."
+    },
+    {
+     "letter": "C",
+     "text": "Explicar as virtudes teologais pela demonstração."
+    },
+    {
+     "letter": "D",
+     "text": "Flexibilizar a interpretação oficial dos textos sagrados."
+    },
+    {
+     "letter": "E",
+     "text": "Justificar pragmaticamente crença livre de dogmas."
+    }
+   ],
+   "figures": [],
+   "number": 51,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Tomás de Aquino apresenta o argumento de que Deus, \"aquilo de que nada maior pode ser pensado\", existe necessariamente. É uma tentativa de sustentar racionalmente uma doutrina baseada na fé, típica da escolástica. **Resposta: B**",
+    "keyConcept": "argumento ontológico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2018-REG-D1-C1-Q52",
+   "year": 2018,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Tudo aquilo que é válido para um tempo de guerra, em que todo homem é inimigo de todo homem, é válido também para o tempo durante o qual os homens vivem sem outra segurança senão a que lhes pode ser oferecida por sua própria força e invenção.\n\nHOBBES, T. Leviatã. São Paulo: Abril Cultural, 1983\n\nNão vamos concluir, com Hobbes que, por não ter nenhuma ideia de bondade, o homem seja naturalmente mau. Esse autor deveria dizer que, sendo o estado de natureza aquele em que o cuidado de nossa conservação é menos prejudicial à dos outros, esse estado era, por conseguinte, o mais próprio à paz e o mais conveniente\nao gênero humano.\n\nROUSSEAU, J.-J. Discurso sobre a origem e o fundamento da desigualdade entre os homens. São Paulo: Martins Fontes, 1993 (adaptado).\n\nOs trechos apresentam divergências conceituais entre autores que sustentam um entendimento segundo o qual a igualdade entre os homens se dá em razão de uma",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Predisposição ao conhecimento."
+    },
+    {
+     "letter": "B",
+     "text": "Submissão ao transcendente."
+    },
+    {
+     "letter": "C",
+     "text": "Tradição epistemológica."
+    },
+    {
+     "letter": "D",
+     "text": "Condição original."
+    },
+    {
+     "letter": "E",
+     "text": "Vocação política."
+    }
+   ],
+   "figures": [],
+   "number": 52,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Hobbes e Rousseau divergem sobre o estado de natureza (guerra de todos contra todos ou bondade natural), mas os dois afirmam que os homens são iguais na sua condição original, antes da sociedade. **Resposta: D**",
+    "keyConcept": "igualdade no estado de natureza",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2018-REG-D1-C1-Q79",
+   "year": 2018,
+   "area": "Filosofia Antiga",
+   "content": null,
+   "demand": null,
+   "statement": "A quem não basta pouco, nada basta.\n\nEPICURO. Os pensadores. São Paulo: Abril Cultural, 1985.\n\nRemanescente do período helenístico, a máxima apresentada valoriza a seguinte virtude:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Esperança, tida como confiança no porvir."
+    },
+    {
+     "letter": "B",
+     "text": "Justiça, interpretada como retidão de caráter."
+    },
+    {
+     "letter": "C",
+     "text": "Temperança, marcada pelo domínio da vontade."
+    },
+    {
+     "letter": "D",
+     "text": "Coragem, definida como fortitude na dificuldade."
+    },
+    {
+     "letter": "E",
+     "text": "Prudência, caracterizada pelo correto uso da razão."
+    }
+   ],
+   "figures": [],
+   "number": 79,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "\"A quem não basta pouco, nada basta\": Epicuro valoriza a moderação dos desejos, ou seja, a temperança e o domínio da vontade, condição para a tranquilidade e a felicidade. **Resposta: C**",
+    "keyConcept": "Epicuro e a temperança",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q48",
+   "year": 2019,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Dizem que Humboldt, naturalista do século XIX, maravilhado pela geografia, flora e fauna da região sulamericana, via seus habitantes como se fossem mendigos sentados sobre um saco de ouro, referindo-se a suas incomensuráveis riquezas naturais não exploradas. De alguma maneira, o cientista ratificou nosso papel de exportadores de natureza no que seria o mundo depois da colonização ibérica: enxergou-nos como territórios condenados a aproveitar os recursos naturais existentes.\n\nACOSTA, A. Bem viver: uma oportunidade para imaginar outros mundos. São Paulo: Elefante, 2016 (adaptado).\n\nA relação entre ser humano e natureza ressaltada no texto refletia a permanência da seguinte corrente filosófica:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Relativismo cognitivo."
+    },
+    {
+     "letter": "B",
+     "text": "Materialismo dialético."
+    },
+    {
+     "letter": "C",
+     "text": "Racionalismo cartesiano."
+    },
+    {
+     "letter": "D",
+     "text": "Pluralismo epistemológico."
+    },
+    {
+     "letter": "E",
+     "text": "Existencialismo fenomenológico."
+    }
+   ],
+   "figures": [],
+   "number": 48,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "A imagem dos sul-americanos como \"mendigos sentados num saco de ouro\" vê a natureza como recurso a explorar. Acosta mostra que isso mantém o racionalismo cartesiano, que separa sujeito e natureza e faz do ser humano o \"senhor e possuidor\" dela. **Resposta: C**",
+    "keyConcept": "natureza como objeto de domínio",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q50",
+   "year": 2019,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "A hospitalidade pura consiste em acolher aquele que chega antes de lhe impor condições, antes de saber e indagar o que quer que seja, ainda que seja um nome ou um “documento” de identidade. Mas ela também supõe que se dirija a ele, de maneira singular, chamando-o portanto e reconhecendo-lhe um nome próprio: “Como você se chama?” A hospitalidade consiste em fazer tudo para se dirigir ao outro, em lhe conceder, até mesmo perguntar seu nome, evitando que essa pergunta se torne uma “condição”, um inquérito policial, um fichamento ou um simples controle das fronteiras. Uma arte e uma poética, mas também toda uma política dependem disso, toda uma ética se decide aí.\nDERRIDA, J. Papel-máquina. São Paulo: Estação Liberdade, 2004 (adaptado).\n \nAssociado ao contexto migratório contemporâneo, o conceito de hospitalidade proposto pelo autor impõe a necessidade de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Anulação da diferença."
+    },
+    {
+     "letter": "B",
+     "text": "Cristalização da biografia."
+    },
+    {
+     "letter": "C",
+     "text": "Incorporação da alteridade."
+    },
+    {
+     "letter": "D",
+     "text": "Supressão da comunicação."
+    },
+    {
+     "letter": "E",
+     "text": "Verificação da proveniência."
+    }
+   ],
+   "figures": [],
+   "number": 50,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "A hospitalidade pura acolhe o estrangeiro sem exigir documentos ou condições. No contexto das migrações, ela impõe acolher o outro na sua diferença, a incorporação da alteridade. **Resposta: C**",
+    "keyConcept": "hospitalidade em Derrida",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q51",
+   "year": 2019,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Em sentido geral e fundamental, Direito é a técnica da coexistência humana, isto é, a técnica voltada a tornar possível a coexistência dos homens. Como técnica, o Direito se concretiza em um conjunto de regras (que, nesse caso, são leis ou normais); e tais regras têm por objeto o comportamento intersubjetivo, isto é, o comportamento recíproco dos homens entre si.\nABBAGNANO, N. Dicionário de Filosofia. São Paulo: Martins Fontes, 2007.\n \nO sentido geral e fundamental do Direito, conforme foi destacado, refere-se à",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Aplicação de códigos legais."
+    },
+    {
+     "letter": "B",
+     "text": "Regulação do convívio social."
+    },
+    {
+     "letter": "C",
+     "text": "Legitimação de decisões políticas."
+    },
+    {
+     "letter": "D",
+     "text": "Mediação de conflitos econômicos."
+    },
+    {
+     "letter": "E",
+     "text": "Representação da autoridade constituída."
+    }
+   ],
+   "figures": [],
+   "number": 51,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Abbagnano define o Direito como técnica de coexistência humana: regras que orientam o comportamento recíproco das pessoas. Seu sentido fundamental é regular o convívio social. **Resposta: B**",
+    "keyConcept": "Direito como técnica de convivência",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q58",
+   "year": 2019,
+   "area": "Filosofia Medieval",
+   "content": null,
+   "demand": null,
+   "statement": "De fato, não é porque o homem pode usar a vontade livre para pecar que se deve supor que Deus a concedeu para isso. Há, portanto, uma razão pela qual Deus deu ao homem esta característica, pois sem ela não poderia viver e agir corretamente. Pode-se compreender, então, que ela foi concedida ao homem para esse fim, considerando-se que se um homem a usar para pecar, recairão sobre ele as punições divinas. Ora, isso seria injusto se a vontade livre tivesse sido dada ao homem não apenas para agir corretamente, mas também para pecar. Na verdade, por que deveria ser punido aquele que usasse da sua vontade para o fim para o qual ela lhe foi dada?\n\nAGOSTINHO. O livre-arbítrio. In: MARCONDES, D. Textos básicos de ética. Rio de Janeiro: Jorge Zahar, 2008.\n\nNesse texto, o filósofo cristão Agostinho de Hipona sustenta que a punição divina tem como fundamento o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Desvio da postura celibatária."
+    },
+    {
+     "letter": "B",
+     "text": "Insuficiência da autonomia moral."
+    },
+    {
+     "letter": "C",
+     "text": "Afastamento das ações de desapego."
+    },
+    {
+     "letter": "D",
+     "text": "Distanciamento das práticas de sacrifício."
+    },
+    {
+     "letter": "E",
+     "text": "Violação dos preceitos do Velho Testamento."
+    }
+   ],
+   "figures": [],
+   "number": 58,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Para Agostinho, Deus deu ao homem a vontade livre para viver retamente. O pecado é o mau uso dessa liberdade, e a punição se justifica porque o homem, por si só, falha em usar bem sua vontade. Pelo gabarito oficial, o fundamento é a insuficiência da autonomia moral. **Resposta: B**",
+    "keyConcept": "livre-arbítrio em Agostinho",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q64",
+   "year": 2019,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "A lenda diz que, em um belo dia ensolarado, Newton estava relaxando sob uma macieira. Pássaros gorjeavam em suas orelhas. Havia uma brisa gentil. Ele cochilou por alguns minutos. De repente, uma maçã caiu sobre a sua cabeça e ele acordou com um susto. Olhou para cima. “Com certeza um pássaro ou um esquilo derrubou a maçã da árvore”, supôs. Mas não havia pássaros ou esquilos na árvore por perto. Ele, então, pensou: “Apenas alguns minutos antes, a maçã estava pendurada na árvore. Nenhuma força externa fez ela cair. Deve haver alguma força subjacente que causa a queda das coisas para a terra”.\n\nSILVA, C. C.; MARTINS, R A. Estudos de história e filosofia das ciências. São Paulo: Livraria da Física, 2006 (adaptado).\n\nEm contraponto a uma interpretação idealizada, o texto aponta para a seguinte dimensão fundamental da ciência moderna:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Falsificação de teses."
+    },
+    {
+     "letter": "B",
+     "text": "Negação da observação."
+    },
+    {
+     "letter": "C",
+     "text": "Proposição de hipóteses."
+    },
+    {
+     "letter": "D",
+     "text": "Contemplação da natureza."
+    },
+    {
+     "letter": "E",
+     "text": "Universalização de conclusões."
+    }
+   ],
+   "figures": [],
+   "number": 64,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "O texto desmonta a lenda da maçã: Newton não \"descobriu\" a gravidade num estalo. Ele formulou hipóteses e teorias para explicar a queda dos corpos, e é isso que caracteriza a ciência moderna. **Resposta: C**",
+    "keyConcept": "ciência e hipóteses",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q65",
+   "year": 2019,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Para Maquiavel, quando um homem decide dizer a verdade pondo em risco a própria integridade física, tal resolução diz respeito apenas a sua pessoa. Mas se esse mesmo homem é um chefe de Estado, os critérios pessoais não são mais adequados para decidir sobre ações cujas consequências se tornam tão amplas, já que o prejuízo não será apenas individual, mas coletivo. Nesse caso, conforme as circunstâncias e os fins a serem atingidos, pode-se decidir que o melhor para o bem comum seja mentir.\n\nARANHA, M. L. Maquiavel: a lógica da força. São Paulo: Moderna, 2006 (adaptado).\n\nO texto aponta uma inovação na teoria política na época moderna expressa na distinção entre:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Idealidade e efetividade da moral."
+    },
+    {
+     "letter": "B",
+     "text": "Nulidade e preservabilidade da liberdade."
+    },
+    {
+     "letter": "C",
+     "text": "Ilegalidade e legitimidade do governante."
+    },
+    {
+     "letter": "D",
+     "text": "Verificabilidade e possibilidade da verdade."
+    },
+    {
+     "letter": "E",
+     "text": "Objetividade e subjetividade do conhecimento."
+    }
+   ],
+   "figures": [],
+   "number": 65,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Para Maquiavel, o governante deve agir segundo a \"verdade efetiva das coisas\", e não segundo a moral ideal: pode até mentir pelo bem do Estado. É a distinção entre a idealidade e a efetividade da moral. **Resposta: A**",
+    "keyConcept": "Maquiavel: moral ideal × moral efetiva",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q67",
+   "year": 2019,
+   "area": "Filosofia Medieval",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\n\nConsidero apropriado deter-me algum tempo na contemplação deste Deus todo perfeito, ponderar totalmente à vontade seus maravilhosos atributos, considerar, admirar e adorar a incomparável beleza dessa imensa luz.\n\nDESCARTES, R. Meditações. São Paulo: Abril Cultural, 1980.\n\nTEXTO II\n\nQual será a forma mais razoável de entender como é o mundo? Existirá alguma boa razão para acreditar que o mundo foi criado por uma divindade todo-poderosa? Não podemos dizer que a crença em Deus é “apenas” uma questão de fé.\n\nRACHELS, J. Problemas da filosofia. Lisboa: Gradiva, 2009.\n\nOs textos abordam um questionamento da construção da modernidade que defende um modelo:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Centrado na razão humana."
+    },
+    {
+     "letter": "B",
+     "text": "Baseado na explicação mitológica."
+    },
+    {
+     "letter": "C",
+     "text": "Fundamentado na ordenação imanentista."
+    },
+    {
+     "letter": "D",
+     "text": "Focado na legitimação contratualista."
+    },
+    {
+     "letter": "E",
+     "text": "Configurado na percepção etnocêntrica."
+    }
+   ],
+   "figures": [],
+   "number": 67,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Descartes contempla Deus pela razão, e Rachels pergunta se a crença em Deus pode ter base racional. Os textos discutem o modelo moderno centrado na razão humana. **Resposta: A**",
+    "keyConcept": "razão e fé na modernidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q74",
+   "year": 2019,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Penso que não há um sujeito soberano, fundador, uma forma universal de sujeito que poderíamos encontrar em todos os lugares. Penso, pelo contrário, que o sujeito se constitui através das práticas de sujeição ou, de maneira mais autônoma, através de práticas de liberação, de liberdade, como na Antiguidade – a partir, obviamente, de um certo número de regras, de estilos, que podemos encontrar no meio cultural.\n\nFOUCAULT, M. Ditos e escritos V: ética, sexualidade, política. Rio de Janeiro: Forense Universitária, 2004.\n\nO texto aponta que a subjetivação se efetiva numa dimensão:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Legal, pautada em preceitos jurídicos."
+    },
+    {
+     "letter": "B",
+     "text": "Racional, baseada em pressupostos lógicos."
+    },
+    {
+     "letter": "C",
+     "text": "Contingencial, processada em interações sociais."
+    },
+    {
+     "letter": "D",
+     "text": "Transcendental, efetivada em princípios religiosos."
+    },
+    {
+     "letter": "E",
+     "text": "Essencial, fundamentada em parâmetros substancialistas."
+    }
+   ],
+   "figures": [],
+   "number": 74,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Foucault, não há um sujeito universal e soberano: ele se constitui em práticas de sujeição e de liberdade, a partir de regras do meio cultural. A subjetivação é contingente e acontece nas interações sociais. **Resposta: C**",
+    "keyConcept": "sujeito como construção (Foucault)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q75",
+   "year": 2019,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\n\nOs segredos da natureza se revelam mais sob a tortura dos experimentos do que no seu curso natural.\n\nBACON, F. Novum Organum, 1620. In: HADOT, P. O véu de Ísis: ensaio sobre a história da ideia de natureza. São Paulo: Loyola, 2006.\n\nTEXTO II\n\nO ser humano, totalmente desintegrado do todo, não percebe mais as relações de equilíbrio da natureza. Age de forma totalmente desarmônica sobre o ambiente, causando grandes desequilíbrios ambientais.\n\nGUIMARÃES, M. A dimensão ambiental na educação. Campinas: Papirus, 1995.\n\nOs textos indicam uma relação da sociedade diante da natureza caracterizada pela:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Objetificação do espaço físico."
+    },
+    {
+     "letter": "B",
+     "text": "Retomada do modelo criacionista."
+    },
+    {
+     "letter": "C",
+     "text": "Recuperação do legado ancestral."
+    },
+    {
+     "letter": "D",
+     "text": "Infalibilidade do método científico."
+    },
+    {
+     "letter": "E",
+     "text": "Formação da cosmovisão holística."
+    }
+   ],
+   "figures": [],
+   "number": 75,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Bacon fala em \"torturar\" a natureza com experimentos, e o segundo texto critica a ação desarmônica do homem sobre o ambiente. Ambos mostram a natureza tratada como objeto a ser dominado e explorado. **Resposta: A**",
+    "keyConcept": "natureza como objeto",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q76",
+   "year": 2019,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Essa atmosfera de loucura e irrealidade, criada pela aparente ausência de propósitos, é a verdadeira cortina de ferro que esconde dos olhos do mundo todas as formas de campos de concentração. Vistos de fora, os campos e o que neles acontece só podem ser descritos com imagens extraterrenas, como se a vida fosse neles separada das finalidades deste mundo. Mais que o arame farpado, é a irrealidade dos detentos que ele confina que provoca uma crueldade tão incrível que termina levando à aceitação do extermínio como solução perfeitamente normal.\n\nARENDT, H. Origens do totalitarismo. São Paulo: Cia. das Letras, 1989 (adaptado).\n\nA partir da análise da autora, no encontro das temporalidades históricas, evidencia-se uma crítica à naturalização do(a):",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ideário nacional, que legitima as desigualdades sociais."
+    },
+    {
+     "letter": "B",
+     "text": "Alienação ideológica, que justifica as ações individuais."
+    },
+    {
+     "letter": "C",
+     "text": "Cosmologia religiosa, que sustenta as tradições hierárquicas."
+    },
+    {
+     "letter": "D",
+     "text": "Segregação humana, que fundamenta os projetos biopolíticos."
+    },
+    {
+     "letter": "E",
+     "text": "Enquadramento cultural, que favorece os comportamentos punitivos."
+    }
+   ],
+   "figures": [],
+   "number": 76,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Arendt mostra como os campos tornam o extermínio \"normal\", uma segregação de seres humanos que sustenta projetos biopolíticos de controle e eliminação de grupos. Critica-se a naturalização dessa segregação. **Resposta: D**",
+    "keyConcept": "Arendt e os campos de concentração",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2019-REG-D1-C1-Q78",
+   "year": 2019,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\n\nDuas coisas enchem o ânimo de admiração e veneração sempre crescentes: o céu estrelado sobre mim e a lei moral em mim.\n\nKANT, I. Crítica da razão prática. Lisboa: Edições 70, s/d (adaptado).\n\nTEXTO II\n\nDuas coisas admiro: a dura lei cobrindo-me e o estrelado céu dentro de mim.\n\nFONTELA, O. Kant (relido). In: Poesia completa. São Paulo: Hedra, 2015.\n\nA releitura realizada pela poeta inverte as seguintes ideias centrais do pensamento kantiano:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Possibilidade da liberdade e obrigação da ação."
+    },
+    {
+     "letter": "B",
+     "text": "Aprioridade do juízo e importância da natureza."
+    },
+    {
+     "letter": "C",
+     "text": "Necessidade da boa vontade e crítica da metafísica."
+    },
+    {
+     "letter": "D",
+     "text": "Prescindibilidade do empírico e autoridade da razão."
+    },
+    {
+     "letter": "E",
+     "text": "Interioridade da norma e fenomenalidade do mundo."
+    }
+   ],
+   "figures": [],
+   "number": 78,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Em Kant, a lei moral está \"em mim\" (interior) e o céu estrelado está \"sobre mim\" (o mundo dos fenômenos). A poeta inverte: a lei fica fora, \"cobrindo-me\", e o céu fica dentro. Inverte a interioridade da norma e a fenomenalidade do mundo. **Resposta: E**",
+    "keyConcept": "Kant relido",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q55",
+   "year": 2020,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Será que as coisas pareceriam diferentes se, de fato, todas elas existissem apenas na sua mente — se tudo o que você julgasse ser o mundo externo real fosse apenas um sonho ou alucinação gigante, de que você jamais fosse despertar? Se assim fosse, então é claro que você nunca poderia despertar, como faz quando sonha, pois significaria que não há mundo “real” no qual despertar. Logo, não seria exatamente igual a um sonho ou alucinação normal.\n\nNAGEL, T. Uma breve introdução à filosofia. São Paulo: Martins Fontes, 2011.\n\nO texto confere visibilidade a uma doutrina filosófica contemporânea conhecida como:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Personalismo, que vincula a realidade circundante aos domínios do pessoal."
+    },
+    {
+     "letter": "B",
+     "text": "Falsificacionismo, que estabelece ciclos de problemas para refutar a conjectura."
+    },
+    {
+     "letter": "C",
+     "text": "Falibilismo, que rejeita mecanismos mentais para sustentar uma crença inequívoca."
+    },
+    {
+     "letter": "D",
+     "text": "Idealismo, que nega a existência de objetivos independentemente do trabalho cognoscente."
+    },
+    {
+     "letter": "E",
+     "text": "Solipsismo, que reconhece limitações cognitivas para compreender uma experiência compartilhada."
+    }
+   ],
+   "figures": [],
+   "number": 55,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Nagel discute a hipótese de que tudo exista só na sua mente, sem mundo real a que \"acordar\". É o solipsismo: ninguém pode garantir, a partir da própria mente, a existência de um mundo compartilhado. **Resposta: E**",
+    "keyConcept": "solipsismo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q60",
+   "year": 2020,
+   "area": "Filosofia Contemporânea",
+   "content": null,
+   "demand": null,
+   "statement": "Em A morte de Ivan IIitch, Tolstoi descreve com detalhes repulsivos o terror de encarar a morte iminente. llitch adoece depois de um pequeno acidente e logo\ncompreende que se encaminhá para o fim de modo impossível de parar. “Nas profundezas de seu coração, ele sabia estar morrendo, mas em vez de se acostumar com a ideia, simplesmente não o fazia e não conseguia compreendê-la”.\n\nKAZEZ, J. O peso das coisas: filosofia para o bem-viver.\nRio de Janeiro: Tinta Negra, 2004.\n\nO texto descreve a experiência do personagem de Tolstoi diante de um aspecto incontornável de nossas vidas. Esse aspecto foi um tema central na tradição filosófica",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Marxista, no contexto do materialismo histórico."
+    },
+    {
+     "letter": "B",
+     "text": "Logicista, no propósito de entendimento dos fatos"
+    },
+    {
+     "letter": "C",
+     "text": "Utilitarista, no sentido da racionalidade das ações."
+    },
+    {
+     "letter": "D",
+     "text": "Pós-modernista, na discussão da fluidez das relações."
+    },
+    {
+     "letter": "E",
+     "text": "Existencialista, na questão do reconhecimento de si."
+    }
+   ],
+   "figures": [],
+   "number": 60,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "A angústia de Ivan Ilitch diante da morte iminente é tema central do existencialismo (Kierkegaard, Heidegger, Sartre), ligado à questão da finitude e do reconhecimento de si. **Resposta: E**",
+    "keyConcept": "morte e existencialismo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q69",
+   "year": 2020,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "A sociedade como um sistema justo de cooperação social consiste em uma das ideias familiares fundamentais, que dá estrutura e organização à justiça como equidade. A cooperação social guia-se por regras e procedimentos publicamente reconhecidos e aceitos por aquele que cooperam como sendo apropriados para regular a sua conduta. Diz-se que a cooperação é justa porque seus termos são tais que todos os participantes podem razoavelmente aceitar, desde que todos os demais também o aceitem.\n\nFERES JR., J.; POGREBINSCHI, T. Teoria política contemporânea: uma introdução. Rio de Janeiro: Elsevier, 2010.\n\nNo contexto do pensamento político, a ideia apresentada mostra-se consoante o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ideal republicano de governo."
+    },
+    {
+     "letter": "B",
+     "text": "Corrente tripartite dos poderes."
+    },
+    {
+     "letter": "C",
+     "text": "Posicionamento crítico do socialismo."
+    },
+    {
+     "letter": "D",
+     "text": "Legitimidade do absolutismo monárquico."
+    },
+    {
+     "letter": "E",
+     "text": "Entendimento do contratualismo moderno."
+    }
+   ],
+   "figures": [],
+   "number": 69,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "A ideia de Rawls da sociedade como sistema justo de cooperação, com regras que todos podem aceitar, retoma o contratualismo moderno. **Resposta: E**",
+    "keyConcept": "Rawls e o contrato",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q72",
+   "year": 2020,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Montaigne deu o nome para um novo gênero literário; foi dos primeiros a instituir na literatura moderna um espaço privado, o espaço do “eu”, do texto íntimo. Ele cria um novo processo de escrita filosófica, no qual hesitações, autocríticas, correções entram no próprio texto.\n\nCOELHO, M. Montaigne. São Paulo: Publifolha, 2001 (adaptado).\n\nO novo gênero de escrita aludido no texto é o(a)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Confissão, que relata experiências de transformação."
+    },
+    {
+     "letter": "B",
+     "text": "Ensaio, que expõe concepções subjetivas de um tema."
+    },
+    {
+     "letter": "C",
+     "text": "Carta, que comunica informações para um conhecido."
+    },
+    {
+     "letter": "D",
+     "text": "Meditação, que propõe preparações para o conhecimento."
+    },
+    {
+     "letter": "E",
+     "text": "Diálogo, que discute assuntos com diferentes interlocutores."
+    }
+   ],
+   "figures": [],
+   "number": 72,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Montaigne criou o ensaio (Essais), texto em primeira pessoa no qual expõe reflexões pessoais, hesitações e autocríticas sobre um tema. **Resposta: B**",
+    "keyConcept": "ensaio de Montaigne",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q74",
+   "year": 2020,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\n\nOs meus pensamentos são todos sensações.\nPenso com os olhos e com os ouvidos\nE com as mãos e os pés\nE com o nariz e a boca.\n\nPESSOA, F. O guardador de rebanhos – IX. In: GALHOZ, M. A. (Org.). Obras poéticas. Rio de Janeiro: Nova Aguilar, 1999 (fragmento).\n\nTEXTO II\n\nTudo aquilo que sei do mundo, mesmo por ciência, eu o sei a partir de uma visão minha ou de uma experiência do mundo sem a qual os símbolos da ciência não poderiam dizer nada.\n\nMERLEAU-PONTY, M. Fenomenologia da percepção. São Paulo: Martins Fontes, 1999 (adaptado).\n\nOs textos mostram-se alinhados a um entendimento acerca da ideia de conhecimento, numa perspectiva que ampara a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Anterioridade da razão no domínio cognitivo."
+    },
+    {
+     "letter": "B",
+     "text": "Confirmação da existência de saberes inatos."
+    },
+    {
+     "letter": "C",
+     "text": "Valorização do corpo na apreensão da realidade."
+    },
+    {
+     "letter": "D",
+     "text": "Verificabilidade de proposições no campo da lógica."
+    },
+    {
+     "letter": "E",
+     "text": "Possibilidade de contemplação de verdades atemporais."
+    }
+   ],
+   "figures": [],
+   "number": 74,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Pessoa (\"penso com os olhos...\") e Merleau-Ponty (o saber parte da experiência vivida) dão ao corpo e à percepção um lugar central no conhecimento da realidade. **Resposta: C**",
+    "keyConcept": "fenomenologia do corpo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q77",
+   "year": 2020,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Vemos que toda cidade é uma espécie de comunidade, e toda comunidade se forma com vistas a algum bem, pois todas as ações de todos os homens são praticadas com vistas ao que lhe parece um bem; se todas as comunidades visam algum bem, é evidente que a mais importante de todas elas e que inclui todas as outras tem mais que todas este objetivo e visa ao mais importante de todos os bens.\n\nARISTÓTELES Política. Brasília: UnB,1988.\n\nNo fragmento, Aristóteles promove uma reflexão que associa dois elementos essenciais à discussão sobre a vida em comunidade, a saber:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ética e política, pois conduzem à eudaimonia."
+    },
+    {
+     "letter": "B",
+     "text": "Retórica e linguagem, pois cuidam dos discursos na ágora."
+    },
+    {
+     "letter": "C",
+     "text": "Metafísica e ontologia, pois tratam da filosofia primeira."
+    },
+    {
+     "letter": "D",
+     "text": "Democracia e sociedade, pois se referem a relações sociais."
+    },
+    {
+     "letter": "E",
+     "text": "Geração e corrupção, pois abarcam o campo da physis."
+    }
+   ],
+   "figures": [],
+   "number": 77,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "A cidade é a comunidade que visa o bem supremo. Para Aristóteles, ética e política estão ligadas porque as duas conduzem à eudaimonia, a felicidade do indivíduo e da cidade. **Resposta: A**",
+    "keyConcept": "ética e política em Aristóteles",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2020-REG-D1-C1-Q89",
+   "year": 2020,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Adão, ainda que supuséssemos que suas faculdades racionais fossem inteiramente perfeitas desde o início, não poderia ter inferido da fluidez e transparência da água que ela o sufocaria, nem da luminosidade e calor do fogo que este poderia consumi-lo. Nenhum objeto jamais revela, pelas qualidades que aparecem aos sentidos, nem as causas que o produziram, nem os efeitos que dele provirão; e tampouco nossa razão é capaz de extrair, sem auxílio da experiência, qualquer conclusão referente à existência efetiva de coisas ou questões de fato.\n\nHUME, D. Uma investigação sobre o entendimento humano. São Paulo: Unesp, 2003.\n\nSegundo o autor, qual é a origem do conhecimento humano?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A potência inata da mente."
+    },
+    {
+     "letter": "B",
+     "text": "A revelação da inspiração divina."
+    },
+    {
+     "letter": "C",
+     "text": "O estudo das tradições filosóficas."
+    },
+    {
+     "letter": "D",
+     "text": "A vivência dos fenômenos do mundo."
+    },
+    {
+     "letter": "E",
+     "text": "O desenvolvimento do raciocínio abstrato."
+    }
+   ],
+   "figures": [],
+   "number": 89,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Nem um Adão de razão perfeita poderia saber, sem experiência, que a água afoga ou que o fogo queima. Para Hume, o conhecimento sobre questões de fato vem da experiência, da vivência dos fenômenos. **Resposta: D**",
+    "keyConcept": "Hume e a experiência",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2021-REG-D1-C1-Q57",
+   "year": 2021,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Nos setores mais altamente desenvolvidos da sociedade contemporânea, o transplante de necessidades sociais para individuais é de tal modo eficaz que a diferença entre elas parece puramente teórica. As criaturas se reconhecem em suas mercadorias; encontram sua alma em seu automóvel, casa em patamares, utensílios de cozinha.\n\nMARCUSE, H. A ideologia da sociedade industrial: o homem unidimensional.\nRio de Janeiro: Zahar, 1979.\n\nO texto indica que, no capitalismo, a satisfação dos desejos pessoais é influenciada por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Políticas estatais de divulgação."
+    },
+    {
+     "letter": "B",
+     "text": "Incentivos controlados de consumo."
+    },
+    {
+     "letter": "C",
+     "text": "Prescrições coletivas de organização."
+    },
+    {
+     "letter": "D",
+     "text": "Mecanismos subjetivos de identificação."
+    },
+    {
+     "letter": "E",
+     "text": "Repressões racionalizadas do narcisismo."
+    }
+   ],
+   "figures": [],
+   "number": 57,
+   "booklet": 1,
+   "answer": "D",
+   "explanation": {
+    "markdown": "Para Marcuse, as necessidades criadas socialmente são vividas como se fossem individuais: as pessoas \"encontram sua alma\" no automóvel e na casa. A satisfação é guiada por mecanismos subjetivos de identificação com as mercadorias. **Resposta: D**",
+    "keyConcept": "Marcuse: identificação com mercadorias",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2021-REG-D1-C1-Q65",
+   "year": 2021,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Ao mesmo tempo, graças às amplas possibilidades que tive de observar a classe média, vossa adversária, rapidamente concluí que vós tendes razão, inteira razão, em não esperar dele qualquer ajuda. Seus interesses são diametralmente opostos aos vossos, mesmo que ela procure incessantemente afirmar o contrário e vos queira persuadir que sente a maior simpatia por vossa sorte. Mas seus atos desmentem suas palavras.\n\nENGELS, F. A situação da classe trabalhadora na Inglaterra. São Paulo: Boitempo, 2010.\n\nNo texto, o autor apresenta delineamentos éticos que correspondem ao (s)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Conceito de luta de classes."
+    },
+    {
+     "letter": "B",
+     "text": "Alicerce da ideia de mais-valia."
+    },
+    {
+     "letter": "C",
+     "text": "Fundamentos do método científico."
+    },
+    {
+     "letter": "D",
+     "text": "Paradigmas do processo indagativo."
+    },
+    {
+     "letter": "E",
+     "text": "Domínios do fetichismo da mercadoria."
+    }
+   ],
+   "figures": [],
+   "number": 65,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Engels diz aos operários que a classe média (a burguesia) tem interesses opostos aos deles e que não devem esperar ajuda dela. É o conceito de luta de classes. **Resposta: A**",
+    "keyConcept": "luta de classes em Engels",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q47",
+   "year": 2022,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Sempre que a relevância do discurso entra em jogo, a questão torna-se política por definição, pois é o discurso que faz do homem um ser político. E tudo que os homens fazem, sabem ou experimentam só tem sentido na medida em que pode ser discutido. Haverá, talvez, verdades que ficam além da linguagem e que podem ser de grande relevância para o homem no singular, isto é, para o homem que, seja o que for, não é um ser político. Mas homens no plural, isto é, os homens que vivem e se movem e agem neste mundo, só podem experimentar o significado das coisas por poderem falar e ser inteligíveis entre si e consigo mesmos.\n\nARENDT, H. A condição humana. Rio de Janeiro: Forense Universitária, 2004.\n\nNo trecho, a filósofa Hannah Arendt mostra a importância da linguagem no processo de",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Entendimento da cultura."
+    },
+    {
+     "letter": "B",
+     "text": "Aumento da criatividade."
+    },
+    {
+     "letter": "C",
+     "text": "Percepção da individualidade."
+    },
+    {
+     "letter": "D",
+     "text": "Melhoria da técnica."
+    },
+    {
+     "letter": "E",
+     "text": "Construção da sociabilidade."
+    }
+   ],
+   "figures": [],
+   "number": 47,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Para Arendt, é o discurso que faz do homem um ser político: as coisas só têm sentido quando podem ser faladas entre as pessoas. A linguagem é essencial à construção da sociabilidade. **Resposta: E**",
+    "keyConcept": "Arendt: discurso e ação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q57",
+   "year": 2022,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "O leproso é visto dentro de uma prática de rejeição, ao exílio-cerca; deixa-se que se perca lá dentro como numa massa que não têm muita importância diferenciar; os pestilentos são considerados num policiamento tático meticuloso onde as diferenciações individuais são os efeitos limitantes de um poder que se multiplica, se articula e se subdivide. O grande fechamento por um lado; o bom treinamento por outro. A lepra e a sua divisão; a peste e seus recortes. Uma é marcada; a outra, analisada e repartida. O exílio do leproso e a prisão da peste não trazem consigo o mesmo sonho político.\n\nFOUCAULT, M. Vigiar e punir: nascimento da prisão. Petrópolis: Vozes, 1987.\n\nOs modelos autoritários descritos no texto apontam para um sistema de controle que se baseia no(a):",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Formação de sociedade disciplinar."
+    },
+    {
+     "letter": "B",
+     "text": "Flexibilização do regramento social."
+    },
+    {
+     "letter": "C",
+     "text": "Banimento da autoridade repressora."
+    },
+    {
+     "letter": "D",
+     "text": "Condenação da degradação humana."
+    },
+    {
+     "letter": "E",
+     "text": "Hierarquização da burocracia estatal."
+    }
+   ],
+   "figures": [],
+   "number": 57,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "O leproso era excluído; a cidade da peste era esquadrinhada, vigiada e controlada em detalhe. O modelo da peste prefigura a sociedade disciplinar, com vigilância e controle minucioso dos indivíduos. **Resposta: A**",
+    "keyConcept": "sociedade disciplinar (Foucault)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q71",
+   "year": 2022,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "O princípio básico do Estado de direito é o da eliminação do arbítrio no exercício dos poderes  públicos, com a consequente garantia de direitos dos indivíduos perante esses poderes. Estado de direito significa que nenhum indivíduo, presidente ou cidadão comum está acima da lei. Os governos democráticos exercem a autoridade por meio da lei e estão eles próprios sujeitos as constrangimentos impostos pela lei.\n\nCANOTILHO, J. J. G. Estado de direito, Lisboa: Gradiva, 1999 (adaptado).\n\nNas sociedades contemporâneas, consiste em violação do princípio básico enunciado no texto:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Supressão de eleições de representantes políticos."
+    },
+    {
+     "letter": "B",
+     "text": "Intervenção em áreas de vulnerabilidade pela Igreja."
+    },
+    {
+     "letter": "C",
+     "text": "Disseminação de projetos sociais em universidades."
+    },
+    {
+     "letter": "D",
+     "text": "Ampliação dos processos de concentração de renda."
+    },
+    {
+     "letter": "E",
+     "text": "Regulamentação das relações de trabalho pelo Legislativo."
+    }
+   ],
+   "figures": [],
+   "number": 71,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "No Estado de direito, o poder é exercido conforme a lei e sem arbítrio, e os governantes são escolhidos e limitados segundo regras. Suprimir as eleições dos representantes viola esse princípio. As outras opções não envolvem arbítrio do poder público. **Resposta: A**",
+    "keyConcept": "Estado de direito",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q80",
+   "year": 2022,
+   "area": "Filosofia Antiga",
+   "content": null,
+   "demand": null,
+   "statement": "Advento da Polis, nascimento da filosofia: entre as duas ordens de fenômenos, os vínculos são demasiado estreitos para que o pensamento racional não apareça, em suas origens, solidário das estruturas sociais e mentais próprias da cidade grega. Assim recolocada na história, a filosofia despoja-se desse caráter de revelação absoluta que às vezes lhe foi atribuído, saudando, na jovem ciência dos jônios, a razão intemporal que veio encarnar-se no Tempo. A escola de Mileto não viu nascer a Razão; ela construiu uma Razão, uma primeira forma de racionalidade. Essa razão grega não é a razão experimental da ciência contemporânea.\n\nVERNANT, J. P. Origens do pensamento grego. Rio de Janeiro: Difel, 2002.\n\nOs vínculos entre os fenômenos indicados no trecho foram fortalecidos pelo surgimento de uma categoria de pensadores, a saber:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Os epicuristas, envolvidos com o ideal de vida feliz."
+    },
+    {
+     "letter": "B",
+     "text": "Os estoicos, dedicados à superação dos infortúnios."
+    },
+    {
+     "letter": "C",
+     "text": "Os sofistas, comprometidos com o ensino da retórica."
+    },
+    {
+     "letter": "D",
+     "text": "Os peripatéticos, empenhados na dinâmica do ensino."
+    },
+    {
+     "letter": "E",
+     "text": "Os poetas rapsodos, responsáveis pela narrativa do mito."
+    }
+   ],
+   "figures": [],
+   "number": 80,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Para Vernant, a razão grega nasce ligada à vida política da pólis, baseada na palavra e no debate. Os sofistas, mestres da retórica e da argumentação pública, fortaleceram esse vínculo. **Resposta: C**",
+    "keyConcept": "pólis, sofistas e razão",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q84",
+   "year": 2022,
+   "area": "Filosofia Contemporânea",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\nUma filosofia da percepção que queira reaprender a ver o mundo restituirá à pintura e às artes em geral seu lugar verdadeiro.\n\nMERLEAU-PONTY, M. Conversas: 1948. São Paulo: Martins Fontes, 2004.\n\nTEXTO II\nOs grandes autores de cinema nos pareceram confrontáveis não apenas com pintores, arquitetos, músicos, mas também com pensadores. Eles pensam com imagens, em vez de conceitos.\n\nDELEUZE, G. Cinema 1: a imagem-movimento. São Paulo: Brasiliense, 1983 (adaptado).\n\nDe que modo os textos sustentam a existência de um saber ancorado na sensibilidade?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Admitindo o belo como fenômeno transcendental."
+    },
+    {
+     "letter": "B",
+     "text": "Reafirmando a vivência estética como juízo de gosto."
+    },
+    {
+     "letter": "C",
+     "text": "Considerando o olhar como experiência de conhecimento."
+    },
+    {
+     "letter": "D",
+     "text": "Apontando as formas de expressão como auxiliares da razão."
+    },
+    {
+     "letter": "E",
+     "text": "Estabelecendo a inteligência como implicação das representações."
+    }
+   ],
+   "figures": [],
+   "number": 84,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Merleau-Ponty valoriza a percepção, que \"reaprende a ver o mundo\", e Deleuze diz que os cineastas pensam com imagens. Os dois veem o olhar e a percepção como forma de conhecimento. **Resposta: C**",
+    "keyConcept": "saber sensível",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q86",
+   "year": 2022,
+   "area": "Filosofia Antiga",
+   "content": null,
+   "demand": null,
+   "statement": "Empédocles estabelece quatro elementos corporais – fogo, ar, água e terra –, que são eternos e que mudam aumentando e diminuindo mediante mistura e  separação; mas os princípios propriamente ditos, pelos quais são movidos, são o Amor e o Ódio. Pois é preciso que os elementos permaneçam alternadamente em movimento, sendo ora misturados pelo Amor, ora separados pelo Ódio.\n\nSIMPLÍCIO. Física, 25, 21. In: Os pré-socráticos. São Paulo: Nova Cultural, 1996.\n\nO texto propõe uma reflexão sobre o entendimento de Empédocles acerca da arché, uma preocupação típica do pensamento pré-socrático, porque",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Exalta a investigação filosófica."
+    },
+    {
+     "letter": "B",
+     "text": "Transcende ao mundo sensível."
+    },
+    {
+     "letter": "C",
+     "text": "Evoca a discussão cosmogônica."
+    },
+    {
+     "letter": "D",
+     "text": "Fundamenta as paixões humanas."
+    },
+    {
+     "letter": "E",
+     "text": "Corresponde à explicação mitológica."
+    }
+   ],
+   "figures": [],
+   "number": 86,
+   "booklet": 1,
+   "answer": "C",
+   "explanation": {
+    "markdown": "Empédocles explica a formação do cosmo por quatro elementos eternos misturados pelo Amor e separados pelo Ódio. A busca da arché é uma discussão cosmogônica, sobre a origem e a organização do universo. **Resposta: C**",
+    "keyConcept": "Empédocles e a cosmogonia",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2022-REG-D1-C1-Q88",
+   "year": 2022,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "Entretanto, nosso amigo Basso tem o ânimo alegre. Isso resulta da filosofia: estar alegre diante da morte, forte e contente qualquer que seja o estado do corpo, sem desfalecer, ainda que desfaleça.\n\nSêneca, L. Cartas morais. Lisboa: Calouste Gulbenkian, 1990.\n\nO excerto refere-se a uma carta de Sêneca na qual se apresenta como um bem fundamental da filosofia promover a",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Valorização de disputas dialógicas"
+    },
+    {
+     "letter": "B",
+     "text": "Rejeição das convenções sociais"
+    },
+    {
+     "letter": "C",
+     "text": "Inspiração de natureza religiosa"
+    },
+    {
+     "letter": "D",
+     "text": "Exaltação do sofrimento"
+    },
+    {
+     "letter": "E",
+     "text": "Moderação das paixões"
+    }
+   ],
+   "figures": [],
+   "number": 88,
+   "booklet": 1,
+   "answer": "E",
+   "explanation": {
+    "markdown": "Para Sêneca, a filosofia deixa o ânimo alegre e firme até diante da morte e da doença. O bem fundamental do estoicismo é a moderação das paixões (apatheia), que leva à serenidade. **Resposta: E**",
+    "keyConcept": "estoicismo e serenidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2023-REG-D1-C1-Q52",
+   "year": 2023,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\nComo presença consciente no mundo não posso escapar à responsabilidade ética no meu mover-me no mundo. Se sou puro produto da determinação genética ou cultural ou de classe, sou irresponsável pelo que faço no meu mover-me no mundo e, se careço de responsabilidade, não posso falar em ética.\nFREIRE, P. Pedagogia da autonomia: saberes necessários à prática educativa. São Paulo: Paz e Terra, 1996\nТЕХТО II\nPaulo Freire construiu uma pedagogia da esperança. Na sua concepção, a história não é algo pronto e acabado. As estruturas de opressão e as desigualdades, apesar de serem naturalizadas, são sócio e historicamente construídas. Daí a importância de os educandos tomarem consciência da sua realidade para, assim, transformá-la.\nDEMARCHI, J. L. Paulo Freire. Disponivel em: https://diplomatique.org.br. Acesso em: 6 out. 2021 (adaptado).\nCom base no conceito de ética pedagógica presente nos textos, os educandos tornam-se responsáveis pela",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Participação sociopolítica."
+    },
+    {
+     "letter": "B",
+     "text": "Definição estético-cultural."
+    },
+    {
+     "letter": "C",
+     "text": "Competição econômica local."
+    },
+    {
+     "letter": "D",
+     "text": "Manutenção do sistema escolar."
+    },
+    {
+     "letter": "E",
+     "text": "Capacitação de mobilidade individual."
+    }
+   ],
+   "figures": [],
+   "number": 52,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Para Paulo Freire, a pessoa não é mero produto das determinações e por isso é eticamente responsável. A educação crítica leva os educandos a conhecer sua realidade para transformá-la, ou seja, à participação sociopolítica. **Resposta: A**",
+    "keyConcept": "ética freiriana e transformação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2023-REG-D1-C1-Q54",
+   "year": 2023,
+   "area": "Filosofia Moderna: Razão e Conhecimento",
+   "content": null,
+   "demand": null,
+   "statement": "Eu poderia concluir que a raiva é um pensamento, que estar com raiva é pensar que alguém é detestável, e que esse pensamento, como todos os outros — assim como Descartes o mostrou —, não poderia residir em nenhum fragmento de matéria. A raiva seria, portanto, espírito. Porém, quando me volto para minha própria experiência da raiva, devo confessar que ela não estava fora do meu corpo, mas inexplicavelmente nele.\nMERLEAU-PONTY, M. Quinta conversa: o homem visto de fora. São Paulo: Martins Fontes, 1948 (adaptado).\nNo que se refere ao problema do corpo, a filosofia cartesiana apresenta-se como contraponto ao entendimento expresso no texto por",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Apresentar uma visão dualista."
+    },
+    {
+     "letter": "B",
+     "text": "Confirmar uma tese naturalista."
+    },
+    {
+     "letter": "C",
+     "text": "Demonstrar uma premissa relativa."
+    },
+    {
+     "letter": "D",
+     "text": "Sustentar um argumento idealista."
+    },
+    {
+     "letter": "E",
+     "text": "Defender uma posição intencionalista."
+    }
+   ],
+   "figures": [],
+   "number": 54,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Merleau-Ponty mostra a raiva como algo vivido no corpo, e não um pensamento separado dele. Descartes, ao contrário, separa a alma pensante (res cogitans) do corpo (res extensa): é uma visão dualista. **Resposta: A**",
+    "keyConcept": "dualismo cartesiano",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2023-REG-D1-C1-Q55",
+   "year": 2023,
+   "area": "Ética e Moral",
+   "content": null,
+   "demand": null,
+   "statement": "A diversão é o prolongamento do trabalho sob o capitalismo tardio. Ela é procurada por quem quer escapar ao processo de trabalho mecanizado para se pôr de novo em condições de enfrentá-lo. Mas, ao mesmo tempo, a mecanização atingiu um tal poderio sobre a pessoa em seu lazer e sobre a sua felicidade, ela determina tão profundamente a fabricação das mercadorias destinadas à diversão que essa pessoa não pode mais perceber outra coisa senão as cópias que reproduzem o próprio processo de trabalho…\nADORNO, T; HORKHEIMER, M. Dialética do esclarecimento. Rio de Janeiro: Zahar 1997.\nNo texto, o tempo livre é concebido como",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Consumo de produtos culturais e elaborados no mesmo sistema produtivo do capitalismo"
+    },
+    {
+     "letter": "B",
+     "text": "Forma de realizar as diversas potencialidades da natureza humana."
+    },
+    {
+     "letter": "C",
+     "text": "Alternativa para equilibrar tensões psicológicas do dia a dia."
+    },
+    {
+     "letter": "D",
+     "text": "Promoção da satisfação de necessidades artificiais."
+    },
+    {
+     "letter": "E",
+     "text": "Mecanismo de organização do ócio e do prazer."
+    }
+   ],
+   "figures": [],
+   "number": 55,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Para Adorno e Horkheimer, a diversão prolonga o trabalho: o lazer é ocupado pelo consumo de produtos culturais feitos no mesmo sistema produtivo mecanizado, que reproduzem a lógica do trabalho. **Resposta: A**",
+    "keyConcept": "tempo livre na indústria cultural",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2023-REG-D1-C1-Q79",
+   "year": 2023,
+   "area": "Filosofia Contemporânea",
+   "content": null,
+   "demand": null,
+   "statement": "TEXTO I\n\nGerineldo dorme porque já está conformado com o seu mundo. Porque já sabe tudo o que lhe pode acontecer após haver submetido todos os objetos que o rodeiam a um minucioso inventário de possibilidades. Seu apartamento, mais que um apartamento, é uma teoria de sorte e de azar. Melhor que ninguém, Gerineldo conhece o coeficiente da dilatação de suas janelas e mantém marcado no termômetro, com uma linha vermelha, o ponto em que se quebrarão os vidros, despedaçados em estilhaços de morte. Sabe que os arquitetos e os engenheiros já previram tudo, menos o que nunca já aconteceu.\n\nMARQUEZ, G. G. O pessimista. In: Textos do Caribe. Rio de Janeiro: Record, 1981.\n\nТЕХТО II\n\nA situação é o sujeito inteiro (ele não é nada a não ser a sua situação) e é também a coisa inteira (nunca há mais nada senão as coisas). É o sujeito a elucidar as coisas pela sua própria superação, se assim quisermos; ou são as coisas a reenviar ao sujeito a imagem dele. É a total facticidade, a contingência absoluta do mundo, do meu nascimento, do meu lugar, do meu passado, dos meus redores — e é a minha liberdade sem limites que faz com que haja para mim uma facticidade.\n\nSARTRE, J.-P. O ser e o nada: ensaio de ontologia fenomenológica. Petrópolis: Vozes, 1997 (adaptado).\n\nA postura determinista adotada pelo personagem Gerineldo contrasta com a ideia existencialista contida no pensamento filosófico de Sartre porque",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Evidencia a manifestação do inconsciente."
+    },
+    {
+     "letter": "B",
+     "text": "Nega a possibilidade de transcendência."
+    },
+    {
+     "letter": "C",
+     "text": "Contraria o conhecimento difuso."
+    },
+    {
+     "letter": "D",
+     "text": "Sustenta a fugacidade da vida."
+    },
+    {
+     "letter": "E",
+     "text": "Refuta a evolução biológica."
+    }
+   ],
+   "figures": [],
+   "number": 79,
+   "booklet": 1,
+   "answer": "B",
+   "explanation": {
+    "markdown": "Para Sartre, o homem é liberdade e projeto: está sempre além da sua situação (transcendência). O personagem determinista, que já \"sabe tudo o que lhe pode acontecer\", nega essa possibilidade de transcendência. **Resposta: B**",
+    "keyConcept": "Sartre: existência e transcendência",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  },
+  {
+   "id": "ENEM-CH-2023-REG-D1-C1-Q81",
+   "year": 2023,
+   "area": "Filosofia Política",
+   "content": null,
+   "demand": null,
+   "statement": "A economia das ilegalidades se reestruturou com o desenvolvimento da sociedade capitalista. A ilegalidade dos bens foi separada da ilegalidade dos direitos. Divisão que corresponde a uma oposição de classes, pois, de um lado, a ilegalidade mais acessível às classes populares será a dos bens — transferência violenta das propriedades; de outro, à burguesia, então, se reservará a ilegalidade dos direitos: a possibilidade de desviar seus próprios regulamentos e suas próprias leis; e essa grande redistribuição das ilegalidades se traduzirá até por uma especialização dos circuitos judiciários; para as ilegalidades de bens — para o roubo — os tribunais ordinários e os castigos; para as ilegalidades de direitos — fraudes, evasões fiscais, operações comerciais irregulares — jurisdições especiais com transações, acomodações, multas atenuadas etc.\n FOUCAULT, M. Vigiar e punir: nascimento da prisão. Petropolis: Vozes, 1987\nO texto apresenta uma relação de cálculo politico-econômico que caracteriza o poder punitivo por meio da • gestão das ilicitudes pelo sistema judicial. aplicação das sanções pelo modelo equânime. supressão dos crimes pela penalização severa. regulamentação dos privilégios pela justiça social. repartição de vantagens pela hierarquização cultural",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gestão das ilicitudes pelo sistema judicial."
+    },
+    {
+     "letter": "B",
+     "text": "Aplicação das sanções pelo modelo equânime."
+    },
+    {
+     "letter": "C",
+     "text": "Supressão dos crimes pela penalização severa."
+    },
+    {
+     "letter": "D",
+     "text": "Regulamentação dos privilégios pela justiça social."
+    },
+    {
+     "letter": "E",
+     "text": "Repartição de vantagens pela hierarquização cultural."
+    }
+   ],
+   "figures": [],
+   "number": 81,
+   "booklet": 1,
+   "answer": "A",
+   "explanation": {
+    "markdown": "Foucault mostra que, no capitalismo, as ilegalidades contra os bens (das classes populares) passaram aos tribunais ordinários e às punições, enquanto as ilegalidades de direitos (da burguesia) ficaram mais toleradas. O poder punitivo se caracteriza pela gestão diferencial das ilicitudes pelo sistema judicial. **Resposta: A**",
+    "keyConcept": "ilegalidades e poder punitivo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
+  }
+ ]
+}
