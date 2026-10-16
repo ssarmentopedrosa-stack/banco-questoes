@@ -1,0 +1,8630 @@
+[
+{
+"ano": 2009,
+"n": 46,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2009,
+"n": 47,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 3,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 48,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 10,
+"FIL": 4,
+"SOC": 6,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2009,
+"n": 49,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 12,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 50,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 11,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 51,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 1,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 52,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 0,
+"SOC": 1,
+"GEO": 4
+},
+"lab": "G",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 53,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 10,
+"SOC": 10,
+"GEO": 2
+},
+"lab": "H?",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2009,
+"n": 54,
+"cob": 0.989,
+"falta": [
+"terra"
+],
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 56,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 5,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 57,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 6,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 58,
+"cob": 0.991,
+"falta": [
+"obra"
+],
+"sc": {
+"HIS": 3,
+"FIL": 10,
+"SOC": 5,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 59,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 0,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2009,
+"n": 60,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 8,
+"FIL": 1,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 61,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 9,
+"FIL": 4,
+"SOC": 3,
+"GEO": 4
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 62,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 3,
+"SOC": 5,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 63,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 3,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 64,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 8,
+"FIL": 3,
+"SOC": 2,
+"GEO": 8
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 65,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 11,
+"FIL": 1,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 66,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 9,
+"FIL": 6,
+"SOC": 2,
+"GEO": 4
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 67,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 0,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 69,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 0,
+"SOC": 7,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 70,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 0,
+"SOC": 1,
+"GEO": 8
+},
+"lab": "G",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 74,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 4,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 79,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 3,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 82,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 1,
+"GEO": 8
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 84,
+"cob": 0.959,
+"falta": [
+"http",
+"indexmundi"
+],
+"sc": {
+"HIS": 5,
+"FIL": 0,
+"SOC": 0,
+"GEO": 3
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 86,
+"cob": 0.941,
+"falta": [
+"charge",
+"http",
+"images"
+],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 5
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2009,
+"n": 89,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 2,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2010,
+"n": 10,
+"cob": 0.99,
+"falta": [
+"estabelecer"
+],
+"sc": {
+"HIS": 4,
+"FIL": 2,
+"SOC": 5,
+"GEO": 7
+},
+"lab": "G",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 11,
+"cob": 0.978,
+"falta": [
+"interferencias"
+],
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2010,
+"n": 12,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 5,
+"GEO": 3
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 13,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 0,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 16,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 3,
+"SOC": 8,
+"GEO": 2
+},
+"lab": "S",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 18,
+"cob": 0.99,
+"falta": [
+"aparecem"
+],
+"sc": {
+"HIS": 2,
+"FIL": 3,
+"SOC": 3,
+"GEO": 7
+},
+"lab": "G",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 19,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 0,
+"GEO": 4
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 20,
+"cob": 0.991,
+"falta": [
+"tantas"
+],
+"sc": {
+"HIS": 8,
+"FIL": 3,
+"SOC": 7,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 21,
+"cob": 0.961,
+"falta": [
+"conjunto",
+"historico"
+],
+"sc": {
+"HIS": 1,
+"FIL": 5,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2010,
+"n": 22,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 10,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 23,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 9,
+"FIL": 5,
+"SOC": 6,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 24,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 10,
+"FIL": 1,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 25,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 19,
+"FIL": 1,
+"SOC": 5,
+"GEO": 3
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 26,
+"cob": 0.991,
+"falta": [
+"passado"
+],
+"sc": {
+"HIS": 11,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 27,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 3,
+"SOC": 3,
+"GEO": 4
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 28,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 12,
+"FIL": 9,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 29,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 4,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 30,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 4,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 31,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 8,
+"FIL": 3,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 32,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 11,
+"FIL": 5,
+"SOC": 8,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 33,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 2,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 34,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 9,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 35,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 1,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2010,
+"n": 36,
+"cob": 0.978,
+"falta": [
+"chegada",
+"televisao"
+],
+"sc": {
+"HIS": 5,
+"FIL": 2,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 37,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 4,
+"SOC": 6,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 39,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 14,
+"SOC": 10,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 40,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 1,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 41,
+"cob": 0.984,
+"falta": [
+"lesbicas",
+"ultimas"
+],
+"sc": {
+"HIS": 4,
+"FIL": 7,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 42,
+"cob": 0.971,
+"falta": [
+"chile",
+"juiz"
+],
+"sc": {
+"HIS": 2,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 43,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 1,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 44,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 14,
+"SOC": 5,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2010,
+"n": 45,
+"cob": 0.852,
+"falta": [
+"fontes",
+"mafalda",
+"martins",
+"natureza",
+"paulo",
+"questoes",
+"quino",
+"toda"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 85%)",
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 1,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 5,
+"SOC": 5,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2011,
+"n": 2,
+"cob": 0.944,
+"falta": [
+"ambiguidade",
+"corrupcao",
+"inerente",
+"mais"
+],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 3,
+"cob": 0.925,
+"falta": [
+"caras",
+"forte",
+"pintadas",
+"sentimento"
+],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2011,
+"n": 6,
+"cob": 0.816,
+"falta": [
+"absaber",
+"amazonia",
+"brasileira",
+"discurso",
+"edusp",
+"fatores",
+"praxis",
+"santos",
+"urbanizacao"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 82%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 12
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 16,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 2,
+"SOC": 11,
+"GEO": 2
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 17,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 8,
+"FIL": 1,
+"SOC": 3,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 18,
+"cob": 0.969,
+"falta": [
+"lentamente",
+"outros"
+],
+"sc": {
+"HIS": 0,
+"FIL": 6,
+"SOC": 15,
+"GEO": 2
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 19,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 3,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 20,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 5,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 21,
+"cob": 0.971,
+"falta": [
+"consequencia",
+"populacao"
+],
+"sc": {
+"HIS": 0,
+"FIL": 7,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 22,
+"cob": 0.78,
+"falta": [
+"acordo",
+"alternancia",
+"caotico",
+"causa",
+"comercio",
+"confronto",
+"diferentes",
+"dois",
+"dominaram",
+"economia",
+"envolvimento",
+"expressao",
+"exterior",
+"graus",
+"idealizacao"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 78%)",
+"sc": {
+"HIS": 13,
+"FIL": 2,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 23,
+"cob": 0.959,
+"falta": [
+"desenvolvimento",
+"esse"
+],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 25,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 1,
+"SOC": 3,
+"GEO": 2
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 26,
+"cob": 0.95,
+"falta": [
+"exclusao",
+"lobo",
+"pelos",
+"social"
+],
+"sc": {
+"HIS": 14,
+"FIL": 3,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 27,
+"cob": 0.973,
+"falta": [
+"tempo",
+"vida"
+],
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 7,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 29,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 1,
+"SOC": 4,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 30,
+"cob": 0.887,
+"falta": [
+"apresenta",
+"associada",
+"obediencia",
+"podem",
+"predominantemente",
+"texto"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 89%)",
+"sc": {
+"HIS": 9,
+"FIL": 4,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 31,
+"cob": 0.986,
+"falta": [
+"terem"
+],
+"sc": {
+"HIS": 3,
+"FIL": 3,
+"SOC": 4,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 32,
+"cob": 0.986,
+"falta": [
+"povo"
+],
+"sc": {
+"HIS": 3,
+"FIL": 7,
+"SOC": 4,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2011,
+"n": 33,
+"cob": 0.961,
+"falta": [
+"idade",
+"inicio",
+"media"
+],
+"sc": {
+"HIS": 9,
+"FIL": 2,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 34,
+"cob": 0.967,
+"falta": [
+"baiana",
+"conjuracao",
+"intuito",
+"processo"
+],
+"sc": {
+"HIS": 6,
+"FIL": 1,
+"SOC": 3,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 35,
+"cob": 0.971,
+"falta": [
+"profundo",
+"sentimento"
+],
+"sc": {
+"HIS": 5,
+"FIL": 1,
+"SOC": 0,
+"GEO": 4
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 36,
+"cob": 0.977,
+"falta": [
+"brasil"
+],
+"sc": {
+"HIS": 6,
+"FIL": 3,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2011,
+"n": 38,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 3,
+"SOC": 1,
+"GEO": 3
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 40,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 41,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 1,
+"SOC": 7,
+"GEO": 3
+},
+"lab": "S",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 42,
+"cob": 0.962,
+"falta": [
+"favor",
+"forma",
+"politicos",
+"vinculados"
+],
+"sc": {
+"HIS": 6,
+"FIL": 9,
+"SOC": 6,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2011,
+"n": 43,
+"cob": 0.984,
+"falta": [
+"seculo"
+],
+"sc": {
+"HIS": 4,
+"FIL": 1,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 1,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 9,
+"FIL": 2,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 2,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 11,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 3,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 6,
+"SOC": 12,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 4,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 8,
+"FIL": 0,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2012,
+"n": 5,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 8,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 6,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 6,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "F",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 7,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 13,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 8,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 9,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 19,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 10,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 11,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 12,
+"cob": 0.982,
+"falta": [
+"governo"
+],
+"sc": {
+"HIS": 8,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 13,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 2,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 15,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 3,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2012,
+"n": 16,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 3,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 17,
+"cob": 0.987,
+"falta": [
+"brasileiros"
+],
+"sc": {
+"HIS": 4,
+"FIL": 1,
+"SOC": 1,
+"GEO": 3
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 19,
+"cob": 0.867,
+"falta": [
+"blogspot",
+"http",
+"primeira",
+"serie"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 87%)",
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 21,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 2,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 22,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 11,
+"FIL": 2,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 23,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 25,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 15,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 28,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 16,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 30,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 10,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 31,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 6,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 35,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 4,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 40,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 9,
+"FIL": 0,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 41,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 2,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2012,
+"n": 44,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 15,
+"FIL": 1,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 1,
+"cob": 0.762,
+"falta": [
+"atual",
+"boas",
+"brasileira",
+"conhecimento",
+"espacial",
+"mapa",
+"novas",
+"populacao",
+"pratico",
+"sobre"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 76%)",
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 1,
+"GEO": 6
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 2,
+"cob": 0.826,
+"falta": [
+"anos",
+"atica",
+"conflito",
+"envolvidos",
+"fazendeiros",
+"indigena",
+"indigenas",
+"indios",
+"locais",
+"madeireiros",
+"mapa",
+"paulo",
+"politicos",
+"posseiros",
+"pressao"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 83%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 3,
+"GEO": 6
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 4,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 8,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 5,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 2,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 6,
+"cob": 0.986,
+"falta": [
+"frustrada"
+],
+"sc": {
+"HIS": 2,
+"FIL": 1,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 7,
+"cob": 0.706,
+"falta": [
+"amostra",
+"brasil",
+"censo",
+"demografico",
+"fecundidade",
+"gerais",
+"ibge",
+"resultados",
+"taxa",
+"total"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 71%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2013,
+"n": 8,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 1,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 10,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 4,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 11,
+"cob": 0.985,
+"falta": [
+"fundamentou"
+],
+"sc": {
+"HIS": 4,
+"FIL": 1,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 12,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 8,
+"SOC": 10,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 13,
+"cob": 0.688,
+"falta": [
+"atraves",
+"brasil",
+"expressoes",
+"historia",
+"janeiro",
+"lemos",
+"letras",
+"revista",
+"semana",
+"texto"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 69%)",
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 15,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 6,
+"SOC": 9,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 16,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 8,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 17,
+"cob": 0.771,
+"falta": [
+"cliente",
+"ensino",
+"entrega",
+"estoque",
+"fornecedor",
+"http",
+"maio",
+"modelo"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 77%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2013,
+"n": 18,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 2,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2013,
+"n": 19,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 20,
+"cob": 0.963,
+"falta": [
+"jornal"
+],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 22,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 5,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 23,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 4,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 24,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 4,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 25,
+"cob": 0.695,
+"falta": [
+"blogspot",
+"claro",
+"esta",
+"estou",
+"facebook",
+"http",
+"isso",
+"maio",
+"orkut",
+"raramente",
+"real",
+"social",
+"tantos",
+"twitter",
+"vejo"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 69%)",
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 5,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 26,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 3,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 27,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 7,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 29,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 9,
+"FIL": 2,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 31,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 6,
+"SOC": 6,
+"GEO": 1
+},
+"lab": "H?",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2013,
+"n": 32,
+"cob": 0.99,
+"falta": [
+"sousa"
+],
+"sc": {
+"HIS": 4,
+"FIL": 1,
+"SOC": 2,
+"GEO": 4
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 33,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 35,
+"cob": 0.985,
+"falta": [
+"descontentamento"
+],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 36,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 15,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 38,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 6,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": true
+},
+{
+"ano": 2013,
+"n": 39,
+"cob": 0.676,
+"falta": [
+"agora",
+"asfalto",
+"atraves",
+"automovel",
+"brasil",
+"brasileira",
+"brasileiro",
+"caricatura",
+"correr",
+"estradas",
+"expressoes",
+"faminto",
+"feijao",
+"historia",
+"janeiro"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 68%)",
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 40,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 3,
+"SOC": 8,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 41,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 9,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 44,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 11,
+"FIL": 1,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2013,
+"n": 45,
+"cob": 0.959,
+"falta": [
+"natureza",
+"questoes",
+"tornarem"
+],
+"sc": {
+"HIS": 0,
+"FIL": 4,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2014,
+"n": 1,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 2,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 2,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 4,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 7,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 5,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 6,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 8,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2014,
+"n": 10,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2014,
+"n": 11,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 2,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 12,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 14,
+"cob": 0.957,
+"falta": [
+"aumenta",
+"pressa"
+],
+"sc": {
+"HIS": 0,
+"FIL": 8,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 15,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 5,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 16,
+"cob": 0.765,
+"falta": [
+"arqueologico",
+"arquitetonico",
+"bento",
+"cidade",
+"conjunto",
+"esquartejado",
+"goiabeiras",
+"ilha",
+"oficio",
+"ouro",
+"paisagistico",
+"paneleiras",
+"pedro",
+"preto",
+"sitio"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 76%)",
+"sc": {
+"HIS": 1,
+"FIL": 3,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 17,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 3,
+"SOC": 4,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 18,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 19,
+"cob": 0.988,
+"falta": [
+"mais"
+],
+"sc": {
+"HIS": 4,
+"FIL": 5,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 21,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 7,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 23,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 2,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 24,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 25,
+"cob": 0.864,
+"falta": [
+"atenas",
+"detalhe",
+"escola",
+"http",
+"sanzio",
+"ufsc"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 86%)",
+"sc": {
+"HIS": 0,
+"FIL": 5,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 26,
+"cob": 0.526,
+"falta": [
+"apenas",
+"belo",
+"confins",
+"considera",
+"contagem",
+"deslocamento",
+"diariamente",
+"horizonte",
+"limite",
+"municipio",
+"neves",
+"nota",
+"para",
+"pessoas",
+"ribeirao"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 53%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 3
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 27,
+"cob": 0.846,
+"falta": [
+"belo",
+"brasil",
+"censo",
+"horizonte",
+"ibge",
+"lima",
+"luzia",
+"metropolitana",
+"nova",
+"regiao",
+"sabara",
+"santa"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 85%)",
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 3,
+"GEO": 16
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 28,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 3,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 29,
+"cob": 0.987,
+"falta": [
+"conte"
+],
+"sc": {
+"HIS": 5,
+"FIL": 3,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 30,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 5,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 31,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 32,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 33,
+"cob": 0.986,
+"falta": [
+"justica"
+],
+"sc": {
+"HIS": 1,
+"FIL": 6,
+"SOC": 5,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 36,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 37,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 38,
+"cob": 0.897,
+"falta": [
+"http",
+"ipea",
+"maio"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 90%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2014,
+"n": 39,
+"cob": 0.984,
+"falta": [
+"letras"
+],
+"sc": {
+"HIS": 5,
+"FIL": 3,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 40,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 0,
+"GEO": 8
+},
+"lab": "G",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 41,
+"cob": 0.983,
+"falta": [
+"militares"
+],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 42,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 6,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 43,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 8,
+"FIL": 1,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2014,
+"n": 44,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 1,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2014,
+"n": 45,
+"cob": 0.95,
+"falta": [
+"identica",
+"natureza",
+"questoes"
+],
+"sc": {
+"HIS": 6,
+"FIL": 1,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 2,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 3,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 4,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2015,
+"n": 5,
+"cob": 0.985,
+"falta": [
+"camponesas"
+],
+"sc": {
+"HIS": 3,
+"FIL": 2,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 6,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 10,
+"FIL": 2,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 7,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 3,
+"SOC": 11,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 9,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 10,
+"cob": 0.989,
+"falta": [
+"armava"
+],
+"sc": {
+"HIS": 10,
+"FIL": 1,
+"SOC": 1,
+"GEO": 3
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 11,
+"cob": 0.979,
+"falta": [
+"seculo"
+],
+"sc": {
+"HIS": 2,
+"FIL": 3,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2015,
+"n": 12,
+"cob": 0.979,
+"falta": [
+"maio"
+],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 4
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 13,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 8,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 14,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 1,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 16,
+"cob": 0.988,
+"falta": [
+"capa"
+],
+"sc": {
+"HIS": 0,
+"FIL": 4,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 17,
+"cob": 0.976,
+"falta": [
+"justica",
+"quino"
+],
+"sc": {
+"HIS": 2,
+"FIL": 5,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 18,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 3,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 19,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 0,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 20,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 7,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 21,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 22,
+"cob": 0.991,
+"falta": [
+"esse"
+],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 23,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 10,
+"FIL": 3,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 24,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 1,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 25,
+"cob": 0.988,
+"falta": [
+"cidadania"
+],
+"sc": {
+"HIS": 4,
+"FIL": 4,
+"SOC": 10,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 26,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 3,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 28,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 3,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 29,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 3,
+"GEO": 4
+},
+"lab": "G",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 34,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 7,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 35,
+"cob": 0.987,
+"falta": [
+"cultural"
+],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 36,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 37,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 2,
+"GEO": 3
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 38,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 39,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 6,
+"SOC": 7,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 40,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 8,
+"SOC": 5,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 41,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 5,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 42,
+"cob": 0.969,
+"falta": [
+"casamentos",
+"publicos"
+],
+"sc": {
+"HIS": 0,
+"FIL": 4,
+"SOC": 7,
+"GEO": 2
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 43,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 6,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2015,
+"n": 44,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 2,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 1,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 5,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 2,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 5,
+"cob": 0.976,
+"falta": [
+"analisado",
+"dispares",
+"periodo"
+],
+"sc": {
+"HIS": 7,
+"FIL": 4,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 6,
+"cob": 0.981,
+"falta": [
+"obrigam"
+],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 7,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 12,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 8,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 11,
+"FIL": 2,
+"SOC": 10,
+"GEO": 2
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 9,
+"cob": 0.988,
+"falta": [
+"abordado"
+],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 2,
+"GEO": 2
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 10,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 1,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 11,
+"cob": 0.95,
+"falta": [
+"http",
+"iphan",
+"portal"
+],
+"sc": {
+"HIS": 1,
+"FIL": 4,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 13,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 0,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 14,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 4,
+"SOC": 4,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 15,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 10,
+"SOC": 5,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 16,
+"cob": 0.659,
+"falta": [
+"australia",
+"brazil",
+"canada",
+"chile",
+"estados",
+"http",
+"japao",
+"maio",
+"mexico",
+"nova",
+"peru",
+"unidos",
+"vietna",
+"zelandia"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 66%)",
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2016,
+"n": 17,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2016,
+"n": 20,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 10,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 21,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 9,
+"FIL": 1,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 22,
+"cob": 0.92,
+"falta": [
+"letras",
+"paulo"
+],
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2016,
+"n": 23,
+"cob": 0.984,
+"falta": [
+"texto"
+],
+"sc": {
+"HIS": 1,
+"FIL": 4,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 24,
+"cob": 0.989,
+"falta": [
+"arma"
+],
+"sc": {
+"HIS": 0,
+"FIL": 8,
+"SOC": 7,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 25,
+"cob": 0.987,
+"falta": [
+"garantir"
+],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 4,
+"GEO": 3
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 26,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 3,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 27,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 2,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 28,
+"cob": 0.974,
+"falta": [
+"armava",
+"idas"
+],
+"sc": {
+"HIS": 0,
+"FIL": 5,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 32,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 5,
+"SOC": 7,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 33,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H?",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2016,
+"n": 34,
+"cob": 0.984,
+"falta": [
+"regra"
+],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 1,
+"GEO": 8
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 35,
+"cob": 0.97,
+"falta": [
+"cargos",
+"publicos"
+],
+"sc": {
+"HIS": 7,
+"FIL": 0,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 36,
+"cob": 0.561,
+"falta": [
+"academia",
+"aguas",
+"arabes",
+"arabia",
+"capacidade",
+"cubicos",
+"espanha",
+"estados",
+"instalada",
+"japao",
+"kuwait",
+"metros",
+"nacional",
+"pais",
+"relatorio"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 56%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 4
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 37,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 4,
+"SOC": 1,
+"GEO": 3
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 38,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 0,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2016,
+"n": 41,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 1,
+"GEO": 3
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 42,
+"cob": 0.991,
+"falta": [
+"recepcao"
+],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 6,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2016,
+"n": 43,
+"cob": 0.984,
+"falta": [
+"seculo"
+],
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2016,
+"n": 45,
+"cob": 0.439,
+"falta": [
+"alerta",
+"brasil",
+"casal",
+"china",
+"coreia",
+"diminui",
+"economistas",
+"epoca",
+"fecundidade",
+"fontes",
+"futuro",
+"globo",
+"http",
+"isso",
+"japao"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 44%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 46,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 9,
+"FIL": 1,
+"SOC": 0,
+"GEO": 3
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 47,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 3,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 48,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 6,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 49,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 7,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 50,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 4,
+"SOC": 3,
+"GEO": 2
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": true
+},
+{
+"ano": 2017,
+"n": 51,
+"cob": 0.75,
+"falta": [
+"ando",
+"armar",
+"cartao",
+"ciencia",
+"discurso",
+"doutores",
+"historia",
+"http",
+"maio",
+"manguinhos",
+"medicina",
+"metade",
+"monica",
+"retratos",
+"saude"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 75%)",
+"sc": {
+"HIS": 11,
+"FIL": 2,
+"SOC": 7,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 54,
+"cob": 0.594,
+"falta": [
+"agricola",
+"area",
+"chuva",
+"cultivos",
+"escoada",
+"learning",
+"local",
+"naturais",
+"paulo",
+"pesada",
+"residencial",
+"retida",
+"urbana"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 59%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 4
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 58,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 5,
+"SOC": 4,
+"GEO": 2
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 60,
+"cob": 0.984,
+"falta": [
+"micas"
+],
+"sc": {
+"HIS": 0,
+"FIL": 7,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 62,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 0,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 63,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 4,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 64,
+"cob": 0.943,
+"falta": [
+"como",
+"condicao",
+"conduta",
+"tuas"
+],
+"sc": {
+"HIS": 3,
+"FIL": 9,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 65,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 66,
+"cob": 0.983,
+"falta": [
+"capa"
+],
+"sc": {
+"HIS": 1,
+"FIL": 3,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 67,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 70,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 1,
+"GEO": 3
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 72,
+"cob": 0.939,
+"falta": [
+"contexto",
+"nature",
+"ovos",
+"processo"
+],
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 2,
+"GEO": 11
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 74,
+"cob": 0.944,
+"falta": [
+"cada",
+"combate",
+"genero",
+"propagandas"
+],
+"sc": {
+"HIS": 0,
+"FIL": 4,
+"SOC": 10,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 76,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 2,
+"SOC": 2,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 77,
+"cob": 0.789,
+"falta": [
+"alta",
+"baixa",
+"brisa",
+"figura",
+"frio",
+"marinha",
+"morno",
+"quente"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 79%)",
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 78,
+"cob": 0.984,
+"falta": [
+"esse"
+],
+"sc": {
+"HIS": 3,
+"FIL": 2,
+"SOC": 5,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 79,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 5,
+"SOC": 5,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 80,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 1,
+"SOC": 1,
+"GEO": 5
+},
+"lab": "G",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 81,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 13,
+"FIL": 2,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 82,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 2,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 83,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 9,
+"FIL": 1,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 84,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 9,
+"SOC": 5,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 85,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 5,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 88,
+"cob": 0.991,
+"falta": [
+"paulo"
+],
+"sc": {
+"HIS": 0,
+"FIL": 11,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2017,
+"n": 89,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2017,
+"n": 90,
+"cob": 0.757,
+"falta": [
+"angel",
+"bonita",
+"colecao",
+"decada",
+"folha",
+"maio",
+"para",
+"redacao",
+"traje"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 76%)",
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 46,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 5,
+"SOC": 1,
+"GEO": 5
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 47,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 48,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 3,
+"SOC": 4,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 49,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 11,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 50,
+"cob": 0.939,
+"falta": [
+"figura",
+"maio"
+],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 51,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 6,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 52,
+"cob": 0.988,
+"falta": [
+"texto"
+],
+"sc": {
+"HIS": 1,
+"FIL": 8,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 54,
+"cob": 0.989,
+"falta": [
+"texto"
+],
+"sc": {
+"HIS": 7,
+"FIL": 0,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 55,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 0,
+"SOC": 2,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 56,
+"cob": 0.611,
+"falta": [
+"argentina",
+"brasil",
+"canada",
+"chile",
+"colombia",
+"cuba",
+"equador",
+"estados",
+"guatemala",
+"mexico",
+"peru",
+"republica",
+"unidos",
+"venezuela"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 61%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2018,
+"n": 57,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 3,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 58,
+"cob": 0.974,
+"falta": [
+"armava",
+"inda"
+],
+"sc": {
+"HIS": 0,
+"FIL": 8,
+"SOC": 8,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2018,
+"n": 59,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 61,
+"cob": 0.987,
+"falta": [
+"texto"
+],
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 2,
+"GEO": 2
+},
+"lab": "H?",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2018,
+"n": 62,
+"fora": "questão ausente no dataset",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "nao-classificada",
+"duvidosa": true
+},
+{
+"ano": 2018,
+"n": 63,
+"cob": 0.9,
+"falta": [
+"http",
+"trajetoria",
+"tropicais"
+],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2018,
+"n": 64,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 11,
+"FIL": 2,
+"SOC": 5,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 66,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 11,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2018,
+"n": 68,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 69,
+"cob": 0.953,
+"falta": [
+"assembleias",
+"eleicao",
+"estaduais",
+"impedimento"
+],
+"sc": {
+"HIS": 8,
+"FIL": 3,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 70,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 6,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 71,
+"cob": 0.986,
+"falta": [
+"eram"
+],
+"sc": {
+"HIS": 7,
+"FIL": 1,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 74,
+"cob": 0.947,
+"falta": [
+"cpdoc",
+"http"
+],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 75,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 0,
+"SOC": 5,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 76,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 78,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 3,
+"SOC": 5,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 79,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 4,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 80,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 5,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 81,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 4,
+"GEO": 4
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 82,
+"cob": 0.905,
+"falta": [
+"amazonia",
+"crise",
+"fluxo",
+"informal",
+"oceano",
+"revista",
+"solo",
+"umido"
+],
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 0,
+"GEO": 10
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 83,
+"cob": 0.894,
+"falta": [
+"amazonia",
+"atlantico",
+"fluxo",
+"oceano",
+"seco",
+"solo",
+"verao"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 89%)",
+"sc": {
+"HIS": 1,
+"FIL": 4,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 84,
+"cob": 0.974,
+"falta": [
+"lobo",
+"rico"
+],
+"sc": {
+"HIS": 2,
+"FIL": 1,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 85,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 87,
+"cob": 0.886,
+"falta": [
+"mulher",
+"para",
+"propagandashistoricas",
+"saude"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 89%)",
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2018,
+"n": 90,
+"cob": 0.864,
+"falta": [
+"extracao",
+"folha",
+"ibge",
+"para",
+"producao",
+"redacao",
+"silvicultura",
+"vegetal"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 86%)",
+"sc": {
+"HIS": 0,
+"FIL": 5,
+"SOC": 5,
+"GEO": 1
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 48,
+"cob": 0.986,
+"falta": [
+"americana"
+],
+"sc": {
+"HIS": 2,
+"FIL": 2,
+"SOC": 0,
+"GEO": 3
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2019,
+"n": 50,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 5,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 51,
+"cob": 0.98,
+"falta": [
+"normas"
+],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 52,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 8,
+"FIL": 1,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 54,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 0,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 55,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 9,
+"FIL": 0,
+"SOC": 3,
+"GEO": 3
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 57,
+"cob": 0.812,
+"falta": [
+"aridas",
+"cancer",
+"capricornio",
+"deserto",
+"equador",
+"mundo",
+"regioes",
+"semiaridas",
+"tropico"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 81%)",
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 58,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 6,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 59,
+"cob": 0.96,
+"falta": [
+"https"
+],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 60,
+"cob": 0.978,
+"falta": [
+"nada",
+"organizacao"
+],
+"sc": {
+"HIS": 3,
+"FIL": 2,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 62,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 3,
+"GEO": 5
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2019,
+"n": 63,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 1,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 64,
+"cob": 0.928,
+"falta": [
+"aplicacao",
+"apud",
+"english",
+"ensino",
+"lendas",
+"subsidios"
+],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 65,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 8,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 66,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 11,
+"SOC": 10,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 67,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 6,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 70,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 71,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 72,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 3,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 73,
+"cob": 0.989,
+"falta": [
+"orientacoes"
+],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 74,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 8,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 75,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 76,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 5,
+"SOC": 3,
+"GEO": 3
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 77,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 1,
+"GEO": 3
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 78,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 8,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 79,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 4,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2019,
+"n": 80,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 81,
+"cob": 0.98,
+"falta": [
+"xviii"
+],
+"sc": {
+"HIS": 6,
+"FIL": 0,
+"SOC": 0,
+"GEO": 5
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 82,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 3,
+"GEO": 4
+},
+"lab": "G",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 84,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 3,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2019,
+"n": 85,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 86,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 9,
+"FIL": 0,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2019,
+"n": 87,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 0,
+"SOC": 4,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 48,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 8,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 49,
+"cob": 0.988,
+"falta": [
+"agricultaveis"
+],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 2,
+"GEO": 8
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 52,
+"cob": 0.976,
+"falta": [
+"fantasias",
+"organizar"
+],
+"sc": {
+"HIS": 3,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 54,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 0,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 55,
+"cob": 0.988,
+"falta": [
+"objetos"
+],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 60,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 61,
+"cob": 0.939,
+"falta": [
+"decada",
+"marcada",
+"pela",
+"veias"
+],
+"sc": {
+"HIS": 3,
+"FIL": 0,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 62,
+"cob": 0.977,
+"falta": [
+"atual",
+"guerra"
+],
+"sc": {
+"HIS": 3,
+"FIL": 1,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 63,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 5,
+"SOC": 13,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 64,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 4,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 66,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2020,
+"n": 68,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 69,
+"cob": 0.986,
+"falta": [
+"aqueles"
+],
+"sc": {
+"HIS": 2,
+"FIL": 4,
+"SOC": 5,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 70,
+"cob": 0.984,
+"falta": [
+"governavam"
+],
+"sc": {
+"HIS": 5,
+"FIL": 1,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 72,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 4,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 73,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 74,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 4,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 76,
+"cob": 0.959,
+"falta": [
+"americanos",
+"anglo",
+"itatiaia"
+],
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 77,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 7,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 78,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2020,
+"n": 79,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 2,
+"SOC": 2,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 81,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 10,
+"FIL": 0,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 83,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 2,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 85,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 0,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 86,
+"cob": 0.986,
+"falta": [
+"fundadas"
+],
+"sc": {
+"HIS": 3,
+"FIL": 7,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 87,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 3,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2020,
+"n": 89,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 46,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 6,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 47,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2021,
+"n": 49,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 2,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 52,
+"cob": 0.944,
+"falta": [
+"aplicacao"
+],
+"sc": {
+"HIS": 3,
+"FIL": 0,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 53,
+"fora": "gabarito do dataset (A) diverge do oficial do Inep (B)",
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 0,
+"GEO": 11
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 54,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 7,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 55,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2021,
+"n": 56,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 4,
+"FIL": 2,
+"SOC": 11,
+"GEO": 2
+},
+"lab": "S",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 57,
+"cob": 0.909,
+"falta": [
+"aplicacao"
+],
+"sc": {
+"HIS": 0,
+"FIL": 4,
+"SOC": 6,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 60,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 63,
+"cob": 0.909,
+"falta": [
+"aplicacao"
+],
+"sc": {
+"HIS": 1,
+"FIL": 3,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2021,
+"n": 64,
+"cob": 0.9,
+"falta": [
+"platos"
+],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 65,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 66,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 2,
+"FIL": 0,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 67,
+"cob": 0.955,
+"falta": [
+"aplicacao"
+],
+"sc": {
+"HIS": 3,
+"FIL": 4,
+"SOC": 3,
+"GEO": 4
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 68,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 6,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 69,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 3,
+"FIL": 3,
+"SOC": 1,
+"GEO": 7
+},
+"lab": "G",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 73,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 5,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 74,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 3,
+"SOC": 5,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 75,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 5,
+"FIL": 1,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 76,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 5,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 77,
+"cob": 0.952,
+"falta": [
+"aplicacao"
+],
+"sc": {
+"HIS": 9,
+"FIL": 2,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 78,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 8,
+"FIL": 6,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 80,
+"cob": 0.941,
+"falta": [
+"tracos"
+],
+"sc": {
+"HIS": 1,
+"FIL": 7,
+"SOC": 8,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 81,
+"cob": 0.929,
+"falta": [
+"aplicacao"
+],
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 82,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 0,
+"FIL": 5,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 83,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 84,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 85,
+"cob": 0.022,
+"falta": [
+"amparo",
+"andar",
+"antonio",
+"araujo",
+"avermelhados",
+"camarada",
+"cheio",
+"claro",
+"como",
+"contra",
+"contratado",
+"corpo",
+"correio",
+"dente",
+"entregar"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 2%)",
+"sc": {
+"HIS": 3,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 86,
+"cob": 0.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 0,
+"FIL": 12,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 87,
+"cob": 1.0,
+"falta": [],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 2,
+"FIL": 4,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 88,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2021,
+"n": 89,
+"cob": 0.167,
+"falta": [
+"marco",
+"movimento",
+"solsticio",
+"terra",
+"translacao"
+],
+"fora": "texto não conferível com a prova oficial",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2021,
+"n": 90,
+"cob": 0.5,
+"falta": [
+"aplicacao",
+"dezembro",
+"folha",
+"redacao",
+"setembro",
+"solsticio"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 50%)",
+"sc": {
+"HIS": 6,
+"FIL": 1,
+"SOC": 3,
+"GEO": 4
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 47,
+"cob": 0.986,
+"falta": [
+"medida"
+],
+"sc": {
+"HIS": 0,
+"FIL": 6,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 48,
+"cob": 0.855,
+"falta": [
+"ainda",
+"amarrou",
+"aplicacao",
+"brancos",
+"caracteristica",
+"numa",
+"revoltado",
+"sabe"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 85%)",
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "H?",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2022,
+"n": 53,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 9,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 54,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 7,
+"FIL": 4,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 56,
+"cob": 0.912,
+"falta": [
+"achar",
+"calma",
+"contemporanea",
+"estudando",
+"junior",
+"sinal",
+"tentando"
+],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2022,
+"n": 57,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 58,
+"cob": 0.969,
+"falta": [
+"aplicacao",
+"ocorrido",
+"parecia",
+"propria"
+],
+"sc": {
+"HIS": 3,
+"FIL": 4,
+"SOC": 0,
+"GEO": 3
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 60,
+"cob": 0.98,
+"falta": [
+"aprendizagem",
+"pelas"
+],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 61,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2022,
+"n": 63,
+"cob": 0.98,
+"falta": [
+"aplicacao",
+"campesinato"
+],
+"sc": {
+"HIS": 8,
+"FIL": 1,
+"SOC": 1,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 65,
+"cob": 0.45,
+"falta": [
+"agressao",
+"ameaca",
+"arremesso",
+"cabelo",
+"carinho",
+"conflitos",
+"controle",
+"gritos",
+"humilhacao",
+"insulto",
+"intimidacao",
+"isolamento",
+"liberdade",
+"medo",
+"morte"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 45%)",
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2022,
+"n": 66,
+"cob": 0.982,
+"falta": [
+"conforme",
+"respectivamente"
+],
+"sc": {
+"HIS": 1,
+"FIL": 4,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 67,
+"cob": 0.852,
+"falta": [
+"abandonado",
+"aplicacao",
+"carta",
+"desde",
+"entao",
+"estadual",
+"novo",
+"presenca",
+"social"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 85%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2022,
+"n": 68,
+"cob": 0.778,
+"falta": [
+"alta",
+"ampla",
+"banco",
+"brecha",
+"consciencia",
+"critica",
+"densidade",
+"funcionamento",
+"novo",
+"organizacao",
+"pela",
+"pentagono",
+"petroleo",
+"rebelde",
+"simplesmente"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 78%)",
+"sc": {
+"HIS": 2,
+"FIL": 1,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "H",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 70,
+"cob": 0.636,
+"falta": [
+"abaixo",
+"anos",
+"apresentado",
+"arranjo",
+"branca",
+"casal",
+"conjuge",
+"domiciliar",
+"filho",
+"linha",
+"mulher",
+"outros",
+"pessoas",
+"pobreza",
+"preta"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 64%)",
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 5,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 71,
+"cob": 0.985,
+"falta": [
+"aplicacao"
+],
+"sc": {
+"HIS": 1,
+"FIL": 3,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": true
+},
+{
+"ano": 2022,
+"n": 73,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 3,
+"SOC": 4,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 76,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 0,
+"SOC": 2,
+"GEO": 2
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 77,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 17,
+"FIL": 0,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 78,
+"cob": 0.643,
+"falta": [
+"antes",
+"australia",
+"contato",
+"indico",
+"indonesia",
+"oceano",
+"possivel",
+"queda",
+"trajeto",
+"ultimo"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 64%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2022,
+"n": 79,
+"cob": 0.983,
+"falta": [
+"aplicacao",
+"biografica"
+],
+"sc": {
+"HIS": 3,
+"FIL": 5,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 80,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 9,
+"SOC": 1,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 81,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 2,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 82,
+"cob": 0.556,
+"falta": [
+"acre",
+"amapa",
+"amazonas",
+"atlantico",
+"bahia",
+"bolivia",
+"chile",
+"colombia",
+"francesa",
+"gerais",
+"goias",
+"grosso",
+"maranhao",
+"mato",
+"minas"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 56%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 6
+},
+"lab": "G",
+"duvida": false,
+"mat": "geografia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 83,
+"cob": 0.952,
+"falta": [
+"agenciabrasil",
+"aplicacao"
+],
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2022,
+"n": 84,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 6,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 85,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 0,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 86,
+"cob": 0.908,
+"falta": [
+"aqueles",
+"aumentando",
+"cultural",
+"movidos",
+"mudam",
+"nova"
+],
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 88,
+"cob": 0.98,
+"falta": [
+"aplicacao"
+],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 89,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 4,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2022,
+"n": 90,
+"cob": 0.969,
+"falta": [
+"aplicacao",
+"folha",
+"redacao"
+],
+"sc": {
+"HIS": 2,
+"FIL": 1,
+"SOC": 6,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 47,
+"cob": 0.986,
+"falta": [
+"meados"
+],
+"sc": {
+"HIS": 2,
+"FIL": 3,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 50,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 3,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 51,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 2,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 52,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 6,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 54,
+"cob": 0.986,
+"falta": [
+"realista"
+],
+"sc": {
+"HIS": 0,
+"FIL": 4,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 55,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 5,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 56,
+"fora": "figura ausente",
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 57,
+"cob": 0.882,
+"falta": [
+"adorno",
+"dialetica",
+"esclarecimento",
+"horkheimer",
+"janeiro",
+"laerte",
+"politico",
+"zahar"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 88%)",
+"sc": {
+"HIS": 0,
+"FIL": 2,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 58,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 2,
+"FIL": 6,
+"SOC": 1,
+"GEO": 5
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": true
+},
+{
+"ano": 2023,
+"n": 59,
+"cob": 0.989,
+"falta": [
+"caia"
+],
+"sc": {
+"HIS": 3,
+"FIL": 1,
+"SOC": 3,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 60,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 4,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 61,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2023,
+"n": 63,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 2,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 65,
+"fora": "figura ausente",
+"sc": {
+"HIS": 1,
+"FIL": 3,
+"SOC": 5,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 69,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 3,
+"SOC": 10,
+"GEO": 0
+},
+"lab": "S",
+"duvida": false,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 70,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 4,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 72,
+"cob": 0.928,
+"falta": [
+"acredite",
+"confie",
+"lancam",
+"nesse",
+"pessoal",
+"viemos"
+],
+"sc": {
+"HIS": 0,
+"FIL": 1,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 73,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 9,
+"FIL": 2,
+"SOC": 1,
+"GEO": 5
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 74,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 5,
+"FIL": 5,
+"SOC": 3,
+"GEO": 2
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 75,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 0,
+"SOC": 2,
+"GEO": 0
+},
+"lab": "H",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2023,
+"n": 76,
+"cob": 0.757,
+"falta": [
+"baixa",
+"brasil",
+"decadas",
+"fecundidade",
+"filhos",
+"ibge",
+"mulher",
+"numero",
+"taxa"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 76%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 2,
+"GEO": 1
+},
+"lab": "S",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 77,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 2,
+"SOC": 1,
+"GEO": 0
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 79,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 0,
+"FIL": 9,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 80,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 6,
+"FIL": 0,
+"SOC": 0,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 81,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 9,
+"SOC": 3,
+"GEO": 0
+},
+"lab": "F",
+"duvida": false,
+"mat": "filosofia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 82,
+"cob": 0.992,
+"falta": [
+"portugueses"
+],
+"sc": {
+"HIS": 4,
+"FIL": 3,
+"SOC": 4,
+"GEO": 2
+},
+"lab": "H",
+"duvida": true,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 84,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 1,
+"SOC": 7,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 86,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 3,
+"FIL": 2,
+"SOC": 5,
+"GEO": 1
+},
+"lab": "S",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 87,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 4,
+"FIL": 2,
+"SOC": 2,
+"GEO": 2
+},
+"lab": "H",
+"duvida": false,
+"mat": "historia",
+"duvidosa": false
+},
+{
+"ano": 2023,
+"n": 88,
+"cob": 1.0,
+"falta": [],
+"sc": {
+"HIS": 1,
+"FIL": 2,
+"SOC": 2,
+"GEO": 2
+},
+"lab": "H?",
+"duvida": true,
+"mat": "sociologia",
+"duvidosa": true
+},
+{
+"ano": 2023,
+"n": 89,
+"cob": 0.55,
+"falta": [
+"anual",
+"aquecimento",
+"cenarios",
+"global",
+"industrial",
+"ipcc",
+"mais",
+"media",
+"mudanca",
+"periodo",
+"pluviosidade",
+"relacao",
+"seco",
+"simulacao",
+"temperatura"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 55%)",
+"sc": {
+"HIS": 0,
+"FIL": 0,
+"SOC": 0,
+"GEO": 1
+},
+"lab": "H?",
+"duvida": true,
+"mat": "geografia",
+"duvidosa": true
+},
+{
+"ano": 2023,
+"n": 90,
+"cob": 0.871,
+"falta": [
+"antropoceno",
+"aquecimento",
+"clima",
+"fapesp",
+"folha",
+"global",
+"mais",
+"pesquisa",
+"quente",
+"redacao",
+"revista"
+],
+"fora": "texto incompleto em relação à prova oficial (cobertura 87%)",
+"sc": {
+"HIS": 3,
+"FIL": 3,
+"SOC": 0,
+"GEO": 0
+},
+"lab": "F",
+"duvida": true,
+"mat": "filosofia",
+"duvidosa": false
+}
+]

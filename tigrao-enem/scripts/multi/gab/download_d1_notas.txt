@@ -1,0 +1,17 @@
+PDFs usados (caderno azul 1º dia, via Wayback de download.inep.gov.br; ver download_log_d1_ch_2009_2023.json). sha256 dos arquivos efetivamente usados:
+0fe000974a0b5b30a543860695fc1fc9f8639705069de0e344574c6146ec3921  2009_d1prova.pdf
+0999aeae2fb46f5e1ce7afb8081caebffa2de835063b1a64e543faa2a39ae615  2010_d1prova.pdf
+c49078d8a6d1ccdb79042504ca1b827c6857f283e134355e7d428d0849c7d779  2011_d1prova.pdf
+4ec3b666f399b3b20ed05d25b764f5dd97f11559fe62a92b324707b8ea415f7b  2012_d1prova.pdf
+085dde9fa2190c3175be0a18688410db29fbb6b56a0dc22c91580a58f06cf77f  2013_d1prova.pdf
+71c6b394df556c55f0ee8408623b78e46eca423a4c21cf0d04b8d8c49228a35c  2014_d1prova.pdf
+f22fda050f425eda16c39b69032ce494a70cb4deb7d35382125391457ac7e870  2015_d1prova.pdf
+557d1a5d7fe569a483c6a6a78df4d27c720c244848940878a8871b5333e61e69  2016_d1prova.pdf
+96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f  2017_d1prova.pdf
+5ee5ee4289901a95d0790d4816632660618ff373748b37c9bd44417ee494e64a  2018_d1prova.pdf
+63117da6cc5ccaffda1a44a401a63283b3e152e2d643b2b3a133ad15afa1e352  2019_d1prova.pdf
+ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2  2020_d1prova.pdf
+387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599  2021_d1prova.pdf
+4aafd3567873578507f2bd47970c71d701c3db776654188b7d597e7284303adc  2022_d1prova.pdf
+8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8  2023_d1prova.pdf
+2011: o log registra uma captura truncada (1 MiB); usada a captura 20111027033953 de http://download.inep.gov.br/educacao_basica/enem/provas/2011/01_AZUL.pdf (SHA-1 Wayback VWV7VCXOXADCQJZPCKVVQCGTQ5LVFNET conferido). 2019: o log registra captura truncada (5 MiB); usada outra captura completa (ver sha256 acima). 2010: dia1_caderno1_azul.pdf (download_log_2010_d1.json).

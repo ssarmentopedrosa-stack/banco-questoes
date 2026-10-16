@@ -21,7 +21,7 @@ export type Question = {
 
 export type Raw = { meta: { total: number; porAno: Record<string, number>; [k: string]: unknown }; questions: Question[] };
 export type TopicInfo = { name: string; emoji: string; badge: string; cor: string; corClara: string; texto: string };
-export type MateriaId = "fisica" | "biologia" | "quimica" | "geografia" | "natureza";
+export type MateriaId = "fisica" | "biologia" | "quimica" | "geografia" | "historia" | "natureza";
 export type MateriaInfo = {
   id: MateriaId;
   nome: string;
@@ -103,6 +103,21 @@ export const MATERIAS: MateriaInfo[] = [
       t("Cartografia e Geotecnologias", "🗺️", "Olho de Satélite", "noite"),
     ],
     fraseAcerto: "Isso! Geografia de quem vai passar!", fraseOtimo: "Mandou muito bem! Você tá no mapa do ENEM! 🌎", nivel3: "Explorador do Mundo",
+  },
+  {
+    id: "historia", nome: "História", emoji: "🏛️", key: "tigrao-enem-historia-v1", subtitulo: "História, questões oficiais", area: "Ciências Humanas",
+    topicos: [
+      t("Antiguidade e Idade Média", "🏛️", "Sábio da Antiguidade", "roxo"),
+      t("Idade Moderna, Iluminismo e Revoluções", "⚔️", "Filho das Luzes", "azul"),
+      t("Mundo Contemporâneo: Guerras e Guerra Fria", "🌍", "Analista do Século XX", "noite"),
+      t("África, América e Povos Originários", "🪶", "Guardião das Raízes", "laranja"),
+      t("Brasil Colônia", "⛵", "Desbravador Colonial", "teal"),
+      t("Brasil Império", "👑", "Conselheiro do Império", "vermelho"),
+      t("Brasil República: da República Velha à Era Vargas", "🗳️", "Cidadão da República", "azul"),
+      t("Brasil: Ditadura e Redemocratização", "✊", "Defensor da Democracia", "vermelho"),
+      t("Cultura, Memória e Cidadania", "🎭", "Guardião da Memória", "teal"),
+    ],
+    fraseAcerto: "Isso! História de quem vai passar!", fraseOtimo: "Mandou muito bem! Você tá fazendo história no ENEM! 🏛️", nivel3: "Mestre do Tempo",
   },
   {
     id: "natureza", nome: "Ciências da Natureza", emoji: "🔬", key: "tigrao-enem-natureza-v1", subtitulo: "Física + Biologia + Química, questões oficiais",

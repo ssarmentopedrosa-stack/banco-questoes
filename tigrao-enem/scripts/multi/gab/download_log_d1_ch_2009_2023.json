@@ -1,0 +1,142 @@
+[
+ {
+  "year": "2009",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+  "capture": "20240207001202",
+  "digest": "NBCKXLOX5CYX64TL26FXD6KPWFAAAP4D",
+  "sha1_ok": true,
+  "size": 3180916,
+  "sha256": "0fe000974a0b5b30a543860695fc1fc9f8639705069de0e344574c6146ec3921"
+ },
+ {
+  "year": "2011",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/01_AZUL.pdf",
+  "capture": "20201101010614",
+  "digest": "F5SN7WVGODBBKFUBT373KSHQE2KV2QMF",
+  "sha1_ok": true,
+  "size": 1048576,
+  "sha256": "e670a7773bda0e90e2288414a633c2c35b64caec7ea7826efaf0bfdc969c70de"
+ },
+ {
+  "year": "2012",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/caderno_enem2012_sab_azul.pdf",
+  "capture": "20130717140358",
+  "digest": "ECNTQ7NK3GOTGZOQYMKREYI7DDWPWTPE",
+  "sha1_ok": true,
+  "size": 1922670,
+  "sha256": "4ec3b666f399b3b20ed05d25b764f5dd97f11559fe62a92b324707b8ea415f7b"
+ },
+ {
+  "year": "2013",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/caderno_enem2013_sab_azul.pdf",
+  "capture": "20140914195300",
+  "digest": "Y53FEERNNPU4JHUHMYXMHJALH7RL5KUF",
+  "sha1_ok": true,
+  "size": 3110239,
+  "sha256": "085dde9fa2190c3175be0a18688410db29fbb6b56a0dc22c91580a58f06cf77f"
+ },
+ {
+  "year": "2014",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/CAD_ENEM_2014_DIA_1_01_AZUL.pdf",
+  "capture": "20150213053053",
+  "digest": "ETUEINWR7TTADPJX3W3J7LDXTXT2NWMD",
+  "sha1_ok": true,
+  "size": 1805357,
+  "sha256": "71c6b394df556c55f0ee8408623b78e46eca423a4c21cf0d04b8d8c49228a35c"
+ },
+ {
+  "year": "2015",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/CAD_ENEM%202015_DIA%201_01_AZUL.pdf",
+  "capture": "20151106011638",
+  "digest": "D2NOEXYXHFANQYKHFFNAF7ZHK2CM5V5Z",
+  "sha1_ok": true,
+  "size": 996532,
+  "sha256": "f22fda050f425eda16c39b69032ce494a70cb4deb7d35382125391457ac7e870"
+ },
+ {
+  "year": "2016",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_1_01_AZUL.pdf",
+  "capture": "20161119010207",
+  "digest": "CSIJNWDQQY7IRGMIOEREGJ2VHSITUNIL",
+  "sha1_ok": true,
+  "size": 1680751,
+  "sha256": "557d1a5d7fe569a483c6a6a78df4d27c720c244848940878a8871b5333e61e69"
+ },
+ {
+  "year": "2017",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+  "capture": "20171118002648",
+  "digest": "JHRYUXG7TNRVLD23MXL6Z43XDYYX3YMP",
+  "sha1_ok": true,
+  "size": 1545313,
+  "sha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f"
+ },
+ {
+  "year": "2018",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/1DIA_01_AZUL_BAIXA.pdf",
+  "capture": "20181123100224",
+  "digest": "6H3LJNNWPE6FSOHLFNDQTKTX7RDQR5GO",
+  "sha1_ok": true,
+  "size": 1826209,
+  "sha256": "5ee5ee4289901a95d0790d4816632660618ff373748b37c9bd44417ee494e64a"
+ },
+ {
+  "year": "2019",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/caderno_de_questoes_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+  "capture": "20251110100642",
+  "digest": "UKDAHOMY5NGSJT4OCC2WZH2YXOWXVDD7",
+  "sha1_ok": true,
+  "size": 5242880,
+  "sha256": "79520abe7431dcc5ea8545a2aba00a03e0d6441b92c1ae69a00d5829878b0a33"
+ },
+ {
+  "year": "2020",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+  "capture": "20220928205636",
+  "digest": "PCZONRAREWS4G3BCL3DRBUYNIZWV42AR",
+  "sha1_ok": true,
+  "size": 5554330,
+  "sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2"
+ },
+ {
+  "year": "2021",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf",
+  "capture": "20211202062538",
+  "digest": "IGFDB7BAV4GQUPQMNXQDWTQFKD7AP5CO",
+  "sha1_ok": true,
+  "size": 2254970,
+  "sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599"
+ },
+ {
+  "year": "2022",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D1_CD1.pdf",
+  "capture": "20250122144313",
+  "digest": "NNJ4MJGPKKT6HURR6L4NUVCR4EA3U63N",
+  "sha1_ok": true,
+  "size": 7714964,
+  "sha256": "4aafd3567873578507f2bd47970c71d701c3db776654188b7d597e7284303adc"
+ },
+ {
+  "year": "2023",
+  "kind": "d1prova",
+  "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+  "capture": "20260927024943",
+  "digest": "NIF7XX2ICEHM5ZIUMWNPPVDEO4SIAMS5",
+  "sha1_ok": true,
+  "size": 6977304,
+  "sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8"
+ }
+]
