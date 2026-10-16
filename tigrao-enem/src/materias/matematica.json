@@ -68,7 +68,7 @@
    "Álgebra e Funções": 44
   },
   "doPdfOficial": 43,
-  "comExplicacao": 0,
+  "comExplicacao": 333,
   "revisadas": 0,
   "classificacao": "automática (palavras-chave); a conferir pelo professor"
  },
@@ -114,7 +114,14 @@
    "number": 136,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com a frota igual nos dois meses, o total de passageiros é proporcional ao índice do gráfico. Em abril de 2001 o índice era 400 e em outubro de 2008 era 441. Então o total em outubro de 2008 é 321,9 × 441/400 ≈ 354,9 milhões, ou seja, cerca de 355 milhões.\n**Resposta: A**",
+    "keyConcept": "proporcionalidade com frota constante",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q139",
@@ -157,7 +164,14 @@
    "number": 139,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, em 2050 os países desenvolvidos terão 461 milhões de pessoas com 60 anos ou mais, na faixa entre 30% e 35% da população. A probabilidade de sortear uma delas é essa fração, perto de 0,32. Entre as opções, 8/25 = 0,32 é a mais próxima (1/2 = 0,5; 7/20 = 0,35 fica no limite; 1/5 = 0,2; 3/25 = 0,12).\n**Resposta: C**",
+    "keyConcept": "probabilidade como fração da população",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q140",
@@ -200,7 +214,14 @@
    "number": 140,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Seja AB = x, então BC = 2x e o terreno tem área 2x². O quadrado tem lado x/5 e área x²/25, que é 1/50 = 2% do terreno. O limite permitido para construir é 100% − 94% = 6%, ou seja, o triplo da área atual do quadrado. Duplicar ou triplicar o lado multiplicaria a área por 4 ou por 9.\n**Resposta: C**",
+    "keyConcept": "porcentagem de área",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q141",
@@ -235,7 +256,14 @@
    "number": 141,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os 925 milhões de litros correspondem a 4% do volume da mistura. Com o mesmo volume total, 3% correspondem a 925 × 3/4 = 693,75 milhões de litros.\n**Resposta: D**",
+    "keyConcept": "porcentagem de uma mistura",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q142",
@@ -278,7 +306,14 @@
    "number": 142,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "O gráfico tem forma de degraus: o número de casos sobe quando o consumo passa de 0 para 1 cigarro e de novo perto de 15 cigarros, mas fica constante nos intervalos. Há relação entre as grandezas, mas a razão entre elas não é constante (não é proporcionalidade direta) e o produto também não (não é inversa). A alternativa D não decorre do gráfico.\n**Resposta: E**",
+    "keyConcept": "relação entre grandezas e proporcionalidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q143",
@@ -321,7 +356,14 @@
    "number": 143,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, em 05/09 a população economicamente ativa era de 23.020 mil pessoas. Com crescimento de 4%: 23.020 × 1,04 = 23.940,8 mil = 23.940.800 pessoas.\n**Resposta: D**",
+    "keyConcept": "aumento percentual",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q144",
@@ -364,7 +406,14 @@
    "number": 144,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Oito compassos de 3/4 somam 8 × 3/4 = 6 (seis semibreves). A colcheia vale 1/8 e a semínima 1/4, então 24 colcheias valem 3 e 12 semínimas valem 3, total 6. As outras combinações não somam 6: 24 fusas = 0,75; 3 semínimas = 0,75; 8 semínimas = 2; 16 semínimas + 8 semicolcheias = 4,5.\n**Resposta: D**",
+    "keyConcept": "soma de frações",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q146",
@@ -407,7 +456,14 @@
    "number": 146,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "No pacote, os três primeiros dias custam 150 cada (450), os três seguintes caem 20 por dia (130 + 110 + 90 = 330) e os dois últimos ficam no preço do sexto dia (90 + 90 = 180), total R$ 960,00. Sete dias fora da promoção custam 7 × 150 = R$ 1.050,00. A economia é 1.050 − 960 = R$ 90,00.\n**Resposta: A**",
+    "keyConcept": "função afim por partes",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q147",
@@ -500,7 +556,14 @@
    "number": 148,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "A taxa média é a variação da emissão dividida pela variação da produção entre o primeiro e o último dado da tabela: (4,00 − 2,14)/(2,0 − 1,1) = 1,86/0,9 ≈ 2,07. Esse valor está entre 1,50 e 2,80.\n**Resposta: D**",
+    "keyConcept": "taxa média de variação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q149",
@@ -611,7 +674,14 @@
    "number": 150,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Média dos investimentos da França no Brasil: (825 + 485 + 1.458 + 744 + 1.214)/5 = 4.726/5 = 945,2. Média do Brasil na França: (367 + 357 + 354 + 539 + 280)/5 = 1.897/5 = 379,4. A diferença é 945,2 − 379,4 ≈ 565,8 milhões de dólares, entre 500 e 600 milhões.\n**Resposta: D**",
+    "keyConcept": "média aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q151",
@@ -646,7 +716,14 @@
    "number": 151,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Seja c a cota final de cada uma das 55 pessoas; a cota inicial era c − 7. O total da despesa é 55c, e o orçamento inicial mais o que faltava dá 50(c − 7) + 510. Igualando: 50c − 350 + 510 = 55c, então 5c = 160 e c = R$ 32,00.\n**Resposta: D**",
+    "keyConcept": "equação do 1º grau",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q153",
@@ -724,7 +801,14 @@
    "number": 154,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "A rampa tem inclinação constante: subir 0,8 m exige 3,2 m de caminhada, ou seja, cada metro de altura pede 4 m de rampa. Para 2,2 m de altura, a rampa toda mede 2,2 × 4 = 8,8 m. Faltam 8,8 − 3,2 = 5,6 m.\n**Resposta: D**",
+    "keyConcept": "semelhança de triângulos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q155",
@@ -759,7 +843,14 @@
    "number": 155,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com desconto de x centavos, o preço é 1,50 − x/100 reais e a venda é 10.000 + 100x litros. Então V = (1,50 − 0,01x)(10.000 + 100x) = 15.000 + 150x − 100x − x² = 15.000 + 50x − x².\n**Resposta: D**",
+    "keyConcept": "função quadrática (preço × quantidade)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q157",
@@ -794,7 +885,14 @@
    "number": 157,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "A aresta da caixa é ∛13.824 = 24 cm. Cada esfera tem diâmetro 12 cm, então cabem 24/12 = 2 esferas em cada direção: 2 × 2 × 2 = 8 esferas.\n**Resposta: B**",
+    "keyConcept": "volume do cubo e arrumação de esferas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q158",
@@ -837,7 +935,14 @@
    "number": 158,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela figura, o avião mede 36 m de comprimento e 28,5 m de envergadura. Na escala 1:150: 3.600 cm/150 = 24 cm e 2.850 cm/150 = 19 cm. Somando 1 cm de margem de cada lado (2 cm em cada dimensão), a folha deve ter no mínimo 21 cm × 26 cm.\n**Resposta: D**",
+    "keyConcept": "escala",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q159",
@@ -887,7 +992,14 @@
    "number": 159,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela tabela, de 5 para 10 bolas o nível vai de 6,35 para 6,70 cm: aumento de 0,35 cm para 5 bolas, ou 0,07 cm por bola. Então y = 0,07x + b, e com x = 5: 6,35 = 0,35 + b, logo b = 6. A função é y = 0,07x + 6 (confere com 15 bolas: 7,05 cm).\n**Resposta: E**",
+    "keyConcept": "função afim a partir de uma tabela",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q160",
@@ -922,7 +1034,14 @@
    "number": 160,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "São necessários 180/6 = 30 hectares por dia, 1,5 vez os 20 atuais. Aumentar a jornada de 6 para 9 horas (×1,5) dá os 30 hectares sem mudar o custo diário: 12 × 10 + 4 × 1.000 = R$ 4.120,00 por dia, ou R$ 24.720,00 em 6 dias, abaixo de R$ 25.000,00. Mais 4 máquinas estouraria o orçamento, e as outras opções não atingem a produção.\n**Resposta: D**",
+    "keyConcept": "grandezas proporcionais e custo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q161",
@@ -957,7 +1076,14 @@
    "number": 161,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Em ordem, as notas da Gama são 0; 6; 6,5; 6,5; 7; 7; 8; 8; 10; 10, e a mediana é (7 + 7)/2 = 7. No melhor caso, o aluno tira 10 no lugar do 0: as notas ficam 6; 6,5; 6,5; 7; 7; 8; 8; 10; 10; 10, com mediana (7 + 8)/2 = 7,5. Isso ainda é menor que os 7,6 da Delta, então a Gama fica em terceiro qualquer que seja a nota.\n**Resposta: D**",
+    "keyConcept": "mediana",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q162",
@@ -992,7 +1118,14 @@
    "number": 162,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Nos 10 primeiros dias foram 12 × 10 = 120 kg. O ritmo é 12 kg/(20 alunos × 3 h) = 0,2 kg por aluno-hora. Nos 20 dias restantes, 50 alunos × 4 h × 0,2 = 40 kg por dia, ou 800 kg. Total: 120 + 800 = 920 kg.\n**Resposta: A**",
+    "keyConcept": "regra de três composta",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q163",
@@ -1027,7 +1160,14 @@
    "number": 163,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "16 voltas de 7 km somam 112 km. Com 75 L por 100 km, são 112 × 0,75 = 84 L de gasolina, que pesam 84 × 0,75 kg = 63 kg. O carro deve sair com pelo menos 605 + 63 = 668 kg.\n**Resposta: B**",
+    "keyConcept": "consumo, densidade e massa",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q164",
@@ -1070,7 +1210,14 @@
    "number": 164,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Para dividir o quarto de círculo em três partes iguais, as retas saem do canto em ângulos de 30° e 60° com a base. A parte de João é o triângulo entre o lado esquerdo (2 km) e a reta a 30° da vertical, que corta o lado superior em x = 2 · tg 30° = 2 · 0,58 = 1,16 km. A área é (2 × 1,16)/2 = 1,16 km², de um terreno de 6 km²: 1,16/6 ≈ 19%.\n**Resposta: E**",
+    "keyConcept": "área de triângulo e razão trigonométrica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q165",
@@ -1105,7 +1252,14 @@
    "number": 165,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Escolher os 4 times do Grupo A não depende da ordem, então é uma combinação, C(12,4). No jogo de abertura a ordem importa (o primeiro é o mandante), então é um arranjo, A(4,2).\n**Resposta: A**",
+    "keyConcept": "combinação × arranjo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q166",
@@ -1191,7 +1345,14 @@
    "number": 168,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Em ordem crescente, as sete cotações da tabela são 73,10; 81,60; 82,00; 83,00; 84,00; 84,60; 85,30. Com 7 valores, a mediana é o 4º: R$ 83,00.\n**Resposta: D**",
+    "keyConcept": "mediana",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q169",
@@ -1234,7 +1395,14 @@
    "number": 169,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Na canaleta atual, a área é (30 + 20)/2 × 2,5 = 62,5 m², então a velocidade é v = 1.050/62,5 = 16,8 m/s. Depois da reforma, a área será (49 + 41)/2 × 2 = 90 m². Com a mesma velocidade, Q = 90 × 16,8 = 1.512 m³/s.\n**Resposta: D**",
+    "keyConcept": "área do trapézio e vazão",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q170",
@@ -1269,7 +1437,14 @@
    "number": 170,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Cada foto tem 2 milhões de pontos × 3 bytes = 6 MB sem compressão. Com redução de 95%, sobram 5%: 0,3 MB por foto. As 150 fotos ocupam 45 MB. O dispositivo que cabe tudo com a menor sobra é o cartão de 64 MB (16 MB não basta).\n**Resposta: E**",
+    "keyConcept": "unidades de armazenamento e porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q171",
@@ -1304,7 +1479,14 @@
    "number": 171,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Seja C = C(60,6) o total de resultados. Uma aposta de 6 dezenas acerta a quina em C(6,5) × 54 = 324 resultados, então 84 apostas (sem quinas em comum) cobrem 84 × 324 = 27.216 resultados. Uma aposta de 9 dezenas acerta exatamente 5 em C(9,5) × 51 = 126 × 51 = 6.426 resultados. A razão é 27.216/6.426 ≈ 4,2: a aposta única é cerca de 4 vezes menos provável.\n**Resposta: C**",
+    "keyConcept": "probabilidade com combinações",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q172",
@@ -1347,7 +1529,14 @@
    "number": 172,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Até maio, os gastos já conhecidos são US$ 2,84 bi em importações e US$ 2,24 bi em exportações. De junho a dezembro, os volumes serão 7/5 dos de janeiro a maio: importação 7/5 × 9,00 = 12,6 milhões de m³ × US$ 340 = US$ 4,284 bi, e exportação 7/5 × 11,00 = 15,4 milhões de m³ × US$ 230 = US$ 3,542 bi. No ano: importações 2,84 + 4,284 = 7,124 bi e exportações 2,24 + 3,542 = 5,782 bi. A diferença é ≈ US$ 1,34 bi.\n**Resposta: C**",
+    "keyConcept": "proporção e receita = volume × preço",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q173",
@@ -1390,7 +1579,14 @@
    "number": 173,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os 4 blocos têm a mesma altura e há 3 espaços de 1 cm: (19 − 3)/4 = 4 cm por bloco. Sem os espaços, os blocos formam uma pirâmide de base 6 cm e altura 16 cm (confere com a pirâmide do topo: 1,5/4 = 6/16), de volume (1/3) × 36 × 16 = 192 cm³. A pirâmide do topo tem volume (1/3) × 1,5² × 4 = 3 cm³. Sem ela, gasta-se 192 − 3 = 189 cm³.\n**Resposta: B**",
+    "keyConcept": "volume de pirâmide e semelhança",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q174",
@@ -1433,7 +1629,14 @@
    "number": 174,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Percorrer um arco d numa circunferência de raio r corresponde a um ângulo d/r radianos. Se P sai do ponto (r, 0), sua projeção Q vai de x = r para x = r·cos(d/r). A distância percorrida por Q é r − r·cos(d/r) = r(1 − cos(d/r)).\n**Resposta: B**",
+    "keyConcept": "arco, ângulo em radianos e cosseno",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q175",
@@ -1468,7 +1671,14 @@
    "number": 175,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "De (TC + TA)/2 = 0,6 vem NV/NF + NA/NV = 1,2. Dobrando NF, NV/(2NF) + NA/NV = 1,0. Subtraindo, NV/(2NF) = 0,2, então NV/NF = 0,4 e NA/NV = 0,8. Logo NA = 0,8NV e NA + NV = 1,8NV = 3.600, ou seja, NV = 2.000 e NF = 2.000/0,4 = 5.000.\n**Resposta: C**",
+    "keyConcept": "sistema de equações com razões",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q176",
@@ -1503,7 +1713,14 @@
    "number": 176,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Das 10h30 às 11h07 há 37 minutos. O programa pede 10 min de esteira + 1 min de descanso = 11 min; 3 séries × 6 aparelhos = 18 séries de 30 s = 9 min; e 17 descansos de 60 s entre as séries = 17 min. Total: 11 + 9 + 17 = 37 min, exatamente o tempo disponível.\n**Resposta: B**",
+    "keyConcept": "soma de intervalos de tempo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q177",
@@ -1538,7 +1755,14 @@
    "number": 177,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "A pirâmide de base quadrada tem 5 faces (4 triangulares e a base). Cada face cortada pelo plano contribui com um segmento, que é um lado do polígono da seção. Se o plano corta as 5 faces, a seção é um pentágono. As alternativas A, B, D e E fazem afirmações gerais falsas.\n**Resposta: C**",
+    "keyConcept": "seção plana de uma pirâmide",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q178",
@@ -1573,7 +1797,14 @@
    "number": 178,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Cheque especial: as parcelas somam 12 × 150 = R$ 1.800,00; quitando já (2 parcelas de desconto), seriam R$ 1.500,00, mas emprestando de José custaria 1.500 × 1,25 = R$ 1.875,00, mais que as parcelas. Cartão: parcelas somam 5 × 80 = R$ 400,00; com 25% de desconto, R$ 300,00, e emprestado de José, 300 × 1,25 = R$ 375,00, menos que R$ 400,00. O menor gasto é 1.800 + 375 = R$ 2.175,00 (renegociar custaria 18 × 125 = R$ 2.250,00).\n**Resposta: E**",
+    "keyConcept": "comparação de custos com desconto e juros",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q179",
@@ -1608,7 +1839,14 @@
    "number": 179,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "O volume é 2.000 L × 15 dias = 30.000 L, mais 10%: 33.000 L. A área do telhado é 33.000/110 = 300 m², por exemplo 15 m × 20 m.\n**Resposta: B**",
+    "keyConcept": "volume e área",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2009-REG-D2-C7-Q180",
@@ -1643,7 +1881,14 @@
    "number": 180,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "A chance de não ter efeito colateral em n doses é 0,9ⁿ, então o risco é 1 − 0,9ⁿ. Com 4 doses: 1 − 0,6561 ≈ 34,4%, dentro dos 35%. Com 6 doses: 1 − 0,531 ≈ 46,9%, acima do limite. O máximo admissível é 4 doses.\n**Resposta: B**",
+    "keyConcept": "probabilidade do evento complementar",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q137",
@@ -1678,7 +1923,14 @@
    "number": 137,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Passando para centímetros, 42 m = 4.200 cm. A razão é 2,1/4.200 = 1/2.000.\n**Resposta: E**",
+    "keyConcept": "razão com mesma unidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q142",
@@ -1773,7 +2025,14 @@
    "number": 150,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Primeira encomenda: cada tela tem 0,25 × 0,5 = 0,125 m² (8 telas = 1 m², R$ 20,00) e 1,5 m de moldura (12 m, R$ 180,00), total com entrega R$ 210,00. Segunda: cada tela tem 0,5 × 1 = 0,5 m² (4 m², R$ 80,00) e 3 m de moldura (24 m, R$ 360,00), total R$ 450,00. A segunda é maior, mas não é o dobro (o dobro seria R$ 420,00): a área quadruplica, o perímetro dobra e a taxa fixa não muda.\n**Resposta: B**",
+    "keyConcept": "área, perímetro e custo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q154",
@@ -1808,7 +2067,14 @@
    "number": 154,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O crescimento foi 145.000/132.000 ≈ 1,0985, ou seja, cerca de 9,85%. Isso fica entre 5% e 10%: conceito bom.\n**Resposta: C**",
+    "keyConcept": "crescimento percentual",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q155",
@@ -1843,7 +2109,14 @@
    "number": 155,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os 500 folhetos do segundo tipo custam 500 × (0,65 + 0,60 + 0,20) = R$ 725,00 e usam 500 selos de R$ 0,65. Sobram R$ 275,00, que compram 275/0,65 ≈ 423 selos de R$ 0,65. Total de selos de R$ 0,65: 500 + 423 = 923.\n**Resposta: C**",
+    "keyConcept": "problema com dinheiro e divisão inteira",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q157",
@@ -1878,7 +2151,14 @@
    "number": 157,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "O concreto ocupa o espaço entre um cilindro de raio 1,2 m e outro de raio 1 m, com 4 m de altura: V = π(1,2² − 1²) × 4 = 3,1 × 0,44 × 4 = 5,456 m³. A R$ 10,00 por m³, o preço é R$ 54,56.\n**Resposta: D**",
+    "keyConcept": "volume de coroa cilíndrica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q160",
@@ -1921,7 +2201,14 @@
    "number": 160,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Para a primeira pessoa, tg 60° = h/1,8, então h = 1,8 × √3 ≈ 1,8 × 1,73 ≈ 3,1 km. A segunda confirma: h = 5,5 × tg 30° ≈ 5,5 × 0,577 ≈ 3,2 km.\n**Resposta: C**",
+    "keyConcept": "tangente no triângulo retângulo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q161",
@@ -1964,7 +2251,14 @@
    "number": 161,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "M e N são pontos médios, então o triângulo MNC é semelhante a ABC com razão 1/2, e sua área é 1/4 da área de ABC. A região ABMN é o que sobra: 3/4 de ABC, ou seja, o triplo da área de MNC.\n**Resposta: E**",
+    "keyConcept": "base média e razão de áreas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q162",
@@ -2007,7 +2301,14 @@
    "number": 162,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "A página tem 260 mm × 400 mm = 104.000 mm², e 4% disso são 4.160 mm². Com o outro lado do retângulo medindo 26 mm, x = 4.160/26 = 160 mm.\n**Resposta: D**",
+    "keyConcept": "porcentagem de área",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q163",
@@ -2050,7 +2351,14 @@
    "number": 163,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Numa volta completa, o centro do rolo avança 2πR em relação ao chão. O topo do rolo, onde fica o bloco, anda o dobro da velocidade do centro (ele também gira para a frente), então o bloco se desloca 2 × 2πR = 4πR.\n**Resposta: E**",
+    "keyConcept": "rolamento sem deslizamento",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q164",
@@ -2093,7 +2401,14 @@
    "number": 164,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "A base 6–8–10 é um triângulo retângulo (6² + 8² = 10²). O cilindro tangente às faces laterais tem o raio da circunferência inscrita: r = (catetos − hipotenusa)/2 = (6 + 8 − 10)/2 = 2 cm. Confere: área/semiperímetro = 24/12 = 2.\n**Resposta: B**",
+    "keyConcept": "circunferência inscrita no triângulo retângulo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q165",
@@ -2136,7 +2451,14 @@
    "number": 165,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os 48 °C ficam no primeiro trecho: (7/5)t + 20 = 48 dá t = 20 min. Os 200 °C ficam no segundo trecho (T(100) = 160): (2/125)t² − (16/5)t + 320 = 200, que vira t² − 200t + 7.500 = 0, com raízes 50 e 150. Como t ≥ 100, t = 150 min. A peça fica no forno 150 − 20 = 130 minutos.\n**Resposta: D**",
+    "keyConcept": "função definida por partes e equação do 2º grau",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q166",
@@ -2179,7 +2501,14 @@
    "number": 166,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, em 2004 havia 750 favelas, então de 2004 a 2010 o aumento foi 968 − 750 = 218. Mantido o padrão por mais 6 anos, em 2016 serão 968 + 218 = 1.186, entre 1.150 e 1.200. A alternativa B erra: 1.186 é 436 a mais que em 2004.\n**Resposta: C**",
+    "keyConcept": "variação linear",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q167",
@@ -2222,7 +2551,14 @@
    "number": 167,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Lendo o gráfico, as 18 Copas tiveram artilheiros com 8, 5, 7, 9, 11, 13, 4, 9, 10, 7, 6, 6, 6, 6, 6, 6, 8 e 5 gols. Em ordem: 4, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9, 10, 11, 13. Os termos centrais (9º e 10º) são 6 e 7, então a mediana é 6,5 gols.\n**Resposta: B**",
+    "keyConcept": "mediana de um conjunto par",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q169",
@@ -2257,7 +2593,14 @@
    "number": 169,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Seja x o primeiro salto. O segundo é x − 1,2 e o terceiro é x − 1,2 − 1,5 = x − 2,7. Somando: 3x − 3,9 = 17,4, então x = 7,1 m, entre 7,0 m e 8,0 m.\n**Resposta: D**",
+    "keyConcept": "equação do 1º grau",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q170",
@@ -2300,7 +2643,14 @@
    "number": 170,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os dois têm média 15, então o desempate é pela regularidade. Quanto menor o desvio padrão, mais próximas da média estão as notas. Marco tem desvio 0,32 e Paulo 4,97, então Marco é o mais regular.\n**Resposta: B**",
+    "keyConcept": "desvio padrão mede regularidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q171",
@@ -2335,7 +2685,14 @@
    "number": 171,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Ficaram sem cura 60% dos pacientes, divididos em dois grupos de 30%. Os tratamentos novos curaram 35% de 30% = 10,5% e 45% de 30% = 13,5% do total inicial. Juntos: 24%.\n**Resposta: B**",
+    "keyConcept": "porcentagem de porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q172",
@@ -2370,7 +2727,14 @@
    "number": 172,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Em 2006, o Brasil produziu 43% de 40 = 17,2 bilhões de litros e os EUA 45% de 40 = 18 bilhões. Em 2009, os EUA produzirão 9 bilhões, e os dois juntos devem somar 88% de 40 = 35,2 bilhões, então o Brasil precisa de 26,2 bilhões. O aumento é 26,2/17,2 ≈ 1,523, ou seja, cerca de 52,3%.\n**Resposta: C**",
+    "keyConcept": "porcentagem e aumento relativo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q173",
@@ -2413,7 +2777,14 @@
    "number": 173,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Saindo de A e voltando a A, as 5 cidades podem ser visitadas em 5! = 120 ordens. Cada trajeto tem um simétrico de mesmo custo, então basta examinar 60 sequências. A 1,5 min cada, são 60 × 1,5 = 90 minutos.\n**Resposta: B**",
+    "keyConcept": "permutações",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q174",
@@ -2456,7 +2827,14 @@
    "number": 174,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, calçam mais que 36,0 as funcionárias de 37,0 (3), 38,0 (10) e 39,0 (1), total 14. Dessas, 10 calçam 38,0. A probabilidade é 10/14 = 5/7.\n**Resposta: D**",
+    "keyConcept": "probabilidade condicional",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q175",
@@ -2499,7 +2877,14 @@
    "number": 175,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, são 20 jogos. A moda é 0 gol (5 jogos). Em ordem, o 10º e o 11º valores são 2 (os 5 primeiros são 0, os 3 seguintes são 1 e do 9º ao 12º são 2), então a mediana é 2. A média é (0·5 + 1·3 + 2·4 + 3·3 + 4·2 + 5·2 + 7·1)/20 = 45/20 = 2,25. Logo Z < Y < X.\n**Resposta: E**",
+    "keyConcept": "média, mediana e moda",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q176",
@@ -2534,7 +2919,14 @@
    "number": 176,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Em Netuno cabem 58 Terras e em Júpiter cabem 23 Netunos. Então em Júpiter cabem 23 × 58 = 1.334 Terras.\n**Resposta: B**",
+    "keyConcept": "proporção encadeada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q178",
@@ -2577,7 +2969,14 @@
    "number": 178,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "O volume de madeira é o cubo maior menos o espaço vazio: 12³ − 8³ = 1.728 − 512 = 1.216 cm³.\n**Resposta: D**",
+    "keyConcept": "volume do cubo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2010-REG-D2-C7-Q179",
@@ -2620,7 +3019,14 @@
    "number": 179,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "As somas das linhas são 1, 1 + 2 + 1 = 4, 1 + 2 + 3 + 2 + 1 = 9, 1 + 2 + 3 + 4 + 3 + 2 + 1 = 16: a linha n soma n². A 9ª linha soma 9² = 81.\n**Resposta: D**",
+    "keyConcept": "padrões numéricos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q136",
@@ -2655,7 +3061,14 @@
    "number": 136,
    "booklet": 7,
    "answer": "E",
-   "explanation": null,
+   "explanation": {
+    "markdown": "As diferenças para 68 mm são 0,21; 0,102; 0,001; 0,02 e 0,012 mm. A menor é 0,001 mm, do pistão de 68,001 mm.\n**Resposta: E**",
+    "keyConcept": "comparação de números decimais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -2691,7 +3104,14 @@
    "number": 140,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Os perímetros são 200, 220, 180, 180 e 360 m, então só os terrenos 3 e 4 respeitam o limite de 180 m de tela. As áreas são 60 × 30 = 1.800 m² e 70 × 20 = 1.400 m². O de maior área é o terreno 3.\n**Resposta: C**",
+    "keyConcept": "perímetro e área do retângulo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -2727,7 +3147,14 @@
    "number": 141,
    "booklet": 7,
    "answer": "B",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Para gastar 200 calorias: agachamentos passam de 20 para 40 min (+20), supermercado de 30 para 60 min (+30) e tirar o pó de 30 para 40 min (+10). Jardim, cachorro e roupas já gastam 200 em 30 min. O tempo a mais é 20 + 30 + 10 = 60 minutos.\n**Resposta: B**",
+    "keyConcept": "proporcionalidade direta",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -2763,7 +3190,14 @@
    "number": 143,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Em centímetros, 28 m = 2.800 cm e 12 m = 1.200 cm. Na escala 1:250, ficam 2.800/250 = 11,2 cm de comprimento e 1.200/250 = 4,8 cm de largura.\n**Resposta: C**",
+    "keyConcept": "escala",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -2799,7 +3233,14 @@
    "number": 145,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "O consumo foi de 331 bilhões × 0,12 L ≈ 39,7 bilhões de litros. Aumentando 1/5, multiplica-se por 1,2: ≈ 47,7 bilhões de litros, ou seja, cerca de 48 bilhões.\n**Resposta: E**",
+    "keyConcept": "conversão de unidades e aumento fracionário",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q146",
@@ -2834,7 +3275,14 @@
    "number": 146,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Em centímetros, 2.000 km = 200.000.000 cm. A escala é 8 : 200.000.000 = 1 : 25.000.000.\n**Resposta: E**",
+    "keyConcept": "escala com mesma unidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q148",
@@ -2869,7 +3317,14 @@
    "number": 148,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Fora da Finlândia, o limite era 6.000 m ≈ 6.000 × 3,3 = 19.800 pés. A diferença para os 31.000 pés da Finlândia é 31.000 − 19.800 = 11.200 pés.\n**Resposta: C**",
+    "keyConcept": "conversão de unidades",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q150",
@@ -2904,7 +3359,14 @@
    "number": 150,
    "booklet": 7,
    "answer": "B",
-   "explanation": null,
+   "explanation": {
+    "markdown": "A estação tem de estar na reta y = x + 4 e a até 5 km de P(−5, 5). O ponto (−3, 1) está na reta (−3 + 4 = 1) e fica a √((−3 + 5)² + (1 − 5)²) = √20 ≈ 4,5 km de P. Os pontos (−5, 0) e (−2, 1) não estão na reta, e (0, 4) e (2, 6) estão a mais de 5 km.\n**Resposta: B**",
+    "keyConcept": "distância entre pontos e pertinência à reta",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -3000,7 +3462,14 @@
    "number": 153,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Para 30 convidados: carne 30 × 0,25 kg = 7,5 kg; arroz 30/4 = 7,5 copos; farofa 30 × 4 = 120 colheres; vinho 30/6 = 5 garrafas; cerveja 30/2 = 15 garrafas; espumante 30/3 = 10 garrafas.\n**Resposta: E**",
+    "keyConcept": "proporcionalidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q156",
@@ -3035,7 +3504,14 @@
    "number": 156,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "O aumento é de 4.300 trabalhadores por mês, então y = b + 4.300x. Fevereiro (x = 2) tem 880.605, logo b = 880.605 − 8.600 = 872.005, e y = 872.005 + 4.300x.\n**Resposta: C**",
+    "keyConcept": "função afim",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -3071,7 +3547,14 @@
    "number": 159,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "O custo da primeira empresa é 100.000n + 350.000 e o da segunda é 120.000n + 150.000. É indiferente quando são iguais; dividindo tudo por 1.000: 100n + 350 = 120n + 150.\n**Resposta: A**",
+    "keyConcept": "igualdade de funções afins",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q160",
@@ -3106,7 +3589,14 @@
    "number": 160,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Seja x o valor aplicado. No primeiro mês sobram 0,70x (perda de 0,30x). No segundo, ela recupera 20% do que perdeu: 0,20 × 0,30x = 0,06x. O montante é 0,76x = 3.800, então x = R$ 5.000,00.\n**Resposta: C**",
+    "keyConcept": "porcentagem sobre o valor inicial",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q161",
@@ -3141,7 +3631,14 @@
    "number": 161,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "A densidade é habitantes/área: 20.000.000/800.000 = 25 habitantes por km².\n**Resposta: B**",
+    "keyConcept": "densidade demográfica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q162",
@@ -3176,7 +3673,14 @@
    "number": 162,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "As vendas aumentam 1.500 passagens por mês (33.000; 34.500; 36.000…). Julho é o 7º termo: 33.000 + 6 × 1.500 = 42.000.\n**Resposta: D**",
+    "keyConcept": "progressão aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q164",
@@ -3211,7 +3715,14 @@
    "number": 164,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Dois banhos de 10 min são 20 min = 1/3 h por dia. O consumo diário é 4,8 × 1/3 = 1,6 kWh, e em 7 dias, 7 × 1,6 = 11,2 (o enunciado chama de \"kW\").\n**Resposta: D**",
+    "keyConcept": "energia = potência × tempo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q166",
@@ -3246,7 +3757,14 @@
    "number": 166,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "O acréscimo nas mulheres é 8/32 = 25%. Com a mesma proporção, os homens passam de 28 mil para 28 × 1,25 = 35 mil internações.\n**Resposta: D**",
+    "keyConcept": "aumento proporcional",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q167",
@@ -3281,7 +3799,14 @@
    "number": 167,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O copo tem raio 2 cm e volume π r² h = 3 × 4 × 10 = 120 cm³ = 120 mL. Na mistura há 1 parte de açúcar para 5 de água, então a água é 5/6 do total: 5/6 × 120 = 100 mL.\n**Resposta: C**",
+    "keyConcept": "volume do cilindro e razão",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q168",
@@ -3316,7 +3841,14 @@
    "number": 168,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com duas bolas diferentes de 1 a 15: soma 12 sai com {1,11}, {2,10}, {3,9}, {4,8}, {5,7} (5 modos); soma 17 com {2,15}, {3,14}, {4,13}, {5,12}, {6,11}, {7,10}, {8,9} (7 modos); soma 22 com {7,15}, {8,14}, {9,13}, {10,12} (4 modos). Bernardo tem mais chances.\n**Resposta: C**",
+    "keyConcept": "contagem de casos favoráveis",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q174",
@@ -3351,7 +3883,14 @@
    "number": 174,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os números usam os algarismos 1, 3, 5, 7, 9 sem repetir: são 5! = 120. Antes de 75.913 vêm os que começam por 1, 3 ou 5 (3 × 4! = 72), os que começam por 71 ou 73 (2 × 3! = 12) e os que começam por 751 ou 753 (2 × 2! = 4). São 88 números antes; com os algarismos restantes 1 e 3, 75.913 é o primeiro que começa por 759, então ocupa a 89ª posição.\n**Resposta: E**",
+    "keyConcept": "permutações em ordem crescente",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2011-REG-D2-C7-Q179",
@@ -3446,7 +3985,14 @@
    "number": 136,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "O atleta correu 10 × 42 = 420 km = 42.000.000 cm. A escala é 60 : 42.000.000 = 1 : 700.000.\n**Resposta: D**",
+    "keyConcept": "escala",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2012-REG-D2-C7-Q140",
@@ -3481,7 +4027,14 @@
    "number": 140,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Trazendo cada pagamento para hoje com 10% ao semestre: opção 2: 30.000 + 26.000/1,1 ≈ 53.636; opção 3: 20.000 + 20.000/1,1 + 18.000/1,21 ≈ 53.058; opção 4: 15.000 + 39.000/1,21 ≈ 47.231; opção 5: 60.000/1,21 ≈ 49.587; opção 1: 55.000. O menor valor presente é o da opção 4, que deixa mais dinheiro aplicado rendendo.\n**Resposta: D**",
+    "keyConcept": "valor presente com juros compostos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2012-REG-D2-C7-Q144",
@@ -3516,7 +4069,14 @@
    "number": 144,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "O número de respostas distintas é 5 objetos × 6 personagens × 9 cômodos = 270. Como há 280 alunos e as respostas não se repetem, alguém acerta: há 10 alunos a mais do que respostas possíveis.\n**Resposta: A**",
+    "keyConcept": "princípio multiplicativo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2012-REG-D2-C7-Q150",
@@ -3551,7 +4111,14 @@
    "number": 150,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "As colunas usam 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28 cartas. O monte tem 52 − 28 = 24 cartas.\n**Resposta: B**",
+    "keyConcept": "soma de uma sequência",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2012-REG-D2-C7-Q152",
@@ -3681,7 +4248,14 @@
    "number": 161,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O número tem 8 algarismos: 1 3 _ 9 8 2 0 7. Da direita para a esquerda: 7 unidades, 0 dezenas, 2 centenas, 8 unidades de milhar, 9 dezenas de milhar e o espaço vazio na casa da centena de milhar.\n**Resposta: C**",
+    "keyConcept": "valor posicional",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2012-REG-D2-C7-Q164",
@@ -3716,7 +4290,14 @@
    "number": 164,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "São 5 gotas para cada 2 kg. Com 30 gotas: 30/5 = 6 grupos de 2 kg = 12 kg.\n**Resposta: A**",
+    "keyConcept": "proporcionalidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2012-REG-D2-C7-Q166",
@@ -3751,7 +4332,14 @@
    "number": 166,
    "booklet": 7,
    "answer": "B",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Igualando oferta e demanda: −20 + 4P = 46 − 2P, então 6P = 66 e P = 11.\n**Resposta: B**",
+    "keyConcept": "equação do 1º grau (ponto de equilíbrio)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -3787,7 +4375,14 @@
    "number": 167,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "A bicicleta exige 9.200/20 = 460 períodos de jogo. A R$ 3,00 cada, o gasto é 460 × 3 = R$ 1.380,00.\n**Resposta: D**",
+    "keyConcept": "proporcionalidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2012-REG-D2-C7-Q170",
@@ -3882,7 +4477,14 @@
    "number": 171,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "3' = 3/60 de grau = 0,05°, e 0\" não acrescenta nada. A longitude é 124,05°.\n**Resposta: B**",
+    "keyConcept": "conversão de minutos de grau em decimal",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2012-REG-D2-C7-Q173",
@@ -3917,7 +4519,14 @@
    "number": 173,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "A bacia comum gasta 60 L por dia a 15 L por descarga: 4 descargas. A ecológica gastaria 4 × 6 = 24 L. A economia é 60 − 24 = 36 litros por dia.\n**Resposta: B**",
+    "keyConcept": "razão e proporção",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2012-REG-D2-C7-Q176",
@@ -3952,7 +4561,14 @@
    "number": 176,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "O desvio padrão é 90 kg por talhão de 3 hectares, ou seja, 30 kg por hectare = 0,5 saca por hectare (saca de 60 kg). A variância é o quadrado do desvio: 0,5² = 0,25 (sacas/hectare)².\n**Resposta: E**",
+    "keyConcept": "variância e mudança de unidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2012-REG-D2-C7-Q177",
@@ -3987,7 +4603,14 @@
    "number": 177,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Há 3 cores primárias e 3 secundárias (combinações de duas primárias): 6 cores. Cada uma pode aparecer sozinha, clara (com o branco) ou escura (com o preto): 6 × 3 = 18. Somando o preto e o branco, são 20 cores.\n**Resposta: C**",
+    "keyConcept": "princípio multiplicativo e aditivo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2012-REG-D2-C7-Q178",
@@ -4022,7 +4645,14 @@
    "number": 178,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Dos 36 resultados, a soma 7 sai de 6 modos (1+6, 2+5, 3+4, 4+3, 5+2, 6+1), a soma 8 de 5 modos (2+6, 3+5, 4+4, 5+3, 6+2) e a soma 4 de 3 modos (1+3, 2+2, 3+1). José tem a maior probabilidade.\n**Resposta: D**",
+    "keyConcept": "probabilidade com dois dados",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2012-REG-D2-C7-Q179",
@@ -4065,7 +4695,14 @@
    "number": 179,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Em ordem, os dez valores do gráfico são 181.419; 181.796; 204.804; 209.425; 212.952; 246.875; 266.415; 298.041; 299.415; 305.068. A mediana é a média dos dois centrais: (212.952 + 246.875)/2 = 229.913,5, com parte inteira 229.913.\n**Resposta: B**",
+    "keyConcept": "mediana de dez valores",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2013-REG-D2-C7-Q139",
@@ -4100,7 +4737,14 @@
    "number": 139,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Em 6 horas há 6 × 3.600 = 21.600 s, com uma gota a cada 3 s: 7.200 gotas. A 0,2 mL cada, são 1.440 mL ≈ 1,4 L.\n**Resposta: C**",
+    "keyConcept": "conversão de tempo e volume",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -4136,7 +4780,14 @@
    "number": 148,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "900 telhas são 900/1.500 = 60% da carga máxima. Sobram 40%, que correspondem a 0,4 × 1.200 = 480 tijolos.\n**Resposta: D**",
+    "keyConcept": "proporção da carga máxima",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2013-REG-D2-C7-Q150",
@@ -4171,7 +4822,14 @@
    "number": 150,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Falam pelo menos uma língua 1.200 − 300 = 900 alunos. Como 600 falam inglês, 900 − 600 = 300 falam só espanhol. Os que não falam inglês são 1.200 − 600 = 600, e 300 deles falam espanhol: 300/600 = 1/2.\n**Resposta: A**",
+    "keyConcept": "probabilidade condicional com conjuntos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2013-REG-D2-C7-Q153",
@@ -4266,7 +4924,14 @@
    "number": 155,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Cada ralo escoa 900/(6 ralos × 6 h) = 25 m³ por hora. O novo reservatório precisa escoar 500/4 = 125 m³ por hora, o que exige 125/25 = 5 ralos.\n**Resposta: C**",
+    "keyConcept": "grandezas proporcionais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2013-REG-D2-C7-Q156",
@@ -4301,7 +4966,14 @@
    "number": 156,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Triplicando o lado, a área de cada placa fica 9 vezes maior: (3y)² = 9y². Para cobrir a mesma área S, basta 1/9 das placas: X = N/9.\n**Resposta: A**",
+    "keyConcept": "área e semelhança",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2013-REG-D2-C7-Q158",
@@ -4336,7 +5008,14 @@
    "number": 158,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "O lucro é 34.000 − 26.000 = R$ 8.000,00, e o imposto é 15% disso: R$ 1.200,00.\n**Resposta: B**",
+    "keyConcept": "porcentagem do lucro",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2013-REG-D2-C7-Q159",
@@ -4371,7 +5050,14 @@
    "number": 159,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "A proporção 1 : 4 : 2 soma 7 partes. O cimento é 1/7 de 14 m³ = 2 m³.\n**Resposta: B**",
+    "keyConcept": "divisão proporcional",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2013-REG-D2-C7-Q163",
@@ -4406,7 +5092,14 @@
    "number": 163,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com 20% de desconto, o produto sai por R$ 40,00. O cartão daria mais 10% sobre esse valor: R$ 4,00 de economia adicional.\n**Resposta: E**",
+    "keyConcept": "descontos sucessivos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2013-REG-D2-C7-Q167",
@@ -4441,7 +5134,14 @@
    "number": 167,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Cada lado fica com 80% da medida, e a área fica com 0,8 × 0,8 = 0,64 da original. A redução é de 36%.\n**Resposta: C**",
+    "keyConcept": "redução de área por fator linear",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -4477,7 +5177,14 @@
    "number": 170,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "355 mL = 35,5 cL. Em onças fluidas: 35,5/2,95 ≈ 12,03 fl oz.\n**Resposta: C**",
+    "keyConcept": "conversão de unidades",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2013-REG-D2-C7-Q173",
@@ -4512,7 +5219,14 @@
    "number": 173,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "O ciclo n vai de 1755 + 11(n − 1) até 1765 + 11(n − 1). Como (2101 − 1755)/11 ≈ 31,45, já se passaram 31 ciclos completos, e 2101 está no 32º (o ciclo 32 vai de 2096 a 2106).\n**Resposta: A**",
+    "keyConcept": "sequência de períodos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2014-REG-D2-C7-Q149",
@@ -4547,7 +5261,14 @@
    "number": 149,
    "booklet": 7,
    "answer": "B",
-   "explanation": null,
+   "explanation": {
+    "markdown": "São 5 × 4 = 20 catracas, com 45.000/20 = 2.250 pessoas cada. A 2 s por pessoa, são 4.500 s = 75 min = 1 hora e 15 minutos.\n**Resposta: B**",
+    "keyConcept": "divisão e conversão de tempo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -4583,7 +5304,14 @@
    "number": 152,
    "booklet": 7,
    "answer": "B",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Os 8 bilhões sem tratamento são 64% do esgoto, então o total é 8/0,64 = 12,5 bilhões de litros. Com 4 bilhões sem tratamento, isso será 4/12,5 = 32%, e o tratado passa a 68%.\n**Resposta: B**",
+    "keyConcept": "porcentagem do total",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -4619,7 +5347,14 @@
    "number": 154,
    "booklet": 7,
    "answer": "D",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Os desempenhos são I: 50/85 ≈ 0,59; II: 40/65 ≈ 0,62; III: 20/65 ≈ 0,31; IV: 30/40 = 0,75; V: 48/90 ≈ 0,53. O maior é o do jogador IV.\n**Resposta: D**",
+    "keyConcept": "comparação de razões",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -4688,7 +5423,14 @@
    "number": 165,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela figura, os radares estão a 2,1 km. O tempo mínimo é 1 min 24 s = 84 s = 84/3.600 h. A velocidade média máxima é 2,1/(84/3.600) = 90 km/h, que é o valor da placa.\n**Resposta: C**",
+    "keyConcept": "velocidade média",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2014-REG-D2-C7-Q168",
@@ -4723,7 +5465,14 @@
    "number": 168,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "A agricultura usa 80 milhões dos 853 milhões de hectares: 80/853 ≈ 0,094, ou seja, cerca de 9,4%.\n**Resposta: D**",
+    "keyConcept": "porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2014-REG-D2-C7-Q169",
@@ -4773,7 +5522,14 @@
    "number": 169,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Tirando as margens, a região disponível mede 42 − 6 = 36 cm por 30 − 6 = 24 cm. A gravura original (Figura 1) tem 8 m × 6 m. Mantendo a proporção, a altura limita: 6 m = 600 cm → 24 cm dá escala 24/600 = 1/25 (a largura ficaria 800/25 = 32 cm, que cabe em 36 cm).\n**Resposta: D**",
+    "keyConcept": "escala e proporção",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2014-REG-D2-C7-Q171",
@@ -4808,7 +5564,14 @@
    "number": 171,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "O ponto central recebe 60% de 12 t = 7,2 t. Os 4,8 t restantes ficam divididos igualmente: 2,4 t para cada extremo.\n**Resposta: C**",
+    "keyConcept": "porcentagem e divisão",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -4844,7 +5607,14 @@
    "number": 173,
    "booklet": 7,
    "answer": "E",
-   "explanation": null,
+   "explanation": {
+    "markdown": "1 hm = 100 m, então 1 hm² = 10.000 m². A área é 8 × 10.000 = 80.000 m².\n**Resposta: E**",
+    "keyConcept": "unidades de área",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -4880,7 +5650,14 @@
    "number": 174,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "São 16 × 4 = 64 L de gel, 6,4 L por escola. Divididos em 20 recipientes cheios: 6,4/20 = 0,32 L, o recipiente III.\n**Resposta: C**",
+    "keyConcept": "divisão exata",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -4916,7 +5693,14 @@
    "number": 179,
    "booklet": 7,
    "answer": "B",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Seja q a quantidade habitual. A pessoa leva 10q + 6 reais. Com o novo preço de R$ 12,00, esse dinheiro compra exatamente q − 2 unidades: 10q + 6 = 12(q − 2), então q = 15. A quantia levada é 10 × 15 + 6 = R$ 156,00.\n**Resposta: B**",
+    "keyConcept": "equação do 1º grau",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -4952,7 +5736,14 @@
    "number": 149,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "O cubo tem 6 faces, que continuam no poliedro (agora octogonais). Cada um dos 8 cortes nos vértices cria uma face triangular nova. Total: 6 + 8 = 14 faces, ou seja, 14 cores.\n**Resposta: C**",
+    "keyConcept": "faces de um poliedro",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -4988,7 +5779,14 @@
    "number": 156,
    "booklet": 7,
    "answer": "D",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Antes da 10ª prestação, já foram amortizados 9 × 500 = R$ 4.500,00, e o saldo devedor é 175.500. A prestação é 500 + 1% de 175.500 = 500 + 1.755 = R$ 2.255,00.\n**Resposta: D**",
+    "keyConcept": "amortização constante",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -5032,7 +5830,14 @@
    "number": 158,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela fórmula, a dose da criança é a dose do adulto vezes um fator que só depende da idade. Esse fator vale 14/42 = 1/3, pela dose correta do medicamento Y. Para o medicamento X: 60 × 1/3 = 20 mg.\n**Resposta: B**",
+    "keyConcept": "proporcionalidade com fator comum",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2015-REG-D2-C7-Q159",
@@ -5067,7 +5872,14 @@
    "number": 159,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "O total de renda é 101,8 milhões × R$ 1.202,00. Os 10% mais ricos (10,18 milhões de pessoas) ficam com 44,5% disso, uma média de 0,445 × 1.202/0,1 = R$ 5.348,90. Os 10% mais pobres têm média 0,011 × 1.202/0,1 = R$ 132,22. A diferença é R$ 5.216,68.\n**Resposta: E**",
+    "keyConcept": "média e porcentagem do total",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2015-REG-D2-C7-Q173",
@@ -5102,7 +5914,14 @@
    "number": 173,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "As distâncias para 3 mm são 0,10; 0,021; 0,04; 0,901 e 0,07 mm. A menor é 0,021 mm: a lente de 3,021 mm.\n**Resposta: C**",
+    "keyConcept": "comparação de decimais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -5138,7 +5957,14 @@
    "number": 179,
    "booklet": 7,
    "answer": "E",
-   "explanation": null,
+   "explanation": {
+    "markdown": "No modo I, o atleta está entre os 3 sorteados de 200 com probabilidade 3/200. No modo II, a equipe dele sai com 1/20 e depois ele é um dos 3 de 10: 1/20 × 3/10 = 3/200. No modo III, a equipe dele é uma das 3 de 20 (3/20) e depois ele é o sorteado de 10: 3/20 × 1/10 = 3/200. As três são iguais.\n**Resposta: E**",
+    "keyConcept": "probabilidade em sorteios em etapas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -5174,7 +6000,14 @@
    "number": 165,
    "booklet": 7,
    "answer": "D",
-   "explanation": null,
+   "explanation": {
+    "markdown": "João trabalha nos andares ímpares e Pedro nos da forma 1 + 3k. Os andares em comum são 1, 7, 13, … (de 6 em 6). O 20º andar em comum é 1 + 19 × 6 = 115, e ele é o último andar, pois os dois terminaram lá (115 é ímpar e 115 = 1 + 3 × 38).\n**Resposta: D**",
+    "keyConcept": "múltiplos comuns e progressão aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -5218,7 +6051,14 @@
    "number": 171,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela tabela, a população das capitais do Nordeste foi de 1.270.729 (1940) para 10.162.346 (2000), cerca de 8 vezes maior. Ficar 8 vezes maior é aumentar cerca de 700%.\n**Resposta: D**",
+    "keyConcept": "aumento percentual",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2016-REG-D2-C7-Q177",
@@ -5253,7 +6093,14 @@
    "number": 177,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os índices são I: 14/400 = 3,5%; II: 6/500 = 1,2%; III: 13/520 = 2,5%; IV: 9/360 = 2,5%; V: 15/500 = 3%. O maior é o do bairro I, onde as ações começam.\n**Resposta: A**",
+    "keyConcept": "comparação de porcentagens",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q136",
@@ -5356,7 +6203,14 @@
    "number": 137,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Exigindo P ≤ 400: 5.000 × 0,013 × 1,013ⁿ ≤ 400(1,013ⁿ − 1), que vira 65 × 1,013ⁿ ≤ 400 × 1,013ⁿ − 400, ou 335 × 1,013ⁿ ≥ 400. Com logaritmos: n × log 1,013 ≥ log 400 − log 335, ou seja, 0,005n ≥ 2,602 − 2,525 = 0,077, e n ≥ 15,4. O menor número inteiro de parcelas é 16.\n**Resposta: D**",
+    "keyConcept": "inequação exponencial com logaritmos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q138",
@@ -5399,7 +6253,14 @@
    "number": 138,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "O valor máximo de I é k, quando sen x = 1 (x = 90°). Com x = 30°, I = k × sen 30° = 0,5k: 50% do máximo.\n**Resposta: B**",
+    "keyConcept": "seno e valor máximo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q139",
@@ -5442,7 +6303,14 @@
    "number": 139,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O veículo fica imóvel quando a velocidade é zero. No gráfico, isso acontece de 6 a 8 minutos: 2 minutos.\n**Resposta: C**",
+    "keyConcept": "leitura de gráfico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q140",
@@ -5485,7 +6353,14 @@
    "number": 140,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "As bordas (raio 5 cm) se encostam, então os centros das taças ficam a 10 cm. O que precisa caber na bandeja são as bases (raio 4 cm): o comprimento é 3 × 10 + 4 + 4 = 38 cm e a largura é o diâmetro da base, 8 cm. A área mínima é 38 × 8 = 304 cm².\n**Resposta: C**",
+    "keyConcept": "comprimento mínimo e área do retângulo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q141",
@@ -5520,7 +6395,14 @@
    "number": 141,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Hoje, o custo de polpa por suco é 2/3 × 18 + 1/3 × 14,70 = 12 + 4,90 = R$ 16,90. Com a acerola a R$ 15,30, sua parte passa a 5,10. Para manter R$ 16,90, a parte do morango deve ser 11,80, ou seja, a embalagem de morango deve custar 11,80 × 3/2 = R$ 17,70: uma redução de R$ 0,30.\n**Resposta: E**",
+    "keyConcept": "média ponderada de custos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q142",
@@ -5555,7 +6437,14 @@
    "number": 142,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O cubo de 80 cm só cabe se todas as dimensões forem pelo menos 80 cm, o que exclui a caixa 2 (75 cm). Os volumes são: caixa 1: 86³ = 636.056; caixa 3: 85 × 82 × 90 = 627.300; caixa 4: 82 × 95 × 82 = 638.780; caixa 5: 80 × 95 × 85 = 646.000 cm³. A de menor volume, e portanto menor espaço livre, é a caixa 3.\n**Resposta: C**",
+    "keyConcept": "volume do paralelepípedo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q144",
@@ -5590,7 +6479,14 @@
    "number": 144,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "A água tem 1,7 − 0,5 = 1,2 m de altura, e o volume é 3 × 5 × 1,2 = 18 m³ = 18.000 L. São 18 × 1,5 = 27 mL de produto.\n**Resposta: B**",
+    "keyConcept": "volume e proporcionalidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q145",
@@ -5633,7 +6529,14 @@
    "number": 145,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Calculando 1,96σ/√N para cada pesquisa: P1: 1,96 × 0,5/42 ≈ 0,023; P2: 1,96 × 0,4/28 = 0,028; P3: 1,96 × 0,3/24 ≈ 0,0245; P4: 1,96 × 0,2/21 ≈ 0,0187; P5: 1,96 × 0,1/8 ≈ 0,0245. Só P4 fica abaixo de 0,02.\n**Resposta: D**",
+    "keyConcept": "substituição em fórmula",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q146",
@@ -5668,7 +6571,14 @@
    "number": 146,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Cada bondinho leva 90 s para a travessia inteira. No encontro, os dois juntos percorreram a travessia toda: se A andou 40 s, B andou 90 − 40 = 50 s. Então B partiu 10 s antes de A.\n**Resposta: B**",
+    "keyConcept": "movimento uniforme e encontro",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q147",
@@ -5711,7 +6621,14 @@
    "number": 147,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, entre 15 h e 16 h a profundidade caiu 2 unidades (2 m). Essa queda é 10% da profundidade das 15 h, então às 15 h o rio tinha 20 m. Às 16 h: 20 − 2 = 18 m.\n**Resposta: A**",
+    "keyConcept": "porcentagem e leitura de gráfico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q148",
@@ -5754,7 +6671,14 @@
    "number": 148,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "A estrutura da Figura 2 tem duas faces triangulares paralelas e congruentes (as frentes da cabana) ligadas por retângulos perpendiculares a elas. É um prisma reto de base triangular.\n**Resposta: E**",
+    "keyConcept": "reconhecimento de sólidos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q149",
@@ -5797,7 +6721,14 @@
    "number": 149,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Q é vizinho do quadrado \"1\", que tem 1 mina entre 8 vizinhos: 1/8 = 12,5%. P é vizinho do \"2\" (2 minas em poucos vizinhos), T do \"3\" (3/8) e S do \"4\", todas probabilidades maiores. R não é vizinho de nenhum número aberto, e lá a chance é aproximadamente a das minas restantes (cerca de 30) dividida pelos quadrados livres restantes (cerca de 220), algo perto de 13,5%, um pouco acima de 12,5%. A menor é a de Q.\n**Resposta: B**",
+    "keyConcept": "probabilidade por vizinhança",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q150",
@@ -5890,7 +6821,14 @@
    "number": 151,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "O total de créditos é 12 + 4 + 8 + 8 + 10 = 42. As notas já obtidas somam 8 × 4 + 6 × 8 + 5 × 8 + 7,5 × 10 = 195 pontos ponderados. Para \"Bom\", a média deve ser pelo menos 7: (12x + 195)/42 ≥ 7, então 12x ≥ 99 e x ≥ 8,25.\n**Resposta: D**",
+    "keyConcept": "média ponderada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q152",
@@ -6008,7 +6946,14 @@
    "number": 153,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os centros dos três tubos (raio 0,6 m) formam um triângulo equilátero de lado 1,2 m e altura 1,2 × √3/2 ≈ 0,6 × 1,7 = 1,02 m. A pilha tem altura 0,6 + 1,02 + 0,6 = 2,22 m sobre a carroceria, que está a 1,30 m do solo: 3,52 m no total. Com a margem de 0,50 m, o viaduto deve ter pelo menos 4,02 m.\n**Resposta: D**",
+    "keyConcept": "triângulo equilátero formado pelos centros",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q154",
@@ -6094,7 +7039,14 @@
    "number": 155,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela tabela, X tem 5 + 5 + 5 + 10 + 6 = 31 (média 6,2), Y tem 4 + 9 + 3 + 9 + 5 = 30 (média 6,0) e Z tem 5 + 5 + 8 + 5 + 6 = 29 (média 5,8). Só Z fica abaixo de 6.\n**Resposta: B**",
+    "keyConcept": "média aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q156",
@@ -6144,7 +7096,14 @@
    "number": 156,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "O raio é a distância CB entre as pontas do compasso. O triângulo ABC tem AB = AC = 10 cm e ângulo de 120° em A: CB² = 10² + 10² − 2 · 10 · 10 · cos 120° = 300, então CB = 10√3 ≈ 17 cm. Pelo quadro, 15 < R ≤ 21: material IV.\n**Resposta: D**",
+    "keyConcept": "lei dos cossenos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q157",
@@ -6187,7 +7146,14 @@
    "number": 157,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "As diferenças para 4 mm são 0,025; 0,100; 0,030; 0,080 e 0,901 mm. A menor é a da pérola de 4,025 mm.\n**Resposta: C**",
+    "keyConcept": "comparação de decimais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q159",
@@ -6244,7 +7210,14 @@
    "number": 159,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Mais devagar é o menor número de voltas da roda por pedalada, ou seja, a menor razão coroa/catraca. Pelo quadro: I = 46/24 ≈ 1,92; II = 46/14 ≈ 3,29; III = 36/18 = 2; IV = 26/24 ≈ 1,08; V = 26/14 ≈ 1,86. A menor é a combinação IV.\n**Resposta: D**",
+    "keyConcept": "razão entre números de dentes",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q160",
@@ -6330,7 +7303,14 @@
    "number": 161,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "A tela forma o perímetro da base: 2X + 2Y = 100, ou X + Y = 50. A área XY = X(50 − X) é uma função quadrática com máximo no vértice, X = 25. Então Y = 25: a base é um quadrado.\n**Resposta: D**",
+    "keyConcept": "área máxima com perímetro fixo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q162",
@@ -6365,7 +7345,14 @@
    "number": 162,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Isolando v: v = K/(p + a) − b. É uma função do tipo y = K/(x + a) − b, cujo gráfico é uma hipérbole deslocada. Como p ≥ 0 (peso), aparece apenas um ramo de hipérbole.\n**Resposta: E**",
+    "keyConcept": "tipos de curvas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q164",
@@ -6400,7 +7387,14 @@
    "number": 164,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com a mesma velocidade, a distância é proporcional ao tempo. X usa 25% do tempo de Y, então percorre 25% da distância: a razão é 1/4.\n**Resposta: B**",
+    "keyConcept": "grandezas diretamente proporcionais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q165",
@@ -6450,7 +7444,14 @@
    "number": 165,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "No Gráfico 1, a razão B/A é 30/70 = 3/7. No Gráfico 2, o eixo começa em 20, então as colunas medem 30 − 20 = 10 e 70 − 20 = 50, com razão 1/5. A diferença é 3/7 − 1/5 = 15/35 − 7/35 = 8/35.\n**Resposta: E**",
+    "keyConcept": "razão entre alturas de colunas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q170",
@@ -6493,7 +7494,14 @@
    "number": 170,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "A máxima é dada pelo nível inferior do filete preto na coluna da direita, onde os números crescem de baixo para cima. Na figura, esse nível fica um pouco abaixo da marca de 20 °C, perto de 19 °C.\n**Resposta: E**",
+    "keyConcept": "leitura de escala",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q172",
@@ -6536,7 +7544,14 @@
    "number": 172,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "O reservatório A usa o eixo da esquerda (até 180.000 L) e o B usa o da direita (até 90.000 L), metade da escala. Por isso, onde as curvas se sobrepõem, A tem o dobro de B. As quantidades só são iguais quando A, no ponto mais baixo (cerca de 30.000 L, perto das 9 h), tem o mesmo volume de B, parado em 30.000 L. Isso acontece em um único momento.\n**Resposta: A**",
+    "keyConcept": "gráfico com dois eixos de escalas diferentes",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q173",
@@ -6571,7 +7586,14 @@
    "number": 173,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "O tanque começou com 100 kg e consumiu 4/10, ou seja, 40 kg, restando 60 kg. O reabastecimento foi 1/3 disso: 20 kg. Com densidade 0,75 kg/L, o volume é 20/0,75 litros.\n**Resposta: B**",
+    "keyConcept": "porcentagem e densidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2017-REG-D2-C7-Q176",
@@ -6606,7 +7628,14 @@
    "number": 176,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Na primeira fase, a economia é de 200 m² × 1 (elétrica) + 200 m² × 0,7 (térmica) = 340 kWh/dia. O dobro é 680. A área elétrica aumenta 75%, para 350 m² (350 kWh), e faltam 330 kWh de energia térmica: 330/0,7 ≈ 471,4 m², mais perto de 472.\n**Resposta: C**",
+    "keyConcept": "equação com porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q137",
@@ -6656,7 +7685,14 @@
    "number": 137,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Antecipar uma parcela n meses a reduz para P = 820/(1,0132)ⁿ. O desconto passa de 25% quando 1/(1,0132)ⁿ < 3/4, ou seja, (1,0132)ⁿ > 4/3. Com logaritmos: n > ln(4/3)/ln(1,0132) = 0,2877/0,0131 ≈ 21,96, então n ≥ 22. Junto com a 30ª, a primeira que pode ser antecipada é a 30 + 22 = 52ª.\n**Resposta: C**",
+    "keyConcept": "juros compostos e logaritmo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q138",
@@ -6699,7 +7735,14 @@
    "number": 138,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "A circunferência (x − 2)² + (y − 2)² = 8 tem centro (2, 2) e raio √8, e passa pela origem, por A(0, 4), B(4, 4) e C(4, 0): 3 pontos × 2 = 6 pontos. A reta x = 0 atinge A e E (2 pontos), e x² + (y − 2)² = 4 atinge só A e D (4 pontos). x² + y² = 16 não passa pela origem e y = 0 não passa por A.\n**Resposta: E**",
+    "keyConcept": "equação da circunferência",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q139",
@@ -6809,7 +7852,14 @@
    "number": 141,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os postes ficam em 80, 100, …, 1.380 m, de 20 em 20: são (1.380 − 80)/20 + 1 = 66 postes. O gasto máximo é 66 × 8.000 = R$ 528.000,00.\n**Resposta: C**",
+    "keyConcept": "progressão aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q142",
@@ -6891,7 +7941,14 @@
    "number": 142,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, A e B têm o mesmo raio, mas B tem mais massa, então F_B > F_A. A e C têm a mesma massa, mas C está mais longe, então F_C < F_A. Logo F_C < F_A < F_B.\n**Resposta: E**",
+    "keyConcept": "proporcionalidade direta e inversa",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q143",
@@ -6926,7 +7983,14 @@
    "number": 143,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os 40 g de prata 950 têm 38 g de prata pura e 2 g de cobre. Os 10 g de prata 925 já trazem 9,25 g de prata e 0,75 g de cobre. Faltam 38 − 9,25 = 28,75 g de prata e 2 − 0,75 = 1,25 g de cobre.\n**Resposta: B**",
+    "keyConcept": "mistura e proporção",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q145",
@@ -6969,7 +8033,14 @@
    "number": 145,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, o total de acidentes é 0·50 + 1·17 + 2·15 + 3·10 + 4·6 + 5·2 = 111. A média nos 100 funcionários é 111/100 = 1,11.\n**Resposta: D**",
+    "keyConcept": "média ponderada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q146",
@@ -7037,7 +8108,14 @@
    "number": 146,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Alpha: 6,0 × 1,5 = 9 km; Beta: 5,0 × 1,5 = 7,5 km; Gama: 6,5 × 1 = 6,5 km. Então d_Gama < d_Beta < d_Alpha.\n**Resposta: A**",
+    "keyConcept": "distância = velocidade × tempo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q148",
@@ -7097,7 +8175,14 @@
    "number": 148,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Gastando X reais na rádio, são X/120 anúncios de 1.500 ouvintes: 12,5X = 50X/4 pessoas. Gastando Y em panfletos, são Y/180 milheiros: 1.000Y/180 = 50Y/9 pessoas. Total: 50X/4 + 50Y/9.\n**Resposta: A**",
+    "keyConcept": "proporcionalidade e função de duas variáveis",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q149",
@@ -7147,7 +8232,14 @@
    "number": 149,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "A rampa desce 2 m em 8 m: 25%, acima do permitido. Com 20% em 8 m, o desnível máximo é 0,20 × 8 = 1,6 m. O nível da garagem deve ser elevado em 2 − 1,6 = 0,4 m = 40 cm.\n**Resposta: A**",
+    "keyConcept": "inclinação em porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q150",
@@ -7182,7 +8274,14 @@
    "number": 150,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Opção 1: 2/6 × 1/5 = 1/15. Opção 2: 3/10 × 2/9 = 1/15. Opção 3 (C → A): metade das vezes A fica com 3 pretas em 7 (3/7 × 2/6 = 1/7) e metade com 2 pretas em 7 (1/21), média ≈ 0,095. Opção 4 (D → C): ½ × (3/5 × 2/4) + ½ × (2/5 × 1/4) = 0,15 + 0,05 = 0,20. Opção 5 (C → D): ½ × (4/7 × 3/6) + ½ × (3/7 × 2/6) = 1/7 + 1/14 ≈ 0,214. A maior é a opção 5.\n**Resposta: E**",
+    "keyConcept": "probabilidade condicional e sem reposição",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q151",
@@ -7239,7 +8338,14 @@
    "number": 151,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "O furo tem raio proporcional ao lado x, então a área pintada é proporcional a x². Reduzir a área a 1/16 exige reduzir as dimensões lineares a 1/4. O tamanho da fonte passa de 192 para 192/4 = 48.\n**Resposta: B**",
+    "keyConcept": "área cresce com o quadrado da escala",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q155",
@@ -7289,7 +8395,14 @@
    "number": 155,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os dois remos têm o mesmo tamanho, então AB = AC e o triângulo é isósceles. O ângulo em A mede 170°, mais que 90°, então ele é obtusângulo.\n**Resposta: E**",
+    "keyConcept": "classificação de triângulos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q157",
@@ -7332,7 +8445,14 @@
    "number": 157,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "7,6 cm × 58.000.000 = 440.800.000 cm. Dividindo por 100.000 (1 km = 100.000 cm), são 4.408 km.\n**Resposta: A**",
+    "keyConcept": "escala",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q158",
@@ -7367,7 +8487,14 @@
    "number": 158,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Seja p a produtividade da área menos produtiva. A produção é 120p + 40 × 2,5p = 220p. Aumentar 15% significa produzir 0,15 × 220p = 33p a mais, o que, com produtividade p, exige 33 hectares.\n**Resposta: B**",
+    "keyConcept": "produtividade e porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q159",
@@ -7470,7 +8597,14 @@
    "number": 162,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com 128 tenistas, as fases têm 64, 32, 16, 8, 4, 2 e 1 partidas (cada partida elimina um e só sobra o campeão). Total: 64 + 32 + 16 + 8 + 4 + 2 + 1 = 127 partidas.\n**Resposta: E**",
+    "keyConcept": "soma de progressão geométrica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q164",
@@ -7505,7 +8639,14 @@
    "number": 164,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O saldo dos movimentos é +7 − 10 − 13 + 9 − 4 = −11. Como terminou no 5º andar, a criança entrou no 16º. O ponto mais alto do trajeto é logo após subir 7: 16 + 7 = 23º andar, que é o último do edifício (o elevador parou lá uma vez).\n**Resposta: C**",
+    "keyConcept": "operações com inteiros",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q168",
@@ -7548,7 +8689,14 @@
    "number": 168,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, a cobertura foi de 67% em 2013 e 59% em 2015. Com variação linear, 2014 fica no meio: (67 + 59)/2 = 63%.\n**Resposta: B**",
+    "keyConcept": "interpolação linear",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q169",
@@ -7583,7 +8731,14 @@
    "number": 169,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O guindaste tem 1.500 cm. Para ficar entre 0,5 e 1 cm: 0,5 ≤ 1.500/X ≤ 1, ou seja, 1.500 ≤ X ≤ 3.000. A esteira (9.000 cm) deve ter mais de 4 cm: 9.000/X > 4, ou X < 2.250. Juntando as duas condições, 1.500 < X < 2.250.\n**Resposta: C**",
+    "keyConcept": "escala e inequações",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q171",
@@ -7626,7 +8781,14 @@
    "number": 171,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Medindo os ângulos no sentido anti-horário a partir do Leste, Oeste = 180°. Depois de +135° fica em 315°; −60° leva a 255°; +45° leva a 300°. O Noroeste está em 135°. De 300° até 135°, são 165° no sentido horário ou 195° no anti-horário, e a menor amplitude é 165° no sentido horário.\n**Resposta: E**",
+    "keyConcept": "ângulos e rotações",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q173",
@@ -7758,7 +8920,14 @@
    "number": 176,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro 1, o atleta 10 tem 687,5 pontos e o líder 829,0, então ele precisa de mais de 141,5 no último salto. Pelo quadro 2: T1 = 2,2 × 57 = 125,4; T2 = 2,4 × 58 = 139,2; T3 = 2,6 × 55 = 143; T4 = 2,8 × 50 = 140; T5 = 3,0 × 53 = 159. Só T3 e T5 alcançam o primeiro lugar, e T3 tem a maior probabilidade (91,88% contra 87,34%).\n**Resposta: C**",
+    "keyConcept": "produto e probabilidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q177",
@@ -7801,7 +8970,14 @@
    "number": 177,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela tabela, a população dos grupos soma 4,5 + 2,0 + 2,5 + 0,5 + 20,5 = 30 milhões, e os vacinados somam 0,9 + 1,0 + 1,5 + 0,4 + 8,2 = 12 milhões. A porcentagem é 12/30 = 40%.\n**Resposta: D**",
+    "keyConcept": "porcentagem do total",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2018-REG-D2-C7-Q179",
@@ -7958,7 +9134,14 @@
    "number": 180,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "O comprimento da circunferência da base é 2π × 6/π = 12 cm. Pela figura, a faixa dá 6 voltas, então seu comprimento é 6 × 12 = 72 cm. A diagonal faz 30° com a borda inferior, logo a altura é 72 × tg 30° = 72 × √3/3 = 24√3 cm.\n**Resposta: B**",
+    "keyConcept": "planificação do cilindro e tangente",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q136",
@@ -8068,7 +9251,14 @@
    "number": 138,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "O transporte custa 1/5 = 20% do valor do objeto. Para que transporte e recompensa não passem de 100% do valor, a recompensa máxima é 100% − 20% = 80%.\n**Resposta: E**",
+    "keyConcept": "porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q142",
@@ -8103,7 +9293,14 @@
    "number": 142,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "O círculo atual tem raio 3 m. Aumentando o diâmetro em 8 m, ele fica com 14 m e raio 7 m. A área nova a pavimentar é 3 × 7² − 3 × 3² = 147 − 27 = 120 m², mais que os 100 m² do estoque.\n**Resposta: E**",
+    "keyConcept": "área da coroa circular",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q143",
@@ -8146,7 +9343,14 @@
    "number": 143,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico: I = 20/10 = 2; II = 100/15 ≈ 6,7; III = 120/20 = 6; IV = 100/25 = 4; V = 80/30 ≈ 2,7 kcal/min. O maior consumo por minuto é o da atividade II.\n**Resposta: B**",
+    "keyConcept": "taxa (razão por minuto)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q144",
@@ -8189,7 +9393,14 @@
    "number": 144,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Cada coluna é um dia, então soma-se cada coluna: segunda 3 + 3 + 2 + 3 + 0 = 11; terça 2 + 2 + 2 + 2 + 2 = 10; quarta 0 + 4 + 2 + 4 + 0 = 10; quinta 1 + 1 + 3 + 1 + 4 = 10; sexta 2 + 2 + 2 + 0 + 4 = 10. O maior total é o de segunda-feira.\n**Resposta: A**",
+    "keyConcept": "soma das colunas de uma matriz",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q145",
@@ -8232,7 +9443,14 @@
    "number": 145,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "A cada pedalada, a corrente anda o mesmo comprimento, e o número de voltas da roda é inversamente proporcional ao diâmetro da catraca. Para avançar 50% a mais (×1,5), o diâmetro deve ser 7/1,5 ≈ 4,7 cm.\n**Resposta: C**",
+    "keyConcept": "grandezas inversamente proporcionais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q146",
@@ -8310,7 +9528,14 @@
    "number": 147,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela figura, a placa é um retângulo de largura 40 cm com um semicírculo de raio 20 cm em cima. O retângulo tem altura 60 − 20 = 40 cm e área 1.600 cm², e o semicírculo tem 3,14 × 20²/2 = 628 cm². Cada placa tem 2.228 cm², e as dez somam 22.280 cm².\n**Resposta: B**",
+    "keyConcept": "área de semicírculo e retângulo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q148",
@@ -8345,7 +9570,14 @@
    "number": 148,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "80% de 0,3 m³ é 0,24 m³ = 240 L. Com 2,7 L por embalagem: 240/2,7 ≈ 88,9, então são necessárias no mínimo 89 embalagens.\n**Resposta: C**",
+    "keyConcept": "volume e conversão de unidades",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q149",
@@ -8388,7 +9620,14 @@
    "number": 149,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, de 2014 (900) para 2015 (850) a redução foi de 50 acidentes. Mantendo essa redução por mais 3 anos, 2018 terá 850 − 3 × 50 = 700 acidentes.\n**Resposta: D**",
+    "keyConcept": "progressão aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q150",
@@ -8423,7 +9662,14 @@
    "number": 150,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Trazendo cada pagamento para a data da compra: 202/1,01 = 200 e 204,02/1,01² = 204,02/1,0201 = 200. O valor à vista é R$ 400,00.\n**Resposta: B**",
+    "keyConcept": "valor presente com juros compostos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q151",
@@ -8458,7 +9704,14 @@
    "number": 151,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Cada sócio inicial investiu 1.000.000/3 ≈ 333.333 + 200.000 = 533.333 reais, e o quarto investiu 200.000. Do total de 1.800.000, isso dá 533.333/1.800.000 ≈ 29,60% para cada sócio inicial e 200.000/1.800.000 ≈ 11,11% para o quarto.\n**Resposta: A**",
+    "keyConcept": "divisão proporcional",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q152",
@@ -8493,7 +9746,14 @@
    "number": 152,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os valores são proporcionais a 1/2, 1/3 e 1/5, ou seja, a 15, 10 e 6 (multiplicando por 30). Como 15 + 10 + 6 = 31 partes, cada parte vale 31.000/31 = 1.000. A máquina de 5 anos recebe 6 × 1.000 = R$ 6.000,00.\n**Resposta: B**",
+    "keyConcept": "divisão inversamente proporcional",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q153",
@@ -8528,7 +9788,14 @@
    "number": 153,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Em 2010: 1.250 × 1,072 = 1.340. Em 2020: 1.340 × 1,10 = 1.474 reais.\n**Resposta: E**",
+    "keyConcept": "aumentos percentuais sucessivos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q154",
@@ -8571,7 +9838,14 @@
    "number": 154,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "A·f = 2.000 × 0,2 = 400 e log 400 = log 4 + log 100 = 2 × 0,3 + 2 = 2,6. Então Ms = 3,30 + 2,6 = 5,9, que no quadro está na faixa \"Moderado\" (5,0 a 5,9).\n**Resposta: C**",
+    "keyConcept": "logaritmos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q155",
@@ -8606,7 +9880,14 @@
    "number": 155,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "O bloco que se repete é 5, 4, 3, 2, 1, 2, 3, 4, com 8 termos. Como 2.015 = 8 × 251 + 7, o 2.015º termo é o 7º do bloco, que é 3, a caixa de direção.\n**Resposta: E**",
+    "keyConcept": "sequência periódica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q156",
@@ -8641,7 +9922,14 @@
    "number": 156,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O número de maneiras de dividir 8 pessoas em 4 duplas é 7 × 5 × 3 × 1 = 105. Nas divisões em que os dois canhotos formam dupla, os outros 6 se dividem de 5 × 3 × 1 = 15 maneiras. Então são 105 − 15 = 90.\n**Resposta: C**",
+    "keyConcept": "análise combinatória",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q157",
@@ -8684,7 +9972,14 @@
    "number": 157,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Cada um dos 4 vértices do tetraedro é cortado e vira um triângulo equilátero. Cada uma das 4 faces triangulares perde seus cantos e, como em cada corte sai um terço da aresta, ela vira um hexágono com os 6 lados iguais, regular. Ficam 4 hexágonos regulares e 4 triângulos equiláteros.\n**Resposta: A**",
+    "keyConcept": "poliedros (tetraedro truncado)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q158",
@@ -8719,7 +10014,14 @@
    "number": 158,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Na escala 1:200, os volumes ficam multiplicados por 200³ = 8.000.000. O reservatório real tem 45 × 8.000.000 = 360.000.000 cm³ = 360.000 L, o que dá para 360.000/30.000 = 12 dias.\n**Resposta: C**",
+    "keyConcept": "escala e volume",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q159",
@@ -8754,7 +10056,14 @@
    "number": 159,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com n placas, a chance de não perceber nenhuma é (1/2)ⁿ. Ela precisa ser menor que 1/100, então 2ⁿ > 100 e n ≥ 7. Como já existe uma placa, são necessárias 6 novas.\n**Resposta: D**",
+    "keyConcept": "probabilidade do evento complementar",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q160",
@@ -8789,7 +10098,14 @@
    "number": 160,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Trocar um jogador por outro 0,20 m mais baixo reduz a soma das alturas em 0,20 m, e a média cai 0,20/20 = 0,01 m. A nova média é 1,80 − 0,01 = 1,79 m.\n**Resposta: C**",
+    "keyConcept": "média aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q161",
@@ -8832,7 +10148,14 @@
    "number": 161,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, o total de garrafas fora da especificação é 0 × 52 + 1 × 5 + 2 × 2 + 3 × 1 = 12, em 60 dias. A média é 12/60 = 0,2 por dia.\n**Resposta: B**",
+    "keyConcept": "média ponderada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q162",
@@ -8875,7 +10198,14 @@
    "number": 162,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, 1 jarda = 3 pés = 0,9144 m, então 1 pé = 0,3048 m = 30,48 cm. Com 1 polegada = 2,54 cm, um pé vale 30,48/2,54 = 12 polegadas.\n**Resposta: D**",
+    "keyConcept": "conversão de unidades",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q164",
@@ -8918,7 +10248,14 @@
    "number": 164,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela figura, a laje se divide em três retângulos: 8 m × 8 m (altura 5 + 2 + 1), 3 m × 7 m (altura 5 + 2) e 3 m × 5 m. A área é 64 + 21 + 15 = 100 m², e o volume é 100 × 0,05 = 5 m³, o que cabe em um caminhão de 5 m³.\n**Resposta: C**",
+    "keyConcept": "área de polígono e volume",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q165",
@@ -8978,7 +10315,14 @@
    "number": 165,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "O volume de sangue é 0,08m litros, então a concentração é q/(0,08m). Ela é prejudicial quando passa de 0,4 g/L: q/(0,08m) > 0,4.\n**Resposta: E**",
+    "keyConcept": "razão e inequação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q167",
@@ -9021,7 +10365,14 @@
    "number": 167,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela tabela, a mediana das alturas é 1,67 m. Como o basquete tem um aluno a mais, a turma tem um número ímpar de alunos, e o aluno da mediana (F, com 1,67 m, já que as alturas são todas diferentes) fica no grupo dos mais altos, o basquete. M (1,68 m) também joga basquete, e P e J, abaixo da mediana, jogam futebol.\n**Resposta: C**",
+    "keyConcept": "mediana",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q168",
@@ -9056,7 +10407,14 @@
    "number": 168,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Há X − 1 diaristas, e cada um recebe 2 × 80 = 160 por semana. Então Y = 1.000 + 160(X − 1) = 160X + 840.\n**Resposta: D**",
+    "keyConcept": "função afim",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q169",
@@ -9099,7 +10457,14 @@
    "number": 169,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, Q = (3, 7), R = (6, 7), S = (5, 3) e o bar I = (5, 6). Do bar I: até Q, √(4 + 1) ≈ 2,2 ≤ 3; até R, √(1 + 1) ≈ 1,4 ≤ 2; até S, 3 ≤ 3 (e 3 ≤ 5). Assim, os três estão ao alcance mútuo. Nos bares II (4, 5), III (5, 5) e IV (4, 6), R fica a mais de 2 km, e no V (3, 4), R também está longe demais.\n**Resposta: A**",
+    "keyConcept": "distância entre pontos no plano",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q170",
@@ -9134,7 +10499,14 @@
    "number": 170,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "A dose diária é 500 mg × 20 = 10 g, e em 5 dias são 50 g. Como 1 g ocupa 1 cm³ = 1 mL, a criança precisa de exatamente 50 mL.\n**Resposta: B**",
+    "keyConcept": "proporção e conversão de unidades",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q171",
@@ -9177,7 +10549,14 @@
    "number": 171,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Escolhem-se as posições das cores em sequência: 4 vermelhas entre 12 posições, C(12,4); 3 azuis entre as 8 restantes, C(8,3); 3 verdes entre as 5 restantes, C(5,3); 2 amarelas nas 2 últimas, C(2,2). O total é o produto C(12,4) × C(8,3) × C(5,3) × C(2,2).\n**Resposta: E**",
+    "keyConcept": "combinações",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q172",
@@ -9220,7 +10599,14 @@
    "number": 172,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, as vendas foram 700, 2.500, 2.500, 2.800 e 2.700 de julho a novembro, com média 11.200/5 = 2.240, o valor de dezembro. A queda de novembro para dezembro é de 460 por mês: janeiro 1.780, fevereiro 1.320, março 860, abril 400, que é menos que os 700 de julho.\n**Resposta: D**",
+    "keyConcept": "média e progressão aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q173",
@@ -9255,7 +10641,14 @@
    "number": 173,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "P(fraudulenta) = 0,20 × 0,25 + 0,80 × 0,0625 = 0,05 + 0,05 = 0,10. Então P(inconsistente | fraudulenta) = 0,05/0,10 = 0,5.\n**Resposta: E**",
+    "keyConcept": "probabilidade condicional",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q174",
@@ -9298,7 +10691,14 @@
    "number": 174,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelos gráficos (urbana/total): I 8.000/12.000 ≈ 0,667; II 10.000/18.000 ≈ 0,556; III 11.000/16.000 ≈ 0,688; IV 18.000/28.000 ≈ 0,643; V 17.000/29.000 ≈ 0,586. A maior taxa é a do município III.\n**Resposta: C**",
+    "keyConcept": "razão (taxa)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q176",
@@ -9333,7 +10733,14 @@
    "number": 176,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "O orçamento inicial é 10.000 + 40.000 + 2.500 × 40 = 150.000, e o novo deve ser 90% disso: 135.000. Com projeto de 5.000 e área de 3.125 × 40 = 125.000, sobram 135.000 − 130.000 = 5.000 para os custos fixos, um desconto de 35.000/40.000 = 87,5%.\n**Resposta: D**",
+    "keyConcept": "porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q177",
@@ -9376,7 +10783,14 @@
    "number": 177,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela figura, h(t) = 4 + 4 sen(βt/2 − π/2) = 4 − 4 cos(βt/2). h = 6 dá cos(βt/2) = −1/2, ou βt/2 = 2π/3, 4π/3, 8π/3, … A terceira vez é em t = 16π/(3β) = 16/β (com π = 3). Para ser antes de 4 s, β > 4, então o menor inteiro é 5.\n**Resposta: D**",
+    "keyConcept": "função trigonométrica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2019-REG-D2-C7-Q179",
@@ -9462,7 +10876,14 @@
    "number": 180,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Multiplicando o gasto diário pela taxa de câmbio do quadro: França 315 × 3,14 ≈ 989; EUA 390 × 2,78 ≈ 1.084; Austrália 400 × 2,14 = 856; Canadá 410 × 2,10 = 861; Reino Unido 290 × 4,24 ≈ 1.230 reais. O menor custo é o da Austrália.\n**Resposta: A**",
+    "keyConcept": "conversão de moedas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q136",
@@ -9505,7 +10926,14 @@
    "number": 136,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "A bandeira tem proporção 14M × 20M. Se a largura fosse 150 cm, o comprimento seria 20 × 150/14 ≈ 214 cm, maior que os 180 cm disponíveis. O comprimento é que limita: 20M = 180, então M = 9 cm (e a largura, 126 cm, cabe). O raio do círculo é 3,5 × 9 = 31,5 cm e o diâmetro, 63 cm, que é o lado do menor quadrado azul.\n**Resposta: D**",
+    "keyConcept": "proporção e razão",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q137",
@@ -9608,7 +11036,14 @@
    "number": 138,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "O volume real é 28.080 L = 28,08 m³, e o da maquete é 2 × 3,51 × 4 = 28,08 cm³. A razão entre os volumes é 1 m³/1 cm³ = 10⁶, que é o cubo da escala linear, então a escala é 1 : 100.\n**Resposta: B**",
+    "keyConcept": "escala e volume",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q140",
@@ -9678,7 +11113,14 @@
    "number": 141,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "De 100 a 399, o 2 aparece na unidade 30 vezes (uma por dezena) e na dezena 30 vezes (10 por centena). Nas centenas, aparece em todos os números de 200 a 299, que são 100. O total é 30 + 30 + 100 = 160 peças.\n**Resposta: A**",
+    "keyConcept": "contagem de algarismos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q146",
@@ -9721,7 +11163,14 @@
    "number": 146,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "A regra |2h + b − 63,5| ≤ 1,5 com h = 16 vira 62 ≤ 32 + b ≤ 65, ou seja, 30 ≤ b ≤ 33. Isso também satisfaz 16 ≤ h ≤ 19.\n**Resposta: C**",
+    "keyConcept": "inequação modular",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q147",
@@ -9781,7 +11230,14 @@
    "number": 147,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O computador A informa X litros para cada 100 km. Então, com 1 litro, o carro percorre 100/X km, que é o valor que o computador do tipo B mostraria.\n**Resposta: C**",
+    "keyConcept": "grandezas inversamente proporcionais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q149",
@@ -9884,7 +11340,14 @@
    "number": 151,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O tronco de pirâmide de base quadrada tem duas bases quadradas (a maior e a menor) e quatro faces laterais. Como o tronco é reto, as faces laterais são trapézios isósceles.\n**Resposta: C**",
+    "keyConcept": "poliedros (tronco de pirâmide)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q153",
@@ -9927,7 +11390,14 @@
    "number": 153,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, o tempo de ônibus é 2/v e o de bicicleta é 3/w. A bicicleta é mais rápida quando w > 1,5v. Segunda 15 > 13,5, sim; terça 22 > 30, não; quarta 24 > 22,5, sim; quinta 15 > 18, não; sexta 18 > 15, sim; sábado 16 > 45, não. A ciclovia vale a pena às segundas, quartas e sextas.\n**Resposta: C**",
+    "keyConcept": "velocidade média e tempo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q155",
@@ -10045,7 +11515,14 @@
    "number": 156,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Como os estoques eram iguais, a arrecadação é proporcional ao preço × porcentagem vendida (gráficos): I 200 × 13 = 2.600; II 170 × 10 = 1.700; III 150 × 16 = 2.400; IV 100 × 29 = 2.900; V 80 × 32 = 2.560. A maior é a do perfume IV.\n**Resposta: D**",
+    "keyConcept": "leitura de gráficos e produto",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q158",
@@ -10088,7 +11565,14 @@
    "number": 158,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadriculado, de A até B são 4 passos para a direita e 3 para cima: C(7,3) = 35 caminhos. Os que passam por C: de A até C (2 para a direita e 2 para cima) são C(4,2) = 6, e de C até B (2 para a direita e 1 para cima) são C(3,1) = 3, ou seja, 18. Sem passar por C: 35 − 18 = 17.\n**Resposta: C**",
+    "keyConcept": "caminhos em malha (combinatória)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q159",
@@ -10131,7 +11615,14 @@
    "number": 159,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Custo = 15 × preço do saco + frete × distância (quadro): A 345 + 10 = 355; B 322,50 + 36 = 358,50; C 330 + 21 = 351; D 315 + 63 = 378; E 360 + 5 = 365. A opção mais barata é o depósito C.\n**Resposta: C**",
+    "keyConcept": "função afim e comparação de custos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q160",
@@ -10166,7 +11657,14 @@
    "number": 160,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O consumo é de 1 L a cada 20 km. Do posto ao destino, mais 200 km lá e a volta ao posto são 80 + 200 + 80 = 360 km, ou 18 L. Ao chegar ao posto (420 km), ele gastou 21 L do tanque de 22 L e tem 1 L. Ele precisa reabastecer, no mínimo, 17 L.\n**Resposta: C**",
+    "keyConcept": "proporção (consumo)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q163",
@@ -10226,7 +11724,14 @@
    "number": 163,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "\"IAMPOTTER\" tem 9 letras: 4 vogais (I, A, O, E) e 5 consoantes (M, P, T, T, R). Para intercalar, o padrão tem que ser C V C V C V C V C. As vogais se arrumam de 4! formas e as consoantes de 5!/2! (por causa dos dois T). O total é 4! × 5!/2.\n**Resposta: E**",
+    "keyConcept": "permutações com repetição",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q165",
@@ -10261,7 +11766,14 @@
    "number": 165,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "A soma atual é 15 × 1,93 = 28,95 e a meta é 15 × 1,99 = 29,85, ou seja, 0,90 a mais. Os quatro que saem somam 7,30, então os quatro que entram devem somar 8,20. Tirando os 2,02 do novo jogador, os outros três somam 6,18, com média 2,06 m.\n**Resposta: D**",
+    "keyConcept": "média aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q166",
@@ -10372,7 +11884,14 @@
    "number": 167,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, o total é 120 + 700 + 400 = 1.220. Com os aumentos, internet fica em 144 e mensalidade em 770, somando 914. A mesada passa a ser 1.220 − 914 = 306, uma redução de 94/400 = 23,5%.\n**Resposta: B**",
+    "keyConcept": "porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q169",
@@ -10407,7 +11926,14 @@
    "number": 169,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "180 pessoas têm algum antígeno (200 − 20). A interseção é 100 + 110 − 180 = 30 (tipo AB). Tipo A, só com o antígeno A: 100 − 30 = 70.\n**Resposta: C**",
+    "keyConcept": "conjuntos (união e interseção)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q172",
@@ -10450,7 +11976,14 @@
    "number": 172,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Cada uma das 20 mangueiras tem 100/20 = 5 m e é a geratriz do cone de altura 3 m. Então r² = 5² − 3² = 16, e r = 4 m.\n**Resposta: A**",
+    "keyConcept": "teorema de Pitágoras (cone)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q174",
@@ -10493,7 +12026,14 @@
    "number": 174,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo esboço (largura 30 m): MN 100 × 30 = 3.000 m² andando (× 4 = 12.000); NO 300 × 30 = 9.000 m² parados (× 6 = 54.000); OP 200 × 30 = 6.000 m² se movimentando (× 5 = 30.000); QR 30 × 100 = 3.000 m² andando (× 4 = 12.000). A soma é 108.000. Descontando 1.000 por cada um dos 4 carros de som da figura, ficam 104.000 pessoas.\n**Resposta: B**",
+    "keyConcept": "áreas e densidade",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2020-REG-D2-C7-Q175",
@@ -10732,7 +12272,14 @@
    "number": 179,
    "booklet": 7,
    "answer": "E",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Uma folha tem 75 × 0,062 = 4,65 g. As 20.000 folhas pesam 93.000 g = 93 kg.\n**Resposta: E**",
+    "keyConcept": "densidade superficial e conversão de unidades",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -10776,7 +12323,14 @@
    "number": 180,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com os pesos 3, 5 e 2 do quadro (todas as médias têm o mesmo divisor, 10, então basta comparar as somas): X 15 + 5 + 4 = 24; Y 3 + 20 + 4 = 27; Z 12 + 15 + 4 = 31; W 9 + 15 + 6 = 30; T 12 + 10 + 8 = 30. A maior média é a da empresa Z.\n**Resposta: C**",
+    "keyConcept": "média ponderada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q137",
@@ -10894,7 +12448,14 @@
    "number": 140,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo segundo quadro: (3,5 × 3 + 2,5 × 2 + 5 × 2 + 3 × 4 + 7,5 × 1)/12 = 45/12 = 3,75 milhões. Pelo primeiro quadro, 2 ≤ 3,75 < 4 corresponde à comissão II.\n**Resposta: B**",
+    "keyConcept": "média ponderada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q141",
@@ -10929,7 +12490,14 @@
    "number": 141,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "O total das n diárias é d·n. A taxa de serviço é a porcentagem s desse total, d·n·s, e a taxa de limpeza L é fixa. Então P = d·n + L + d·n·s.\n**Resposta: A**",
+    "keyConcept": "expressão algébrica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q142",
@@ -10964,7 +12532,14 @@
    "number": 142,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com n dardos, a chance de errar todos é (1/2)ⁿ. Para pontuar com probabilidade de pelo menos 9/10, é preciso (1/2)ⁿ ≤ 1/10, ou 2ⁿ ≥ 10, e o menor n é 4.\n**Resposta: B**",
+    "keyConcept": "probabilidade do evento complementar",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q146",
@@ -10999,7 +12574,14 @@
    "number": 146,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "A ração atual tem CV = 1/10 = 0,1. A nova tem CV = 1,5/x, que é menor que 0,1 quando x > 15 kg.\n**Resposta: E**",
+    "keyConcept": "coeficiente de variação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q147",
@@ -11092,7 +12674,14 @@
    "number": 148,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, em ordem, os 12 valores são 11, 11, 12, 13, 15, 15, 16, 16, 17, 18, 20, 24. A mediana é a média do 6º e do 7º termo: (15 + 16)/2 = 15,5.\n**Resposta: C**",
+    "keyConcept": "mediana",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q149",
@@ -11135,7 +12724,14 @@
    "number": 149,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, lucro = receita − despesa: janeiro 10 − 5 = 5; fevereiro 20 − 10 = 10; março 15 − 10 = 5; abril 20 − 15 = 5; maio 28 − 25 = 3. O maior lucro foi o de fevereiro.\n**Resposta: B**",
+    "keyConcept": "leitura de gráfico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q150",
@@ -11178,7 +12774,14 @@
    "number": 150,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, as vendas passaram de 236 (2005) para 519,2 (2009). Como 519,2/236 = 2,2, o aumento foi de 120%.\n**Resposta: C**",
+    "keyConcept": "variação percentual",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q151",
@@ -11221,7 +12824,14 @@
    "number": 151,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo histograma, as faixas têm 5, 10, 5, 15, 20, 15, 15, 10, 5 e 5 imóveis (somando 105). Metade é 52,5. Acumulando: até 700 são 35 e até 800 são 55. O menor p com pelo menos 50% abaixo é 800 mil.\n**Resposta: C**",
+    "keyConcept": "frequência acumulada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q153",
@@ -11264,7 +12874,14 @@
    "number": 153,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O comprimento real da ponte é 38,4 m = 3.840 cm e o da réplica é 160 cm: 3.840/160 = 24 (a largura confirma: 168/7 = 24). A escala é 1 : 24.\n**Resposta: C**",
+    "keyConcept": "escala",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q154",
@@ -11307,7 +12924,14 @@
    "number": 154,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, os médicos aumentaram 73.000 por década nas duas décadas, então em 2020 seriam 365.000 + 73.000 = 438.000. A população aumentou 23.000 e 21.000 mil, com média de 22.000 mil, e iria para 213.000 mil. São 438.000/213.000 ≈ 2,06 médicos por mil habitantes.\n**Resposta: D**",
+    "keyConcept": "média e razão",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q155",
@@ -11350,7 +12974,14 @@
    "number": 155,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro: frango 0,4 × 12,50 = 5,00; batata 0,6 × 5,00 = 3,00; hortaliça 2,00. Total: 10,00. Com a batata a 7,50/kg, ela passa a custar 4,50, e sobram 10 − 4,50 − 2 = 3,50 para o frango: 3,50/12,50 = 0,28 kg. A redução é de 0,12/0,4 = 30%.\n**Resposta: C**",
+    "keyConcept": "porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q156",
@@ -11421,7 +13052,14 @@
    "number": 156,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, a amplitude é 3 e o período é π, então ω = 2π/T = 2. Em t = 0, a massa está na posição mais baixa, P = −3, e só uma função do tipo −3cos(2t) tem esse valor inicial (−3 sen 0 = 0).\n**Resposta: A**",
+    "keyConcept": "função trigonométrica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q157",
@@ -11492,7 +13130,14 @@
    "number": 157,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "O fluxo de chegada à região j é a soma da coluna j da matriz: coluna 1 = 4; coluna 2 = 4 + 2 + 2 = 8; coluna 3 = 2 + 6 + 2 = 10; coluna 4 = 2 + 2 + 3 + 4 = 11; coluna 5 = 5 + 3 + 4 = 12. O maior destino é a região 5.\n**Resposta: E**",
+    "keyConcept": "matrizes (soma de colunas)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q158",
@@ -11527,7 +13172,14 @@
    "number": 158,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "O consumo é proporcional a passageiros × consumo por passageiro: o modelo B gasta 1,1 × 0,9 = 0,99 do que gasta o A, ou seja, 1% a menos.\n**Resposta: B**",
+    "keyConcept": "porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q159",
@@ -11562,7 +13214,14 @@
    "number": 159,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com 3 pessoas, um pneu leva 4 s. Com 2 pessoas, o tempo é 4 × 3/2 = 6 s. Os grupos trabalham ao mesmo tempo, então a troca leva o tempo do grupo mais lento, 6,0 s.\n**Resposta: A**",
+    "keyConcept": "grandezas inversamente proporcionais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q160",
@@ -11597,7 +13256,14 @@
    "number": 160,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "O número de sachês tem que cobrir o mineral mais \"difícil\" de cada suplemento: I 16 sachês (por A) = R$ 32; II 6 (por C) = R$ 18; III 4 (por A e C) = R$ 20; IV 2 (A, B e C) = R$ 12; V 2 (por A e B) = R$ 16. O mais barato é o IV.\n**Resposta: D**",
+    "keyConcept": "divisão e comparação de custos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q161",
@@ -11700,7 +13366,14 @@
    "number": 164,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro: 12c + 4p + 3s = 10 e 18c + 3p + 2s = 10. Multiplicando a 2ª por 2 e subtraindo a 1ª: 24c + 2p + s = 10. Com duas calças e um sapato, cabem exatamente 24 camisetas.\n**Resposta: B**",
+    "keyConcept": "sistema linear",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q165",
@@ -11770,7 +13443,14 @@
    "number": 166,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Dobrando comprimento e largura com a mesma altura, o perímetro dobra, e a área das paredes (perímetro × altura), também. O piso (comprimento × largura) fica 4 vezes maior. Isso é o que disse o fornecedor II.\n**Resposta: B**",
+    "keyConcept": "área e semelhança",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q167",
@@ -11813,7 +13493,14 @@
    "number": 167,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "A demanda é 100 × 120 × 7 = 84.000 L = 84 m³. A base tem área 3 × 2,5² = 18,75 m², então a altura mínima é 84/18,75 = 4,48 m.\n**Resposta: D**",
+    "keyConcept": "volume do cilindro",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q168",
@@ -11899,7 +13586,14 @@
    "number": 169,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela figura 2, h = 8 cm. Como h = l√3/2, o lado é l = 16/√3, e o perímetro é 3l = 48/√3 = 16√3 ≈ 16 × 1,7 = 27,2 cm. O valor mais próximo é 27,18.\n**Resposta: D**",
+    "keyConcept": "altura do triângulo equilátero",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q170",
@@ -11942,7 +13636,14 @@
    "number": 170,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "V = (πh/3)(R² + Rr + r²), com R = 5, r = 4 e h = 12: V = (3 × 12/3)(25 + 20 + 16) = 12 × 61 = 732 cm³ = 732 mL.\n**Resposta: C**",
+    "keyConcept": "volume do tronco de cone",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q171",
@@ -11977,7 +13678,14 @@
    "number": 171,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "O limite de R$ 0,80 permite até 80 cm². Áreas: triângulo 144 × 1,7/4 = 61,2; quadrado 64; retângulo 88 (passa do limite); hexágono 6 × 36 × 1,7/4 = 91,8 (passa); círculo 3 × 5² = 75. Dentro do limite, a maior é a do círculo.\n**Resposta: E**",
+    "keyConcept": "áreas de figuras planas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q172",
@@ -12020,7 +13728,14 @@
    "number": 172,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Fc máx = 220 − 61 = 159 bpm. A faixa ideal vai de 0,65 × 159 ≈ 103,4 a 0,85 × 159 ≈ 135,2 bpm. Pelo quadro, só estão nela \"forte no plano\" (120) e \"subida moderada\" (130).\n**Resposta: D**",
+    "keyConcept": "porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q173",
@@ -12055,7 +13770,14 @@
    "number": 173,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com o menor número de lavagens, todas são completas: 35n ≥ 300, ou n ≥ 8,57. O mínimo é 9 lavagens.\n**Resposta: C**",
+    "keyConcept": "inequação e números inteiros",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q174",
@@ -12098,7 +13820,14 @@
    "number": 174,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, X e Y na Farmácia 2 com 20% de desconto saem por 40 + 40 = 80. O Z mais barato é o da Farmácia 3, R$ 35 (sem o desconto, que só vale para os três). Total: 115. As alternativas: tudo na Farmácia 1 = 135; tudo na Farmácia 3 com desconto = 0,8 × 145 = 116; X e Y na 1 e Z na 3 = 120; X na 2 (sem desconto, 50) e Y e Z na 3 = 130. A mais barata é a C.\n**Resposta: C**",
+    "keyConcept": "porcentagem e comparação de custos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q176",
@@ -12133,7 +13862,14 @@
    "number": 176,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "MCDLXIX = M (1.000) + CD (400) + L (50) + X (10) + IX (9) = 1.469. Em 2050, a cidade fará 2.050 − 1.469 = 581 anos.\n**Resposta: D**",
+    "keyConcept": "sistema de numeração romano",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q177",
@@ -12176,7 +13912,14 @@
    "number": 177,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "9 + 12 = 21 = 16 + 4 + 1, que em binário é 10101. Somando direto, 1001 + 1100 = 10101.\n**Resposta: D**",
+    "keyConcept": "sistema binário",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q178",
@@ -12211,7 +13954,14 @@
    "number": 178,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Sobram 3 − 0,9 = 2,1 ha = 21.000 m² para terrenos, o que dá 21.000/300 = 70 terrenos. O valor é 20 × 20.000 + 50 × 30.000 = 400.000 + 1.500.000 = 1.900.000 reais.\n**Resposta: C**",
+    "keyConcept": "área e conversão de unidades",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q179",
@@ -12271,7 +14021,14 @@
    "number": 179,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "A ordem não importa: escolhem-se 2 tecidos de 6, C(6,2) = 6!/(4!2!), e 5 pedras de 15, C(15,5) = 15!/(10!5!). Como as escolhas são independentes, o total é o produto 6!/(4!2!) · 15!/(10!5!).\n**Resposta: A**",
+    "keyConcept": "combinações (princípio multiplicativo)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2021-REG-D2-C7-Q180",
@@ -12306,7 +14063,14 @@
    "number": 180,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Em 4 anos, o A custa 180 + 4 × 60 = 420 mil para 100 usuários, 4,2 mil por usuário. O B custa 120 + 4 × 16 = 184 mil para 80 usuários, 2,3 mil por usuário. A economia é de 4,2 − 2,3 = 1,9 mil reais por usuário.\n**Resposta: B**",
+    "keyConcept": "custo médio por usuário",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q136",
@@ -12349,7 +14113,14 @@
    "number": 136,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "V = T² − 4 se anula quando T = 2 ou T = −2. Pelo gráfico, a temperatura passa por 2 °C duas vezes (descendo, logo depois do máximo inicial, e subindo, perto do fim) e chega a −2 °C nos três vales. São 5 vezes.\n**Resposta: E**",
+    "keyConcept": "equação do 2º grau e leitura de gráfico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q137",
@@ -12460,7 +14231,14 @@
    "number": 138,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, os meses com lucro (receita > despesa) são: jan 3, mar 1, mai 5, jun 3, jul 2, set 4, nov 1, dez 4. Em ordem: 1, 1, 2, 3, 3, 4, 4, 5. A mediana é (3 + 3)/2 = 3,0.\n**Resposta: D**",
+    "keyConcept": "mediana",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q139",
@@ -12495,7 +14273,14 @@
    "number": 139,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Na escala 1:50, o espaço tem 3,8 × 50 = 190 cm de altura e 1,6 × 50 = 80 cm de largura. Tirando 10 cm em cima e 10 cm de cada lado, o refrigerador pode ter até 1,80 m de altura e 0,60 m de largura.\n**Resposta: A**",
+    "keyConcept": "escala",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q140",
@@ -12530,7 +14315,14 @@
    "number": 140,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Cada equipe joga 3 vezes na fase de grupos e precisa de 3 dias de descanso entre os jogos, então joga a cada 4 dias: dias 1, 5 e 9. As oitavas são no dia 13, as quartas no 17, as semifinais no 21 e a final no 25. São no mínimo 25 dias.\n**Resposta: B**",
+    "keyConcept": "contagem e sequência",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q141",
@@ -12640,7 +14432,14 @@
    "number": 142,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Para os opcionais, cada um entra ou não: 2³ = 8 escolhas. Modelos, motores e opcionais dão 7 × 2 × 8 = 112 configurações por cor. Para passar de 1.000, 112c > 1.000, c > 8,9, então são precisas 9 cores (1.008 configurações).\n**Resposta: B**",
+    "keyConcept": "princípio multiplicativo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q145",
@@ -12710,7 +14509,14 @@
    "number": 146,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "3M + 2m = 1.800 e 2M + m = 1.100 dão M = 400 m e m = 300 m. Para ter o máximo de voltas em 5.000 m, use o máximo de voltas pequenas: 400b + 300a = 5.000. Com b = 2, a = 14, num total de 16 voltas (b = 0 ou b = 1 não dão número inteiro).\n**Resposta: E**",
+    "keyConcept": "sistema linear e otimização com inteiros",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q147",
@@ -12745,7 +14551,14 @@
    "number": 147,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Na primeira divulgação, A teve 3.000 × 0,1 × 0,03 = 9 compradores e B teve 1.000 × 0,3 × 0,02 = 6, num total de 15. Com mais R$ 300 em cada, A recebe 3 vezes o investimento anterior (27 compradores) e B, 1,5 vez (9), num total de 36. O aumento é (36 − 15)/15 = 140%, na faixa \"bom\".\n**Resposta: C**",
+    "keyConcept": "proporcionalidade e porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q149",
@@ -12788,7 +14601,14 @@
    "number": 149,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, são 1.000 famílias, então a mediana é a média da 500ª e da 501ª. Acumulando: 100 com 0 crianças e até 500 com 1, então a 500ª tem 1 criança e a 501ª tem 2. A mediana é (1 + 2)/2 = 1,5.\n**Resposta: B**",
+    "keyConcept": "mediana em tabela de frequências",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q150",
@@ -12838,7 +14658,14 @@
    "number": 150,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Para y = −x²/6 − 7x/3 + 12, o vértice tem x = −b/(2a) = (7/3)/(−1/3) = −7 e y = −49/6 + 49/3 + 12 = 49/6 + 12 ≈ 20,17 m. Somando 1,5 m da altura do eixo, a bola chega a cerca de 21,67 m do piso. Ela bate nos tetos de 17, 18, 19 e 21 m, mas não no de 40 m.\n**Resposta: D**",
+    "keyConcept": "vértice da parábola",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q151",
@@ -12873,7 +14700,14 @@
    "number": 151,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Se a massa perdida é m, a água recomendada é 1,4m. Com 1,4m = 1,7, m ≈ 1,214 kg. Como a perda é de 1,5 kg por hora, o tempo é 1,214/1,5 ≈ 0,81 h ≈ 48,6 min, entre 45 e 55 minutos.\n**Resposta: C**",
+    "keyConcept": "porcentagem e proporção",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q152",
@@ -12959,7 +14793,14 @@
    "number": 153,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com a mesma altura, o volume é proporcional a r². Para 81% do volume, r² = 0,81 × 4² e r = 0,9 × 4 = 3,6 cm.\n**Resposta: C**",
+    "keyConcept": "volume do cone",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q154",
@@ -12994,7 +14835,14 @@
    "number": 154,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com uma queda de 75%, as 28.900 vagas de 2013 são 25% das de 2012: 28.900/0,25 = 115.600.\n**Resposta: C**",
+    "keyConcept": "porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q155",
@@ -13054,7 +14902,14 @@
    "number": 155,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os apartamentos com final 1 a 6 têm pelo menos um quarto com sol da manhã, então são 6 por andar. Escolhem-se 2 deles no mesmo andar: C(6,2) = 6!/((6 − 2)! × 2!) maneiras. Com 9 andares, o total é 9 × 6!/((6 − 2)! × 2!).\n**Resposta: B**",
+    "keyConcept": "combinações",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q156",
@@ -13254,7 +15109,14 @@
    "number": 161,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela planta, a varanda em L tem uma faixa superior de 16 cm × 5 cm e uma faixa lateral de 4 cm × (18,4 − 5) cm, num total de 80 + 53,6 = 133,6 cm² no desenho. Na escala 1:50, as áreas ficam multiplicadas por 2.500: 334.000 cm² = 33,40 m².\n**Resposta: A**",
+    "keyConcept": "área e escala",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q162",
@@ -13297,7 +15159,14 @@
    "number": 162,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, o setor adulto vendeu 18.000 e 15.000 nos dois primeiros períodos de dez dias, e o infantil, 8.000 e 7.000. Mantendo a tendência, no terceiro período seriam 12.000 e 6.000. O total do mês é 18 + 15 + 12 + 8 + 7 + 6 = 66 mil, e faltam 77.000 − 66.000 = 11.000 reais.\n**Resposta: C**",
+    "keyConcept": "progressão aritmética (variação linear)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q163",
@@ -13332,7 +15201,14 @@
    "number": 163,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "A folha total pode ser de até 100 × 12.240 = 1.224.000. Os mestres passam a custar 60 × 10.000 = 600.000, e sobram 624.000 para 40 doutores, ou 15.600 cada. Isso é um aumento de 3.600/12.000 = 30%.\n**Resposta: D**",
+    "keyConcept": "média ponderada e porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q164",
@@ -13367,7 +15243,14 @@
    "number": 164,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "60 dias têm 60 × 1.440 = 86.400 minutos, o que dá 86.400/48 = 1.800 acionamentos. Cada um libera 360/1.800 = 0,2 mL.\n**Resposta: B**",
+    "keyConcept": "conversão de unidades e divisão",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q165",
@@ -13402,7 +15285,14 @@
    "number": 165,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Um ano de Z dura meio ano terrestre: 365/2 = 182,5 dias terrestres. Em dias de Z, isso é 182,5/73 = 2,5.\n**Resposta: A**",
+    "keyConcept": "razão e conversão de unidades",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q167",
@@ -13437,7 +15327,14 @@
    "number": 167,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "O preço normal é 1.100, e com o cartão a loja cobra 1.100 × 0,98 = 1.078. A cliente calculou 1.000 × 1,08 = 1.080. O valor da loja é R$ 2,00 menor.\n**Resposta: A**",
+    "keyConcept": "descontos e acréscimos sucessivos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q168",
@@ -13515,7 +15412,14 @@
    "number": 169,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Em relação ao modelo I (V = Ab·P): II = (Ab/2)(2P) = 1; III = (Ab/4)(2P) = 0,5 (o raio pela metade divide a área por 4); IV = (2Ab)(P/2) = 1; V = (4Ab)(P/2) = 2. O de maior volume é o V.\n**Resposta: E**",
+    "keyConcept": "volume do cilindro",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q170",
@@ -13558,7 +15462,14 @@
    "number": 170,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelos gráficos, aluguel/valor do imóvel: 2005 630/90.000 = 0,70%; 2007 960/120.000 = 0,80%; 2009 1.350/270.000 = 0,50%; 2011 1.800/450.000 = 0,40%; 2013 3.240/540.000 = 0,60%. A maior foi em 2007.\n**Resposta: B**",
+    "keyConcept": "razão (rentabilidade)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q171",
@@ -13601,7 +15512,14 @@
    "number": 171,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Para chegar à média de 18 em 5 jogos, é preciso somar 90 pontos. Pelo quadro, os totais dos quatro jogos são: I 77, II 71, III 71, IV 75, V 75. Os pontos que faltam: I 13, II 19, III 19, IV 15, V 15. O que precisa de menos pontos é o jogador I.\n**Resposta: A**",
+    "keyConcept": "média aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q172",
@@ -13636,7 +15554,14 @@
    "number": 172,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "A área de revestimento é fundo + paredes = cl + 2p(c + l): I 50 + 3,6 × 27 = 147,2; II 45 + 4 × 14 = 101; III 90 + 2 × 21 = 132; IV 60 + 3 × 19 = 117; V 36 + 5 × 15 = 111 m². A menor é a do projeto II.\n**Resposta: B**",
+    "keyConcept": "área da superfície do paralelepípedo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q173",
@@ -13679,7 +15604,14 @@
    "number": 173,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Candidatos = vagas × candidatos por vaga (quadro): 180 + 240 + 350 + 240 + 100 + 125 = 1.235.\n**Resposta: D**",
+    "keyConcept": "produto e soma",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q174",
@@ -13714,7 +15646,14 @@
    "number": 174,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "O cilindro tem π × 4² × 50 = 800π cm³. Cada esfera de raio 0,5 cm tem (4/3)π(0,5)³ = π/6 cm³. O número de esferas é 800π ÷ (π/6) = 4.800.\n**Resposta: D**",
+    "keyConcept": "volume do cilindro e da esfera",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q175",
@@ -13749,7 +15688,14 @@
    "number": 175,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "1 bilhão = 1.000.000.000, então 1,35 bilhão = 1.350.000.000,00.\n**Resposta: E**",
+    "keyConcept": "notação numérica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q177",
@@ -13792,7 +15738,14 @@
    "number": 177,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, custo = preço por hora × horas + transporte: I 120 × 8 = 960 (sem transporte); II 180 × 6 = 1.080; III 170 × 6 + 20 = 1.040; IV 110 × 9 + 10 = 1.000 (ou mais, se for mais de um dia); V 110 × 10 = 1.100. O mais barato é o operário I.\n**Resposta: A**",
+    "keyConcept": "comparação de custos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q178",
@@ -13827,7 +15780,14 @@
    "number": 178,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Dobrando o diâmetro, o volume fica 2³ = 8 vezes maior. Os 150 docinhos grandes equivalem a 150 × 8 = 1.200 pequenos, ou 1.200/50 = 24 porções.\n**Resposta: E**",
+    "keyConcept": "volume da esfera e proporção",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q179",
@@ -13870,7 +15830,14 @@
    "number": 179,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, 2012 = 73,95 e 2013 = 74,23. Se 2013 é a média de 2012 e 2014, então 2014 = 2 × 74,23 − 73,95 = 74,51.\n**Resposta: B**",
+    "keyConcept": "média aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2022-REG-D2-C7-Q180",
@@ -13981,7 +15948,14 @@
    "number": 136,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "O cone grande (r = 9, h = 36) tem 3 × 81 × 36/3 = 2.916 cm³. O cone retirado tem raio 3, então por semelhança tem altura 12 e volume 3 × 9 × 12/3 = 108; o tronco fica com 2.808 cm³. O furo é um cilindro de raio 3 e altura 24: 3 × 9 × 24 = 648 cm³. Sobram 2.160 cm³, e a massa é 2.160 × 0,6 = 1.296 g.\n**Resposta: B**",
+    "keyConcept": "volume de cone, tronco e cilindro",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q137",
@@ -14024,7 +15998,14 @@
    "number": 137,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro: (75 × 2.000 + 25 × 7.000)/100 = (150.000 + 175.000)/100 = 3.250 reais.\n**Resposta: C**",
+    "keyConcept": "média ponderada",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q138",
@@ -14059,7 +16040,14 @@
    "number": 138,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Para 0,20 × P(B) ≤ 0,01, é preciso P(B) ≤ 0,05. Com 4 pretas, a urna B deve ter pelo menos 4/0,05 = 80 bolinhas. Hoje tem 4/0,25 = 16 (12 brancas), então é preciso adicionar no mínimo 64 brancas.\n**Resposta: C**",
+    "keyConcept": "probabilidade de eventos independentes",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q139",
@@ -14102,7 +16090,14 @@
    "number": 139,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela tabela, o produto I sobe 10 por mês (80, 90, 100) e o II cai 20 (190, 170, 150). Julho: 110 contra 130; agosto: 120 contra 110, e o I passa o II. A produção do II para no mês seguinte, setembro.\n**Resposta: D**",
+    "keyConcept": "progressão aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q140",
@@ -14145,7 +16140,14 @@
    "number": 140,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico: 1 viagem (10 motoristas), 2 (10), 3 (55), 4 (25), 6 (50), 7 (10), num total de 160. A moda é 3. A mediana, média do 80º e do 81º valores, é 4 (acumulado: 10, 20, 75, 100). A média é (10 + 20 + 165 + 100 + 300 + 70)/160 = 665/160 ≈ 4,16. Então moda < mediana < média.\n**Resposta: E**",
+    "keyConcept": "média, mediana e moda",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q143",
@@ -14180,7 +16182,14 @@
    "number": 143,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "A lista de espera deste ano tem 400 × 1,1 = 440 nomes, e a meta é 25% menor: 330. É preciso atender mais 110 crianças, o que dá 11 salas de 10 vagas.\n**Resposta: B**",
+    "keyConcept": "porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q144",
@@ -14230,7 +16239,14 @@
    "number": 144,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadro, o nível subiu 3,2 − 0,5 = 2,7 m em 9 horas, ou 0,3 m/h (os intervalos intermediários confirmam o mesmo ritmo). Com base de 3 m², a vazão é 3 × 0,3 = 0,9 m³/h.\n**Resposta: C**",
+    "keyConcept": "vazão e volume",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q147",
@@ -14265,7 +16281,14 @@
    "number": 147,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "O casal consome 2 × 30 = 60 g de carboidrato por dia, ou 1.800 g em 30 dias. Cada pacote tem 18 × 15 = 270 g, então 1.800/270 ≈ 6,67, e são necessários 7 pacotes.\n**Resposta: D**",
+    "keyConcept": "proporção e arredondamento",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q148",
@@ -14333,7 +16356,14 @@
    "number": 148,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "O cabo é a hipotenusa: c = h/sen a. Opção I: 11/0,5 = 22; opção II: 12/(√2/2) = 12√2 ≈ 16,97; opção III: 18/(√3/2) = 12√3 ≈ 20,8. O menor cabo é o de 12√2 m.\n**Resposta: C**",
+    "keyConcept": "trigonometria no triângulo retângulo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q149",
@@ -14376,7 +16406,14 @@
    "number": 149,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Na tela, a altitude máxima aparece com 1 quadradinho = 1 cm de altura. Como a altitude real é 5 km = 500.000 cm, a escala é 1 : 500.000.\n**Resposta: E**",
+    "keyConcept": "escala",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q150",
@@ -14411,7 +16448,14 @@
    "number": 150,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "A concentração é 90% da quantidade ingerida: C = 0,9q.\n**Resposta: A**",
+    "keyConcept": "expressão algébrica",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q151",
@@ -14454,7 +16498,14 @@
    "number": 151,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "O valor de A está no eixo horizontal e o de B no vertical, então A > B quando x > y. Pelo gráfico: 9h (3; 0,5) sim; 10h (2; 2) igual; 11h (4; 4) igual; 12h (5,5; 3) sim; 13h (6; 1,5) sim; 14h (3; 2) sim; 15h, 16h e 17h, não. São 4 instantes.\n**Resposta: B**",
+    "keyConcept": "leitura de gráfico cartesiano",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q153",
@@ -14489,7 +16540,14 @@
    "number": 153,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "O tempo de espera é o tempo de atendimento vezes o número de pessoas na fila: I 60, II 54, III 30, IV 30, V 27 minutos. A menor espera é no caixa V.\n**Resposta: E**",
+    "keyConcept": "produto e comparação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q154",
@@ -14532,7 +16590,14 @@
    "number": 154,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "O vértice do telhado está no centro da lua, então a parte escondida fica entre os dois lados do triângulo que saem desse vértice (ângulo de 60°) e o arco da lua. Essa região, limitada por dois raios e um arco, é um setor circular.\n**Resposta: B**",
+    "keyConcept": "figuras planas (setor circular)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q155",
@@ -14575,7 +16640,14 @@
    "number": 155,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "A piscina tem lado 20 m. Com a calçada de 5 m de cada lado, o quadrado externo tem lado 30 m. A calçada ocupa 900 − 400 = 500 m².\n**Resposta: D**",
+    "keyConcept": "área de quadrados",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q156",
@@ -14618,7 +16690,14 @@
    "number": 156,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, a intensidade do sinal é zero de 10 a 12 min e de 16 a 20 min, num total de 2 + 4 = 6 minutos sem sinal.\n**Resposta: A**",
+    "keyConcept": "leitura de gráfico",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q157",
@@ -14661,7 +16740,14 @@
    "number": 157,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo gráfico, com massa abaixo de 80 kg e altura acima de 1,65 m só estão dois estudantes (cerca de 65 kg com 1,68 m e 68 kg com 1,70 m). São 2 em 10, ou 20%.\n**Resposta: B**",
+    "keyConcept": "gráfico de dispersão e porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q158",
@@ -14696,7 +16782,14 @@
    "number": 158,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com n ajudantes, a pesca é 300 + 100(n − 1) kg. O lucro é 0,96 × 5 × pesca − 900 − 250n. Para n = 3: 500 kg dá 2.400 − 900 − 750 = 750 (menos que 800). Para n = 4: 600 kg dá 2.880 − 900 − 1.000 = 980. O mínimo é 4 ajudantes.\n**Resposta: D**",
+    "keyConcept": "função e inequação",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q159",
@@ -14731,7 +16824,14 @@
    "number": 159,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Os 5 L devem ser usados em 5 × 200.000 = 1.000.000 de larvas. Com 100 × 10^(t/3) = 10⁶, 10^(t/3) = 10⁴, então t = 12 dias.\n**Resposta: D**",
+    "keyConcept": "função exponencial",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q161",
@@ -14766,7 +16866,14 @@
    "number": 161,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "Cada parcela é 1,2 × 1.500/3 = 600. Com x = 1/(1 + i): 1.500 = 600 + 600x + 600x², ou x² + x − 1,5 = 0, e x = (−1 + √7)/2. Como √7 = √28/2 ≈ 2,645, x ≈ 0,8225 e 1 + i ≈ 1,216. A taxa é de cerca de 21,5% ao mês.\n**Resposta: D**",
+    "keyConcept": "juros compostos e equação do 2º grau",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q162",
@@ -14801,7 +16908,14 @@
    "number": 162,
    "booklet": 7,
    "answer": "D",
-   "explanation": null
+   "explanation": {
+    "markdown": "O preço tem uma parte fixa de 500 e uma parte variável de 250 por m³: y = 250x + 500.\n**Resposta: D**",
+    "keyConcept": "função afim",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q163",
@@ -14912,7 +17026,14 @@
    "number": 165,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela figura, cada degrau tem 1,0 m de largura, 0,25 m de piso e 0,20 m de espelho. Pisos: 3 × 1,0 × 0,25 = 0,75 m²; espelhos: 3 × 1,0 × 0,20 = 0,60 m². Cada parede lateral, em degraus, tem 0,25 × 0,20 × (1 + 2 + 3) = 0,30 m², e as duas somam 0,60. O total é 1,95 m².\n**Resposta: E**",
+    "keyConcept": "área de retângulos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q166",
@@ -14962,7 +17083,14 @@
    "number": 166,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Horas × cal/h (quadros): segunda 248 + 382 + 0 + 984 = 1.614; terça 124 + 764 + 178 + 492 = 1.558; quarta 0 + 1.146 + 356 + 246 = 1.748; quinta 1.528; sexta 382 + 1.230 = 1.612. O maior gasto é na quarta-feira.\n**Resposta: C**",
+    "keyConcept": "produto de matrizes (soma ponderada)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q167",
@@ -14997,7 +17125,14 @@
    "number": 167,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "São 5 folhas por aluno: 1.150 × 5 = 5.750 folhas, ou 58 embalagens, custando R$ 232,00. Para pagar 220, o desconto é de 12/232 ≈ 5,17%, no intervalo (5,0; 5,5).\n**Resposta: A**",
+    "keyConcept": "proporção e porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q168",
@@ -15057,7 +17192,14 @@
    "number": 168,
    "booklet": 7,
    "answer": "A",
-   "explanation": null
+   "explanation": {
+    "markdown": "Para o 50: o algarismo das unidades 0 sai com probabilidade 1/10, e na segunda urna ficam as dezenas 1 a 5 (10, 20, …, 50), então o 5 sai com 1/5. Total: 1/50. Para o 02: o 2 sai com 1/10, e ficam as dezenas 0 a 5 (02, 12, …, 52), com o 0 saindo com 1/6. Total: 1/60.\n**Resposta: A**",
+    "keyConcept": "probabilidade condicional (etapas)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q171",
@@ -15092,7 +17234,14 @@
    "number": 171,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "20 ciclos de 52 anos Haab são 1.040 × 365 = 379.600 dias. Em anos Tzolkim, isso é 379.600/260 = 1.460.\n**Resposta: C**",
+    "keyConcept": "conversão de unidades",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q173",
@@ -15152,7 +17301,14 @@
    "number": 173,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "O EC é o consumo de oxigênio (mL/min) dividido pela massa (kg). Então a unidade é mL/(min · kg).\n**Resposta: B**",
+    "keyConcept": "unidades de medida",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q175",
@@ -15187,7 +17343,14 @@
    "number": 175,
    "booklet": 7,
    "answer": "B",
-   "explanation": null
+   "explanation": {
+    "markdown": "Com a = tíquete azul e v = vermelho: a − v = v + 0,05, ou a = 2v + 0,05. Pelas cartelas, 18a + 9v = 32,40. Substituindo: 36v + 0,90 + 9v = 32,40, então v = 0,70. A cartela vermelha custa 9 × 0,70 = 6,30.\n**Resposta: B**",
+    "keyConcept": "sistema linear",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q176",
@@ -15230,7 +17393,14 @@
    "number": 176,
    "booklet": 7,
    "answer": "E",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pela figura, os acréscimos são 4, 7, 10, 13, 16 (1, 5, 12, 22, 35, 51), aumentando 3 de cada vez. Os próximos são 51 + 19 = 70 e 70 + 22 = 92. Pela fórmula n(3n − 1)/2, o 8º é 8 × 23/2 = 92.\n**Resposta: E**",
+    "keyConcept": "sequências (números pentagonais)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q177",
@@ -15401,7 +17571,14 @@
    "number": 179,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "Pelo quadrinho: 1 = urapum, 2 = okosa, 3 = okosa urapum, 4 = okosa okosa, 6 = okosa okosa okosa. Cada \"okosa\" vale 2 e \"urapum\" vale 1. Então 5 = okosa okosa urapum e 7 = okosa okosa okosa urapum.\n**Resposta: C**",
+    "keyConcept": "padrões de contagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2023-REG-D2-C7-Q180",
@@ -15436,7 +17613,14 @@
    "number": 180,
    "booklet": 7,
    "answer": "C",
-   "explanation": null
+   "explanation": {
+    "markdown": "As médias de dois meses seguidos são: out-nov 200; nov-dez 175; dez-jan 325; jan-fev 275; fev-mar 150. A maior é dezembro-janeiro, então o plantio deve ser no início de dezembro.\n**Resposta: C**",
+    "keyConcept": "média aritmética",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   }
   },
   {
    "id": "ENEM-MT-2024-REG-D2-C7-Q140",
@@ -15471,7 +17655,14 @@
    "number": 140,
    "booklet": 7,
    "answer": "B",
-   "explanation": null,
+   "explanation": {
+    "markdown": "João acertou 75% de 200 = 150 questões (muito bom). Felipe acertou 30% a menos: 0,7 × 150 = 105, ou 52,5% (regular).\n**Resposta: B**",
+    "keyConcept": "porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15507,7 +17698,14 @@
    "number": 143,
    "booklet": 7,
    "answer": "D",
-   "explanation": null,
+   "explanation": {
+    "markdown": "As meias previstas (60% = 300) subiram 50%, para 450. A bilheteria é 450 × 65 + 50 × 130 = 29.250 + 6.500 = 35.750, e o lucro com ingressos fica em 35.750 − 34.350 = 1.400. Faltam 15.600, que devem vir de 60% das vendas de bebidas: 15.600/0,6 = 26.000, ou 26.000/500 = 52 reais por pessoa.\n**Resposta: D**",
+    "keyConcept": "porcentagem e lucro",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15543,7 +17741,14 @@
    "number": 145,
    "booklet": 7,
    "answer": "D",
-   "explanation": null,
+   "explanation": {
+    "markdown": "A área antiga é 110 × 75 = 8.250 m² e a nova, 105 × 68 = 7.140 m². A redução é de 1.110 m².\n**Resposta: D**",
+    "keyConcept": "área do retângulo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15579,7 +17784,14 @@
    "number": 146,
    "booklet": 7,
    "answer": "B",
-   "explanation": null,
+   "explanation": {
+    "markdown": "O custo é 2 × 20L + 2 × 15C = 6.000, ou 40L + 30C = 6.000. O produto LC é máximo quando as duas parcelas são iguais: 40L = 30C = 3.000, então L = 75 m e C = 100 m. O maior lado mede 100 m.\n**Resposta: B**",
+    "keyConcept": "maximização (função quadrática)",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15615,7 +17827,14 @@
    "number": 153,
    "booklet": 7,
    "answer": "D",
-   "explanation": null,
+   "explanation": {
+    "markdown": "135,25% = 135,25/100 = 1,3525.\n**Resposta: D**",
+    "keyConcept": "porcentagem e número decimal",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15651,7 +17870,14 @@
    "number": 156,
    "booklet": 7,
    "answer": "B",
-   "explanation": null,
+   "explanation": {
+    "markdown": "O valor é a tarifa fixa (2,00) mais 0,26 por minuto e 1,40 por quilômetro: V = 2,00 + 0,26T + 1,40D.\n**Resposta: B**",
+    "keyConcept": "função afim",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15687,7 +17913,14 @@
    "number": 157,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Hoje, 5 porções custam 10 + 5 × 25 = 135. Com a nova taxa, 15 + 5p = 135, então p = 24 reais.\n**Resposta: C**",
+    "keyConcept": "equação do 1º grau",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15723,7 +17956,14 @@
    "number": 160,
    "booklet": 7,
    "answer": "D",
-   "explanation": null,
+   "explanation": {
+    "markdown": "A primeira piscina leva 2.500.000/6.000 ≈ 416,7 min. A segunda deve levar 20% a mais: 1,2 × 416,7 = 500 min. A vazão é 2.750.000/500 = 5.500 L/min.\n**Resposta: D**",
+    "keyConcept": "vazão e tempo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15759,7 +17999,14 @@
    "number": 162,
    "booklet": 7,
    "answer": "A",
-   "explanation": null,
+   "explanation": {
+    "markdown": "As parcelas crescem, então convém que as de maio (pagas pela imobiliária) sejam as maiores e as mais numerosas. São 100 meses: comprando em fevereiro, maio cai nas parcelas 4, 16, …, 100, ou seja, 9 parcelas, incluindo a última e maior. Comprando em março, abril ou maio, também são 9 maios, mas em posições anteriores (mais baratas). Em janeiro, junho ou agosto, são só 8. A melhor escolha é fevereiro.\n**Resposta: A**",
+    "keyConcept": "progressão geométrica e calendário",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15795,7 +18042,14 @@
    "number": 179,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Os engenheiros recebem 40% de 71.250 = 28.500. As horas são: I 4 × 5,5 = 22; II 5 × 4 = 20; III 6 × 2,5 = 15; total 57, o que dá 500 reais por hora. A maior diferença é entre I e III: (22 − 15) × 500 = 3.500 reais.\n**Resposta: C**",
+    "keyConcept": "divisão proporcional",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15831,7 +18085,14 @@
    "number": 141,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Foram enviados 10.200 L e chegaram 9.900, então o descarte fixo é de 300 L. Para entregar 20.000 L, é preciso enviar 20.000 + 300 = 20.300 L.\n**Resposta: C**",
+    "keyConcept": "equação do 1º grau",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15867,7 +18128,14 @@
    "number": 144,
    "booklet": 7,
    "answer": "D",
-   "explanation": null,
+   "explanation": {
+    "markdown": "As faces do sólido são: a base livre do prisma (hexágono grande), 6 retângulos laterais congruentes, 6 trapézios laterais congruentes do tronco e a base menor do tronco (hexágono pequeno). A base comum fica dentro do sólido. São 4 tipos de face, então 4 cores.\n**Resposta: D**",
+    "keyConcept": "poliedros e congruência de faces",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15903,7 +18171,14 @@
    "number": 146,
    "booklet": 7,
    "answer": "B",
-   "explanation": null,
+   "explanation": {
+    "markdown": "10,00 − 9,58 = 0,42 s.\n**Resposta: B**",
+    "keyConcept": "subtração de decimais",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15939,7 +18214,14 @@
    "number": 150,
    "booklet": 7,
    "answer": "D",
-   "explanation": null,
+   "explanation": {
+    "markdown": "3 × 6 = 18 horas de trabalho por dia produzem 720 tijolos, ou 40 por hora de trabalho. Com 5 × 9 = 45 horas, são 45 × 40 = 1.800 tijolos.\n**Resposta: D**",
+    "keyConcept": "regra de três composta",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -15975,7 +18257,14 @@
    "number": 151,
    "booklet": 7,
    "answer": "D",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Na ordem: andar 2, setor 08, funcionário 109 e manhã 0, formando 2 08 109 0 = 2081090.\n**Resposta: D**",
+    "keyConcept": "códigos numéricos",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -16011,7 +18300,14 @@
    "number": 155,
    "booklet": 7,
    "answer": "B",
-   "explanation": null,
+   "explanation": {
+    "markdown": "Os cargos são diferentes, então a ordem importa. O presidente pode ser qualquer uma das 20 pessoas; o secretário, uma das 18 que não são do casal do presidente; o tesoureiro, uma das 16 restantes de outros casais. Total: 20 × 18 × 16.\n**Resposta: B**",
+    "keyConcept": "princípio multiplicativo",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -16047,7 +18343,14 @@
    "number": 158,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "O seguro passa a 36 × 1,2 = 43,20 por veículo. As despesas ficam em 14.240 + 120 × 43,20 = 19.424. Com o lucro de 10.000, a arrecadação deve ser 29.424, ou 29.424/120 = 245,20 por vaga.\n**Resposta: C**",
+    "keyConcept": "função afim e porcentagem",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -16083,7 +18386,14 @@
    "number": 162,
    "booklet": 7,
    "answer": "B",
-   "explanation": null,
+   "explanation": {
+    "markdown": "O plástico de petróleo custa 500/0,05 = 10.000 por tonelada. O custo atual é 110 × 10.000 + 80 × 500 = 1.140.000, e a meta é no máximo 570.000. Com x toneladas recicladas, das 190 totais: 500x + 10.000(190 − x) ≤ 570.000, ou 9.500x ≥ 1.330.000, x ≥ 140.\n**Resposta: B**",
+    "keyConcept": "inequação do 1º grau",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -16119,7 +18429,14 @@
    "number": 171,
    "booklet": 7,
    "answer": "E",
-   "explanation": null,
+   "explanation": {
+    "markdown": "A torta maior tem diâmetro 32 cm. Com 1 cm de folga de cada lado, a base da caixa precisa ter pelo menos 34 cm (a altura de 7 cm já dá 6 + 1). Isso é 34 − 14 = 20 cm a mais.\n**Resposta: E**",
+    "keyConcept": "medidas e folgas",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -16155,7 +18472,14 @@
    "number": 175,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "O mais velho recebe um dos dois (bicicleta ou celular), de 2 formas, e mais 2 presentes dentre os 6 outros (sem o outro item especial), de C(6,2) = 15 formas, num total de 30. Dos 5 presentes que sobram, o do meio recebe 2, de C(5,2) = 10 formas, e o mais novo fica com os 3 restantes. Total: 30 × 10 = 300.\n**Resposta: C**",
+    "keyConcept": "combinações",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   },
   {
@@ -16191,7 +18515,14 @@
    "number": 176,
    "booklet": 7,
    "answer": "C",
-   "explanation": null,
+   "explanation": {
+    "markdown": "No segundo tempo, o jogador percorreu 4,5 km em 45 min (0,1 km/min). Na prorrogação de 30 min, na mesma velocidade, foram mais 3 km. Total: 7,5 km.\n**Resposta: C**",
+    "keyConcept": "velocidade média",
+    "commonMistake": "",
+    "lowConfidence": false,
+    "author": "IA",
+    "reviewed": false
+   },
    "textoDoPdf": true
   }
  ]

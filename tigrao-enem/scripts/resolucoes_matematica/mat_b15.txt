@@ -1,0 +1,24 @@
+@ENEM-MT-2025-REG-D2-C7-Q158
+K: função afim e porcentagem
+O seguro passa a 36 × 1,2 = 43,20 por veículo. As despesas ficam em 14.240 + 120 × 43,20 = 19.424. Com o lucro de 10.000, a arrecadação deve ser 29.424, ou 29.424/120 = 245,20 por vaga.
+**Resposta: C**
+
+@ENEM-MT-2025-REG-D2-C7-Q162
+K: inequação do 1º grau
+O plástico de petróleo custa 500/0,05 = 10.000 por tonelada. O custo atual é 110 × 10.000 + 80 × 500 = 1.140.000, e a meta é no máximo 570.000. Com x toneladas recicladas, das 190 totais: 500x + 10.000(190 − x) ≤ 570.000, ou 9.500x ≥ 1.330.000, x ≥ 140.
+**Resposta: B**
+
+@ENEM-MT-2025-REG-D2-C7-Q171
+K: medidas e folgas
+A torta maior tem diâmetro 32 cm. Com 1 cm de folga de cada lado, a base da caixa precisa ter pelo menos 34 cm (a altura de 7 cm já dá 6 + 1). Isso é 34 − 14 = 20 cm a mais.
+**Resposta: E**
+
+@ENEM-MT-2025-REG-D2-C7-Q175
+K: combinações
+O mais velho recebe um dos dois (bicicleta ou celular), de 2 formas, e mais 2 presentes dentre os 6 outros (sem o outro item especial), de C(6,2) = 15 formas, num total de 30. Dos 5 presentes que sobram, o do meio recebe 2, de C(5,2) = 10 formas, e o mais novo fica com os 3 restantes. Total: 30 × 10 = 300.
+**Resposta: C**
+
+@ENEM-MT-2025-REG-D2-C7-Q176
+K: velocidade média
+No segundo tempo, o jogador percorreu 4,5 km em 45 min (0,1 km/min). Na prorrogação de 30 min, na mesma velocidade, foram mais 3 km. Total: 7,5 km.
+**Resposta: C**
